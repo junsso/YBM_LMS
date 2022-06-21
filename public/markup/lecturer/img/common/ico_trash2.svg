@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="15" height="15" viewBox="0 0 15 15">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_1329" data-name="사각형 1329" width="15" height="15" transform="translate(1314 686)" fill="#c9cdd2"/>
+    </clipPath>
+  </defs>
+  <g id="icon_휴지통" transform="translate(-1314 -686)" clip-path="url(#clip-path)">
+    <g id="delete_1_" data-name="delete (1)" transform="translate(1315.78 686)">
+      <path id="패스_1097" data-name="패스 1097" d="M4.007,1.364A.768.768,0,0,1,4.8.59H8.076a.768.768,0,0,1,.8.774v.848h.59V1.364A1.358,1.358,0,0,0,8.076,0H4.8A1.359,1.359,0,0,0,3.417,1.364v.848h.59Zm0,0" transform="translate(-0.719)" fill="#c9cdd2"/>
+      <path id="패스_1098" data-name="패스 1098" d="M2.511,16.219H9.484a1.256,1.256,0,0,0,1.194-1.327v-9.1H1.316v9.1a1.256,1.256,0,0,0,1.194,1.327ZM7.877,7.2a.295.295,0,1,1,.59,0v6.966a.295.295,0,0,1-.59,0ZM5.7,7.2a.295.295,0,0,1,.59,0v6.966a.295.295,0,0,1-.59,0Zm-2.174,0a.295.295,0,1,1,.59,0v6.966a.295.295,0,0,1-.59,0Zm0,0" transform="translate(-0.277 -1.219)" fill="#c9cdd2"/>
+      <path id="패스_1099" data-name="패스 1099" d="M.737,4.649H10.7a.737.737,0,1,0,0-1.474H.737a.737.737,0,1,0,0,1.474Zm0,0" transform="translate(0 -0.668)" fill="#c9cdd2"/>
+    </g>
+  </g>
+</svg>

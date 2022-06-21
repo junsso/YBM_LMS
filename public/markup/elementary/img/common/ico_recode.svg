@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="15" height="15" viewBox="0 0 15 15">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_891" data-name="사각형 891" width="15" height="15" transform="translate(733 682)" fill="#f7f8f9"/>
+    </clipPath>
+  </defs>
+  <g id="ico_recode" transform="translate(-733 -682)" clip-path="url(#clip-path)">
+    <g id="microphone" transform="translate(735.7 682)">
+      <g id="그룹_662" data-name="그룹 662" transform="translate(0 7.218)">
+        <g id="그룹_661" data-name="그룹 661">
+          <path id="패스_1066" data-name="패스 1066" d="M13.2,10.153a.529.529,0,1,0-1.059,0,3.741,3.741,0,0,1-7.482,0,.529.529,0,1,0-1.059,0,4.8,4.8,0,0,0,4.271,4.782v1.412H5.947a.529.529,0,1,0,0,1.059h4.906a.529.529,0,1,0,0-1.059H8.929V14.935A4.8,4.8,0,0,0,13.2,10.153Z" transform="translate(-3.6 -9.624)" fill="#f7f8f9"/>
+        </g>
+      </g>
+      <g id="그룹_664" data-name="그룹 664" transform="translate(1.853)">
+        <g id="그룹_663" data-name="그룹 663">
+          <path id="패스_1067" data-name="패스 1067" d="M9.018,0A2.952,2.952,0,0,0,6.071,2.947V7.729a2.947,2.947,0,1,0,5.894.018v-4.8A2.952,2.952,0,0,0,9.018,0Z" transform="translate(-6.071)" fill="#f7f8f9"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

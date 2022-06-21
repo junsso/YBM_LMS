@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <g id="멈춤" transform="translate(-285 -102)">
+    <rect id="bg_" width="60" height="60" rx="30" transform="translate(285 102)" fill="#454c53"/>
+    <rect id="ico_stop" width="20" height="20" rx="2" transform="translate(305 122)" fill="#fff"/>
+  </g>
+</svg>

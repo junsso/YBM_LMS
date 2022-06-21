@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="320" height="320" viewBox="0 0 320 320">
+  <defs>
+    <filter id="사각형_491" x="0" y="0" width="320" height="320" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur"/>
+      <feFlood flood-color="#454545" flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="다각형_10" x="92" y="77" width="156" height="166" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur-2"/>
+      <feFlood flood-color="#454545" flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="btn_paly" transform="translate(-595 -342)">
+    <g transform="matrix(1, 0, 0, 1, 595, 342)" filter="url(#사각형_491)">
+      <g id="사각형_491-2" data-name="사각형 491" transform="translate(45 45)" fill="none" stroke="#fff" stroke-width="10">
+        <rect width="230" height="230" rx="115" stroke="none"/>
+        <rect x="5" y="5" width="220" height="220" rx="110" fill="none"/>
+      </g>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 595, 342)" filter="url(#다각형_10)">
+      <path id="다각형_10-2" data-name="다각형 10" d="M33.667,7.526a5,5,0,0,1,8.666,0L71.685,58.505A5,5,0,0,1,67.352,66H8.648a5,5,0,0,1-4.333-7.495Z" transform="translate(203 122) rotate(90)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

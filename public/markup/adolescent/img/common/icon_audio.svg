@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="35" viewBox="0 0 35 35">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_484" data-name="사각형 484" width="35" height="35" transform="translate(1197 996) rotate(180)" fill="#9ea4aa"/>
+    </clipPath>
+  </defs>
+  <g id="icon_음악" transform="translate(-1162 -961)" clip-path="url(#clip-path)">
+    <g id="headphones" transform="translate(1162 963.119)">
+      <g id="그룹_68" data-name="그룹 68">
+        <g id="그룹_67" data-name="그룹 67">
+          <path id="패스_334" data-name="패스 334" d="M17.5.908A17.51,17.51,0,0,0,0,18.34v8.2a3.08,3.08,0,0,0,3.076,3.076H4.1V19.365H3.076a3.04,3.04,0,0,0-1.025.189V18.34a15.449,15.449,0,0,1,30.9,0v1.214a3.04,3.04,0,0,0-1.025-.189H30.9V29.619h1.025A3.08,3.08,0,0,0,35,26.543v-8.2A17.51,17.51,0,0,0,17.5.908Z" transform="translate(0 -0.908)" fill="#9ea4aa"/>
+        </g>
+      </g>
+      <g id="그룹_70" data-name="그룹 70" transform="translate(6.152 16.406)">
+        <g id="그룹_69" data-name="그룹 69">
+          <path id="패스_335" data-name="패스 335" d="M5.713,7.939H4.688A2.051,2.051,0,0,0,2.637,9.99V20.244a2.051,2.051,0,0,0,2.051,2.051H5.713A1.025,1.025,0,0,0,6.738,21.27V8.965A1.025,1.025,0,0,0,5.713,7.939Z" transform="translate(-2.637 -7.939)" fill="#9ea4aa"/>
+        </g>
+      </g>
+      <g id="그룹_72" data-name="그룹 72" transform="translate(24.746 16.406)">
+        <g id="그룹_71" data-name="그룹 71">
+          <path id="패스_336" data-name="패스 336" d="M12.656,7.939H11.631a1.025,1.025,0,0,0-1.025,1.025v12.3a1.025,1.025,0,0,0,1.025,1.025h1.025a2.051,2.051,0,0,0,2.051-2.051V9.99A2.051,2.051,0,0,0,12.656,7.939Z" transform="translate(-10.605 -7.939)" fill="#9ea4aa"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

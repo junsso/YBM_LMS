@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_889" data-name="사각형 889" width="50" height="50" transform="translate(889 458)" fill="#f1574f"/>
+    </clipPath>
+  </defs>
+  <g id="ico_phone" transform="translate(-889 -458)" clip-path="url(#clip-path)">
+    <g id="smartphone_2_" data-name="smartphone (2)" transform="translate(885.429 454.429)">
+      <path id="패스_1063" data-name="패스 1063" d="M13.1,9.524a5.952,5.952,0,0,1,5.952-5.952H38.1a5.952,5.952,0,0,1,5.952,5.952v38.1A5.952,5.952,0,0,1,38.1,53.571H19.048A5.952,5.952,0,0,1,13.1,47.619Zm5.952-3.571a3.571,3.571,0,0,0-3.571,3.571v38.1a3.571,3.571,0,0,0,3.571,3.571H38.1a3.572,3.572,0,0,0,3.571-3.571V9.524A3.571,3.571,0,0,0,38.1,5.952Z" fill="#f1574f" fill-rule="evenodd"/>
+      <path id="패스_1064" data-name="패스 1064" d="M20.238,4.762a1.19,1.19,0,0,1,1.19-1.19H35.714a1.191,1.191,0,0,1,1.19,1.19V7.143a3.571,3.571,0,0,1-3.571,3.571H23.81a3.571,3.571,0,0,1-3.571-3.571Zm2.381,1.19v1.19a1.19,1.19,0,0,0,1.19,1.19h9.524a1.191,1.191,0,0,0,1.19-1.19V5.952Z" fill="#f1574f" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_994" data-name="사각형 994" width="40" height="40" transform="translate(920 496)" fill="#febe2a" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="ico_수업설계" transform="translate(-920 -496)" clip-path="url(#clip-path)">
+    <g id="calendar_9_" data-name="calendar (9)" transform="translate(920 496)">
+      <g id="그룹_4491" data-name="그룹 4491">
+        <g id="그룹_4490" data-name="그룹 4490">
+          <circle id="타원_126" data-name="타원 126" cx="1.562" cy="1.562" r="1.562" transform="translate(21.797 21.641)" fill="#febe2a"/>
+          <path id="패스_4929" data-name="패스 4929" d="M29.362,19.965l-8.578,8.559a1.563,1.563,0,0,0-.391.652l-1.868,6.15a1.562,1.562,0,0,0,1.912,1.96l6.307-1.747a1.563,1.563,0,0,0,.687-.4L35.99,26.6a4.688,4.688,0,0,0-6.628-6.63ZM25.513,32.638l-3.173.879.929-3.057,5.788-5.775,2.21,2.21Zm8.269-8.253-.3.3-2.21-2.21.3-.3a1.563,1.563,0,0,1,2.211,2.209Z" transform="translate(2.637 2.657)" fill="#febe2a"/>
+          <circle id="타원_127" data-name="타원 127" cx="1.562" cy="1.562" r="1.562" transform="translate(15 28.437)" fill="#febe2a"/>
+          <circle id="타원_128" data-name="타원 128" cx="1.562" cy="1.562" r="1.562" transform="translate(15 21.641)" fill="#febe2a"/>
+          <circle id="타원_129" data-name="타원 129" cx="1.562" cy="1.562" r="1.562" transform="translate(15 14.844)" fill="#febe2a"/>
+          <circle id="타원_130" data-name="타원 130" cx="1.562" cy="1.562" r="1.562" transform="translate(8.203 21.641)" fill="#febe2a"/>
+          <circle id="타원_131" data-name="타원 131" cx="1.562" cy="1.562" r="1.562" transform="translate(8.203 28.437)" fill="#febe2a"/>
+          <circle id="타원_132" data-name="타원 132" cx="1.562" cy="1.562" r="1.562" transform="translate(8.203 14.844)" fill="#febe2a"/>
+          <circle id="타원_133" data-name="타원 133" cx="1.562" cy="1.562" r="1.562" transform="translate(28.594 14.844)" fill="#febe2a"/>
+          <path id="패스_4930" data-name="패스 4930" d="M33.75,3.125H31.719V1.562a1.562,1.562,0,1,0-3.125,0V3.125H21.484V1.562a1.562,1.562,0,0,0-3.125,0V3.125H11.328V1.562a1.562,1.562,0,1,0-3.125,0V3.125H6.25A6.257,6.257,0,0,0,0,9.375V33.75A6.257,6.257,0,0,0,6.25,40h9.531a1.562,1.562,0,1,0,0-3.125H6.25A3.129,3.129,0,0,1,3.125,33.75V9.375A3.129,3.129,0,0,1,6.25,6.25H8.2V7.812a1.562,1.562,0,1,0,3.125,0V6.25h7.031V7.812a1.562,1.562,0,1,0,3.125,0V6.25h7.109V7.812a1.562,1.562,0,1,0,3.125,0V6.25H33.75a3.129,3.129,0,0,1,3.125,3.125v7.031a1.562,1.562,0,0,0,3.125,0V9.375A6.257,6.257,0,0,0,33.75,3.125Z" fill="#febe2a"/>
+          <circle id="타원_134" data-name="타원 134" cx="1.562" cy="1.562" r="1.562" transform="translate(21.797 14.844)" fill="#febe2a"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

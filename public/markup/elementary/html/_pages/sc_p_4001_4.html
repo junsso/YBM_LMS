@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge;Chromeframe=1">
+
+<!-- 모바일일경우에만 viewport를 넣어주세요 -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="generator" content="">
+<meta name="robots" content="ALL">
+<meta property="og:type" content="">
+<meta property="og:title" content="">
+<meta property="og:description" content="">
+<meta property="og:image" content="">
+<meta property="og:url" content="">
+<title>페이지명 | 초등(채널명) | YBM온라인스쿨(사이트명)</title>
+<link rel="shortcut icon" href="">
+<link rel="stylesheet" href="../../lib/swiper.min.css">
+<link rel="stylesheet" href="../../lib/lightgallery.css">
+<link rel="stylesheet" href="../../common/css/import.css">
+<script src="../../lib/jquery-3.6.0.min.js"></script>
+<script src="../../lib/swiper.js"></script>
+</head>
+<body>
+<section class="wrap">
+    <section class="inner">
+        <!-- start : header -->
+        <section class="header">
+            <!-- gnb.on : 둥근 디자인,대제목클릭시, 스크롤시 -->
+            <nav class="gnb">
+                <!-- gnb-inner.on : 소제목나올시 -->
+                <div class="gnb-inner">
+                    <h2 class="site-logo"><a href="#none"></a></h2>
+                    <div class="gnb-box">
+                        <ul class="gnb-left">
+                            <li>
+                                <a href="#none" class="">스터디 보드</a>
+                            </li>
+                            <li class="">
+                                <a href="#none" class="">내 학습 정보</a>
+                                <ul class="gsub-list">
+                                    <li><a href="#none" class="">수업 시간표</a></li>
+                                    <li><a href="#none">내 수업</a></li>
+                                    <li><a href="#none">과제·평가</a></li>
+                                    <li><a href="#none">학습 리포트</a></li>
+                                    <li><a href="#none" class="">확인 학습</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#none" class="">메시지</a>
+                                <ul class="gsub-list">
+                                    <li><a href="#none">그룹 메시지</a></li>
+                                    <li><a href="#none">개인 메시지</a></li>
+                                </ul>
+                            </li>
+                            <li class="on">
+                                <a href="#none" class="on">온라인 스터디 룸</a>
+                            </li>
+                        </ul>
+                        <ul class="gnb-right">
+                            <li>
+                                <button type="button" class="btn-alarm msg"><span>0</span></button>
+                                <a href="#none" class="link-voucher">이용권</a>
+                            </li>
+                            <li><a href="#none">개인정보</a></li>
+                            <li><a href="#none">고객센터</a></li>
+                            <li><a href="#none"><span class="ico-logout"></span>로그아웃</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- start : mobile gnb -->
+            <div class="mo-gnb">
+                <div class="trigger"><i></i></div>
+                <button type="button" class="btn-alarm msg"><span>0</span></button>
+                <div class="msg-popup">
+                    <div class="head">
+                        <h2 class="jl-24">메시지</h2>
+                        <button type='button' class="close close-btn"></button>
+                    </div>
+                    <div class="body has-scroll2">
+                        <a href="#none">
+                            <div class="last">
+                                <ul>
+                                    <li><span class="pts pt">학부모</span></li>
+                                    <li>[김지원] 김태연 선생님 (학교)</li>
+                                    <li>총 <i>2</i>건의 메시지가 도착했습니다.</li>
+                                    <li>2021.04.03 PM 05:00</li>
+                                </ul>
+                                <button type="button" class="more"></button>
+                            </div>
+                        </a>
+                        <a href="#none">
+                            <div class="ing">
+                                <ul>
+                                    <li><span class="pts sd">학생</span></li>
+                                    <li>이태민 선생님 (학원)</li>
+                                    <li>총 <i>1</i>건의 메시지가 도착했습니다. (설문)</li>
+                                    <li>2021.04.02 PM 03:00</li>
+                                </ul>
+                                <button type="button" class="more"></button>
+                            </div>
+                        </a>
+                        <a href="#none">
+                            <div class="ing">
+                                <ul>
+                                    <li><span class="pts tc">교사</span></li>
+                                    <li>홍길동 학생</li>
+                                    <li>총 <i>2</i>건의 메시지가 도착했습니다.</li>
+                                    <li>2021.04.02 PM 02:00</li>
+                                </ul>
+                                <button type="button" class="more"></button>
+                            </div>
+                        </a>
+                        <a href="#none">
+                            <div class="ing">
+                                <ul>
+                                    <li><span class="pts tc">교사</span></li>
+                                    <li>[김지원] 과제 제출 마감</li>
+                                    <li>총 <i>2</i>건의 메시지가 도착했습니다.</li>
+                                    <li>2021.04.01 PM 01:00</li>
+                                </ul>
+                                <button type="button" class="more"></button>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="gnb-inner">
+                    <h2 class="site-logo"><a href="#none"></a></h2>
+                    <div class="mo-cont">
+                        <div class="mo-loginbox">
+                            <!-- 현재는 비로그인상태, 로그인시 둘다 div클래스에 .on클래스 추가 -->
+                            <!-- 비로그인시 -->
+                            <div class="mo-belogin on">
+                                <h3><a href="#none">로그인</a> 을 해주세요.</h3>
+                            </div>
+                            <!-- end -->
+                            <!-- 로그인시 -->
+                            <div class="mo-aflogin on">
+                                <span><img src="../../img/common/ico_profile.svg" alt=""></span>
+                                <div>
+                                    <h3><strong>홍길동</strong>님 반갑습니다.</h3>
+                                    <a href="#none">개인정보 관리</a>
+                                </div>
+                            </div>
+                            <!-- end -->
+                        </div>
+                        <div class="gnb-box">
+                            <ul class="gnb-top">
+                                <li class=""><a href="#none">스터디 보드</a></li>
+                                <li class=""><a href="#none">내 학습 정보</a></li>
+                                <li class=""><a href="#none">메시지</a></li>
+                                <li class="on"><a href="#none">온라인 스터디 룸</a></li>
+                            </ul>
+                            <div class="gnb-bottom">
+                                <a href="#none" class="link-voucher">이용권</a>
+                                <ul>
+                                    <li><a href="#none">개인정보</a></li>
+                                    <li><a href="#none">고객센터</a></li>
+                                    <!-- 현재 비로그인시, 로그인시 둘다 li에 .on클래스 추가 -->
+                                    <!-- 비로그인 -->
+                                    <li class=""><a href="#none">로그인</a></li>
+                                    <!-- 로그인 -->
+                                    <li class=""><a href="#none">로그아웃</a></li>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mo-bg"></div>
+            </div>
+            <!-- end: mobile gnb -->
+
+            <!-- start: pc drop-down list -->
+            <div class="common-list">
+                <div class="inner">
+                    <div class="left">
+                        <span><img src="../../img/common/top_img8.svg" alt=""></span>
+                        <p>온라인 스터디 룸</p>
+                    </div>
+                    <div class="right">
+                        <div class="home"><a href="#none" class="ico-home gray"></a></div>
+                    <div class="major-title">
+                        <div class="drop-down">
+                            <div class="title">
+                                <h2 class="first">온라인 스터디 룸</h2>
+                                <i class="arrow"></i>
+                                <ul class="drop-list">
+                                    <li>
+                                        <a href="#none" class="">스터디 보드</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none" class="on">내 학습 정보</a>
+                                        <ul class="sub-list">
+                                            <li><a href="#none" class="">수업 시간표</a></li>
+                                            <li><a href="#none" class="on">내 수업</a></li>
+                                            <li><a href="#none">과제·평가</a></li>
+                                            <li><a href="#none">학습 리포트</a></li>
+                                            <li><a href="#none">확인 학습</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#none" class="">메시지</a>
+                                        <ul class="sub-list">
+                                            <li><a href="#none">그룹 메시지</a></li>
+                                            <li><a href="#none">개인 메시지</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#none">온라인 스터디 룸</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sub-title">
+                        <div class="drop-down">
+                            <div class="title">
+                                <h2 class="sub-first">온라인 스터디 룸</h2>
+                                <i class="sub-arrow"></i>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end : pc -->
+
+            <!-- start : mo list -->
+            <div class="mo-list">
+                <div class="mo-sublist">
+                    <div class="inner swiper-container">
+                        <ul class="sub-list swiper-wrapper">
+                            <!-- 해당링크 클릭시 li에 .on클래스 추가 -->
+                            <li class="swiper-slide">
+                                <a href="#none">수업 시간표</a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#none">내 수업</a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#none">과제·평가</a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#none">학습 리포트</a>
+                            </li>
+                            <li class="swiper-slide on">
+                                <a href="#none">확인 학습</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- end : mo -->
+        </section>
+        <!-- end : header -->
+
+        <!-- start : container -->
+        <section class="container">
+            <div class="container-inner">
+                <div class="customize-list-title cont-title type-b">
+                    <h2 class="jl-36">맞춤 콘텐츠<i>맞춤형 학습 콘텐츠를 추천합니다.</i></h2>
+                    <a href="sc_p_4002.html" class="btn btn01">맞춤 강의</a>
+                </div>
+
+                <div class="customize-list-select share-ground mg-top-50">
+                    <div class="chk-control-box">
+                      <div class="form-wrap">
+                        <div class="slt-box">
+                          <div class="title">
+                            <h2 class="first">초등</h2>
+                            <i class="arrow"></i>
+                            <ul class="cont grade-shc">
+                              <li><a href="#;">초등</a></li>
+                              <li><a href="#;">중등</a></li>
+                              <li><a href="#;">고등</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-wrap">
+                        <div class="slt-box">
+                          <div class="title">
+                            <h2 class="first">3학년</h2>
+                            <i class="arrow"></i>
+                            <ul class="cont">
+                              <li><a href="#;">1학년</a></li>
+                              <li><a href="#;">2학년</a></li>
+                              <li><a href="#;">3학년</a></li>
+                              <li><a href="#;">4학년</a></li>
+                              <li><a href="#;">5학년</a></li>
+                              <li><a href="#;">6학년</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="rank-box">
+                      <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                            <a href="#none" class="rank-child rank-1">
+                              <!-- start : label클래스 뒤에 2등 - type-a, 3등 - type-b 클래스가 추가됨 -->
+                              <span class="label"></span>
+                              <!-- // End -->
+                              <button class="like-case">10</button>
+                              <div class="name">
+                                <span>[ 4학년 | 수학 ]</span>
+                              </div>
+                              <h2 class="disc">재미있는 수학 퍼즐 - 4학년 전용</h2>
+                            </a>
+                          </div>
+                          <div class="swiper-slide">
+                            <a href="#none" class="rank-child rank-2">
+                              <span class="label type-a"></span>
+                              <button class="like-case">10</button>
+                              <div class="name">
+                                <span>[ 4학년 | 영어 ]</span>
+                              </div>
+                              <h2 class="disc">그림 보고 영작문 하기 - 4학년 전용(1)</h2>
+                            </a>
+                          </div>
+                          <div class="swiper-slide">
+                            <a href="#none" class="rank-child rank-3">
+                              <span class="label type-b"></span>
+                              <div class="like-case">
+                                <button class="ico-like2"></button>
+                                <span>10</span>
+                              </div>
+                              <div class="name">
+                                <span>[ 4학년 | 미술 ]</span>
+                              </div>
+                              <h2 class="disc">생각을 키우는 그림 그리기</h2>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="customize-list-sub confirm-title mg-top-50">
+                    <!-- 총 건수 -->
+                    <p class="all">총 <strong>300</strong>건</p>
+                    <!-- 해시태그 ~ 검색어 -->
+                    <div class="conf-sub-title mg-top-20">
+                        <!-- 해시태그 -->
+                        <div class="hash-box">
+                            <button type="button" class="hash on">#국어</button>
+                            <button type="button" class="hash">#수학</button>
+                            <button type="button" class="hash">#사회</button>
+                            <button type="button" class="hash">#음악</button>
+                            <button type="button" class="hash">#과학</button>
+                        </div>
+                        <!-- 검색어입력창 -->
+                        <div class="form-wrap">
+                            <div class="slt-box">
+                                <div class="search type-b">
+                                    <input type="text" placeholder="검색어를 입력하세요." class="searchinput">
+                                    <button type="button" class="searchclear"></button>
+                                </div>
+                                <button type="button" class="thmb"></button>
+                                <button type="button" class="list on"></button>
+                                <div class="sort-box type-b">
+                                    <button type="button" class="st"></button>
+                                    <ul class="cont">
+                                        <li><a href="#;" class="on">작성 일시 <i class="ico_sort"></i></a></li>
+                                        <li><a href="#;">학습 유무 <i class="ico_sort"></i></a></li>
+                                        <li><a href="#;">좋아요 <i class="ico_sort"></i></a></li>
+                                        <li><a href="#;">조회수 <i class="ico_sort"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 검색시 해당단어는 em.search-text로 묶어주세요 ex)"풀이"로 검색시: <em class="search-text">풀이</em> -->
+                <!-- 유료 구독자가 아닌 이용자가 유료 콘텐츠 클릭시 팝업 data-popup="informUse" -->
+                <div class="customize-list-cont">
+                    <!-- start -->
+                    <a href="#none" class="customize-item">
+                        <div class="inn">
+                            <div class="mg-left">
+                                <div class="customize-top">
+                                    <ul>
+                                        <li class="grade">초등</li>
+                                        <li class="class">3학년</li>
+                                        <li class="subject">영어</li>
+                                    </ul>
+                                </div>
+                                <div class="customize-center">
+                                    <h2>영어 5단원 [첸트 부르기] 음원 따라부르기 영어말하기 연습 따라부르기</h2>
+                                    <ul>
+                                        <li>작성일시</li>
+                                        <li class="date">2021.04.20 12:00</li>
+                                        <li>View</li>
+                                        <li class="view">300</li>
+                                        <li>
+                                            <button type="button" class="like-case type-a">100</button>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="mg-right">
+                                <div class="customize-bottom">
+                                    <ul>
+                                        <li>
+                                            <!-- 무료.free , 유료.pay -->
+                                            <span class="free">무료</span>
+                                        </li>
+                                        <li>
+                                            <!-- 미학습.unlearn , 학습.learn -->
+                                            <span class="learn">학습</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            
+                        </div>
+                    </a>
+                    <!-- end -->
+
+                    <!-- start -->
+                    <a href="#none" class="customize-item" data-popup="informUse">
+                        <div class="inn">
+                            <div class="mg-left">
+                                <div class="customize-top">
+                                    <ul>
+                                        <li class="grade">초등</li>
+                                        <li class="class">3학년</li>
+                                        <li class="subject">수학</li>
+                                    </ul>
+                                </div>
+                                <div class="customize-center">
+                                    <h2>수학 5단원 수학 퀴즈 풀기</h2>
+                                    <ul>
+                                        <li>작성일시</li>
+                                        <li class="date">2021.04.20 12:00</li>
+                                        <li>View</li>
+                                        <li class="view">10</li>
+                                        <li>
+                                            <button type="button" class="like-case type-a on">05</button>
+                                        </li> 
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="mg-right">
+                                <div class="customize-bottom">
+                                    <ul>
+                                        <li>
+                                            
+                                            <span class="pay">유료</span>
+                                        </li>
+                                        <li>
+                                            <span class="unlearn">미학습</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- end -->
+
+                    <!-- start -->
+                    <a href="#none" class="customize-item">
+                        <div class="inn">
+                            <div class="mg-left">
+                                <div class="customize-top">
+                                    <ul>
+                                        <li class="grade">초등</li>
+                                        <li class="class">3학년</li>
+                                        <li class="subject">영어</li>
+                                    </ul>
+                                </div>
+                                <div class="customize-center">
+                                    <h2>영어 5단원 [첸트 부르기] 음원 따라부르기 영어말하기 연습 따라부르기</h2>
+                                    <ul>
+                                        <li>작성일시</li>
+                                        <li class="date">2021.04.20 12:00</li>
+                                        <li>View</li>
+                                        <li class="view">300</li>
+                                        <li>
+                                            <button type="button" class="like-case type-a">100</button>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="mg-right">
+                                <div class="customize-bottom">
+                                    <ul>
+                                        <li>
+                                            <!-- 무료.free , 유료.pay -->
+                                            <span class="free">무료</span>
+                                        </li>
+                                        <li>
+                                            <!-- 미학습.unlearn , 학습.learn -->
+                                            <span class="learn">학습</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            
+                        </div>
+                    </a>
+                    <!-- end -->
+
+                    <!-- start -->
+                    <a href="#none" class="customize-item" data-popup="informUse">
+                        <div class="inn">
+                            <div class="mg-left">
+                                <div class="customize-top">
+                                    <ul>
+                                        <li class="grade">초등</li>
+                                        <li class="class">3학년</li>
+                                        <li class="subject">수학</li>
+                                    </ul>
+                                </div>
+                                <div class="customize-center">
+                                    <h2>수학 5단원 수학 퀴즈 풀기</h2>
+                                    <ul>
+                                        <li>작성일시</li>
+                                        <li class="date">2021.04.20 12:00</li>
+                                        <li>View</li>
+                                        <li class="view">10</li>
+                                        <li>
+                                            <button type="button" class="like-case type-a on">05</button>
+                                        </li> 
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="mg-right">
+                                <div class="customize-bottom">
+                                    <ul>
+                                        <li>
+                                            
+                                            <span class="pay">유료</span>
+                                        </li>
+                                        <li>
+                                            <span class="unlearn">미학습</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- end -->
+
+                    <!-- start -->
+                    <a href="#none" class="customize-item">
+                        <div class="inn">
+                            <div class="mg-left">
+                                <div class="customize-top">
+                                    <ul>
+                                        <li class="grade">초등</li>
+                                        <li class="class">3학년</li>
+                                        <li class="subject">영어</li>
+                                    </ul>
+                                </div>
+                                <div class="customize-center">
+                                    <h2>영어 5단원 [첸트 부르기] 음원 따라부르기 영어말하기 연습 따라부르기</h2>
+                                    <ul>
+                                        <li>작성일시</li>
+                                        <li class="date">2021.04.20 12:00</li>
+                                        <li>View</li>
+                                        <li class="view">300</li>
+                                        <li>
+                                            <button type="button" class="like-case type-a">100</button>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="mg-right">
+                                <div class="customize-bottom">
+                                    <ul>
+                                        <li>
+                                            <!-- 무료.free , 유료.pay -->
+                                            <span class="pay">유료</span>
+                                        </li>
+                                        <li>
+                                            <!-- 미학습.unlearn , 학습.learn -->
+                                            <span class="unlearn">미학습</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            
+                        </div>
+                    </a>
+                    <!-- end -->
+
+                    <!-- start -->
+                    <a href="#none" class="customize-item">
+                        <div class="inn">
+                            <div class="mg-left">
+                                <div class="customize-top">
+                                    <ul>
+                                        <li class="grade">초등</li>
+                                        <li class="class">3학년</li>
+                                        <li class="subject">수학</li>
+                                    </ul>
+                                </div>
+                                <div class="customize-center">
+                                    <h2>수학 5단원 수학 퀴즈 풀기</h2>
+                                    <ul>
+                                        <li>작성일시</li>
+                                        <li class="date">2021.04.20 12:00</li>
+                                        <li>View</li>
+                                        <li class="view">10</li>
+                                        <li>
+                                            <button type="button" class="like-case type-a on">05</button>
+                                        </li> 
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="mg-right">
+                                <div class="customize-bottom">
+                                    <ul>
+                                        <li>
+                                            
+                                            <span class="free">무료</span>
+                                        </li>
+                                        <li>
+                                            <span class="learn">학습</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- end -->
+
+                </div>
+
+                <!-- no search -->
+                <!-- <div class="cofirm-cont">
+                    <div class="class-list none mg-top-50">
+                        <p>
+                            검색 결과가 없습니다.
+                        </p>
+                    </div>
+                </div> -->
+
+                 <!-- page number -->
+                <nav class="pg_wrap">
+                    <a href="#" class="pg_page pg_prev">처음</a>
+                    <a href="#" class="pg_page pg"><strong class="pg_current">1</strong></a>
+                    <a href="#" class="pg_page">2</a>
+                    <a href="#" class="pg_page">3</a>
+                    <a href="#" class="pg_page">4</a>
+                    <a href="#" class="pg_page">5</a>
+                    <a href="#" class="pg_page pg_next">맨끝</a>
+                </nav>
+            </div>
+        </section>
+        <!-- end : contianer -->
+
+        <!-- start : footer -->
+        <section class="footer">
+            <div class="footer-inner">
+                <div class="footer-left">
+                    <nav class="footer-list">
+                        <h2 class="site-logo"><a href="#none"></a></h2>
+                        <ul class="footer-desc">
+                            <li><a href="#none">회사 소개</a></li>
+                            <li><a href="#none">이용약관</a></li>
+                            <li><a href="#none">개인정보처리방침</a></li>
+                        </ul>
+                    </nav>
+                    <ul class="footer-desc mg-top-20">
+                        <li>㈜와이비엠 서울시 종로구 종로 104</li>
+                        <li>대표이사 권오찬, 정용환</li>
+                        <li>사업자등록번호 101-81-14655</li>
+                        <li>통신판매신고번호 제 01-320 호</li>
+                        <li>고객센터 : 02-2000-0500</li>
+                        <li>FAX : 02-2000-0426</li>
+                        <li>E-mail : booksam@ybm.co.kr</li>
+                    </ul>
+                    <p class="copyright">Copyright ⓒ (주)YBM. All rights reserved.</p>
+                </div>
+                <div class="footer-right">
+                    <div class="drop-down">
+                        <div class="drop-first">
+                            <h2 class="first">Family Site</h2>
+                            <i class="arrow"></i>
+                        </div>
+                        <ul class="cont">
+                            <li><a href="#none">Family Site1</a></li>
+                            <li><a href="#none">Family Site2</a></li>
+                            <li><a href="#none">Family Site2 Family Site2</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end : footer -->
+    </section>
+</section>
+
+<!-- start:레이어 팝업 -->
+<div class="popup-wrap"></div>
+<!-- //end:레이어 팝업 -->
+
+<script src="../../lib/swiper.js"></script>
+<script src="../../lib/lightgallery-all.min.js"></script>
+<script src="../../common/js/popup.js"></script>
+<script src="../../common/js/ui.js"></script>
+<script src="../../common/js/ui_m.js"></script>
+</body>
+</html>

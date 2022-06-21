@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <g id="x" transform="translate(-976 -818)">
+    <rect id="bg" width="16" height="16" rx="8" transform="translate(976 818)" fill="#0f3653"/>
+    <path id="ico__" data-name="ico_+" d="M9067.946,12408.165v-3.5h-3.333a.833.833,0,0,1,0-1.666h3.333v-3.168a.833.833,0,0,1,1.667,0V12403h3.333a.833.833,0,1,1,0,1.666h-3.333v3.5a.833.833,0,1,1-1.667,0Z" transform="translate(3342.356 -14357.547) rotate(45)" fill="#fff"/>
+  </g>
+</svg>

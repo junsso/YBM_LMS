@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22.999" height="22.999" viewBox="0 0 22.999 22.999">
+  <g id="그룹_1086" data-name="그룹 1086" transform="translate(-141.376 -116.729)">
+    <g id="그룹_1084" data-name="그룹 1084" transform="translate(141.376 116.729)">
+      <g id="그룹_1083" data-name="그룹 1083">
+        <circle id="타원_462" data-name="타원 462" cx="11.499" cy="11.499" r="11.499" transform="translate(0 22.998) rotate(-90)" fill="#fdc42d"/>
+        <g id="그룹_1082" data-name="그룹 1082" transform="translate(2.071 3.526)">
+          <path id="패스_2427" data-name="패스 2427" d="M160.931,119.88a11.491,11.491,0,0,1-17.7,14.546,11.493,11.493,0,1,0,17.7-14.546Z" transform="translate(-143.227 -119.88)" fill="#fdb431"/>
+        </g>
+        <path id="패스_2428" data-name="패스 2428" d="M143.8,122.584a8.626,8.626,0,0,1,4.1-3.965" transform="translate(-141.088 -116.504)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.5"/>
+      </g>
+    </g>
+    <g id="그룹_1085" data-name="그룹 1085" transform="translate(145.121 123.943)">
+      <path id="패스_2429" data-name="패스 2429" d="M151.067,126.348a3.172,3.172,0,1,1-3.172-3.172A3.172,3.172,0,0,1,151.067,126.348Z" transform="translate(-144.723 -123.176)" fill="#fff"/>
+      <path id="패스_2430" data-name="패스 2430" d="M148.861,126.136a1.178,1.178,0,1,1-1.178-1.178A1.178,1.178,0,0,1,148.861,126.136Z" transform="translate(-144.511 -122.964)" fill="#403d3c"/>
+      <path id="패스_2431" data-name="패스 2431" d="M159.257,126.348a3.172,3.172,0,1,1-3.172-3.172A3.172,3.172,0,0,1,159.257,126.348Z" transform="translate(-143.749 -123.176)" fill="#fff"/>
+      <path id="패스_2432" data-name="패스 2432" d="M157.051,126.136a1.178,1.178,0,1,1-1.178-1.178A1.178,1.178,0,0,1,157.051,126.136Z" transform="translate(-143.537 -122.964)" fill="#403d3c"/>
+    </g>
+    <line id="선_4" data-name="선 4" x2="8.283" transform="translate(148.734 133.515)" fill="none" stroke="#403d3c" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75"/>
+  </g>
+</svg>

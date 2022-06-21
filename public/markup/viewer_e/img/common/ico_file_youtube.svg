@@ -1,0 +1,11 @@
+<svg id="icon_vedio" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_551" data-name="사각형 551" width="15" height="15" transform="translate(454 3050)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <rect id="사각형_550" data-name="사각형 550" width="30" height="30" rx="5" fill="#c4302b"/>
+  <g id="마스크_그룹_146" data-name="마스크 그룹 146" transform="translate(-446 -3042)" clip-path="url(#clip-path)">
+    <path id="youtube_1_" data-name="youtube (1)" d="M14.691,1.529A1.879,1.879,0,0,0,13.369.207,43.906,43.906,0,0,0,7.5-.114,45.616,45.616,0,0,0,1.631.195,1.917,1.917,0,0,0,.309,1.529,19.8,19.8,0,0,0,0,5.137,19.728,19.728,0,0,0,.309,8.745a1.879,1.879,0,0,0,1.322,1.322,43.985,43.985,0,0,0,5.869.321,45.616,45.616,0,0,0,5.869-.309,1.879,1.879,0,0,0,1.322-1.322A19.807,19.807,0,0,0,15,5.15a18.8,18.8,0,0,0-.309-3.62ZM6,7.386v-4.5l3.9,2.249Zm0,0" transform="translate(454 3052.363)" fill="#fff"/>
+  </g>
+</svg>

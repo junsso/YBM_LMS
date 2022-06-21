@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge;Chromeframe=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="generator" content="">
+<meta name="robots" content="ALL">
+<meta property="og:type" content="">
+<meta property="og:title" content="">
+<meta property="og:description" content="">
+<meta property="og:image" content="">
+<meta property="og:url" content="">
+<title>페이지명 | 강사채널(모바일) | YBM온라인스쿨(사이트명)</title>
+<link rel="shortcut icon" href="">
+<link rel="stylesheet" href="../../lib/swiper.min.css">
+<link rel="stylesheet" href="../../lib/lightgallery.css">
+<link rel="stylesheet" href="../../common/css/import.css">
+<script src="../../lib/jquery-3.6.0.min.js"></script>
+<script src="../../lib/device.js"></script>
+</head>
+<body>
+
+    <section class="layer-page">
+
+        <div class="head">
+            <div class="title">
+                <h2>공유 교사 지정하기</h2>
+                <div class="btn-box">
+                    <button type="button" class="close close-btn" onclick="goBack();">닫기</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="body">
+
+            <div class="srh-box">
+                <form action="">
+                    <div class="row">
+                        <div class="col-10">
+                            <input type="text" class="form-control" placeholder="아이디를 입력하세요.">
+                        </div>
+                        <div class="col-2">
+                            <button type="submit" class="btn btn03">검색</button>
+                        </div>
+                    </div>
+                </form>
+                <!-- start: 초기화면 -->
+                <div class="first-view">
+                    <p>수업을 공유할 선생님 아이디를 검색하고 선택하세요.</p>
+                </div>
+                <!-- //end: 초기화면 -->
+                <!-- start: 검색결과가 있을때 노출-->
+                <div class="table-wrap has-scroll">
+                    <table class="table type-b">
+                        <colgroup>
+                            <col width="45px">
+                            <col width="60px">
+                            <col width="50px">
+                            <col width="">
+                            <col width="100px">
+                        </colgroup>
+                        <tr>
+                            <th>선택</th>
+                            <th>아이디</th>
+                            <th>이름</th>
+                            <th>학교</th>
+                            <th>연락처</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="form-wrap">
+                                    <input type="radio" name="tch" id="tch1" class="basic-control">
+                                    <label for="tch1" class="basic-radio"></label>
+                                </div>
+                            </td>
+                            <td>mykeum</td>
+                            <td>금*연</td>
+                            <td>청담초등학교</td>
+                            <td>010-****-2551</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="form-wrap">
+                                    <input type="radio" name="tch" id="tch2" class="basic-control">
+                                    <label for="tch2" class="basic-radio"></label>
+                                </div>
+                            </td>
+                            <td>mykeum</td>
+                            <td>금*연</td>
+                            <td>청담초등학교</td>
+                            <td>010-****-2551</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="form-wrap">
+                                    <input type="radio" name="tch" id="tch3" class="basic-control">
+                                    <label for="tch3" class="basic-radio"></label>
+                                </div>
+                            </td>
+                            <td>mykeum</td>
+                            <td>금*연</td>
+                            <td>청담초등학교</td>
+                            <td>010-****-2551</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="form-wrap">
+                                    <input type="radio" name="tch" id="tch4" class="basic-control">
+                                    <label for="tch4" class="basic-radio"></label>
+                                </div>
+                            </td>
+                            <td>mykeum</td>
+                            <td>금*연</td>
+                            <td>청담초등학교</td>
+                            <td>010-****-2551</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="form-wrap">
+                                    <input type="radio" name="tch" id="tch5" class="basic-control">
+                                    <label for="tch5" class="basic-radio"></label>
+                                </div>
+                            </td>
+                            <td>mykeum</td>
+                            <td>금*연</td>
+                            <td>청담초등학교</td>
+                            <td>010-****-2551</td>
+                        </tr>
+                    </table>
+                </div>
+                <!--//end: 검색결과가 있을때 노출 -->
+                <!-- start: 검색결과가 없을때 노출 
+                <div class="none-box type-b">
+                    <h2 class="md">검색 된 결과가 없습니다.</h2>
+                    <p>
+                        ※ 공유할 선생님이 YBM 스마트 스쿨을 가입했는지 확인해 주시고,같은 학교로 등록되어 있는지 확인해 주세요.
+                    </p>
+                </div>
+                //end: 검색결과가 없을때 노출 -->
+            </div>
+
+        </div>
+
+        <div class="foot">
+            <div class="flex-btn-wrap">
+                <div class="col-6">
+                    <button type="button" class="btn close-btn" onclick="goBack();">취소</button>
+                </div>
+                <div class="col-6">
+                    <!-- 검색 결과에서 라디오버튼 선택시까지 등록버튼에는 .disabled 클래스가 붙음 -->
+                    <button type="button" class="btn btn02 disabled">등록</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+     <!-- start:레이어 팝업 -->
+     <div class="popup-wrap"></div>
+     <!-- //end:레이어 팝업 -->
+
+<script src="../../lib/swiper.js"></script>
+<script src="../../lib/lightgallery-all.min.js"></script>
+<script src="../../common/js/popup.js"></script>
+<script src="../../common/js/ui.js"></script>
+</body>
+</html>

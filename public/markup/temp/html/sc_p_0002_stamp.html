@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge;Chromeframe=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="generator" content="">
+<meta name="robots" content="ALL">
+<meta property="og:type" content="">
+<meta property="og:title" content="">
+<meta property="og:description" content="">
+<meta property="og:image" content="">
+<meta property="og:url" content="">
+<title>페이지명 | 초등(채널명) | YBM온라인스쿨(사이트명)</title>
+<link rel="shortcut icon" href="">
+<link rel="shortcut icon" href="">
+<link rel="stylesheet" href="../../teacher/common/css/import.css">
+<script src="../../teacher/lib/jquery-3.6.0.min.js"></script>
+
+<style>
+    img{ max-width: 100%;}
+    .fixed{ position: fixed; transition: 0.4s all;}
+    button { width: 162px; text-align: center; padding: 0;}
+
+    .fx1 { top: 60%; left: 0; width: 162px; z-index: 5;} 
+    .cal p { border-radius: 0 50px 50px 0; color: #fff; background: #6F57CF; height: 80px; line-height: 80px; font-size: 26px; position: relative; z-index: 2;}
+    .cal::before { content: ''; display: block; background: url('../img/ico_calender.svg')no-repeat center / contain; width: 95px; height: 111px; position: absolute; bottom: 56px; left: 50%; transform: translateX(-50%);}
+    .cal span { display: none; }
+    .fixed.fx1.on { top: 25%;}
+    .fixed.on .cal span { display: block; background: url('../img/img_calender.svg')no-repeat center / contain; width: 315px; height: 665px; position: absolute; top: -50px; left: -24px; z-index: 5;}
+    
+    .fx2 { top: 60%; right: 0; width: 162px; z-index: 5;}
+    .alm p { border-radius: 50px 0 0 50px; color: #6F57CF; border: 5px solid #6F57CF; border-right: 0; background: #fff; height: 80px; line-height: 80px; text-align: center; font-size: 26px; position: relative; z-index: 2;}
+    .alm::before { content: ''; display: block; background: url('../img/ico_alarm.svg')no-repeat center / contain; width: 95px; height: 111px; position: absolute; bottom: 56px; left: 50%; transform: translateX(-50%);}
+    .alm span { display: none; }
+    .fixed.fx2.on { top: 25%;}
+    .fixed.on .alm span { display: block; background: url('../img/img_alm2.png')no-repeat center / contain; width: 315px; height: 519px; position: absolute; top: -39px; right: -25px; z-index: 5;}
+    .overlay { display: none; position: fixed; top: 0; left: 0; bottom: 0; width: 100%; height: 100%; background: rgba(27,29,31,0.5); z-index: 3;}
+    .overlay.on { display: block;}
+</style>
+</head>
+<body>
+    <div class="test-view-box" style="background: url('../img/img_sc_p_0002_stamp.png')no-repeat center / cover; width: 100%; height: 3329px; position: relative;">
+        <div class="fixed fx1"><button type="button" class="cal"><p>달력보기</p><span></span></button></div>
+        <div class="fixed fx2"><button type="button" class="alm"><p>알림</p><span onclick="location.href='../../viewer_e/html/_layout/gv_p_0001.html'"></span></button></div>
+        <div class="overlay"></div>
+        <!-- <a href="../../viewer/html/_layout/gv_p_0001.html" style="position: absolute; top: 480px; left: 50%; transform: translateX(-50%); width: 500px; height: 80px;"></a>-->
+    </div>
+
+    <script>
+        $('.fixed').on('click',function(){
+            $(this).addClass('on').siblings().removeClass('on');
+            $('.overlay').toggleClass('on');
+        });
+        $('.overlay').on('click',function(){
+            $(this).removeClass('on');
+            $('.fixed').removeClass('on');
+        });
+    </script>
+
+</body>
+</html>

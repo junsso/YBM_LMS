@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="25" viewBox="0 0 24 25">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_394" data-name="사각형 394" width="24" height="25" transform="translate(-0.046 0.395)" fill="#fff" stroke="#fff" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="icon_공지사항" transform="translate(0.046 -0.395)" clip-path="url(#clip-path)">
+    <g id="free-icon-sticky-note-2554926" transform="translate(0.889 0.579)">
+      <path id="패스_778" data-name="패스 778" d="M20.379,2.585H15.318a3.32,3.32,0,0,0-6.476,0H3.782A2.765,2.765,0,0,0,1.016,5.343v16.53a2.765,2.765,0,0,0,2.766,2.758H18.01a.722.722,0,0,0,.509-.21l4.413-4.4a.722.722,0,0,0,.212-.511V5.343a2.765,2.765,0,0,0-2.766-2.758Zm-8.3-1.142a1.864,1.864,0,1,1-1.874,1.864A1.871,1.871,0,0,1,12.08,1.443ZM2.459,21.873V5.343A1.32,1.32,0,0,1,3.782,4.029H8.843a3.32,3.32,0,0,0,6.476,0h5.061A1.32,1.32,0,0,1,21.7,5.343V18.793H18.01a.722.722,0,0,0-.722.722v3.674H3.782A1.32,1.32,0,0,1,2.459,21.873Zm18.218-1.638-1.945,1.937V20.236Z" transform="translate(-1.016)" fill="#fff"/>
+      <path id="패스_779" data-name="패스 779" d="M4.9,7.984H17.8a.722.722,0,1,0,0-1.443H4.9a.722.722,0,1,0,0,1.443Z" transform="translate(-0.283 1.515)" fill="#fff"/>
+      <path id="패스_780" data-name="패스 780" d="M4.9,10.328H16.353a.722.722,0,1,0,0-1.443H4.9a.722.722,0,0,0,0,1.443Z" transform="translate(-0.283 2.057)" fill="#fff"/>
+      <path id="패스_781" data-name="패스 781" d="M4.9,12.671H17.8a.722.722,0,1,0,0-1.443H4.9a.722.722,0,0,0,0,1.443Z" transform="translate(-0.283 2.6)" fill="#fff"/>
+      <path id="패스_782" data-name="패스 782" d="M13.467,13.572H4.9a.722.722,0,0,0,0,1.443h8.567a.722.722,0,0,0,0-1.443Z" transform="translate(-0.283 3.143)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

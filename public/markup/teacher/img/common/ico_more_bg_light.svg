@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_401" data-name="Rectangle 401" width="50" height="50" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="그룹_781" data-name="그룹 781" transform="translate(-249 -211)">
+    <rect id="bg" width="100" height="100" rx="50" transform="translate(249 211)" fill="#c9cdd2"/>
+    <g id="inon_puls" transform="translate(274 236)" clip-path="url(#clip-path)">
+      <g id="Layer_2" data-name="Layer 2" transform="translate(0 0.001)">
+        <g id="Layer_1" data-name="Layer 1">
+          <path id="Path_712" data-name="Path 712" d="M46.429,21.429H28.571V3.571a3.571,3.571,0,1,0-7.143,0V21.429H3.571a3.572,3.572,0,0,0,0,7.143H21.429V46.429a3.572,3.572,0,0,0,7.143,0V28.571H46.429a3.571,3.571,0,1,0,0-7.143Z" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="94" height="97" viewBox="0 0 94 97">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_1326" data-name="사각형 1326" width="94" height="97" transform="translate(674 721)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <circle id="타원_497" data-name="타원 497" cx="33.5" cy="33.5" r="33.5" transform="translate(-10 -45)" fill="#fff" stroke="#e8ebed" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="마스크_그룹_161" data-name="마스크 그룹 161" transform="translate(-674 -721)" clip-path="url(#clip-path)">
+    <g id="ico_" transform="translate(805 722)">
+      <g id="타원_495" data-name="타원 495" transform="translate(-127 5)" fill="#e8ebed" stroke="#e8ebed" stroke-width="2">
+        <circle cx="45" cy="45" r="45" stroke="none"/>
+        <circle cx="45" cy="45" r="44" fill="none"/>
+      </g>
+      <g id="마스크_그룹_160" data-name="마스크 그룹 160" transform="translate(-105 100)" clip-path="url(#clip-path-2)">
+        <g id="타원_498" data-name="타원 498" transform="translate(-22 -95)" fill="#fff" stroke="#e8ebed" stroke-width="2">
+          <circle cx="45" cy="45" r="45" stroke="none"/>
+          <circle cx="45" cy="45" r="44" fill="none"/>
+        </g>
+      </g>
+      <circle id="타원_496" data-name="타원 496" cx="15" cy="15" r="15" transform="translate(-97 20)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

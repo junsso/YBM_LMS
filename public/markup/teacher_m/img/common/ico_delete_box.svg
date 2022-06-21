@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="삭제" transform="translate(-1055 -759)">
+    <rect id="사각형_1240" data-name="사각형 1240" width="20" height="20" rx="3" transform="translate(1055 759)" fill="#d5d5d5"/>
+    <g id="닫기" transform="translate(1055.1 759.1)">
+      <path id="패스_712" data-name="패스 712" d="M13,6H8V1A1,1,0,1,0,6,1V6H1A1,1,0,1,0,1,8H6v5a1,1,0,1,0,2,0V8h5a1,1,0,1,0,0-2Z" transform="translate(9.899) rotate(45)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

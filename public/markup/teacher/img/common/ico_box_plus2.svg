@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <filter id="bg" x="0" y="0" width="48" height="48" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_401" data-name="Rectangle 401" width="24" height="24" transform="translate(110 733)" fill="#72787f"/>
+    </clipPath>
+  </defs>
+  <g id="btn_plus" transform="translate(-2005 -1670)">
+    <g transform="matrix(1, 0, 0, 1, 2005, 1670)" filter="url(#bg)">
+      <rect id="bg-2" data-name="bg" width="30" height="30" rx="5" transform="translate(9 6)" fill="#fff"/>
+    </g>
+    <g id="ico_puls" transform="translate(1907 946)" clip-path="url(#clip-path)">
+      <g id="Layer_2" data-name="Layer 2" transform="translate(115.861 738.861)">
+        <g id="Layer_1" data-name="Layer 1" transform="translate(-0.861 -0.861)">
+          <path id="Path_712" data-name="Path 712" d="M13,6H8V1A1,1,0,0,0,6,1V6H1A1,1,0,0,0,1,8H6v5a1,1,0,0,0,2,0V8h5a1,1,0,0,0,0-2Z" fill="#72787f"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge;Chromeframe=1">
+
+<!-- 모바일일경우에만 viewport를 넣어주세요 -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="generator" content="">
+<meta name="robots" content="ALL">
+<meta property="og:type" content="">
+<meta property="og:title" content="">
+<meta property="og:description" content="">
+<meta property="og:image" content="">
+<meta property="og:url" content="">
+<title>페이지명 | 중고등(채널명) | YBM온라인스쿨(사이트명)</title>
+<link rel="shortcut icon" href="">
+<link rel="stylesheet" href="../../lib/swiper.min.css">
+<link rel="stylesheet" href="../../lib/lightgallery.css">
+<link rel="stylesheet" href="../../common/css/import.css">
+<script src="../../lib/jquery-3.6.0.min.js"></script>
+<script src="../../lib/swiper.js"></script>
+</head>
+<body>
+<section class="wrap">
+    <section class="inner">
+        <!-- start : header -->
+        <section class="header">
+            <!-- gnb.on : 둥근 디자인,대제목클릭시, 스크롤시 -->
+            <nav class="gnb">
+                <!-- gnb-inner.on : 소제목나올시 -->
+                <div class="gnb-inner">
+                    <h2 class="site-logo"><a href="#none"></a></h2>
+                    <div class="gnb-box">
+                        <ul class="gnb-left">
+                            <li>
+                                <a href="#none" class="">스터디 보드</a>
+                            </li>
+                            <li class="on">
+                                <a href="#none" class="on">내 학습 정보</a>
+                                <ul class="gsub-list">
+                                    <li><a href="#none" class="">수업 시간표</a></li>
+                                    <li><a href="#none">내 수업</a></li>
+                                    <li><a href="#none">과제·평가</a></li>
+                                    <li><a href="#none">학습 리포트</a></li>
+                                    <li><a href="#none" class="on">확인 학습</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#none" class="">메시지</a>
+                                <ul class="gsub-list">
+                                    <li><a href="#none">그룹 메시지</a></li>
+                                    <li><a href="#none">개인 메시지</a></li>
+                                </ul>
+                            </li>
+                            <li class="">
+                                <a href="#none" class="">온라인 스터디 룸</a>
+                            </li>
+                        </ul>
+                        <ul class="gnb-right">
+                            <li>
+                                <button type="button" class="btn-alarm msg"><span>0</span></button>
+                                <a href="#none" class="link-voucher">이용권</a>
+                            </li>
+                            <li><a href="#none">개인정보</a></li>
+                            <li><a href="#none">고객센터</a></li>
+                            <li><a href="#none"><span class="ico-logout"></span>로그아웃</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- start : mobile gnb -->
+            <div class="mo-gnb">
+                <div class="trigger"><i></i></div>
+                <button type="button" class="btn-alarm msg"><span>0</span></button>
+                <div class="msg-popup">
+                    <div class="head">
+                        <h2 class="jl-24">메시지</h2>
+                        <button type='button' class="close close-btn"></button>
+                    </div>
+                    <div class="body has-scroll2">
+                        <a href="#none">
+                            <div class="last">
+                                <ul>
+                                    <li><span class="pts pt">학부모</span></li>
+                                    <li>[김지원] 김태연 선생님 (학교)</li>
+                                    <li>총 <i>2</i>건의 메시지가 도착했습니다.</li>
+                                    <li>2021.04.03 PM 05:00</li>
+                                </ul>
+                                <button type="button" class="more"></button>
+                            </div>
+                        </a>
+                        <a href="#none">
+                            <div class="ing">
+                                <ul>
+                                    <li><span class="pts sd">학생</span></li>
+                                    <li>이태민 선생님 (학원)</li>
+                                    <li>총 <i>1</i>건의 메시지가 도착했습니다. (설문)</li>
+                                    <li>2021.04.02 PM 03:00</li>
+                                </ul>
+                                <button type="button" class="more"></button>
+                            </div>
+                        </a>
+                        <a href="#none">
+                            <div class="ing">
+                                <ul>
+                                    <li><span class="pts tc">교사</span></li>
+                                    <li>홍길동 학생</li>
+                                    <li>총 <i>2</i>건의 메시지가 도착했습니다.</li>
+                                    <li>2021.04.02 PM 02:00</li>
+                                </ul>
+                                <button type="button" class="more"></button>
+                            </div>
+                        </a>
+                        <a href="#none">
+                            <div class="ing">
+                                <ul>
+                                    <li><span class="pts tc">교사</span></li>
+                                    <li>[김지원] 과제 제출 마감</li>
+                                    <li>총 <i>2</i>건의 메시지가 도착했습니다.</li>
+                                    <li>2021.04.01 PM 01:00</li>
+                                </ul>
+                                <button type="button" class="more"></button>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="gnb-inner">
+                    <h2 class="site-logo"><a href="#none"></a></h2>
+                    <div class="mo-cont">
+                        <div class="mo-loginbox">
+                            <!-- 현재는 비로그인상태, 로그인시 둘다 div클래스에 .on클래스 추가 -->
+                            <!-- 비로그인시 -->
+                            <div class="mo-belogin on">
+                                <h3><a href="#none">로그인</a> 을 해주세요.</h3>
+                            </div>
+                            <!-- end -->
+                            <!-- 로그인시 -->
+                            <div class="mo-aflogin on">
+                                <span><img src="../../img/common/ico_profile.svg" alt=""></span>
+                                <div>
+                                    <h3><strong>홍길동</strong>님 반갑습니다.</h3>
+                                    <a href="#none">개인정보 관리</a>
+                                </div>
+                            </div>
+                            <!-- end -->
+                        </div>
+                        <div class="gnb-box">
+                            <ul class="gnb-top">
+                                <li class=""><a href="#none">스터디 보드</a></li>
+                                <li class="on"><a href="#none">내 학습 정보</a></li>
+                                <li class=""><a href="#none">메시지</a></li>
+                                <li class=""><a href="#none">온라인 스터디 룸</a></li>
+                            </ul>
+                            <div class="gnb-bottom">
+                                <a href="#none" class="link-voucher">이용권</a>
+                                <ul>
+                                    <li><a href="#none">개인정보</a></li>
+                                    <li><a href="#none">고객센터</a></li>
+                                    <!-- 현재 비로그인시, 로그인시 둘다 li에 .on클래스 추가 -->
+                                    <!-- 비로그인 -->
+                                    <li class=""><a href="#none">로그인</a></li>
+                                    <!-- 로그인 -->
+                                    <li class=""><a href="#none">로그아웃</a></li>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mo-bg"></div>
+            </div>
+            <!-- end: mobile gnb -->
+            
+            <!-- start: pc drop-down list -->
+            <div class="common-list">
+                <div class="inner">
+                    <div class="left">
+                        <span><img src="../../img/common/top_img3.svg" alt=""></span>
+                        <p>과제·평가</p>
+                    </div>
+                    <div class="right">
+                        <div class="home"><a href="#none" class="ico-home gray"></a></div>
+                    <div class="major-title">
+                        <div class="drop-down">
+                            <div class="title">
+                                <h2 class="first">내 학습 정보</h2>
+                                <i class="arrow"></i>
+                                <ul class="drop-list" style="opacity: 0;">
+                                    <li>
+                                        <a href="#none" class="">스터디 보드</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none" class="on">내 학습 정보</a>
+                                        <ul class="sub-list">
+                                            <li><a href="#none" class="">수업 시간표</a></li>
+                                            <li><a href="#none" class="on">내 수업</a></li>
+                                            <li><a href="#none">과제·평가</a></li>
+                                            <li><a href="#none">학습 리포트</a></li>
+                                            <li><a href="#none">확인 학습</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#none" class="">메시지</a>
+                                        <ul class="sub-list">
+                                            <li><a href="#none">그룹 메시지</a></li>
+                                            <li><a href="#none">개인 메시지</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#none">온라인 스터디 룸</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sub-title">
+                        <div class="drop-down">
+                            <div class="title">
+                                <h2 class="sub-first">과제·평가</h2>
+                                <i class="sub-arrow"></i>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end : pc -->
+
+            <!-- start : mo list -->
+            <div class="mo-list">
+                <div class="mo-sublist">
+                    <div class="inner swiper-container">
+                        <ul class="sub-list swiper-wrapper">
+                            <!-- 해당링크 클릭시 li에 .on클래스 추가 -->
+                            <li class="swiper-slide">
+                                <a href="#none">수업 시간표</a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#none">내 수업</a>
+                            </li>
+                            <li class="swiper-slide on">
+                                <a href="#none">과제·평가</a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#none">학습 리포트</a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#none">확인 학습</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- end : mo -->
+        </section>
+        <!-- end : header -->
+
+        <!-- start : container -->
+        <section class="container">
+            <div class="container-inner">
+                <div class="cont-title">
+                    <h2 class="jl-36">과제 보기 (퀴즈)</h2>
+                    <!-- <h2 class="jl-36">평가 보기 (퀴즈)</h2> -->
+                </div>
+
+                <div class="asev-online asev-quiz mg-top-50">
+                    <div class="inner">
+                        <h2>우리나라 역사 인물 퀴즈</h2>
+                        <p>
+                            다음은 조선시대 주요한 인물들의 그림입니다. 각각 누구인지 맞추어 보세요.
+                        </p>
+                        <div class="box-img">
+                            <img src="../../img/temp/test2.png" alt="">
+                        </div>
+                        <div class="day-cont mg-top-20">
+                            <p>총 <strong>15</strong>문항</p>
+                            <span>2021.04.01  10:00 ~ 2021.04.04  18:00</span>
+                            <a href="#none" class="btn btn01" data-popup="asevSubmitAgain">다시 제출 하기</a>
+                            <!-- <a href="#none" class="btn btn01">제출 내용 보기</a> -->
+                        </div>
+                    </div>
+                </div>
+                <table class="asev-table quiz-table mg-top-50">
+                    <colgroup><col width="130px">
+                    </colgroup><tbody><tr>
+                        <th>평가방법</th>
+                        <td>
+                            <span>점수 (문항 수)</span>
+                            <p>
+                                책을 읽고 주인공 상황을 잘 이해하고 고민했는지를 중점으로 봅니다.
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>수업 정보</th>
+                        <td>
+                            <span>국어 활동 3-1</span>
+                            <ul>
+                                <li>1단원 말하기 듣기 쓰기</li>
+                                <li>2차시 독후감 작성</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>대상</th>
+                        <td>
+                            <span>3-1반</span>
+                            <!-- <span>학급 전체</span> -->
+                            <!-- <div class="group"><span>학급모둠</span>모둠 1</div> -->
+                            <div class="tool-tip-bx">
+                                <strong>개별선택</strong>
+                                <div class="balloon">
+                                    <!-- 한 반을 대상으로 한경우 ul한개, 여러반(n방)을 대상으로 한경우 ul*n , 반이름은 li.class 클래스 추가 -->
+                                    <ul>
+                                        <li>[3-1반]</li>
+                                        <li>01번 김민준</li>
+                                        <li>02번 나현</li>
+                                        <li>03번 문현우</li>
+                                        <li>04번 박서연</li>
+                                        <li>05번 최지연</li>
+                                    </ul>
+                                    <ul>
+                                        <li>[3-2반]</li>
+                                        <li>06번 김민준</li>
+                                        <li>07번 나현</li>
+                                        <li>08번 문현우</li>
+                                        <li>09번 박서연</li>
+                                        <li>10번 최지연</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>기간</th>
+                        <td>
+                            <ul>
+                                <li><span class="term end">기간 종료</span></li>
+                                <li>시작일</li>
+                                <li>2021.04.01 10:00 ~</li>
+                                <li>마감일</li>
+                                <li>2021.04.04 18:00</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>퀴즈시간</th>
+                        <td>10분</td>
+                    </tr>
+                </tbody></table>
+                
+            </div>
+
+            <div class="asev-situation online-sit">
+                <div class="inner">
+                    <div class="cont-title type-b">
+                        <h2 class="jl-36">과제 진행 현황</h2>
+                        <div class="tab-ui">
+                            <button type="button" class="tb-btn on">진행 현황</button>
+                            <button type="button" class="tb-btn new">질의 응답</button>
+                        </div>
+                    </div>
+
+                    <div class="sit-cont mg-top-50">
+                        <div class="sit-sub">
+                            <p>결과 확인</p>
+                            <ul>
+                                <li>제출일</li>
+                                <li>2021.04.03</li>
+                                <!-- 제출전.before , 평가중.ing , 미제출.not , 완료.comp 클래스 추가 -->
+                                <li><span class="sit-state comp">완료</span></li>
+                            </ul>
+                        </div>
+                        <div class="sit-box">
+                            <div class="sit-check-title">
+                                <strong>평가점수</strong>
+                                <!-- <span><em>상</em></span>  -->
+                                <!-- <span><em>통과</em></span>  -->
+                                <span><em>70</em></span>
+                                <!-- 점수일 경우에만 밑에 p태그 추가 -->
+                                <p>점 / 기준 점수(100점)</p>
+                            </div>
+                            <div class="sit-box-cont">
+                                <div class="inner">
+                                    <div class="has-scroll">
+                                        <div class="review-text">
+                                            <p>
+                                                책을 열심히 다 읽고 주인공 입장에서 고민을 많이 한 것 같아요. <br>
+                                                허클베리핀이 살았던 환경이랑은 다르지 새로운 세상을 상상해 보는 것도 참 재미있는 일이예요. <br>
+                                                칭찬합니다.
+                                            </p>
+                                        </div>
+                                        <!-- 사진 -->
+                                        <div class="photo-box type-a">
+                                            <div class="inn">
+                                                <div class="txt-bx">
+                                                    <div class="txt photo">
+                                                        <div class="lightgallery photo">
+                                                            <a href="../../img/temp/img_photo1.svg" class="item" data-sub-html="'별 1반.jpg'">
+                                                                <img src="../../img/temp/img_photo1.svg" alt="">
+                                                            </a>
+                                                            <a href="../../img/temp/img_photo2.svg" class="item" data-sub-html="'우리반.jpg'">
+                                                                <img src="../../img/temp/img_photo2.svg" alt="">
+                                                            </a>
+                                                            <a href="../../img/temp/img_photo3.svg" class="item" data-sub-html="'교실.jpg'">
+                                                                <img src="../../img/temp/img_photo3.svg" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- 비디오 -->
+                                        <div class="video-box type-a">
+                                            <div class="inn">
+                                                <div class="txt-bx">
+                                                    <div class="txt video">
+                                                        <div class="title">
+                                                            <p class="text">한강에서 찍은 우리 영상</p>
+                                                            <span class="file">.mp4</span>
+                                                        </div>
+                                                        <a href="#" target="_blank">
+                                                            <p class="img-box"><img src="../../img/temp/img_video.png" alt="">
+                                                            </p>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- 오디오 -->
+                                        <div class="audio-box type-a">
+                                            <div class="inn">
+                                                <div class="txt-bx">
+                                                    <div class="txt audio">
+                                                        <div class="title">
+                                                            <p class="text">한강에서 찍은 우리 영상</p>
+                                                            <span class="file">.mp4</span>
+                                                        </div>
+                                                        <div class="recod-box">
+                                                            <div class="inner">
+                                                                <div class="form-wrap">
+                                                                    <button type="button" class="btns play">정지</button>
+                                                                </div>
+                                                                <div class="progress-form">
+                                                                    <div class="total-bar">
+                                                                        <div class="current-bar" style="width:80%">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="time-bx mg-top-5">
+                                                                        <span class="time start">00:40</span>
+                                                                        <span class="time end">01:00</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- 첨부파일 -->
+                                        <div class="file-box type-a">
+                                            <div class="txt-bx">
+                                                <div class="title">
+                                                    <p class="text">첨부파일</p>
+                                                </div>
+                                                <div class="inn">
+                                                    <div class="txt txt3 document">
+                                                        <div class="file-form-wrap sort-file">
+                                                            <div class="inner xlsx">
+                                                                <a href="#;">
+                                                                    <p class="txt">4학년 체육_YBM1단원_1차시.xls</p>
+                                                                </a>
+                                                            </div>
+                                                            <div class="f-sort-box">
+                                                                <ul>
+                                                                    <li><a href="#" download="">파일 다운로드</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="inn">
+                                                    <div class="txt txt3 document">
+                                                        <div class="file-form-wrap sort-file">
+                                                            <div class="inner xlsx">
+                                                                <a href="#;">
+                                                                    <p class="txt">4학년 체육_YBM1단원_1차시.xls</p>
+                                                                </a>
+                                                            </div>
+                                                            <div class="f-sort-box">
+                                                                <ul>
+                                                                    <li><a href="#" download="">파일 다운로드</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="inn">
+                                                    <div class="txt txt3 document">
+                                                        <div class="file-form-wrap sort-file">
+                                                            <div class="inner pdf">
+                                                                <a href="#;">
+                                                                    <p class="txt">4학년 체육_YBM1단원_1차시.pdf</p>
+                                                                </a>
+                                                            </div>
+                                                            <div class="f-sort-box">
+                                                                <ul>
+                                                                    <li><a href="#" download="">파일 다운로드</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 스템프 영역 (스터디보드에 도장과 동일하게 들어감)-->
+                                <!-- <div class="stamp-cont">
+                                    <span class="stamp"><i class="check"></i></span>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sit-cont mg-top-50">
+                        <div class="sit-sub">
+                            <p>제출 내용</p>
+                        </div>
+                        <div class="online-contbox mg-top-10">
+                            <div class="online-spans">
+                                <span>정답 <strong>7</strong>개</span>
+                                <span>(총 10문항)</span>
+                            </div>
+                            <table class="online-score mg-top-20">
+                                <tr>
+                                    <th>번호</th>
+                                    <th>정오체크</th>
+                                    <th>작성한 답</th>
+                                    <th>정답</th>
+                                    <th>배점</th>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>o</td>
+                                    <td>1</td>
+                                    <td>1</td>
+                                    <td>10</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>o</td>
+                                    <td>3</td>
+                                    <td>3</td>
+                                    <td>10</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>o</td>
+                                    <td>3</td>
+                                    <td>3</td>
+                                    <td>10</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td class="wrong">x</td>
+                                    <td><a href="#none">보기</a></td>
+                                    <td>-</td>
+                                    <td class="wrong">-10</td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>o</td>
+                                    <td>3</td>
+                                    <td>3</td>
+                                    <td>10</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>o</td>
+                                    <td>3</td>
+                                    <td>3</td>
+                                    <td>10</td>
+                                </tr>
+                                <tr>
+                                    <td>7</td>
+                                    <td class="wrong">x</td>
+                                    <td>3</td>
+                                    <td>3</td>
+                                    <td class="wrong">-10</td>
+                                </tr>
+                                <tr>
+                                    <td>8</td>
+                                    <td>o</td>
+                                    <td>3</td>
+                                    <td>3</td>
+                                    <td>10</td>
+                                </tr>
+                                <tr>
+                                    <td>9</td>
+                                    <td class="wrong">x</td>
+                                    <td>3</td>
+                                    <td>3</td>
+                                    <td class="wrong">-10</td>
+                                </tr>
+                                <tr>
+                                    <td>10</td>
+                                    <td>o</td>
+                                    <td>3</td>
+                                    <td>3</td>
+                                    <td>10</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="4">총점</td>
+                                    <td>70점</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="sit-box non type-a">
+                            <i>!</i>
+                            <span>제출한 내용을 상세하게 확인하려면, '제출 내용 보기' 버튼을 클릭하세요.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end : contianer -->
+
+        <!-- start : footer -->
+        <section class="footer">
+            <div class="footer-inner">
+                <div class="footer-left">
+                    <nav class="footer-list">
+                        <h2 class="site-logo"><a href="#none"></a></h2>
+                        <ul class="footer-desc">
+                            <li><a href="#none">회사 소개</a></li>
+                            <li><a href="#none">이용약관</a></li>
+                            <li><a href="#none">개인정보처리방침</a></li>
+                        </ul>
+                    </nav>
+                    <ul class="footer-desc mg-top-20">
+                        <li>㈜와이비엠 서울시 종로구 종로 104</li>
+                        <li>대표이사 권오찬, 정용환</li>
+                        <li>사업자등록번호 101-81-14655</li>
+                        <li>통신판매신고번호 제 01-320 호</li>
+                        <li>고객센터 : 02-2000-0500</li>
+                        <li>FAX : 02-2000-0426</li>
+                        <li>E-mail : booksam@ybm.co.kr</li>
+                    </ul>
+                    <p class="copyright">Copyright ⓒ (주)YBM. All rights reserved.</p>
+                </div>
+                <div class="footer-right">
+                    <div class="drop-down">
+                        <div class="drop-first">
+                            <h2 class="first">Family Site</h2>
+                            <i class="arrow"></i>
+                        </div>
+                        <ul class="cont">
+                            <li><a href="#none">Family Site1</a></li>
+                            <li><a href="#none">Family Site2</a></li>
+                            <li><a href="#none">Family Site2 Family Site2</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end : footer -->
+    </section>
+</section>
+
+<!-- start:레이어 팝업 -->
+<div class="popup-wrap"></div>
+<!-- //end:레이어 팝업 -->
+
+<script src="../../lib/swiper.js"></script>
+<script src="../../lib/lightgallery-all.min.js"></script>
+<script src="../../common/js/popup.js"></script>
+<script src="../../common/js/ui.js"></script>
+<script src="../../common/js/ui_m.js"></script>
+</body>
+</html>

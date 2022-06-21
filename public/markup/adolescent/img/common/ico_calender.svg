@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_536" data-name="Rectangle 536" width="20" height="20" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="ico_calender" clip-path="url(#clip-path)">
+    <g id="calendar">
+      <path id="Path_783" data-name="Path 783" d="M17.422,1.563h-1.8V.625a.625.625,0,0,0-1.25,0v.938H5.625V.625a.625.625,0,0,0-1.25,0v.938h-1.8A2.581,2.581,0,0,0,0,4.141V17.422A2.581,2.581,0,0,0,2.578,20H17.422A2.581,2.581,0,0,0,20,17.422V4.141a2.581,2.581,0,0,0-2.578-2.578ZM18.75,17.422a1.328,1.328,0,0,1-1.328,1.328H2.578A1.328,1.328,0,0,1,1.25,17.422V7.07a.2.2,0,0,1,.2-.2H18.555a.2.2,0,0,1,.2.2Z" fill="#454c53"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="59" height="59" viewBox="0 0 59 59">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_1325" data-name="사각형 1325" width="29.5" height="29.5" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="ico_04" transform="translate(-712 -387)">
+    <rect id="bg_" width="59" height="59" rx="5" transform="translate(712 387)" fill="#fee"/>
+    <g id="그룹_1224" data-name="그룹 1224" transform="translate(726.75 401.75)">
+      <g id="icon_calender" clip-path="url(#clip-path)">
+        <g id="calendar">
+          <path id="패스_2491" data-name="패스 2491" d="M25.7,2.3h-2.65V.922a.922.922,0,1,0-1.844,0V2.3H8.3V.922a.922.922,0,0,0-1.844,0V2.3H3.8A3.807,3.807,0,0,0,0,6.107V25.7a3.807,3.807,0,0,0,3.8,3.8H25.7a3.807,3.807,0,0,0,3.8-3.8V6.107A3.807,3.807,0,0,0,25.7,2.3ZM27.656,25.7A1.959,1.959,0,0,1,25.7,27.656H3.8A1.959,1.959,0,0,1,1.844,25.7V10.429a.288.288,0,0,1,.288-.288H27.368a.288.288,0,0,1,.288.288Z" fill="#0f3653"/>
+        </g>
+      </g>
+      <g id="타원_495" data-name="타원 495" transform="translate(10.62 11.8)" fill="#fff" stroke="#0f3653" stroke-width="1">
+        <circle cx="4.13" cy="4.13" r="4.13" stroke="none"/>
+        <circle cx="4.13" cy="4.13" r="3.63" fill="none"/>
+      </g>
+      <g id="사각형_1326" data-name="사각형 1326" transform="translate(7.08 21.24)" fill="none" stroke="#0f3653" stroke-width="1">
+        <path d="M2,0H13.34a2,2,0,0,1,2,2V8.26a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V2A2,2,0,0,1,2,0Z" stroke="none"/>
+        <path d="M2,.5H13.34A1.5,1.5,0,0,1,14.84,2V7.26a.5.5,0,0,1-.5.5H1a.5.5,0,0,1-.5-.5V2A1.5,1.5,0,0,1,2,.5Z" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

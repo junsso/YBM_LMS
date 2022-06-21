@@ -1,0 +1,1346 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge;Chromeframe=1">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="generator" content="">
+  <meta name="robots" content="ALL">
+  <meta property="og:type" content="">
+  <meta property="og:title" content="">
+  <meta property="og:description" content="">
+  <meta property="og:image" content="">
+  <meta property="og:url" content="">
+  <title>component guide</title>
+  <link rel="shortcut icon" href="">
+  <link rel="stylesheet" href="../../lib/swiper.min.css">
+  <link rel="stylesheet" href="../../common/css/import.css">
+  <script src="../../lib/jquery-3.6.0.min.js"></script>
+  <style>
+    html,
+    body {
+      background: #fff;
+    }
+
+    .guide-wrap {
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .guide-wrap .inline-box {
+      display: inline-block;
+      vertical-align: middle;
+      padding-right: 10px;
+    }
+
+    .guide-wrap .table-wrap {
+      padding: 50px 0;
+      border-bottom: 1px solid #707070;
+    }
+
+    .guide-wrap table th {
+      vertical-align: top;
+    }
+
+    .guide-wrap table th,
+    .guide-wrap table td {
+      text-align: left;
+      padding: 20px 5px;
+    }
+
+    .guide-wrap table th .title {
+      display: inline-block;
+      background: #EFEFEF;
+      padding: 10px 30px;
+      font-size: 16px;
+      font-weight: 400;
+    }
+
+    .guide-wrap .sub-title {
+      font-size: 24px;
+      font-weight: 700;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="guide-wrap">
+    <!-- 버튼 -->
+    <div class="table-wrap">
+      <h2 style="font-size: 30px; font-weight: 700; margin-bottom: 50px;">버튼</h2>
+      <table class="table type-a">
+        <colgroup>
+          <col width="30%">
+        </colgroup>
+        <tr>
+          <th>
+            <h3 class="title">단일 선택</h3>
+          </th>
+          <td>
+            <div class="box">
+              <div class="form-wrap">
+                <input type="radio" name="rd" id="rd1" class="rd-control" checked="">
+                <label for="rd1" class="rd-label">BUTTON</label>
+              </div>
+              <div class="form-wrap">
+                <input type="radio" name="rd" id="rd2" class="rd-control">
+                <label for="rd2" class="rd-label">BUTTON</label>
+              </div>
+              <div class="form-wrap">
+                <input type="radio" name="rd" id="rd3" class="rd-control">
+                <label for="rd3" class="rd-label">BUTTON</label>
+              </div>
+              <div class="form-wrap">
+                <input type="radio" name="rd" id="rd4" class="rd-control">
+                <!-- .new클래스 추가시 new아이콘붙음-->
+                <label for="rd4" class="rd-label new">BUTTON</label>
+              </div>
+              <div class="form-wrap">
+                <input type="radio" name="rd" id="rd5" class="rd-control" disabled>
+                <label for="rd5" class="rd-label">BUTTON</label>
+              </div>
+            </div>
+            <div class="box mg-top-20">
+              <div class="form-wrap">
+                <div class="slt-box">
+                  <div class="title">
+                    <h2 class="first">교과목 선택</h2>
+                    <i class="arrow"></i>
+                    <ul class="cont">
+                      <li><a href="#;" class="on">교과 전체</a></li>
+                      <li><a href="#;">Select</a></li>
+                      <li><a href="#;">Select</a></li>
+                      <li><a href="#;">Select</a></li>
+                      <li><a href="#;">Select</a></li>
+                      <li><a href="#;">Select</a></li>
+                      <li><a href="#;">Select</a></li>
+                      <li><a href="#;">Select</a></li>
+                    </ul>
+                  </div>
+                  <div class="sort-box type-a">
+                    <button type="button" class="st"></button>
+                    <ul class="cont">
+                      <li><a href="#;">작성일시 <i class="ico_sort"></i></a></li>
+                      <li><a href="#;">기간 <i class="ico_sort"></i></a></li>
+                      <li><a href="#;">복사 <i class="ico_sort"></i></a></li>
+                      <li><a href="#;">자료 공유 <i class="ico_sort"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="box mg-top-20">
+              <!-- 비활성화.disabled -->
+              <button type="button" class="circle disabled">수업 자료 보기</button>
+              <button type="button" class="circle bd-p">수업 자료 보기</button>
+              <!-- 그림자효과.bs -->
+              <button type="button" class="circle bd-p bs">화상수업 연결</button>
+              <button type="button" class="learn-btn">학습하기</button>
+              <!-- 비활성화.disabled -->
+              <button type="button" class="learn-btn disabled">학습완료</button>
+              <button type="button" class="learn-btn on">학습하기</button>
+            </div>
+            <div class="box mg-top-20">
+              <!-- 현황버튼.status박스로 묶어서 사용 -->
+              <div class="status">
+                <div class="att on">
+                  <span>출석현황 <i>(출석일/수업일)</i></span>
+                  <strong>30 <i> /32</i> </strong>
+                </div>
+                <div class="ass">
+                  <span>과제현황 <i>(제출/발행)</i></span>
+                  <strong>15 <i> /16</i> </strong>
+                </div>
+                <div class="ev">
+                  <span>평가현황 <i>(제출/발행))</i></span>
+                  <strong>20 <i> /21</i> </strong>
+                </div>
+                <div class="st">
+                  <span>스템프 <i class="medal"></i></span>
+                  <strong>8<i>개</i> </strong>
+                </div>
+              </div>
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <th>
+            <h3 class="title">버튼</h3>
+          </th>
+          <td>
+            <div class="box">
+              <button type="button" class="btn btn01 lg" data-popup="classComplet">BUTTON</button>
+              <button type="button" class="btn btn01 md">BUTTON</button>
+              <button type="button" class="btn btn01">BUTTON</button>
+              <button type="button" class="btn btn01 sm">BUTTON</button>
+              <button type="button" class="btn btn01 xs">BUTTON</button>
+            </div>
+            <div class="box mg-top-20">
+              <button type="button" class="btn btn01">btn01</button>
+              <button type="button" class="btn btn02">btn02</button>
+              <button type="button" class="btn btn03">btn03</button>
+              <button type="button" class="btn btn04">btn04</button>
+              <button type="button" class="btn btn05">btn05</button>
+              <button type="button" class="btn btn06">btn06</button>
+            </div>
+            <div class="box mg-top-20">
+              <!-- prev,next버튼 사이즈 : lg-60px , 기본-45px, sm-30px -->
+              <button type="button" class="swiper-prev lg"></button>
+              <button type="button" class="swiper-next lg"></button>
+              <button type="button" class="swiper-prev"></button>
+              <button type="button" class="swiper-next"></button>
+              <button type="button" class="swiper-prev sm"></button>
+              <button type="button" class="swiper-next sm"></button>
+            </div>
+            <div class="box mg-top-20">
+              <!-- print -->
+              <button type="button" class="print"></button>
+              <!-- balloon -->
+              <a href="#none" class="balloon-icon"></a>
+            </div>
+            <div class="box mg-top-20">
+              <!-- 비활성화.disabled 활성화.on -->
+              <button type="button" class="class-view">수업자료 보기</button>
+              <a href="#none" class="class-view2">학습하기</a>
+              <!-- 중복수업시 -->
+              <a href="#none" class="overlap" data-popup="classOverlap">중복</a>
+            </div>
+          </td>
+        </tr>
+
+        <!-- 화살표 -->
+        <tr>
+          <th>
+            <h3 class="title">화살표</h3>
+          </th>
+          <td>
+            <div class="box">
+              <!-- more -->
+              <button type="button" class="more"></button>
+              <!-- arrow -->
+              <a href="#none" class="arrow prev"></a>
+              <a href="#none" class="arrow nxt"></a>
+              <a href="#none" class="arrow nxt2"></a>
+              <a href="#none" class="arrow nxt3"></a>
+              <a href="#none" class="arrow nxt4"></a>
+            </div>
+          </td>
+        </tr>
+
+        <!-- 페이지 하단번호 -->
+        <tr>
+          <th>
+            <h3 class="title">페이지 하단번호</h3>
+          </th>
+          <td>
+            <div class="box">
+              <!-- 화면 하단 숫자클릭 -->
+              <nav class="pg_wrap">
+                <a href="#" class="pg_page pg_prev">처음</a>
+                <a href="#" class="pg_page pg"><strong class="pg_current">1</strong></a>
+                <!-- <span class="pg"><strong class="pg_current">1</strong></span> -->
+                <a href="#" class="pg_page">2</a>
+                <a href="#" class="pg_page">3</a>
+                <a href="#" class="pg_page">4</a>
+                <a href="#" class="pg_page">5</a>
+                <a href="#" class="pg_page pg_next">맨끝</a>
+              </nav>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <!-- 소제목 -->
+    <div class="table-wrap">
+      <h2 style="font-size: 30px; font-weight: 700; margin-bottom: 50px;">소제목</h2>
+      <table class="table type-a">
+        <colgroup>
+          <col width="30%">
+        </colgroup>
+        <tr>
+          <th>
+            <h3 class="title">소제목에 탭이 있을때</h3>
+          </th>
+          <td>
+            <div class="box">
+              <div class="inline-box">
+                <div class="tab-ui">
+                  <button type="button" class="tb-btn on">일간</button>
+                  <button type="button" class="tb-btn">주간</button>
+                  <button type="button" class="tb-btn">월간</button>
+                  <button type="button" class="tb-btn">목록</button>
+                </div>
+              </div>
+            </div>
+            <div class="box mg-top-20">
+              <div class="inline-box">
+                <div class="tab-ui type-b">
+                  <button type="button" class="tb-btn on">일간</button>
+                  <button type="button" class="tb-btn">주간</button>
+                  <button type="button" class="tb-btn">월간</button>
+                  <button type="button" class="tb-btn">목록</button>
+                </div>
+              </div>
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <th>
+            <h3 class="title">해시태그</h3>
+          </th>
+          <td>
+            <div class="box">
+              <!-- 해시태그 -->
+              <div class="hash-box">
+                <button type="button" class="hash on">#과제용</button>
+                <button type="button" class="hash">#평가용</button>
+                <button type="button" class="hash">#수업용</button>
+                <button type="button" class="hash">#YBM추천</button>
+              </div>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <!-- 캘린더 -->
+    <div class="table-wrap">
+      <h2 style="font-size: 30px; font-weight: 700; margin-bottom: 50px;">캘린더</h2>
+      <table class="table type-a">
+        <colgroup>
+          <col width="30%">
+        </colgroup>
+        <tr>
+          <th rowspan="5">
+            <h3 class="title">캘린더</h3>
+          </th>
+          <td>
+            <div class="box">
+              <!-- 날짜 선택 -->
+              <div class="schedule">
+                <div class="day-select">
+                  <button type="button" class="day-prev"></button>
+                  <div class="day-center">
+                    <div class="day-text">
+                      <span>2021-12-06</span><i>~</i><span>2021-12-15</span>
+                    </div>
+                    <div class="day-box">
+                      <button type="button" class="ico day-btn"></button>
+                      <div class="day-calender">
+                        <div class="inner">
+                          <div class="month">
+                            <h2>2021-12</h2>
+                            <div class="arrow prev"></div>
+                            <div class="arrow nxt"></div>
+                          </div>
+                          <div class="date">
+                            <div class="head">
+                              <ul>
+                                <li>일</li>
+                                <li>월</li>
+                                <li>화</li>
+                                <li>수</li>
+                                <li>목</li>
+                                <li>금</li>
+                                <li>토</li>
+                              </ul>
+                            </div>
+                            <div class="body">
+                              <ul>
+                                <li>
+                                  <p class="guide-color">28</p>
+                                </li>
+                                <li>
+                                  <p class="guide-color">29</p>
+                                </li>
+                                <li>
+                                  <p class="guide-color">30</p>
+                                </li>
+                                <li>
+                                  <p>1</p>
+                                </li>
+                                <li>
+                                  <p>2</p>
+                                </li>
+                                <li>
+                                  <p>3</p>
+                                </li>
+                                <li>
+                                  <p>4</p>
+                                </li>
+                                <li class="on">
+                                  <p>5</p>
+                                </li>
+                                <li>
+                                  <p>6</p>
+                                </li>
+                                <li>
+                                  <p>7</p>
+                                </li>
+                                <li>
+                                  <p>8</p>
+                                </li>
+                                <li>
+                                  <p>9</p>
+                                </li>
+                                <li>
+                                  <p>10</p>
+                                </li>
+                                <li>
+                                  <p>11</p>
+                                </li>
+                                <li>
+                                  <p>12</p>
+                                </li>
+                                <li>
+                                  <p>13</p>
+                                </li>
+                                <li>
+                                  <p>14</p>
+                                </li>
+                                <li>
+                                  <p>15</p>
+                                </li>
+                                <li>
+                                  <p>16</p>
+                                </li>
+                                <li>
+                                  <p>17</p>
+                                </li>
+                                <li>
+                                  <p>18</p>
+                                </li>
+                                <li>
+                                  <p>19</p>
+                                </li>
+                                <li>
+                                  <p>20</p>
+                                </li>
+                                <li>
+                                  <p>21</p>
+                                </li>
+                                <li>
+                                  <p>22</p>
+                                </li>
+                                <li>
+                                  <p>23</p>
+                                </li>
+                                <li>
+                                  <p>24</p>
+                                </li>
+                                <li>
+                                  <p>25</p>
+                                </li>
+                                <li>
+                                  <p>26</p>
+                                </li>
+                                <li>
+                                  <p>27</p>
+                                </li>
+                                <li>
+                                  <p>28</p>
+                                </li>
+                                <li>
+                                  <p>29</p>
+                                </li>
+                                <li>
+                                  <p>30</p>
+                                </li>
+                                <li>
+                                  <p>31</p>
+                                </li>
+                                <li>
+                                  <p class="guide-color">1</p>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- 비활성화.disabled -->
+                  <button type="button" class="day-next disabled"></button>
+                </div>
+              </div>
+
+            </div>
+            <div class="box mg-top-50">
+              <div class="schedule">
+                <div class="day-select">
+                  <button type="button" class="day-prev"></button>
+                  <div class="day-center">
+                    <div class="day-text">
+                      <span>2021-12-06</span>
+                    </div>
+                  </div>
+                  <!-- 비활성화.disabled -->
+                  <button type="button" class="day-next disabled"></button>
+                  <span class="day now">오늘</span>
+                </div>
+              </div>
+            </div>
+            <div class="box mg-top-50">
+              <!-- 날짜 -->
+              <div class="schedule">
+                <div class="day-select">
+                    <button type="button" class="day-prev"></button>
+                    <div class="day-center">
+                        <div class="day-text">
+                            <span>2021-12-06</span>
+                            <div class="day-box">
+                                <button type="button" class="ico day-btn"></button>
+                                <div class="day-calender">
+                                    <div class="inner">
+                                        <div class="month">
+                                            <h2>2021-12</h2>
+                                            <div class="arrow prev"></div>
+                                            <div class="arrow nxt"></div>
+                                        </div>
+                                        <div class="date">
+                                            <div class="head">
+                                                <ul>
+                                                    <li>일</li>
+                                                    <li>월</li>
+                                                    <li>화</li>
+                                                    <li>수</li>
+                                                    <li>목</li>
+                                                    <li>금</li>
+                                                    <li>토</li>
+                                                </ul>
+                                            </div>
+                                            <div class="body">
+                                                <ul>
+                                                    <li>
+                                                        <p class="guide-color">28</p>
+                                                    </li>
+                                                    <li>
+                                                        <p class="guide-color">29</p>
+                                                    </li>
+                                                    <li>
+                                                        <p class="guide-color">30</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>1</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>2</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>3</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>4</p>
+                                                    </li>
+                                                    <li class="on">
+                                                        <p>5</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>6</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>7</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>8</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>9</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>10</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>11</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>12</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>13</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>14</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>15</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>16</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>17</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>18</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>19</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>20</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>21</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>22</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>23</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>24</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>25</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>26</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>27</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>28</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>29</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>30</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>31</p>
+                                                    </li>
+                                                    <li>
+                                                        <p class="guide-color">1</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <i>~</i>
+                            <span>2021-12-15</span>
+                            <div class="day-box">
+                                <button type="button" class="ico day-btn"></button>
+                                <div class="day-calender">
+                                    <div class="inner">
+                                        <div class="month">
+                                            <h2>2021-12</h2>
+                                            <div class="arrow prev"></div>
+                                            <div class="arrow nxt"></div>
+                                        </div>
+                                        <div class="date">
+                                            <div class="head">
+                                                <ul>
+                                                    <li>일</li>
+                                                    <li>월</li>
+                                                    <li>화</li>
+                                                    <li>수</li>
+                                                    <li>목</li>
+                                                    <li>금</li>
+                                                    <li>토</li>
+                                                </ul>
+                                            </div>
+                                            <div class="body">
+                                                <ul>
+                                                    <li>
+                                                        <p class="guide-color">28</p>
+                                                    </li>
+                                                    <li>
+                                                        <p class="guide-color">29</p>
+                                                    </li>
+                                                    <li>
+                                                        <p class="guide-color">30</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>1</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>2</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>3</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>4</p>
+                                                    </li>
+                                                    <li class="on">
+                                                        <p>5</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>6</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>7</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>8</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>9</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>10</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>11</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>12</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>13</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>14</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>15</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>16</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>17</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>18</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>19</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>20</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>21</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>22</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>23</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>24</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>25</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>26</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>27</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>28</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>29</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>30</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>31</p>
+                                                    </li>
+                                                    <li>
+                                                        <p class="guide-color">1</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 비활성화.disabled -->
+                    <button type="button" class="day-next disabled"></button>
+                </div>
+            </div>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <!-- 검색창 -->
+    <div class="table-wrap">
+      <h2 style="font-size: 30px; font-weight: 700; margin-bottom: 50px;">검색창</h2>
+      <table class="table type-a">
+        <colgroup>
+          <col width="30%">
+        </colgroup>
+        <tr>
+          <th rowspan="5">
+            <h3 class="title">검색창</h3>
+          </th>
+          <td>
+            <div class="box">
+              <!-- 일반 검색창(초기화버튼x) -->
+              <div class="search">
+                <input type="text" placeholder="검색어를 입력하세요.">
+              </div>
+            </div>
+            <div class="box mg-top-20">
+              <!-- 검색창(초기화버튼o) -->
+              <div class="search type-b">
+                <input type="text" placeholder="입력시 초기화 버튼 뜸" class="searchinput">
+                <button type="button" class="searchclear"></button>
+              </div>
+            </div>
+            <div class="box mg-top-20">
+              <div class="slt-box">
+                <div class="search type-b">
+                  <input type="text" placeholder="입력시 초기화 버튼 뜸" class="searchinput">
+                  <button type="button" class="searchclear"></button>
+                </div>
+                <div class="sort-box type-a">
+                  <button type="button" class="st"></button>
+                  <ul class="cont">
+                    <li><a href="#;">작성일시 <i class="ico_sort"></i></a></li>
+                    <li><a href="#;">기간 <i class="ico_sort"></i></a></li>
+                    <li><a href="#;">복사 <i class="ico_sort"></i></a></li>
+                    <li><a href="#;">자료 공유 <i class="ico_sort"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <!-- 아이콘 -->
+    <div class="table-wrap">
+      <h2 style="font-size: 30px; font-weight: 700; margin-bottom: 50px;">아이콘</h2>
+      <table class="table type-a">
+        <colgroup>
+          <col width="30%">
+        </colgroup>
+        <tr>
+          <th rowspan="5">
+            <h3 class="title">아이콘</h3>
+          </th>
+          <td>
+            <div class="chk-control-box">
+              <div class="form-wrap">
+                <span></span>
+                <p class="alrm2"></p>
+              </div>
+              <div class="form-wrap">
+                <span></span>
+                <p class="alrm-icon alrm"></p>
+              </div>
+              <div class="form-wrap">
+                <span>출석 관련</span>
+                <p class="alrm-icon check"></p>
+              </div>
+              <div class="form-wrap">
+                <span>수업관련</span>
+                <p class="alrm-icon class"></p>
+              </div>
+              <div class="form-wrap">
+                <span>학사일정 관련</span>
+                <p class="alrm-icon time"></p>
+              </div>
+              <div class="form-wrap">
+                <span>개인일정 관련</span>
+                <p class="alrm-icon calender"></p>
+              </div>
+              <div class="form-wrap">
+                <span>과제 관련</span>
+                <p class="alrm-icon assign"></p>
+              </div>
+              <div class="form-wrap">
+                <span>평가 관련</span>
+                <p class="alrm-icon ev"></p>
+              </div>
+              <div class="form-wrap">
+                <span>그룹메세지 관련</span>
+                <p class="alrm-icon chat"></p>
+              </div>
+              <div class="form-wrap">
+                <span>시간표 관련</span>
+                <p class="alrm-icon schedule"></p>
+              </div>
+              <div class="form-wrap">
+                <span>통합뷰어 관련</span>
+                <p class="alrm-icon view"></p>
+              </div>
+              <div class="form-wrap">
+                <span>게시물 관련</span>
+                <p class="alrm-icon board"></p>
+              </div>
+              <div class="form-wrap">
+                <span>고객센터 관련</span>
+                <p class="alrm-icon call"></p>
+              </div>
+              <div class="form-wrap">
+                <span>이용권 관련</span>
+                <p class="alrm-icon ticket"></p>
+              </div>
+              <div class="form-wrap">
+                <p class="ico-video"></p>
+              </div>
+              <div class="form-wrap">
+                <p class="ico-online-content"></p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="form-wrap">
+                <span class="ico-school"></span>
+              </div>
+              <div class="form-wrap">
+                <span class="ico-academy"></span>
+              </div>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <!-- 상태값 표시 -->
+    <div class="table-wrap">
+      <h2 style="font-size: 30px; font-weight: 700; margin-bottom: 50px;">상태값 표시</h2>
+      <table class="table type-a">
+        <colgroup>
+          <col width="30%">
+        </colgroup>
+        <!-- 교재명>단원명>차시명 -->
+        <tr>
+          <th>
+            <h3 class="title">교재명>단원명>차시명</h3>
+          </th>
+          <td>
+            <div class="box">
+              <ul class="textbook-title">
+                <li class="textbook">영어 3 (최)</li>
+                <li class="unit">Lesson 2</li>
+                <li class="time">1차시</li>
+              </ul>
+            </div>
+          </td>
+        </tr>
+
+        <!-- 무/유료 , 미/학습 -->
+        <tr>
+          <th>
+            <h3 class="title">무/유료 , 미/학습</h3>
+          </th>
+          <td>
+            <div class="box">
+              <span class="pay-item free">무료</span>
+              <span class="pay-item pay">유료</span>
+            </div>
+            <div class="box">
+              <span class="learn-item unlearn">미학습</span>
+              <span class="learn-item learn">학습</span>
+            </div>
+          </td>
+        </tr>
+
+        <!-- 수업유형 -->
+        <tr>
+          <th>
+            <h3 class="title">수업유형</h3>
+          </th>
+          <td>
+            <div class="box">
+              <!-- 수업 상태값 -->
+              <span class="cla none">등교수업</span>
+              <span class="cla attend">등교수업</span>
+              <span class="cla video">화상수업</span>
+              <span class="cla online">온라인수업</span>
+              <span class="cla video2">화상수업</span>
+              <span class="cla online2">온라인수업</span>
+              <span class="cla going">등교수업</span>
+            </div>
+            <div class="box mg-top-20">
+              <!-- 등교.gts , border-none: .none, red:gts2 , purple:gtse3, video:화상, online:온라인-->
+              <span class="gts none">등교</span>
+              <span class="gts gts2">등교</span>
+              <span class="gts gts3">등교</span>
+              <span class="gts video">화상</span>
+              <span class="gts online">온라인</span>
+            </div>
+            <div class="box mg-top-20">
+              <div class="logo-text"><i>Y</i><i>B</i><i>M</i></div>
+            </div>
+          </td>
+        </tr>
+
+        <!-- 수업유형이 화상수업일때 출석상태 -->
+        <tr>
+          <th>
+            <h3 class="title">수업유형이 화상수업일때 출석상태</h3>
+          </th>
+          <td>
+            <div class="box flex-cont">
+              <span class="stp-bd att"><i>출석</i></span>
+              <span class="stp-bd att2"><i>출석</i></span>
+              <span class="stp-bd absent"><i>결석</i></span>
+              <span class="stp-bd pres"><i>출석 인정</i></span>
+            </div>
+          </td>
+        </tr>
+
+        <!-- 수업유형이 등교수업일때 출석상태 -->
+        <tr>
+          <th>
+            <h3 class="title">수업유형이 등교수업일때 출석상태</h3>
+          </th>
+          <td>
+            <div class="box flex-cont">
+              <span class="stp-bd att"><i>출석</i></span>
+              <span class="stp-bd att2"><i>출석</i></span>
+              <span class="stp-bd absent"><i>결석</i></span>
+              <span class="stp-bd pres"><i>출석 인정</i></span>
+              <span class="stp-bd tardy"><i>지각</i></span>
+              <span class="stp-bd tardy"><i>조퇴</i></span>
+            </div>
+          </td>
+        </tr>
+
+        <!-- 수업유형이 온라인수업일때 출석상태 -->
+        <tr>
+          <th>
+            <h3 class="title">수업유형이 온라인수업일때 출석상태</h3>
+          </th>
+          <td>
+            <div class="box flex-cont">
+              <span class="stp-bd att"><i>출석</i></span>
+              <span class="stp-bd comp2"><i>학습 완료</i></span>
+              <span class="stp-bd yet"><i>미진행</i></span>
+              <span class="stp-bd ing"><i>진행중</i></span>
+              <span class="stp-bd pres"><i>학습 인정</i><em class="ing">(진행중)</em></span>
+              <span class="stp-bd pres"><i>학습 인정</i><em class="yet">(미진행)</em></span>
+            </div>
+          </td>
+        </tr>
+
+        <!-- 과제/평가 상태 -->
+        <tr>
+          <th>
+            <h3 class="title">과제/평가 상태</h3>
+          </th>
+          <td>
+            <div class="box">
+              <span class="sub before">제출 전</span>
+              <span class="sub ing">평가 중</span>
+              <span class="sub unsub">미제출</span>
+              <span class="sub comp">완료</span>
+            </div>
+          </td>
+        </tr>
+
+        <!-- 수업상태 -->
+        <tr>
+          <th>
+            <h3 class="title">수업상태</h3>
+          </th>
+          <td>
+            <div class="box">
+              <a class="btn-view none" href="#none" target="_blank"><i>수업 자료 보기</i></a>
+              <a class="btn-view" href="#none" target="_blank"><i>수업 자료 보기</i></a>
+              <button type="button" class="btn-view connect"><i>화상수업 연결</i></button>
+              <a class="btn-view none2" href="#none" target="_blank"><i>수업 자료 보기</i></a>
+            </div>
+          </td>
+        </tr>
+
+        <!-- 기간 -->
+        <tr>
+          <th>
+            <h3 class="title">기간</h3>
+          </th>
+          <td>
+            <div class="box">
+              <span class="dday">D-7</span>
+              <span class="dday">D-6</span>
+              <span class="dday">D-5</span>
+              <span class="dday">D-4</span>
+              <span class="dday">D-3</span>
+              <span class="dday">D-2</span>
+              <span class="dday">D-1</span>
+            </div>
+            <div class="box mg-top-20">
+              <span class="state ing">진행중</span>
+              <span class="state end">종료</span>
+            </div>
+            <div class="box mg-top-20">
+              <span class="term ing">진행중</span>
+              <span class="term now">오늘 마감</span>
+              <span class="term end">기간 종료</span>
+            </div>
+            <div class="box mg-top-20">
+              <div class="class-day">
+                <!-- .on클래스 추가시 활성화 -->
+                <i class="day on">월</i>
+                <i class="day">화</i>
+                <i class="day">수</i>
+                <i class="day on">목</i>
+                <i class="day">금</i>
+              </div>
+            </div>
+          </td>
+        </tr>
+
+        <!-- 과제상태 -->
+        <tr>
+          <th>
+            <h3 class="title">과제 상태</h3>
+          </th>
+          <td>
+            <div class="box flex-cont">
+              <!-- 과제현황팝업 data-popup="assNow" -->
+              <span class="stp ass"><i>과제</i></span>
+              <span class="stp comp"><i>과제 완료</i></span>
+              <span class="stp ing"><i>과제 평가 중</i></span>
+              <span class="stp before"><i>과제 제출 전</i></span>
+              <span class="stp non"><i>과제 미제출</i></span>
+              <span class="stp att"><i>과제 <em>2</em></i></span>
+            </div>
+          </td>
+        </tr>
+
+        <!-- 평가상태 -->
+        <tr>
+          <th>
+            <h3 class="title">평가 상태</h3>
+          </th>
+          <td>
+            <div class="box flex-cont">
+              <!-- 평가현황팝업 data-popup="evlNow" -->
+              <span class="stp ass"><i>평가</i></span>
+              <span class="stp comp"><i>평가 완료</i></span>
+              <span class="stp ing"><i>평가 평가 중</i></span>
+              <span class="stp before"><i>평가 제출 전</i></span>
+              <span class="stp non"><i>평가 미제출</i></span>
+              <span class="stp att"><i>평가 <em>2</em></i></span>
+            </div>
+          </td>
+        </tr>
+
+        <!-- 출석상태 -->
+        <tr>
+          <th>
+            <h3 class="title">출석 상태</h3>
+          </th>
+          <td>
+            <div class="box flex-cont">
+              <!-- 출석현황팝업 data-popup="attNow" -->
+              <span class="stp ass"><i>출석</i></span>
+              <span class="stp att"><i>출석</i></span>
+              <span class="stp non"><i>결석</i></span>
+              <span class="stp tardy"><i>지각</i></span>
+              <span class="stp tardy"><i>조퇴</i></span>
+              <span class="stp pres"><i>출석 인정</i></span>
+              <span class="stp att"><i>출석 <em>2</em></i></span>
+            </div>
+          </td>
+        </tr>
+
+        <!-- 학습상태 -->
+        <tr>
+          <th>
+            <h3 class="title">학습 상태</h3>
+          </th>
+          <td>
+            <div class="box flex-cont">
+              <span class="stp ass"><i>출석</i></span>
+              <span class="stp att"><i>학습 완료</i></span>
+              <span class="stp before"><i>학습 전</i></span>
+              <span class="stp ing"><i>학습중</i></span>
+              <span class="stp pres"><i>출석인정 <em class="ing">(진행중)</em></i></span>
+              <span class="stp pres"><i>출석인정 <em class="yet">(미진행)</em></i></span>
+            </div>
+          </td>
+        </tr>
+
+        <!-- 스템프 -->
+        <tr>
+          <th>
+            <h3 class="title">스템프</h3>
+          </th>
+          <td>
+            <div class="box">
+              <span class="stamp stp7"></span>
+              <span class="stamp stp8"></span>
+              <span class="stamp stp9"></span>
+              <span class="stamp off"></span>
+            </div>
+            <div class="box mg-top-20">
+              <span class="stamp"></span>
+              <span class="stamp stp2"></span>
+              <span class="stamp stp3"></span>
+              <span class="stamp stp4"></span>
+              <span class="stamp stp5"></span>
+              <span class="stamp stp6"></span>
+            </div>
+          </td>
+        </tr>
+
+        <!-- 파일명 -->
+        <tr>
+          <th>
+            <h3 class="title">파일명</h3>
+          </th>
+          <td>
+            <div class="box">
+              <!-- 확장명 클래스명 : ext -->
+              <span class="ext op">온/콘</span>
+              <span class="ext avi">avi</span>
+              <span class="ext link">link</span>
+              <span class="ext hwp">hwp</span>
+            </div>
+          </td>
+        </tr>
+
+        <!-- 파일 확장자명 -->
+        <tr>
+          <th>
+            <h3 class="title">파일 확장자명</h3>
+          </th>
+          <td>
+            <div class="box">
+              <span class="ico_file asf"></span>
+              <span class="ico_file avi"></span>
+              <span class="ico_file doc"></span>
+              <span class="ico_file docx"></span>
+              <span class="ico_file etc"></span>
+              <span class="ico_file gif"></span>
+              <span class="ico_file hwp"></span>
+              <span class="ico_file jpeg"></span>
+              <span class="ico_file jpg"></span>
+              <span class="ico_file link"></span>
+              <span class="ico_file mkv"></span>
+              <span class="ico_file mov"></span>
+              <span class="ico_file mp3"></span>
+              <span class="ico_file mp4"></span>
+              <span class="ico_file mpeg"></span>
+              <span class="ico_file mpg"></span>
+              <span class="ico_file pdf"></span>
+              <span class="ico_file png"></span>
+              <span class="ico_file ppt"></span>
+              <span class="ico_file pptx"></span>
+              <span class="ico_file txt"></span>
+              <span class="ico_file wmv"></span>
+              <span class="ico_file xls"></span>
+              <span class="ico_file xlsx"></span>
+              <span class="ico_file youtube"></span>
+              <span class="ico_file zip"></span>
+              <span class="ico_file nanum"></span>
+              <span class="ico_file on-con"></span>
+              <span class="ico_file on-con2"></span>
+              <span class="ico_file bmp"></span>
+              <span class="ico_file wav"></span>
+              <span class="ico_file ogg"></span>
+              <span class="ico_file wma"></span>
+              <span class="ico_file m4a"></span>
+            </div>
+          </td>
+        </tr>
+
+        <!-- 상태값 -->
+        <tr>
+          <th>
+            <h3 class="title">상태값</h3>
+          </th>
+          <td>
+            <div class="box">
+              <span class="pts pt">학부모</span>
+              <span class="pts tc">교사</span>
+              <span class="pts sd">학생</span>
+            </div>
+            <div class="box mg-top-20">
+              <span class="st tc">교사</span>
+            </div>
+          </td>
+        </tr>
+
+        <!-- 상태바 -->
+        <tr>
+          <th>
+            <h3 class="title">상태바</h3>
+          </th>
+          <td>
+            <div class="box">
+              <div class="progressbar">
+                <!-- .pging : width값으로 진행중인 길이조절(배경빨강) -->
+                <div class="pging">
+                  <!-- .pgicon : 상태바에 동그란 아이콘 -->
+                  <div class="pgicon">
+                    <!-- i:화살표 -->
+                    <i></i>
+                    <span>8차시<em>(30%)</em></span>
+                  </div>
+                </div>
+                <p>총 32차시</p>
+              </div>
+            </div>
+
+            <div class="box mg-top-40">
+              <!-- 기본값(0%일때).default -->
+              <div class="progressbar default">
+                <!-- .pging : width값으로 진행중인 길이조절(배경빨강) -->
+                <div class="pging">
+                  <!-- .pgicon : 상태바에 동그란 아이콘 -->
+                  <div class="pgicon">
+                    <!-- i:화살표 -->
+                    <i></i>
+                    <span>8차시<em>(0%)</em></span>
+                  </div>
+                </div>
+                <p>총 32차시</p>
+              </div>
+            </div>
+
+            <div class="box mg-top-40">
+              <div class="progressbar type-a">
+                <!-- .pging : width값으로 진행중인 길이조절(배경빨강) -->
+                <div class="pging">
+                  <!-- .pgicon : 상태바에 동그란 아이콘 -->
+                  <div class="pgicon">
+                    <!-- i:화살표 -->
+                    <i></i>
+                    <span><i>5</i>개 차시 진행<em>(30%)</em></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="box mg-top-40">
+              <div class="progressbar default type-a">
+                <!-- .pging : width값으로 진행중인 길이조절(배경빨강) -->
+                <div class="pging">
+                  <!-- .pgicon : 상태바에 동그란 아이콘 -->
+                  <div class="pgicon">
+                    <!-- i:화살표 -->
+                    <i></i>
+                    <span><i>0</i>개 차시 진행<em>(0%)</em></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <script src="../../common/js/popup.js"></script>
+  <script src="../../common/js/ui.js"></script>
+</body>
+
+</html>

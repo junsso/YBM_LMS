@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_780" data-name="Rectangle 780" width="18" height="18" transform="translate(317 504)" fill="#454c53"/>
+    </clipPath>
+  </defs>
+  <g id="ico_book" transform="translate(-317 -504)" clip-path="url(#clip-path)">
+    <g id="book_14_" data-name="book (14)" transform="translate(317 504.563)">
+      <path id="Path_922" data-name="Path 922" d="M4.462,15.82a5.761,5.761,0,0,1,3.325,1.056h2.428a5.778,5.778,0,0,1,3.324-1.055H18V3.164H16.945V0h-.527A9.16,9.16,0,0,0,9,3.786,9.161,9.161,0,0,0,1.582,0H1.055V3.164H0V15.82Zm5.065,0H8.473V5.273H9.527Zm1.055-.38V5.037a5.731,5.731,0,0,1,2.956-.818h3.407V14.766H13.538a6.783,6.783,0,0,0-2.956.675ZM15.891,1.072V3.164H13.538a6.782,6.782,0,0,0-3.456.943,8.154,8.154,0,0,1,5.809-3.035Zm-13.781,0A8.155,8.155,0,0,1,7.918,4.107a6.783,6.783,0,0,0-3.456-.943H2.109ZM1.055,4.219H4.462a5.731,5.731,0,0,1,2.956.818v10.4a6.783,6.783,0,0,0-2.956-.675H1.055Zm0,0" fill="#454c53"/>
+      <path id="Path_923" data-name="Path 923" d="M11.637,6.328h4.254V7.383H11.637Zm0,0" fill="#454c53"/>
+    </g>
+  </g>
+</svg>

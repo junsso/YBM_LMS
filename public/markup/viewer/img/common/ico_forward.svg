@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="38" height="25" viewBox="0 0 38 25">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_500" data-name="사각형 500" width="38" height="25" transform="translate(75 1031)" fill="#26282b"/>
+    </clipPath>
+  </defs>
+  <g id="icon_일시정지" transform="translate(-75 -1031)" clip-path="url(#clip-path)">
+    <g id="next_1_" data-name="next (1)" transform="translate(75 1031)">
+      <g id="그룹_84" data-name="그룹 84" transform="translate(0.408 3.987)">
+        <g id="그룹_83" data-name="그룹 83" transform="translate(0.592 0.013)">
+          <path id="패스_350" data-name="패스 350" d="M13.557,6.926,3.218.422A2.419,2.419,0,0,0,1.973.013C1.142.013.592.65.592,1.675V15.351a1.912,1.912,0,0,0,.4,1.211,1.293,1.293,0,0,0,1.02.451A2.366,2.366,0,0,0,3.234,16.6l10.33-6.5a1.922,1.922,0,0,0,1.028-1.587A1.928,1.928,0,0,0,13.557,6.926Z" transform="translate(-0.592 -0.013)" fill="#26282b"/>
+        </g>
+      </g>
+      <g id="그룹_1206" data-name="그룹 1206" transform="translate(9.408 3.987)">
+        <g id="그룹_83-2" data-name="그룹 83" transform="translate(0.592 0.013)">
+          <path id="패스_350-2" data-name="패스 350" d="M13.557,6.926,3.218.422A2.419,2.419,0,0,0,1.973.013C1.142.013.592.65.592,1.675V15.351a1.912,1.912,0,0,0,.4,1.211,1.293,1.293,0,0,0,1.02.451A2.366,2.366,0,0,0,3.234,16.6l10.33-6.5a1.922,1.922,0,0,0,1.028-1.587A1.928,1.928,0,0,0,13.557,6.926Z" transform="translate(-0.592 -0.013)" fill="#26282b"/>
+        </g>
+      </g>
+    </g>
+    <text id="_10" data-name="10" transform="translate(107 1047)" fill="#26282b" font-size="10" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-5.684" y="0">10</tspan></text>
+  </g>
+</svg>

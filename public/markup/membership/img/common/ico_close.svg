@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_401" data-name="사각형 401" width="24" height="24" fill="#959595"/>
+    </clipPath>
+  </defs>
+  <g id="ico_close" clip-path="url(#clip-path)">
+    <g id="Layer_2" data-name="Layer 2" transform="translate(12 0.196) rotate(45)">
+      <g id="Layer_1" data-name="Layer 1">
+        <path id="패스_712" data-name="패스 712" d="M15.5,7.154H9.539V1.192a1.192,1.192,0,0,0-2.385,0V7.154H1.192a1.192,1.192,0,0,0,0,2.385H7.154V15.5a1.192,1.192,0,0,0,2.385,0V9.539H15.5a1.192,1.192,0,1,0,0-2.385Z" fill="#72787f"/>
+      </g>
+    </g>
+  </g>
+</svg>

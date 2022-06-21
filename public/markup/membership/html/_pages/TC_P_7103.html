@@ -1,0 +1,211 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge;Chromeframe=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="generator" content="">
+<meta name="robots" content="ALL">
+<meta property="og:type" content="">
+<meta property="og:title" content="">
+<meta property="og:description" content="">
+<meta property="og:image" content="">
+<meta property="og:url" content="">
+<title>개인정보관리 | 멤버십 | YBM스마트스쿨</title>
+<link rel="shortcut icon" href="">
+<link rel="stylesheet" href="../../common/css/import.css">
+<script src="../../lib/jquery-3.6.0.min.js"></script>
+<script src="../../lib/device.js"></script>
+</head>
+<body>
+    <section class="wrap">
+        <!-- start:header -->
+        <header class="active">
+            <div class="inner">
+              <div class="for-mo">
+                <div class="check-login">
+                  <!-- 로그인 후
+                  <a href="#none"><strong>홍길동</strong>님</a>
+                  <p>즐거운 하루 되세요!</p>
+                  //로그인 후 -->
+                  <!-- 로그인 전 -->
+                  <a href="#none" class="login"><strong>로그인</strong></a>
+                  <p>로그인을 해주세요.</p>
+                  <!--//로그인 전 -->
+                </div>
+                <div class="alarm-set">
+                  <button type="button">
+                    <em class="btn-alarm bell"></em>알림<span>N</span>
+                  </button>
+                  <button type="button">
+                    <em class="btn-alarm msg"></em>메세지<span>1</span>
+                  </button>
+                </div>
+              </div>
+              <div class="header-left">
+                <div class="logo">
+                    <a href="#">
+                        <img src="../../img/common/main_logo_s2.svg" alt="" class="pc">
+                        <img src="../../img/common/logo_m2.svg" alt="" class="mo">
+                    </a>
+                </div>
+                <div class="gnb-left">
+                    <a href="#none">교사 채널</a>
+                    <a href="#none">학생 채널</a>
+                    <a href="#none">학부모 채널</a>
+                </div>
+              </div>
+              <div class="header-right">
+                <div class="gnb-right">
+                    <button type="button" class="btn-alarm bell"><span>N</span></button>
+                    <button type="button" class="btn-alarm msg"><span>1</span></button>
+                    <a href="#none">로그아웃</a>
+                    <a href="#none">개인정보관리</a>
+                    <a href="#none">이용권</a>
+                    <a href="#none">고객센터</a>
+                    <a href="#none" class="app"><img src="../../img/common/ico_app.svg" alt="">앱 다운로드</a>
+                    <div class="form-block-group">
+                      <select name="" id="" class="select-box">
+                        <option value="">채널 바로가기</option>
+                        <option value="">교사채널</option>
+                        <option value="">강사채널</option>
+                        <option value="">초등채널</option>
+                        <option value="">중고등채널</option>
+                        <option value="">학부모채널</option>
+                      </select>
+                    </div>                    
+                </div>
+                <div class="trigger-box">
+                    <input type="checkbox" id="trigger">
+                    <label for="trigger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    </label>
+                </div>
+              </div>
+            </div>
+        </header>
+        <!-- //end:header -->
+        <!-- start:container-->
+        <section class="container">
+            <div class="body-conts-wrap">
+                <div class="flex-wrap">
+                    <div class="snb-contain">
+                       <h2>개인정보 관리</h2>
+                       <ul>
+                           <li><a href="#">회원정보 변경</a></li>
+                           <li class="on"><a href="#">비밀번호 변경</a></li>
+                           <li><a href="#">교사인증관리(교사용)</a></li>
+                           <li><a href="#">학급등록관리(학생용)</a></li>
+                           <li><a href="#">학급등록관리(학부모용)</a></li>
+                           <li><a href="#">채널 이용현황</a></li>
+                           <li><a href="#">회원탈퇴</a></li>
+                       </ul>
+                    </div>
+                    <div class="body-contain">
+                       <div class="head">
+                           <div class="navigation">
+                                <h2 class="title">비밀번호 변경</h2>
+                                <div class="toggle"><img src="../../img/common/arrow_down.svg" alt="메뉴열기/닫기"></div>
+                                <ul>
+                                    <li>Home</li>
+                                    <li>개인정보 관리</li>
+                                    <li>비밀번호 변경</li>
+                                </ul>
+                           </div>
+                       </div>
+                       <div class="body">
+                        <div class="join-form edit-form">
+                            <form action="">
+                                <ul>
+                                    <li class="clm-name"><label for="pastpw" class="necessary">이전 비밀번호</label></li>
+                                    <li class="form-block-group input">
+                                        <input type="password" id="pastpw" placeholder="이전 비밀번호를 입력해주세요">
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li class="clm-name"><label for="newpw1" class="necessary">새 비밀번호</label></li>
+                                    <li class="form-block-group input">
+                                        <input type="password" id="newpw1" placeholder="새 비밀번호를 입력해주세요">
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li class="clm-name"><label for="newpw2" class="necessary">새 비밀번호 확인</label></li>
+                                    <li class="form-block-group input">
+                                        <input type="password" id="newpw2" placeholder="새 비밀번호를 한번 더입력해주세요">
+                                    </li>
+                                </ul>
+                                <div class="set-guide">
+                                    <ul>
+                                        <li>비밀번호는 8~12자리 영문/숫자/특수문자 3가지 조합으로 입력해주세요.</li>
+                                        <li>비밀번호는 아이디나 주민등록번호 및 전화번호와 같이 개인정보와 관련 된 숫자나 문자를 사용하시면 안됩니다.</li>
+                                        <li>보안상의 문제로 다음의 특수기호만 사용하실 수 있습니다. <strong> !, @, #, $, %, ^, &, *, ?, _, ~</strong></li>
+                                    </ul>
+                                </div>
+                                <div class="btn-set lower center">
+                                    <button class="btn-default">취소</button>
+                                    <button class="btn-primary">변경</button>
+                                </div> 
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <!-- //end:container-->
+        <!-- start:footer-->
+        <section class="footer" style="padding:30px 0;">   
+            <div class="inner">
+          <div class="footer-top">
+            <div class="footer-tleft">
+              <h3>YBM스마트스쿨 고객센터</h3>
+              <span>02-2000-0599</span>
+            </div>
+            <div class="footer-tright">
+              <select>
+                <option value="">FAMILY SITE</option>
+                <option value="">FAMILY SITE1</option>
+                <option value="">FAMILY SITE2</option>
+                <option value="">FAMILY SITE3</option>
+              </select>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <div class="footer-bleft">
+              <ul>
+                <li>㈜와이비엠 <i>|</i></li>
+                <li>서울시 종로구 종로 104 <i>|</i></li>
+                <li> 대표이사 권오찬, 정용환 <i>|</i></li>
+                <li>사업자등록번호 101-81-14655 <i>|</i></li>
+                <li>통신판매신고번호 제 01-320 호 <i>|</i></li>
+                <li>고객센터 : 02-2000-0599 <i>|</i></li>
+                <li>FAX : 02-2000-0426 <i>|</i></li>
+                <li>E-mail : ycloud@ybm.co.kr</li>
+              </ul>
+              <p>
+                Copyright ⓒ (주)YBM. All rights reserved.
+              </p>
+            </div>
+            <div class="footer-bright">
+              <a href="#"><img src="../../img/common/footer_logo.svg" alt=""></a>
+            </div>
+          </div>
+        </div>
+        </section>
+        <!-- //end:footer-->
+    </section>
+    <!-- start:레이어 팝업 -->
+    <div class="popup-wrap"></div>
+    <!-- //end:레이어 팝업 -->
+
+<script src="../../common/js/popup.js"></script>
+<script src="../../common/js/ui.js"></script>
+</body>
+</html>

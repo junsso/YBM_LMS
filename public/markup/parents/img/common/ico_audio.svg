@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_582" data-name="사각형 582" width="16" height="16" transform="translate(16 16) rotate(180)" fill="#72787f"/>
+    </clipPath>
+  </defs>
+  <g id="icon_음악" clip-path="url(#clip-path)">
+    <g id="headphones" transform="translate(0 0.969)">
+      <g id="그룹_239" data-name="그룹 239">
+        <g id="그룹_238" data-name="그룹 238">
+          <path id="패스_877" data-name="패스 877" d="M8,.908A8,8,0,0,0,0,8.877v3.75a1.408,1.408,0,0,0,1.406,1.406h.469V9.346H1.406a1.39,1.39,0,0,0-.469.086V8.877a7.063,7.063,0,0,1,14.125,0v.555a1.39,1.39,0,0,0-.469-.086h-.469v4.688h.469A1.408,1.408,0,0,0,16,12.627V8.877A8,8,0,0,0,8,.908Z" transform="translate(0 -0.908)" fill="#72787f"/>
+        </g>
+      </g>
+      <g id="그룹_241" data-name="그룹 241" transform="translate(2.813 7.5)">
+        <g id="그룹_240" data-name="그룹 240">
+          <path id="패스_878" data-name="패스 878" d="M4.043,7.939H3.574a.937.937,0,0,0-.937.938v4.688a.937.937,0,0,0,.937.937h.469a.469.469,0,0,0,.469-.469V8.408A.469.469,0,0,0,4.043,7.939Z" transform="translate(-2.637 -7.939)" fill="#72787f"/>
+        </g>
+      </g>
+      <g id="그룹_243" data-name="그룹 243" transform="translate(11.313 7.5)">
+        <g id="그룹_242" data-name="그룹 242">
+          <path id="패스_879" data-name="패스 879" d="M11.543,7.939h-.469a.469.469,0,0,0-.469.469v5.625a.469.469,0,0,0,.469.469h.469a.937.937,0,0,0,.938-.937V8.877A.937.937,0,0,0,11.543,7.939Z" transform="translate(-10.605 -7.939)" fill="#72787f"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

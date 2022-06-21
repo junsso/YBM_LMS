@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14" height="14" viewBox="0 0 14 14">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_168" data-name="사각형 168" width="14" height="14" transform="translate(0 0.377)" fill="#72787f"/>
+    </clipPath>
+  </defs>
+  <g id="icon_appdownload" transform="translate(0 -0.377)" clip-path="url(#clip-path)">
+    <g id="download" transform="translate(0 0.377)">
+      <g id="그룹_77" data-name="그룹 77" transform="translate(4.667)">
+        <g id="그룹_76" data-name="그룹 76">
+          <path id="패스_183" data-name="패스 183" d="M9.605,6.739a.584.584,0,0,0-.522-.323H7.917V.583a.583.583,0,1,0-1.167,0V6.417H5.583a.583.583,0,0,0-.467.933l1.75,2.333c.008.01.019.013.027.023a.57.57,0,0,0,.135.113.6.6,0,0,0,.06.04.547.547,0,0,0,.489,0,.593.593,0,0,0,.059-.04.57.57,0,0,0,.135-.113c.008-.009.02-.013.027-.023L9.55,7.35A.583.583,0,0,0,9.605,6.739Z" transform="translate(-5)" fill="#72787f"/>
+        </g>
+      </g>
+      <g id="그룹_79" data-name="그룹 79" transform="translate(0 8.75)">
+        <g id="그룹_78" data-name="그룹 78">
+          <path id="패스_184" data-name="패스 184" d="M13.417,9.375a.583.583,0,0,0-.583.583v1.75a1.752,1.752,0,0,1-1.75,1.75H2.917a1.752,1.752,0,0,1-1.75-1.75V9.958A.583.583,0,0,0,0,9.958v1.75a2.92,2.92,0,0,0,2.917,2.917h8.167A2.92,2.92,0,0,0,14,11.708V9.958A.583.583,0,0,0,13.417,9.375Z" transform="translate(0 -9.375)" fill="#72787f"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

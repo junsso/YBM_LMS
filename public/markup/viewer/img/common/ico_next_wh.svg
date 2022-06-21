@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="15" height="15" viewBox="0 0 15 15">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_205" data-name="사각형 205" width="15" height="15" transform="translate(796 1018)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="마스크_그룹_66" data-name="마스크 그룹 66" transform="translate(-796 -1018)" clip-path="url(#clip-path)">
+    <g id="next" transform="translate(796 1018)">
+      <path id="Chevron_Right_1_" d="M11.41,6.965,4.665.221a.757.757,0,0,0-1.072,1.07L9.8,7.5l-6.21,6.208a.758.758,0,0,0,1.072,1.071l6.745-6.743A.764.764,0,0,0,11.41,6.965Z" fill="#fff"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_947" data-name="사각형 947" width="20" height="20" transform="translate(1021 652)" fill="#454c53"/>
+    </clipPath>
+  </defs>
+  <g id="ico_clock" transform="translate(-1021 -652)" clip-path="url(#clip-path)">
+    <g id="clock_2_" data-name="clock (2)" transform="translate(1021 652)">
+      <path id="패스_1078" data-name="패스 1078" d="M10,0A10,10,0,1,0,20,10,10.011,10.011,0,0,0,10,0Zm0,18.75A8.75,8.75,0,1,1,18.75,10,8.76,8.76,0,0,1,10,18.75Z" fill="#454c53"/>
+      <path id="패스_1079" data-name="패스 1079" d="M10.625,3.75H9.375v6.509l3.933,3.933.884-.884L10.625,9.741Z" fill="#454c53"/>
+    </g>
+  </g>
+</svg>

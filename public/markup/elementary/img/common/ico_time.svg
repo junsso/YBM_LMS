@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_988" data-name="사각형 988" width="50" height="50" transform="translate(401 185)" fill="#fc5d5d" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="ico_clock" transform="translate(-401 -185)" clip-path="url(#clip-path)">
+    <g id="clock_4_" data-name="clock (4)" transform="translate(401 185)">
+      <g id="그룹_885" data-name="그룹 885">
+        <g id="그룹_884" data-name="그룹 884">
+          <path id="패스_2272" data-name="패스 2272" d="M33.908,29.415l-6.971-5.229V13.536a1.937,1.937,0,1,0-3.873,0V25.155a1.933,1.933,0,0,0,.775,1.549l7.746,5.809a1.937,1.937,0,0,0,2.324-3.1Z" fill="#fc5d5d"/>
+        </g>
+      </g>
+      <g id="그룹_887" data-name="그룹 887">
+        <g id="그룹_886" data-name="그룹 886">
+          <path id="패스_2273" data-name="패스 2273" d="M25,0A25,25,0,1,0,50,25,25.027,25.027,0,0,0,25,0Zm0,46.127A21.127,21.127,0,1,1,46.127,25,21.153,21.153,0,0,1,25,46.127Z" fill="#fecece"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="110" height="110" viewBox="0 0 110 110">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_858" data-name="사각형 858" width="110" height="110" transform="translate(1355 2408)" fill="#9ea4aa" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="img_" transform="translate(-1355 -2408)" clip-path="url(#clip-path)">
+    <g id="loupe_5_" data-name="loupe (5)" transform="translate(1356 2409)">
+      <rect id="사각형_859" data-name="사각형 859" width="11.458" height="14.896" transform="translate(68.278 78.407) rotate(-135)" fill="#344a5e" stroke="#26282b" stroke-width="1.5"/>
+      <circle id="타원_59" data-name="타원 59" cx="35.521" cy="35.521" r="35.521" transform="translate(4.583 4.583)" fill="#7ebaff" stroke="#26282b" stroke-width="1.5"/>
+      <path id="패스_5283" data-name="패스 5283" d="M68.521,68.521A40.187,40.187,0,0,1,11.688,11.688a40.39,40.39,0,0,1,56.833,0C84.1,27.271,84.333,52.938,68.521,68.521ZM18.333,18.333a30.951,30.951,0,1,0,43.771,0A30.845,30.845,0,0,0,18.333,18.333Z" fill="#5d81ab" stroke="#26282b" stroke-width="1.5"/>
+      <path id="패스_5284" data-name="패스 5284" d="M81.813,67.833c12.146,8.479,21.313,15.125,24.063,18.1a14.1,14.1,0,0,1-19.938,19.938c-2.75-2.75-9.625-11.917-18.1-24.063Z" transform="translate(-2.379 -2.785)" fill="#febe40" stroke="#26282b" stroke-width="1.5"/>
+      <path id="패스_5285" data-name="패스 5285" d="M72.417,88.229c-1.375-2.063-2.979-4.125-4.354-6.187L82.042,68.063c2.292,1.6,4.354,2.979,6.188,4.354Z" transform="translate(-1.803 -2.11)" fill="#ff7307" stroke="#26282b" stroke-width="1.5"/>
+      <path id="패스_5286" data-name="패스 5286" d="M70.354,84.333,84.334,70.354a3.565,3.565,0,0,0-5.042-5.042L65.313,79.292a3.6,3.6,0,0,0,0,5.042A3.243,3.243,0,0,0,70.354,84.333Z" transform="translate(-1.72 -2.017)" fill="#febe40" stroke="#26282b" stroke-width="1.5"/>
+      <ellipse id="타원_60" data-name="타원 60" cx="10.771" cy="5.042" rx="10.771" ry="5.042" transform="translate(28.545 16.202)" fill="#fff" stroke="#26282b" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>

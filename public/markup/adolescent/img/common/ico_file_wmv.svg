@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="그룹_1152" data-name="그룹 1152" transform="translate(-1235 -3356)">
+    <g id="icon_" transform="translate(360 -10)">
+      <rect id="사각형_554" data-name="사각형 554" width="30" height="30" rx="5" transform="translate(875 3366)" fill="#f99933"/>
+      <path id="다각형_20" data-name="다각형 20" d="M7,0l7,12H0Z" transform="translate(896 3374) rotate(90)" fill="#f7b966"/>
+      <text id="WMV" transform="translate(890 3384.5)" fill="#fff" font-size="10" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-12.021" y="0">WMV</tspan></text>
+    </g>
+  </g>
+</svg>

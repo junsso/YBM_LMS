@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16">
+  <g id="그룹_1203" data-name="그룹 1203" transform="translate(-1391 -821)">
+    <rect id="사각형_361" data-name="사각형 361" width="17" height="12" rx="2" transform="translate(1391 825)" fill="#222"/>
+    <g id="사각형_362" data-name="사각형 362" transform="translate(1391 821)" fill="none" stroke="#c9cdd2" stroke-width="1.5">
+      <rect width="17" height="2" rx="1" stroke="none"/>
+      <rect x="0.75" y="0.75" width="15.5" height="0.5" rx="0.25" fill="none"/>
+    </g>
+  </g>
+</svg>

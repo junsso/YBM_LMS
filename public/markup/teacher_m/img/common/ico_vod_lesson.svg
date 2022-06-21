@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25" height="25" viewBox="0 0 25 25">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_6" data-name="사각형 6" width="25" height="25" transform="translate(40 622)" fill="#ff5c5c"/>
+    </clipPath>
+  </defs>
+  <g id="ico_화상수업" transform="translate(-40 -622)" clip-path="url(#clip-path)">
+    <g id="browser" transform="translate(40 622)">
+      <rect id="사각형_807" data-name="사각형 807" width="23" height="13" transform="translate(1 9)" fill="#ff5c5c"/>
+      <path id="패스_173" data-name="패스 173" d="M20.389,14.023l-2.946-1.586a1.465,1.465,0,0,0-2.159,1.29v3.626a1.464,1.464,0,0,0,2.3,1.2l2.946-2.04a1.465,1.465,0,0,0-.139-2.494Zm-3.641,3.329V13.726l2.946,1.586Z" fill="#fff"/>
+      <path id="패스_174" data-name="패스 174" d="M8.594,11.768H3.906a.732.732,0,0,0,0,1.465H8.594a.732.732,0,0,0,0-1.465Z" fill="#fff"/>
+      <path id="패스_175" data-name="패스 175" d="M8.594,14.893H3.906a.732.732,0,0,0,0,1.465H8.594a.732.732,0,0,0,0-1.465Z" fill="#fff"/>
+      <path id="패스_176" data-name="패스 176" d="M8.594,18.018H3.906a.732.732,0,0,0,0,1.465H8.594a.732.732,0,0,0,0-1.465Z" fill="#fff"/>
+      <path id="패스_177" data-name="패스 177" d="M22.8,2H2.2A2.2,2.2,0,0,0,0,4.2V20.8A2.2,2.2,0,0,0,2.2,23H22.8A2.2,2.2,0,0,0,25,20.8V4.2A2.2,2.2,0,0,0,22.8,2ZM2.2,3.467H22.8a.733.733,0,0,1,.732.732V8.252H1.465V4.2A.733.733,0,0,1,2.2,3.467ZM22.8,21.533H2.2a.733.733,0,0,1-.732-.732V9.717h22.07V20.8A.733.733,0,0,1,22.8,21.533Z" fill="#ff5c5c"/>
+      <circle id="타원_9" data-name="타원 9" cx="0.732" cy="0.732" r="0.732" transform="translate(3.174 5.127)" fill="#ff5c5c"/>
+      <circle id="타원_10" data-name="타원 10" cx="0.732" cy="0.732" r="0.732" transform="translate(6.299 5.127)" fill="#ff5c5c"/>
+      <circle id="타원_11" data-name="타원 11" cx="0.732" cy="0.732" r="0.732" transform="translate(9.424 5.127)" fill="#ff5c5c"/>
+    </g>
+  </g>
+</svg>

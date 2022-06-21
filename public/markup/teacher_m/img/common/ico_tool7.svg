@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="35" height="16" viewBox="0 0 35 16">
+  <g id="굵기" transform="translate(-1382 -810)">
+    <path id="다각형_7" data-name="다각형 7" d="M4,0,8,5H0Z" transform="translate(1417 814) rotate(90)" fill="#00a58a"/>
+    <rect id="사각형_361" data-name="사각형 361" width="17" height="12" rx="2" transform="translate(1390 810)" fill="#222"/>
+    <g id="사각형_362" data-name="사각형 362" transform="translate(1390 824)" fill="none" stroke="#222" stroke-width="1.5">
+      <rect width="17" height="2" rx="1" stroke="none"/>
+      <rect x="0.75" y="0.75" width="15.5" height="0.5" rx="0.25" fill="none"/>
+    </g>
+    <text id="_2" data-name="2" transform="translate(1385 822)" font-size="10" font-family="NotoSansKR-Regular, Noto Sans KR" opacity="0.8"><tspan x="-2.775" y="0">2</tspan></text>
+  </g>
+</svg>

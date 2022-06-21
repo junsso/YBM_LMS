@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge;Chromeframe=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="generator" content="">
+<meta name="robots" content="ALL">
+<meta property="og:type" content="">
+<meta property="og:title" content="">
+<meta property="og:description" content="">
+<meta property="og:image" content="">
+<meta property="og:url" content="">
+<title>페이지명 | 교사(채널명) | YBM온라인스쿨(사이트명)</title>
+<link rel="shortcut icon" href="">
+<link rel="stylesheet" href="../../lib/jquery-ui.min.css">
+<link rel="stylesheet" href="../../lib/swiper.min.css">
+<link rel="stylesheet" href="../../lib/lightgallery.css">
+<link rel="stylesheet" href="../../common/css/import.css">
+<script src="../../lib/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <section class="wrap">
+        <!-- start:좌측 메뉴 -->
+        <section class="header">
+            <div class="inner">
+                <h1 class="site-name"><a href="#">YBM스마트스쿨</a></h1>
+                <nav class="gnb">
+                    <ul>
+                        <li>
+                            <a href="#"><span class="ico-gnb sboard"></span><em>수업보드</em></a>
+                        </li>
+                        <li class="current">
+                            <a href="#"><span class="ico-gnb mg-class"></span><em>수업관리</em></a>
+                            <ul class="dropdown">
+                                <li class="current"><a href="#">수업설계</a></li>
+                                <li><a href="#">평가·과제 관리</a></li>
+                                <li><a href="#">Online 콘텐츠 만들기</a></li>
+                                <li><a href="#">시간표 관리</a></li>
+                                <li><a href="#">수업 리포트</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#"><span class="ico-gnb mg-study"></span><em>학급학생관리</em></a>
+                            <ul class="dropdown">
+                                <li><a href="#">학급 현황</a></li>
+                                <li><a href="#">학생 현황</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#"><span class="ico-gnb mg-alarm"></span><em>메시지 관리</em></a>
+                            <ul class="dropdown">
+                                <li><a href="#">알림장(전달사항)</a></li>
+                                <li><a href="#">상담/문의</a></li>
+                            </ul>
+                        </li>
+                        <li class="dv-bar"></li>
+                        <li>
+                            <a href="#"><span class="ico-gnb rnd"></span><em>수업연구실</em></a>
+                            <ul class="dropdown">
+                                <li><a href="#">자료 나눔터</a></li>
+                                <li><a href="#">내 연구실</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#"><span class="ico-gnb ttalk"></span><em>T톡</em></a>
+                            <ul class="dropdown">
+                                <li><a href="#">이슈톡</a></li>
+                                <li><a href="#">프리톡</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="launch-wrap">
+                    <a href="https://www.ybmcloud.com" target="_blank" title="Y클라우드 새창열림"><span></span></a>
+                </div>
+            </div>
+            <div class="toggle-fold">
+                <button><span>메뉴 열기/닫기</span></button>
+            </div>
+        </section>
+        <!-- //end:좌측 메뉴 -->
+        <section class="container">            
+            <div class="wrapper-lg">
+                <section class="common-top">
+                    <div class="room-summary">
+                        <h1 class="room-name">세상에 없던 스마트 스쿨</h1>
+                        <div class="room-charge">(홍길동선생님)</div>
+                    </div>
+                    <div class="unb">
+                        <button type="button" class="btn-alarm"><span>5</span></button>
+                        <a href="#" class="link-voucher">이용권</a>
+                        <ul>
+                            <li><a href="#">개인정보</a></li>
+                            <li><a href="#">고객센터</a></li>
+                            <li><a href="#"><span class="ico-logout"></span>로그아웃</a></li>
+                        </ul>
+                    </div>
+                </section>
+                <!-- start:본문 -->
+                <section class="content">
+                    <div class="basic-box">
+                        <!-- start: 수업 자료 관리 -->
+                        <div class="cl-list-manage">
+                            <div class="box-head title-bx">
+                                <h2>수업 자료 관리</h2>
+                                <div class="cr-wrap">
+                                    <!-- start: 등록된 학급이 표시됨 -->
+                                    <div class="chk-control-box">
+                                        <div class="form-wrap">
+                                            <input type="radio" name="myList" id="myList1" class="rd-control" checked>
+                                            <label for="myList1" class="rd-label">영어 3 (최)</label>
+                                        </div>
+                                        <div class="form-wrap">
+                                            <input type="radio" name="myList" id="myList2" class="rd-control" >
+                                            <label for="myList2" class="rd-label">체육 3 (최)</label>
+                                        </div>
+                                        <div class="form-wrap">
+                                            <input type="radio" name="myList" id="myList3" class="rd-control" >
+                                            <label for="myList3" class="rd-label">음악 3 (최)</label>
+                                        </div>
+                                    </div>
+                                    <!-- //end 등록된 학급이 표시됨 -->
+                                </div>
+                                <div class="btn-box"><a href="#" class="btn btn02">목록</a></div>
+                            </div>
+                            <div class="box-content">
+                                <div class="cl-management">
+                                    <div class="cont">
+                                        <div class="lf-col">
+                                            <div class="thumb-bx">
+                                                <p class="img-wrap"><img src="../../img/temp/img_book01.svg" alt=""></p>
+                                            </div>
+                                        </div>
+                                        <div class="rt-col">
+                                            <div class="disc">
+                                                <h2>영어3 - 최희경 외 <span>총 <em>62</em>차시</span></h2>
+                                            </div>
+                                            <div class="work-sheet">
+                                                <div class="cont">
+                                                    <!-- memo : 먼저 추천3개 노출 후 인기3개 노출-->
+                                                    <div class="swiper-container" id="sheetSwiper">
+                                                        <div class="swiper-wrapper">
+                                                            <div class="swiper-slide">
+                                                                <div class="cont-head">
+                                                                    <ul class="sheet">
+                                                                        <li class="active"><span class="like">추천</span></li>
+                                                                        <li><span>온라인 워크시트</span></li>
+                                                                    </ul>
+                                                                    <ul class="cont-label">
+                                                                        <li class="down on"><button><i></i><span>10</span></button></li>
+                                                                        <li class="copy"><button><i></i><span>100</span></button></li>
+                                                                        <li class="like"><button><i></i><span>20</span></button></li>
+                                                                    </ul>
+                                                                </div>
+                                                                <div class="cont-body">
+                                                                    <ul>
+                                                                        <li><p class="img-wrap"><img src="../../img/common/ico_pdf.svg" alt=""></p></li>
+                                                                        <li>
+                                                                            <a href="#">
+                                                                                <h3>[ 수업용 | 온라인 워크시트 ]</h3>
+                                                                                <p>영어 3 (최) > Lesson 1 > 2차시 > 학습 문제 풀이</p>
+                                                                            </a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                            <div class="swiper-slide">
+                                                                <div class="cont-head">
+                                                                    <ul class="sheet">
+                                                                        <li class="active"><span class="like">추천</span></li>
+                                                                        <li><span>온라인 워크시트</span></li>
+                                                                    </ul>
+                                                                    <ul class="cont-label">
+                                                                        <li class="down on"><button><i></i><span>10</span></button></li>
+                                                                        <li class="copy"><button><i></i><span>100</span></button></li>
+                                                                        <li class="like"><button><i></i><span>20</span></button></li>
+                                                                    </ul>
+                                                                </div>
+                                                                <div class="cont-body">
+                                                                    <ul>
+                                                                        <li><p class="img-wrap"><img src="../../img/common/ico_pdf.svg" alt=""></p></li>
+                                                                        <li>
+                                                                            <a href="#">
+                                                                                <h3>[ 수업용 | 온라인 워크시트 ]</h3>
+                                                                                <p>영어 3 (최) > Lesson 1 > 2차시 > 학습 문제 풀이</p>
+                                                                            </a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                            <div class="swiper-slide">
+                                                                <div class="cont-head">
+                                                                    <ul class="sheet">
+                                                                        <li class="active"><span class="like">추천</span></li>
+                                                                        <li><span>온라인 워크시트</span></li>
+                                                                    </ul>
+                                                                    <ul class="cont-label">
+                                                                        <li class="down on"><button><i></i><span>10</span></button></li>
+                                                                        <li class="copy"><button><i></i><span>100</span></button></li>
+                                                                        <li class="like"><button><i></i><span>20</span></button></li>
+                                                                    </ul>
+                                                                </div>
+                                                                <div class="cont-body">
+                                                                    <ul>
+                                                                        <li><p class="img-wrap"><img src="../../img/common/ico_pdf.svg" alt=""></p></li>
+                                                                        <li>
+                                                                            <a href="#">
+                                                                                <h3>[ 수업용 | 온라인 워크시트 ]</h3>
+                                                                                <p>영어 3 (최) > Lesson 1 > 2차시 > 학습 문제 풀이</p>
+                                                                            </a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                            <div class="swiper-slide">
+                                                                <div class="cont-head">
+                                                                    <ul class="sheet">
+                                                                        <li class="on"><span class="love">인기</span></li>
+                                                                        <li><span>온라인 워크시트</span></li>
+                                                                    </ul>
+                                                                    <ul class="cont-label">
+                                                                        <li class="scrap on"><button><i></i><span>10</span></button></li>
+                                                                        <li class="copy"><button><i></i><span>100</span></button></li>
+                                                                        <li class="like"><button><i></i><span>20</span></button></li>
+                                                                    </ul>
+                                                                </div>
+                                                                <div class="cont-body">
+                                                                    <ul>
+                                                                        <li><p class="img-wrap"><img src="../../img/common/ico_office.svg" alt=""></p></li>
+                                                                        <li>
+                                                                            <a href="#">
+                                                                                <h3>[ 수업용 | 온라인 워크시트 ]</h3>
+                                                                                <p>영어 3 (최) > Lesson 1 > 2차시 > 학습 문제 풀이</p>
+                                                                            </a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                            <div class="swiper-slide">
+                                                                <div class="cont-head">
+                                                                    <ul class="sheet">
+                                                                        <li class="on"><span class="love">인기</span></li>
+                                                                        <li><span>온라인 워크시트</span></li>
+                                                                    </ul>
+                                                                    <ul class="cont-label">
+                                                                        <li class="scrap on"><button><i></i><span>10</span></button></li>
+                                                                        <li class="copy"><button><i></i><span>100</span></button></li>
+                                                                        <li class="like"><button><i></i><span>20</span></button></li>
+                                                                    </ul>
+                                                                </div>
+                                                                <div class="cont-body">
+                                                                    <ul>
+                                                                        <li><p class="img-wrap"><img src="../../img/common/ico_office.svg" alt=""></p></li>
+                                                                        <li>
+                                                                            <a href="#">
+                                                                                <h3>[ 수업용 | 온라인 워크시트 ]</h3>
+                                                                                <p>영어 3 (최) > Lesson 1 > 2차시 > 학습 문제 풀이</p>
+                                                                            </a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                            <div class="swiper-slide">
+                                                                <div class="cont-head">
+                                                                    <ul class="sheet">
+                                                                        <li class="on"><span class="love">인기</span></li>
+                                                                        <li><span>온라인 워크시트</span></li>
+                                                                    </ul>
+                                                                    <ul class="cont-label">
+                                                                        <li class="scrap on"><button><i></i><span>10</span></button></li>
+                                                                        <li class="copy"><button><i></i><span>100</span></button></li>
+                                                                        <li class="like"><button><i></i><span>20</span></button></li>
+                                                                    </ul>
+                                                                </div>
+                                                                <div class="cont-body">
+                                                                    <ul>
+                                                                        <li><p class="img-wrap"><img src="../../img/common/ico_office.svg" alt=""></p></li>
+                                                                        <li>
+                                                                            <a href="#">
+                                                                                <h3>[ 수업용 | 온라인 워크시트 ]</h3>
+                                                                                <p>영어 3 (최) > Lesson 1 > 2차시 > 학습 문제 풀이</p>
+                                                                            </a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                                <div class="indicator">
+                                                    <!-- Add Arrows -->
+                                                    <div class="swiper-button-next"></div>
+                                                    <div class="swiper-button-prev"></div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="step-list">
+                                        <ul>
+                                            <li class="stp1">
+                                                <div class="sl-box">
+                                                    <p>Lesson 1. What Grade Are You In?</p>
+                                                    <i class="arrow"></i>
+                                                </div>
+                                            </li>
+                                            <li class="stp2">
+                                                <div class="sl-box">
+                                                    <p>[2차시] What Grade Are You In?  (10~11p)</p>
+                                                    <i class="arrow"></i>
+                                                </div>
+                                                <div class="modify">
+                                                    <a href="#">내 수업 수정하기</a>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <div class="op-wrap"> 
+                                            <div class="inner">
+                                                <ul class="op-box">
+                                                    <li><a href="#;">Lesson 2. What’s This?</a></li>
+                                                    <li><a href="#;">Lesson 2. What’s This?</a></li>
+                                                    <li><a href="#;">Lesson 2. What’s This?</a></li>
+                                                    <li><a href="#;">Lesson 2. What’s This?</a></li>
+                                                    <li><a href="#;">Lesson 2. What’s This?</a></li>
+                                                </ul>
+                                                <ul class="op-box op2">
+                                                    <li><a href="#;">[4차시] What Grade Are You In?  (10~11p)</a></li>
+                                                    <li><a href="#;">[3차시] Hi, I’m Sena 4 (16~17p)</a></li>
+                                                    <li><a href="#;">[2차시] What Grade Are You In?  (10~11p)</a></li>
+                                                    <li><a href="#;">[2차시] What Grade Are You In?  (10~11p)</a></li>
+                                                    <li><a href="#;">[1차시] What Grade Are You In?  (10~11p)</a></li>
+                                                    <li><a href="#;">[1차시] What Grade Are You In?  (10~11p)</a></li>
+                                                    <li><a href="#;">[1차시] What Grade Are You In?  (10~11p)</a></li>
+                                                    <li><a href="#;">[1차시] What Grade Are You In?  (10~11p)</a></li>
+                                                </ul>
+                                            </div>                                           
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- //end:수업 자료 관리 -->
+                        <!-- start: 수업 자료&콘텐츠 -->
+                        <div class="cl-contents">
+                            <ul>
+                                <li class="mk">
+                                    <div class="cont-make">
+                                        <div class="box-head title-bx">
+                                            <h2>수업 자료 & 콘텐츠</h2>
+                                            <div class="btn-box"><a href="#" class="btn btn05" target="_blank">콘텐츠 만들기</a></div>
+                                        </div>
+                                        <div class="box-content">
+                                            <!-- start: 수업용 자료 -->
+                                            <div class="tg-part-wrap">
+                                                <div class="tg-title">
+                                                    <h2>수업용 자료 (4/10)</h2>
+                                                    <i class="arrow"></i>
+                                                </div>
+                                                <div class="tg-cont">
+                                                    <div class="item">
+                                                        <!-- 파일 클래스명 - mp4파일: .mp4 , mp3파일: .mp3 , zip파일: .zip , pdf파일: .pdf , hwp파일: .hwp , xlsx파일: .xlsx , pptx파일: .pptx , png파일: .png , txt파일: .txt , youtube파일: .youtube -->
+                                                        <p class="f-ico mp4"></p>
+                                                        <h3>
+                                                            <input type="text" name="name" id="name01" class="mdfname02" value="[온라인 수업지원] 수업 동영상 1단원 2차시" readonly>
+                                                        </h3>
+                                                        <ul class="btn-bx">
+                                                            <li><button type="button" class="drag"></button></li>
+                                                            <li><button type="button" class="preview"></button></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="item">
+                                                        <!-- 파일 클래스명 - mp4파일: .mp4 , mp3파일: .mp3 , zip파일: .zip , pdf파일: .pdf , hwp파일: .hwp , xlsx파일: .xlsx , pptx파일: .pptx , png파일: .png , txt파일: .txt , youtube파일: .youtube -->
+                                                        <p class="f-ico zip"></p>
+                                                        <h3>
+                                                            <input type="text" name="name" id="name01" class="mdfname02" value="[온라인 수업지원] 수업 동영상 1단원 2차시" readonly>
+                                                        </h3>
+                                                        <ul class="btn-bx">
+                                                            <li><button type="button" class="drag"></button></li>
+                                                            <li><button type="button" class="preview"></button></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="item">
+                                                        <!-- 파일 클래스명 - mp4파일: .mp4 , mp3파일: .mp3 , zip파일: .zip , pdf파일: .pdf , hwp파일: .hwp , xlsx파일: .xlsx , pptx파일: .pptx , png파일: .png , txt파일: .txt , youtube파일: .youtube -->
+                                                        <p class="f-ico hwp"></p>
+                                                        <h3>
+                                                            <input type="text" name="name" id="name01" class="mdfname02" value="[온라인 수업지원] 수업 동영상 1단원 2차시" readonly>
+                                                        </h3>
+                                                        <ul class="btn-bx">
+                                                            <li><button type="button" class="drag"></button></li>
+                                                            <li><button type="button" class="preview"></button></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- //end: 수업용 자료 -->
+                                            <!-- start: 과제용 자료 -->
+                                            <div class="tg-part-wrap active">
+                                                <div class="tg-title">
+                                                    <h2>과제용 자료 (4/10)</h2>
+                                                    <i class="arrow on"></i>
+                                                </div>
+                                                <div class="tg-cont">
+                                                    <div class="item dimd">
+                                                        <!-- 파일 클래스명 - mp4파일: .mp4 , mp3파일: .mp3 , zip파일: .zip , pdf파일: .pdf , hwp파일: .hwp , xlsx파일: .xlsx , pptx파일: .pptx , png파일: .png , txt파일: .txt , youtube파일: .youtube -->
+                                                        <p class="f-ico pdf"></p>
+                                                        <h3>
+                                                            <input type="text" name="name" id="name01" class="mdfname02" value="[온라인 수업지원] 수업 동영상 1단원 2차시" readonly>
+                                                        </h3>
+                                                        <ul class="btn-bx">
+                                                            <li><button type="button" class="drag"></button></li>
+                                                            <li><button type="button" class="preview"></button></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="item">
+                                                        <!-- 파일 클래스명 - mp4파일: .mp4 , mp3파일: .mp3 , zip파일: .zip , pdf파일: .pdf , hwp파일: .hwp , xlsx파일: .xlsx , pptx파일: .pptx , png파일: .png , txt파일: .txt , youtube파일: .youtube -->
+                                                        <p class="f-ico xlsx"></p>
+                                                        <h3>
+                                                            <input type="text" name="name" id="name01" class="mdfname02" value="[온라인 수업지원] 수업 동영상 1단원 2차시" readonly>
+                                                        </h3>
+                                                        <ul class="btn-bx">
+                                                            <li><button type="button" class="drag"></button></li>
+                                                            <li><button type="button" class="preview"></button></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="item">
+                                                        <!-- 파일 클래스명 - mp4파일: .mp4 , mp3파일: .mp3 , zip파일: .zip , pdf파일: .pdf , hwp파일: .hwp , xlsx파일: .xlsx , pptx파일: .pptx , png파일: .png , txt파일: .txt , youtube파일: .youtube -->
+                                                        <p class="f-ico pptx"></p>
+                                                        <h3>
+                                                            <input type="text" name="name" id="name01" class="mdfname02" value="[온라인 수업지원] 수업 동영상 1단원 2차시" readonly>
+                                                        </h3>
+                                                        <ul class="btn-bx">
+                                                            <li><button type="button" class="drag"></button></li>
+                                                            <li><button type="button" class="preview"></button></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- //end: 과제용 자료 -->
+                                            <!-- start: 평가용 자료 -->
+                                            <div class="tg-part-wrap">
+                                                <div class="tg-title">
+                                                    <h2>평가용 자료 (2/10)</h2>
+                                                    <i class="arrow"></i>
+                                                </div>
+                                                <div class="tg-cont">
+                                                    <div class="item">
+                                                        <!-- 파일 클래스명 - mp4파일: .mp4 , mp3파일: .mp3 , zip파일: .zip , pdf파일: .pdf , hwp파일: .hwp , xlsx파일: .xlsx , pptx파일: .pptx , png파일: .png , txt파일: .txt , youtube파일: .youtube -->
+                                                        <p class="f-ico txt"></p>
+                                                        <h3>
+                                                            <input type="text" name="name" id="name01" class="mdfname02" value="[온라인 수업지원] 수업 동영상 1단원 2차시" readonly>
+                                                        </h3>
+                                                        <ul class="btn-bx">
+                                                            <li><button type="button" class="drag"></button></li>
+                                                            <li><button type="button" class="preview"></button></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="item">
+                                                        <!-- 파일 클래스명 - mp4파일: .mp4 , mp3파일: .mp3 , zip파일: .zip , pdf파일: .pdf , hwp파일: .hwp , xlsx파일: .xlsx , pptx파일: .pptx , png파일: .png , txt파일: .txt , youtube파일: .youtube -->
+                                                        <p class="f-ico hwp"></p>
+                                                        <h3>
+                                                            <input type="text" name="name" id="name01" class="mdfname02" value="[온라인 수업지원] 수업 동영상 1단원 2차시" readonly>
+                                                        </h3>
+                                                        <ul class="btn-bx">
+                                                            <li><button type="button" class="drag"></button></li>
+                                                            <li><button type="button" class="preview"></button></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- //end: 평가용 자료 -->
+                                            <!-- start: 연구용 자료 -->
+                                            <div class="tg-part-wrap">
+                                                <div class="tg-title">
+                                                    <h2>연구용 자료 (2/10)</h2>
+                                                    <i class="arrow"></i>
+                                                </div>
+                                                <div class="tg-cont">
+                                                    <div class="item">
+                                                        <!-- 파일 클래스명 - mp4파일: .mp4 , mp3파일: .mp3 , zip파일: .zip , pdf파일: .pdf , hwp파일: .hwp , xlsx파일: .xlsx , pptx파일: .pptx , png파일: .png , txt파일: .txt , youtube파일: .youtube -->
+                                                        <p class="f-ico pptx"></p>
+                                                        <h3>
+                                                            <input type="text" name="name" id="name01" class="mdfname02" value="[온라인 수업지원] 수업 동영상 1단원 2차시" readonly>
+                                                        </h3>
+                                                        <ul class="btn-bx">
+                                                            <li><button type="button" class="drag"></button></li>
+                                                            <li><button type="button" class="preview"></button></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="item">
+                                                        <!-- 파일 클래스명 - mp4파일: .mp4 , mp3파일: .mp3 , zip파일: .zip , pdf파일: .pdf , hwp파일: .hwp , xlsx파일: .xlsx , pptx파일: .pptx , png파일: .png , txt파일: .txt , youtube파일: .youtube -->
+                                                        <p class="f-ico png"></p>
+                                                        <h3>
+                                                            <input type="text" name="name" id="name01" class="mdfname02" value="[온라인 수업지원] 수업 동영상 1단원 2차시" readonly>
+                                                        </h3>
+                                                        <ul class="btn-bx">
+                                                            <li><button type="button" class="drag"></button></li>
+                                                            <li><button type="button" class="preview"></button></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- //end: 연구용 자료 -->
+                                            <!-- start: 공통 자료 -->
+                                            <div class="tg-part-wrap">
+                                                <div class="tg-title">
+                                                    <h2>공통 자료 (2/10)</h2>
+                                                    <i class="arrow"></i>
+                                                    <ul class="tg-sort type-a">
+                                                        <li class="on"><button type="button">단원 공통</button></li>
+                                                        <li><button type="button">차시 공통</button></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="tg-cont">
+                                                    <div class="item">
+                                                        <!-- 파일 클래스명 - mp4파일: .mp4 , mp3파일: .mp3 , zip파일: .zip , pdf파일: .pdf , hwp파일: .hwp , xlsx파일: .xlsx , pptx파일: .pptx , png파일: .png , txt파일: .txt , youtube파일: .youtube -->
+                                                        <p class="f-ico mp4"></p>
+                                                        <h3>
+                                                            <input type="text" name="name" id="name01" class="mdfname02" value="[온라인 수업지원] 수업 동영상 1단원 2차시" readonly>
+                                                        </h3>
+                                                        <ul class="btn-bx">
+                                                            <li><button type="button" class="drag"></button></li>
+                                                            <li><button type="button" class="preview"></button></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="item">
+                                                        <!-- 파일 클래스명 - mp4파일: .mp4 , mp3파일: .mp3 , zip파일: .zip , pdf파일: .pdf , hwp파일: .hwp , xlsx파일: .xlsx , pptx파일: .pptx , png파일: .png , txt파일: .txt , youtube파일: .youtube -->
+                                                        <p class="f-ico hwp"></p>
+                                                        <h3>
+                                                            <input type="text" name="name" id="name01" class="mdfname02" value="[온라인 수업지원] 수업 동영상 1단원 2차시" readonly>
+                                                        </h3>
+                                                        <ul class="btn-bx">
+                                                            <li><button type="button" class="drag"></button></li>
+                                                            <li><button type="button" class="preview"></button></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- //end: 공통 자료 -->
+                                             <!-- start: 내 온라인 콘텐츠 -->
+                                             <div class="tg-part-wrap">
+                                                <div class="tg-title">
+                                                    <ul class="tg-sort">
+                                                        <li class="on"><button type="button">내 온라인 콘텐츠</button></li>
+                                                        <li><button type="button">내 자료함</button></li>
+                                                        <li><button type="button">스크랩 자료</button></li>
+                                                    </ul>
+                                                    <i class="arrow"></i>
+                                                </div>
+                                                <div class="tg-cont">
+                                                    <div class="item">
+                                                        <!-- 파일 클래스명 - mp4파일: .mp4 , mp3파일: .mp3 , zip파일: .zip , pdf파일: .pdf , hwp파일: .hwp , xlsx파일: .xlsx , pptx파일: .pptx , png파일: .png , txt파일: .txt , youtube파일: .youtube -->
+                                                        <p class="f-ico mp3"></p>
+                                                        <h3>
+                                                            <input type="text" name="name" id="name01" class="mdfname02" value="[온라인 수업지원] 수업 동영상 1단원 2차시" readonly>
+                                                        </h3>
+                                                        <ul class="btn-bx">
+                                                            <li><button type="button" class="drag"></button></li>
+                                                            <li><button type="button" class="preview"></button></li>
+                                                            <li><a href="#" class="down" download=""></a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="item">
+                                                        <!-- 파일 클래스명 - mp4파일: .mp4 , mp3파일: .mp3 , zip파일: .zip , pdf파일: .pdf , hwp파일: .hwp , xlsx파일: .xlsx , pptx파일: .pptx , png파일: .png , txt파일: .txt , youtube파일: .youtube -->
+                                                        <p class="f-ico mp4"></p>
+                                                        <h3>
+                                                            <input type="text" name="name" id="name01" class="mdfname02" value="[온라인 수업지원] 수업 동영상 1단원 2차시" readonly>
+                                                        </h3>
+                                                        <ul class="btn-bx">
+                                                            <li><button type="button" class="drag"></button></li>
+                                                            <li><button type="button" class="preview"></button></li>
+                                                            <li><a href="#" class="down" download=""></a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- //end: 내 온라인 콘텐츠 -->
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="ct">
+                                    <div class="cont-tab">
+                                        <div class="box-head title-bx">
+                                            <ul class="division">
+                                                <li class="on"><a href="#" class="btns">내 수업안</a></li>
+                                                <li class="stu">
+                                                    <a href="#" class="btns">학생용</a>
+                                                    <div class="balloon bottom">
+                                                        <p>자기주도 학습용으로 학생에게<br>공개되는 자료 입니다. 학생에게 공개되는 자료를 추가/삭제 할 수 있습니다.</p>
+                                                    </div>
+                                                </li>
+                                                <li><a href="tc_p_1103_6.html" class="btns">과제/평가</a></li>
+                                            </ul>
+                                            <div class="btn-box">
+                                                <a href="#" class="btn btn03" target="_blank">차시 자료 보기</a>
+                                             </div>
+                                        </div>
+                                        <div class="box-content">
+                                            <!-- start: 도입 -->
+                                            <div class="tg-part-wrap move active">
+                                                <div class="tg-title">
+                                                    <div class="form-wrap">
+                                                        <input type="text" name="name" id="name01" class="mdfname" value="도입" readonly>
+                                                    </div>
+                                                    <ul class="btn-bx modi">
+                                                        <li><button type="button" class="modify"></button></li>
+                                                        <li><button type="button" class="delete" data-popup="allDelete"></button></li>
+                                                    </ul>
+                                                    <i class="arrow on"></i>
+                                                </div>
+                                                <div class="tg-cont">
+                                                    <div class="item">
+                                                        <!-- 파일 클래스명 - mp4파일: .mp4 , mp3파일: .mp3 , zip파일: .zip , pdf파일: .pdf , hwp파일: .hwp , xlsx파일: .xlsx , pptx파일: .pptx , png파일: .png , txt파일: .txt , youtube파일: .youtube -->
+                                                        <p class="f-ico mp3"></p>
+                                                        <h3>
+                                                            <input type="text" name="name" id="name01" class="mdfname02" value="[온라인 수업지원] 수업 동영상 1단원 2차시" readonly>
+                                                        </h3>
+                                                        
+                                                        <ul class="btn-bx modi">
+                                                            <li><button type="button" class="modify"></button></li>
+                                                            <li><a href="#" class="preview"></a></li>
+                                                            <li><button type="button" class="remove"></button></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="item">
+                                                        <!-- 파일 클래스명 - mp4파일: .mp4 , mp3파일: .mp3 , zip파일: .zip , pdf파일: .pdf , hwp파일: .hwp , xlsx파일: .xlsx , pptx파일: .pptx , png파일: .png , txt파일: .txt , youtube파일: .youtube -->
+                                                        <p class="f-ico xlsx"></p>
+                                                        <h3>
+                                                            <input type="text" name="name" id="name01" class="mdfname02" value="[온라인 수업지원] 수업 동영상 1단원 2차시" readonly>
+                                                        </h3>
+                                                        <ul class="btn-bx modi">
+                                                            <li><button type="button" class="modify"></button></li>
+                                                            <li><a href="#" class="preview"></a></li>
+                                                            <li><button type="button" class="remove"></button></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="item">
+                                                        <!-- 파일 클래스명 - mp4파일: .mp4 , mp3파일: .mp3 , zip파일: .zip , pdf파일: .pdf , hwp파일: .hwp , xlsx파일: .xlsx , pptx파일: .pptx , png파일: .png , txt파일: .txt , youtube파일: .youtube -->
+                                                        <p class="f-ico hwp"></p>
+                                                        <h3>
+                                                            <input type="text" name="name" id="name01" class="mdfname02" value="[온라인 수업지원] 수업 동영상 1단원 2차시" readonly>
+                                                        </h3>
+                                                        <ul class="btn-bx modi">
+                                                            <li><button type="button" class="modify"></button></li>
+                                                            <li><a href="#" class="preview"></a></li>
+                                                            <li><button type="button" class="remove"></button></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- //end: 도입 -->
+                                            <!-- start: 전개 -->
+                                            <div class="tg-part-wrap move active">
+                                                <div class="tg-title">
+                                                    <div class="form-wrap">
+                                                        <input type="text" name="name" class="mdfname" id="name01" value="전개" readonly>
+                                                    </div>
+                                                    <ul class="btn-bx modi">
+                                                        <li><button type="button" class="modify"></button></li>
+                                                        <li><button type="button" class="delete" data-popup="allDelete"></button></li>
+                                                    </ul>
+                                                    <i class="arrow on"></i>
+                                                </div>
+                                                <div class="tg-cont">
+                                                    <div class="item">
+                                                        <!-- 파일 클래스명 - mp4파일: .mp4 , mp3파일: .mp3 , zip파일: .zip , pdf파일: .pdf , hwp파일: .hwp , xlsx파일: .xlsx , pptx파일: .pptx , png파일: .png , txt파일: .txt , youtube파일: .youtube -->
+                                                        <p class="f-ico mp3"></p>
+                                                        <h3>
+                                                            <input type="text" name="name" id="name01" class="mdfname02" value="[온라인 수업지원] 수업 동영상 1단원 2차시" readonly>
+                                                            <span class="disc">in[온라인 수업지원] 수업 동영상 1단원 2차시</span>
+                                                        </h3>
+                                                        
+                                                        <ul class="btn-bx modi">
+                                                            <li><button type="button" class="modify"></button></li>
+                                                            <li><a href="#" class="preview"></a></li>
+                                                            <li><button type="button" class="remove"></button></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="item">
+                                                        <!-- 파일 클래스명 - mp4파일: .mp4 , mp3파일: .mp3 , zip파일: .zip , pdf파일: .pdf , hwp파일: .hwp , xlsx파일: .xlsx , pptx파일: .pptx , png파일: .png , txt파일: .txt , youtube파일: .youtube -->
+                                                        <p class="f-ico zip"></p>
+                                                        <h3>
+                                                            <input type="text" name="name" id="name01" class="mdfname02" value="[온라인 수업지원] 수업 동영상 1단원 2차시" readonly>
+                                                            <span class="disc">in[온라인 수업지원] 수업 동영상 1단원 2차시</span>
+                                                        </h3>
+                                                        <ul class="btn-bx modi">
+                                                            <li><button type="button" class="modify"></button></li>
+                                                            <li><a href="#" class="preview"></a></li>
+                                                            <li><button type="button" class="remove"></button></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="item">
+                                                        <!-- 파일 클래스명 - mp4파일: .mp4 , mp3파일: .mp3 , zip파일: .zip , pdf파일: .pdf , hwp파일: .hwp , xlsx파일: .xlsx , pptx파일: .pptx , png파일: .png , txt파일: .txt , youtube파일: .youtube -->
+                                                        <p class="f-ico pdf"></p>
+                                                        <h3>
+                                                            <input type="text" name="name" id="name01" class="mdfname02" value="[온라인 수업지원] 수업 동영상 1단원 2차시" readonly>
+                                                            <span class="disc">in[온라인 수업지원] 수업 동영상 1단원 2차시</span>
+                                                        </h3>
+                                                        <ul class="btn-bx modi">
+                                                            <li><button type="button" class="modify"></button></li>
+                                                            <li><a href="#" class="preview"></a></li>
+                                                            <li><button type="button" class="remove"></button></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- //end: 전개 -->
+                                            <!-- start: 마무리 -->
+                                            <div class="tg-part-wrap move">
+                                                <div class="tg-title">
+                                                    <div class="form-wrap">
+                                                        <input type="text" name="name" class="mdfname" id="name01" value="마무리" readonly>
+                                                    </div>
+                                                    <ul class="btn-bx modi">
+                                                        <li><button type="button" class="modify"></button></li>
+                                                        <li><button type="button" class="delete" data-popup="allDelete"></button></li>
+                                                    </ul>
+                                                    <i class="arrow"></i>
+                                                </div>
+                                                <div class="tg-cont">
+                                                    <div class="item">
+                                                        <!-- 파일 클래스명 - mp4파일: .mp4 , mp3파일: .mp3 , zip파일: .zip , pdf파일: .pdf , hwp파일: .hwp , xlsx파일: .xlsx , pptx파일: .pptx , png파일: .png , txt파일: .txt , youtube파일: .youtube -->
+                                                        <p class="f-ico png"></p>
+                                                        <h3>
+                                                            <input type="text" name="name" id="name01" class="mdfname02" value="[온라인 수업지원] 수업 동영상 1단원 2차시" readonly>
+                                                            <span class="disc">in[온라인 수업지원] 수업 동영상 1단원 2차시</span>
+                                                        </h3>                                                        
+                                                        <ul class="btn-bx modi">
+                                                            <li><button type="button" class="modify"></button></li>
+                                                            <li><a href="#" class="preview"></a></li>
+                                                            <li><button type="button" class="remove"></button></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="item">
+                                                        <!-- 파일 클래스명 - mp4파일: .mp4 , mp3파일: .mp3 , zip파일: .zip , pdf파일: .pdf , hwp파일: .hwp , xlsx파일: .xlsx , pptx파일: .pptx , png파일: .png , txt파일: .txt , youtube파일: .youtube -->
+                                                        <p class="f-ico txt"></p>
+                                                        <h3>
+                                                            <input type="text" name="name" id="name01" class="mdfname02" value="[온라인 수업지원] 수업 동영상 1단원 2차시" readonly>
+                                                            <span class="disc">in[온라인 수업지원] 수업 동영상 1단원 2차시</span>
+                                                        </h3>
+                                                        <ul class="btn-bx modi">
+                                                            <li><button type="button" class="modify"></button></li>
+                                                            <li><a href="#" class="preview"></a></li>
+                                                            <li><button type="button" class="remove"></button></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- //end: 마무리 -->
+                                            <!-- start: 내가 만든 온라인 콘텐츠 -->
+                                            <div class="tg-part-wrap list">
+                                                <div class="tg-title">
+                                                    <h2>내가 만든 온라인 콘텐츠</h2>
+                                                    <i class="arrow white"></i>
+                                                </div>
+                                                <div class="tg-cont">
+                                                    <div class="item">
+                                                        <h3>
+                                                            <input type="text" name="name" id="name01" class="mdfname02" value="[온라인 수업지원] 수업 동영상 1단원 2차시" readonly>
+                                                            <span class="disc">in[온라인 수업지원] 수업 동영상 1단원 2차시</span>
+                                                        </h3>                                                       
+                                                        <ul class="btn-bx">
+                                                            <li><button type="button" class="preview"></button></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- //end: 내가 만든 온라인 콘텐츠 -->
+                                            <div class="more-box">
+                                                <a href="#;">
+                                                    <img src="../../img/common/ico_more_bg.svg" alt="">
+                                                    <div class="balloon bottom">
+                                                        <p>도입, 전개, 마무리와 같은 <br>자료 구분 단계를 추가합니다.</p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <!-- start: 취소/저장 버튼 -->
+                            <div class="btn-wrap">
+                                <div class="col-6"><button type="button" class="btn">취소</button></div>
+                                <div class="col-6"><button type="button" class="btn btn02">저장</button></div>
+                            </div>
+                            <!-- //end: 취소/저장 버튼 -->
+                        </div>
+                        <!-- //end:수업 자료&콘텐츠 -->
+                    </div>
+                </section>
+                <!-- //end:본문 -->
+            </div>
+        </section>
+    </section>
+
+    <!-- start:레이어 팝업 -->
+    <div class="popup-wrap"></div>
+    <!-- //end:레이어 팝업 -->
+
+<script src="../../lib/jquery-ui.min.js"></script>
+<script src="../../lib/swiper.js"></script>
+<script src="../../lib/lightgallery-all.min.js"></script>
+<script src="../../common/js/popup.js"></script>
+<script src="../../common/js/ui.js"></script>
+</body>
+</html>

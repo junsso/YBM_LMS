@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="58" viewBox="0 0 50 58">
+  <defs>
+    <pattern id="pattern" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 180 163">
+      <image width="180" height="163" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAACjCAMAAAAUwMQjAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAZQTFRF////////VXz1bAAAAAJ0Uk5T/wDltzBKAAACvklEQVR42uzcwZLcIAwE0O7//+lcUpVkVhYCS2i1aY54vDxNeTBI1AJfG38355J/9eOT/7THaxv9qELDQWMnGqO/Dg0HjY1ojP5CNBw04tEY/ZVoOGiEozH6S9Fw0IhGExs6EQ0HjWA0Rn8xGg4asWiM/mq0O8eGoonBctHuHBuJxuivR7tzbCAao/8C2p1j19EY/TfQ7hy7jMbov4J2b1tFY/TfQbtz7CIao/8SGuvbNvq/AxruTYg1oYUWWmihhRZaaKGFFjq6i23fbp2geQHNdDTL0SxAszFZc45mW1rsDZpNCch3aLaket+iWYRmKZrXyxcZaBagWY5mOpoX0ExG8wqaqWheQjMRzWtopqF5Ec1I/juwaOZVdJC1uiq00EJ3ozFx9rg+T2ehMRKNkWiMRGMkGiPRGInGSDRGojESjZFojERjJBoj0RiJhtBCCy200EILLbTQQgvNgWhy3s6Fx+i+PSKP0X27cR6j+/IePEb3ZZh4jO7L5fEY3Zc15TG6Lz/NYzQHohtrLjxFN1a3eIpurCPyFN1YseUpurE2zlN04ykEnqLbznt82ya00EILLbTQQgsttNBCCy200P8zumdDL3Se6rHZ6L0UTqCyuUpVF6K9nJXQc9GLR/Hno43bLfTeHLH1dNhot2aZi94r2/00tF/SDqJjj/RmVfcZvTg8kIle1M/dX4BzgKQUvV9D+euDxkmd5/9yn4f2htpC4/MvIYj+8+Eo2hsKy0a7CP9wMi2IDq/hzKHi6M+v5MtXlIdeDRVERw7HJKEDQ22jn7+RpJdLZKj1LgPP76bnldGLBVNgqC20P5+noheLp9gb0Ts0wFR0YKj9BVNoM5i0nj7Y11agyzfjB+jlzqU22yG0Ho8gOvDeDK0XI+/f2FBC30W7WdOR6KRUL94EH/4h4tvmp4UW+gX6lwADACTeO52+6riUAAAAAElFTkSuQmCC"/>
+    </pattern>
+  </defs>
+  <g id="그룹_4515" data-name="그룹 4515" transform="translate(-22 -72)">
+    <rect id="logo_w_s" width="50" height="45" transform="translate(22 72)" fill="url(#pattern)"/>
+    <g id="그룹_4509" data-name="그룹 4509" transform="translate(-228 -242)">
+      <path id="패스_5081" data-name="패스 5081" d="M269.824,366.481a.8.8,0,0,0,.292-.666.817.817,0,0,0-.27-.685,1.362,1.362,0,0,0-.841-.211h-1.082v1.8h1.09A1.261,1.261,0,0,0,269.824,366.481Z" fill="#fff"/>
+      <path id="패스_5082" data-name="패스 5082" d="M269.976,369.274a1.022,1.022,0,0,0-.725-1.74h-1.328v2h1.235A1.2,1.2,0,0,0,269.976,369.274Z" fill="#fff"/>
+      <path id="패스_5083" data-name="패스 5083" d="M265,372h8V362h-8Zm1.812-7.978h2.193a2.673,2.673,0,0,1,1.652.436,1.534,1.534,0,0,1,.567,1.3,1.375,1.375,0,0,1-.238.791,1.527,1.527,0,0,1-.694.545,1.413,1.413,0,0,1,.8.529,1.545,1.545,0,0,1,.284.934,1.706,1.706,0,0,1-.578,1.385,2.517,2.517,0,0,1-1.654.483h-2.334Z" fill="#fff"/>
+      <path id="패스_5084" data-name="패스 5084" d="M274,372h8V362h-8Zm1.812-7.978h4.152v.9h-3.041v1.767h2.629v.878h-2.629v1.969h3.072v.888h-4.183Z" fill="#fff"/>
+      <path id="패스_5085" data-name="패스 5085" d="M283,372h8V362h-8Zm1.358-7.978h5.077v.9h-2v5.5h-1.1v-5.5h-1.979Z" fill="#fff"/>
+      <path id="패스_5086" data-name="패스 5086" d="M295.227,368.035h1.854l-.928-2.654Z" fill="#fff"/>
+      <path id="패스_5087" data-name="패스 5087" d="M292,362v10h8V362Zm5.916,8.421-.522-1.49h-2.479l-.519,1.49H293.24l2.417-6.4h1l2.421,6.4Z" fill="#fff"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,1006 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge;Chromeframe=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="generator" content="">
+<meta name="robots" content="ALL">
+<meta property="og:type" content="">
+<meta property="og:title" content="">
+<meta property="og:description" content="">
+<meta property="og:image" content="">
+<meta property="og:url" content="">
+<title>페이지명 | 교사(채널명) | 시간표 관리</title>
+<link rel="shortcut icon" href="">
+<link rel="shortcut icon" href="">
+<link rel="stylesheet" href="../../lib/swiper.min.css">
+<link rel="stylesheet" href="../../lib/lightgallery.css">
+<link rel="stylesheet" href="../../lib/fullcalendar/main.min.css">
+<link rel="stylesheet" href="../../common/css/import.css">
+<script src="../../lib/jquery-3.6.0.min.js"></script>
+<script src="../../lib/fullcalendar/main.min.js"></script>
+<script src="../../lib/fullcalendar/locales/ko.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/moment@2.29.1/moment.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/moment@2.29.1/locale/ko.js"></script>
+</head>
+<body class="sch-time">
+    <section class="wrap">
+        <!-- start:좌측 메뉴 -->
+        <section class="header">
+            <div class="inner">
+                <h1 class="site-name"><a href="#">YBM스마트스쿨</a></h1>
+                <nav class="gnb">
+                    <ul>
+                        <li>
+                            <a href="#"><span class="ico-gnb sboard"></span><em>수업보드</em></a>
+                        </li>
+                        <li class="current">
+                            <a href="#"><span class="ico-gnb mg-class"></span><em>수업관리</em></a>
+                            <ul class="dropdown">
+                                <li class="current"><a href="#">수업설계</a></li>
+                                <li><a href="#">평가·과제 관리</a></li>
+                                <li><a href="#">Online 콘텐츠 만들기</a></li>
+                                <li><a href="#">시간표 관리</a></li>
+                                <li><a href="#">수업 리포트</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#"><span class="ico-gnb mg-study"></span><em>학급학생관리</em></a>
+                            <ul class="dropdown">
+                                <li><a href="#">학급 현황</a></li>
+                                <li><a href="#">학생 현황</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#"><span class="ico-gnb mg-alarm"></span><em>알림상담관리</em></a>
+                            <ul class="dropdown">
+                                <li><a href="#">알림장(전달사항)</a></li>
+                                <li><a href="#">상담/문의</a></li>
+                            </ul>
+                        </li>
+                        <li class="dv-bar"></li>
+                        <li>
+                            <a href="#"><span class="ico-gnb rnd"></span><em>수업연구실</em></a>
+                            <ul class="dropdown">
+                                <li><a href="#">자료 나눔터</a></li>
+                                <li><a href="#">내 연구실</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#"><span class="ico-gnb ttalk"></span><em>T톡</em></a>
+                            <ul class="dropdown">
+                                <li><a href="#">이슈톡</a></li>
+                                <li><a href="#">프리톡</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="launch-wrap">
+                    <a href="https://www.ybmcloud.com" target="_blank" title="Y클라우드 새창열림"><span></span></a>
+                </div>
+            </div>
+            <div class="toggle-fold">
+                <button><span>메뉴 열기/닫기</span></button>
+            </div>
+        </section>
+        <!-- //end:좌측 메뉴 -->
+        <section class="container">
+            <div class="wrapper-lg">
+                <section class="common-top">
+                    <div class="room-summary">
+                        <h1 class="room-name">세상에 없던 스마트 스쿨</h1>
+                        <div class="room-charge">(홍길동선생님)</div>
+                    </div>
+                    <div class="unb">
+                        <button type="button" class="btn-alarm"><span>5</span></button>
+                        <a href="#" class="link-voucher">이용권</a>
+                        <ul>
+                            <li><a href="#">개인정보</a></li>
+                            <li><a href="#">고객센터</a></li>
+                            <li><a href="#"><span class="ico-logout"></span>로그아웃</a></li>
+                        </ul>
+                    </div>
+                </section>
+                <!-- start:본문 -->
+                <section class="content">
+                    <div class="basic-box sch-time">
+
+                        <div class="box-head title-bx">
+                            <h2>시간표</h2>
+                            <div class="btn-box">
+                                <a href="#;" class="print tool-tip-bx">인쇄하기
+                                    <div class="balloon top">
+                                        <p>시간표 인쇄하기</p>
+                                    </div>
+                                </a>
+                                <a href="#" class="btn btn02 setting">시간표 설정</a>
+                            </div>
+                        </div>
+
+                        <div class="class-contain">
+
+                            <!-------------------- 본문 영역 -------------------->
+
+                            <div class="mg-top-30">
+                                <div id="calendar"></div>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                </section>
+                <!-- //end:본문 -->
+            </div>
+        </section>
+    </section>
+
+    <!-- start:레이어 팝업 -->
+    <div class="popup-wrap"></div>
+    <!-- //end:레이어 팝업 -->
+
+<script id="week-header" type="text/x-handlebars-template">
+    <div>
+        <div>{{week}}({{weekEng}})</div>
+        <div>{{day}}</div>
+    </div>
+    {{#if editable}}
+    <div class="slt-box normal">
+        <div class="title">
+            <h2 class="first cl-tag">
+                <button type="button" data-lecture-type class="tag tg1">등교</button>
+            </h2>
+            <ul class="cont">
+                <li class="cl-tag"><a href="#;"><span class="tag tg1">등교</span></a></li>
+                <li class="cl-tag"><a href="#;"><span class="tag tg2">온라인</span></a></li>
+                <li class="cl-tag"><a href="#;"><span class="tag tg3">화상</span></a></li>
+            </ul>
+        </div>
+    </div>
+    {{/if}}
+</script>
+<script id="week-schedule" type="text/x-handlebars-template">
+    {{#if editable}}
+        <div class='day-tag {{css}}'>{{title}} <button type='button' class='del'></button></div>
+    {{else}}
+        <p class='day-tag {{css}}'>{{title}}</p>
+    {{/if}}
+</script>
+<script id="week-lecture-meeting" type="text/x-handlebars-template">
+    <div class='sch-event-main {{unitStatusCss}}'>
+        <div class='inner'>
+            <div class='time-line'>
+                <span class='this-time'>{{time}}</span>
+                <h2 class='this-title'>{{title}}</h2>
+                <div class='cl-tag'>
+                    <button type='button' class='tag {{lectureType.css}}'>{{lectureType.name}}</button>
+                </div>
+            </div>
+        </div>
+        {{#if editable}}
+            <button type='button' class='btn-close'>삭제</button>
+        {{/if}}
+    </div>
+</script>
+<script id="week-lecture-period" type="text/x-handlebars-template">
+    <div class='sch-event-main {{unitStatusCss}}'>
+        <div class='inner'>
+            <div class='time-line'>
+                <span class='this-time'>{{time}}</span>
+                <span class='this-tch'>김*숙</span>
+                <div class='cl-tag'>
+                    <button type='button' class='tag {{lectureType.css}}'>{{lectureType.name}}</button>
+                </div>
+            </div>
+            <div class='time-title'>
+                <h2 class='tm-title'>{{title}}</h2>
+            </div>
+            <div class='time-cl-list'>
+                <p class='tm-list'>1단원 <i class='ico-nxt3'></i> 1차시</p>
+            </div>
+            <div class='time-class'>
+                <p class='tm-class'>3-2반</p>
+            </div>
+        </div>
+        {{#if editable}}
+            <button type='button' class='btn-close'>삭제</button>
+        {{/if}}
+    </div>
+</script>
+
+<script id="day-lecture-meeting" type="text/x-handlebars-template">
+    <div class='sch-event-main day'>
+        <div class='inner'>
+            <div class='lf-box'>
+                <div class='time-line'>
+                    <h2 class='this-title'>{{period}}</h2>
+                    <span class='this-time'>{{time}}</span>
+                    <h2 class='tm-title'>{{title}}</h2>
+                </div>
+            </div>
+            <div class='rt-box'>
+                <div class='cl-tag-wrap'>
+                    <div class='lf'>
+                        <div class='inn'>
+                            <div class='cl-tag type-a'>
+                                <div class='form-wrap'>
+                                    <button type='button' class='tag tg1 on'>등교수업</button>
+                                </div>
+                                <div class='form-wrap'>
+                                    <button type='button' class='tag tg2'>화상수업</button>
+                                </div>
+                                <div class='form-wrap'>
+                                    <button type='button' class='tag tg3'>온라인수업</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{#if editable}}
+            <button type='button' class='btn-close'>삭제</button>
+        {{/if}}
+    </div>
+</script>
+<script id="day-lecture-period-normal" type="text/x-handlebars-template">
+    <div class='sch-event-main day'>
+        <div class='inner'>
+            <div class='lf-box'>
+                <div class='time-line'>
+                    <h2 class='this-title'>{{period}}</h2>
+                    <span class='this-time'>{{time}}</span>
+                </div>
+                <div class='time-title'>
+                    <a href='#' class='tm-title'>{{title}}</a>
+                    <p class='tm-list'>1단원 <i class='ico-nxt3'></i> 1차시</p>
+                </div>
+                <div class='sch-box type-a'>
+                    <div class='progress'>
+                        <div class='total-bar'>
+                            <div class='current-bar' style='width: 30%'></div>
+                            <strong style='left: 30%'>8차시(30%)</strong>
+                        </div>
+                        <strong>총 32차시</strong>
+                    </div>
+                </div>
+            </div>
+            <div class='rt-box'>
+                <div class='cl-tag-wrap'>
+                    <div class='lf'>
+                        <div class='inn'>
+                            <span class='tm-class'>5-3반</span>
+                            <div class='cl-tag type-a'>
+                                <div class='form-wrap'>
+                                    <button type='button' class='tag tg1 on'>등교수업</button>
+                                </div>
+                                <div class='form-wrap'>
+                                    <button type='button' class='tag tg2'>화상수업</button>
+                                </div>
+                                <div class='form-wrap'>
+                                    <button type='button' class='tag tg3'>온라인수업</button>
+                                </div>
+                            </div>
+                            <span class='cl-value-desc'>7/06 예정 수업입니다.</span>
+                        </div>
+                    </div>
+                    <div class='rt'>
+                        <div class='class-value-box'>
+                            <div class='sch-box'>
+                                <div class='class-count'>
+                                    <div class='inner'>
+                                        <div>
+                                            <p>
+                                                <strong>10</strong>
+                                                / 20
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class='class-count list'>
+                                    <div class='inner'>
+                                        <a href='#'>
+                                            <span>
+                                                <em><img src='../../img/common/ico_file_list.svg' alt='자료보기' /></em>
+                                                자료보기
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button type='button' class='toggle-alarm type-a on'></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{#if editable}}
+            <button type='button' class='btn-close'>삭제</button>
+        {{/if}}
+    </div>
+</script>
+<script id="day-lecture-period-inprogress" type="text/x-handlebars-template">
+    <div class='sch-event-main day in-progress'>
+        <div class='inner'>
+            <div class='lf-box'>
+                <div class='time-line'>
+                    <h2 class='this-title'>{{period}}</h2>
+                    <span class='this-time'>{{time}}</span>
+                </div>
+                <div class='time-title'>
+                    <a href='#' class='tm-title'>{{title}}</a>
+                    <p class='tm-list'>1단원 <i class='ico-nxt3'></i> 1차시</p>
+                </div>
+                <div class='sch-box type-a'>
+                    <div class='progress'>
+                        <div class='total-bar'>
+                            <div class='current-bar' style='width: 30%'></div>
+                            <strong style='left: 30%'>8차시(30%)</strong>
+                        </div>
+                        <strong>총 32차시</strong>
+                    </div>
+                </div>
+            </div>
+            <div class='rt-box'>
+                <div class='cl-tag-wrap'>
+                    <div class='lf'>
+                        <div class='inn'>
+                            <span class='tm-class'>5-3반</span>
+                            <div class='cl-tag type-a'>
+                                <div class='form-wrap'>
+                                    <button type='button' class='tag tg1'>등교수업</button>
+                                </div>
+                                <div class='form-wrap'>
+                                    <button type='button' class='tag tg2 on'>화상수업</button>
+                                </div>
+                                <div class='form-wrap'>
+                                    <button type='button' class='tag tg3'>온라인수업</button>
+                                </div>
+                            </div>
+                            <span class='cl-value-desc'>현재 수업 진행 시간입니다.</span>
+                        </div>
+                    </div>
+                    <div class='rt'>
+                        <div class='class-value-box'>
+                            <div class='sch-box'>
+                                <div class='class-count'>
+                                    <div class='inner'>
+                                        <div>
+                                            <p>
+                                                <strong>10</strong>
+                                                / 20
+                                            </p>
+                                            <button type='button' class='chk-in'>출석 체크</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class='class-count vod'>
+                                    <div class='inner'>
+                                        <button>
+                                            <span>
+                                                <em><img
+                                                        src='../../img/common/ico_vod_lesson2.svg'
+                                                        alt='화상수업 연결'
+                                                    /></em>
+                                                화상수업<br />연결
+                                            </span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class='class-count start'>
+                                    <div class='inner'>
+                                        <button>
+                                            <span>
+                                                <em><img src='../../img/common/ico_pen_blue.svg' alt='수업시작' /></em>
+                                                수업시작
+                                            </span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button type='button' class='toggle-alarm type-a'></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{#if editable}}
+            <button type='button' class='btn-close'>삭제</button>
+        {{/if}}
+    </div>
+</script>
+<script id="day-lecture-period-complete" type="text/x-handlebars-template">
+    <div class='sch-event-main day complete'>
+        <div class='inner'>
+            <div class='lf-box'>
+                <div class='time-line'>
+                    <h2 class='this-title'>{{period}}</h2>
+                    <span class='this-time'>{{time}}</span>
+                </div>
+                <div class='time-title'>
+                    <a href='#' class='tm-title'>{{title}}</a>
+                    <p class='tm-list'>1단원 <i class='ico-nxt3'></i> 1차시</p>
+                </div>
+                <div class='sch-box type-a'>
+                    <div class='progress'>
+                        <div class='total-bar'>
+                            <div class='current-bar' style='width: 30%'></div>
+                            <strong style='left: 30%'>8차시(30%)</strong>
+                        </div>
+                        <strong>총 32차시</strong>
+                    </div>
+                </div>
+            </div>
+            <div class='rt-box'>
+                <div class='cl-tag-wrap'>
+                    <div class='lf'>
+                        <div class='inn'>
+                            <span class='tm-class'>5-3반</span>
+                            <div class='cl-tag type-a'>
+                                <div class='form-wrap'>
+                                    <button type='button' class='tag tg1'>등교수업</button>
+                                </div>
+                                <div class='form-wrap'>
+                                    <button type='button' class='tag tg2'>화상수업</button>
+                                </div>
+                                <div class='form-wrap'>
+                                    <button type='button' class='tag tg3 on'>온라인수업</button>
+                                </div>
+                            </div>
+                            <span class='cl-value-desc'>수업이 완료되었습니다.</span>
+                        </div>
+                    </div>
+                    <div class='rt'>
+                        <div class='class-value-box'>
+                            <div class='sch-box'>
+                                <div class='class-count'>
+                                    <div class='inner'>
+                                        <div>
+                                            <p>
+                                                <strong>10</strong>
+                                                / 20
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class='class-count result'>
+                                    <div class='inner'>
+                                        <button>
+                                            <span>
+                                                <em><img src='../../img/common/ico_doc_t1.svg' alt='결과보기' /></em>
+                                                결과보기
+                                            </span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button type='button' class='toggle-alarm type-a'></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{#if editable}}
+            <button type='button' class='btn-close'>삭제</button>
+        {{/if}}
+    </div>
+</script>
+<script id="day-lecture-period-notprogress" type="text/x-handlebars-template">
+    <div class='sch-event-main day not-progress'>
+        <div class='inner'>
+            <div class='lf-box'>
+                <div class='time-line'>
+                    <h2 class='this-title'>{{period}}</h2>
+                    <span class='this-time'>{{time}}</span>
+                </div>
+                <div class='time-title'>
+                    <a href='#' class='tm-title'>{{title}}</a>
+                    <p class='tm-list'>1단원 <i class='ico-nxt3'></i> 1차시</p>
+                </div>
+                <div class='sch-box type-a'>
+                    <div class='progress'>
+                        <div class='total-bar'>
+                            <div class='current-bar' style='width: 30%'></div>
+                            <strong style='left: 30%'>8차시(30%)</strong>
+                        </div>
+                        <strong>총 32차시</strong>
+                    </div>
+                </div>
+            </div>
+            <div class='rt-box'>
+                <div class='cl-tag-wrap'>
+                    <div class='lf'>
+                        <div class='inn'>
+                            <span class='tm-class'>5-3반</span>
+                            <div class='cl-tag type-a'>
+                                <div class='form-wrap'>
+                                    <button type='button' class='tag tg1'>등교수업</button>
+                                </div>
+                                <div class='form-wrap'>
+                                    <button type='button' class='tag tg2'>화상수업</button>
+                                </div>
+                                <div class='form-wrap'>
+                                    <button type='button' class='tag tg3'>온라인수업</button>
+                                </div>
+                            </div>
+                            <span class='cl-value-desc'>수업이 미진행 되었습니다.</span>
+                        </div>
+                    </div>
+                    <div class='rt'>
+                        <div class='class-value-box'>
+                            <div class='sch-box'>
+                                <div class='class-count'>
+                                    <div class='inner'>
+                                        <div>
+                                            <p>
+                                                <strong>10</strong>
+                                                / 20
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class='class-count complete'>
+                                    <div class='inner'>
+                                        <button>
+                                            <span>
+                                                <em><img src='../../img/common/ico_board.svg' alt='수업완료 처리' /></em>
+                                                수업완료<br />처리
+                                            </span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button type='button' class='toggle-alarm type-a on'></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{#if editable}}
+            <button type='button' class='btn-close'>삭제</button>
+        {{/if}}
+    </div>
+</script>
+
+<script id="month-schedule" type="text/x-handlebars-template">
+    <button type='button' class='day-tag {{css}}'>{{title}}</button>
+</script>
+
+<script id="list-schedule" type="text/x-handlebars-template">
+    <button type='button' class='day-tag {{css}}'>{{title}}</button>
+</script>
+<script id="list-lecture-meeting" type="text/x-handlebars-template">
+    <div class='sch-event-main type-a {{unitStatusCss}}'>
+        <div class='inner'>
+            <div class='time-line'>
+                <span class='this-time'>{{time}}</span>
+                <h2 class='this-title'>{{title}}</h2>
+                <div class='cl-tag'>
+                    <span class='tm-class'>5-3반</span>
+                    <button type='button' class='tag {{lectureType.css}}'>{{lectureType.name}}</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</script>
+<script id="list-lecture-period" type="text/x-handlebars-template">
+    <div class='sch-event-main type-a {{unitStatusCss}}'>
+        <div class='inner'>
+            <div class='time-line'>
+                <span class='this-time'>{{time}}</span>
+                <h2 class='this-title'>{{title}}</h2>
+                <p class='tm-list'>1단원 <i class='ico-nxt3'></i> 1차시</p>
+                <span class='this-tch'>김*숙</span>
+                <div class='cl-tag'>
+                    <span class='tm-class'>5-3반</span>
+                    <button type='button' class='tag {{lectureType.css}}'>{{lectureType.name}}</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</script>
+
+<script>
+Handlebars.templates = {
+    week: { lecture: {} },
+    day: { lecture: { period: {} } },
+    month: {},
+    list: { lecture: {} }
+};
+Handlebars.templates.week.header = Handlebars.compile(document.getElementById('week-header').innerHTML);
+Handlebars.templates.week.schedule = Handlebars.compile(document.getElementById('week-schedule').innerHTML);
+Handlebars.templates.week.lecture.meeting = Handlebars.compile(document.getElementById('week-lecture-meeting').innerHTML);
+Handlebars.templates.week.lecture.period = Handlebars.compile(document.getElementById('week-lecture-period').innerHTML);
+Handlebars.templates.day.lecture.meeting = Handlebars.compile(document.getElementById('day-lecture-meeting').innerHTML);
+Handlebars.templates.day.lecture.period.normal = Handlebars.compile(document.getElementById('day-lecture-period-normal').innerHTML);
+Handlebars.templates.day.lecture.period.inprogress = Handlebars.compile(document.getElementById('day-lecture-period-inprogress').innerHTML);
+Handlebars.templates.day.lecture.period.complete = Handlebars.compile(document.getElementById('day-lecture-period-complete').innerHTML);
+Handlebars.templates.day.lecture.period.notprogress = Handlebars.compile(document.getElementById('day-lecture-period-notprogress').innerHTML);
+Handlebars.templates.month.schedule = Handlebars.compile(document.getElementById('month-schedule').innerHTML);
+Handlebars.templates.list.schedule = Handlebars.compile(document.getElementById('list-schedule').innerHTML);
+Handlebars.templates.list.lecture.meeting = Handlebars.compile(document.getElementById('list-lecture-meeting').innerHTML);
+Handlebars.templates.list.lecture.period = Handlebars.compile(document.getElementById('list-lecture-period').innerHTML);
+
+var calendar = null;
+
+document.addEventListener('DOMContentLoaded', function () {
+    var scheduleCss = {
+        공휴일: 'dt-normal',
+        학사: 'dt1',
+        개인: 'dt2',
+        과제: 'dt3'
+    };
+    var lectureTypeCss = {
+        등교: 'tg1',
+        온라인: 'tg2',
+        화상: 'tg3'
+    };
+    var unitStatusCss = {
+        예정: '',
+        진행중: 'in-progress',
+        완료: 'complete',
+        미진행: 'not-progress'
+    };
+
+    var calendarEl = document.getElementById('calendar');
+    calendar = new FullCalendar.Calendar(calendarEl, {
+        locale: 'ko',
+        initialView: 'listWeek',
+        defaultRangeSeparator: ' ~ ',
+        headerToolbar: {
+            start: 'timeGridDay,timeGridWeek,dayGridMonth,listWeek,today',
+            center: 'prev,title,next',
+            end: 'viewModeBtn,changeModeBtn'
+        },
+        buttonText: {
+            day: '일간',
+            week: '주간',
+            month: '월간',
+            list: '목록'
+        },
+        customButtons: {
+            viewModeBtn: {
+                text: '보기 모드',
+                click: function () {
+                    calendar.setOption('editable', false);
+                }
+            },
+            changeModeBtn: {
+                text: '일정 변경 모드',
+                click: function () {
+                    calendar.setOption('editable', true);
+                }
+            }
+        },
+        viewDidMount: function (arg) {
+            console.log(arg);
+        },
+        viewWillUnmount: function (arg) {
+            console.log(arg);
+        },
+        views: {
+            timeGrid: {
+                scrollTime: '08:00:00',
+                slotDuration: '00:10:00',
+                slotLabelInterval: '01:00',
+                slotLabelFormat: {
+                    hour: '2-digit',
+                    minute: '2-digit',
+                    hour12: false,
+                    meridiem: false,
+                    omitZeroMinute: false
+                },
+                snapDuration: '00:05:00',
+                allDayContent: '일정',
+                dayMaxEvents: 3,
+                moreLinkContent: function (arg) {
+                    return arg.shortText + ' MORE';
+                },
+                dayHeaderClassNames: function (arg) {
+                    if (arg.isToday) return 'today';
+                },
+                dayHeaderContent: function (arg) {
+                    var data = {
+                        week: calendar.formatDate(arg.date, { weekday: 'short' }),
+                        weekEng: FullCalendar.formatDate(arg.date, { weekday: 'short' }),
+                        day: FullCalendar.formatDate(arg.date, { day: '2-digit' }),
+                        editable: calendar.getOption('editable')
+                    };
+
+                    return { html: Handlebars.templates.week.header(data) };
+                },
+                eventTimeFormat: {
+                    hour: '2-digit',
+                    minute: '2-digit',
+                    hour12: false,
+                    meridiem: false,
+                    omitZeroMinute: false
+                },
+                eventContent: function (arg) {
+                    if (arg.event.allDay) {
+                        var scheduleType = arg.event.extendedProps.scheduleType;
+
+                        var data = {
+                            title: arg.event.title,
+                            css: scheduleCss[scheduleType] || 'dt-normal',
+                            editable: scheduleType == '공휴일' ? false : calendar.getOption('editable')
+                        };
+
+                        return { html: Handlebars.templates.week.schedule(data) };
+                    } else {
+                        var isMeeting = ['조례', '종례'].includes(arg.event.extendedProps.period);
+                        var time = isMeeting
+                            ? calendar.formatDate(arg.event.start, {
+                                  hour: '2-digit',
+                                  minute: '2-digit',
+                                  hour12: false,
+                                  meridiem: false,
+                                  omitZeroMinute: false
+                              })
+                            : arg.timeText;
+
+                        var data = {
+                            time: time,
+                            title: arg.event.title,
+                            period: arg.event.extendedProps.period,
+                            lectureType: {
+                                name: arg.event.extendedProps.lectureType,
+                                css: lectureTypeCss[arg.event.extendedProps.lectureType]
+                            },
+                            unitStatusCss: unitStatusCss[arg.event.extendedProps.unitStatus] || '',
+                            editable: calendar.getOption('editable')
+                        };
+
+                        if (arg.view.type == 'timeGridDay') {
+                            if (isMeeting) return { html: Handlebars.templates.day.lecture.meeting(data) };
+                            else
+                                switch (arg.event.extendedProps.unitStatus) {
+                                    default:
+                                    case '예정':
+                                        return { html: Handlebars.templates.day.lecture.period.normal(data) };
+                                    case '진행중':
+                                        return { html: Handlebars.templates.day.lecture.period.inprogress(data) };
+                                    case '완료':
+                                        return { html: Handlebars.templates.day.lecture.period.complete(data) };
+                                    case '미진행':
+                                        return { html: Handlebars.templates.day.lecture.period.notprogress(data) };
+                                }
+                        } else {
+                            return {
+                                html: isMeeting
+                                    ? Handlebars.templates.week.lecture.meeting(data)
+                                    : Handlebars.templates.week.lecture.period(data)
+                            };
+                        }
+                    }
+                }
+            },
+            dayGridMonth: {
+                dayMaxEvents: 5,
+                moreLinkContent: function (arg) {
+                    return arg.shortText + ' MORE';
+                },
+                eventContent: function (arg) {
+                    if (arg.event.allDay) {
+                        var scheduleType = arg.event.extendedProps.scheduleType;
+
+                        var data = {
+                            title: arg.event.title,
+                            css: scheduleCss[scheduleType] || 'dt-normal',
+                            editable: scheduleType == '공휴일' ? false : calendar.getOption('editable')
+                        };
+
+                        return { html: Handlebars.templates.month.schedule(data) };
+                    }
+                }
+            },
+            listWeek: {
+                listDayFormat: {
+                    weekday: 'long'
+                },
+                listDaySideFormat: {
+                    month: 'long',
+                    day: 'numeric'
+                },
+                dayHeaderDidMount: function (arg) {
+                    arg.el.children[0].colSpan = 1;
+                },
+                eventContent: function (arg) {
+                    if (arg.event.allDay) {
+                        var scheduleType = arg.event.extendedProps.scheduleType;
+
+                        var data = {
+                            title: arg.event.title,
+                            css: scheduleCss[scheduleType] || 'dt-normal',
+                            editable: scheduleType == '공휴일' ? false : calendar.getOption('editable')
+                        };
+
+                        return { html: Handlebars.templates.list.schedule(data) };
+                    } else {
+                        var isMeeting = ['조례', '종례'].includes(arg.event.extendedProps.period);
+                        var time = calendar.formatRange(arg.event.start, arg.event.end, {
+                            hour: '2-digit',
+                            minute: '2-digit',
+                            hour12: false,
+                            meridiem: false,
+                            omitZeroMinute: false
+                        });
+
+                        var data = {
+                            time: time,
+                            title: arg.event.title,
+                            period: arg.event.extendedProps.period,
+                            lectureType: {
+                                name: arg.event.extendedProps.lectureType,
+                                css: lectureTypeCss[arg.event.extendedProps.lectureType]
+                            },
+                            unitStatusCss: unitStatusCss[arg.event.extendedProps.unitStatus] || '',
+                            editable: calendar.getOption('editable')
+                        };
+
+                        return {
+                            html: isMeeting
+                                ? Handlebars.templates.list.lecture.meeting(data)
+                                : Handlebars.templates.list.lecture.period(data)
+                        };
+                    }
+                },
+                eventDidMount: function (arg) {
+                    var time = arg.el.getElementsByClassName('fc-list-event-time');
+                    for (var i = 0; i < time.length; i++) time[i].style.display = 'none';
+                    var graphic = arg.el.getElementsByClassName('fc-list-event-graphic');
+                    for (var i = 0; i < graphic.length; i++) graphic[i].style.display = 'none';
+                }
+            }
+        },
+        events: []
+    });
+
+    function getRandomInt(min, max) {
+        min = Math.ceil(min);
+        max = Math.floor(max);
+        return Math.floor(Math.random() * (max - min)) + min;
+    }
+
+    calendar.batchRendering(function () {
+        var lectures = ['과학', '국어', '도덕', '미술', '사회', '수학', '영어', '음악', '체육'];
+        var schedules = Object.keys(scheduleCss);
+        var lectureTypes = ['등교', '온라인', '화상'];
+        var unitStatus = ['예정', '진행중', '완료', '미진행'];
+
+        var getUnitStatus = function (start, end) {
+            if (moment().isBetween(start, end)) return '진행중';
+            else if (moment().isAfter(end)) return '완료';
+            else if (moment().isBefore(end)) return '미진행';
+            return '예정';
+        };
+
+        var date = moment();
+        date.subtract(date.day(), 'd');
+        for (var i = 0; i < 7; i++) {
+            if (![0, 6].includes(date.day())) {
+                for (var k = 0; k < getRandomInt(1, 6); k++) {
+                    var scheduleType = schedules[Math.floor(Math.random() * schedules.length)];
+                    calendar.addEvent({
+                        title: scheduleType + '일정',
+                        start: date.format('YYYY-MM-DD'),
+                        scheduleType: scheduleType
+                    });
+                }
+                if (date.day() == 4) {
+                    calendar.addEvent({
+                        title: '여름방학',
+                        start: date.format('YYYY-MM-DD'),
+                        end: '2021-12-31',
+                        scheduleType: '학사'
+                    });
+                }
+                // calendar.addEvent({
+                //     title: '테스트',
+                //     start: date.format('YYYY-MM-DD'),
+                //     end: '2021-12-31',
+                //     scheduleType: '학사'
+                // });
+
+                var start = date.hour(8).minutes(40).clone();
+                var end = date.add(10, 'm').clone();
+                var periodNo = 0;
+
+                calendar.addEvent({
+                    title: '조례',
+                    start: start.format('YYYY-MM-DD HH:mm'),
+                    end: end.format('YYYY-MM-DD HH:mm'),
+                    period: '조례',
+                    lectureType: lectureTypes[Math.floor(Math.random() * lectureTypes.length)],
+                    unitStatus: getUnitStatus(start, end)
+                });
+
+                for (var j = 0; j <= 7; j++) {
+                    if (j == ([3, 4].includes(date.day()) ? 2 : 3)) date.add(30, 'm');
+
+                    var title = lectures[Math.floor(Math.random() * lectures.length)] + ' 4 (김)';
+                    var duration = 40;
+
+                    if (date.day() == 1 && j == 6) break;
+                    if (date.day() == 2) {
+                        if (j == 6) {
+                            title = '방과후 학교';
+                            duration = 130;
+                        }
+                        if (j == 7) break;
+                    }
+                    if (date.day() == 3) {
+                        if (j == 5) {
+                            title = '방과후 학교';
+                            duration = 180;
+                        }
+                        if (j == 6) break;
+                    }
+                    if (date.day() == 4 || date.day() == 5) {
+                        if (j == 7) title = '방과후 학교';
+                    }
+
+                    start = date.add(10, 'm').clone();
+                    end = date.add(duration, 'm').clone();
+
+                    calendar.addEvent({
+                        title: title,
+                        start: start.format('YYYY-MM-DD HH:mm'),
+                        end: end.format('YYYY-MM-DD HH:mm'),
+                        period: [++periodNo, '교시'].join(''),
+                        lectureType: lectureTypes[Math.floor(Math.random() * lectureTypes.length)],
+                        unitStatus: getUnitStatus(start, end)
+                    });
+                }
+
+                start = date.add(10, 'm').clone();
+                end = date.add(10, 'm').clone();
+
+                calendar.addEvent({
+                    title: '종례',
+                    start: start.format('YYYY-MM-DD HH:mm'),
+                    end: end.format('YYYY-MM-DD HH:mm'),
+                    period: '종례',
+                    lectureType: lectureTypes[Math.floor(Math.random() * lectureTypes.length)],
+                    unitStatus: getUnitStatus(start, end)
+                });
+
+                if (date.day() == 1) {
+                    start = date.hour(12).minutes(40).clone();
+                    end = date.add(60, 'm').clone();
+
+                    calendar.addEvent({
+                        title: '테스트',
+                        start: start.format('YYYY-MM-DD HH:mm'),
+                        end: end.format('YYYY-MM-DD HH:mm'),
+                        period: [++periodNo, '교시'].join(''),
+                        lectureType: lectureTypes[Math.floor(Math.random() * lectureTypes.length)],
+                        unitStatus: getUnitStatus(start, end)
+                    });
+                }
+            }
+            date.add(1, 'd');
+        }
+    });
+
+    calendar.render();
+});
+
+$('#calendar').on('click', '[data-lecture-type]', function() {
+    $(this).closest('.title').toggleClass('on');
+    $('#calendar').find('[data-lecture-type]').not($(this)).closest('.title').removeClass('on');
+});
+</script>
+
+<script src="../../lib/swiper.js"></script>
+<script src="../../lib/lightgallery-all.min.js"></script>
+<script src="../../common/js/popup.js"></script>
+<script src="../../common/js/ui.js"></script>
+</body>
+</html>

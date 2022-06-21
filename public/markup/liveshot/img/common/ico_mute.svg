@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_620" data-name="사각형 620" width="30" height="30" transform="translate(83 629)" fill="#454c53"/>
+    </clipPath>
+  </defs>
+  <g id="음소거" transform="translate(-40 -102)">
+    <rect id="bg_" width="60" height="60" rx="30" transform="translate(40 102)" fill="#fff"/>
+    <g id="ico_mute" transform="translate(-28 -512)" clip-path="url(#clip-path)">
+      <g id="no-sound" transform="translate(83 632.281)">
+        <path id="패스_821" data-name="패스 821" d="M39.958,21.563l2.756-2.756a1.406,1.406,0,1,0-1.989-1.989l-2.756,2.756-2.756-2.756a1.406,1.406,0,0,0-1.989,1.989l2.756,2.756-2.756,2.756a1.406,1.406,0,0,0,1.989,1.989l2.756-2.756,2.756,2.756a1.406,1.406,0,1,0,1.989-1.989Z" transform="translate(-13.125 -9.844)" fill="#454c53"/>
+        <path id="패스_822" data-name="패스 822" d="M5.8,15.625H2.578A2.578,2.578,0,0,0,0,18.2V24.3a2.578,2.578,0,0,0,2.578,2.578H5.8a.293.293,0,0,0,.293-.293V15.918A.293.293,0,0,0,5.8,15.625Z" transform="translate(0 -9.531)" fill="#454c53"/>
+        <path id="패스_823" data-name="패스 823" d="M21.719,5.469H20.313a1.406,1.406,0,0,0-.854.289L13.4,10.394a.293.293,0,0,0-.115.233V23.749a.293.293,0,0,0,.115.233l6.062,4.636a1.406,1.406,0,0,0,.854.289h1.406A1.406,1.406,0,0,0,23.125,27.5V6.875a1.406,1.406,0,0,0-1.406-1.406Z" transform="translate(-5.313 -5.469)" fill="#454c53"/>
+      </g>
+    </g>
+  </g>
+</svg>

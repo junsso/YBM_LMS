@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25" height="25" viewBox="0 0 25 25">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_539" data-name="사각형 539" width="13" height="13" fill="#72787f" stroke="#454c53" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="btn_Refresh" transform="translate(-449 -3060)">
+    <rect id="bg" width="25" height="25" rx="12.5" transform="translate(449 3060)" fill="#e8ebed"/>
+    <g id="icon_Refresh" transform="translate(455 3066)" clip-path="url(#clip-path)">
+      <g id="refresh_1_" data-name="refresh (1)" transform="translate(0)">
+        <path id="패스_785" data-name="패스 785" d="M13.02,6.52a.54.54,0,0,0-.541.541A5.415,5.415,0,1,1,11.229,3.6H9.359a.541.541,0,1,0,0,1.082H12.4a.54.54,0,0,0,.541-.541V1.1a.541.541,0,0,0-1.082,0V2.668a6.505,6.505,0,1,0,1.7,4.393A.54.54,0,0,0,13.02,6.52Z" transform="translate(-0.561 -0.561)" fill="#72787f"/>
+      </g>
+    </g>
+  </g>
+</svg>

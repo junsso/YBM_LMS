@@ -1,0 +1,26 @@
+<svg id="ico_t_talk" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="35" viewBox="0 0 35 35">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_339" data-name="Rectangle 339" width="35" height="35" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="icon_t톡" clip-path="url(#clip-path)">
+    <g id="chat_1_" data-name="chat (1)" transform="translate(5 4)">
+      <g id="Group_120" data-name="Group 120">
+        <g id="Group_119" data-name="Group 119">
+          <path id="Path_742" data-name="Path 742" d="M13.331,0c-.007.007-.021.007-.043.007A12.989,12.989,0,0,0,3.1,21.091l-1.894,4.4a.706.706,0,0,0,.369.929.721.721,0,0,0,.4.05l6.945-1.22A12.516,12.516,0,0,0,13.253,26a13,13,0,0,0,.078-26ZM13.26,24.588a11.388,11.388,0,0,1-4.008-.731.68.68,0,0,0-.376-.035L3.03,24.844l1.547-3.6a.713.713,0,0,0-.114-.745,11.342,11.342,0,0,1-1.972-3.277A11.583,11.583,0,1,1,24.859,12.94v.043A11.614,11.614,0,0,1,13.26,24.588Z" transform="translate(-0.271)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Group_122" data-name="Group 122" transform="translate(9.276 8.825)">
+        <g id="Group_121" data-name="Group 121" transform="translate(0)">
+          <path id="Path_743" data-name="Path 743" d="M15.658,11.792H10.223c-.554,0-1.006.319-1.006.709s.453.709,1.006.709h5.435c.554,0,1.006-.319,1.006-.709S16.212,11.792,15.658,11.792Z" transform="translate(-9.217 -11.792)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Group_124" data-name="Group 124" transform="translate(13.713 8.826) rotate(90)">
+        <g id="Group_123" data-name="Group 123">
+          <path id="Path_744" data-name="Path 744" d="M9.506,0H.709a.709.709,0,0,0,0,1.419h8.8A.709.709,0,1,0,9.506,0Z" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

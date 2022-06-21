@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="332" height="64" viewBox="0 0 332 64">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_994" data-name="사각형 994" width="21" height="11" transform="translate(901 158)" fill="#fff"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="사각형_995" data-name="사각형 995" width="19" height="14" transform="translate(1107 158)" fill="#fc5d5d"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect id="사각형_996" data-name="사각형 996" width="18" height="17" transform="translate(1045 205)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="그룹_916" data-name="그룹 916" transform="translate(-794 -203)">
+    <text id="수업_시간표" data-name="수업 시간표" transform="translate(960 259)" fill="#1b1d1f" font-size="64" font-family="Jalnan" letter-spacing="-0.02em"><tspan x="-165.76" y="0">수업 시간표</tspan></text>
+    <g id="마스크_그룹_114" data-name="마스크 그룹 114" transform="translate(0 45)" clip-path="url(#clip-path)">
+      <text id="수업_시간표-2" data-name="수업 시간표" transform="translate(960 214)" fill="#ffc964" font-size="64" font-family="Jalnan" letter-spacing="-0.02em"><tspan x="-165.76" y="0">수업 시간표</tspan></text>
+    </g>
+    <g id="마스크_그룹_115" data-name="마스크 그룹 115" transform="translate(0 45)" clip-path="url(#clip-path-2)">
+      <text id="수업_시간표-3" data-name="수업 시간표" transform="translate(960 214)" fill="#fc5d5d" font-size="64" font-family="Jalnan" letter-spacing="-0.02em"><tspan x="-165.76" y="0">수업 시간표</tspan></text>
+    </g>
+    <g id="마스크_그룹_116" data-name="마스크 그룹 116" transform="translate(0 45)" clip-path="url(#clip-path-3)">
+      <text id="수업_시간표-4" data-name="수업 시간표" transform="translate(960 214)" fill="#717ae5" font-size="64" font-family="Jalnan" letter-spacing="-0.02em"><tspan x="-165.76" y="0">수업 시간표</tspan></text>
+    </g>
+  </g>
+</svg>

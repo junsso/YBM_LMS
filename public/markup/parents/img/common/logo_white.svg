@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="185" height="54" viewBox="0 0 185 54">
+  <defs>
+    <pattern id="pattern" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 446 86">
+      <image width="446" height="86" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAb4AAABWCAMAAACHMwOAAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAZQTFRF////////VXz1bAAAAAJ0Uk5T/wDltzBKAAADlklEQVR42uzdwZLjIAwE0O7//+mt2stWZS2QBBI4aR0ZW1F4iUMAZ4CP4N/Ac/PDX/418yme2h+PtRIoRoF9fLDye9rMBIouPlj5HW1mAkUbH6z88zYzgaKPD1b+aZuZQNHIByv/rM1MoOjkg5V/0mYmULTywco/bjMTKHr5YOUftpkJFM18sPKP2swEim4+WPlHx0J+t/DByj84FvK7hs883D4W8ruHD6PD4TCVn/jEJz7xiU98CvGJT3ziE5/4FOITn/jEJz7xiU984hNfFx9L+Ci+Jj4W8FF8bXxs2+sivgo+Nu00E18NH1v2eYqvio8Nu6zFV8fH8nscKvn2aBe/bjyp4YoHPhbfYVTHt+v9Cu9TmPZptkgE4pOPpff31fE5T5l2u3PolQN0HQXE/f77irbEx0v5PK9j19fWpF8BHz75WHZveyEf1ntmkAh7+NDCx6JflujiQ65j7C5GAR/q+IiK33W5nQ9fwzdbiIh3s4cP4hPf6/kyA6WX8215XW/iW9ZLDNTEt4uPb+YDzvOZJ3m+5s34NnV6/hJfevFcGXnm+ZzvgrN8iSJP8KGdz3sZ28G359LpLPIIHy7hGy57FPH5rtzeIs/woZfP3Zcn+VJFHuJDJ5+/M3v4sK/IU3zo44ssah7ji5yyuGC0hQ9dfJHePMYXO+cGPvTwoZLPLDTIt7xIPx2C7edDA1+wOzN8WB66RM/KfPgV8KGa7/GpjLrmBF+0SMSjiA+VfM5py3U+pPYOpYtEyq+ED2V8k77zXxrCfIuzZLMicRMfiviinx9H+FJF3sWHEr744Lvv4om1In+Xb3RMI5+5TchX5I/yeRZHe0aeAwdHkReNPBv5WMXHjXzOBfgL5jyb+ZxzE2G+lVnkZJGpg17F59t2AM98ZsWcJ5aKXLxF5XV8/p1BWb4NY5fA9qUrVhxK+Vz/qWojX3LabLnI7/zs27a/zs2XnzfbsqNJfIt8/n7dWeTRFYcv4+sK8b2aj+J7NV8QWHyX8ZW9+xjko/guungyyMd7+fB7QxcG+eo2S2yZxppOVS5uFCwpMs/HIF/ZVqXcokqWL/loRUWm+Rjko/gu4mOQr26bbmZBGmm+5KPtKdL9eTnjY5CP4ut517r4GOSj+NouunM+Bvl4JR9/lI9BPpbypUcFnh81e9/QZcrHIB+v5eP9fNzNxyAfq/mY1lueWKv+/p0cvAz4eB9f05TVe6as/wgwAPhlU79IIUunAAAAAElFTkSuQmCC"/>
+    </pattern>
+  </defs>
+  <g id="그룹_4515" data-name="그룹 4515" transform="translate(-345 -31)">
+    <g id="그룹_4514" data-name="그룹 4514">
+      <rect id="logo_w_e" width="185" height="35" transform="translate(345 31)" fill="url(#pattern)"/>
+      <g id="그룹_4506" data-name="그룹 4506" transform="translate(156 -287)">
+        <path id="패스_5060" data-name="패스 5060" d="M323,372h12V358H323Zm2.422-11.874h3.486a4.577,4.577,0,0,1,2.748.694,2.375,2.375,0,0,1,.936,2.034,2.252,2.252,0,0,1-.375,1.288,2.175,2.175,0,0,1-1.047.817,2.092,2.092,0,0,1,1.207.772,2.28,2.28,0,0,1,.441,1.422,2.629,2.629,0,0,1-.916,2.174,4.126,4.126,0,0,1-2.611.752h-3.869Z" fill="#fff"/>
+        <path id="패스_5061" data-name="패스 5061" d="M330.768,367.133a1.251,1.251,0,0,0-1.416-1.388h-1.879v2.687h1.756a1.7,1.7,0,0,0,1.132-.346A1.185,1.185,0,0,0,330.768,367.133Z" fill="#fff"/>
+        <path id="패스_5062" data-name="패스 5062" d="M330.541,363.059a1.145,1.145,0,0,0-.393-.975,2.065,2.065,0,0,0-1.24-.3h-1.435V364.3h1.517Q330.54,364.269,330.541,363.059Z" fill="#fff"/>
+        <path id="패스_5063" data-name="패스 5063" d="M336,372h12V358H336Zm2.422-11.874h6.658v1.661h-4.607v2.372h3.937v1.607h-3.937v2.666h4.621v1.647h-6.672Z" fill="#fff"/>
+        <path id="패스_5064" data-name="패스 5064" d="M349,372h12V358H349Zm1.807-11.874h8.107v1.661h-3.049v8.292h-2.051v-8.292h-3.007Z" fill="#fff"/>
+        <path id="패스_5065" data-name="패스 5065" d="M362,358v14h12V358Zm8.73,12.079-.689-2.051h-3.6l-.683,2.051H363.58l3.705-9.953h1.9l3.726,9.953Z" fill="#fff"/>
+        <path id="패스_5066" data-name="패스 5066" d="M367,366.367h2.488l-1.25-3.726Z" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

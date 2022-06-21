@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 80 80">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_892" data-name="사각형 892" width="80" height="80" transform="translate(497 736)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="ico_danger" transform="translate(-497 -736)" clip-path="url(#clip-path)">
+    <g id="exclamation_1_" data-name="exclamation (1)" transform="translate(497 736)">
+      <g id="그룹_805" data-name="그룹 805">
+        <g id="그룹_804" data-name="그룹 804">
+          <path id="패스_1068" data-name="패스 1068" d="M40,0A40,40,0,1,0,80,40,39.977,39.977,0,0,0,40,0Zm0,73.75A33.75,33.75,0,1,1,73.75,40,33.731,33.731,0,0,1,40,73.75Z" fill="#fdd4d4"/>
+        </g>
+      </g>
+      <g id="그룹_807" data-name="그룹 807" transform="translate(36.875 20.137)">
+        <g id="그룹_806" data-name="그룹 806">
+          <path id="패스_1069" data-name="패스 1069" d="M30.781,15.1a3.125,3.125,0,0,0-3.125,3.125V38.352a3.125,3.125,0,0,0,6.25,0V18.228A3.125,3.125,0,0,0,30.781,15.1Z" transform="translate(-27.656 -15.103)" fill="#f1574f"/>
+        </g>
+      </g>
+      <g id="그룹_809" data-name="그룹 809" transform="translate(35.781 50.337)">
+        <g id="그룹_808" data-name="그룹 808">
+          <circle id="타원_22" data-name="타원 22" cx="4.219" cy="4.219" r="4.219" fill="#f1574f"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

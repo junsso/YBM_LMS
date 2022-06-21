@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_657" data-name="사각형 657" width="30" height="30" transform="translate(1371 128)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="사각형_660" data-name="사각형 660" width="30" height="30" transform="translate(293 2986)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="ico_" transform="translate(-1371 -128)" clip-path="url(#clip-path)">
+    <g id="icon_매칭형" transform="translate(1078 -2858)" clip-path="url(#clip-path-2)">
+      <g id="puzzle_1_" data-name="puzzle (1)" transform="translate(293 2986)">
+        <path id="패스_794" data-name="패스 794" d="M18.51,14.957a2.559,2.559,0,0,0-2.573-2.489H14.121V7.94H9.593V6.124A2.559,2.559,0,0,0,7.1,3.551,2.532,2.532,0,0,0,4.528,6.083V7.94H1.758A1.758,1.758,0,0,0,0,9.7V20.3A1.758,1.758,0,0,0,1.758,22.06H4.528V18.249a2.559,2.559,0,0,1,2.489-2.573,2.532,2.532,0,0,1,2.575,2.532V22.06h4.528V17.532h1.857a2.532,2.532,0,0,0,2.532-2.575Z" fill="#454545"/>
+        <path id="패스_795" data-name="패스 795" d="M28.242,7.94H15.879V10.71h.057a4.333,4.333,0,0,1,3.017,1.214,4.282,4.282,0,0,1-2.975,7.366h-.1V22.06h4.528v1.857a2.532,2.532,0,0,0,2.575,2.532,2.559,2.559,0,0,0,2.489-2.573V22.06h2.771A1.758,1.758,0,0,0,30,20.3V9.7A1.758,1.758,0,0,0,28.242,7.94Z" fill="#00a58a"/>
+      </g>
+    </g>
+  </g>
+</svg>

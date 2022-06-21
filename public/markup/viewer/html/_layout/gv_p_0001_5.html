@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge;Chromeframe=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="generator" content="">
+<meta name="robots" content="ALL">
+<meta property="og:type" content="">
+<meta property="og:title" content="">
+<meta property="og:description" content="">
+<meta property="og:image" content="">
+<meta property="og:url" content="">
+<title>동영상/음원 플레이어 | YBM온라인스쿨(사이트명)</title>
+<link rel="alternate" href="layout.html" id="desktop" media="only screen and (touch-enabled: 0)">
+<link rel="alternate" href="layout.html" id="tablet" media="only screen and (min-device-width: 768px)">
+<link rel="alternate" href="layout_m.html" id="phone" media="only screen and (max-device-width: 767px)">
+<link rel="shortcut icon" href="">
+<link rel="stylesheet" href="../../lib/jquery.mCustomScrollbar.css">
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css"><!-- slider range-->
+<link rel="stylesheet" href="../../common/css/import.css">
+<script src="../../lib/jquery-3.6.0.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script><!-- slider range-->
+
+
+</head>
+<body>
+    <section class="wrap on">
+        <section class="side-toolbar">
+            <div class="btn-toggle"><button><em>툴바 열기/닫기</em></button></div>
+            <div class="toolbar-head">
+                <div class="runtime">
+                    <span>진행중</span>
+                    <strong>39:20</strong>
+                </div>
+                
+                <div class="menu">
+                    <ul>
+                        <li>
+                            <button><span class="menu-ico pointer"></span>포인터</button>
+                        </li>
+                        <li>
+                            <button><span class="menu-ico draw"></span>입력도구</button>
+                        </li>
+                        <li>
+                            <button><span class="menu-ico block"></span>가리기</button>
+                        </li>
+                        <li>
+                            <button><span class="menu-ico tool"></span>수업도구</button>
+                        </li>
+                    </ul>                    
+                    <ul class="group2">
+                        <li>
+                            <button><span class="menu-ico memo"></span>메모</button>
+                        </li>
+                        <li>
+                            <button><span class="menu-ico url"></span>외부링크</button>
+                        </li>
+                    </ul>
+                    <ul class="group3">
+                        <li>
+                            <button><span class="menu-ico screen-save"></span>화면캡쳐</button>
+                        </li>
+                    </ul>
+                    <ul class="interaction">
+                        <li>
+                            <button data-popup="shotTypeA"><span class="menu-ico live-shot"></span>라이브샷</button>
+                        </li>
+                        <li>
+                            <button data-popup="qzNowQuiz"><span class="menu-ico quiz-now"></span>퀴즈나우</button>
+                        </li>
+                        <li>
+                            <button><span class="menu-ico rc"></span>리모콘</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="toolbar-body">                
+                <div class="cont-head">
+                    <h1>3학년 4반</h1>
+                    <div class="controls">
+                        <button class="view-full"><img src="../../img/common/ico_fit2.svg" alt="전체화면" title="전체화면보기"></button>
+                        <button class="close-viewer"><img src="../../img/common/ico_exit.svg" alt="종료" title="뷰어종료"></button>
+                    </div>
+                </div>
+                <div class="cont-body">
+                    <div class="scroll-header">
+                        <div class="class-list">
+                            <div class="select-box">
+                                <div class="box">
+                                    <div class="select">1단원 What Grade Are You In?</div>
+                                    <ul class="list">
+                                        <li><span>1단원 What Grade Are You In?</span>
+                                            <ul>
+                                                <li><span>1-1단원 What Grade Are You In?</span>
+                                                    <ul>
+                                                        <li><span>1-1-1단원 What Grade Are You In?</span></li>
+                                                        <li><span>1-1-2단원 What Grade Are You In?</span></li>
+                                                    </ul>
+                                                </li>
+                                                <li><span>1-2단원 What Grade Are You In?</span></li>
+                                            </ul>
+                                        </li>
+                                        <li><span>2단원 What Grade Are You In?</span></li>
+                                        <li><span>3단원 What Grade Are You In?</span>
+                                            <ul>
+                                                <li><span>3-1단원 What Grade Are You In?</span></li>
+                                                <li><span>3-2단원 What Grade Are You In?</span></li>
+                                                <li><span>3-3단원 What Grade Are You In?</span>
+                                                    <ul>
+                                                        <li><span>3-3-1단원 What Grade Are You In?</span></li>
+                                                        <li><span>3-3-2단원 What Grade Are You In?</span></li>
+                                                    </ul>
+                                                </li>
+                                                <li><span>3-4단원 What Grade Are You In?</span></li>
+                                            </ul>
+                                        </li>
+                                        <li><span>4단원 What Grade Are You In?</span></li>
+                                        <li><span>5단원 What Grade Are You In?</span></li>
+                                        <li><span>6단원 What Grade Are You In?</span></li>
+                                        <li><span>7단원 What Grade Are You In?</span></li>
+                                        <li><span>8단원 What Grade Are You In?</span></li>
+                                        <li><span>9단원 What Grade Are You In?</span></li>
+                                        <li><span>10단원 What Grade Are You In?</span></li>
+                                        <li><span>11단원 What Grade Are You In?</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="select-box">
+                                <div class="box">
+                                    <div class="select">[1차시] What Grade Are You In?</div>
+                                    <ul class="list">
+                                        <li><span>[1차시] What Grade Are You In?</span></li>
+                                        <li><span>[2차시] What Grade Are You In?</span></li>
+                                        <li><span>[3차시] What Grade Are You In?</span></li>
+                                        <li><span>[4차시] What Grade Are You In?</span></li>
+                                        <li><span>[5차시] What Grade Are You In?</span></li>
+                                        <li><span>[6차시] What Grade Are You In?</span></li>
+                                        <li><span>[7차시] What Grade Are You In?</span></li>
+                                        <li><span>[8차시] What Grade Are You In?</span></li>
+                                        <li><span>[9차시] What Grade Are You In?</span></li>
+                                        <li><span>[10차시] What Grade Are You In?</span></li>
+                                        <li><span>[11차시] What Grade Are You In?</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                 
+                    <div class="scroll-body">
+                        <div class="tab-content on" id="myClass">
+                            <h3>도입</h3>
+                            <div class="list">
+                                <ul>
+                                    <li><a href="#"><span class="ico-file hwp"></span>3학년 체육_YBM1단원_2차시_YBM1단원_2차시_YBM1단원_2차시.hwp</a></li>
+                                    <li><a href="#"><span class="ico-file ppt"></span>통합자료_YBM1단원_1차시.pptx</a></li>
+                                    <li><a href="#"><span class="ico-file hwp"></span>3학년 체육_YBM1단원_2차시_YBM1단원_2차시_YBM1단원_2차시.hwp</a></li>
+                                    <li><a href="#"><span class="ico-file ppt"></span>통합자료_YBM1단원_1차시.pptx</a></li>
+                                    <li><a href="#"><span class="ico-file hwp"></span>3학년 체육_YBM1단원_2차시_YBM1단원_2차시_YBM1단원_2차시.hwp</a></li>
+                                    <li><a href="#"><span class="ico-file ppt"></span>통합자료_YBM1단원_1차시.pptx</a></li>
+                                    <li><a href="#"><span class="ico-file on-con"></span>내가만든 온라인콘텐츠임!!</a></li>
+                                </ul>
+                            </div>
+                            <h3>전개</h3>
+                            <div class="list">
+                                <ul>
+                                    <li><a href="#"><span class="ico-file xlsx"></span>3학년 체육_YBM1단원_2차시.xlsx</a></li>
+                                    <li><a href="#"><span class="ico-file on-con"></span>내가만든 온라인콘텐츠임!!</a></li>
+                                    <li><a href="#"><span class="ico-file pdf"></span>통합자료_YBM1단원_1차시.pdf</a></li>
+                                </ul>
+                            </div>
+                            <h3>마무리</h3>
+                            <div class="list">
+                                <ul>
+                                    <li><a href="#"><span class="ico-file mp3"></span>3학년 체육_YBM1단원_2차시.mp3</a></li>
+                                    <li><a href="#"><span class="ico-file mp4"></span>통합자료_YBM1단원_1차시.mp4</a></li>
+                                    <li><a href="#"><span class="ico-file etc"></span>통합자료_YBM1단원_1차시.etc</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container player-wrap">
+            <div class="player-content">
+                <div class="subject">
+                    <h2>영어 듣기 파일 1_1_1영어 듣기 파일 1_1_1영어 듣기 파일 1_1_1이렇게 긴 파일명은 없겠지 희희.mp4</h2>
+                </div>
+                <div class="content-inner">
+                    <!-- 비디오 
+                    <video>
+                        <source src="../../img/temp/002.webm" type="video/webm">                
+                        <source src="../../img/temp/002.mp4" type="video/mp4">                
+                        Sorry, your browser doesn't support embedded videos.
+                    </video>
+                    -->
+                   
+                    <!-- 오디오 --
+                    <figure>
+                        <figcaption>개발하실 때 기본controls 빼고 하단 툴바로 제어할 수 있도록 개발해주세요~ 오디오 나오나 보려고 넣어둔겁니당!</figcaption>
+                        <audio controls src="../../img/temp/001.mp3">
+                                Your browser does not support the
+                                <code>audio</code> element.
+                        </audio>
+                    </figure>
+                    -->
+
+                    <!-- start: 음원 재생할 경우 play 클래스 추가 -->
+                    <div class="play-view play">
+                        <div class="inn">
+                            <p><img src="../../img/common/ico_music_note.svg" alt="mp3음원 플레이"></p>
+                            <span class="file-n mg-top-20">MP3</span>
+                        </div>
+                    </div>
+                    <!-- // End -->
+
+                </div>
+            </div>
+        </section>
+        <section class="bottom-toolbar player-toolbar show">
+            <div class="play-bar">
+                <!-- 재생모드 -->
+                <div class="current" style="width: 20%"></div>
+                <!-- 구간 설정 모드-->
+                <div class="set-range">
+                    <!--<div>
+                        <label for="amount">range:</label>
+                        <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
+                    </div>-->
+                    
+                    <div id="slider-range"></div>
+                </div>
+            </div>
+            <div class="inner-wrap">
+                <div class="p-controll">
+                    <div>
+                        <button><img src="../../img/common/ico_rewind.svg" alt="이전 10초"></button>
+                    </div>
+                    <div>
+                        <button class="play"><img src="../../img/common/ico_play.svg" alt="재생"></button>
+                        <!--
+                        //일시 정지 버튼
+                        <button class="pause"><img src="../../img/common/ico_pause.svg" alt="일시정지"></button>
+                        -->
+                    </div>
+                    <div>
+                        <button><img src="../../img/common/ico_forward.svg" alt="다음 10초"></button>
+                    </div>
+                    <div>
+                        <button><img src="../../img/common/ico_stop.svg" alt="정지"></button>
+                    </div>
+                </div>
+                <div class="runtime">
+                    <span class="current">2:33</span>
+                    <span class="total">5:59</span>
+                </div>
+                <div class="v-controll mute">
+                    <div class="btn-sound">
+                        <!-- 볼륨 1이상 상태
+                        <button class="regular"><img src="../../img/common/ico_volume.svg" alt=""></button>-->
+                        <!-- 볼륨 0 상태 OR 볼륨 아이콘 클릭해서 음소거 할 경우-->
+                        <button class="mute"><img src="../../img/common/ico_mute.svg" alt=""></button>
+                        
+                    </div>
+                    <input type="range" id="slider" min="0" max="100" step="3.33" value="33.33">
+                    <div class="custom-range">
+                        <i class="fas fa-volume-up fa-2x"></i>
+                        <div class="volume-bar">
+                            <div class="volume-bar-active" style="width:33.33%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="speed">
+                    <div class="handler">1.0 X</div>
+                    <div class="dropdown">
+                        <ul>
+                            <li>0.5 X</li>
+                            <li>0.75 X</li>
+                            <li class="selected">1.0 X</li>
+                            <li>1.25 X</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="set-btn-wrap">
+                    <!-- 구간 설정 이력 없는 경우 & 구간 해제 해서 초기화 된 경우
+                    <button>구간 설정</button>
+                    <button>반복 재생</button>
+                    //구간 설정 이력 없는 경우 & 구간 해제 해서 초기화 된 경우-->
+                    <!-- 구간 설정 이력 있는 경우 -->
+                    <button class="fin-set">설정 완료</button>
+                    <button>구간 재설정</button>
+                    <button>구간 해제</button>
+                    <div class="play-repeat">
+                        <span class="txt">반복</span>
+                        <div class="switch-wrap">
+                            <input type="checkbox" id="switch" class="switch">
+                            <label for="switch" class="switch-label">
+                                <span class="onf-btn"></span>
+                            </label>
+                        </div>
+                    </div>
+                    <!-- //구간 설정 이력 있는 경우 -->
+                </div>
+            </div>
+        </section>
+    </section>
+
+<script src="../../lib/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="../../lib/jquery-ui.min.js"></script>
+<script src="../../common/js/ui.js"></script>
+<script src="../../common/js/popup.js"></script>
+</body>
+</html>

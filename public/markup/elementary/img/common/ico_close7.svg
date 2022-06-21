@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_875" data-name="사각형 875" width="10" height="10" fill="#959595" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="그룹_1024" data-name="그룹 1024" transform="translate(-1030 -1492)">
+    <g id="사각형_1065" data-name="사각형 1065" transform="translate(1030 1492)" fill="#fff" stroke="#72787f" stroke-width="2">
+      <rect width="20" height="20" rx="10" stroke="none"/>
+      <rect x="1" y="1" width="18" height="18" rx="9" fill="none"/>
+    </g>
+    <g id="ico_close" transform="translate(1035 1497)" clip-path="url(#clip-path)">
+      <g id="Layer_2" data-name="Layer 2" transform="translate(5 1.514) rotate(45)">
+        <g id="Layer_1" data-name="Layer 1" transform="translate(0 0)">
+          <path id="패스_1048" data-name="패스 1048" d="M5.446,1.968H2.962V-.516a.5.5,0,0,0-.5-.5.5.5,0,0,0-.5.5V1.968H-.516a.5.5,0,0,0-.5.5.5.5,0,0,0,.5.5H1.968V5.446a.5.5,0,1,0,.994,0V2.962H5.446a.5.5,0,1,0,0-.994Z" fill="#72787f" stroke="#72787f" stroke-width="1"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

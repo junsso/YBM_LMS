@@ -1,0 +1,14 @@
+<svg id="구성_요소_4_1" data-name="구성 요소 4 – 1" xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+  <rect id="사각형_1032" data-name="사각형 1032" width="80" height="80" fill="#fff" opacity="0"/>
+  <g id="그룹_5419" data-name="그룹 5419" transform="translate(-1013.263 -985.488)">
+    <g id="그룹_5418" data-name="그룹 5418">
+      <rect id="사각형_1033" data-name="사각형 1033" width="64.123" height="65.344" transform="translate(1021.263 998.144)" fill="#7ebaff" stroke="#3e3a39" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <rect id="사각형_1034" data-name="사각형 1034" width="51.789" height="58.774" transform="translate(1027.43 998.144)" fill="#fff" stroke="#3e3a39" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path id="패스_5738" data-name="패스 5738" d="M1058.558,993.721a5.234,5.234,0,0,0-10.467,0h-7.632v10.9h25.73v-10.9Z" fill="#ff8067" stroke="#3e3a39" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    </g>
+    <line id="선_73" data-name="선 73" x2="28.783" transform="translate(1038.933 1015.962)" fill="none" stroke="#3e3a39" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <line id="선_74" data-name="선 74" x2="28.783" transform="translate(1038.933 1025.557)" fill="none" stroke="#3e3a39" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <line id="선_75" data-name="선 75" x2="28.783" transform="translate(1038.933 1035.151)" fill="none" stroke="#3e3a39" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <line id="선_76" data-name="선 76" x2="28.783" transform="translate(1038.933 1044.745)" fill="none" stroke="#3e3a39" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  </g>
+</svg>

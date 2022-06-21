@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25" height="25" viewBox="0 0 25 25">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_395" data-name="사각형 395" width="25" height="25" transform="translate(0)" fill="#f75e5e" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="icon_수업시작" transform="translate(0)" clip-path="url(#clip-path)">
+    <g id="pencil" transform="translate(0 1.72)">
+      <path id="패스_783" data-name="패스 783" d="M23.913,21.577H9.782a1.087,1.087,0,1,1,0-2.174H23.913a1.087,1.087,0,0,1,0,2.174Zm0,0" transform="translate(0 -0.017)" fill="#f75e5e"/>
+      <path id="패스_784" data-name="패스 784" d="M20.944,2.17,19.406.633a2.226,2.226,0,0,0-3.074,0L14.085,2.88,18.7,7.491l2.248-2.248a2.173,2.173,0,0,0,0-3.074Zm0,0" transform="translate(0 -0.017)" fill="#f75e5e"/>
+      <path id="패스_785" data-name="패스 785" d="M12.546,4.419l-11.2,11.2a.533.533,0,0,0-.144.26L.015,20.908a.544.544,0,0,0,.653.654L5.7,20.378a.54.54,0,0,0,.26-.144l11.2-11.2Zm0,0" transform="translate(0 -0.017)" fill="#f75e5e"/>
+    </g>
+  </g>
+</svg>

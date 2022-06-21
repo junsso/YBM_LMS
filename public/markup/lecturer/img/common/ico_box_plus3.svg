@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="31" height="31" viewBox="0 0 31 31">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_401" data-name="Rectangle 401" width="24" height="24" transform="translate(110 733)" fill="#2c93e8"/>
+    </clipPath>
+  </defs>
+  <g id="btn_plus" transform="translate(-2013.5 -1675.5)">
+    <rect id="bg" width="30" height="30" rx="5" transform="translate(2014 1676)" fill="none" stroke="#2c93e8" stroke-width="1"/>
+    <g id="ico_puls" transform="translate(1907 946)" clip-path="url(#clip-path)">
+      <g id="Layer_2" data-name="Layer 2" transform="translate(115.861 738.861)">
+        <g id="Layer_1" data-name="Layer 1" transform="translate(-0.861 -0.861)">
+          <path id="Path_712" data-name="Path 712" d="M13,6H8V1A1,1,0,0,0,6,1V6H1A1,1,0,0,0,1,8H6v5a1,1,0,0,0,2,0V8h5a1,1,0,0,0,0-2Z" fill="#2c93e8"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

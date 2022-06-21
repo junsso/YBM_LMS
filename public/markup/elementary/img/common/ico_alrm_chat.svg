@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="65" height="65" viewBox="0 0 65 65">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_119" data-name="사각형 119" width="30" height="30" fill="#6f57cf" stroke="#6f57cf" stroke-width="0.5"/>
+    </clipPath>
+  </defs>
+  <g id="그룹_1283" data-name="그룹 1283" transform="translate(-398 -3139.502)">
+    <rect id="bg_" width="65" height="65" rx="10" transform="translate(398 3139.502)" fill="#f0eefa"/>
+    <g id="icon_퀴즈마감" transform="translate(416 3157.502)" clip-path="url(#clip-path)">
+      <g id="help" transform="translate(1 1)">
+        <path id="패스_87" data-name="패스 87" d="M28,18.949a9.072,9.072,0,0,0-6.628-8.722,10.691,10.691,0,1,0-19.89,5.9L.039,21.343,5.257,19.9a10.652,10.652,0,0,0,4.97,1.471,9.054,9.054,0,0,0,13.327,5.37L27.96,27.96l-1.219-4.406A9.018,9.018,0,0,0,28,18.949ZM5.516,18.126l-3.124.864.864-3.124-.2-.308a9.048,9.048,0,1,1,2.764,2.764Zm20.092,7.481-2.318-.641-.31.2a7.413,7.413,0,0,1-11.056-3.857,10.712,10.712,0,0,0,9.387-9.387A7.413,7.413,0,0,1,25.168,22.98l-.2.31Zm0,0" fill="#6f57cf" stroke="#6f57cf" stroke-width="0.5"/>
+      </g>
+    </g>
+  </g>
+</svg>

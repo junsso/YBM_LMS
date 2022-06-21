@@ -1,0 +1,505 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1134" height="1225" viewBox="0 0 1134 1225">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_310" data-name="사각형 310" width="12" height="12" fill="#fc5d5b"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="사각형_310-2" data-name="사각형 310" width="12" height="12" fill="#157fce"/>
+    </clipPath>
+    <clipPath id="clip-path-5">
+      <rect id="Rectangle_573" data-name="Rectangle 573" width="11" height="11" transform="translate(973 2926)" fill="#222"/>
+    </clipPath>
+    <filter id="타원_386" x="975" y="83" width="33" height="33" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path-7">
+      <rect id="사각형_1006" data-name="사각형 1006" width="16" height="16" transform="translate(163 251)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <clipPath id="clip-path-8">
+      <rect id="사각형_582" data-name="사각형 582" width="16" height="16" transform="translate(16 16) rotate(180)" fill="#72787f"/>
+    </clipPath>
+    <clipPath id="clip-path-11">
+      <rect id="사각형_229" data-name="사각형 229" width="16" height="16" fill="#72787f"/>
+    </clipPath>
+    <clipPath id="clip-path-12">
+      <circle id="타원_373" data-name="타원 373" cx="8" cy="8" r="8" fill="#72787f"/>
+    </clipPath>
+    <clipPath id="clip-path-13">
+      <rect id="사각형_534" data-name="사각형 534" width="20" height="20" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="그룹_1129" data-name="그룹 1129" transform="translate(-445 -64)">
+    <g id="과제현황" transform="translate(1022 73)">
+      <rect id="bg" width="557" height="1225" rx="20" transform="translate(0 -9)" fill="#fff"/>
+      <g id="con01" transform="translate(-30 2)">
+        <g id="bg-2" data-name="bg" transform="translate(60 172)" fill="#f7f8f9" stroke="#d5d5d5" stroke-width="1">
+          <rect width="497" height="50" rx="5" stroke="none"/>
+          <rect x="0.5" y="0.5" width="496" height="49" rx="4.5" fill="none"/>
+        </g>
+        <g id="btn_" transform="translate(-778 -461)">
+          <g id="border" transform="translate(1195 643)" fill="#fff" stroke="#fc5d5b" stroke-width="1">
+            <rect width="125" height="30" rx="5" stroke="none"/>
+            <rect x="0.5" y="0.5" width="124" height="29" rx="4.5" fill="none"/>
+          </g>
+          <text id="상세히_보기" data-name="상세히 보기" transform="translate(1244 664)" fill="#fc5d5b" font-size="14" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR"><tspan x="-33.768" y="0">상세히 보기</tspan></text>
+          <g id="right_arrow" transform="translate(1305 652) rotate(90)">
+            <g id="right_arrow-2" data-name="right_arrow" transform="translate(0 12) rotate(-90)" clip-path="url(#clip-path)">
+              <g id="arrow-down-sign-to-navigate" transform="translate(0 2.58)">
+                <path id="패스_695" data-name="패스 695" d="M6,6.84a.838.838,0,0,1-.594-.246L.246,1.435A.84.84,0,1,1,1.435.246L6,4.812,10.565.246a.84.84,0,1,1,1.188,1.188l-5.16,5.16A.838.838,0,0,1,6,6.84Z" transform="translate(0 0)" fill="#fc5d5b"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <text id="_2021.06.09" data-name="2021.06.09" transform="translate(278 204)" fill="#9ea4aa" font-size="16" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR"><tspan x="-39.968" y="0">2021.06.09</tspan></text>
+        <text id="_-" data-name="-" transform="translate(375 204)" fill="#1b1d1f" font-size="16" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-weight="700"><tspan x="-2.96" y="0">-</tspan></text>
+        <text id="제출일" transform="translate(174 204)" fill="#1b1d1f" font-size="16" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-weight="700"><tspan x="0" y="0">제출일</tspan></text>
+        <g id="사각형_882" data-name="사각형 882" transform="translate(75 182)" fill="#fff" stroke="#157fce" stroke-width="1">
+          <rect width="69" height="30" rx="15" stroke="none"/>
+          <rect x="0.5" y="0.5" width="68" height="29" rx="14.5" fill="none"/>
+        </g>
+        <text id="OOO" transform="translate(92 203)" fill="#157fce" font-size="16" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-weight="500"><tspan x="0" y="0">OOO</tspan></text>
+      </g>
+      <g id="con01-2" data-name="con01" transform="translate(-30 764)">
+        <g id="bg-3" data-name="bg" transform="translate(60 172)" fill="#f7f8f9" stroke="#d5d5d5" stroke-width="1">
+          <rect width="497" height="50" rx="5" stroke="none"/>
+          <rect x="0.5" y="0.5" width="496" height="49" rx="4.5" fill="none"/>
+        </g>
+        <g id="btn_2" data-name="btn_" transform="translate(-778 -461)">
+          <g id="border-2" data-name="border" transform="translate(1195 643)" fill="#fff" stroke="#157fce" stroke-width="1">
+            <rect width="125" height="30" rx="5" stroke="none"/>
+            <rect x="0.5" y="0.5" width="124" height="29" rx="4.5" fill="none"/>
+          </g>
+          <text id="피드백_완료" data-name="피드백 완료" transform="translate(1244 664)" fill="#157fce" font-size="14" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR"><tspan x="-33.768" y="0">피드백 완료</tspan></text>
+          <g id="right_arrow-3" data-name="right_arrow" transform="translate(1305 652) rotate(90)">
+            <g id="right_arrow-4" data-name="right_arrow" transform="translate(0 12) rotate(-90)" clip-path="url(#clip-path-2)">
+              <g id="arrow-down-sign-to-navigate-2" data-name="arrow-down-sign-to-navigate" transform="translate(0 2.58)">
+                <path id="패스_695-2" data-name="패스 695" d="M6,6.84a.838.838,0,0,1-.594-.246L.246,1.435A.84.84,0,1,1,1.435.246L6,4.812,10.565.246a.84.84,0,1,1,1.188,1.188l-5.16,5.16A.838.838,0,0,1,6,6.84Z" transform="translate(0 0)" fill="#157fce"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <text id="_2021.06.09-2" data-name="2021.06.09" transform="translate(278 204)" fill="#9ea4aa" font-size="16" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR"><tspan x="-39.968" y="0">2021.06.09</tspan></text>
+        <text id="재도전" transform="translate(375 204)" fill="#fc5d5b" font-size="16" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-weight="700"><tspan x="-22.08" y="0">재도전</tspan></text>
+        <text id="제출일-2" data-name="제출일" transform="translate(174 204)" fill="#1b1d1f" font-size="16" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-weight="700"><tspan x="0" y="0">제출일</tspan></text>
+        <g id="사각형_902" data-name="사각형 902" transform="translate(75 182)" fill="#fff" stroke="#157fce" stroke-width="1">
+          <rect width="69" height="30" rx="15" stroke="none"/>
+          <rect x="0.5" y="0.5" width="68" height="29" rx="14.5" fill="none"/>
+        </g>
+        <text id="OOO-2" data-name="OOO" transform="translate(92 203)" fill="#157fce" font-size="16" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-weight="500"><tspan x="0" y="0">OOO</tspan></text>
+      </g>
+      <g id="con01-3" data-name="con01" transform="translate(-30 824)">
+        <g id="bg-4" data-name="bg" transform="translate(60 172)" fill="#f7f8f9" stroke="#d5d5d5" stroke-width="1">
+          <rect width="497" height="50" rx="5" stroke="none"/>
+          <rect x="0.5" y="0.5" width="496" height="49" rx="4.5" fill="none"/>
+        </g>
+        <g id="btn_3" data-name="btn_" transform="translate(-778 -461)">
+          <g id="border-3" data-name="border" transform="translate(1195 643)" fill="#fff" stroke="#157fce" stroke-width="1">
+            <rect width="125" height="30" rx="5" stroke="none"/>
+            <rect x="0.5" y="0.5" width="124" height="29" rx="4.5" fill="none"/>
+          </g>
+          <text id="피드백_완료-2" data-name="피드백 완료" transform="translate(1244 664)" fill="#157fce" font-size="14" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR"><tspan x="-33.768" y="0">피드백 완료</tspan></text>
+          <g id="right_arrow-5" data-name="right_arrow" transform="translate(1305 652) rotate(90)">
+            <g id="right_arrow-6" data-name="right_arrow" transform="translate(0 12) rotate(-90)" clip-path="url(#clip-path-2)">
+              <g id="arrow-down-sign-to-navigate-3" data-name="arrow-down-sign-to-navigate" transform="translate(0 2.58)">
+                <path id="패스_695-3" data-name="패스 695" d="M6,6.84a.838.838,0,0,1-.594-.246L.246,1.435A.84.84,0,1,1,1.435.246L6,4.812,10.565.246a.84.84,0,1,1,1.188,1.188l-5.16,5.16A.838.838,0,0,1,6,6.84Z" transform="translate(0 0)" fill="#157fce"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <text id="_2021.06.09-3" data-name="2021.06.09" transform="translate(278 204)" fill="#9ea4aa" font-size="16" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR"><tspan x="-39.968" y="0">2021.06.09</tspan></text>
+        <text id="통과" transform="translate(375 204)" fill="#1b1d1f" font-size="16" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-weight="700"><tspan x="-14.72" y="0">통과</tspan></text>
+        <text id="제출일-3" data-name="제출일" transform="translate(174 204)" fill="#1b1d1f" font-size="16" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-weight="700"><tspan x="0" y="0">제출일</tspan></text>
+        <g id="사각형_902-2" data-name="사각형 902" transform="translate(75 182)" fill="#fff" stroke="#fc5d5b" stroke-width="1">
+          <rect width="69" height="30" rx="15" stroke="none"/>
+          <rect x="0.5" y="0.5" width="68" height="29" rx="14.5" fill="none"/>
+        </g>
+        <text id="OOO-3" data-name="OOO" transform="translate(92 203)" fill="#fc5d5b" font-size="16" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-weight="500"><tspan x="0" y="0">OOO</tspan></text>
+      </g>
+      <g id="con01-4" data-name="con01" transform="translate(-30 884)">
+        <g id="bg-5" data-name="bg" transform="translate(60 172)" fill="#f7f8f9" stroke="#d5d5d5" stroke-width="1">
+          <rect width="497" height="50" rx="5" stroke="none"/>
+          <rect x="0.5" y="0.5" width="496" height="49" rx="4.5" fill="none"/>
+        </g>
+        <g id="btn_4" data-name="btn_" transform="translate(-778 -461)">
+          <g id="border-4" data-name="border" transform="translate(1195 643)" fill="#fff" stroke="#157fce" stroke-width="1">
+            <rect width="125" height="30" rx="5" stroke="none"/>
+            <rect x="0.5" y="0.5" width="124" height="29" rx="4.5" fill="none"/>
+          </g>
+          <text id="피드백_완료-3" data-name="피드백 완료" transform="translate(1244 664)" fill="#157fce" font-size="14" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR"><tspan x="-33.768" y="0">피드백 완료</tspan></text>
+          <g id="right_arrow-7" data-name="right_arrow" transform="translate(1305 652) rotate(90)">
+            <g id="right_arrow-8" data-name="right_arrow" transform="translate(0 12) rotate(-90)" clip-path="url(#clip-path-2)">
+              <g id="arrow-down-sign-to-navigate-4" data-name="arrow-down-sign-to-navigate" transform="translate(0 2.58)">
+                <path id="패스_695-4" data-name="패스 695" d="M6,6.84a.838.838,0,0,1-.594-.246L.246,1.435A.84.84,0,1,1,1.435.246L6,4.812,10.565.246a.84.84,0,1,1,1.188,1.188l-5.16,5.16A.838.838,0,0,1,6,6.84Z" transform="translate(0 0)" fill="#157fce"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <text id="_2021.06.09-4" data-name="2021.06.09" transform="translate(278 204)" fill="#9ea4aa" font-size="16" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR"><tspan x="-39.968" y="0">2021.06.09</tspan></text>
+        <text id="통과-2" data-name="통과" transform="translate(375 204)" fill="#1b1d1f" font-size="16" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-weight="700"><tspan x="-14.72" y="0">통과</tspan></text>
+        <text id="제출일-4" data-name="제출일" transform="translate(174 204)" fill="#1b1d1f" font-size="16" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-weight="700"><tspan x="0" y="0">제출일</tspan></text>
+        <g id="사각형_902-3" data-name="사각형 902" transform="translate(75 182)" fill="#fff" stroke="#157fce" stroke-width="1">
+          <rect width="69" height="30" rx="15" stroke="none"/>
+          <rect x="0.5" y="0.5" width="68" height="29" rx="14.5" fill="none"/>
+        </g>
+        <text id="OOO-4" data-name="OOO" transform="translate(92 203)" fill="#157fce" font-size="16" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-weight="500"><tspan x="0" y="0">OOO</tspan></text>
+      </g>
+      <g id="반급" transform="translate(-102 -1210)">
+        <g id="bt_영어3_최" data-name="bt_영어3 최" transform="translate(132 1221)" fill="#fff" stroke="#fc5d5b" stroke-width="1">
+          <rect width="106" height="35" rx="17.5" stroke="none"/>
+          <rect x="0.5" y="0.5" width="105" height="34" rx="17" fill="none"/>
+        </g>
+        <text id="_3학년_1반" data-name="3학년 1반" transform="translate(152 1245)" fill="#fc5d5b" font-size="16" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR"><tspan x="0" y="0">3학년 1반</tspan></text>
+      </g>
+      <g id="반급-2" data-name="반급" transform="translate(14 -1210)">
+        <g id="bt_영어3_최-2" data-name="bt_영어3 최" transform="translate(132 1221)" fill="#fff" stroke="#c9cdd2" stroke-width="1">
+          <rect width="106" height="35" rx="17.5" stroke="none"/>
+          <rect x="0.5" y="0.5" width="105" height="34" rx="17" fill="none"/>
+        </g>
+        <text id="_3학년_2반" data-name="3학년 2반" transform="translate(152 1245)" fill="#9ea4aa" font-size="16" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR"><tspan x="0" y="0">3학년 2반</tspan></text>
+      </g>
+      <rect id="line" width="497" height="1" transform="translate(30 61)" fill="#c9cdd2"/>
+      <text id="콘텐츠의_기본_정보를_입력하세요." data-name="콘텐츠의 기본 정보를 입력하세요." transform="translate(30 154)" fill="#fc5d5b" font-size="16" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR"><tspan x="0" y="0">*제출 여부에 따라 이름 표기가 변경 됩니다. </tspan></text>
+      <g id="ico_정렬" transform="translate(-445 -2790)">
+        <rect id="bg-6" data-name="bg" width="25" height="25" rx="12.5" transform="translate(947 2924)" fill="#454c53"/>
+        <g id="Mask_Group_148" data-name="Mask Group 148" transform="translate(-19 5)" clip-path="url(#clip-path-5)">
+          <g id="sort" transform="translate(979.416 2926)">
+            <g id="Group_186" data-name="Group 186">
+              <path id="Path_789" data-name="Path 789" d="M6.778.194a.8.8,0,0,1,1.049,0l3.39,3.163a.468.468,0,0,1-.062.725.671.671,0,0,1-.862-.052L8.011,1.868v8.613A.577.577,0,0,1,7.394,11a.557.557,0,0,1-.616-.493Z" transform="translate(-6.778)" fill="#fff"/>
+            </g>
+          </g>
+          <g id="sort-2" data-name="sort" transform="translate(973 2926)">
+            <g id="Group_186-2" data-name="Group 186">
+              <path id="Path_789-2" data-name="Path 789" d="M11.361,10.805a.8.8,0,0,1-1.049,0L6.922,7.642a.468.468,0,0,1,.062-.725.671.671,0,0,1,.862.052l2.282,2.162V.518A.577.577,0,0,1,10.745,0a.557.557,0,0,1,.616.493Z" transform="translate(-6.778)" fill="#fff"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <text id="기본_문서형" data-name="기본 문서형" transform="translate(30 107)" fill="#0f3653" font-size="24" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-weight="700" letter-spacing="-0.02em"><tspan x="0" y="0">3-1반 제출 현황(</tspan><tspan y="0" fill="#20a2f8">04</tspan><tspan y="0">/20)</tspan></text>
+      <g id="btn" transform="translate(-541 60)">
+        <path id="bg-7" data-name="bg" d="M0,0H97a5,5,0,0,1,5,5V35a5,5,0,0,1-5,5H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(966 17)" fill="#fff" stroke="#ff5c5c" stroke-width="1"/>
+        <text id="콘텐츠_일정" data-name="콘텐츠 일정" transform="translate(986 43)" fill="#fc5d5b" font-size="16" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-weight="500"><tspan x="0" y="0">질의 응답</tspan></text>
+        <path id="bg-8" data-name="bg" d="M5,0H105a0,0,0,0,1,0,0V40a0,0,0,0,1,0,0H5a5,5,0,0,1-5-5V5A5,5,0,0,1,5,0Z" transform="translate(861 17)" fill="#fc5d5b" stroke="#ff5c5c" stroke-width="1"/>
+        <text id="콘텐츠만들기" transform="translate(881 43)" fill="#fff" font-size="16" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-weight="500"><tspan x="0" y="0">제출/평가</tspan></text>
+        <g id="ico_n" transform="translate(-102)">
+          <g transform="matrix(1, 0, 0, 1, 66, -69)" filter="url(#타원_386)">
+            <circle id="타원_386-2" data-name="타원 386" cx="7.5" cy="7.5" r="7.5" transform="translate(984 89)" fill="#fff"/>
+          </g>
+          <text id="N" transform="translate(1054.5 30.5)" fill="#fc5d5b" font-size="8" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">N</tspan></text>
+        </g>
+      </g>
+      <g id="Pagination" transform="translate(77 -7519)">
+        <path id="right" d="M4.676,1.2a1,1,0,0,1,1.648,0l3.6,5.235A1,1,0,0,1,9.1,8H1.9a1,1,0,0,1-.824-1.567Z" transform="translate(303 8685) rotate(90)" fill="#1b1d1f"/>
+        <text id="_5" data-name="5" transform="translate(265 8696)" fill="#1b1d1f" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">5</tspan></text>
+        <text id="_4" data-name="4" transform="translate(235 8696)" fill="#1b1d1f" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">4</tspan></text>
+        <text id="_3" data-name="3" transform="translate(205 8696)" fill="#1b1d1f" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">3</tspan></text>
+        <text id="_2" data-name="2" transform="translate(175 8696)" fill="#1b1d1f" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">2</tspan></text>
+        <rect id="selection" width="30" height="30" rx="3" transform="translate(127 8675)" fill="#ff5c5c"/>
+        <text id="_1" data-name="1" transform="translate(137 8696)" fill="#fff" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">1</tspan></text>
+        <path id="left" d="M4.676,1.2a1,1,0,0,1,1.648,0l3.6,5.235A1,1,0,0,1,9.1,8H1.9a1,1,0,0,1-.824-1.567Z" transform="translate(101 8696) rotate(-90)" fill="#1b1d1f"/>
+      </g>
+      <g id="과제현황-2" data-name="과제현황" transform="translate(0 60)">
+        <g id="사각형_886" data-name="사각형 886" transform="translate(30 174)" fill="#fff" stroke="#d5d5d5" stroke-width="1">
+          <rect width="497" height="682" rx="5" stroke="none"/>
+          <rect x="0.5" y="0.5" width="496" height="681" rx="4.5" fill="none"/>
+        </g>
+        <g id="bg-9" data-name="bg" transform="translate(30 174)" fill="#f7f8f9" stroke="#d5d5d5" stroke-width="1">
+          <rect width="497" height="50" rx="5" stroke="none"/>
+          <rect x="0.5" y="0.5" width="496" height="49" rx="4.5" fill="none"/>
+        </g>
+        <g id="btn_5" data-name="btn_" transform="translate(-808 -459)">
+          <g id="border-5" data-name="border" transform="translate(1195 643)" fill="#fff" stroke="#fc5d5b" stroke-width="1">
+            <rect width="125" height="30" rx="5" stroke="none"/>
+            <rect x="0.5" y="0.5" width="124" height="29" rx="4.5" fill="none"/>
+          </g>
+          <text id="상세히_보기-2" data-name="상세히 보기" transform="translate(1244 664)" fill="#fc5d5b" font-size="14" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR"><tspan x="-33.768" y="0">상세히 보기</tspan></text>
+          <g id="right_arrow-9" data-name="right_arrow" transform="translate(1305 652) rotate(90)">
+            <g id="right_arrow-10" data-name="right_arrow" transform="translate(0 12) rotate(-90)" clip-path="url(#clip-path)">
+              <g id="arrow-down-sign-to-navigate-5" data-name="arrow-down-sign-to-navigate" transform="translate(0 2.58)">
+                <path id="패스_695-5" data-name="패스 695" d="M6,6.84a.838.838,0,0,1-.594-.246L.246,1.435A.84.84,0,1,1,1.435.246L6,4.812,10.565.246a.84.84,0,1,1,1.188,1.188l-5.16,5.16A.838.838,0,0,1,6,6.84Z" transform="translate(0 0)" fill="#fc5d5b"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <text id="_2021.06.09-5" data-name="2021.06.09" transform="translate(248 206)" fill="#9ea4aa" font-size="16" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR"><tspan x="-39.968" y="0">2021.06.09</tspan></text>
+        <text id="_--2" data-name="-" transform="translate(345 206)" fill="#1b1d1f" font-size="16" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-weight="700"><tspan x="-2.96" y="0">-</tspan></text>
+        <text id="제출일-5" data-name="제출일" transform="translate(144 206)" fill="#1b1d1f" font-size="16" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-weight="700"><tspan x="0" y="0">제출일</tspan></text>
+        <g id="사각형_882-2" data-name="사각형 882" transform="translate(47 184)" fill="#fff" stroke="#157fce" stroke-width="1">
+          <rect width="69" height="30" rx="15" stroke="none"/>
+          <rect x="0.5" y="0.5" width="68" height="29" rx="14.5" fill="none"/>
+        </g>
+        <text id="OOO-5" data-name="OOO" transform="translate(64 206)" fill="#157fce" font-size="16" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-weight="500"><tspan x="0" y="0">OOO</tspan></text>
+        <g id="btn-2" data-name="btn" transform="translate(-172)">
+          <rect id="사각형_885" data-name="사각형 885" width="69" height="30" rx="15" transform="translate(217 239)" fill="#303d53"/>
+          <text id="발송" transform="translate(237 261)" fill="#fff" font-size="16" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR"><tspan x="0" y="0">발송</tspan></text>
+        </g>
+        <g id="btn-3" data-name="btn" transform="translate(226)">
+          <g id="사각형_885-2" data-name="사각형 885" transform="translate(202 239)" fill="#fff" stroke="#157fce" stroke-width="1">
+            <rect width="84" height="30" rx="5" stroke="none"/>
+            <rect x="0.5" y="0.5" width="83" height="29" rx="4.5" fill="none"/>
+          </g>
+          <text id="재도전-2" data-name="재도전" transform="translate(222 261)" fill="#157fce" font-size="16" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-weight="700"><tspan x="0" y="0">재도전</tspan></text>
+        </g>
+        <g id="btn-4" data-name="btn" transform="translate(132)">
+          <rect id="사각형_885-3" data-name="사각형 885" width="69" height="30" rx="5" transform="translate(217 239)" fill="#157fce"/>
+          <text id="통과-3" data-name="통과" transform="translate(237 261)" fill="#fff" font-size="16" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-weight="700"><tspan x="0" y="0">통과</tspan></text>
+        </g>
+        <g id="textarea" transform="translate(-182 352)">
+          <g id="사각형_890" data-name="사각형 890" transform="translate(227 284)" fill="#fff" stroke="#d5d5d5" stroke-width="1">
+            <rect width="467" height="205" rx="5" stroke="none"/>
+            <rect x="0.5" y="0.5" width="466" height="204" rx="4.5" fill="none"/>
+          </g>
+          <text id="피드백_내용을_입력하세요." data-name="피드백 내용을 입력하세요." transform="translate(242 315)" fill="#d5d5d5" font-size="14" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-weight="700"><tspan x="0" y="0">피드백 내용을 입력하세요.</tspan></text>
+          <g id="btns">
+            <g id="bg-10" data-name="bg" transform="translate(227 449)" fill="#f7f8f9" stroke="#d5d5d5" stroke-width="1">
+              <path d="M0,0H467a0,0,0,0,1,0,0V35a5,5,0,0,1-5,5H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" stroke="none"/>
+              <path d="M1,.5H466a.5.5,0,0,1,.5.5V35a4.5,4.5,0,0,1-4.5,4.5H1A.5.5,0,0,1,.5,39V1A.5.5,0,0,1,1,.5Z" fill="none"/>
+            </g>
+            <g id="btn-5" data-name="btn" transform="translate(429 210)">
+              <path id="사각형_1007" data-name="사각형 1007" d="M0,0H113a0,0,0,0,1,0,0V35a5,5,0,0,1-5,5H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(152 239)" fill="#fc5d5b"/>
+              <g id="마스크_그룹_150" data-name="마스크 그룹 150" transform="translate(-2)" clip-path="url(#clip-path-7)">
+                <g id="그룹_907" data-name="그룹 907" transform="translate(-191.479 -22.626)">
+                  <path id="패스_2127" data-name="패스 2127" d="M370.168,284.446a3.175,3.175,0,0,0-1.581-1.076c-.179-.074-.349-.144-.486-.216a1.848,1.848,0,0,1-.914-2.217c.062-.342.327-1.5.455-1.991a2.753,2.753,0,1,0-3.064-.707c-.1.5-.365,1.657-.458,1.989a1.841,1.841,0,0,1-1.789,1.594c-.157,0-.337-.007-.531-.02s-.4-.025-.6-.025a2.461,2.461,0,0,0-1.288.3,2.078,2.078,0,0,0-.812,1.258,5.9,5.9,0,0,0-.164.7,1.855,1.855,0,0,0,1.591,2.241l7.259,1.678a2.781,2.781,0,0,0,.625.076h0a1.78,1.78,0,0,0,1.784-1.393,6.073,6.073,0,0,0,.157-.7A2.083,2.083,0,0,0,370.168,284.446Zm-.869,1.317a5,5,0,0,1-.129.576.718.718,0,0,1-.761.62h0a1.729,1.729,0,0,1-.386-.048l-7.259-1.678c-.811-.188-.85-.62-.781-1.018a4.829,4.829,0,0,1,.134-.573c.049-.162.163-.541.347-.654a1.418,1.418,0,0,1,.733-.142c.174,0,.359.011.537.023.208.013.428.026.622.021a2.865,2.865,0,0,0,2.788-2.371c.059-.209.2-.781.319-1.331.264-1.178.292-1.3.034-1.537a1.7,1.7,0,0,1-.523-1.643,1.685,1.685,0,1,1,2.095,2.008c-.332.1-.36.219-.637,1.4-.128.547-.254,1.121-.293,1.337a2.875,2.875,0,0,0,1.474,3.356c.178.092.376.174.569.254a2.473,2.473,0,0,1,1.091.665A1.309,1.309,0,0,1,369.3,285.763Z" transform="translate(-2.066 0)" fill="#fff"/>
+                  <path id="패스_2128" data-name="패스 2128" d="M367.4,371.976h-10.39a.509.509,0,1,0,0,1.018H367.4a.509.509,0,1,0,0-1.018Z" transform="translate(0 -83.368)" fill="#fff"/>
+                </g>
+              </g>
+              <text id="스탬프_주기" data-name="스탬프 주기" transform="translate(182 265)" fill="#fff" font-size="14" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-weight="500"><tspan x="0" y="0">스탬프 주기</tspan></text>
+            </g>
+            <g id="icons">
+              <g id="icon_음악" transform="translate(346 461)" clip-path="url(#clip-path-8)">
+                <g id="headphones" transform="translate(0 0.969)">
+                  <g id="그룹_239" data-name="그룹 239">
+                    <g id="그룹_238" data-name="그룹 238">
+                      <path id="패스_877" data-name="패스 877" d="M8,.908A8,8,0,0,0,0,8.877v3.75a1.408,1.408,0,0,0,1.406,1.406h.469V9.346H1.406a1.39,1.39,0,0,0-.469.086V8.877a7.063,7.063,0,0,1,14.125,0v.555a1.39,1.39,0,0,0-.469-.086h-.469v4.688h.469A1.408,1.408,0,0,0,16,12.627V8.877A8,8,0,0,0,8,.908Z" transform="translate(0 -0.908)" fill="#72787f"/>
+                    </g>
+                  </g>
+                  <g id="그룹_241" data-name="그룹 241" transform="translate(2.813 7.5)">
+                    <g id="그룹_240" data-name="그룹 240">
+                      <path id="패스_878" data-name="패스 878" d="M4.043,7.939H3.574a.937.937,0,0,0-.937.938v4.688a.937.937,0,0,0,.937.937h.469a.469.469,0,0,0,.469-.469V8.408A.469.469,0,0,0,4.043,7.939Z" transform="translate(-2.637 -7.939)" fill="#72787f"/>
+                    </g>
+                  </g>
+                  <g id="그룹_243" data-name="그룹 243" transform="translate(11.313 7.5)">
+                    <g id="그룹_242" data-name="그룹 242">
+                      <path id="패스_879" data-name="패스 879" d="M11.543,7.939h-.469a.469.469,0,0,0-.469.469v5.625a.469.469,0,0,0,.469.469h.469a.937.937,0,0,0,.938-.937V8.877A.937.937,0,0,0,11.543,7.939Z" transform="translate(-10.605 -7.939)" fill="#72787f"/>
+                    </g>
+                  </g>
+                </g>
+              </g>
+              <g id="icon_첨부파일" transform="translate(320 461)" clip-path="url(#clip-path-8)">
+                <path id="XMLID_236_" d="M14.937,2.67a3.636,3.636,0,0,0-5.142,0L4.062,8.4a2.182,2.182,0,1,0,3.086,3.085l3.774-3.774A.727.727,0,0,0,9.894,6.684L6.119,10.459A.727.727,0,1,1,5.091,9.43L10.823,3.7a2.182,2.182,0,0,1,3.086,3.085L7.662,13.03A3.636,3.636,0,1,1,2.52,7.887L8.766,1.641A.727.727,0,1,0,7.737.613L1.491,6.859a5.091,5.091,0,0,0,7.2,7.2l6.246-6.246A3.64,3.64,0,0,0,14.937,2.67Z" transform="translate(0 0.027)" fill="#72787f"/>
+              </g>
+              <g id="icon_사진" transform="translate(294 461)" clip-path="url(#clip-path-8)">
+                <g id="image" transform="translate(0 0.666)">
+                  <path id="패스_880" data-name="패스 880" d="M11.8,14.35a1.511,1.511,0,0,1-.382-.049L1.11,11.54A1.514,1.514,0,0,1,.049,9.7L1.182,5.357a.5.5,0,0,1,.967.253L1.016,9.957a.509.509,0,0,0,.356.618l10.3,2.759a.5.5,0,0,0,.607-.351l.352-1.42a.5.5,0,0,1,.971.24l-.353,1.427A1.5,1.5,0,0,1,11.8,14.35Zm0,0" transform="translate(0 0.317)" fill="#72787f"/>
+                  <path id="패스_881" data-name="패스 881" d="M14.333,10.681H4a1.5,1.5,0,0,1-1.5-1.5V1.514A1.5,1.5,0,0,1,4,.014H14.333a1.5,1.5,0,0,1,1.5,1.5V9.181A1.5,1.5,0,0,1,14.333,10.681ZM4,1.014a.5.5,0,0,0-.5.5V9.181a.5.5,0,0,0,.5.5H14.333a.5.5,0,0,0,.5-.5V1.514a.5.5,0,0,0-.5-.5Zm0,0" transform="translate(0.167 -0.014)" fill="#72787f"/>
+                  <path id="패스_882" data-name="패스 882" d="M5.708,4.556A1.333,1.333,0,1,1,7.041,3.223,1.335,1.335,0,0,1,5.708,4.556Zm0-1.667a.333.333,0,1,0,.333.333A.334.334,0,0,0,5.708,2.889Zm0,0" transform="translate(0.292 0.111)" fill="#72787f"/>
+                  <path id="패스_883" data-name="패스 883" d="M3.012,9.781a.5.5,0,0,1-.353-.854L5.672,5.913a1.17,1.17,0,0,1,1.653,0l.806.806,2.476-2.972a1.166,1.166,0,0,1,.891-.421,1.072,1.072,0,0,1,.894.41l3.319,3.872a.5.5,0,0,1-.759.651l-3.32-3.873a.2.2,0,0,0-.128-.059.167.167,0,0,0-.128.061L8.549,7.781a.5.5,0,0,1-.361.179.49.49,0,0,1-.376-.146L6.618,6.621a.145.145,0,0,0-.239,0L3.366,9.634a.5.5,0,0,1-.353.147Zm0,0" transform="translate(0.167 0.206)" fill="#72787f"/>
+                </g>
+              </g>
+              <g id="icon_녹화" transform="translate(268 461)">
+                <g id="마스크_그룹_78" data-name="마스크 그룹 78" clip-path="url(#clip-path-11)">
+                  <g id="Layer_2" data-name="Layer 2" transform="translate(0 3.14)">
+                    <g id="Layer_15" data-name="Layer 15" transform="translate(0 0)">
+                      <path id="패스_201" data-name="패스 201" d="M12.48,9.721H.47A.47.47,0,0,1,0,9.25V.47A.47.47,0,0,1,.47,0H12.48a.47.47,0,0,1,.47.47V9.25a.47.47,0,0,1-.47.47ZM.941,8.78H12.01V.941H.941Z" transform="translate(0 0)" fill="#72787f"/>
+                      <path id="패스_202" data-name="패스 202" d="M22.285,9.308a.47.47,0,0,1-.171-.031l-3.05-1.192a.47.47,0,0,1-.3-.439V3.131a.47.47,0,0,1,.3-.439L22.114,1.5a.47.47,0,0,1,.642.439v6.9A.47.47,0,0,1,22.285,9.308ZM19.706,7.325l2.109.823V2.63l-2.109.823Z" transform="translate(-6.755 -0.529)" fill="#72787f"/>
+                      <path id="패스_203" data-name="패스 203" d="M7.7,8.511a.47.47,0,0,1-.47-.47V4.788a.47.47,0,0,1,.706-.408l2.818,1.627a.47.47,0,0,1,0,.815L7.936,8.449A.47.47,0,0,1,7.7,8.511ZM8.171,5.6V7.227l1.407-.812Z" transform="translate(-2.603 -1.554)" fill="#72787f"/>
+                    </g>
+                  </g>
+                </g>
+              </g>
+              <g id="icon_스티커" transform="translate(242 461)" clip-path="url(#clip-path-12)">
+                <path id="smile" d="M8,16A8,8,0,0,1,2.343,2.343,8,8,0,0,1,13.657,13.657,7.948,7.948,0,0,1,8,16ZM8,1.25A6.75,6.75,0,1,0,14.75,8,6.758,6.758,0,0,0,8,1.25Zm2.929,8.131a.625.625,0,0,0-.863.192,2.751,2.751,0,0,1-2.1,1.211,2.751,2.751,0,0,1-2.1-1.211.625.625,0,1,0-1.055.671,4.018,4.018,0,0,0,3.152,1.789,4.018,4.018,0,0,0,3.152-1.789.625.625,0,0,0-.192-.863ZM5.25,5.156a.781.781,0,1,1-.781.781A.781.781,0,0,1,5.25,5.156Zm4.688.781a.781.781,0,1,0,.781-.781A.781.781,0,0,0,9.938,5.938Z" transform="translate(0)" fill="#72787f"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="table" transform="translate(-35 -141)">
+          <g id="th">
+            <rect id="bg-11" data-name="bg" width="467" height="52" transform="translate(80 426)" fill="#9ea4aa"/>
+            <g id="line-2" data-name="line" transform="translate(80 477)" fill="none" stroke="#c9cdd2" stroke-width="1">
+              <rect width="467" height="1" rx="0.5" stroke="none"/>
+              <rect x="0.5" y="0.5" width="466" fill="none"/>
+            </g>
+            <text id="학생_등록_확인" data-name="학생 등록 확인" transform="translate(492 459)" fill="#fff" font-size="16" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-weight="500"><tspan x="-14.72" y="0">정답</tspan></text>
+            <text id="학생_연락처" data-name="학생 연락처" transform="translate(379 459)" fill="#fff" font-size="16" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-weight="500"><tspan x="-31.24" y="0">작성한 답</tspan></text>
+            <text id="학생_이름" data-name="학생 이름" transform="translate(249 459)" fill="#fff" font-size="16" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-weight="500"><tspan x="-29.44" y="0">정오체크</tspan></text>
+            <text id="반_번호" data-name="반 번호" transform="translate(125 459)" fill="#fff" font-size="16" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-weight="500"><tspan x="-14.72" y="0">번호</tspan></text>
+            <g id="line-3" data-name="line" transform="translate(80 425)" fill="none" stroke="#c9cdd2" stroke-width="1">
+              <rect width="467" height="1" rx="0.5" stroke="none"/>
+              <rect x="0.5" y="0.5" width="466" fill="none"/>
+            </g>
+          </g>
+          <g id="_1-2" data-name="1" transform="translate(0 -25)">
+            <g id="line-4" data-name="line" transform="translate(80 553)" fill="none" stroke="#c9cdd2" stroke-width="1">
+              <rect width="467" height="1" rx="0.5" stroke="none"/>
+              <rect x="0.5" y="0.5" width="466" fill="none"/>
+            </g>
+            <text id="삼각형" transform="translate(494 536)" fill="#1b1d1f" font-size="16" font-family="MalgunGothic, Malgun Gothic"><tspan x="-24" y="0">삼각형</tspan></text>
+            <text id="_010-1234-5678" data-name="010-1234-5678" transform="translate(379 535)" fill="#157fce" font-size="16" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR"><tspan x="-22.08" y="0">삼각형</tspan></text>
+            <text id="권주연" transform="translate(243 535)" fill="#1b1d1f" font-size="16" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR"><tspan x="0" y="0">O</tspan></text>
+            <text id="_1-3" data-name="1" transform="translate(120 533)" fill="#1b1d1f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">1</tspan></text>
+          </g>
+          <g id="_2-2" data-name="2" transform="translate(0 26)">
+            <g id="line-5" data-name="line" transform="translate(80 553)" fill="none" stroke="#c9cdd2" stroke-width="1">
+              <rect width="467" height="1" rx="0.5" stroke="none"/>
+              <rect x="0.5" y="0.5" width="466" fill="none"/>
+            </g>
+            <text id="사각형" transform="translate(494 536)" fill="#1b1d1f" font-size="16" font-family="MalgunGothic, Malgun Gothic"><tspan x="-24" y="0">사각형</tspan></text>
+            <text id="_010-1234-5678-2" data-name="010-1234-5678" transform="translate(379 535)" fill="#157fce" font-size="16" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR"><tspan x="-22.08" y="0">사각형</tspan></text>
+            <text id="권주연-2" data-name="권주연" transform="translate(243 535)" fill="#1b1d1f" font-size="16" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR"><tspan x="0" y="0">O</tspan></text>
+            <text id="_1-4" data-name="1" transform="translate(120 533)" fill="#1b1d1f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">2</tspan></text>
+          </g>
+          <g id="_3-2" data-name="3" transform="translate(0 77)">
+            <g id="line-6" data-name="line" transform="translate(80 553)" fill="none" stroke="#c9cdd2" stroke-width="1">
+              <rect width="467" height="1" rx="0.5" stroke="none"/>
+              <rect x="0.5" y="0.5" width="466" fill="none"/>
+            </g>
+            <text id="삼각뿔" transform="translate(494 536)" fill="#1b1d1f" font-size="16" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR"><tspan x="-22.08" y="0">삼각뿔</tspan></text>
+            <text id="_010-1234-5678-3" data-name="010-1234-5678" transform="translate(379 535)" fill="#157fce" font-size="16" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR"><tspan x="-22.08" y="0">삼각뿔</tspan></text>
+            <text id="권주연-3" data-name="권주연" transform="translate(243 535)" fill="#1b1d1f" font-size="16" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR"><tspan x="0" y="0">O</tspan></text>
+            <text id="_1-5" data-name="1" transform="translate(120 533)" fill="#1b1d1f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">3</tspan></text>
+          </g>
+          <g id="_4-2" data-name="4" transform="translate(0 128)">
+            <g id="line-7" data-name="line" transform="translate(80 553)" fill="none" stroke="#c9cdd2" stroke-width="1">
+              <rect width="467" height="1" rx="0.5" stroke="none"/>
+              <rect x="0.5" y="0.5" width="466" fill="none"/>
+            </g>
+            <text id="꼭지점" transform="translate(494 536)" fill="#1b1d1f" font-size="16" font-family="MalgunGothic, Malgun Gothic"><tspan x="-24" y="0">꼭지점</tspan></text>
+            <text id="_010-1234-5678-4" data-name="010-1234-5678" transform="translate(379 535)" fill="#157fce" font-size="16" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR"><tspan x="-22.08" y="0">모서리</tspan></text>
+            <text id="권주연-4" data-name="권주연" transform="translate(248 535)" fill="#fc5d5b" font-size="16" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR"><tspan x="-4.584" y="0">X</tspan></text>
+            <text id="_1-6" data-name="1" transform="translate(120 533)" fill="#1b1d1f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">4</tspan></text>
+          </g>
+          <g id="_5-2" data-name="5" transform="translate(0 179)">
+            <rect id="bg-12" data-name="bg" width="467" height="74" transform="translate(80 503)" fill="#f5f5f5"/>
+            <g id="line-8" data-name="line" transform="translate(80 577)" fill="none" stroke="#c9cdd2" stroke-width="1">
+              <rect width="467" height="1" rx="0.5" stroke="none"/>
+              <rect x="0.5" y="0.5" width="466" fill="none"/>
+            </g>
+            <text id="_결과표기_" data-name="(결과표기)" transform="translate(494 547)" fill="#fc5d5b" font-size="16" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR"><tspan x="-34.848" y="0">(결과표기)</tspan></text>
+            <g id="bg-13" data-name="bg" transform="translate(344 524)" fill="#fff" stroke="#fc5d5b" stroke-width="1">
+              <rect width="70" height="30" rx="5" stroke="none"/>
+              <rect x="0.5" y="0.5" width="69" height="29" rx="4.5" fill="none"/>
+            </g>
+            <text id="_010-1234-5678-5" data-name="010-1234-5678" transform="translate(379 546)" fill="#fc5d5b" font-size="16" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR"><tspan x="-14.72" y="0">보기</tspan></text>
+            <g id="학부모_등록확인" data-name="학부모 등록확인" transform="translate(-679 30)">
+              <g id="bg-14" data-name="bg" transform="translate(894 509)" fill="#fff" stroke="#c9cdd2" stroke-width="1">
+                <rect width="30" height="25" rx="5" stroke="none"/>
+                <rect x="0.5" y="0.5" width="29" height="24" rx="4.5" fill="none"/>
+              </g>
+              <g id="bg-15" data-name="bg" transform="translate(929 509)" fill="#fff" stroke="#c9cdd2" stroke-width="1">
+                <rect width="30" height="25" rx="5" stroke="none"/>
+                <rect x="0.5" y="0.5" width="29" height="24" rx="4.5" fill="none"/>
+              </g>
+              <text id="초대문구" transform="translate(904 527)" fill="#1b1d1f" font-size="14" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR"><tspan x="0" y="0">O</tspan></text>
+              <text id="초대문구-2" data-name="초대문구" transform="translate(940 527)" fill="#1b1d1f" font-size="14" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR"><tspan x="0" y="0">X</tspan></text>
+              <text id="X" transform="translate(927 502)" fill="#1b1d1f" font-size="14" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR"><tspan x="-61.474" y="0">결과를 선택해주세요.</tspan></text>
+            </g>
+            <text id="_1-7" data-name="1" transform="translate(124 545)" fill="#1b1d1f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="-4.492" y="0">5</tspan></text>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="과제현황-3" data-name="과제현황" transform="translate(445 73)">
+      <rect id="bg-16" data-name="bg" width="557" height="734" rx="20" transform="translate(0 -9)" fill="#fff"/>
+      <rect id="line-9" data-name="line" width="497" height="1" transform="translate(30 61)" fill="#c9cdd2"/>
+      <text id="기본_문서형-2" data-name="기본 문서형" transform="translate(30 39)" fill="#0f3653" font-size="24" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-weight="700" letter-spacing="-0.02em"><tspan x="0" y="0">온라인 워크시트</tspan></text>
+      <g id="btn__신규_수업_개설" data-name="btn_+ 신규 수업 개설" transform="translate(-1011 -470)">
+        <rect id="bg_red" width="92" height="40" rx="5" transform="translate(1446 479)" fill="#fc5d5b"/>
+        <g id="신규_수업_개설" data-name="신규 수업 개설" transform="translate(1430 487)">
+          <text id="수정하기" transform="translate(36 18)" fill="#fff" font-size="14" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-weight="500"><tspan x="0" y="0">수정하기</tspan></text>
+        </g>
+      </g>
+      <text id="각기둥과_각뿔_문제풀이" data-name="각기둥과 각뿔 문제풀이" transform="translate(279 103)" fill="#1b1d1f" font-size="18" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-weight="700"><tspan x="-86.886" y="0">각기둥과 각뿔 문제풀이</tspan></text>
+      <rect id="사각형_887" data-name="사각형 887" width="497" height="205" transform="translate(30 119)" fill="#f5f5f5"/>
+      <g id="icon_search" transform="translate(492 134)" clip-path="url(#clip-path-13)">
+        <g id="loupe_2_" data-name="loupe (2)">
+          <g id="그룹_176" data-name="그룹 176">
+            <g id="그룹_175" data-name="그룹 175">
+              <path id="패스_779" data-name="패스 779" d="M8.808,0a8.808,8.808,0,1,0,8.808,8.808A8.818,8.818,0,0,0,8.808,0Zm0,15.989a7.182,7.182,0,1,1,7.182-7.182A7.19,7.19,0,0,1,8.808,15.989Z"/>
+            </g>
+          </g>
+          <g id="그룹_178" data-name="그룹 178" transform="translate(13.713 13.713)">
+            <g id="그룹_177" data-name="그룹 177">
+              <path id="패스_780" data-name="패스 780" d="M26.618,25.469l-4.661-4.661a.813.813,0,1,0-1.15,1.15l4.661,4.661a.813.813,0,0,0,1.15-1.15Z" transform="translate(-20.569 -20.569)"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="table-2" data-name="table" transform="translate(0 -154)">
+        <rect id="bg-17" data-name="bg" width="146" height="349" transform="translate(30 499)" fill="#f7f8f9"/>
+        <g id="line-10" data-name="line" transform="translate(30 848)" fill="none" stroke="#c9cdd2" stroke-width="1">
+          <rect width="497" height="1" rx="0.5" stroke="none"/>
+          <rect x="0.5" y="0.5" width="496" fill="none"/>
+        </g>
+        <g id="line-11" data-name="line" transform="translate(30 787)" fill="none" stroke="#c9cdd2" stroke-width="1">
+          <rect width="497" height="1" rx="0.5" stroke="none"/>
+          <rect x="0.5" y="0.5" width="496" fill="none"/>
+        </g>
+        <g id="line-12" data-name="line" transform="translate(30 726)" fill="none" stroke="#c9cdd2" stroke-width="1">
+          <rect width="497" height="1" rx="0.5" stroke="none"/>
+          <rect x="0.5" y="0.5" width="496" fill="none"/>
+        </g>
+        <g id="line-13" data-name="line" transform="translate(30 665)" fill="none" stroke="#c9cdd2" stroke-width="1">
+          <rect width="497" height="1" rx="0.5" stroke="none"/>
+          <rect x="0.5" y="0.5" width="496" fill="none"/>
+        </g>
+        <g id="line-14" data-name="line" transform="translate(30 559)" fill="none" stroke="#c9cdd2" stroke-width="1">
+          <rect width="497" height="1" rx="0.5" stroke="none"/>
+          <rect x="0.5" y="0.5" width="496" fill="none"/>
+        </g>
+        <g id="line-15" data-name="line" transform="translate(30 498)" fill="none" stroke="#c9cdd2" stroke-width="1">
+          <rect width="497" height="1" rx="0.5" stroke="none"/>
+          <rect x="0.5" y="0.5" width="496" fill="none"/>
+        </g>
+        <g id="con01-5" data-name="con01">
+          <g id="_10점" data-name="10점" transform="translate(-137 248)">
+            <g id="bg-18" data-name="bg" transform="translate(328 266)" fill="#fff" stroke="#c9cdd2" stroke-width="1">
+              <rect width="120" height="30" rx="15" stroke="none"/>
+              <rect x="0.5" y="0.5" width="119" height="29" rx="14.5" fill="none"/>
+            </g>
+            <text id="OO_초등학교" data-name="OO 초등학교" transform="translate(348 288)" fill="#1b1d1f" font-size="16" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR"><tspan x="0" y="0">통과/재도전</tspan></text>
+          </g>
+          <text id="평가방법" transform="translate(41 537)" fill="#1b1d1f" font-size="18" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-weight="700"><tspan x="0" y="0">평가방법 및 기준</tspan></text>
+          <text id="책을_일고" data-name="책을 일고" transform="translate(321 525)" fill="#9ea4aa" font-size="14" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR"><tspan x="0" y="0">이야기를 읽고 알맞은 수나 말을</tspan><tspan x="0" y="20">써 넣으세요.</tspan></text>
+        </g>
+        <g id="con02" transform="translate(0 6)">
+          <g id="국어활동_3-1" data-name="국어활동 3-1" transform="translate(7 303)">
+            <rect id="bg-19" data-name="bg" width="96" height="30" rx="15" transform="translate(184 266)" fill="#fc5d5b"/>
+            <text id="_1학년" data-name="1학년" transform="translate(204 288)" fill="#fff" font-size="16" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR"><tspan x="0" y="0">수학 3-1</tspan></text>
+          </g>
+          <text id="수업출제_범위" data-name="수업출제 범위" transform="translate(48 612)" fill="#1b1d1f" font-size="18" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-weight="700"><tspan x="0" y="0">수업/출제 범위</tspan></text>
+          <text id="_1단원" data-name="1단원" transform="translate(191 625)" fill="#1b1d1f" font-size="14" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-weight="500"><tspan x="0" y="0">[2단원 각기둥과 각뿔]</tspan><tspan fill="#9ea4aa" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR" font-weight="400"><tspan x="0" y="20" xml:space="preserve">8차시 각뿔의 이름과 구성 요소 알기  (40-41p)</tspan></tspan></text>
+        </g>
+        <g id="con03" transform="translate(0 8)">
+          <text id="대상" transform="translate(86 695)" fill="#1b1d1f" font-size="18" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-weight="700"><tspan x="0" y="0">대상</tspan></text>
+          <g id="_3-2반" data-name="3-2반" transform="translate(7 407)">
+            <rect id="bg-20" data-name="bg" width="78" height="30" rx="15" transform="translate(184 266)" fill="#fc5d5b"/>
+            <text id="_1학년-2" data-name="1학년" transform="translate(204 288)" fill="#fff" font-size="16" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR"><tspan x="0" y="0">3-2반</tspan></text>
+          </g>
+          <g id="_3-2반-2" data-name="3-2반" transform="translate(95 407)">
+            <g id="bg-21" data-name="bg" transform="translate(184 266)" fill="#f5f5f5" stroke="#c9cdd2" stroke-width="1">
+              <rect width="88" height="30" rx="15" stroke="none"/>
+              <rect x="0.5" y="0.5" width="87" height="29" rx="14.5" fill="none"/>
+            </g>
+            <text id="_1학년-3" data-name="1학년" transform="translate(204 288)" fill="#9ea4aa" font-size="16" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR"><tspan x="0" y="0">반 전체</tspan></text>
+          </g>
+        </g>
+        <g id="con04">
+          <text id="기간" transform="translate(86 765)" fill="#1b1d1f" font-size="18" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-weight="700"><tspan x="0" y="0">기간</tspan></text>
+          <g id="button_5" transform="translate(-778 -1204)">
+            <rect id="사각형_452" data-name="사각형 452" width="67" height="30" rx="15" transform="translate(969 1946)" fill="#ffb643"/>
+            <text id="D-1" transform="translate(989 1968)" fill="#fff" font-size="16" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-weight="500" letter-spacing="0.03em"><tspan x="0" y="0">D-1</tspan></text>
+          </g>
+          <text id="책을_일고-2" data-name="책을 일고" transform="translate(268 753)" fill="#9ea4aa" font-size="14" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR"><tspan x="0" y="0" xml:space="preserve">2021.05.25 AM  09:00 ~</tspan><tspan x="0" y="20">2021.05.31 PM 02:00 </tspan></text>
+        </g>
+        <g id="con05" transform="translate(0 61)">
+          <text id="기간-2" data-name="기간" transform="translate(103 765)" fill="#1b1d1f" font-size="18" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-weight="700"><tspan x="-33.12" y="0">첨부파일</tspan></text>
+          <text id="책을_일고-3" data-name="책을 일고" transform="translate(196 764)" fill="#9ea4aa" font-size="14" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR"><tspan x="0" y="0">-</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

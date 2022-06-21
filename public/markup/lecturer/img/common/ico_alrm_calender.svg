@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="59" height="59" viewBox="0 0 59 59">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_536" data-name="사각형 536" width="29.5" height="29.5" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="ico_03" transform="translate(-712 -302)">
+    <rect id="bg_" width="59" height="59" rx="5" transform="translate(712 302)" fill="#e9f4fd"/>
+    <g id="그룹_1225" data-name="그룹 1225" transform="translate(726.75 316.75)">
+      <g id="icon_calender" transform="translate(0 0)" clip-path="url(#clip-path)">
+        <g id="calendar">
+          <path id="패스_783" data-name="패스 783" d="M25.7,2.3h-2.65V.922a.922.922,0,1,0-1.844,0V2.3H8.3V.922a.922.922,0,0,0-1.844,0V2.3H3.8A3.807,3.807,0,0,0,0,6.107V25.7a3.807,3.807,0,0,0,3.8,3.8H25.7a3.807,3.807,0,0,0,3.8-3.8V6.107A3.807,3.807,0,0,0,25.7,2.3ZM27.656,25.7A1.959,1.959,0,0,1,25.7,27.656H3.8A1.959,1.959,0,0,1,1.844,25.7V10.429a.288.288,0,0,1,.288-.288H27.368a.288.288,0,0,1,.288.288Z" fill="#0f3653"/>
+        </g>
+      </g>
+      <path id="패스_2490" data-name="패스 2490" d="M-12516.284-6613.733l4.957,4.958,9.614-9.613" transform="translate(12524.208 6632.089)" fill="none" stroke="#0f3653" stroke-linecap="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

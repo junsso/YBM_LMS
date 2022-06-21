@@ -1,0 +1,3116 @@
+<!-- start: 공통 오류 안내 팝업(교사채널에서 가져옴) -->
+<div class="layerpop type-a" id="errorFormPopup">
+    <div class="overlay"></div>
+    <div class="popup-content">
+        <div class="inner">
+            <div class="title">
+                <div class="btn-box">
+                    <button type='button' class="close close-btn"></button>
+                </div>
+            </div>
+            <div class="contents">
+                <div class="noti">
+                    <div class="img-wrap"><img src="../../img/common/ico_danger_2.svg" alt=""></div>
+                    <h3>오류 안내 내용을 입력해주세요.</h3>
+                </div>
+            </div>
+            <div class="flex-btn-wrap">
+                <div class="col-12">
+                    <button type="button" class="btn btn02 close-btn">확인</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //end:레이어 팝업 -->
+
+<!-- start : 공통 비디오 팝업(최대1개)-->
+<div class="layerpop class-count click-none" id="videoPopup">
+    <div class="overlay"></div>
+    <div class="popup-content">
+        <div class="inner">
+            <!-- 제목 -->
+            <div class="title">
+                <h2>비디오 파일 첨부</h2>
+                <div class="btn-box">
+                    <button type="button" class="close close-btn"></button>
+                </div>
+            </div>
+            <!-- 내용 -->
+            <div class="contents">
+                <div class="cont-inner">
+                    <div class="input-file">
+                        <!-- 파일첨부후 재클릭시 data-popup="videoCheck" , 첨부파일이 50MB가 초가시 data-popup="fileCheck" -->
+                        <label for="upload01" class="file-label btn btn03">파일 선택</label>
+                        <!-- start : 파일 선택후 disabled 클래스가 붙음
+                        <label for="upload01" class="file-label btn btn03 md disabled">파일 선택</label>
+                       // end : 파일 선택후 disabled 클래스가 붙음 -->
+                        <input type="file" name="" id="upload01" class="file-upload " multiple />
+                        <!-- start : 파일 업로드시 노출 -->
+                        <div class="name-wrap">
+                            <!-- 파일 클래스명 - mp4파일: .mp4 , mp3파일: .mp3 , zip파일: .zip , pdf파일: .pdf , hwp파일: .hwp , xlsx파일: .xlsx , pptx파일: .pptx , png파일: .png , jpg파일: .jpg , txt파일: .txt , youtube파일: .youtube -->
+                            <div class="inner mp4">
+                                <p class="txt">2021_3학년_4반_소풍영상.mp4</p>
+                                <button type="button" class="delete"></button>
+                            </div>
+                        </div>
+                        <!-- // end : 파일 업로드시 노출 -->
+                        <div class="file-size">
+                            <span><strong>10</strong>MB / 50MB</span>
+                        </div>
+                    </div>
+                    <div class="file-info">
+                        <h2>※ 비디오 파일 전송 안내</h2>
+                        <p>첨부 가능한 확장자 : mkv, avi, mp4, mpg, mpeg, wmv, asf, mov</p>
+                        <p>비디오 파일은 최대 1개, 파일당 최대 50MB까지 등록 가능합니다.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- 버튼 -->
+            <div class="flex-btn-wrap">
+                <div class="col-6">
+                    <button type="button" class="btn btn04 close-btn">취소</button>
+                </div>
+                <div class="col-6">
+                    <button type="button" class="btn btn02 close-btn">등록</button><!-- 첨부파일 첨부 후에는 disabled 클래스 제거 -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end : 공통 비디오 팝업-->
+
+<!-- start: 비디오 첨부후 재클릭시 / 화면ID : 2202_11-->
+<div class="layerpop type-a" id="videoCheckPopup">
+    <div class="overlay"></div>
+    <div class="popup-content">
+        <div class="inner">
+            <!-- 제목 -->
+            <div class="title">
+                <div class="btn-box">
+                    <button type='button' class="close close-btn"></button>
+                </div>
+            </div>
+            <!-- 내용 -->
+            <div class="contents">
+                <div class="noti type-a">
+                    <div class="img-wrap"><img src="../../img/common/ico_danger_2.svg" alt=""></div>
+                    <h3>비디오 파일은 1개만 첨부하실 수 있습니다.</h3>
+                </div>
+            </div>
+            <!-- 버튼 -->
+            <div class="flex-btn-wrap">
+                <div class="col-12">
+                    <button type="button" class="btn btn02 close-btn">확인</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //end:레이어 팝업 -->
+
+<!-- start: 첨부파일이 50MB가 초가시 / 화면ID : 2202_11-->
+<div class="layerpop type-a" id="fileCheckPopup">
+    <div class="overlay"></div>
+    <div class="popup-content">
+        <div class="inner">
+            <!-- 제목 -->
+            <div class="title">
+                <div class="btn-box">
+                    <button type='button' class="close close-btn"></button>
+                </div>
+            </div>
+            <!-- 내용 -->
+            <div class="contents">
+                <div class="noti type-a">
+                    <div class="img-wrap"><img src="../../img/common/ico_danger_2.svg" alt=""></div>
+                    <h3>파일 크기를 다시 한 번 확인해주세요.</h3>
+                </div>
+            </div>
+            <!-- 버튼 -->
+            <div class="flex-btn-wrap">
+                <div class="col-12">
+                    <button type="button" class="btn btn02 close-btn">확인</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //end:레이어 팝업 -->
+
+<!-- start : 공통 이미지 팝업(최대3개)-->
+<div class="layerpop class-count click-none" id="imgPopup">
+    <div class="overlay"></div>
+    <div class="popup-content">
+        <div class="inner">
+            <!-- 제목 -->
+            <div class="title">
+                <h2>이미지 파일 첨부</h2>
+                <div class="btn-box">
+                    <button type="button" class="close close-btn"></button>
+                </div>
+            </div>
+            <!-- 내용 -->
+            <div class="contents">
+                <div class="cont-inner">
+                    <div class="input-file">
+                        <!-- 이미지 첨부후 재클릭시 data-popup="imgCheck" , 첨부파일이 50MB가 초가시 data-popup="fileCheck" -->
+                        <label for="upload01" class="file-label btn btn03 md">파일 선택</label>
+                        <!-- start : 파일 선택후 disabled 클래스가 붙음
+                        <label for="upload01" class="file-label btn btn03 md disabled">파일 선택</label>
+                       // end : 파일 선택후 disabled 클래스가 붙음 -->
+                        <input type="file" name="" id="upload01" class="file-upload disabled" multiple="">
+                        <!-- start : 파일 업로드시 노출 -->
+                        <div class="name-wrap">
+                            <!-- 파일 클래스명 - mp4파일: .mp4 , mp3파일: .mp3 , zip파일: .zip , pdf파일: .pdf , hwp파일: .hwp , xlsx파일: .xlsx , pptx파일: .pptx , png파일: .png , jpg파일: .jpg , txt파일: .txt , youtube파일: .youtube -->
+                            <div class="inner jpg">
+                                <p class="txt">4학년 체육_단체사진.jpg</p>
+                                <button type="button" class="delete"></button>
+                            </div>
+                        </div>
+                        <div class="name-wrap">
+                            <!-- 파일 클래스명 - mp4파일: .mp4 , mp3파일: .mp3 , zip파일: .zip , pdf파일: .pdf , hwp파일: .hwp , xlsx파일: .xlsx , pptx파일: .pptx , png파일: .png , jpg파일: .jpg , txt파일: .txt , youtube파일: .youtube -->
+                            <div class="inner png">
+                                <p class="txt">2학년_수학여행_단체사진.png</p>
+                                <button type="button" class="delete"></button>
+                            </div>
+                        </div>
+                        <!-- // end : 파일 업로드시 노출 -->
+                        <div class="file-size">
+                            <span><strong>50</strong>MB / 50MB</span>
+                        </div>
+                    </div>
+                    <div class="file-info">
+                        <h2>※ 이미지 파일 전송 안내</h2>
+                        <p>첨부 가능한 확장자 : jpg, jpeg, gif, bmp, png</p>
+                        <p>이미지 파일은 최대 3개, 파일당 최대 50MB까지 등록 가능합니다.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- 버튼 -->
+            <div class="flex-btn-wrap">
+                <div class="col-6">
+                    <button type="button" class="btn btn04 close-btn">취소</button>
+                </div>
+                <div class="col-6">
+                    <button type="button" class="btn btn02 disabled">등록</button><!-- 첨부파일 첨부 후에는 disabled 클래스 제거 , close-btn 클래스 추가 -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end -->
+
+<!-- start: 이미지 첨부후 재클릭시 / 화면ID : 2202_12-->
+<div class="layerpop type-a" id="imgCheckPopup">
+    <div class="overlay"></div>
+    <div class="popup-content">
+        <div class="inner">
+            <!-- 제목 -->
+            <div class="title">
+                <div class="btn-box">
+                    <button type='button' class="close close-btn"></button>
+                </div>
+            </div>
+            <!-- 내용 -->
+            <div class="contents">
+                <div class="noti type-a">
+                    <div class="img-wrap"><img src="../../img/common/ico_danger_2.svg" alt=""></div>
+                    <h3>이미지 파일은 3개까지만 첨부하실 수 있습니다.</h3>
+                </div>
+            </div>
+            <!-- 버튼 -->
+            <div class="flex-btn-wrap">
+                <div class="col-12">
+                    <button type="button" class="btn btn02 close-btn">확인</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //end:레이어 팝업 -->
+
+<!-- start : 공통 문서 팝업(최대3개)-->
+<div class="layerpop class-count click-none" id="docuPopup">
+    <div class="overlay"></div>
+    <div class="popup-content">
+        <div class="inner">
+            <!-- 제목 -->
+            <div class="title">
+                <h2>문서 파일 첨부</h2>
+                <div class="btn-box">
+                    <button type="button" class="close close-btn"></button>
+                </div>
+            </div>
+            <!-- 내용 -->
+            <div class="contents">
+                <div class="cont-inner">
+                    <div class="input-file">
+                        <!-- 문서파일 첨부후 재클릭시 data-popup="docuCheck", 첨부파일이 50MB가 초가시 data-popup="fileCheck"  -->
+                        <label for="upload01" class="file-label btn btn03 md">파일 선택</label>
+                        <!-- start : 파일 선택후 disabled 클래스가 붙음
+                        <label for="upload01" class="file-label btn btn03 md disabled">파일 선택</label>
+                       // end : 파일 선택후 disabled 클래스가 붙음 -->
+                        <input type="file" name="" id="upload01" class="file-upload disabled" multiple="">
+                        <!-- start : 파일 업로드시 노출 -->
+                        <div class="name-wrap">
+                            <!-- 파일 클래스명 - mp4파일: .mp4 , mp3파일: .mp3 , zip파일: .zip , pdf파일: .pdf , hwp파일: .hwp , xlsx파일: .xlsx , pptx파일: .pptx , png파일: .png , jpg파일: .jpg , txt파일: .txt , youtube파일: .youtube -->
+                            <div class="inner pdf">
+                                <p class="txt">4학년 체육_YBM1단원_1차시.pdf</p>
+                                <button type="button" class="delete"></button>
+                            </div>
+                        </div>
+                        <div class="name-wrap">
+                            <!-- 파일 클래스명 - mp4파일: .mp4 , mp3파일: .mp3 , zip파일: .zip , pdf파일: .pdf , hwp파일: .hwp , xlsx파일: .xlsx , pptx파일: .pptx , png파일: .png , jpg파일: .jpg , txt파일: .txt , youtube파일: .youtube -->
+                            <div class="inner xlsx">
+                                <p class="txt">4학년 체육_YBM1단원_1차시.xlsx</p>
+                                <button type="button" class="delete"></button>
+                            </div>
+                        </div>
+                        <!-- // end : 파일 업로드시 노출 -->
+                        <div class="file-size">
+                            <span><strong>30</strong>MB / 50MB</span>
+                        </div>
+                    </div>
+                    <div class="file-info">
+                        <h2>※ 문서 파일 전송 안내</h2>
+                        <p>첨부 가능한 확장자 : doc, docx, hwp, txt, ppt, pptx, xls, xlsx, pdf, zip</p>
+                        <p>문서 파일은 최대 5개, 파일당 최대 50MB까지 등록 가능합니다.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- 버튼 -->
+            <div class="flex-btn-wrap">
+                <div class="col-6">
+                    <button type="button" class="btn btn04 close-btn">취소</button>
+                </div>
+                <div class="col-6">
+                    <!-- 첨부파일 첨부 후에는 disabled 클래스 제거 -->
+                    <button type="button" class="btn btn02 close-btn">등록</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end -->
+
+<!-- start: 문서파일 첨부후 재클릭시 / 화면ID : 2202_13-->
+<div class="layerpop type-a" id="docuCheckPopup">
+    <div class="overlay"></div>
+    <div class="popup-content">
+        <div class="inner">
+            <!-- 제목 -->
+            <div class="title">
+                <div class="btn-box">
+                    <button type='button' class="close close-btn"></button>
+                </div>
+            </div>
+            <!-- 내용 -->
+            <div class="contents">
+                <div class="noti type-a">
+                    <div class="img-wrap"><img src="../../img/common/ico_danger_2.svg" alt=""></div>
+                    <h3>문서 파일은 5개까지만 첨부하실 수 있습니다.</h3>
+                </div>
+            </div>
+            <!-- 버튼 -->
+            <div class="flex-btn-wrap">
+                <div class="col-12">
+                    <button type="button" class="btn btn02 close-btn">확인</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //end:레이어 팝업 -->
+
+<!-- start : 공통 오디오 팝업(최대1개)-->
+<div class="layerpop class-count click-none" id="audioPopup">
+    <div class="overlay"></div>
+    <div class="popup-content">
+        <div class="inner">
+            <!-- 제목 -->
+            <div class="title">
+                <!-- 오디오 첨부후 재클릭시 data-popup="audioCheck" , 첨부파일이 50MB가 초가시 data-popup="fileCheck" -->
+                <h2>오디오 파일 첨부</h2>
+                <div class="btn-box">
+                    <button type="button" class="close close-btn"></button>
+                </div>
+            </div>
+            <!-- 내용 -->
+            <div class="contents">
+                <div class="cont-inner">
+                    <div class="has-scroll">
+                        <div class="input-file">
+                            <label for="upload01" class="file-label btn btn03 md">파일 선택</label>
+                            <!-- start : 파일 선택후 disabled 클래스가 붙음
+                            <label for="upload01" class="file-label btn btn03 md disabled">파일 선택</label>
+                           // end : 파일 선택후 disabled 클래스가 붙음 -->
+                            <input type="file" name="" id="upload01" class="file-upload " multiple="">
+                            <div class="audio-wrap mg-top-10">
+                                <div class="audio-from">
+                                    <button type="button" class="btn05 rc-btn"><i></i> 녹음하기</button>
+                                    <!-- start : 파일 업로드시 노출 -->
+                                    <div class="name-wrap">
+                                        <!-- 파일 클래스명 - mp4파일: .mp4 , mp3파일: .mp3 , zip파일: .zip , pdf파일: .pdf , hwp파일: .hwp , xlsx파일: .xlsx , pptx파일: .pptx , png파일: .png , jpg파일: .jpg , txt파일: .txt , youtube파일: .youtube -->
+                                        <div class="inner mp4">
+                                            <p class="txt">4학년 체육_YBM1단원_1차시.mp4</p>
+                                            <button type="button" class="delete"></button>
+                                        </div>
+                                    </div>
+                                    <!-- // end : 파일 업로드시 노출 -->
+                                    <div class="recod-box mg-top-10">
+                                        <div class="inner">
+                                            <div class="form-wrap">
+                                                <button type="button" class="btns stop">정지</button>
+                                            </div>
+                                            <div class="streaming">
+                                                <img src="../../img/common/ico_audio_streaming.svg" alt="">
+                                            </div>
+                                            <div class="btn-box">
+                                                <button type="button" class="btn btn06" data-popup="recodCancel">취소</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="disc-box mg-top-10">
+                                        <p>* 녹음은 최대 1분까지 가능합니다.</p>
+                                        <div class="time">
+                                            <span>00:03<em> / 01:00</em></span>
+                                        </div>
+                                    </div>
+                                    <div class="recod-box">
+                                        <div class="inner">
+                                            <div class="form-wrap">
+                                                <button type="button" class="btns play">정지</button>
+                                            </div>
+                                            <div class="progress-form">
+                                                <div class="total-bar">
+                                                    <div class="current-bar" style="width:80%"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="field-form mg-top-15">
+                                    <div class="inner">
+                                        <h2 class="title-txt star">이름</h2>
+                                        <div class="field">
+                                            <div class="form-wrap">
+                                                <input type="text" class="form-control " placeholder="이름을 입력하세요.">
+                                            </div>
+                                            <div class="tab-ui type-b">
+                                                <button type="button" class="tb-btn on" data-popup="recodCancel">취소</button>
+                                                <button type="button" class="tb-btn">확인</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="file-size">
+                                <span><em>0</em>MB / 50MB</span>
+                            </div>
+                        </div>
+                        <div class="file-info">
+                            <div class="file-guide">
+                                <h2>※ 오디오 파일 첨부 안내</h2>
+                                <p>첨부 가능한 확장자 : m4a, mp3, ogg, wma, wav</p>
+                                <p>오디오 파일은 최대 1개, 파일당 최대 50MB까지 등록 가능합니다.</p>
+                            </div>
+                            <div class="file-check">
+                                <p>녹음 전 윈도우의 [설정 > 앱 사용 권한 > 마이크] 의 엑세스 허용 상태를 확인해 주세요.</p>
+                                <div class="browser-desc">
+                                    <ul>
+                                        <li><span> ※ 브라우저 녹음 기능 설정</span></li>
+                                        <li>
+                                            <div class="chrome-icon tool-tip-bx">
+                                                <div class="balloon">
+                                                    <p>
+                                                        설정 > 보안 및 개인정보 보호 > 사이트 설정 > 마이크 > `사이트에서 마이크 사용을 요청 할 수 있음` 체크 여부 확인
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <p>Chrome</p>
+                                        </li>
+                                        <li>
+                                            <div class="edge-icon tool-tip-bx">
+                                                <div class="balloon">
+                                                    <p>
+                                                        설정 > 쿠키 및 사이트 권한 > 모든 사용 권한 > 마이크 > 해당 웹사이트의 엑세스 권한이 허용 되어 있는지 확인
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <p>Edge</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <p>
+                                    녹음하기 버튼 클릭 시 녹음이 시작되며, 최대 1분간 녹음이 가능 합니다. 
+                                </p>
+                                <p>
+                                    녹음 중 일시정지는 불가 하며, 녹음을 종료 하시려면 플레이어의 `중지` 버튼을 클릭해 주세요.
+                                </p>
+                                <p>
+                                    플레이어의 `재생` 버튼을 클릭 하면 녹음된 음성이 재생 됩니다. 
+                                </p>
+                                <p>
+                                    녹음 파일의 `이름` 입력 후 `완료` 버튼 클릭 시 녹음이 완료 됩니다. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 버튼 -->
+            <div class="flex-btn-wrap">
+                <div class="col-6">
+                    <button type="button" class="btn btn04 close-btn">취소</button>
+                </div>
+                <div class="col-6">
+                    <button type="button" class="btn btn02 close-btn">등록</button><!-- 첨부파일 첨부 후에는 disabled 클래스 제거 -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end -->
+
+<!-- start: 녹음한 내용 / 화면ID : 2202_14-->
+<div class="layerpop type-a" id="recodCancelPopup">
+    <div class="overlay"></div>
+    <div class="popup-content">
+        <div class="inner">
+            <!-- 제목 -->
+            <div class="title">
+                <div class="btn-box">
+                    <button type='button' class="close close-btn"></button>
+                </div>
+            </div>
+            <!-- 내용 -->
+            <div class="contents">
+                <div class="noti type-a">
+                    <div class="img-wrap"><img src="../../img/common/ico_danger_2.svg" alt=""></div>
+                    <h3>녹음한 내용을 취소하시겠습니까?</h3>
+                </div>
+            </div>
+            <!-- 버튼 -->
+            <div class="flex-btn-wrap">
+                <div class="col-6">
+                    <button type="button" class="btn btn06 cancel-btn">취소</button>
+                </div>
+                <div class="col-6">
+                    <button type="button" class="btn btn02 close-btn2">확인</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //end:레이어 팝업 -->
+
+<!-- start: 오디오 첨부후 재클릭시 / 화면ID : 2202_14-->
+<div class="layerpop type-a" id="audioCheckPopup">
+    <div class="overlay"></div>
+    <div class="popup-content">
+        <div class="inner">
+            <!-- 제목 -->
+            <div class="title">
+                <div class="btn-box">
+                    <button type='button' class="close close-btn"></button>
+                </div>
+            </div>
+            <!-- 내용 -->
+            <div class="contents">
+                <div class="noti type-a">
+                    <div class="img-wrap"><img src="../../img/common/ico_danger_2.svg" alt=""></div>
+                    <h3>오디오 파일은 1개만 첨부하실 수 있습니다.</h3>
+                </div>
+            </div>
+            <!-- 버튼 -->
+            <div class="flex-btn-wrap">
+                <div class="col-12">
+                    <button type="button" class="btn btn02 close-btn">확인</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //end:레이어 팝업 -->
+
+<!-- start : 조/종례 / 화면ID : 1101 -->
+<div class="layerpop class-count" id="classBylawPopup">
+    <div class="overlay"></div>
+    <div class="popup-content">
+        <div class="inner">
+            <!-- 제목 -->
+            <div class="title">
+                <h2 class="ico-school tool-tip-bx">
+                    조례 <i>10:40 ~ 11:20</i>
+                    <span class="cla going">등교수업</span>
+                    <div class="balloon type-a">
+                        <p>
+                            [학교] <em>홍길동 선생님 (유쾌한 4학년 5반)</em> 
+                        </p>
+                    </div>
+                </h2>
+                <div class="btn-box">
+                    <button type="button" class="close cancel-btn"></button>
+                </div>
+            </div>
+            <!-- 내용 -->
+            <div class="contents type-a">
+                <div class="class-title-bx">
+                    <div class="inner">
+                        <strong>5-3 착한반</strong>
+                        <!-- 화상/등교수업일때, 출석예정/미진행.yet , 출석완료.att , 결석.not , 지각/조퇴.tardy , 출석인정.comp -->
+                        <!-- 온라인수업일떄, 출석예정.yet , 미진행.not , 진행중.ing , 학습(출석)인정.comp -->
+                        <span class="class-st not">결석</span>
+                    </div>
+                </div>
+                <div class="class-desc-box">
+                    <p>
+                        다음주는 온라인 수업 기간입니다.
+                        집에서 공부할 때도 언제든지 선생님께 질문해주세요.
+                        건강들 잘 챙겨요.
+                    </p>
+                </div>
+            </div>
+            <!-- 버튼 -->
+            <div class="flex-btn-wrap">
+                <div class="col-12">
+                    <button type="button" class="btn btn02 cancel-btn">닫기</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //end:레이어 팝업 -->
+
+<!-- start : 조회 / 화면ID : 1105 -->
+<div class="layerpop class-count" id="classLookupPopup">
+    <div class="overlay"></div>
+    <div class="popup-content">
+        <div class="inner">
+            <!-- 제목 -->
+            <div class="title">
+                <h2>일정 조회</h2>
+                <div class="btn-box">
+                    <button type="button" class="close cancel-btn"></button>
+                </div>
+            </div>
+            <!-- 내용 -->
+            <div class="contents type-a schedule-input">
+                <div class="mg-left">
+                    <i class="ico-school"></i>
+                </div>
+                <div class="mg-right">
+                    <div class="txtbox name">일정명</div>
+                    <div class="flex-box">
+                        <div class="mg-left">
+                            <div class="txtbox class">학급명</div>
+                            <p>반</p>
+                        </div>
+                        <div class="mg-right">
+                            <div class="txtbox teacher">교사명</div>
+                            <p>선생님</p>
+                        </div>
+                    </div>
+                    <p>2021년 8월 12일 16:00 ~ 9월 1일 12:00</p>
+                </div>
+            </div>
+            <!-- 버튼 -->
+            <!-- <div class="flex-btn-wrap">
+                <div class="col-12">
+                    <button type="button" class="btn btn02 cancel-btn">닫기</button>
+                </div>
+            </div> -->
+        </div>
+    </div>
+</div>
+<!-- //end:레이어 팝업 -->
+
+<!-- start : 수업완료 팝업 / 화면ID : 1101 -->
+<div class="layerpop class-count" id="classCompletPopup">
+    <div class="overlay"></div>
+    <div class="popup-content">
+        <div class="inner">
+            <!-- 제목 -->
+            <div class="title">
+                <h2 class="ico-school">1교시 <i>10:40 ~ 11:20</i><span class="cla going">등교수업</span></h2>
+                <div class="btn-box">
+                    <button type="button" class="close cancel-btn"></button>
+                </div>
+            </div>
+            <!-- 내용 -->
+            <div class="contents">
+                <div class="class-popup-cont">
+                    <div class="info-txt-box type-a">
+                        <p class="img-wrap"><img src="../../img/common/ico_chk.svg" alt=""></p>
+                        <h2 class="info-txt">※ 수업이 완료되었습니다.</h2>
+                    </div>
+                    <div class="info-txt-box type-a class-popup-desc">
+                        <div class="flex-box">
+                            <div class="class-popup-lt">
+                                <strong>체육 4 (김)</strong>
+                            </div>
+                            <div class="class-popup-rt">
+                                <p>5-3 착한반 <span class="class-st att">출석</span></p>
+                            </div>
+                        </div>
+                        <div class="class-popup-bottom mg-top-15">
+                            <p>1단원 <i class="next-s"></i> 1차시 (p.16~23)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 버튼 -->
+            <div class="flex-btn-wrap">
+                <div class="col-12">
+                    <button type="button" class="btn btn02 cancel-btn">수업 자료 보기</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //end:레이어 팝업 -->
+
+<!-- start : 수업 미진행 팝업 / 화면ID : 1101 -->
+<div class="layerpop class-count" id="classNotCompletPopup">
+    <div class="overlay"></div>
+    <div class="popup-content">
+        <div class="inner">
+            <!-- 제목 -->
+            <div class="title">
+                <h2 class="ico-school">2교시 <i>12:00 ~ 12:40</i><span class="cla online">온라인수업</span></h2>
+                <div class="btn-box">
+                    <button type="button" class="close cancel-btn"></button>
+                </div>
+            </div>
+            <!-- 내용 -->
+            <div class="contents">
+                <div class="class-popup-cont">
+                    <div class="info-txt-box type-a">
+                        <p class="img-wrap"><img src="../../img/common/ico_danger_2.svg" alt=""></p>
+                        <h2 class="info-txt">※ 수업이 미진행 되었습니다.</h2>
+                    </div>
+                    <div class="info-txt-box type-a class-popup-desc">
+                        <div class="flex-box">
+                            <div class="class-popup-lt">
+                                <strong>체육 4 (김)</strong>
+                            </div>
+                            <div class="class-popup-rt">
+                                <p>5-3 착한반 <span class="class-st yet">출석</span></p>
+                            </div>
+                        </div>
+                        <div class="class-popup-bottom mg-top-15">
+                            <p>1단원 <i class="next-s"></i> 1차시 (p.16~23)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 버튼 -->
+            <div class="flex-btn-wrap">
+                <div class="col-12">
+                    <button type="button" class="btn btn02 cancel-btn">수업 자료 보기</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //end:레이어 팝업 -->
+
+<!-- start : 수업 예정 팝업 / 화면ID : 1101 -->
+<div class="layerpop class-count" id="classToPopup">
+    <div class="overlay"></div>
+    <div class="popup-content">
+        <div class="inner">
+            <!-- 제목 -->
+            <div class="title">
+                <h2 class="ico-school">3교시 <i>13:00 ~ 14:40</i><span class="cla video">화상수업</span></h2>
+                <div class="btn-box">
+                    <button type="button" class="close cancel-btn"></button>
+                </div>
+            </div>
+            <!-- 내용 -->
+            <div class="contents">
+                <div class="class-popup-cont">
+                    <div class="info-txt-box type-a">
+                        <p class="img-wrap"><img src="../../img/common/ico_clock.svg" alt=""></p>
+                        <h2 class="info-txt">※ 7/11 예정 수업입니다.</h2>
+                    </div>
+                    <div class="info-txt-box type-a class-popup-desc">
+                        <div class="flex-box">
+                            <div class="class-popup-lt">
+                                <strong>체육 4 (김)</strong>
+                                <span class="state-class">김*숙</span>
+                            </div>
+                            <div class="class-popup-rt">
+                                <p>5-3 착한반 <span class="class-st yet">출석</span></p>
+                            </div>
+                        </div>
+                        <div class="class-popup-bottom mg-top-15">
+                            <p>1단원 <i class="next-s"></i> 1차시 (p.16~23)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 버튼 -->
+            <div class="flex-btn-wrap">
+                <div class="col-12">
+                    <button type="button" class="btn btn02 cancel-btn">수업 자료 보기</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //end:레이어 팝업 -->
+
+<!-- start : 현재 수업 진행 팝업 / 화면ID : 1001 -->
+<div class="layerpop class-count" id="classIngPopup">
+    <div class="overlay"></div>
+    <div class="popup-content">
+        <div class="inner">
+            <!-- 제목 -->
+            <div class="title">
+                <h2 class="ico-school">2교시 <i>09:50 ~ 10:20</i><span class="cla video">화상수업</span></h2>
+                <div class="btn-box">
+                    <button type="button" class="close cancel-btn"></button>
+                </div>
+            </div>
+            <!-- 내용 -->
+            <div class="contents">
+                <div class="class-popup-cont">
+                    <div class="info-txt-box type-a">
+                        <p class="img-wrap"><img src="../../img/common/ico_time.svg" alt=""></p>
+                        <h2 class="info-txt">※ 현재 수업 진행 시간입니다.</h2>
+                    </div>
+                    <div class="info-txt-box type-a class-popup-desc">
+                        <div class="flex-box">
+                            <div class="class-popup-lt">
+                                <strong>체육 4 (김)</strong>
+                            </div>
+                            <div class="class-popup-rt">
+                                <p>4-3 착한반</p>
+                                <span class="class-st ing">진행중</span>
+                            </div>
+                        </div>
+                        <div class="class-popup-bottom mg-top-15">
+                            <p>1단원 <i class="next-s"></i> 1차시 (p.16~23)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 화상,등교수업일때 -->
+            <!-- <div class="flex-btn-wrap">
+                <div class="col-12">
+                    <button type="button" class="btn btn02 close-btn">수업 자료 보기</button>
+                </div>
+            </div> -->
+            <!-- 온라인수업일때 -->
+            <div class="flex-btn-wrap">
+                <div class="col-6">
+                    <button type="button" class="btn btn04 cancel-btn">수업 자료 보기</button>
+                </div>
+                <div class="col-6">
+                    <button type="button" class="btn btn02 cancel-btn">화상수업 연결</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //end:레이어 팝업 -->
+
+<!-- start : 일정/수업 항목 / 화면ID : 1103 -->
+<div class="layerpop class-count" id="classSchedulePopup">
+    <div class="overlay"></div>
+    <div class="popup-content">
+        <div class="inner">
+            <!-- 제목 -->
+            <div class="title">
+                <h2>2021.07.20 화요일</h2>
+                <div class="btn-box">
+                    <button type="button" class="close cancel-btn"></button>
+                </div>
+            </div>
+            <!-- 내용 -->
+            <div class="class-tbx contents type-a">
+                <div class="inner has-scroll">
+                    <div class="cont-bx top">
+                        <h3>일정</h3>
+                        <p>크리스마스</p>
+                        <a href="#none" class="scd-item bac long" data-popup="classLookup">
+                            <i class="ico-school"></i>
+                            <strong>일정명</strong>
+                            <span>[학급명 - 교사명]</span>
+                        </a>
+                        <a href="#none" class="scd-item bac long" data-popup="classLookup">
+                            <i class="ico-school"></i>
+                            <strong>일정명</strong>
+                            <span>[학급명 - 교사명]</span>
+                        </a>
+                        <a href="#none" class="scd-item bac long" data-popup="classLookup">
+                            <i class="ico-school"></i>
+                            <strong>일정명</strong>
+                            <span>[학급명 - 교사명]</span>
+                        </a>
+                        <a href="#none" class="scd-item bac long" data-popup="classLookup">
+                            <i class="ico-school"></i>
+                            <strong>일정명</strong>
+                            <span>[학급명 - 교사명]</span>
+                        </a>
+                        <a href="#none" class="scd-item ass">
+                            <i class="ico-school"></i>
+                            <strong>[과제]</strong>
+                            <span>| 3-4개구쟁이반 | 영어3 - 김혜리 | 과제/퀴즈 제목 | 3-4개구쟁이반 | 영어3 - 김혜리 | 과제/퀴즈 제목 |
+                                3-4개구쟁이반 | 영어3 -
+                                김혜리 | 과제/퀴즈 제목 | 3-4개구쟁이반 | 영어3 - 김혜리 | 과제/퀴즈 제목</span>
+                        </a>
+                    </div>
+                    <div class="cont-bx bottom">
+                        <h3>수업</h3>
+                        <!-- 수업완료 -->
+                        <a href="#none" class="time-item short comp" data-popup="classBylaw">
+                            <ul class="mg-left">
+                                <li class="time">08:40 ~ 08:50</li>
+                                <li class="txt">
+                                    <p>국어 4 (김)</p>
+                                    <span>1단원 <i class="arrow-right"></i> 3차시</span>
+                                </li>
+                            </ul>
+                            <ul class="mg-right">
+                                <li>
+                                    <div class="tool-tip-bx ico-school">
+                                        <div class="balloon">
+                                            <p>
+                                                [학교] <i>홍길동 선생님 (유쾌한 4학년 5반)</i>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>4-3반</li>
+                                <li><span class="class-sub">등교</span></li>
+                            </ul>
+                        </a>
+                        <!-- 수업완료 -->
+                        <a href="#none" class="time-item short comp" data-popup="classBylaw">
+                            <ul class="mg-left">
+                                <li class="time">08:40 ~ 08:50</li>
+                                <li class="txt">
+                                    <p>국어 4 (김)</p>
+                                    <span>1단원 <i class="arrow-right"></i> 3차시</span>
+                                </li>
+                            </ul>
+                            <ul class="mg-right">
+                                <li>
+                                    <div class="tool-tip-bx ico-school">
+                                        <div class="balloon">
+                                            <p>
+                                                [학교] <i>홍길동 선생님 (유쾌한 4학년 5반)</i>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>4-3반</li>
+                                <li><span class="class-sub">등교</span></li>
+                            </ul>
+                        </a>
+                        <!-- 진행중 -->
+                        <a href="#none" class="time-item short ing" data-popup="classIng">
+                            <ul class="mg-left">
+                                <li class="time">08:40 ~ 08:50</li>
+                                <li class="txt">
+                                    <p>국어 4 (김)</p>
+                                    <span>1단원 <i class="arrow-right"></i> 3차시</span>
+                                </li>
+                            </ul>
+                            <ul class="mg-right">
+                                <li>
+                                    <div class="tool-tip-bx ico-school">
+                                        <div class="balloon">
+                                            <p>
+                                                [학교] <i>홍길동 선생님 (유쾌한 4학년 5반)</i>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>4-3반</li>
+                                <li><span class="class-sub">등교</span></li>
+                            </ul>
+                        </a>
+                        <!-- 진행예정 -->
+                        <a href="#none" class="time-item short" data-popup="classTo">
+                            <ul class="mg-left">
+                                <li class="time">08:40 ~ 08:50</li>
+                                <li class="txt">
+                                    <p>국어 4 (김)</p>
+                                    <span>1단원 <i class="arrow-right"></i> 3차시</span>
+                                </li>
+                            </ul>
+                            <ul class="mg-right">
+                                <li>
+                                    <div class="tool-tip-bx ico-school">
+                                        <div class="balloon">
+                                            <p>
+                                                [학교] <i>홍길동 선생님 (유쾌한 4학년 5반)</i>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>4-3반</li>
+                                <li><span class="class-sub">등교</span></li>
+                            </ul>
+                        </a>
+                        <!-- 진행예정 -->
+                        <a href="#none" class="time-item short" data-popup="classTo">
+                            <ul class="mg-left">
+                                <li class="time">08:40 ~ 08:50</li>
+                                <li class="txt">
+                                    <p>국어 4 (김)</p>
+                                    <span>1단원 <i class="arrow-right"></i> 3차시</span>
+                                </li>
+                            </ul>
+                            <ul class="mg-right">
+                                <li>
+                                    <div class="tool-tip-bx ico-school">
+                                        <div class="balloon">
+                                            <p>
+                                                [학교] <i>홍길동 선생님 (유쾌한 4학년 5반)</i>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>4-3반</li>
+                                <li><span class="class-sub">등교</span></li>
+                            </ul>
+                        </a>
+                        <!-- 진행예정 -->
+                        <a href="#none" class="time-item short" data-popup="classTo">
+                            <ul class="mg-left">
+                                <li class="time">08:40 ~ 08:50</li>
+                                <li class="txt">
+                                    <p>국어 4 (김)</p>
+                                    <span>1단원 <i class="arrow-right"></i> 3차시</span>
+                                </li>
+                            </ul>
+                            <ul class="mg-right">
+                                <li>
+                                    <div class="tool-tip-bx ico-school">
+                                        <div class="balloon">
+                                            <p>
+                                                [학교] <i>홍길동 선생님 (유쾌한 4학년 5반)</i>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>4-3반</li>
+                                <li><span class="class-sub">등교</span></li>
+                            </ul>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //end:레이어 팝업 -->
+
+<!-- start : 해당일자에 등록된 일정 목록 / 화면ID : 1103 -->
+<div class="layerpop class-count" id="classScheduleListPopup">
+    <div class="overlay"></div>
+    <div class="popup-content">
+        <div class="inner">
+            <!-- 제목 -->
+            <div class="title">
+                <h2>2021.07.20 화요일</h2>
+                <div class="btn-box">
+                    <button type="button" class="close close-btn"></button>
+                </div>
+            </div>
+            <!-- 내용 -->
+            <div class="class-tbx contents type-a">
+                <div class="inner has-scroll">
+                    <div class="cont-bx top">
+                        <p>크리스마스</p>
+                        <a href="#none" class="scd-item bac long" data-popup="classLookup">
+                            <i class="ico-school"></i>
+                            <strong>일정명</strong>
+                            <span>[학급명 - 교사명]</span>
+                        </a>
+                        <a href="#none" class="scd-item bac long" data-popup="classLookup">
+                            <i class="ico-school"></i>
+                            <strong>일정명</strong>
+                            <span>[학급명 - 교사명]</span>
+                        </a>
+                        <a href="#none" class="scd-item bac long" data-popup="classLookup">
+                            <i class="ico-school"></i>
+                            <strong>일정명</strong>
+                            <span>[학급명 - 교사명]</span>
+                        </a>
+                        <a href="#none" class="scd-item bac long" data-popup="classLookup">
+                            <i class="ico-school"></i>
+                            <strong>일정명</strong>
+                            <span>[학급명 - 교사명]</span>
+                        </a>
+                        <a href="#none" class="scd-item ass">
+                            <i class="ico-school"></i>
+                            <strong>[과제]</strong>
+                            <span>| 3-4개구쟁이반 | 영어3 - 김혜리 | 과제/퀴즈 제목 | 3-4개구쟁이반 | 영어3 - 김혜리 | 과제/퀴즈 제목 |
+                                3-4개구쟁이반 | 영어3 -
+                                김혜리 | 과제/퀴즈 제목 | 3-4개구쟁이반 | 영어3 - 김혜리 | 과제/퀴즈 제목</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //end:레이어 팝업 -->
+
+<!-- start: 학생용 자료 없을시 / 화면ID : 스터디보드-->
+<div class="layerpop type-a" id="classNoDataPopup">
+    <div class="overlay"></div>
+    <div class="popup-content">
+        <div class="inner">
+            <!-- 제목 -->
+            <div class="title">
+                <div class="btn-box">
+                    <button type='button' class="close cancel-btn"></button>
+                </div>
+            </div>
+            <!-- 내용 -->
+            <div class="contents">
+                <div class="noti">
+                    <div class="img-wrap"><img src="../../img/common/ico_danger_2.svg" alt=""></div>
+                    <h3>학생용 자료가 없습니다.</h3>
+                </div>
+            </div>
+            <!-- 버튼 -->
+            <div class="flex-btn-wrap">
+                <div class="col-12">
+                    <button type="button" class="btn btn02 cancel-btn">확인</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //end:레이어 팝업 -->
+
+<!-- start : 수업 일정 중복 / 화면ID : 스터디보드 -->
+<div class="layerpop class-table" id="classOverlapPopup">
+    <div class="overlay"></div>
+    <div class="popup-content">
+        <div class="inner">
+            <!-- 제목 -->
+            <div class="title">
+                <h2>수업 일정 중복</h2>
+                <div class="btn-box">
+                    <button type='button' class="close cancel-btn"></button>
+                </div>
+            </div>
+            <!-- 내용 -->
+            <div class="contents">
+                <div class="class-popup-cont">
+                    <div class="info-txt-box type-a">
+                        <span>총 <strong>2</strong>건의 중복된 수업 일정이 있습니다.</span>
+                        <p>담당 선생님께 일정 문의하세요!</p>
+                    </div>
+                </div>
+                <div class="class-table-inner">
+                    <table class="table">
+                        <colgroup>
+                            <col width="25%">
+                        </colgroup>
+                        <tr>
+                            <th>소속 학교</th>
+                            <td>학교 <i>(청담초등학교)</i></td>
+                            <td>학교 <i>(청담초등학교)</i></td>
+                        </tr>
+                        <tr>
+                            <th>학급 이름</th>
+                            <td>유쾌한 3학년 5반</td>
+                            <td>쾌활한 5학년 2반</td>
+                        </tr>
+                        <tr>
+                            <th>시간</th>
+                            <td>09:00 ~ 09:50</td>
+                            <td>10:00 ~ 10:50</td>
+                        </tr>
+                        <tr>
+                            <th>담당 선생님</th>
+                            <td>홍길동 선생님</td>
+                            <td>김태민 선생님</td>
+                        </tr>
+                        <tr>
+                            <th>교과서명 <br>(교제명)</th>
+                            <td>영어 3 (김)</td>
+                            <td>수학 3-2</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <!-- 버튼 -->
+            <div class="flex-btn-wrap">
+                <div class="col-12">
+                    <button type="button" class="btn btn02 cancel-btn">확인</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //end:레이어 팝업 -->
+
+<!-- start : 과제 현황 / 화면ID : sc_p_1202 -->
+<div class="layerpop class-table" id="assNowPopup">
+    <div class="overlay"></div>
+    <div class="popup-content">
+        <div class="inner">
+            <!-- 제목 -->
+            <div class="title">
+                <h2>과제 현황</h2>
+                <div class="btn-box">
+                    <button type='button' class="close close-btn"></button>
+                </div>
+            </div>
+            <!-- 내용 -->
+            <div class="contents">
+                <div class="class-table-inner ass-now-cont">
+                    <table class="table">
+                        <tr>
+                            <th>과제 제목</th>
+                            <th>기간</th>
+                            <th>과제 상태</th>
+                        </tr>
+                        <tr>
+                            <td class="ass-subject">
+                                말하고 듣기
+                                쓰기 과제 (1)
+                            </td>
+                            <td class="ass-day">
+                                2021.05.20 09:00
+                                ~ 2021.05.27 14:00
+                            </td>
+                            <!-- 상태 추가 클래스명: 완료시.comp , 진행중.ing , 제출전.before , 미제출.yet -->
+                            <td class="ass-state comp">완료</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <!-- 버튼 -->
+            <div class="flex-btn-wrap">
+                <div class="col-12">
+                    <button type="button" class="btn btn02 close-btn">닫기</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //end:레이어 팝업 -->
+
+<!-- start : 평가 현황 / 화면ID : sc_p_1202 -->
+<div class="layerpop class-table" id="evlNowPopup">
+    <div class="overlay"></div>
+    <div class="popup-content">
+        <div class="inner">
+            <!-- 제목 -->
+            <div class="title">
+                <h2>평가 현황</h2>
+                <div class="btn-box">
+                    <button type='button' class="close close-btn"></button>
+                </div>
+            </div>
+            <!-- 내용 -->
+            <div class="contents">
+                <div class="class-table-inner ass-now-cont">
+                    <table class="table">
+                        <tr>
+                            <th>평가 제목</th>
+                            <th>기간</th>
+                            <th>평가 상태</th>
+                        </tr>
+                        <tr>
+                            <td class="ass-subject">
+                                말하고 듣기
+                                쓰기 과제 (1)
+                            </td>
+                            <td class="ass-day">
+                                2021.05.20 09:00
+                                ~ 2021.05.27 14:00
+                            </td>
+                            <!-- 상태 추가 클래스명: 완료시.comp , 진행중.ing , 제출전.before , 미제출.yet -->
+                            <td class="ass-state comp">완료</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <!-- 버튼 -->
+            <div class="flex-btn-wrap">
+                <div class="col-12">
+                    <button type="button" class="btn btn02 close-btn">닫기</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //end:레이어 팝업 -->
+
+<!-- start : 출석 현황 / 화면ID : sc_p_1202 -->
+<div class="layerpop class-table" id="attNowPopup">
+    <div class="overlay"></div>
+    <div class="popup-content">
+        <div class="inner">
+            <!-- 제목 -->
+            <div class="title">
+                <h2>출석 현황</h2>
+                <div class="btn-box">
+                    <button type='button' class="close close-btn"></button>
+                </div>
+            </div>
+            <!-- 내용 -->
+            <div class="contents">
+                <div class="class-table-inner ass-now-cont">
+                    <table class="table">
+                        <tr>
+                            <th>수업 일시 (교사 정보)</th>
+                            <th>출석(학습) 상태</th>
+                        </tr>
+                        <tr>
+                            <td class="ass-day">
+                                2021.03.25 (금)
+                                <i class="ass-class">2교시 (09:40 ~ 10:20)</i>
+                            </td>
+                            <!-- 상태 추가 클래스명: 결석.not , 지각/조퇴.tardy , 출석 -->
+                            <td class="ass-state att">출석</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <!-- 버튼 -->
+            <div class="flex-btn-wrap">
+                <div class="col-12">
+                    <button type="button" class="btn btn02 close-btn">닫기</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //end:레이어 팝업 -->
+
+<!-- start: 댓글입력이 300byte 넘을시 / 화면ID : 2202_1-->
+<div class="layerpop type-a" id="chatLimitPopup">
+    <div class="overlay"></div>
+    <div class="popup-content">
+        <div class="inner">
+            <!-- 제목 -->
+            <div class="title">
+                <div class="btn-box">
+                    <button type='button' class="close close-btn"></button>
+                </div>
+            </div>
+            <!-- 내용 -->
+            <div class="contents">
+                <div class="noti type-a">
+                    <div class="img-wrap"><img src="../../img/common/ico_danger_2.svg" alt=""></div>
+                    <h3>댓글 입력은 최대 300 Byte까지 작성 가능합니다.</h3>
+                </div>
+            </div>
+            <!-- 버튼 -->
+            <div class="flex-btn-wrap">
+                <div class="col-12">
+                    <button type="button" class="btn btn02 close-btn">확인</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //end:레이어 팝업 -->
+
+<!-- start: 댓글 미입력후 전송시 / 화면ID : 2202_1-->
+<div class="layerpop type-a" id="chatNotLimitPopup">
+    <div class="overlay"></div>
+    <div class="popup-content">
+        <div class="inner">
+            <!-- 제목 -->
+            <div class="title">
+                <div class="btn-box">
+                    <button type='button' class="close close-btn"></button>
+                </div>
+            </div>
+            <!-- 내용 -->
+            <div class="contents">
+                <div class="noti type-a">
+                    <div class="img-wrap"><img src="../../img/common/ico_danger_2.svg" alt=""></div>
+                    <h3>댓글 내용을 입력하지 않았습니다.</h3>
+                </div>
+            </div>
+            <!-- 버튼 -->
+            <div class="flex-btn-wrap">
+                <div class="col-12">
+                    <button type="button" class="btn btn02 close-btn">확인</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //end:레이어 팝업 -->
+
+<!-- start: 댓글 삭제시 / 화면ID : 2202_19-->
+<div class="layerpop type-a" id="chatDelPopup">
+    <div class="overlay"></div>
+    <div class="popup-content">
+        <div class="inner">
+            <!-- 제목 -->
+            <div class="title">
+                <div class="btn-box">
+                    <button type='button' class="close close-btn"></button>
+                </div>
+            </div>
+            <!-- 내용 -->
+            <div class="contents">
+                <div class="noti type-a">
+                    <div class="img-wrap"><img src="../../img/common/ico_danger_2.svg" alt=""></div>
+                    <h3>해당 댓글을 삭제하시겠습니까?</h3>
+                </div>
+            </div>
+            <!-- 버튼 -->
+            <div class="flex-btn-wrap">
+                <div class="col-6">
+                    <button type="button" class="btn btn06 close-btn">취소</button>
+                </div>
+                <div class="col-6">
+                    <button type="button" class="btn btn02" data-popup="chatCheck">확인</button><!-- 첨부파일 첨부 후에는 disabled 클래스 제거 -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //end:레이어 팝업 -->
+
+<!-- start: 댓글 삭제 확인 / 화면ID : 2202_19-->
+<div class="layerpop type-a" id="chatCheckPopup">
+    <div class="overlay"></div>
+    <div class="popup-content">
+        <div class="inner">
+            <!-- 제목 -->
+            <div class="title">
+                <div class="btn-box">
+                    <button type='button' class="close close-btn"></button>
+                </div>
+            </div>
+            <!-- 내용 -->
+            <div class="contents">
+                <div class="noti type-a">
+                    <div class="img-wrap"><img src="../../img/common/ico_chk.svg" alt=""></div>
+                    <h3>삭제 처리되었습니다.</h3>
+                </div>
+            </div>
+            <!-- 버튼 -->
+            <div class="flex-btn-wrap">
+                <div class="col-12">
+                    <button type="button" class="btn btn02 close-btn">확인</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //end:레이어 팝업 -->
+
+<!-- start: 의견입력이 300byte 넘을시 / 화면ID : 2202_1-->
+<div class="layerpop type-a" id="chatLimit2Popup">
+    <div class="overlay"></div>
+    <div class="popup-content">
+        <div class="inner">
+            <!-- 제목 -->
+            <div class="title">
+                <div class="btn-box">
+                    <button type='button' class="close close-btn"></button>
+                </div>
+            </div>
+            <!-- 내용 -->
+            <div class="contents">
+                <div class="noti type-a">
+                    <div class="img-wrap"><img src="../../img/common/ico_danger_2.svg" alt=""></div>
+                    <h3>의견 쓰기는 최대 300 Byte까지 작성 가능합니다.</h3>
+                </div>
+            </div>
+            <!-- 버튼 -->
+            <div class="flex-btn-wrap">
+                <div class="col-12">
+                    <button type="button" class="btn btn02 cancel-btn">확인</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //end:레이어 팝업 -->
+
+<!-- start: 설문조사 참여하기 - 찬/반형 / 화면ID : 2202_24-->
+<div class="layerpop layersuv click-none" id="surveyInv1Popup">
+    <div class="overlay"></div>
+    <div class="popup-content">
+        <div class="inner">
+            <!-- 제목 -->
+            <div class="title">
+                <h2>설문조사 참여하기</h2>
+                <div class="btn-box">
+                    <button type='button' class="close close-btn"></button>
+                </div>
+            </div>
+            <!-- 내용 -->
+            <div class="contents">
+                <div class="inner has-scroll2">
+                    <div class="body ">
+                        <p class="layersuv-title">
+                            <strong>[전체]</strong> 선행 학습에 대한 여러분의 의견을 묻습니다.
+                        </p>
+                        <div class="border-bx mg-top-15">
+                            <p>
+                                선생님은 선행학습을 하고 오는 학생들을 어떻게 대처하나요?
+                                많이 참여해주세요!
+                            </p>
+                        </div>
+                        <div class="sv-cont mg-top-15">
+                            <!-- swiper -->
+                            <div class="sv-swiper">
+                                <div class="photo-box">
+                                    <div class="inn">
+                                        <div class="txt-bx">
+                                            <div class="txt photo">
+                                                <div class="swiper-container">
+                                                    <div class="swiper-wrapper">
+                                                        <div class="swiper-slide">
+                                                            <div class="test-img-box">
+                                                                <p class="img-wrap"><img
+                                                                        src="../../img/temp/img_test21.jpg" alt=""></p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="swiper-slide">
+                                                            <div class="test-img-box">
+                                                                <p class="img-wrap"><img
+                                                                        src="../../img/temp/img_test22.jpg" alt=""></p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="swiper-slide">
+                                                            <div class="test-img-box">
+                                                                <p class="img-wrap"><img
+                                                                        src="../../img/temp/img_test23.jpg" alt=""></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="indicator">
+                                                    <!-- Add Arrows -->
+                                                    <div class="swiper-button-next">
+                                                    </div>
+                                                    <div class="swiper-button-prev">
+                                                    </div>
+                                                    <div class="swiper-pagination">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- audio -->
+                            <!-- <div class="audio-box">
+                                <div class="inn">
+                                    <div class="txt-bx">
+                                        <div class="txt audio">
+                                            <div class="title">
+                                                <p class="text">한강에서 찍은 우리 영상</p>
+                                                <span class="file">.mp4</span>
+                                            </div>
+                                            <div class="recod-box">
+                                                <div class="inner">
+                                                    <div class="form-wrap">
+                                                        <button type="button" class="btns play">정지</button>
+                                                    </div>
+                                                    <div class="progress-form">
+                                                        <div class="total-bar">
+                                                            <div class="current-bar" style="width:80%">
+                                                            </div>
+                                                        </div>
+                                                        <div class="time-bx mg-top-5">
+                                                            <span class="time start">00:40</span>
+                                                            <span class="time end">01:00</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> -->
+                            <!-- video -->
+                            <!-- <div class="video-box">
+                                <div class="inn">
+                                    <div class="txt-bx">
+                                        <div class="txt video">
+                                            <div class="title">
+                                                <p class="text">한강에서 찍은 우리 영상</p>
+                                                <span class="file">.mp4</span>
+                                            </div>
+                                            <a href="#" target="_blank">
+                                                <p class="img-box"><img src="../../img/temp/img_video.png" alt="">
+                                                </p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> -->
+                        </div>
+                        <!-- day -->
+                        <div class="layersuv-day mg-top-15">
+                            <p>
+                                <span class="start">2021.10.07 10:50</span> ~ <span class="end">2021.10.20
+                                    12:50</span> <strong class="day">(D-22)</strong>
+                            </p>
+                        </div>
+                        <!-- 찬성vs반대 -->
+                        <div class="against-cont mg-top-15">
+                            <div class="agree-cont">
+                                <div class="border-bx">
+                                    <div class="imgbox has-scroll">
+                                        <img src="../../img/temp/img_test3.png" alt="">
+                                    </div>
+                                    <p class="has-scroll">학생들의 기본권을 침해하지 말아야 한다.</p>
+                                </div>
+                                <button type="button" class="agree-btn">찬성합니다</button>
+                            </div>
+                            <div class="disagree-cont">
+                                <div class="border-bx">
+                                    <div class="imgbox has-scroll">
+                                        <img src="../../img/temp/img_test4.png" alt="">
+                                    </div>
+                                    <p class="has-scroll">공교육에 대한 잘못된 인식이 생긴다.</p>
+                                </div>
+                                <button type="button" class="disagree-btn">반대합니다</button>
+                            </div>
+                        </div>
+                        <!-- 의견창 -->
+                        <div class="against-input mg-top-15">
+                            <!-- 300byte 넘을시 data-popup="chatLimit2" 링크삽입시 링크를 a.link-btn2로 묶어주세요 -->
+                            <textarea class="textarea inputLengthCheck has-scroll auto-height" name=""  placeholder="의견을 입력하세요." id="inputLengthCheck"></textarea>
+                            <div class="input-btnbox">
+                                <div class="file-box">
+                                    <div class="file-up">
+                                        <div class="form-wrap">
+                                            <button type="button" class="btns emo">이모티콘</button>
+                                            <div class="emotion-box">
+                                                <div class="inner-cont">
+                                                    <ul>
+                                                        <li><button type="button" class="emo em1"></button>
+                                                        </li>
+                                                        <li><button type="button" class="emo em2"></button>
+                                                        </li>
+                                                        <li><button type="button" class="emo em3"></button>
+                                                        </li>
+                                                        <li><button type="button" class="emo em4"></button>
+                                                        </li>
+                                                        <li><button type="button" class="emo em5"></button>
+                                                        </li>
+                                                        <li><button type="button" class="emo em6"></button>
+                                                        </li>
+                                                        <li><button type="button" class="emo em7"></button>
+                                                        </li>
+                                                        <li><button type="button" class="emo em8"></button>
+                                                        </li>
+                                                        <li><button type="button" class="emo em9"></button>
+                                                        </li>
+                                                        <li><button type="button" class="emo em10"></button>
+                                                        </li>
+                                                        <li><button type="button" class="emo em11"></button>
+                                                        </li>
+                                                        <li><button type="button" class="emo em12"></button>
+                                                        </li>
+                                                        <li><button type="button" class="emo em13"></button>
+                                                        </li>
+                                                        <li><button type="button" class="emo em14"></button>
+                                                        </li>
+                                                        <li><button type="button" class="emo em15"></button>
+                                                        </li>
+                                                        <li><button type="button" class="emo em16"></button>
+                                                        </li>
+                                                        <li><button type="button" class="emo em17"></button>
+                                                        </li>
+                                                        <li><button type="button" class="emo em18"></button>
+                                                        </li>
+                                                        <li><button type="button" class="emo em19"></button>
+                                                        </li>
+                                                        <li><button type="button" class="emo em20"></button>
+                                                        </li>
+                                                        <li><button type="button" class="emo em21"></button>
+                                                        </li>
+                                                        <li><button type="button" class="emo em22"></button>
+                                                        </li>
+                                                        <li><button type="button" class="emo em23"></button>
+                                                        </li>
+                                                        <li><button type="button" class="emo em24"></button>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p id="textLengthCheck">
+                                    <strong>0</strong> / 300 Byte
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 버튼 -->
+            <div class="layer-btn">
+                <div class="col-6">
+                    <button type="button" class="btn btn03" data-popup="surveyCancel">취소</button>
+                </div>
+                <div class="col-6">
+                    <button type="button" class="btn btn02" data-popup="surveyRegist">참여하기</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //end:레이어 팝업 -->
+
+<!-- start: 설문조사 참여하기 - 선택형 / 화면ID : 2202_30-->
+<div class="layerpop layersuv click-none" id="surveyInv2Popup">
+    <div class="overlay"></div>
+    <div class="popup-content">
+        <div class="inner">
+            <!-- 제목 -->
+            <div class="title">
+                <h2>설문조사 참여하기</h2>
+                <div class="btn-box">
+                    <button type='button' class="close close-btn"></button>
+                </div>
+            </div>
+            <!-- 내용 -->
+            <div class="contents">
+                <div class="inner has-scroll2">
+                    <div class="body ">
+                        <p class="layersuv-title">
+                            <strong>[전체]</strong> 선행 학습에 대한 여러분의 의견을 묻습니다.
+                        </p>
+                        <div class="border-bx mg-top-15">
+                            <p>
+                                선생님은 선행학습을 하고 오는 학생들을 어떻게 대처하나요?
+                                많이 참여해주세요!
+                            </p>
+                        </div>
+                        <div class="sv-cont mg-top-15">
+                            <!-- swiper -->
+                            <div class="sv-swiper">
+                                <div class="photo-box">
+                                    <div class="inn">
+                                        <div class="txt-bx">
+                                            <div class="txt photo">
+                                                <div class="swiper-container">
+                                                    <div class="swiper-wrapper">
+                                                        <div class="swiper-slide">
+                                                            <div class="test-img-box">
+                                                                <p class="img-wrap"><img
+                                                                        src="../../img/temp/img_test21.jpg" alt=""></p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="swiper-slide">
+                                                            <div class="test-img-box">
+                                                                <p class="img-wrap"><img
+                                                                        src="../../img/temp/img_test22.jpg" alt=""></p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="swiper-slide">
+                                                            <div class="test-img-box">
+                                                                <p class="img-wrap"><img
+                                                                        src="../../img/temp/img_test23.jpg" alt=""></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="indicator">
+                                                    <!-- Add Arrows -->
+                                                    <div class="swiper-button-next">
+                                                    </div>
+                                                    <div class="swiper-button-prev">
+                                                    </div>
+                                                    <div class="swiper-pagination">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- audio -->
+                            <!-- <div class="audio-box">
+                                <div class="inn">
+                                    <div class="txt-bx">
+                                        <div class="txt audio">
+                                            <div class="title">
+                                                <p class="text">한강에서 찍은 우리 영상</p>
+                                                <span class="file">.mp4</span>
+                                            </div>
+                                            <div class="recod-box">
+                                                <div class="inner">
+                                                    <div class="form-wrap">
+                                                        <button type="button" class="btns play">정지</button>
+                                                    </div>
+                                                    <div class="progress-form">
+                                                        <div class="total-bar">
+                                                            <div class="current-bar" style="width:80%">
+                                                            </div>
+                                                        </div>
+                                                        <div class="time-bx mg-top-5">
+                                                            <span class="time start">00:40</span>
+                                                            <span class="time end">01:00</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> -->
+                            <!-- video -->
+                            <!-- <div class="video-box">
+                                <div class="inn">
+                                    <div class="txt-bx">
+                                        <div class="txt video">
+                                            <div class="title">
+                                                <p class="text">한강에서 찍은 우리 영상</p>
+                                                <span class="file">.mp4</span>
+                                            </div>
+                                            <a href="#" target="_blank">
+                                                <p class="img-box"><img src="../../img/temp/img_video.png" alt="">
+                                                </p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> -->
+                        </div>
+                        <!-- day -->
+                        <div class="layersuv-day mg-top-15">
+                            <p>
+                                <span class="start">2021.10.07 10:50</span> ~ <span class="end">2021.10.20
+                                    12:50</span> <strong class="day">(D-22)</strong>
+                            </p>
+                        </div>
+                        <!-- 복수허용 -->
+                        <p class="red-color mg-top-20">* 복수 응답이 가능합니다.</p>
+                        <!-- 선택형 -->
+                        <div class="sv-select">
+                            <div class="sv-item">
+                                <div class="sv-box">
+                                    <span class="square">1</span>
+                                    <div class="photo-box">
+                                        <div class="inn">
+                                            <div class="txt-bx">
+                                                <div class="txt photo">
+                                                    <img src="../../img/temp/img_test26.jpg" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <span class="is-select">반드시 필요하다.</span>
+                                </div>
+                            </div>
+
+                            <div class="sv-item">
+                                <div class="sv-box">
+                                    <span class="square">2</span>
+                                    <span class="is-select">어느정도 필요하다.</span>
+                                </div>
+                            </div>
+                            <div class="sv-item">
+                                <div class="sv-box">
+                                    <span class="square">3</span>
+                                    <div class="audio-box">
+                                        <div class="inn">
+                                            <div class="txt-bx">
+                                                <div class="txt audio">
+                                                    <div class="title">
+                                                        <p class="text">한강에서 찍은 우리 영상</p>
+                                                        <span class="file">.mp4</span>
+                                                    </div>
+                                                    <div class="recod-box">
+                                                        <div class="inner">
+                                                            <div class="form-wrap">
+                                                                <button type="button" class="btns play">정지</button>
+                                                            </div>
+                                                            <div class="progress-form">
+                                                                <div class="total-bar">
+                                                                    <div class="current-bar" style="width:80%">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="time-bx mg-top-5">
+                                                                    <span class="time start">00:40</span>
+                                                                    <span class="time end">01:00</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <span class="is-select">별로 필요없다.</span>
+                                </div>
+                            </div>
+                            <div class="sv-item on">
+                                <div class="sv-box">
+                                    <span class="square">4</span>
+                                    <div class="video-box">
+                                        <div class="inn">
+                                            <div class="txt-bx">
+                                                <div class="txt video">
+                                                    <div class="title">
+                                                        <p class="text">한강에서 찍은 우리 영상</p>
+                                                        <span class="file">.mp4</span>
+                                                    </div>
+                                                    <a href="#" target="_blank">
+                                                        <p class="img-box"><img src="../../img/temp/img_video.png" alt="">
+                                                        </p>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <span class="is-select">전혀 필요없다.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 버튼 -->
+            <div class="layer-btn">
+                <div class="col-6">
+                    <button type="button" class="btn btn03" data-popup="surveyCancel">취소</button>
+                </div>
+                <div class="col-6">
+                    <button type="button" class="btn btn02" data-popup="surveyRegist">참여하기</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //end:레이어 팝업 -->
+
+<!-- start: 설문조사 참여하기 - 메모형 / 화면ID : 2202_32-->
+<div class="layerpop layersuv click-none" id="surveyInv3Popup">
+    <div class="overlay"></div>
+    <div class="popup-content">
+        <div class="inner">
+            <!-- 제목 -->
+            <div class="title">
+                <h2>설문조사 참여하기</h2>
+                <div class="btn-box">
+                    <button type='button' class="close close-btn"></button>
+                </div>
+            </div>
+            <!-- 내용 -->
+            <div class="contents">
+                <div class="inner has-scroll2">
+                    <div class="body ">
+                        <p class="layersuv-title">
+                            <strong>[전체]</strong> 선행 학습에 대한 여러분의 의견을 묻습니다.
+                        </p>
+                        <div class="border-bx mg-top-15">
+                            <p>
+                                선생님은 선행학습을 하고 오는 학생들을 어떻게 대처하나요?
+                                많이 참여해주세요!
+                            </p>
+                        </div>
+                        <div class="sv-cont mg-top-15">
+                            <!-- swiper -->
+                            <div class="sv-swiper">
+                                <div class="photo-box">
+                                    <div class="inn">
+                                        <div class="txt-bx">
+                                            <div class="txt photo">
+                                                <div class="swiper-container">
+                                                    <div class="swiper-wrapper">
+                                                        <div class="swiper-slide">
+                                                            <div class="test-img-box">
+                                                                <p class="img-wrap"><img
+                                                                        src="../../img/temp/img_test21.jpg" alt=""></p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="swiper-slide">
+                                                            <div class="test-img-box">
+                                                                <p class="img-wrap"><img
+                                                                        src="../../img/temp/img_test22.jpg" alt=""></p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="swiper-slide">
+                                                            <div class="test-img-box">
+                                                                <p class="img-wrap"><img
+                                                                        src="../../img/temp/img_test23.jpg" alt=""></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="indicator">
+                                                    <!-- Add Arrows -->
+                                                    <div class="swiper-button-next">
+                                                    </div>
+                                                    <div class="swiper-button-prev">
+                                                    </div>
+                                                    <div class="swiper-pagination">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- audio -->
+                            <!-- <div class="audio-box">
+                                <div class="inn">
+                                    <div class="txt-bx">
+                                        <div class="txt audio">
+                                            <div class="title">
+                                                <p class="text">한강에서 찍은 우리 영상</p>
+                                                <span class="file">.mp4</span>
+                                            </div>
+                                            <div class="recod-box">
+                                                <div class="inner">
+                                                    <div class="form-wrap">
+                                                        <button type="button" class="btns play">정지</button>
+                                                    </div>
+                                                    <div class="progress-form">
+                                                        <div class="total-bar">
+                                                            <div class="current-bar" style="width:80%">
+                                                            </div>
+                                                        </div>
+                                                        <div class="time-bx mg-top-5">
+                                                            <span class="time start">00:40</span>
+                                                            <span class="time end">01:00</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> -->
+                            <!-- video -->
+                            <!-- <div class="video-box">
+                                <div class="inn">
+                                    <div class="txt-bx">
+                                        <div class="txt video">
+                                            <div class="title">
+                                                <p class="text">한강에서 찍은 우리 영상</p>
+                                                <span class="file">.mp4</span>
+                                            </div>
+                                            <a href="#" target="_blank">
+                                                <p class="img-box"><img src="../../img/temp/img_video.png" alt="">
+                                                </p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> -->
+                        </div>
+                        <!-- day -->
+                        <div class="layersuv-day mg-top-15">
+                            <p>
+                                <span class="start">2021.10.07 10:50</span> ~ <span class="end">2021.10.20
+                                    12:50</span> <strong class="day">(D-22)</strong>
+                            </p>
+                        </div>
+                        <!-- 메모형 -->
+                        <div class="sv-memo">
+                            <div class="against-input chat-tbox mg-top-15">
+                                <div class="chat-top">
+                                    <div class="inner">
+                                        <!-- 300byte 넘을시 data-popup="chatMemoLimit" 링크삽입시 링크를 a.link-btn2로 묶어주세요 -->
+                                        <textarea class="textarea inputLengthCheck has-scroll auto-height" name="" placeholder="메모를 입력하세요." id="inputLengthCheck"></textarea>
+                                        <!-- 링크는 a.chat-link로 묶어주세요 -->
+                                        <!-- <a href="https://www.youtube.com/watch?v=KWqF53_slmc" target="_blank" class="chat-link">https://www.youtube.com/watch?v=KWqF53_slmc</a>
+                                        심심할 때 낱말 퍼즐 한 번 풀어보세요! -->
+                                    </div>
+                                </div>
+                                <div class="input-btnbox">
+                                    <div class="file-box">
+                                        <div class="file-up">
+                                            <div class="form-wrap">
+                                                <button type="button" class="btns emo">이모티콘</button>
+                                                <div class="emotion-box">
+                                                    <div class="inner-cont">
+                                                        <ul>
+                                                          <li><button type="button" class="emo em1" data-val="&#x1F603">&#x1F603</button></li>
+                                                          <li><button type="button" class="emo em2" data-val="&#x1F609">&#x1F609</button></li>
+                                                          <li><button type="button" class="emo em3" data-val="&#x1F601">&#x1F601</button></li>
+                                                          <li><button type="button" class="emo em4" data-val="&#x1F602">&#x1F602</button></li>
+                                                          <li><button type="button" class="emo em5" data-val="&#x1F605">&#x1F605</button></li>
+                                                          <li><button type="button" class="emo em6" data-val="&#x1F60F">&#x1F60F</button></li>
+                                                          <li><button type="button" class="emo em7" data-val="&#x1F60D">&#x1F60D</button></li>
+                                                          <li><button type="button" class="emo em8" data-val="&#x1F61A">&#x1F61A</button></li>
+                                                          <li><button type="button" class="emo em9" data-val="&#x1F61C">&#x1F61C</button></li>
+                                                          <li><button type="button" class="emo em10" data-val="&#x1F610">&#x1F610</button></li>
+                                                          <li><button type="button" class="emo em11" data-val="&#x1F61B">&#x1F61B</button></li>
+                                                          <li><button type="button" class="emo em12" data-val="&#x1F62E">&#x1F62E</button></li>
+                                                          <li><button type="button" class="emo em13" data-val="&#x1F44D">&#x1F44D</button></li>
+                                                          <li><button type="button" class="emo em14" data-val="&#x1F44F">&#x1F44F</button></li>
+                                                          <li><button type="button" class="emo em15" data-val="&#x1F197">&#x1F197</button></li> <!-- 찬성 -->
+                                                          <li><button type="button" class="emo em16" data-val="&#x274E">&#x274E</button></li> <!-- 반대 -->
+                                                          <li><button type="button" class="emo em17" data-val="&#x2764">&#x2764</button></li>
+                                                          <li><button type="button" class="emo em18" data-val="&#x2757">&#x2757</button></li>
+                                                          <li><button type="button" class="emo em19" data-val="&#x2753">&#x2753</button></li>
+                                                          <li><button type="button" class="emo em20" data-val="&#x2B55">&#x2B55</button></li>
+                                                          <li><button type="button" class="emo em21" data-val="&#x274C">&#x274C</button></li>
+                                                          <li><button type="button" class="emo em22" data-val="&#x2714">&#x2714</button></li>
+                                                          <li><button type="button" class="emo em23" data-val="&#x2B50">&#x2B50</button></li>
+                                                          <li><button type="button" class="emo em24" data-val="&#x1F33C">&#x1F33C</button></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="chat-color">
+                                            <button class="pink on"></button>
+                                            <button class="yellow"></button>
+                                            <button class="blue"></button>
+                                            <button class="gray"></button>
+                                          </div>
+                                    </div>
+                                    <p id="textLengthCheck">
+                                        <strong>0</strong> / 300 Byte
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 버튼 -->
+            <div class="layer-btn">
+                <div class="col-6">
+                    <button type="button" class="btn btn03" data-popup="surveyCancel">취소</button>
+                </div>
+                <div class="col-6">
+                    <button type="button" class="btn btn02" data-popup="surveyRegist">참여하기</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //end:레이어 팝업 -->
+
+<!-- start: 메모입력이 300byte 넘을시 / 화면ID : 2202_33 -->
+<div class="layerpop type-a" id="chatMemoLimitPopup">
+    <div class="overlay"></div>
+    <div class="popup-content">
+        <div class="inner">
+            <!-- 제목 -->
+            <div class="title">
+                <div class="btn-box">
+                    <button type='button' class="close close-btn"></button>
+                </div>
+            </div>
+            <!-- 내용 -->
+            <div class="contents">
+                <div class="noti type-a">
+                    <div class="img-wrap"><img src="../../img/common/ico_danger_2.svg" alt=""></div>
+                    <h3>메모 쓰기는 최대 300 Byte까지 작성 가능합니다.</h3>
+                </div>
+            </div>
+            <!-- 버튼 -->
+            <div class="flex-btn-wrap">
+                <div class="col-12">
+                    <button type="button" class="btn btn02 cancel-btn">확인</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //end:레이어 팝업 -->
+
+<!-- start: 설문조사 취소클릭시 / 화면ID : 2202_30 -->
+<div class="layerpop type-a" id="surveyCancelPopup">
+    <div class="overlay"></div>
+    <div class="popup-content">
+        <div class="inner">
+            <!-- 제목 -->
+            <div class="title">
+                <div class="btn-box">
+                    <button type='button' class="close close-btn"></button>
+                </div>
+            </div>
+            <!-- 내용 -->
+            <div class="contents">
+                <div class="noti type-a">
+                    <div class="img-wrap"><img src="../../img/common/ico_danger_2.svg" alt=""></div>
+                    <h3>설문 조사 참여를 취소하시겠습니까?</h3>
+                </div>
+            </div>
+            <!-- 버튼 -->
+            <div class="flex-btn-wrap">
+                <div class="col-6">
+                    <button type="button" class="btn btn06 cancel-btn">취소</button>
+                </div>
+                <div class="col-6">
+                    <button type="button" class="btn btn02 close-btn">확인</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //end:레이어 팝업 -->
+
+<!-- start: 설문조사 참여하기 클릭시 / 화면ID : 2202_30 -->
+<div class="layerpop type-a" id="surveyRegistPopup">
+    <div class="overlay"></div>
+    <div class="popup-content">
+        <div class="inner">
+            <!-- 제목 -->
+            <div class="title">
+                <div class="btn-box">
+                    <button type='button' class="close close-btn"></button>
+                </div>
+            </div>
+            <!-- 내용 -->
+            <div class="contents">
+                <div class="noti type-a">
+                    <div class="img-wrap"><img src="../../img/common/ico_danger_2.svg" alt=""></div>
+                    <h3>해당 설문 조사에 참여하시겠습니까?</h3>
+                </div>
+            </div>
+            <!-- 버튼 -->
+            <div class="flex-btn-wrap">
+                <div class="col-6">
+                    <button type="button" class="btn btn06 close-btn">취소</button>
+                </div>
+                <div class="col-6">
+                    <button type="button" class="btn btn02" data-popup="surveyRegistCheck">확인</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //end:레이어 팝업 -->
+
+<!-- start: 설문조사 참여하기 클릭후  확인 / 화면ID : 2202_30 -->
+<div class="layerpop type-a" id="surveyRegistCheckPopup">
+    <div class="overlay"></div>
+    <div class="popup-content">
+        <div class="inner">
+            <!-- 제목 -->
+            <div class="title">
+                <div class="btn-box">
+                    <button type='button' class="close close-btn"></button>
+                </div>
+            </div>
+            <!-- 내용 -->
+            <div class="contents">
+                <div class="noti type-a">
+                    <div class="img-wrap"><img src="../../img/common/ico_danger_2.svg" alt=""></div>
+                    <h3>참여 완료되었습니다.</h3>
+                </div>
+            </div>
+            <!-- 버튼 -->
+            <div class="flex-btn-wrap">
+                <div class="col-12">
+                    <button type="button" class="btn btn02 close-btn">확인</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //end:레이어 팝업 -->
+
+<!-- start: 설문조사 결과보기 - 찬/반형 / 화면ID : 2202_37 -->
+<div class="layerpop layersuv" id="surveyRes1Popup">
+    <div class="overlay"></div>
+    <div class="popup-content">
+        <div class="inner">
+            <!-- 제목 -->
+            <div class="title">
+                <h2>설문조사 결과보기</h2>
+                <div class="btn-box">
+                    <button type='button' class="close close-btn"></button>
+                </div>
+            </div>
+            <!-- 내용 -->
+            <div class="contents">
+                <div class="svres-inner has-scroll2">
+                    <div class="svres-cont-top">
+                        <div class="inn">
+                            <p class="layersuv-title">
+                                <strong>[전체]</strong> 선행 학습에 대한 여러분의 의견을 묻습니다.
+                            </p>
+                            <div class="border-bx mg-top-15">
+                                <p>
+                                    선생님은 선행학습을 하고 오는 학생들을 어떻게 대처하나요?
+                                    많이 참여해주세요!
+                                </p>
+                            </div>
+                            <div class="sv-cont mg-top-15">
+                                <!-- swiper -->
+                                <div class="sv-swiper">
+                                    <div class="photo-box">
+                                        <div class="inn">
+                                            <div class="txt-bx">
+                                                <div class="txt photo">
+                                                    <div class="swiper-container">
+                                                        <div class="swiper-wrapper">
+                                                            <div class="swiper-slide">
+                                                                <div class="test-img-box">
+                                                                    <p class="img-wrap"><img
+                                                                            src="../../img/temp/img_test21.jpg" alt=""></p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="swiper-slide">
+                                                                <div class="test-img-box">
+                                                                    <p class="img-wrap"><img
+                                                                            src="../../img/temp/img_test22.jpg" alt=""></p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="swiper-slide">
+                                                                <div class="test-img-box">
+                                                                    <p class="img-wrap"><img
+                                                                            src="../../img/temp/img_test23.jpg" alt=""></p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="indicator">
+                                                        <!-- Add Arrows -->
+                                                        <div class="swiper-button-next">
+                                                        </div>
+                                                        <div class="swiper-button-prev">
+                                                        </div>
+                                                        <div class="swiper-pagination">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- audio -->
+                                <!-- <div class="audio-box">
+                                    <div class="inn">
+                                        <div class="txt-bx">
+                                            <div class="txt audio">
+                                                <div class="title">
+                                                    <p class="text">한강에서 찍은 우리 영상</p>
+                                                    <span class="file">.mp4</span>
+                                                </div>
+                                                <div class="recod-box">
+                                                    <div class="inner">
+                                                        <div class="form-wrap">
+                                                            <button type="button" class="btns play">정지</button>
+                                                        </div>
+                                                        <div class="progress-form">
+                                                            <div class="total-bar">
+                                                                <div class="current-bar" style="width:80%">
+                                                                </div>
+                                                            </div>
+                                                            <div class="time-bx mg-top-5">
+                                                                <span class="time start">00:40</span>
+                                                                <span class="time end">01:00</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> -->
+                                <!-- video -->
+                                <!-- <div class="video-box">
+                                    <div class="inn">
+                                        <div class="txt-bx">
+                                            <div class="txt video">
+                                                <div class="title">
+                                                    <p class="text">한강에서 찍은 우리 영상</p>
+                                                    <span class="file">.mp4</span>
+                                                </div>
+                                                <a href="#" target="_blank">
+                                                    <p class="img-box"><img src="../../img/temp/img_video.png" alt="">
+                                                    </p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> -->
+                            </div>
+                            <!-- day -->
+                            <div class="layersuv-day mg-top-15">
+                                <p>
+                                    <span class="start">2021.10.07 10:50</span> ~ <span class="end">2021.10.20
+                                        12:50</span> <strong class="day">(D-22)</strong>
+                                </p>
+                            </div>
+                            <!-- 참여자 -->
+                            <span class="sv-partin mg-top-30">참여자 <i>100</i>명</span>
+                            <!-- 그래프 -->
+                            <div class="isgraph mg-top-25">
+                                <div class="iscircle mg-top-40">
+                                    <div class="box iscir-left">
+                                        <div class="img-wrap has-scroll">
+                                            <img src="../../img/temp/img_test22.jpg" alt="">
+                                        </div>
+                                        <div class="txt">
+                                            <strong>[찬성합니다]</strong>
+                                            <em>(67명)</em>
+                                            <p class="has-scroll">
+                                            학생들의 기본권을 침해하지 말아야 한다.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="box iscir-center">
+                                        <img src="../../img/common/img_graph_zero.svg" alt="">
+                                    </div>
+                                    <div class="box scir-right">
+                                        <div class="img-wrap has-scroll">
+                                            <img src="../../img/temp/img_test23.jpg" alt="">
+                                        </div>
+                                        <div class="txt">
+                                            <strong>[반대합니다]</strong>
+                                            <em>(33명)</em>
+                                            <p class="has-scroll">
+                                            공교육에 대한 잘못된 인식이 생긴다.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="svres-cont-bottom">
+                        <div class="iscomments mg-top-60">
+                            <!-- start : comment - agree -->
+                            <div class="ischat-bubble">
+                              <div class="ischat-topbox">
+                                <img src="../../img/common/ico_writer.svg" alt="">
+                              </div>
+                              <div class="ischat-centbox">
+                                <div class="ischat-name">
+                                  <ul>
+                                    <li class="isname-day">2021.10.15 16:00</li>
+                                  </ul>
+                                </div>
+                                <div class="ischat-title">
+                                  사교육을 잡으려면 공교육을 먼저 잡아야 합니다. 선행 학습을 전제로 한
+                                  정규 수업을 막아서 학생들이 공정하게 경쟁을 할 수 있도록 하고,
+                                  시험과 입시에서 정교육 과정으로도 충분히 시험과 입시를 준비할 수
+                                  있도록 (즉, 사교육이 필요하지 않도록) 교육 체계를 바꿔야 합니다.
+                                </div>
+                              </div>
+                            </div>
+                            <!-- end : comment - agree -->
+      
+                            <!-- start : comment - disagree -->
+                            <div class="ischat-bubble disagree mg-top-20">
+                              <div class="ischat-centbox">
+                                <div class="ischat-name">
+                                  <ul>
+                                    <li class="isname-day">2021.10.5 10:00</li>
+                                  </ul>
+                                </div>
+                                <div class="ischat-title">
+                                  선행학습이 이루어지는 학원가나 과외에서의 과연 제재가 제대로 될 
+                                  것인지 의문입니다. 오히려 학교에서 선행학습을 못하게 해 역으로 
+                                  사교육을 진행하는 학생들이 많아질 것입니다.
+                                </div>
+                              </div>
+                              <div class="ischat-topbox">
+                                <img src="../../img/common/ico_writer.svg" alt="">
+                              </div>
+                            </div>
+                            <!-- end : comment - disagree -->
+      
+                            <!-- start : comment - agree -->
+                            <div class="ischat-bubble">
+                              <div class="ischat-topbox">
+                                <img src="../../img/common/ico_writer.svg" alt="">
+                              </div>
+                              <div class="ischat-centbox">
+                                <div class="ischat-name">
+                                  <ul>
+                                    <li class="isname-day">2021.09.30 12:50</li>
+                                  </ul>
+                                </div>
+                                <div class="ischat-title">
+                                  교육에 대한 잘못된 인식을 바꿀 수 있을 것으로 보입니다. 현재 많은 분
+                                  들이 선행학습을 당연하게 여기고 있는게 현실입니다. 그렇지만 스스로 
+                                  목표를 세우고 이뤄가는 과정에서 성취감을 느껴야 하겠지요.
+                                </div>
+                              </div>
+                            </div>
+                            <!-- end : comment - agree -->
+                          </div>
+                    </div>
+                </div>
+                <nav class="pg_wrap type-a">
+                    <a href="#" class="pg_page pg_prev">처음</a>
+                    <a href="#" class="pg_page pg"><strong class="pg_current">1</strong></a>
+                    <a href="#" class="pg_page">2</a>
+                    <a href="#" class="pg_page">3</a>
+                    <a href="#" class="pg_page">4</a>
+                    <a href="#" class="pg_page">5</a>
+                    <a href="#" class="pg_page pg_next">맨끝</a>
+                  </nav>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //end:레이어 팝업 -->
+
+<!-- start: 설문조사 결과보기 - 선택형 / 화면ID : 2202_38 -->
+<div class="layerpop layersuv" id="surveyRes2Popup">
+    <div class="overlay"></div>
+    <div class="popup-content">
+        <div class="inner">
+            <!-- 제목 -->
+            <div class="title">
+                <h2>설문조사 결과보기</h2>
+                <div class="btn-box">
+                    <button type='button' class="close close-btn"></button>
+                </div>
+            </div>
+            <!-- 내용 -->
+            <div class="contents">
+                <div class="svres-inner has-scroll2">
+                    <div class="svres-cont-top type-a">
+                        <div class="inn">
+                            <p class="layersuv-title">
+                                <strong>[전체]</strong> 선행 학습에 대한 여러분의 의견을 묻습니다.
+                            </p>
+                            <div class="border-bx mg-top-15">
+                                <p>
+                                    선생님은 선행학습을 하고 오는 학생들을 어떻게 대처하나요?
+                                    많이 참여해주세요!
+                                </p>
+                            </div>
+                            <div class="sv-cont mg-top-15">
+                                <!-- swiper -->
+                                <div class="sv-swiper">
+                                    <div class="photo-box">
+                                        <div class="inn">
+                                            <div class="txt-bx">
+                                                <div class="txt photo">
+                                                    <div class="swiper-container">
+                                                        <div class="swiper-wrapper">
+                                                            <div class="swiper-slide">
+                                                                <div class="test-img-box">
+                                                                    <p class="img-wrap"><img
+                                                                            src="../../img/temp/img_test21.jpg" alt=""></p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="swiper-slide">
+                                                                <div class="test-img-box">
+                                                                    <p class="img-wrap"><img
+                                                                            src="../../img/temp/img_test22.jpg" alt=""></p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="swiper-slide">
+                                                                <div class="test-img-box">
+                                                                    <p class="img-wrap"><img
+                                                                            src="../../img/temp/img_test23.jpg" alt=""></p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="indicator">
+                                                        <!-- Add Arrows -->
+                                                        <div class="swiper-button-next">
+                                                        </div>
+                                                        <div class="swiper-button-prev">
+                                                        </div>
+                                                        <div class="swiper-pagination">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- audio -->
+                                <!-- <div class="audio-box">
+                                    <div class="inn">
+                                        <div class="txt-bx">
+                                            <div class="txt audio">
+                                                <div class="title">
+                                                    <p class="text">한강에서 찍은 우리 영상</p>
+                                                    <span class="file">.mp4</span>
+                                                </div>
+                                                <div class="recod-box">
+                                                    <div class="inner">
+                                                        <div class="form-wrap">
+                                                            <button type="button" class="btns play">정지</button>
+                                                        </div>
+                                                        <div class="progress-form">
+                                                            <div class="total-bar">
+                                                                <div class="current-bar" style="width:80%">
+                                                                </div>
+                                                            </div>
+                                                            <div class="time-bx mg-top-5">
+                                                                <span class="time start">00:40</span>
+                                                                <span class="time end">01:00</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> -->
+                                <!-- video -->
+                                <!-- <div class="video-box">
+                                    <div class="inn">
+                                        <div class="txt-bx">
+                                            <div class="txt video">
+                                                <div class="title">
+                                                    <p class="text">한강에서 찍은 우리 영상</p>
+                                                    <span class="file">.mp4</span>
+                                                </div>
+                                                <a href="#" target="_blank">
+                                                    <p class="img-box"><img src="../../img/temp/img_video.png" alt="">
+                                                    </p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> -->
+                            </div>
+                            <!-- day -->
+                            <div class="layersuv-day mg-top-15">
+                                <p>
+                                    <span class="start">2021.10.07 10:50</span> ~ <span class="end">2021.10.20
+                                        12:50</span> <strong class="day">(D-22)</strong>
+                                </p>
+                            </div>
+                            <!-- 참여자 -->
+                            <span class="sv-partin mg-top-30">참여자 <i>100</i>명</span>
+                            <!-- 복수허용 -->
+                            <p class="red-color mg-top-20">* 복수 응답 허용된 설문조사입니다.</p>
+                            <!-- 순위 -->
+                            <div class="sv2-label mg-top-10">
+                                <!-- start : 순위 -->
+                                <div class="sv2-box">
+                                  <div class="sv2-rank">1위</div>
+                                  <div class="sv2-rankbot">
+                                    <div class="sv2-rankbox">
+                                      <div class="sv2-inner">
+                                        <div class="sv2-item">
+                                          <img src="../../img/temp/img_test26.jpg" alt="">
+                                          <p>어느정도 필요하다.</p>
+                                          <!-- 결과값 = span width값 -->
+                                          <span style="width: 60%;"></span>
+                                        </div>
+                                        <div class="sv2-perst">
+                                          <span><strong>60</strong>%</span>
+                                          <p>(60명)</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="sv2-box">
+                                  <div class="sv2-rank">2위</div>
+                                  <div class="sv2-rankbot">
+                                    <div class="sv2-rankbox">
+                                      <!-- audio -->
+                                      <div class="audio-box">
+                                          <div class="inn">
+                                              <div class="txt-bx">
+                                                  <div class="txt audio">
+                                                      <div class="title">
+                                                          <p class="text">한강에서 찍은 우리 영상</p>
+                                                          <span class="file">.mp4</span>
+                                                      </div>
+                                                      <div class="recod-box">
+                                                          <div class="inner">
+                                                              <div class="form-wrap">
+                                                                  <button type="button" class="btns play">정지</button>
+                                                              </div>
+                                                              <div class="progress-form">
+                                                                  <div class="total-bar">
+                                                                      <div class="current-bar" style="width:80%">
+                                                                      </div>
+                                                                  </div>
+                                                                  <div class="time-bx mg-top-5">
+                                                                      <span class="time start">00:40</span>
+                                                                      <span class="time end">01:00</span>
+                                                                  </div>
+                                                              </div>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                      <div class="sv2-inner">
+                                        <div class="sv2-item">
+                                          <p>별로 필요없다.</p>
+                                          <span style="width: 20%;"></span>
+                                        </div>
+                                        <div class="sv2-perst">
+                                          <span><strong>20</strong>%</span>
+                                          <p>(20명)</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="sv2-box">
+                                  <div class="sv2-rank">3위</div>
+                                  <div class="sv2-rankbot">
+                                    <div class="sv2-rankbox">
+                                      <div class="sv2-inner">
+                                        <div class="sv2-item">
+                                          <p>반드시 필요하다.</p>
+                                          <span style="width: 15%;"></span>
+                                        </div>
+                                        <div class="sv2-perst">
+                                          <span><strong>15</strong>%</span>
+                                          <p>(15명)</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="sv2-box">
+                                  <div class="sv2-rank">4위</div>
+                                  <div class="sv2-rankbot">
+                                    <div class="sv2-rankbox">
+                                      <div class="sv2-inner">
+                                        <div class="sv2-item">
+                                          <p>전혀 필요없다.</p>
+                                          <span style="width: 5%;"></span>
+                                        </div>
+                                        <div class="sv2-perst">
+                                          <span><strong>5</strong>%</span>
+                                          <p>(5명)</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="sv2-box">
+                                    <div class="sv2-rank">5위</div>
+                                    <div class="sv2-rankbot">
+                                      <div class="sv2-rankbox">
+                                        <div class="sv2-inner">
+                                          <div class="sv2-item">
+                                            <p>기타</p>
+                                            <span style="width: 0;"></span>
+                                          </div>
+                                          <div class="sv2-perst">
+                                            <span><strong>0</strong>%</span>
+                                            <p>(0명)</p>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                <!-- end : 순위 -->
+                              </div>
+                        </div>
+                    </div>
+                </div>
+                <nav class="pg_wrap type-a">
+                    <a href="#" class="pg_page pg_prev">처음</a>
+                    <a href="#" class="pg_page pg"><strong class="pg_current">1</strong></a>
+                    <a href="#" class="pg_page">2</a>
+                    <a href="#" class="pg_page">3</a>
+                    <a href="#" class="pg_page">4</a>
+                    <a href="#" class="pg_page">5</a>
+                    <a href="#" class="pg_page pg_next">맨끝</a>
+                  </nav>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //end:레이어 팝업 -->
+
+<!-- start: 설문조사 결과보기 - 메모형 / 화면ID : 2202_40 -->
+<div class="layerpop layersuv" id="surveyRes3Popup">
+    <div class="overlay"></div>
+    <div class="popup-content">
+        <div class="inner">
+            <!-- 제목 -->
+            <div class="title">
+                <h2>설문조사 결과보기</h2>
+                <div class="btn-box">
+                    <button type='button' class="close close-btn"></button>
+                </div>
+            </div>
+            <!-- 내용 -->
+            <div class="contents">
+                <div class="svres-inner has-scroll2">
+                    <div class="svres-cont-top">
+                        <div class="inn">
+                            <p class="layersuv-title">
+                                <strong>[전체]</strong> 선행 학습에 대한 여러분의 의견을 묻습니다.
+                            </p>
+                            <div class="border-bx mg-top-15">
+                                <p>
+                                    선생님은 선행학습을 하고 오는 학생들을 어떻게 대처하나요?
+                                    많이 참여해주세요!
+                                </p>
+                            </div>
+                            <div class="sv-cont mg-top-15">
+                                <!-- swiper -->
+                                <div class="sv-swiper">
+                                    <div class="photo-box">
+                                        <div class="inn">
+                                            <div class="txt-bx">
+                                                <div class="txt photo">
+                                                    <div class="swiper-container">
+                                                        <div class="swiper-wrapper">
+                                                            <div class="swiper-slide">
+                                                                <div class="test-img-box">
+                                                                    <p class="img-wrap"><img
+                                                                            src="../../img/temp/img_test21.jpg" alt=""></p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="swiper-slide">
+                                                                <div class="test-img-box">
+                                                                    <p class="img-wrap"><img
+                                                                            src="../../img/temp/img_test22.jpg" alt=""></p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="swiper-slide">
+                                                                <div class="test-img-box">
+                                                                    <p class="img-wrap"><img
+                                                                            src="../../img/temp/img_test23.jpg" alt=""></p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="indicator">
+                                                        <!-- Add Arrows -->
+                                                        <div class="swiper-button-next">
+                                                        </div>
+                                                        <div class="swiper-button-prev">
+                                                        </div>
+                                                        <div class="swiper-pagination">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- audio -->
+                                <!-- <div class="audio-box">
+                                    <div class="inn">
+                                        <div class="txt-bx">
+                                            <div class="txt audio">
+                                                <div class="title">
+                                                    <p class="text">한강에서 찍은 우리 영상</p>
+                                                    <span class="file">.mp4</span>
+                                                </div>
+                                                <div class="recod-box">
+                                                    <div class="inner">
+                                                        <div class="form-wrap">
+                                                            <button type="button" class="btns play">정지</button>
+                                                        </div>
+                                                        <div class="progress-form">
+                                                            <div class="total-bar">
+                                                                <div class="current-bar" style="width:80%">
+                                                                </div>
+                                                            </div>
+                                                            <div class="time-bx mg-top-5">
+                                                                <span class="time start">00:40</span>
+                                                                <span class="time end">01:00</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> -->
+                                <!-- video -->
+                                <!-- <div class="video-box">
+                                    <div class="inn">
+                                        <div class="txt-bx">
+                                            <div class="txt video">
+                                                <div class="title">
+                                                    <p class="text">한강에서 찍은 우리 영상</p>
+                                                    <span class="file">.mp4</span>
+                                                </div>
+                                                <a href="#" target="_blank">
+                                                    <p class="img-box"><img src="../../img/temp/img_video.png" alt="">
+                                                    </p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> -->
+                            </div>
+                            <!-- day -->
+                            <div class="layersuv-day mg-top-15">
+                                <p>
+                                    <span class="start">2021.10.07 10:50</span> ~ <span class="end">2021.10.20
+                                        12:50</span> <strong class="day">(D-22)</strong>
+                                </p>
+                            </div>
+                            <!-- 참여자 -->
+                            <span class="sv-partin mg-top-30">참여자 <i>100</i>명</span>
+                        </div>
+                    </div>
+                    <div class="svres-cont-bottom">
+                        <div class="iscomments mg-top-60">
+                            <!-- .is-comment.chatcont에 해당 색상클래스명 추가, 핑크시 .pink / 노랑시 .yellow / 파랑시 .blue / 회색시 .gray -->
+                            <div class="is-comment chatcont mg-top-20 pink">
+                                <div class="chat-cont">
+                                    <div class="chat-title">
+                                        <div class="cl">
+                                            <span>2021.03.15 16:00</span>
+                                        </div>
+                                        <div class="cr">
+                                            <button class="like"><i></i> <span>02</span></button>
+                                        </div>
+                                    </div>
+                                    <div class="chat-tbox2 mg-top-5 ">
+                                        <p>사교육을 잡으려면 공교육을 먼저 잡아야 합니다.</p>
+                                        <button class="sv-like">좋아요 <i>3</i></button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- .is-comment.chatcont에 해당 색상클래스명 추가, 핑크시 .pink / 노랑시 .yellow / 파랑시 .blue / 회색시 .gray -->
+                            <div class="is-comment chatcont yellow">
+                                <div class="chat-cont">
+                                    <div class="chat-title">
+                                        <div class="cl">
+                                            <span>2021.03.15 16:00</span>
+                                        </div>
+                                        <div class="cr">
+                                            <button class="like on"><i></i> <span>13</span></button>
+                                        </div>
+                                    </div>
+                                    <div class="chat-tbox2 mg-top-5 ">
+                                        <p>
+                                            선행학습을 전제로 한 정규 수업을 막아서 학생들이 공정하게 경쟁을 할 수 있도록 해야합니다.
+                                        </p>
+                                        <button class="sv-like">좋아요 <i>3</i></button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- .is-comment.chatcont에 해당 색상클래스명 추가, 핑크시 .pink / 노랑시 .yellow / 파랑시 .blue / 회색시 .gray -->
+                            <div class="is-comment chatcont blue">
+                                <div class="chat-cont">
+                                    <div class="chat-title">
+                                        <div class="cl">
+                                            <span>2021.03.15 16:00</span>
+                                        </div>
+                                        <div class="cr">
+                                            <button class="like on"><i></i> <span>1</span></button>
+                                        </div>
+                                    </div>
+                                    <div class="chat-tbox2 mg-top-5 ">
+                                        <p>
+                                            선행학습을 전제로 한 정규 수업을 막아서 학생들이 공정하게 경쟁을 할 수 있도록 해야합니다.
+                                        </p>
+                                        <button class="sv-like">좋아요 <i>3</i></button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- .is-comment.chatcont에 해당 색상클래스명 추가, 핑크시 .pink / 노랑시 .yellow / 파랑시 .blue / 회색시 .gray -->
+                            <div class="is-comment chatcont gray">
+                                <div class="chat-cont">
+                                    <div class="chat-title">
+                                        <div class="cl">
+                                            <span>2021.03.15 16:00</span>
+                                        </div>
+                                        <div class="cr">
+                                            <button class="like"><i></i> <span>7</span></button>
+                                        </div>
+                                    </div>
+                                    <div class="chat-tbox2 mg-top-5 ">
+                                        <p>
+                                            선행학습을 전제로 한 정규 수업을 막아서 학생들이 공정하게 경쟁을 할 수 있도록 해야합니다.
+                                        </p>
+                                        <button class="sv-like">좋아요 <i>3</i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <nav class="pg_wrap type-a">
+                    <a href="#" class="pg_page pg_prev">처음</a>
+                    <a href="#" class="pg_page pg"><strong class="pg_current">1</strong></a>
+                    <a href="#" class="pg_page">2</a>
+                    <a href="#" class="pg_page">3</a>
+                    <a href="#" class="pg_page">4</a>
+                    <a href="#" class="pg_page">5</a>
+                    <a href="#" class="pg_page pg_next">맨끝</a>
+                  </nav>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //end:레이어 팝업 -->
+
+<!-- start : 맞춤콘텐츠 - 유료 콘텐츠 이용 안내 / 화면ID : 4001-->
+<div class="layerpop type-b click-none" id="informUsePopup">
+    <div class="overlay"></div>
+    <div class="popup-content">
+        <div class="inner">
+            <!-- 제목 -->
+            <div class="title">
+                <h2>유료 콘텐츠 이용 안내</h2>
+                <div class="btn-box">
+                    <button type="button" class="close close-btn"></button>
+                </div>
+            </div>
+            <!-- 내용 -->
+            <div class="contents">
+                <div class="noti">
+                    <h3>※ 학생채널 서비스 유료 구독자를 위한 콘텐츠입니다.</h3>
+                    <p>
+                        서비스 이용권 구매를 하시면 이용 가능합니다. <br> 지금 구매하시겠습니까?
+                    </p>
+                </div>
+            </div>
+            <!-- 버튼 -->
+            <div class="flex-btn-wrap">
+                <div class="col-6">
+                    <button type="button" class="btn btn04 close-btn">취소</button>
+                </div>
+                <div class="col-6">
+                    <button type="button" class="btn btn02 close-btn">서비스 이용권 바로가기</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end : 공통 비디오 팝업-->
+
+<!-- start: 댓글 신고시 / 화면ID : 4003-18-->
+<div class="layerpop type-a" id="chatReportPopup">
+    <div class="overlay"></div>
+    <div class="popup-content">
+        <div class="inner">
+            <!-- 제목 -->
+            <div class="title">
+                <div class="btn-box">
+                    <button type='button' class="close close-btn"></button>
+                </div>
+            </div>
+            <!-- 내용 -->
+            <div class="contents">
+                <div class="noti type-a">
+                    <div class="img-wrap"><img src="../../img/common/ico_danger_2.svg" alt=""></div>
+                    <h3>해당 댓글을 신고하시겠습니까?</h3>
+                </div>
+            </div>
+            <!-- 버튼 -->
+            <div class="flex-btn-wrap">
+                <div class="col-6">
+                    <button type="button" class="btn btn06 close-btn">취소</button>
+                </div>
+                <div class="col-6">
+                    <button type="button" class="btn btn02" data-popup="chatReportCheck">확인</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //end:레이어 팝업 -->
+
+<!-- start: 댓글 신고 확인 / 화면ID : 4003-18-->
+<div class="layerpop type-a" id="chatReportCheckPopup">
+    <div class="overlay"></div>
+    <div class="popup-content">
+        <div class="inner">
+            <!-- 제목 -->
+            <div class="title">
+                <div class="btn-box">
+                    <button type='button' class="close close-btn"></button>
+                </div>
+            </div>
+            <!-- 내용 -->
+            <div class="contents">
+                <div class="noti type-a">
+                    <div class="img-wrap"><img src="../../img/common/ico_chk.svg" alt=""></div>
+                    <h3>신고 처리되었습니다.</h3>
+                </div>
+            </div>
+            <!-- 버튼 -->
+            <div class="flex-btn-wrap">
+                <div class="col-12">
+                    <button type="button" class="btn btn02 close-btn">확인</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //end:레이어 팝업 -->
+
+<!-- start: 과제,평가 - 제출하기 / 화면ID : 1302_6 -->
+<div class="layerpop type-a" id="asevSubmitPopup">
+    <div class="overlay"></div>
+    <div class="popup-content">
+        <div class="inner">
+            <!-- 제목 -->
+            <div class="title">
+                <div class="btn-box">
+                    <button type='button' class="close close-btn"></button>
+                </div>
+            </div>
+            <!-- 내용 -->
+            <div class="contents">
+                <div class="noti type-a">
+                    <div class="img-wrap"><img src="../../img/common/ico_chk.svg" alt=""></div>
+                    <h3>과제를 제출하시겠어요?</h3>
+                    <!-- <h3>평가를 제출하시겠어요?</h3> -->
+                </div>
+            </div>
+            <!-- 버튼 -->
+            <div class="flex-btn-wrap">
+                <div class="col-6">
+                    <button type="button" class="btn btn06 close-btn">취소</button>
+                </div>
+                <div class="col-6">
+                    <button type="button" class="btn btn02 close-btn">확인</button><!-- 첨부파일 첨부 후에는 disabled 클래스 제거 -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //end:레이어 팝업 -->
+
+<!-- start: 과제,평가 - 다시 제출하기 / 화면ID : 1302_12 -->
+<div class="layerpop type-a" id="asevSubmitAgainPopup">
+    <div class="overlay"></div>
+    <div class="popup-content">
+        <div class="inner">
+            <!-- 제목 -->
+            <div class="title">
+                <div class="btn-box">
+                    <button type='button' class="close close-btn"></button>
+                </div>
+            </div>
+            <!-- 내용 -->
+            <div class="contents">
+                <div class="noti type-a">
+                    <div class="img-wrap"><img src="../../img/common/ico_chk.svg" alt=""></div>
+                    <h3>평가를 다시 제출하시겠어요?</h3>
+                    <!-- <h3>과제를 다시 제출하시겠어요?</h3> -->
+                </div>
+            </div>
+            <!-- 버튼 -->
+            <div class="flex-btn-wrap">
+                <div class="col-6">
+                    <button type="button" class="btn btn06 close-btn">취소</button>
+                </div>
+                <div class="col-6">
+                    <button type="button" class="btn btn02 close-btn">확인</button><!-- 첨부파일 첨부 후에는 disabled 클래스 제거 -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //end:레이어 팝업 -->

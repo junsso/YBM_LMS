@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_792" data-name="Rectangle 792" width="18" height="18" transform="translate(522 504)" fill="#5ab448"/>
+    </clipPath>
+  </defs>
+  <g id="ico_chat" transform="translate(-522 -504)" clip-path="url(#clip-path)">
+    <g id="conversation_2_" data-name="conversation (2)" transform="translate(522 504)">
+      <g id="Group_296" data-name="Group 296">
+        <g id="Group_295" data-name="Group 295">
+          <path id="Path_960" data-name="Path 960" d="M17.935,14.127,16.89,11.085A7.6,7.6,0,1,0,2.457,7.642a5.54,5.54,0,0,0-1.682,6.81l-.72,2.1a.987.987,0,0,0,1.257,1.256l2.1-.72a5.564,5.564,0,0,0,2.369.535H5.79a5.532,5.532,0,0,0,4.473-2.275,7.627,7.627,0,0,0,3.142-.769l3.043,1.045a1.175,1.175,0,0,0,1.493-1.493ZM5.784,16.548H5.777A4.481,4.481,0,0,1,3.7,16.031.536.536,0,0,0,3.272,16l-2.149.738.738-2.149a.536.536,0,0,0-.033-.425,4.467,4.467,0,0,1,.728-5.179,7.632,7.632,0,0,0,6.362,6.278A4.456,4.456,0,0,1,5.784,16.548ZM16.9,14.583a.1.1,0,0,1-.107.025l-3.257-1.119a.536.536,0,0,0-.425.033,6.544,6.544,0,0,1-3.039.755h-.01a6.532,6.532,0,1,1,5.774-3.484.536.536,0,0,0-.033.425l1.119,3.257a.1.1,0,0,1-.022.108Z" fill="#5ab448"/>
+        </g>
+      </g>
+      <g id="Group_298" data-name="Group 298">
+        <g id="Group_297" data-name="Group 297">
+          <path id="Path_961" data-name="Path 961" d="M13.25,4.9H6.867a.536.536,0,1,0,0,1.071H13.25a.536.536,0,0,0,0-1.071Z" fill="#5ab448"/>
+        </g>
+      </g>
+      <g id="Group_300" data-name="Group 300">
+        <g id="Group_299" data-name="Group 299">
+          <path id="Path_962" data-name="Path 962" d="M13.25,7.108H6.867a.536.536,0,1,0,0,1.071H13.25a.536.536,0,0,0,0-1.071Z" fill="#5ab448"/>
+        </g>
+      </g>
+      <g id="Group_302" data-name="Group 302">
+        <g id="Group_301" data-name="Group 301">
+          <path id="Path_963" data-name="Path 963" d="M10.793,9.311H6.867a.536.536,0,1,0,0,1.071h3.926a.536.536,0,0,0,0-1.071Z" fill="#5ab448"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
