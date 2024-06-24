@@ -469,44 +469,40 @@
             <!-- s : 가리기 -->
             <div class="blind-box">&nbsp;</div>
             <!-- e : 가리기 -->
-            <div style="background:url(../../img/temp/temp_2.png) no-repeat center center / contain; height: calc(100vh - 76px)"></div>
+
+            <!-- start: html 콘텐츠일 경우 conts-swipe-wrap클래스에 type-a 클래스 비활성화 -->
+            <div class="conts-swipe-wrap type-a">
+                <div style="background:url(../../img/temp/temp_2.png) no-repeat center center / contain; height: calc(100vh - 76px)"></div>
+                <div class="pager">
+                    <span class="page"><em>1</em> / 80</span>
+                    <button class="btns left"></button>
+                    <button class="btns right"></button>
+                </div>
+            </div>
+            <!-- // End -->
         </section>
         <section class="bottom-toolbar">
-            <div class="inner-wrap">
-                <div class="file">
-                    <div class="inner">
-                        <span class="ico-file xls"></span>
-                        <!--
-                        나머지 파일 포맷들 참고
-                        <span class="ico-file pdf"></span>
-                        <span class="ico-file hwp"></span>
-                        <span class="ico-file ppt"></span>
-                        <span class="ico-file mp3"></span>
-                        <span class="ico-file mp4"></span>
-                        <span class="ico-file etc"></span>
-                        -->
-                        3학년 체육_YBM1단원_2차시.excel
+            <div class="inner-wrap type-a">
+                <div class="lf-box">
+                    <button class="btns prev"><img src="../../img/common/ico_prev_wh.svg" alt=""> 이전 자료 보기</button>
+                </div>
+                <div class="md-box'">
+                    <div class="viewtype">
+                        <div class="zoom">
+                            <button><img src="../../img/common/ico_zoomout.svg" alt="축소" title="축소"></button>
+                            <strong>100%</strong>
+                            <button><img src="../../img/common/ico_zoomin.svg" alt="확대" title="확대"></button>
+                        </div>
+                        <div class="page-dv">
+                            <button><img src="../../img/common/ico_fit_w.svg" alt="폭맞춤" title="폭맞춤"></button>
+                            <!--<button><img src="../../img/common/ico_fit_h.svg" alt="쪽맞춤" title="쪽맞춤"></button>-->
+                            <button><img src="../../img/common/ico_view_double.svg" style="width:34px;" alt="두쪽보기" title="두쪽보기"></button>
+                            <!--<button><img src="../../img/common/ico_view_single.svg" style="width:34px;" alt="한쪽보기" title="한쪽보기"></button>-->
+                        </div>
                     </div>
                 </div>
-                <div class="pager">
-                    <button class="fileview prev"><img src="../../img/common/ico_prev_wh.svg" alt=""> 이전 자료</button>
-                    <button class="pageview prev"><img src="../../img/common/ico_prev_wh.svg" alt="이전페이지" title="이전페이지로"></button>
-                    <strong>155 / 1,500</strong>
-                    <button class="pageview next"><img src="../../img/common/ico_next_wh.svg" alt="다음페이지" title="다음페이지로"></button>
-                    <button class="fileview next">다음 자료 <img src="../../img/common/ico_next_wh.svg" alt=""></button>
-                </div>
-                <div class="viewtype">
-                    <div class="zoom">
-                        <button><img src="../../img/common/ico_zoomout.svg" alt="축소" title="축소"></button>
-                        <strong>100%</strong>
-                        <button><img src="../../img/common/ico_zoomin.svg" alt="확대" title="확대"></button>
-                    </div>
-                    <div class="page-dv">
-                        <button><img src="../../img/common/ico_fit_w.svg" alt="폭맞춤" title="폭맞춤"></button>
-                        <!--<button><img src="../../img/common/ico_fit_h.svg" alt="쪽맞춤" title="쪽맞춤"></button>-->
-                        <button><img src="../../img/common/ico_view_double.svg" style="width:34px;" alt="두쪽보기" title="두쪽보기"></button>
-                        <!--<button><img src="../../img/common/ico_view_single.svg" style="width:34px;" alt="한쪽보기" title="한쪽보기"></button>-->
-                    </div>
+                <div class="rt-box">
+                    <button class="btns next">다음 자료 보기 <img src="../../img/common/ico_next_wh.svg" alt=""></button>
                 </div>
             </div>
         </section>

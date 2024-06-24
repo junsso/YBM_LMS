@@ -102,6 +102,13 @@ $chk-box-bg-color:#00A58A;
 $admin-color: #E8473F;
 $admin-color2: #004EA1;
 $parents-color: #15BF91;
+$arrange-line: #E3E5E8;
+$arrange-bg: #F6FAFF;
+$arrange-bar-high: #25E500;
+$arrange-bar-middle: #FF9D1D;
+$table-bg: #dee4e9;
+$tt-point: #002060;
+$ai-head-bg: #F3F8FF;
 
 // layout
 $w-max-width: 1280px;
@@ -130,4 +137,57 @@ $breakpoint-desktop3-lg: 1680px;
 
 // url
 $img-url: '../../img/common/';
+$img-header-url: '../../img/common_header/';
 $img-temp-url: '../../img/temp/';
+$img-oncon-url: '../../img/oncon/';
+
+
+//oncon_Color
+$oct-border-color: #DFE6EF;
+$oct-bg-color: #f0f4f9;
+$oct-accent-color: #FBFF4B;
+$oct-desc-value-color: #888888;
+$oct-complete-color: #939393;
+$oct-second-color: #41A2EA;
+$oct-class-color: #F9F0F2;
+$oct-tab-txt-color: #757575;
+$oct-sub-sm-desc-color: #9D9D9D;
+$oct-modal-head-border-color: #CDCDCD;
+$oct-make-box-border-color: #B1B1B1;
+$oct-make-box-add-color: #c7c7c7;
+$oct-make-add-txt-color: #A5A5A5;
+$oct-make-box-placeholder-color: #B8B8B8;
+$oct-ox-o-color: #EDF7FF;
+$oct-ox-x-color: #FFF2F2;
+$oct-list-txt-color: #6A6A6A;
+$oct-online-bdg-color: #FDE3E3;
+$oct-online-txt-color: #A1A1A1;
+$oct-online-txt-color2: #929292;
+
+//oncon_dashed_border_Color
+$oct-choice-color1: #38ADEB;
+$oct-choice-color2: #196095;
+$oct-choice-color3: #8249B9;
+$oct-choice-color4: #B92B12;
+$oct-choice-color5: #A7954D;
+$oct-choice-color6: #23984F;
+$oct-choice-color7: #FF35EB;
+$oct-choice-color8: #FB8023;
+$oct-choice-color9: #C17D86;
+$oct-choice-color10: #222222;
+//viewer_color
+$view-disabled-bg: #F2F3F7;
+$view-active-color: #00416C;
+$view-answer-color1 : #fc5d5b;
+$view-answer-color2:#b04140;
+$view-comment-bg: #fff5d0;
+
+//common_header
+$bg-gray: #F1F1F1;
+$horizental-bar: #D0D0D0;
+$title-color: #1b1b1b;
+
+//ai-color
+$ai-point-color: #B200FF;
+$ai-point-color2: #5628FF;
+$ai-desc-color: #333333;

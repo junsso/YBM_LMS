@@ -31,9 +31,9 @@ window.addEventListener("click", function(event){
 
 
 //layerpopup
-$('[data-popup]').on('click', function(){
+$(document).on('click','[data-popup]',function(){
   var popupName = $(this).data('popup');   
-    
+
   $.ajax({
       type : "GET", //추후 POST로 변경
       url : "ajax_popup.html",
@@ -48,7 +48,7 @@ $('[data-popup]').on('click', function(){
 		    $('#'+popupName+'Popup').addClass('show');
 
         // 팝업 닫기
-        $('.overlay, .close-btn, .this-close-btn').on('click', function(){
+        $(document).on('click','.overlay, .close-btn, .this-close-btn, .ui-js-close',function(){
           $('body').removeClass('active-popup');
           $('.layerpop').removeClass('show');
           return false;
@@ -115,6 +115,42 @@ $('[data-popup]').on('click', function(){
           $('#personalViewQuizPopup').addClass('show');
         });
 
+        //각자 시작 > 종료버튼 클릭시
+        $('#personalViewQuizPopup .result-btn').on('click', function(){
+          $('#personalViewQuizPopup').removeClass('show');
+          $('#personalViewQuizResultPopup').addClass('show');
+        });
+
+        //각자 시작 > 문항보기 클릭시
+        var prvTarget2 = $('.arw-target');
+        var prvTCont2 = $('.mdl-wrap');
+        var prvClose2 = $('.mdl-wrap .close-btn2');
+
+        $(prvTarget2).on('click', function(){
+        $(prvTCont2).addClass('show');
+        });
+        $(prvClose2).on('click', function(){
+          $(prvTCont2).removeClass('show');
+        });
+
+        //selectbox
+        var timeSlt = $('.slt-box.pop-case');
+        var timeSltTarget = $('.slt-box.pop-case .title h2, .slt-box .title .arrow');
+
+        $(timeSltTarget).on('click', function () {
+          $(this).parent('.title').toggleClass('on');
+          $(this).parent('.title').siblings('.sort-box').removeClass('on');
+          $(this).parents(timeSlt).siblings(timeSlt).find('.title').removeClass('on');
+
+          //목록 이외 클릭시 목록 닫힘
+          $(document).on('mouseup', function (f) {
+            if (timeSlt.has(f.target).length === 0) {
+              timeSltTarget.parent('.title').removeClass("on");
+            }
+          });
+        });
+
       }
   });		
+
 });

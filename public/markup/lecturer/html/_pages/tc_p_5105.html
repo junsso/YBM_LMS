@@ -105,13 +105,14 @@
                   <div class="basic-box">
                     <div class="cl-list-manage">
                       <div class="box-head title-bx">
-                        <h2>자료 나눔터</h2>
+                        <h2>자료 나눔터 > 자료 등록하기</h2>
+                        <div class="ift-box left mg-lf-10">
+                          <p class="ift-desc">선생님께서 직접 만든 다양한 수업자료와 온라인 콘텐츠를 공유합니다.</p>
+                        </div>
+                        <div class="btn-box"><a href="#" class="btn btn02">목록</a></div>
                       </div>
                       <div class="box-content">
                         <div class="class-contain">
-                          <div class="ift-box left mg-top-10">
-                            <p class="ift-desc">선생님이 직접 만든 다양한 수업 자료를 공유하세요.</p>
-                          </div>
                           <div class="sg-regist mg-top-30">
                             <div class="table-wrap">
                               <table class="table type-a top">
@@ -119,13 +120,22 @@
                                   <col width="120px">
                                 </colgroup>
                                 <tr>
-                                  <th class="star">대상</th>
+                                  <th class="star">제목</th>
+                                  <td>
+                                    <div class="form-wrap type-a">
+                                      <!-- 글자수 입력 초과시 팝업창 data-popup="chatTitleLimit" -->
+                                      <input type="text" class="inputTitlech form-control type-a" placeholder="제목을 입력하세요.">
+                                    </div>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <th class="star">추천정보</th>
                                   <td class="file-set">
                                     <div class="chk-control-box">
                                       <div class="form-wrap">
                                         <div class="slt-box">
                                           <div class="title">
-                                            <h2 class="first">학교급선택</h2>
+                                            <h2 class="first">초등</h2>
                                             <i class="arrow"></i>
                                             <ul class="cont grade-shc">
                                               <li><a href="#;">초등</a></li>
@@ -138,114 +148,110 @@
                                       <div class="form-wrap">
                                         <div class="slt-box">
                                           <div class="title">
-                                            <h2 class="first">학년선택</h2>
-                                            <!-- 학년선택시 i.etc클래스추가 -->
-                                            <!-- <h2 class="first">학년선택<i class="etc">외n</i></h2> -->
-                                            <i class="arrow"></i>
-                                            <ul class="cont">
-                                              <li>
-                                                <div class="form-wrap">
-                                                  <input type="checkbox" name="tch1" id="tch01"
-                                                    class="basic-control type-b">
-                                                  <label for="tch01" class="">1학년</label>
-                                                </div>
-                                              </li>
-                                              <li>
-                                                <div class="form-wrap">
-                                                  <input type="checkbox" name="tch1" id="tch02"
-                                                    class="basic-control type-b">
-                                                  <label for="tch02" class="">2학년</label>
-                                                </div>
-                                              </li>
-                                              <li>
-                                                <div class="form-wrap">
-                                                  <input type="checkbox" name="tch1" id="tch03"
-                                                    class="basic-control type-b">
-                                                  <label for="tch03" class="">3학년</label>
-                                                </div>
-                                              </li>
-                                              <li>
-                                                <div class="form-wrap">
-                                                  <input type="checkbox" name="tch1" id="tch04"
-                                                    class="basic-control type-b">
-                                                  <label for="tch04" class="">4학년</label>
-                                                </div>
-                                              </li>
-                                              <li>
-                                                <div class="form-wrap">
-                                                  <input type="checkbox" name="tch1" id="tch05"
-                                                    class="basic-control type-b">
-                                                  <label for="tch05" class="">5학년</label>
-                                                </div>
-                                              </li>
-                                              <li>
-                                                <div class="form-wrap">
-                                                  <input type="checkbox" name="tch1" id="tch06"
-                                                    class="basic-control type-b">
-                                                  <label for="tch06" class="">6학년</label>
-                                                </div>
-                                              </li>
-                                            </ul>
-                                          </div>
-                                        </div>
-                                      </div>
-                                      <span class="sel-text">* 학년 항목은 선택 항목입니다.</span>
-                                    </div>
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <th class="star">과목</th>
-                                  <td class="file-set">
-                                    <div class="chk-control-box">
-                                      <div class="form-wrap">
-                                        <div class="slt-box">
-                                          <div class="title">
-                                            <h2 class="first">과목선택</h2>
+                                            <h2 class="first">공통</h2>
                                             <i class="arrow"></i>
                                             <ul class="cont grade-shc">
-                                              <li><a href="#;">국어</a></li>
-                                              <li><a href="#;">영어</a></li>
-                                              <li><a href="#;">수학</a></li>
-                                              <li><a href="#;">통합교과</a></li>
-                                              <li><a href="#;">사회</a></li>
-                                              <li><a href="#;">도덕</a></li>
-                                              <li><a href="#;">과학</a></li>
-                                              <li><a href="#;">안전한 생활</a></li>
-                                              <li><a href="#;">음악</a></li>
-                                              <li><a href="#;">미술</a></li>
-                                              <li><a href="#;">실과</a></li>
-                                              <li><a href="#;">체육</a></li>
-                                              <li><a href="#;">보건</a></li>
-                                              <li><a href="#;">제2외국어</a></li>
-                                              <li><a href="#;">기타</a></li>
+                                              <li><a href="#;">초등</a></li>
+                                              <li><a href="#;">중등</a></li>
+                                              <li><a href="#;">고등</a></li>
                                             </ul>
                                           </div>
                                         </div>
                                       </div>
-                                    </div>
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <th class="star">공유 범위</th>
-                                  <td class="file-set">
-                                    <div class="form-contain-radius">
-                                      <div class="chk-control-box">
+                                      <div class="form-wrap">
                                         <div class="form-wrap">
-                                          <input type="radio" name="share" id="share1" class="rd-control" checked>
-                                          <label for="share1" class="rd-label">전체 공유</label>
+                                          <input type="checkbox" name="chk" id="checkd1" class="basic-control type-c">
+                                          <label for="checkd1" class="">1학년</label>
                                         </div>
                                         <div class="form-wrap">
-                                          <input type="radio" name="share" id="share2" class="rd-control">
-                                          <label for="share2" class="rd-label">같은 학교 선생님끼리 공유</label>
+                                          <input type="checkbox" name="chk" id="checkd2" class="basic-control type-c">
+                                          <label for="checkd2" class="">2학년</label>
+                                        </div>
+                                        <div class="form-wrap">
+                                          <input type="checkbox" name="chk" id="checkd3" class="basic-control type-c">
+                                          <label for="checkd3" class="">3학년</label>
+                                        </div>
+                                        <div class="form-wrap">
+                                          <input type="checkbox" name="chk" id="checkd4" class="basic-control type-c">
+                                          <label for="checkd4" class="">4학년</label>
+                                        </div>
+                                        <div class="form-wrap">
+                                          <input type="checkbox" name="chk" id="checkd5" class="basic-control type-c">
+                                          <label for="checkd5" class="">5학년</label>
+                                        </div>
+                                        <div class="form-wrap">
+                                          <input type="checkbox" name="chk" id="checkd6" class="basic-control type-c">
+                                          <label for="checkd6" class="">6학년</label>
                                         </div>
                                       </div>
                                     </div>
                                   </td>
                                 </tr>
                                 <tr>
-                                  <th class="star">제한 범위</th>
-                                  <td class="file-set">
-                                    <div class="form-contain-radius">
+                                  <th class="">파일 첨부</th>
+                                  <td>
+                                    <div class="sg-attach">
+                                      <div class="file-box mg-top-10">
+                                        <div class="file-up">
+                                          <div class="form-wrap">
+                                            <button type="button" class="btns video" data-popup="video">비디오</button>
+                                          </div>
+                                          <div class="form-wrap">
+                                            <button type="button" class="btns photo" data-popup="photo">이미지</button>
+                                          </div>
+                                          <div class="form-wrap">
+                                            <button type="button" class="btns docu" data-popup="docu">문서파일첨부</button>
+                                          </div>
+                                          <div class="form-wrap">
+                                            <button type="button" class="btns audio" data-popup="audio">오디오</button>
+                                          </div>
+                                          <div class="form-wrap">
+                                            <button class="survey-btn" data-popup="mylist">내 자료함</button>
+                                          </div>
+                                          <div class="sg-volume">
+                                            <span><i>2.0GB</i>/10.0 GB</span>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="sg-filebox">
+                                        <!-- 전체 가용 용량 초과시 팝업창 data-popup="sgVolume " -->
+                                        <div class="form-wrap">
+                                          <div class="input-file type-a">
+                                            <div class="name-wrap type-a">
+                                              <!-- 파일 클래스명 - mp4파일: .mp4 , mp3파일: .mp3 , zip파일: .zip , pdf파일: .pdf , hwp파일: .hwp , xlsx파일: .xlsx , pptx파일: .pptx , png파일: .png , txt파일: .txt , youtube파일: .youtube -->
+                                              <div class="inner pdf">
+                                                <p class="txt">4학년 체육_YBM1단원_1차시.xls</p>
+                                                <button type="button" class="delete"></button>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="form-wrap">
+                                          <div class="input-file type-a">
+                                            <div class="name-wrap type-a">
+                                              <!-- 파일 클래스명 - mp4파일: .mp4 , mp3파일: .mp3 , zip파일: .zip , pdf파일: .pdf , hwp파일: .hwp , xlsx파일: .xlsx , pptx파일: .pptx , png파일: .png , txt파일: .txt , youtube파일: .youtube -->
+                                              <div class="inner hwp">
+                                                <p class="txt">날씨 표현 예시.hwp</p>
+                                                <button type="button" class="delete"></button>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="form-wrap">
+                                          <div class="input-file type-a">
+                                            <div class="name-wrap type-a">
+                                              <!-- 파일 클래스명 - mp4파일: .mp4 , mp3파일: .mp3 , zip파일: .zip , pdf파일: .pdf , hwp파일: .hwp , xlsx파일: .xlsx , pptx파일: .pptx , png파일: .png , txt파일: .txt , youtube파일: .youtube -->
+                                              <div class="inner jpg">
+                                                <p class="txt">풍경사진.jpg</p>
+                                                <button type="button" class="delete"></button>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="file-desc-box mg-top-20">
+                                      <p class="tt">첨부 파일 사용 범위 설정</p>
                                       <div class="chk-control-box">
                                         <div class="form-wrap">
                                           <input type="checkbox" name="limit" id="limit1" class="chk-control">
@@ -278,91 +284,6 @@
                                         </div>
                                       </div>
                                     </div>
-                                    <p class="sg-caution mg-top-15">* 게재 또는 등록한 자료 (컴퓨터 프로그램 포함), 사진, 영상 등(이하 "게시물")에 대한 저작권은 선생님 본인에게 있는 것으로 간주되며, <br>
-                                      게시물이 타인의 저작권 등 지적재산권을 침해하는 경우 그에 대한 책임은 선생님 본인이 부담합니다.</p>
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <th class="star">제목</th>
-                                  <td>
-                                    <div class="form-wrap type-a">
-                                      <!-- 글자수 입력 초과시 팝업창 data-popup="chatTitleLimit" -->
-                                      <input type="text" class="inputTitlech form-control type-a" placeholder="제목을 입력하세요.">
-                                    </div>
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <th class="">키워드</th>
-                                  <td>
-                                    <!-- 입력하기전 -->
-                                    <div class="form-wrap type-a">
-                                      <input type="text" class="form-control type-a" placeholder="#을 치고 키워드를 입력해주세요. ">
-                                    </div>
-                                    <!-- 태그 입력중 -->
-                                    <!-- <div class="form-wrap type-a">
-                                      <input type="text" class="form-control type-a off" placeholder="">
-                                      <span class="test">#수업</span>
-                                      <ul class="tag has-scroll">
-                                        <li><a href="">#수업경진대회</a></li>
-                                        <li><a href="">#수업경청중</a></li>
-                                        <li><a href="">#수업교육</a></li>
-                                        <li><a href="">#수업경연대회</a></li>
-                                        <li><a href="">#수업경청중</a></li>
-                                        <li><a href="">#수업교육</a></li>
-                                        <li><a href="">#수업교육</a></li>
-                                        <li><a href="">#수업교육</a></li>
-                                      </ul>
-                                    </div> -->
-
-                                    <!-- 태그 입력후 -->
-                                    <!-- <div class="form-wrap type-a">
-                                      <input type="text" class="form-control type-a" placeholder="">
-                                      <div class="stu-choice drag">
-                                        <div class="form-wrap">
-                                          <button type="button" class="btn">#수업 <span class="del"></span></button>
-                                        </div>
-                                        <div class="form-wrap">
-                                          <button type="button" class="btn">#수업경연대회 <span class="del"></span></button>
-                                        </div>
-                                        <div class="form-wrap">
-                                          <button type="button" class="btn">#수업경진대회<span class="del"></span></button>
-                                        </div>
-                                      </div>
-                                    </div> -->
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <th class="">파일 첨부</th>
-                                  <td>
-                                    <div class="sg-attach">
-                                      <div class="file-box mg-top-10">
-                                        <div class="file-up">
-                                          <div class="form-wrap">
-                                            <!-- 비디오 재클릭시 data-popup="videoLimit" -->
-                                            <button type="button" class="btns video" data-popup="video">비디오</button>
-                                          </div>
-                                          <div class="form-wrap">
-                                            <!-- 이미지 재클릭시 data-popup="photoLimit" -->
-                                            <button type="button" class="btns photo" data-popup="photo">이미지</button>
-                                          </div>
-                                          <div class="form-wrap">
-                                            <!-- 문서 재클릭시 data-popup="fileLimit" -->
-                                            <button type="button" class="btns docu" data-popup="docu">문서파일첨부</button>
-                                          </div>
-                                          <div class="form-wrap">
-                                            <!-- 오디오 재클릭시 data-popup="audioLimit" -->
-                                            <button type="button" class="btns audio" data-popup="audio">오디오</button>
-                                          </div>
-                                          <div class="form-wrap">
-                                            <button class="btns survey-btn" data-popup="mylist">내 자료함</button>
-                                          </div>
-                                          <!-- 전체 가용 용량 초과시 data-popup="sgExcess" -->
-                                          <div class="sg-volume">
-                                            <span><i>0 GB</i>/10.0 GB</span>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
                                   </td>
                                 </tr>
                                 <tr>
@@ -375,21 +296,36 @@
                                 </tr>
                               </table>
                             </div>
-                            <div class="sg-guide mg-top-20">
-                              <p>
-                                탑재하신 자료는 Y클라우드 및 YBM북샘 사이트에 탑재될 수 있으며 일부 편집, 수정될 수 있습니다. <br>
-                              탑재하신 자료가 제3자의 지적재산권을 침해하지 않음을 보증합니다. 이에 대한 책임은 탑재 당사자에게 있습니다.
-                              </p>
-                              <div class="form-wrap mg-top-10">
-                                <input type="checkbox" name="ag" id="ag" class="basic-control type-c">
-                                <label for="ag" class="">동의합니다.</label>
+                            <div class="btn-wrap center mg-top-50">
+                              <div class="col-12">
+                                  <div class="chk-control-box">
+                                      <div class="form-wrap bsic-dc-box">
+                                          <a href="#;">
+                                              <img src="../../img/common/ico_qa.svg" alt="">
+                                              <div class="balloon left">
+                                                 <ul>
+                                                     <li><strong>전체 공유</strong> 선택 시 YBM 스마트 스쿨을 이용하는 모든 선생님께 콘텐츠가 공유 됩니다.</li>
+                                                     <li><strong>같은 학교 선생님끼리 공유</strong> 선택 시 같은 학교 선생님과 내가 만든 콘텐츠를 공유 합니다. </li>
+                                                 </ul>
+                                                 <p class="mg-top-10">※ 공유를 선택하지 않아도 등록이 가능 합니다. </p>
+                                              </div>
+                                          </a>
+                                      </div>
+                                      <div class="form-wrap">
+                                          <input type="checkbox" name="chkt" id="chkt1" class="basic-control type-c">
+                                          <label for="chkt1" class="basic-radio">전체 공유</label>
+                                      </div>
+                                      <div class="form-wrap">
+                                          <input type="checkbox" name="chkt" id="chkt2" class="basic-control type-c">
+                                          <label for="chkt2" class="basic-radio">같은 학교 선생님끼리 공유</label>
+                                      </div>
+                                  </div>
                               </div>
                             </div>
                             <div class="sg-btns mg-top-30">
                               <button class="cancel" data-popup="sgCancel">취소</button>
-                              <button class="prew" data-popup="sgPrew">미리보기</button>
                               <!-- 등록하기 버튼 비활성화.disabled-->
-                              <button class="regist" data-popup="sgRegist2">등록하기</button>
+                              <button class="regist" data-popup="sgPrew">등록하기</button>
                               <!-- 수정하기 버튼 비활성화.disabled -->
                               <!-- <button class="regist " data-popup="sgRegist">수정하기</button> -->
                             </div>

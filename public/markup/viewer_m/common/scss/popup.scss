@@ -728,3 +728,190 @@
         }
     }
 }
+
+//학생순위 보기
+.qz-ranking-wrap{
+    padding: 20px;
+    .qz-ranking-list{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        li{
+            background-color: #F2F3F7;
+            height: 50px;
+            line-height: 50px;
+            font-weight: 500;
+            font-size: 18px;
+            color: #1B1D1F;
+            display: flex;
+            border: 1px solid #D5D5D5;
+            border-radius: 10px;
+            overflow: hidden;
+            .rank{
+                padding: 0 16px;
+                display: flex;
+                gap: 10px;
+                align-items: center;
+                background-color: #00416C;
+                color: white;
+                font-weight: 700;
+                min-width: 94px;
+                img{
+                    margin-top: 2px;
+                }
+            }
+            .member{
+                padding: 0 20px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                display: -webkit-box;
+                -webkit-line-clamp: 1;
+                -webkit-box-orient: vertical;
+                white-space: inherit;
+                word-break: break-all;
+            }
+            .score{
+                margin-left: auto;
+                padding-right:20px;
+                text-align: right;
+                color: #FC5D5B;
+                min-width: 94px;
+            }
+        }
+    }
+    .qz-member-tab{
+        display: flex;
+        >div{
+            flex: 1;
+            height: 55px;
+            font-weight: 400;
+            font-size: 20px;
+            color: #72787F;
+            background-color: #E8EBED;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &:not(:first-child){
+                border-left: 1px solid #C9CDD2;
+            }
+            .num{
+                display: inline-block;
+                color: white;
+                background-color: #666;
+                font-weight: 700;
+                border-radius: 100%;
+                min-width: 30px;
+                max-width: 30px;
+                min-height: 30px;
+                max-height: 30px;
+                line-height: 30px;
+                text-align: center;
+            }
+            &.current{
+                background: #FC5D5B;
+                color: white;
+                font-weight: 700;
+                .num{
+                    background-color: white;
+                    color: #FC5D5B;
+                }
+            }
+            &:hover{
+                opacity: 0.8;
+            }
+        }
+    }
+    .qz-member-box{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        .qz-answers,
+        .qz-nons{
+            border: 1px solid #D5D5D5;
+            border-radius: 10px;
+            overflow: hidden;
+            .title-box{
+                border-bottom: 1px solid #D5D5D5;
+                height: 47px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 17px;
+                font-weight: 700;
+                font-size: 18px;
+                color: #525252;
+                background: #E8EBED;
+            }
+            .count-box{
+                display: flex;
+                align-items: center;
+                position: relative;
+                font-weight: 400;
+                gap: 2px;
+                @include left-before-bar;
+                .count{
+                    font-weight: 700;
+                    color: black;
+                }
+            }
+        }
+        .qz-answers{
+            flex: 2;
+            .title-box{
+                background: rgba(252, 93, 91, 0.1);
+                .count{
+                    color: #FC5D5B;
+                }
+            }
+        }
+        .qz-nons{
+            flex: 1.15;
+        }
+        .qz-member-list{
+            margin: 6px;
+            padding: 8px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            max-height: 340px;
+            li{
+                background: #E8EBED;
+                border-radius: 999px;
+                padding: 9.5px 15px;
+                font-weight: 400;
+                font-size: 16px;
+                color: #1B1D1F;
+                .num{
+                    font-weight: 700;
+                }
+                .answer,
+                .wrong{
+                    display: inline-block;
+                    margin-left: 17px;
+                    position: relative;
+                    @include left-before-bar;
+                    font-weight: 700;
+                }
+                .answer{
+                    color: #FC5D5B;
+                }
+                .wrong{
+                    color: #00416C;
+                }
+            }
+            overflow-y: auto;
+            &::-webkit-scrollbar{
+                width: 5px;
+                height: 5px;
+                position: absolute; 
+            }
+            &::-webkit-scrollbar-thumb,
+            &::-webkit-scrollbar-track{
+                background-color: rgba(0, 0, 0, 0.1); 
+                border-radius: 10px;
+            }
+        }
+    }
+}

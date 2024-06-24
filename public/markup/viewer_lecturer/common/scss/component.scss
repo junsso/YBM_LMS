@@ -293,6 +293,10 @@
     &.m4a{
         background: url(#{$img-url}ico_file_m4a.svg)no-repeat center / contain;
     }
+    //커넥팅북
+    &.contbook{
+        background: url(#{$img-url}ico_file_cont_book.svg)no-repeat center / contain;
+    }
 }
 .ico{
     @include inline-grop;

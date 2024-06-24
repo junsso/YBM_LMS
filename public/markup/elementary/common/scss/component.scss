@@ -374,6 +374,36 @@
       background-color: #{$button-bgcolor};
     }
   }
+  //ai
+  &.ai{
+    ~ .rd-label{
+        padding: 0;
+        font-size: 16px;
+      .desc{
+        font-size: 16px;
+        display: inline-block;
+        padding-left: 36px;
+        padding-right: 18px;
+        position: relative;
+        &::after{
+          content: '';
+          display: inline-block;
+          vertical-align: middle;
+          background: url(#{$img-url}ico_ai_label2.svg) no-repeat center / contain;
+          width: 20px;
+          height: 20px;
+          margin-left: 5px;
+          margin-top: -4px;
+        }
+      }
+    }
+    &:checked ~ .rd-label{  
+        border: 2px solid transparent;
+        background-image: linear-gradient(#F7F8F9, #F7F8F9),linear-gradient(90.36deg, #FF00A1 0.01%, #9C00FF 68.97%, #0258FF 129.83%);
+        background-origin: border-box;
+        background-clip: content-box, border-box;   
+    }
+  }
 }
 
 .rd-control~.rd-label {
@@ -501,6 +531,14 @@
     color: #{$primary-bg-color};
     border-color: #{$primary-bg-color};
   }
+  //ai수업  
+  &.ai{
+    text-indent: -9999px;
+    background: url(#{$img-url}ico_ai_label2.svg) no-repeat right / contain;
+    width: 22px;
+    height: 22px;
+    border: 0 none;
+  }
 }
 
 //중복 수업시
@@ -581,11 +619,11 @@
 // 기간.term
 .term {
   @include inline-grop;
-  padding: 0 20px;
-  height: 30px;
-  line-height: 30px;
+  padding: 0 15px;
+  height: 26px;
+  //line-height: 26px;
   color: #fff;
-  font-size: 18px;
+  font-size: 14px;
   text-align: center;
   border-radius: 15px;
   &.ing {
@@ -708,6 +746,16 @@
   &.none2 {
     background: #{$btn-border-color};
   }
+  &.portfolio{
+    background: linear-gradient(237.81deg, #50CE61 -15.57%, #36AC9B 40.24%, #8390C8 68.7%, #736CC4 96.04%);
+    font-family: Roboto,Noto Sans KR,sans-serif;
+    width: 100%;
+    i{
+      &::after{
+        display: none;
+      }
+    }
+  }
 }
 
 .new {
@@ -736,6 +784,13 @@
 .btn {
   @include basic-btn;
   text-align: center;
+  &.block{
+    display: block;
+    width: 100%;
+  }
+  &.ai{
+
+  }
 }
 
 // lg:height:80, md:height-60px , sm:height-40px , xs:height-35px
@@ -747,6 +802,12 @@
   color: #fff;
   border-radius: 8px;
   background: #{$primary-bg-color};
+  &.xl {
+    height: 80px;
+    line-height: 80px;
+    font-size: 30px;
+  }
+
   &.lg {
     height: 70px;
     line-height: 70px;
@@ -809,6 +870,15 @@
   border-radius: 3px;
   background: #fff;
 }
+.btn07 {
+  color: #{$sch-color4};
+  height: 50px;
+  line-height: 50px;
+  padding: 0 15px;
+  text-align: center;
+  border-radius: 50px;
+  background-color: #{$base-text-rfcolor};
+}
 
 .slt-box {
   .title {
@@ -869,7 +939,7 @@
     background: #{$base-text-rfcolor};
     transition: 0.4s all; 
     li {
-      padding: 10px 15px;
+      padding: 2px 15px;
       &:hover {
         a {
           font-weight: bold;
@@ -1032,6 +1102,18 @@
     }
     &.stp9{
         background: url(#{$img-url}ico_stamp_n3.png)no-repeat center /contain;
+    }
+    &.s_stp1{
+        background: url(#{$img-url}ico_stamp_s1.png)no-repeat center /contain;
+    }
+    &.s_stp2{
+        background: url(#{$img-url}ico_stamp_s2.png)no-repeat center /contain;
+    }
+    &.s_stp3{
+        background: url(#{$img-url}ico_stamp_s3.png)no-repeat center /contain;
+    }
+    &.s_stp4{
+        background: url(#{$img-url}ico_stamp_s4.png)no-repeat center /contain;
     }
     &.off{
       background: url(#{$img-url}ico_stamp_n4.png)no-repeat center /contain;
@@ -1616,7 +1698,7 @@ button.more {
         @include inline-grop;
         padding: 0 20px;
         color: #703BEE;
-        font-size: 30px;
+        font-size: 26px;
         font-weight: 500;
       }
     }
@@ -1889,7 +1971,7 @@ button.more {
   }
   .pg_page {
       color:#{$base-text-color};
-      font-size: 22px; 
+      //font-size: 22px; 
       height:30px;
       line-height:30px;
       padding:0 5px;
@@ -2160,5 +2242,71 @@ button.more {
 
 
 
+}
+
+.basic-control{
+  @include chk-input;
+}
+.basic-control ~ label{
+  @include basic-radio;
+  font-size: 16px;
+}
+.basic-control ~ label:before{
+  @include basic-radio-before;
+}
+.basic-control:checked ~ label:after {
+  @include basic-radio-checked-after;
+}
+.basic-control.type-c ~ label{
+    padding-left: 0;
+    display: block;
+    font-size: 16px;
+    padding-left: 30px;
+    font-weight: 400;
+}
+.basic-control.type-c ~ label:before{
+    border-radius: 3px;
+    border: 1px solid #{$guide-color};
+    width: 18px;
+    height: 18px;
+    background: #{$base-text-rfcolor};
+}
+.basic-control.type-c:checked ~ label:after {
+    background: url(#{$img-url}ico_chk_check.svg)no-repeat center / contain;
+    width: 20px;
+    height: 20px;
+    border-radius: 0;
+    left: 0;
+}
+
+//ai
+.btn-ai{
+  @include bg-aiClass;
+  @include txt-aiClass;
+  border: 1px solid transparent;
+  .ai-class{
+      margin-right: 7px;
+  }
+  em{
+      color: #{$base-text-rfcolor};
+  }
+  &.xs{
+      line-height: 25px;
+      height: 25px;
+      padding: 0 15px;
+      em{
+          font-size: 14px;
+      }
+  }
+}
+.ico-gnb{
+  @include inline-grop;
+  width: 35px;
+  height: 35px;
+  &.ai-class{
+      background: url(#{$img-url}ico_ai_label.svg) no-repeat center / cover;
+      width: 35px;
+      height: 35px;
+  }
 }
 

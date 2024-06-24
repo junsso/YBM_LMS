@@ -550,7 +550,19 @@
         }
       }
     }
-  }  
+  } 
+  &.weight-tool{
+    li{
+      &.set-weight{
+        button{
+          padding: 6px 5px;
+          &.on{
+            padding: 6px 5px;
+          }
+        }
+      }
+    }
+  }   
   &.wr-tool{
     li{
       button{

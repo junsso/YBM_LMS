@@ -1,0 +1,81 @@
+@charset "UTF-8";
+@import 'variables', 'func', 'extends', 'breakpoint';
+
+html,body{
+    @extend .font-default-medium-14;
+    @extend .default-font-set;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+a, button{
+    text-decoration: none;
+    &:hover{
+        transition: all .3s ease;
+    }
+}
+
+a:active, a:hover, button:active, input:focus, span:active{
+    outline: none;
+    -webkit-tap-highlight-color : transparent;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    table-layout: fixed;
+}
+
+select {
+    -o-appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-border-radius: 0;
+    &::-ms-expand{
+        display: none;
+    }
+    &:disabled{
+        opacity: .5;
+    }
+}
+
+textarea{
+    font-family: $font-family;
+    font-weight: 400;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+input{
+    /*ios대응*/
+    appearance: none;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+  
+@include tablet {  
+
+    html, body{
+        min-width: $mobile-min-width;
+        overflow-x: hidden;
+    }
+
+}

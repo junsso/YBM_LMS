@@ -695,6 +695,18 @@
         }
       }
     }
+  } 
+  &.weight-tool{
+    li{
+      &.set-weight{
+        button{
+          padding: 6px 5px;
+          &.on{
+            padding: 6px 5px;
+          }
+        }
+      }
+    }
   }  
   &.wr-tool{
     li{
@@ -796,6 +808,7 @@
         .ui-widget.ui-widget-content{
           background: #{$disabled-txt};
           border: 0px none;
+          height: 10px;
         }
         .ui-widget-header{
           background: #{$primary-color};
@@ -866,18 +879,49 @@
     .inner-wrap{
       display: flex;
       min-width: #{$min-player-width};
-      margin: 0 30px 0 20px;;
       align-items: center;
       min-width: 768px;
+      height: calc(100% - 10px);
+      .md-box{
+        display: flex;
+        align-items: center;
+      }
+      .btns{
+        border-radius: 5px;
+        height: 20px;
+        line-height: 20px;
+        color: #fff;
+        padding: 0 6px;
+        font-size: 0.625em;
+        img{
+          display: inline-block;
+          vertical-align: 0;
+          width: 7px;
+        }
+        &.prev{
+          background: #{$prev-btn};
+        }
+        &.next{
+          background: #{$point-color};
+        }
+        &:active{
+          box-shadow: inset 2px 2px 1px rgba(0,0,0,0.2);
+          transform: translate(2px, 2px);
+        }
+      }
       .p-controll{
         display: flex;
         button{
-          padding: 10px;
+          padding: 0 6px;
+          height: 30px;
           //border: 1px solid red;
+          img{
+            max-width: 76%;
+          }
         }
       }
       .runtime{
-        font-size: 1.125em;
+        font-size: 0.725em;
         font-weight: 500;
         margin-left: 10px;
         .total{
@@ -891,6 +935,11 @@
         margin-left: 20px;
         display: flex;
         align-items: center;
+        button{
+          img{
+            max-width: 100%;
+          }
+        }
       }
       .speed{
         position: relative;
@@ -898,11 +947,12 @@
           background: #{$guide-line3};
           border: 1px solid #{$status-exp};
           border-radius: 5px;
-          height: 30px;
-          line-height: 30px;
+          height: 20px;
+          font-size: 0.725em;
+          line-height: 20px;
           margin-left: 20px;
           text-align: center;
-          width: 80px;
+          padding: 0 10px;
           cursor: pointer;
         }
         .dropdown{
@@ -942,10 +992,11 @@
           background: #{$guide-line3};
           border: 1px solid #{$status-exp};
           border-radius: 5px;
-          height: 30px;
-          line-height: 30px;
+          height: 20px;
+          font-size: 0.625em;
+          line-height: 20px;
           text-align: center;
-          padding: 0 10px;
+          padding: 0 5px;
           margin-left: 4px;
           color: #{$prev-btn};
           &.fin-set{
@@ -962,6 +1013,7 @@
           .txt{
             color: #{$scroll-thumb};
             margin-right: 4px;
+            font-size: 0.725em;
           }
         }
       }
@@ -971,7 +1023,13 @@
     min-width: 768px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    height: 100%;
     padding: 0 10px;
+    box-sizing: border-box;
+    img{
+      display: block;
+    }
   }
   .file{
     width: 220px;
@@ -980,17 +1038,22 @@
     .inner{
       background: #{$bg-gray};
       border-radius: 5px;
-      height: 46px;
-      line-height: 48px;
+      height: 20px;
+      line-height: 20px;
       padding: 0 10px;
-      font-size: 0.875em;
+      font-size: 0.725em;
       @include ellipsis;
+      .ico-file{
+        width: 14px;
+        height: 14px;
+      }
     }
   }
   .pager{
     text-align: center;
-    max-width: 640px;
-    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
     button{
       position: relative;
       overflow: hidden;
@@ -1002,47 +1065,58 @@
     }
     .fileview{
       display: inline-block;
-      border-radius: 10px;
-      height: 46px;
-      line-height: 48px;
+      border-radius: 5px;
+      height: 20px;
+      line-height: 20px;
       color: #fff;
-      padding: 0 10px;
-      font-size: 1em;
+      padding: 0 6px;
+      font-size: 0.625em;
       img{
         display: inline-block;
         vertical-align: 0;
-        width: 12px;
+        width: 7px;
       }
       &.prev{
         background: #{$prev-btn};
-        margin-right: 16px;
+        //margin-right: 16px;
       }
       &.next{
         background: #{$point-color};
-        margin-left: 16px;
+        //margin-left: 16px;
       }
     }    
     strong{
       display: inline-block;
-      height: 46px;
-      line-height: 48px;
-      font-size: 1em;
+      height: 20px;
+      line-height: 20px;
+      font-size: 0.725em;
       font-weight: 600;
       padding: 0 15px;
       max-width: 150px;
       border-radius: 10px;
       vertical-align: middle;
-      margin: 0 10px;
       background: #{$primary-color4};
       color: #{$primary-color};
     }
     .pageview{
-      width: 30px;
-      height: 30px;
+      width: 20px;
+      height: 20px;
       line-height: 24px;
       border-radius: 50px;
       background: #{$primary-color};
       text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img{
+        width: 10px;
+      }
+      &.prev{
+        margin-left: -2px;
+      }
+      &.next{
+        margin-right: -2px;        
+      }
     }
   }
   .viewtype{
@@ -1050,24 +1124,29 @@
     background: rgba(255,255,255,0.85);
     .zoom{
       margin-right: 10px;
+      button{
+        height: 100%;
+      }
       strong{
         display: inline-block;
-        height: 30px;
-        line-height: 32px;
-        font-size: 1em;
+        height: 20px;
+        line-height: 20px;
+        font-size: 0.725em;
         padding: 0 10px;
         border-radius: 5px;
         vertical-align: middle;
         background: #{$bg-gray};
       }
-      button{
-        padding: 10px;
-      }
     }
     .page-dv{
+      display: flex;
+      align-items: center;
       button{
-        width: 50px;
-        height: 50px;
+        width: 30px;
+        height: 30px;
+        img{
+          max-width: 100%;
+        }
       }
     }
   }
@@ -1657,72 +1736,17 @@
   .bottom-toolbar{
     .file{
       width: 170px;
-      .inner{
-
-      }
     }
-    .pager{
-      max-width: inherit;
-      width: calc(100% - 170px - 212px);
-      strong{
-        height: 40px;
-        line-height: 40px;
-        font-size: 0.875em;
-        margin: 0 5px;
-        padding: 0 8px;
-      }
-      .fileview{
-        height: 40px;
-        line-height: 40px;
-        font-size: 0.875em;
-        &.prev{
-          margin-right: 5px;          
-        }
-        &.next{
-          margin-left: 5px;
-        }
-        img{
-          margin-top: -2px;
-          vertical-align: middle;
+    &.player-toolbar{
+      .inner-wrap{
+        justify-content: center;
+        .set-btn-wrap{
+          display: none;
         }
       }
-      .pageview{
-        width: 25px;
-        height: 25px;
-        line-height: 22px;
-        padding: 0;
-        img{
-          max-width: 100%;
-        }
-        &.next{
-          padding-left: 2px;
-        }
-        &.prev{
-          padding-right: 2px;
-        }
-      }
-    }
-    .viewtype{
-      .zoom{
-        margin-right: 0;
-        button{
-          width: 30px;
-          height: 30px;
-          padding: 0 5px;
-          img{
-            max-width: 100%;
-          }
-        }
-      }
-      .page-dv{
-        button{
-          width: 40px;
-          height: 40px;
-          padding: 0 5px;
-          img{
-            max-width: 100%;
-          }
-        }
+      .lf-box,
+      .rt-box{
+        display: none;
       }
     }
   }
@@ -1747,52 +1771,22 @@
   .bottom-toolbar{
     &.player-toolbar{
       .inner-wrap{
-        padding: 0;
-        .p-controll{
-          button{
-            width: 30px;
-            padding: 0;
-            margin: 0 5px;
-          }
-        }
         .runtime{
-          font-size: 12px;
+          font-size: 0.625em;
         }
         .set-btn-wrap{
           button{
-            font-size: 12px;
+            font-size: 0.625em;
           }
           .play-repeat{
             .txt{
-              font-size: 12px;
+              font-size: 0.625em;
             }
           }
-        }
-        .speed{
-          .handler{
-            font-size: 12px;
-            width: auto;
-            padding: 0 8px;
-            margin-left: 5px;
-          }
-        }
-        .v-controll{
-          margin-left: 10px;
         }
       }
     }
   }
-  .switch-wrap{
-    height: 25px !important;
-  }
-  .onf-btn{
-    width: 15px !important;
-    height: 15px !important;
-    &::after{
-      font-size: 12px;
-    }
-  }
-
 }
 
 

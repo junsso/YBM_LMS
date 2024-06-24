@@ -1,0 +1,74 @@
+// default font style
+$base-font-size: 16px;
+$font-family: 'Pretendard', 'Noto Sans KR';
+
+// colors
+$basic-trans-color: transparent;
+$bg-grays: (
+    1:#000000, 
+    2:#000543, 
+    3:#111111, 
+    4:#303030, 
+    5:#333333, 
+    6:#363636, 
+    7:#666666, 
+    8:#777777, 
+    9:#848484, 
+    10:#939393, 
+    11:#999999, 
+    12:#9C9C9C, 
+    13:#ABABAB, 
+    14:#B8B8B8, 
+    15:#BEBEBE, 
+    16:#D3D3D3, 
+    17:#D6D6D6,
+    18:#EAEAEA,
+    19:#8B8B8B,
+    20:#A0A0A0,
+    21:#EDEDED,
+    22:#A8A8A8,
+    23:#F2F9FF,
+    24:#EFEFEF,
+    25:#F3F3F3,
+    26:#1C1B1F,
+    27:#BDBDBD,
+    28:#E8E8E8,
+);
+
+$active-colors: (
+    1:#0055A7,
+    2:#F01E46,
+    3:#62C3CE,
+    4:#4DCC80,
+    5:#D8E6F3,
+    6:#DEEFFF,
+    7:#DFE7EE,
+    8:#FF4B4B,
+    9:#EBF8FA,
+    10:#D9E8EA,
+);
+
+$black: map-get($map: $bg-grays, $key: 1);
+$blue: map-get($map: $active-colors, $key: 1);
+$red: map-get($map: $active-colors, $key: 2);
+$white: #FFFFFF;
+
+// transition
+$transition-speed: 0.4s;
+
+// layout
+$inner-container: 1280px;
+$aspect-ratio-w: calc(16/9);
+$aspect-ratio-h: calc(2/3);
+$aspect-scale:1.24;
+
+// Breakpoints
+$breakpoint-mobile: 360px;
+$breakpoint-tablet: 768px; //현재는 이 값만 사용중
+$breakpoint-desktop: 1024px;
+$breakpoint-desktop2: 1470px;
+$mobile-min-width: 375px;
+$mobile-padding: 16px;
+
+// url
+$img-url: '../../asset/img/';

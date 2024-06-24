@@ -31,7 +31,8 @@ window.addEventListener("click", function(event){
 
 
 //layerpopup
-$('[data-popup]').on('click', function(){
+$(document).on('click','[data-popup]',function(){
+
   var popupName = $(this).data('popup');   
     
   $.ajax({
@@ -48,7 +49,7 @@ $('[data-popup]').on('click', function(){
 		    $('#'+popupName+'Popup').addClass('show');
 
         // 팝업 닫기
-        $('.overlay, .close-btn, .this-close-btn').on('click', function(){
+        $(document).on('click','.overlay, .close-btn, .this-close-btn, .ui-js-close',function(){
           $('body').removeClass('active-popup');
           $('.layerpop').removeClass('show');
           return false;

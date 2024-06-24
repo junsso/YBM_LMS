@@ -489,3 +489,27 @@
         }
     }
 }
+
+@mixin left-before-bar{
+    &::before{
+        content: '';
+        position: absolute;
+        width: 1px;
+        height: 12px;
+        background-color: #BBBBBB;
+        left: -8px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
+@mixin media-descktop-md {
+    @media (max-width: #{$max-content-width2}){
+        @content;
+      }
+}
+@mixin media-descktop-md2 {
+    @media (max-width: #{$breakpoint-desktop2}){
+        @content;
+      }
+}

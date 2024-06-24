@@ -24,7 +24,48 @@
 <script src="../../lib/jquery-3.6.0.min.js"></script>
 <script src="../../lib/device.js"></script>
 </head>
-<body>
+<body class="common">
+
+    <!-- start: 스마트스쿨 공통 헤더 -->
+    <section class="common-header">
+        <div class="util-menu">
+            <div class="container-inner">
+                <div class="out-link">
+                    <div class="go-gate"><a href="#;">게이트</a></div>
+                    <div class="go-channel">
+                        <ul>
+                            <li class="current"><a href="#;" target="_blank">초등</a></li>
+                            <li><a href="#;" target="_blank">중학</a></li>
+                            <li><a href="#;" target="_blank">고등</a></li>
+                            <li><a href="#;" target="_blank">스마트스쿨</a></li>
+                            <li><a href="#;" target="_blank">깜짝퀴즈</a></li>
+                            <li><a href="#;" target="_blank">커넥트북</a></li>
+                            <li><a href="#;" target="_blank">YBM교과서 소개</a></li>
+                        </ul>
+                    </div>
+                    <div class="go-fm-list">
+                        <ul>
+                            <li ><a href="#;" target="_blank">YBM교원 연수원</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="inner-link">
+                    <ul>
+                        <li><a href="#;">로그인</a></li>
+                        <li><a href="#;">회원가입</a></li>
+                        <!-- 로그인 후
+                        <li><a href="#;">로그아웃</a></li>
+                        <li><a href="#;">개인정보수정</a></li>
+                        //로그인 후 -->
+                        <li><a href="#;">고객센터</a></li>
+                        <li><a href="#;" class="favorite ico-favorite-before" data-popup="shortcut">즐겨찾기</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- // end: 스마트스쿨 공통 헤더 -->
+    
     <section class="wrap">
         <!-- start: 상단 배너 영역 (background-color는 예시로 넣어둠.삭제해도 무방함.)-->
         <div class="top-banner-area" style="background-color: pink;">
@@ -49,14 +90,11 @@
                         <li class="current">
                             <a href="#"><span class="ico-gnb mg-class"></span><em>수업관리</em></a>
                             <ul class="dropdown">
-                                <li class="current"><a href="#">수업설계</a></li>
+                                <li class="current"><a href="#">수업개설</a></li>
                                 <li><a href="#">평가·과제 관리</a></li>
                                 <li><a href="#">시간표 관리</a></li>
                                 <li><a href="#">수업 리포트</a></li>
                             </ul>
-                        </li>
-                        <li class="oncon-depth">
-                            <a href="#"><span class="ico-gnb oncon"></span><em>Online 콘텐츠<br> 만들기</em></a>
                         </li>
                         <li>
                             <a href="#"><span class="ico-gnb mg-alarm"></span><em>메시지 관리</em></a>
@@ -64,6 +102,9 @@
                                 <li><a href="#">그룹 메시지</a></li>
                                 <li><a href="#">1:1 메시지</a></li>
                             </ul>
+                        </li>
+                        <li class="oncon-depth">
+                            <a href="#"><span class="ico-gnb oncon"></span><em>온라인 콘텐츠 제작</em></a>
                         </li>
                         <li>
                             <a href="#"><span class="ico-gnb mg-study"></span><em>학급학생관리</em></a>

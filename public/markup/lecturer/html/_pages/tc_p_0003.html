@@ -15,7 +15,7 @@
 <meta property="og:description" content="">
 <meta property="og:image" content="">
 <meta property="og:url" content="">
-<title>페이지명 | 초등(채널명) | YBM온라인스쿨(사이트명)</title>
+<title>페이지명 | 강사(채널명) | YBM온라인스쿨(사이트명)</title>
 <link rel="shortcut icon" href="">
 <link rel="stylesheet" href="../../common/css/import.css">
 <script src="../../lib/jquery-3.6.0.min.js"></script>
@@ -303,6 +303,7 @@
                             </div>
                         </div>
                         <div class="box-foot">
+                            <button type="button" class="btn btn03" data-popup="schTimeView" style="margin-right: 15px">시간표 보기</button>
                             <a href="#" class="link-launch"></a>
                         </div>
                     </div>
@@ -701,6 +702,42 @@ function calendarMaker(target, date) {
     }
 }
 </script>
+                        <div class="mds-box meet-box">
+                            <ul>
+                                <li class="meet-type-a">
+                                    <span>화상수업</span>
+                                    <div class="slt-box">
+                                        <div class="title">
+                                            <h2 class="first">연결하기</h2>	
+                                            <i class="arrow"></i>
+                                            <ul class="cont">
+                                                <li><a href="#;" data-popup="classMovie">학급 화상수업</a></li>
+                                                <!-- 공개 수업링클르 통해 참여시 data-popup="classMovieOpen2"-->
+                                                <li><a href="#;" data-popup="classMovieOpen">공개 화상수업</a></li>
+                                                <li><a href="#;">연습·녹화용 화상수업</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="meet-type-b">
+                                    <span>퀴즈나우</span>
+                                    <div class="slt-box">
+                                        <div class="title">
+                                            <h2 class="first">연결하기</h2>	
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="meet-type-c">
+                                    <span>라이브샷</span>
+                                    <div class="slt-box">
+                                        <div class="title">
+                                            <h2 class="first">연결하기</h2>	
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
 
                         <div class="mds-box movie-box">
                             <div class="box-head">

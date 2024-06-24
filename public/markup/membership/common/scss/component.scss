@@ -219,6 +219,10 @@
   &.normal{
       line-height: 1.5;
   }
+  &.lg{
+      line-height: 60px;
+      height: 60px;
+  }
   &.md{
       line-height: 50px;
       height: 50px;
@@ -226,6 +230,10 @@
   &.sm{
       line-height: 30px;
       height: 30px;
+  }
+  &.block{
+    display: block;
+    width: 100%;
   }
   &.more{
       &::before{
@@ -265,7 +273,13 @@
 }
 .btn04{
     @include basic-btn04;
-  }
+}
+.btn05{
+    @include basic-btn05;
+}
+.btn06{
+    @include basic-btn06;
+}
 /* form element */
 .basic-control{
   @include chk-input;
@@ -336,6 +350,7 @@ input[type=radio]{
         display: inline-block; 
         position: relative; 
         padding-left: 26px; 
+        letter-spacing: -0.5px;
         cursor: pointer;
         &:before{
             content: ''; 
@@ -627,6 +642,61 @@ input[type=radio]{
         height: 50px;
         line-height: 50px;
     }
+    &.type-a{
+        .file-label{
+            display: inline-block;
+            height: 40px;
+            line-height: 40px;
+        }
+        .flex-wrap{
+            align-items: center;
+            gap: 10px;
+        }
+        .name-wrap{
+            flex-direction: column;
+            gap: 8px;
+            .box{
+                width: 100%;
+                display: flex;
+                align-items: center;
+                position: relative;
+                .inner{
+                    display: inline-block;
+                    max-width: calc(100% - 20px);
+                    margin: 0 !important;
+                    padding: 0 10px !important;
+                }
+                .txt{
+                    max-width: 100%;
+                    display: flex;
+                    align-items: center;
+                    padding-left: 22px;
+                    position: relative;
+                    .file{
+                        position: absolute;
+                        top: 50%;
+                        left: 0;
+                        transform: translateY(-50%);
+                        width: 14px;
+                        height: 14px;
+                    }
+                    .name{
+                        display: block;
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                        overflow: hidden;
+                    }
+                }
+                .delete{
+                    position: relative;
+                    top: auto;
+                    left: auto;
+                    right: auto;
+                    transform: translateY(0);
+                }
+            }
+        }
+    }
 }
 .file-size{
     position: absolute; 
@@ -763,6 +833,9 @@ input[type=radio]{
     &.zip{
         background: url(#{$img-url}ico_file_zip.svg)no-repeat center / contain; 
     }
+    &.default{
+        background: url(#{$img-url}ico_file.svg)no-repeat center / contain; 
+    }
 }
 .mb-case{
     display: inline-block;
@@ -785,6 +858,52 @@ input[type=radio]{
         color: #{$primary-color};
         border: 1px solid #{$primary-color};
     }
+    &.ybm{
+        color: #{$primary-color};
+        border: 1px solid #{$base-border-color};
+        background-color: #{$base-text-rfcolor};
+        i{
+            color: #{$admin-color};
+        }
+        .alp-m{
+            color: #{$admin-color2};
+        }
+    }
+    &.smartschool{
+        display: inline-block;
+        vertical-align: middle;
+        border: 1px solid rgba(0,0,0,0.2);
+        border-radius: 20px;
+        height: 20px;
+        font-size: 16px;
+        height: 32px;
+        line-height: 32px;
+        box-sizing: border-box;
+        color: #{$base-text-rfcolor};
+        overflow: hidden;
+        position: relative;
+        text-align: center;
+        background-color: #{$admin-color};
+    }
+    // }
+    // .admin-writer{
+    //     display: inline-block !important;
+    //     vertical-align: middle;
+    //     font-size: 0.875em;
+    //     border: 1px solid #{$base-border-color};
+    //     border-radius: 20px;
+    //     padding: 0 10px;
+    //     background-color: #{$base-text-rfcolor};
+    //     height: 22px;
+    //     line-height: 20px !important;
+    //     margin-left: 0 !important;
+    //     i{
+    //         color: #{$admin-color};
+    //     }
+    //     .alp-m{
+    //         color: #{$admin-color2};
+    //     }
+    // }
 }
 .emotion-box{
     position: absolute;
@@ -934,5 +1053,70 @@ input[type=radio]{
     }
     .form-control{
         font-size: 1em;
+    }
+}
+
+.ui-js-tab{
+    .value-tab{
+        @include clearboth;
+        margin-bottom: 20px;
+        &.type-b{
+            margin-bottom: 0;
+        }
+        li{
+            float: left;
+            width: 50%;
+            text-align: center;
+            .btns{
+                display: block;
+                width: 100%;
+                font-size: 1em;
+                color: #{$scrollbar};
+                background: #{$disabled-bg};
+                padding: 0;
+                height: 46px;
+                box-sizing: border-box;
+                br{
+                    display: none;
+                }
+            }
+            &:first-child{
+                .btns{
+                    border-radius: 20px 0 0 0;
+                }
+            }
+            &:last-child{
+                .btns{
+                    border-radius: 0 20px 0 0;
+                }
+            }
+            &.current{
+                .btns{
+                    background: #{$active-color};
+                    color: #{$base-text-rfcolor};
+                }
+            }
+        }
+    } 
+    .ui-js-tab-cont{
+        display: none;
+        &.current{
+            display: block;
+        }
+    }
+
+}
+
+.primary-color{
+    color: #{$primary-color};
+}
+
+@include mobile{
+    .btn{
+        &.lg{
+            height: 56px;
+            line-height: 56px;
+            font-size: 1.125em;
+        }
     }
 }

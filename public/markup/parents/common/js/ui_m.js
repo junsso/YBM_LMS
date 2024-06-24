@@ -101,3 +101,35 @@ $(window).resize(function () {
 
   }
 }).resize();
+
+$(window).resize(function () {
+  if (window.innerWidth < 992) {
+    // ***********mo***********
+   
+    $(window).scroll(function () {
+      if ($(window).scrollTop() > 0) {
+        $('.header').addClass('active');
+      } else {
+        $('.header').removeClass('active');
+      }
+    });
+
+
+  }
+});
+
+$(window).ready(function () {
+  if (window.innerWidth < 992) {
+    // ***********mo***********
+   
+    $(window).scroll(function () {
+      if ($(window).scrollTop() > 0) {
+        $('.header').addClass('active');
+      } else {
+        $('.header').removeClass('active');
+      }
+    });
+
+
+  }
+});

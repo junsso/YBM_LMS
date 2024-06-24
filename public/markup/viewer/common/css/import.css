@@ -12,3 +12,5 @@
 @import url("../../../teacher/common/css/content.min.css"); /*교사채널 css 활용*/
 @import url("content.min.css");
 @import url("popup.min.css");
+@import url("quiz.min.css");
+@import url("../../../viewer_m/common/css/quiz.min.css") (max-width:768px); /*2023-07*/

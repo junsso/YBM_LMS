@@ -114,6 +114,7 @@
     bottom: 90px;
     overflow: auto;
     @include rv-scroll; 
+    margin-right: 10px;
   }
   .site-name{
     text-align: center;
@@ -217,7 +218,57 @@
             border-radius: 10px;
             position: relative
           }          
-        }       
+        } 
+        &.ai{
+          &.current{
+            a{
+              @include bg-aiClass;
+            }
+          }
+        }          
+        //ai 클래스         
+        &.ai{
+          margin: 13px;
+          span{
+            font-size: 16px;
+            font-weight: 700;
+            color: #{$base-text-rfcolor};
+          }
+          a{
+            @include bg-default-aiClass;
+            border-radius: 10px;
+            height: 48px;
+            box-sizing: border-box;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow: visible;
+            em{
+              //top: 11px;
+              position: inherit;
+              top: auto;
+              left: auto;
+              min-width: auto;
+              overflow: hidden;
+            }
+            &::after{
+              content: 'Beta';
+              display: inline-block;
+              border-radius: 20px 20px 20px 0;
+              background-color: #FF259B;
+              height: 17px;
+              line-height: 17px;
+              font-size: 11px;
+              font-weight: 600;
+              padding: 0 6px;
+              position: absolute;
+              right: 10px;
+              top: -7px;
+            }
+          }
+
+        }
       }
     }
     
@@ -462,6 +513,9 @@
       .header{
         width: #{$side-minibar-width};
         left: -84px;
+        .inner{
+          margin-right: 10px;
+        }
       }
       .launch-wrap{
         display: none;

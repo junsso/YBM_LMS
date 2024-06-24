@@ -311,7 +311,6 @@ $(document).on('mouseup', function (f) {
     $(msgPopup).fadeOut(150);
   }
 });
-
 //수업일정 swiper 화면 id : sc_p_0002
 var csSwiper = new Swiper('.cs-swiper .swiper-container', {
   slidesPerView: 1,
@@ -320,6 +319,9 @@ var csSwiper = new Swiper('.cs-swiper .swiper-container', {
   autoHeight: true,
   spaceBetween: 100,
   allowTouchMove: false,
+  // scrollbar: {
+  //   el: ".swiper-scrollbar",
+  // },
   navigation: {
       nextEl: '.cs-swiper .swiper-button-next',
       prevEl: '.cs-swiper .swiper-button-prev',
@@ -347,6 +349,7 @@ var lcBoxBg = $('.lc-box-bg');
 var lcBoxH = $('.lc-box').height();
 var defaultH = 920;
 var whiteH = 260;
+let mainVisualBg = $('.main-visual-wrap');
 // var csStudent = $('.class-board-cont .student');
 var csSlideBtn = $('.cs-swiper .swiper-button-prev , .cs-swiper .swiper-button-next');
 //lcBoxBg.height(csSlide.height());
@@ -354,99 +357,34 @@ lcBoxBg.css('height', csTitleH + csSlide0.height() + whiteH + 'px');
 console.log('최초' + lcBoxBg.height());
 console.log('타이틀' + csTitleH);
 console.log('0번슬라이드' + csSlide0.height());
-// 처음화면시 cs-main크기가 클경우 bg의 height값 조절
-$(function () {
-  if (csSlide.height() > 400) {
-    csBgCont.height(csSlide.height() + 600);
-    //$('.cs-matin-more').css('margin-bottom', '0');
-  } else {
-    csBgCont.css('height', defaultH +'px');
-    //$('.cs-main-more').css('margin-bottom', '0');
-  }
-})
 
 $(csSlideBtn).on('click', function () {
   // 조례
   if (csSlide0.hasClass('swiper-slide-active')) {
-    lcBoxBg.css('height', csTitleH + csSlide0.height() + whiteH + 'px');
-    // background
-    csBgCont.removeClass('class1');
-    csBgCont.removeClass('class2');
-    csBgCont.removeClass('class3');
-    csBgCont.addClass('class0');
-    
-  
-    
-    // //slide의 height에 따라 bg height 조절
-    if (csSlide0.height() > 400) {
-      csBgCont.height(csSlide0.height() + 600);
-      $('.cs-main-more').css('margin-bottom', '100px');
-    } else {
-      csBgCont.css('height', defaultH +'px');
-      $('.cs-main-more').css('margin-bottom', '0px');
-    }
   }
 
   //1교시
   else if (csSlide1.hasClass('swiper-slide-active')) {
-    lcBoxBg.css('height', csTitleH + csSlide1.height() + whiteH + 'px');
-    // background
-    csBgCont.removeClass('class0');
-    csBgCont.removeClass('class2');
-    csBgCont.removeClass('class3');
-    csBgCont.addClass('class1');
-
-    //slide의 height에 따라 bg height 조절
-    if (csSlide1.height() > 400) {
-      csBgCont.height(csSlide1.height() + 600);
-      //$('.cs-main-more').css('margin-bottom', '100px');
-    } else {
-      csBgCont.css('height', defaultH +'px');
-      //$('.cs-main-more').css('margin-bottom', '0px');
-    }
+    mainVisualBg.addClass('class1');
+    mainVisualBg.removeClass('class0 , class2 , class3');
   }
 
   //2교시
   else if (csSlide2.hasClass('swiper-slide-active')) {
-    lcBoxBg.css('height', csTitleH + csSlide2.height() + whiteH + 'px');
-    // background
-    csBgCont.removeClass('class0');
-    csBgCont.removeClass('class1');
-    csBgCont.removeClass('class3');
-    csBgCont.addClass('class2');
-
-    //slide의 height에 따라 bg height 조절
-    if (csSlide2.height() > 400) {
-      csBgCont.height(csSlide2.height() + 600);
-      console.log(csSlide2.height());
-      //$('.cs-main-more').css('margin-bottom', '100px');
-    } else {
-      csBgCont.css('height', defaultH +'px');
-      //$('.cs-main-more').css('margin-bottom', '0px');
-    }
+    mainVisualBg.addClass('class2');
+    mainVisualBg.removeClass('class0 , class1 , class3');
   }
 
   //3교시
   else if (csSlide3.hasClass('swiper-slide-active')) {
-    lcBoxBg.css('height', csTitleH + csSlide3.height() + whiteH + 'px');
-    // background
-    csBgCont.removeClass('class0');
-    csBgCont.removeClass('class2');
-    csBgCont.removeClass('class1');
-    csBgCont.addClass('class3');
-
-    //slide의 height에 따라 bg height 조절
-    if (csSlide3.height() > 400) {
-      csBgCont.height(csSlide3.height() + 600);
-      //$('.cs-main-more').css('margin-bottom', '100px');
-    } else {
-      csBgCont.css('height', defaultH +'px');
-      //$('.cs-main-more').css('margin-bottom', '0px');
-    }
+    mainVisualBg.addClass('class3');
+    mainVisualBg.removeClass('class0 , class1 , class2');
   }
 
 
 });
+
+
 
 /*
 var lcBoxBgH = $('.lc-box-bg').height();

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        
+        <meta name="keywords" content="">
+        <meta name="description" content="">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="">
+        <meta property="og:description" content="">
+        <meta property="og:image" content="">
+        <meta property="og:url" content="">
+        <meta name="viewport" content="user-scalable=0, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width, height=device-height, viewport-fit=cover" />
+                
+        <title>My English Portfolio</title>
+
+        <!-- favicon.ico 404 Not found -->
+        <link rel="icon" href="data:;base64,iVBORw0KGgo=" type="image/x-icon" />
+        <link rel="stylesheet" href="../common/css/import.css" />
+    </head>
+    <body>
+        <header>
+            <div class="inner-wrap">
+                <a href="#;" class="site-name">
+                    <img src="../common/img/logo.svg" alt="">
+                </a>
+                <div class="header-icon-wrap">
+                    <a href="#;" class="ico_share"></a>
+                    <a href="#;" class="go-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </a>
+                </div>
+            </div>
+        </header>
+        <div class="side-menu-wrap">
+            <div class="menu-overlay"></div>
+            <div class="side-menu">
+                <div class="menu-header-wrap pt-60">
+                    <div class="menu-header">
+                        <img src="../common/img/logo_side.svg" alt="">
+                        <span class="close"><i class="ico_close"></i></span>
+                    </div>
+                    <div class="member-info mt-15">
+                        <i class="ico_user"></i>
+                        <span class="user_id">tester123</span>님
+                    </div>
+                    <div class="class-info mt-10">
+                        <span class="sticker-class">학급</span>
+                        <span class="class-val">3학년 1반</span>
+                        <!-- 학급 데이터 없을때 disabled 추가
+                        <span class="class-val disabled">학급을 등록해주세요</span> 
+                        -->
+                    </div>
+                </div>
+                <ul class="menu-list">
+                    <li><a href="#;"><span class="icon-box"><i class="ico_class_modify"></i></span>학급 수정</a></li>
+                    <li><a href="#;"><span class="icon-box"><i class="ico_person_edit"></i></span>마이페이지</a></li>
+                    <li><a href="#;"><span class="icon-box"><i class="ico_logout"></i></span>로그아웃</a></li>
+                </ul>
+            </div>
+        </div>
+        <section class="join-wrap">
+            <div class="page-title">
+                <h3 class="dark-blue">학급 코드를 입력하세요.</h3>
+                <span class="desc type3"><i class="ico_exclamation_circle"></i> 학급코드 번호는 선생님께 문의하세요.</span>
+            </div>
+
+            <div class="page-contents">
+                <form action="" class="form-wrap">
+                    <div class="filed-form-wrap input-class-code">
+                        <input type="number" name="" id="" placeholder="0" />
+                        <input type="number" name="" id="" placeholder="0" />
+                        <input type="number" name="" id="" placeholder="0" />
+                        <input type="number" name="" id="" placeholder="0" />
+                        <input type="number" name="" id="" placeholder="0" />
+                        <input type="number" name="" id="" placeholder="0" />
+                    </div>
+                    <div class="filed-form-wrap col-2">
+                        <label for="">
+                            <input type="text" name="" id="" placeholder="이름" />
+                        </label>
+                        <label for="">
+                            <input type="number" name="" id="" placeholder="번호" />
+                            <span class="input-label">번</span>
+                        </label>
+                    </div>
+                </form>
+                <a href="#;" class="btn-submit mt-30">학급 참여하기</a>
+                <a href="#;" class="desc type3 mt-30">다음에 입력하기</a>
+            </div>
+
+        </section>
+
+        <div class="popup-wrap">
+            <div class="overlay"></div>
+
+            <!-- 기본 알림용 - modal.js script 호출 : malert('메시지내용'); -->
+            <div class="layerpop" id="alertPopup">
+                <div class="popup-content">
+                    <div class="popup-body"></div>
+                    <div class="popup-footer">
+                        <div class="btn-set">
+                            <button class="close btn-submit">확인</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 기본 컨펌용 - modal.js script 호출 : mconfirm('메시지내용',callback함수명); 상세 사용법 modal.js 참조 -->
+            <div class="layerpop" id="confirmPopup">
+                <div class="popup-content">
+                    <div class="popup-body"></div>
+                    <div class="popup-footer">
+                        <div class="btn-set">
+                            <button class="close btn-cancel">취소</button>
+                            <button class="call-ok btn-submit">확인</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="layerpop" id="uploadPopup">
+                <div class="popup-content">
+                    <div class="popup-header">
+                        <div class="btn-box">
+                            <span class="close"></span>
+                        </div>
+                    </div>
+                    <div class="popup-body">
+                        <div class="popup-body-title">
+                            <i class="ico_send_mobile"></i>
+                            제출하기
+                        </div>
+                        <div class="popup-msg">
+                            제출하기를 선택하면 전 단원 내용이 제출됩니다. 제출은 여러 번 가능하며, 가장 최근에 제출된 내용이 선생님께 전달됩니다.
+                            <div class="desc mt-20">제출하시겠습니까?</div>
+                        </div>
+                    </div>
+                    <div class="popup-footer">
+                        <div class="btn-set">
+                            <button class="close btn-cancel">취소</button>
+                            <button class="btn-submit">제출</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <footer>
+                <div class="bottom-logo">
+                    <img src="../common/img/logo_bottom.svg" alt="">
+                </div>
+            </footer>
+
+            <div class="layerpop" id="downloadPopup">
+                <div class="popup-content">
+                    <div class="popup-header">
+                        <div class="btn-box">
+                            <span class="close"></span>
+                        </div>
+                    </div>
+                    <div class="popup-body">
+                        <div class="popup-body-title">
+                            <i class="ico_upload_file"></i>
+                            다운로드
+                        </div>
+                        <h5>저장에 필요한 정보를 입력해 주세요.</h5>
+                        <form action="" class="form-wrap">
+                            <div class="filed-form-wrap col-2">
+                                <label for="">
+                                    <input type="text" name="" id="" placeholder="이름" />
+                                </label>
+                                <label for="">
+                                    <input type="number" name="" id="" placeholder="학년" />
+                                    <span class="input-label">학년</span>
+                                </label>
+                            </div>
+                            <div class="filed-form-wrap col-2">
+                                <label for="">
+                                    <input type="text" name="" id="" placeholder="반" />
+                                    <span class="input-label">반</span>
+                                </label>
+                                <label for="">
+                                    <input type="number" name="" id="" placeholder="번호" />
+                                    <span class="input-label">번</span>
+                                </label>
+                            </div>
+                        </form>
+
+                    </div>
+                    <div class="popup-footer">
+                        <div class="btn-set">
+                            <button class="close btn-cancel">취소</button>
+                            <button class="btn-submit">다운로드</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="../common/js/jquery-3.6.0.min.js"></script>
+        <script src="../common/js/common-ui.js"></script>
+        <script src="../common/js/modal.js"></script>
+    </body>
+</html>

@@ -49,11 +49,17 @@
                             </ul>
                         </li>
                         <li>
-                            <a href="#"><span class="ico-gnb mg-alarm"></span><em>알림상담관리</em></a>
+                            <a href="#"><span class="ico-gnb mg-alarm"></span><em>메시지 관리</em></a>
                             <ul class="dropdown">
                                 <li><a href="#">알림장(전달사항)</a></li>
                                 <li><a href="#">상담/문의</a></li>
                             </ul>
+                        </li>                        
+                        <li class="oncon-depth">
+                            <a href="#"><span class="ico-gnb oncon"></span><em>온라인 콘텐츠 제작</em></a>
+                        </li>                        
+                        <li class="ai">
+                            <a href="#"><span class="ico-gnb ai-class"></span><em>AI 스쿨</em></a>
                         </li>
                         <li class="dv-bar"></li>
                         <li>
@@ -100,6 +106,57 @@
                 </section>
                 <!-- start:본문 -->
                 <section class="content dash-board">
+                    <div class="my-class-wrap">
+                        <div class="item list multiple"><!-- 전담 선생님의 학급 목록은 multiple 추가해주세요 -->
+                            <!-- 학급이 여러개인 경우 개수만큼 .class 요소를 추가 해주세요 -->
+                            <div class="class">
+                                <a href="#none"><!-- 해당 학급정보 페이지로 하이퍼링크 넣어주세요 -->
+                                    <div class="b-info">
+                                        <div class="title">
+                                            <span>노량진초등학교</span>
+                                            <strong>3학년 2반</strong>
+                                        </div>
+                                        <div class="m-info a">
+                                            <span>총 인원</span>
+                                            <strong class="primary-color">19</strong>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="class">
+                                <a href="#none">
+                                    <div class="b-info">
+                                        <div class="title">
+                                            <span>노량진초등학교</span>
+                                            <strong>1학년 1반</strong>
+                                        </div>
+                                        <div class="m-info a">
+                                            <span>총 인원</span>
+                                            <strong class="primary-color">17</strong>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="class">
+                                <a href="#none">
+                                    <div class="b-info">
+                                        <div class="title">
+                                            <span>노량진초등학교</span>
+                                            <strong>4학년 2반</strong>
+                                        </div>
+                                        <div class="m-info a">
+                                            <span>총 인원</span>
+                                            <strong class="primary-color">21</strong>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item etc">
+                            <!-- 조건에 따라 버튼명은 "더보기", 또는 "학급추가하기" 로 변경해주세요 -->
+                            <a href="#none">더보기</a>
+                        </div>
+                    </div>
                     <!-- start:오늘 수업 일정 -->
                     <div class="mds-box">
                         <div class="box-head title-bx">
@@ -169,9 +226,159 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="sch-box current">
+                            <!-- ai 수업 진행중 -->
+                            <div class="sch-box ai current">
                                 <div class="box-head">
                                     <h3>2교시</h3>
+                                    <div class="class-time">AM 10:00~AM 10:50</div>
+                                </div>
+                                <div class="box-body">
+                                    <div class="class-info">
+                                        <div class="memo">
+                                            <p>영어3-김
+                                                <span>3학년 3반</span><!-- 전담 교사일 경우 학년,반을 표시함-->
+                                            </p>
+                                        </div>
+                                        <div class="book-contents">Lesson 1 Hello, I'm tibo<span>&gt;</span>3차시 Look and Listen</div>
+                                        <div class="progress">
+                                            <div class="total-bar">
+                                                <div class="current-bar" style="width:0%"></div>                                                
+                                                <strong>28차시(80%)</strong>
+                                            </div>
+                                            <strong>총 32차시</strong>
+                                        </div>
+                                    </div>
+                                    <div class="class-count">
+                                        <div class="inner">
+                                            <div>
+                                                <p data-popup="classMemberlist">
+                                                    <strong>00</strong>
+                                                    / 20
+                                                </p>  
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="class-control ai">
+                                        <button>
+                                            <span>
+                                                <em><img src="../../img/common/ico_ai_label2.svg" alt="ai"></em>
+                                            </span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="box-foot">
+                                    <button type="button" class="toggle-alarm on"></button>
+                                    <div class="balloon left">
+                                        수업 시작과 수업 종료 종소리 자동 알림을 원하지 않는다면 아이콘을 선택해 주세요!
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ai 수업 지난 수업 -->
+                            <div class="sch-box ai last">
+                                <div class="box-head">
+                                    <h3>2교시</h3>
+                                    <div class="class-time">AM 10:00~AM 10:50</div>
+                                </div>
+                                <div class="box-body">
+                                    <div class="class-info">
+                                        <div class="memo">
+                                            <p>영어3-김
+                                                <span>3학년 3반</span><!-- 전담 교사일 경우 학년,반을 표시함-->
+                                            </p>
+                                        </div>
+                                        <div class="book-contents">Lesson 1 Hello, I'm tibo<span>&gt;</span>3차시 Look and Listen</div>
+                                        <div class="progress">
+                                            <div class="total-bar">
+                                                <div class="current-bar" style="width:80%"></div>                                                
+                                                <strong>28차시(80%)</strong>
+                                            </div>
+                                            <strong>총 32차시</strong>
+                                        </div>
+                                    </div>
+                                    <div class="class-count">
+                                        <div class="inner">
+                                            <div>
+                                                <p data-popup="classMemberlist">
+                                                    <strong>00</strong>
+                                                    / 20
+                                                </p>                                                
+                                                <button data-popup="classCount">출석 체크</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="class-control">
+                                        <button>
+                                            <span>
+                                                <em><img src="../../img/common/ico_pen.svg" alt="수업시작"></em>
+                                                수업시작
+                                            </span>
+                                        </button>
+                                    </div>
+                                    <div class="class-control ai">
+                                        <button>
+                                            <span>
+                                                <em><img src="../../img/common/ico_ai_label2.svg" alt="ai"></em>
+                                            </span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="box-foot">
+                                    <button type="button" class="toggle-alarm on"></button>
+                                    <div class="balloon left">
+                                        수업 시작과 수업 종료 종소리 자동 알림을 원하지 않는다면 아이콘을 선택해 주세요!
+                                    </div>
+                                </div>
+                            </div>
+                             <!-- ai 수업 예정 -->
+                             <div class="sch-box ai">
+                                <div class="box-head">
+                                    <h3>2교시</h3>
+                                    <div class="class-time">AM 10:00~AM 10:50</div>
+                                </div>
+                                <div class="box-body">
+                                    <div class="class-info">
+                                        <div class="memo">
+                                            <p>영어3-김
+                                                <span>3학년 3반</span><!-- 전담 교사일 경우 학년,반을 표시함-->
+                                            </p>
+                                        </div>
+                                        <div class="book-contents">Lesson 1 Hello, I'm tibo<span>&gt;</span>3차시 Look and Listen</div>
+                                        <div class="progress">
+                                            <div class="total-bar">
+                                                <div class="current-bar" style="width:0%"></div>                                                
+                                                <strong>28차시(80%)</strong>
+                                            </div>
+                                            <strong>총 32차시</strong>
+                                        </div>
+                                    </div>
+                                    <div class="class-count">
+                                        <div class="inner">
+                                            <div>
+                                                <p data-popup="classMemberlist">
+                                                    <strong>00</strong>
+                                                    / 20
+                                                </p>  
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="class-control ai">
+                                        <button>
+                                            <span>
+                                                <em><img src="../../img/common/ico_ai_label2.svg" alt="ai"></em>
+                                            </span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="box-foot">
+                                    <button type="button" class="toggle-alarm on"></button>
+                                    <div class="balloon left">
+                                        수업 시작과 수업 종료 종소리 자동 알림을 원하지 않는다면 아이콘을 선택해 주세요!
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sch-box current">
+                                <div class="box-head">
+                                    <h3>3교시</h3>
                                     <div class="class-time">AM 10:00~AM 10:50</div>
                                     <div class="class-type-set">
                                         <button class="class-type in active toastAlert">등교수업</button>
@@ -227,7 +434,7 @@
                             </div>
                             <div class="sch-box next">
                                 <div class="box-head">
-                                    <h3>3교시</h3>
+                                    <h3>4교시</h3>
                                     <div class="class-time">AM 10:00~AM 10:50</div>
                                     <div class="class-type-set">
                                         <button class="class-type in toastAlert">등교수업</button>
@@ -569,6 +776,11 @@
                             </div>
                         </div>
                         <!-- //end:달력스케줄러 -->
+                        <!-- start:AI스쿨-->
+                        <div class="mds-box ai-box">
+                            <a href="#"><span class="ico-gnb ai-class"></span><em>AI 스쿨 입장하기</em></a>
+                        </div>
+                        <!-- //end:AI스쿨 -->
                         <!-- start:그룹메세지 목록 -->
                         <div class="mds-box alarm-box">
                             <div class="box-head">

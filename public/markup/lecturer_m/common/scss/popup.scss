@@ -587,3 +587,23 @@
     }
 }
 
+.contents{
+    &.invite{
+        .cont-body{
+            padding: 15px;
+        }
+        .text-box{
+            .textarea{
+                text-align: left;
+            }
+            .desc{
+                font-size: 0.875em;
+                color: #{$base-button-color};
+            }
+            a{
+                color: #{$class-btn};
+            }
+        }
+    }
+}
+

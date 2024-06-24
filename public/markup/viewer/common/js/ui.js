@@ -264,7 +264,7 @@ $(sbjSelectBtn).on('click', function(){
 });
 
 //토의토론 - 입력하기 클릭시 화면 ID : TC-P-1308-7P
-var disBtn = $('.discussion-desc.ox-cont .input-btn')
+var disBtn = $('.discussion-desc .input-btn')
 var disInput = $('.click-box')
 
 disBtn.click(function(){

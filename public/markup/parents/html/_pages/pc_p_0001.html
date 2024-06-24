@@ -27,6 +27,19 @@
 <script src="../../lib/swiper.js"></script>
 </head>
 <body class="">
+<!-- start: 상단 배너 영역 (background-color는 예시로 넣어둠.삭제해도 무방함.)-->
+<div class="top-banner-area" style="background-color: pink;">
+    <div class="inn">
+        <div class="img-wrap pc">
+            <img src="../../img/temp/pc_top_sample.png" alt="샘플 배너이미지">
+        </div>
+        <div class="img-wrap mo">
+            <img src="../../img/temp/mobile_top_sample.png" alt="샘플 배너이미지">
+        </div>
+        <button type="button" class="btns">오늘 하루 보지 않기 <span class="ico"></span></button>
+    </div>
+</div>
+<!-- // End -->
 <section class="wrap main">
     <section class="inner">
         <!-- start : header -->
@@ -241,6 +254,37 @@
             </div>
         </section>
         <!-- end : header -->
+
+        <!-- start: 우측 플로팅 배너 -->   
+        <div class="float-banner-box">
+            <div class="item">
+                <button type="button" class="del-btn"></button>
+                <a href="#" class="img-wrap"><img src="../../img/temp/img_float_banner.png" alt=""></a>
+            </div>
+        </div>
+        <!-- // End -->
+
+        <!-- start: 홍보 팝업 -->
+        <div class="ev-modal-wrap" style="display: none;">
+            <div class="bg"></div>
+            <div class="inn">
+                <div class="body">
+                    <div class="img-wrap">
+                        <img src="../../img/temp/modal_banner_600x600.jpg" alt="">
+                    </div>
+                </div>
+                <div class="foot">
+                    <div class="form-wrap">
+                        <input type="checkbox" name="close" id="close" class="basic-control type-c">
+                        <label for="close" class="">오늘 하루 보지않기</label>
+                    </div>
+                    <div class="rt-box">
+                        <button type="button" class="close-btn">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- // End -->
 
         <!-- start : 고정사이드바 -->
         <!-- left 달력보기 -->

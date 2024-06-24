@@ -1,0 +1,75 @@
+// px to rem
+@function rem($size) {
+    @return calc($size / $base-font-size * 1.069045rem);
+}
+@function str-replace($string, $search, $replace: '') {
+    $index: str-index($string, $search);
+    @if $index {
+        @return str-slice($string, 1, $index - 1) + $replace + str-replace(str-slice($string, $index + str-length($search)), $search, $replace);
+    }
+    @return $string;
+}
+// 드래그방지
+@mixin user-select {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+// 말줄임
+@mixin ellipsis($clamp:1){
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: $clamp;
+    -webkit-box-orient: vertical;
+    white-space: inherit;
+    word-break: break-all;
+}
+
+// scrollbar
+@mixin scrollbar($color: rgba(0,0,0,.1)){
+    overflow: auto;
+    &::-webkit-scrollbar{
+        width: 8px;
+        height: 8px;
+    } 
+    &::-webkit-scrollbar-track{
+        background-color: transparent; 
+        border-radius: 10px;
+    }
+    &::-webkit-scrollbar-thumb{
+        background-color: $color;
+        border-radius: 10px;
+    }
+}
+
+// 이미지 비율
+@mixin aspect($width: 16, $height: 9){
+    aspect-ratio: calc($width / $height);
+    @supports not (aspect-ratio: calc($width / $height)){
+        &::before {
+            content: "";
+            float: left;
+            padding-top: calc(($height / $width) * 100%);
+            display: block;
+        }
+    }
+}
+
+@mixin thumbs{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    width: 100%;
+    height: auto;
+    transition: all .5s ease;
+}
+
+@mixin box-sizing(){
+    box-sizing: border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing: border-box;
+}

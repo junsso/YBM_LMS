@@ -82,6 +82,12 @@ $('[data-popup]').on('click', function(){
             });
           });
 
+          //학급현황 > 상세보기 > 학급초대 sms발송 팝업 발송하기 클릭시 / 화면ID : TC-P-3102P
+          $('#smsSendBeforePopup .this-close-btn').on('click', function () {
+            $('#smsSendBeforePopup').removeClass('show');
+            $('#smsSendPopup').addClass('show');
+          });
+
 
 
 

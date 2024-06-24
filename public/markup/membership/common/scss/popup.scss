@@ -172,15 +172,28 @@
         }
         &.lg{
             .popup-content{
-                width: 760px;
+                width: #{$box-width-lg};
             } 
         }
         .popup-content{
             @include popupcont;
             //opacity: 0;
             //visibility: hidden;
+            &.md{
+                width: #{$box-width-md};
+                max-width: #{$box-width-md};
+            }
             &.lg{
                 width: #{$box-width-lg};
+                max-width: #{$box-width-lg};
+            }
+            &.xlg{
+                width: #{$box-width-xlg};
+                max-width: #{$box-width-xlg};
+            }
+            &.xxlg{
+                width: #{$box-width-xxlg};
+                max-width: #{$box-width-xxlg};
             }
             .inner{
                 .title {
@@ -327,6 +340,12 @@
             strong{
                 color: #{$primary-color};
                 font-weight: 500;
+            }
+        }
+        .cont-body{
+            padding: 25px;
+            .alert-txt{
+                padding: 0;
             }
         }
     }
@@ -916,6 +935,15 @@
     .info-txt{
         font-size: 1.25em;
         color: #{$section-title-color};
+    }
+    .desc-md{
+        font-size: 1em;
+        font-weight: 500;
+    }
+    .desc-sm{
+        font-size: 0.875em;
+        line-height: 1.4;
+        color: #{$scrollbar};
     }
     &.type-a{
         max-width: 100%;
@@ -1782,5 +1810,81 @@
         display: block;
         max-height: 300px;
         background: #{$base-bgcolor};
+    }
+}
+
+// 1인 다계정 아이디 선택 팝업
+.multi-account-info{    
+    word-break: keep-all;
+    .top{
+        letter-spacing: -0.5px;
+        h2{
+            font-size: 22px;
+            color: #{$primary-color};
+        }
+        .desp{
+            font-size: 15px;
+            line-height: 130%;
+            margin-top: 8px;
+        }
+    }
+    .data-wrap{
+        overflow-x: auto;
+        margin-top: 10px; 
+    }
+    .table{
+        min-width: 960px;
+        th, td{
+            vertical-align: middle;
+            padding: 10px !important;
+            line-height: 120% !important;
+            font-size: 14px !important;
+            font-weight: 400;
+            color: #{$base-text-color};
+            word-break: keep-all;
+            .form-wrap{
+                margin: -5px 0 0 10px;
+            }
+            .current-account{
+                font-size: 12px;
+                margin-left: 5px;
+                color: #{$guide-color}
+            }
+            strong{
+                color: #{$section-title-color};
+            }
+        }
+        .text-left{
+            text-align: left;
+        }
+        .user-type{
+            font-size: 12px;
+            color: #{$guide-color};
+        }
+    }
+    .agree-wrap{
+        margin-top: 10px;
+        label{
+            font-size: 14px;
+            color: #{$base-text-color};
+        }
+    }
+    .added-info{
+        background: #{$bg-color-g2};
+        border-radius: 15px;
+        padding: 20px 35px;
+        margin-top: 20px;
+        text-align: left;
+        font-size: 15px;
+        h4{
+            color: #{$border-color};
+            line-height: 130%;
+        }
+        .desp{
+            line-height: 130%;
+            font-size: 13px;
+            color: #{$base-text-color};
+            font-weight: 300;
+        }
     }
 }

@@ -168,7 +168,7 @@
                             <h3>전개</h3>
                             <div class="list">
                                 <ul>
-                                    <li><a href="#"><span class="ico-file xlsx"></span>3학년 체육_YBM1단원_2차시.xlsx</a></li>
+                                    <li class="active"><a href="#"><span class="ico-file xlsx"></span>3학년 체육_YBM1단원_2차시.xlsx</a></li>
                                     <li><a href="#"><span class="ico-file on-con"></span>내가만든 온라인콘텐츠임!!</a></li>
                                     <li><a href="#"><span class="ico-file pdf"></span>통합자료_YBM1단원_1차시.pdf</a></li>
                                 </ul>
@@ -222,7 +222,8 @@
                 </div>
             </div>
         </section>
-        <section class="bottom-toolbar player-toolbar show">
+        <section class="bottom-toolbar player-toolbar">
+
             <div class="play-bar">
                 <!-- 재생모드 -->
                 <div class="current" style="width: 20%"></div>
@@ -236,75 +237,83 @@
                     <div id="slider-range"></div>
                 </div>
             </div>
-            <div class="inner-wrap">
-                <div class="p-controll">
-                    <div>
-                        <button><img src="../../img/common/ico_rewind.svg" alt="이전 10초"></button>
-                    </div>
-                    <div>
-                        <button class="play"><img src="../../img/common/ico_play.svg" alt="재생"></button>
-                        <!--
-                        //일시 정지 버튼
-                        <button class="pause"><img src="../../img/common/ico_pause.svg" alt="일시정지"></button>
-                        -->
-                    </div>
-                    <div>
-                        <button><img src="../../img/common/ico_forward.svg" alt="다음 10초"></button>
-                    </div>
-                    <div>
-                        <button><img src="../../img/common/ico_stop.svg" alt="정지"></button>
-                    </div>
+            <div class="inner-wrap type-a">
+                <div class="lf-box">
+                    <button class="btns prev"><img src="../../img/common/ico_prev_wh.svg" alt=""> 이전 자료 보기</button>
                 </div>
-                <div class="runtime">
-                    <span class="current">2:33</span>
-                    <span class="total">5:59</span>
-                </div>
-                <div class="v-controll mute">
-                    <div class="btn-sound">
-                        <!-- 볼륨 1이상 상태
-                        <button class="regular"><img src="../../img/common/ico_volume.svg" alt=""></button>-->
-                        <!-- 볼륨 0 상태 OR 볼륨 아이콘 클릭해서 음소거 할 경우-->
-                        <button class="mute"><img src="../../img/common/ico_mute.svg" alt=""></button>
-                        
-                    </div>
-                    <input type="range" id="slider" min="0" max="100" step="3.33" value="33.33">
-                    <div class="custom-range">
-                        <i class="fas fa-volume-up fa-2x"></i>
-                        <div class="volume-bar">
-                            <div class="volume-bar-active" style="width:33.33%"></div>
+                <div class="md-box">
+                    <div class="p-controll">
+                        <div>
+                            <button><img src="../../img/common/ico_rewind.svg" alt="이전 10초"></button>
+                        </div>
+                        <div>
+                            <button class="play"><img src="../../img/common/ico_play.svg" alt="재생"></button>
+                            <!--
+                            //일시 정지 버튼
+                            <button class="pause"><img src="../../img/common/ico_pause.svg" alt="일시정지"></button>
+                            -->
+                        </div>
+                        <div>
+                            <button><img src="../../img/common/ico_forward.svg" alt="다음 10초"></button>
+                        </div>
+                        <div>
+                            <button><img src="../../img/common/ico_stop.svg" alt="정지"></button>
                         </div>
                     </div>
-                </div>
-                <div class="speed">
-                    <div class="handler">1.0 X</div>
-                    <div class="dropdown">
-                        <ul>
-                            <li>0.5 X</li>
-                            <li>0.75 X</li>
-                            <li class="selected">1.0 X</li>
-                            <li>1.25 X</li>
-                        </ul>
+                    <div class="runtime">
+                        <span class="current">2:33</span>
+                        <span class="total">5:59</span>
                     </div>
-                </div>
-                <div class="set-btn-wrap">
-                    <!-- 구간 설정 이력 없는 경우 & 구간 해제 해서 초기화 된 경우
-                    <button>구간 설정</button>
-                    <button>반복 재생</button>
-                    //구간 설정 이력 없는 경우 & 구간 해제 해서 초기화 된 경우-->
-                    <!-- 구간 설정 이력 있는 경우 -->
-                    <button class="fin-set">설정 완료</button>
-                    <button>구간 재설정</button>
-                    <button>구간 해제</button>
-                    <div class="play-repeat">
-                        <span class="txt">반복</span>
-                        <div class="switch-wrap">
-                            <input type="checkbox" id="switch" class="switch">
-                            <label for="switch" class="switch-label">
-                                <span class="onf-btn"></span>
-                            </label>
+                    <div class="v-controll mute">
+                        <div class="btn-sound">
+                            <!-- 볼륨 1이상 상태
+                            <button class="regular"><img src="../../img/common/ico_volume.svg" alt=""></button>-->
+                            <!-- 볼륨 0 상태 OR 볼륨 아이콘 클릭해서 음소거 할 경우-->
+                            <button class="mute"><img src="../../img/common/ico_mute.svg" alt=""></button>
+                            
+                        </div>
+                        <input type="range" id="slider" min="0" max="100" step="3.33" value="33.33">
+                        <div class="custom-range">
+                            <i class="fas fa-volume-up fa-2x"></i>
+                            <div class="volume-bar">
+                                <div class="volume-bar-active" style="width:33.33%"></div>
+                            </div>
                         </div>
                     </div>
-                    <!-- //구간 설정 이력 있는 경우 -->
+                    <div class="speed">
+                        <div class="handler">1.0 X</div>
+                        <div class="dropdown">
+                            <ul>
+                                <li>0.5 X</li>
+                                <li>0.75 X</li>
+                                <li class="selected">1.0 X</li>
+                                <li>1.25 X</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="set-btn-wrap">
+                        <!-- 구간 설정 이력 없는 경우 & 구간 해제 해서 초기화 된 경우
+                        <button>구간 설정</button>
+                        <button>반복 재생</button>
+                        //구간 설정 이력 없는 경우 & 구간 해제 해서 초기화 된 경우-->
+                        <!-- 구간 설정 이력 있는 경우 -->
+                        <!-- <button class="fin-set">설정 완료</button>
+                        <button>구간 재설정</button>
+                        <button>구간 해제</button> -->
+                        <div class="play-repeat">
+                            <span class="txt">구간반복</span>
+                            <div class="switch-wrap">
+                                <input type="checkbox" id="switch" class="switch">
+                                <label for="switch" class="switch-label">
+                                    <span class="onf-btn"></span>
+                                </label>
+                            </div>
+                        </div>
+                        <!-- //구간 설정 이력 있는 경우 -->
+                    </div>
+                </div>
+                <div class="rt-box">
+                    <button class="btns next">다음 자료 보기 <img src="../../img/common/ico_next_wh.svg" alt=""></button>
                 </div>
             </div>
         </section>

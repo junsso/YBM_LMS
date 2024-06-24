@@ -29,7 +29,16 @@
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     white-space: inherit;
-    word-break: keep-all;
+    word-break: break-all;
+}
+@mixin ellipsis3{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    white-space: inherit;
+    word-break: break-all;
 }
 @mixin not-last-child($selector){
     & #{$selector}:not(:last-child){
@@ -198,7 +207,7 @@
         width: 50px;
         height: 70px;
         //background: url(#{$img-url}img_logo_s.svg) no-repeat center center;
-        background: url(#{$img-url}img_beta_logo_s.svg) no-repeat center center;
+        background: url(#{$img-url}img_logo_s.svg) no-repeat center center;
       }
 }
 @mixin logo-w{
@@ -208,7 +217,7 @@
       width: 120px;
       height: 45px;
       //background: url(#{$img-url}img_logo_w.svg) no-repeat center center;
-      background: url(#{$img-url}img_beta_logo_w.svg) no-repeat center center;
+      background: url(#{$img-url}img_logo_w.svg) no-repeat center center;
       text-indent: -9999px;
     }
 }
@@ -427,7 +436,116 @@
     z-index: 501;
 }
 
-
+@mixin fdck-inner{
+    border: 1px solid #{$cont-border-color};
+    background: #{$bg-color-g2};
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: flex; 
+    align-items: center; 
+    position: relative;
+    z-index: 12;
+    .name{
+        max-width: 95px;
+        width: 95px;
+        margin-right: 15px;
+        p{
+            border: 1px solid $primary-color;
+            background: #{$base-text-rfcolor};
+            border-radius: 20px;
+            line-height: 30px;
+            height: 30px;
+            padding: 0 15px;
+            font-size: 1em;
+            color: #{$primary-color};
+            @include ellipsis;
+            width: 100%;
+            text-align: center;
+            &.feedback{
+                border-color: #{$class-btn};
+                color: #{$class-btn};
+            }
+            &.false{
+                border-color: #{$cont-border-color};
+                color: #{$txt-base-color};
+            }
+        }
+    }
+    .date{
+        width: 40%;
+        text-align: center;
+        h2{
+            font-size: 1em;
+            font-weight: 700;
+            padding: 0 10px;
+            text-align: left;
+            span{
+                font-weight: 400;
+                color: #{$guide-color};
+                margin-left: 20px;
+            }
+        }
+    }
+    .count{
+        margin-left: auto;
+        text-align: right;
+        h2{
+            font-size: 1em;
+            font-weight: 700;
+        }
+    }
+    .btn-box{
+        margin-left: 25px;
+        .btn{
+            font-size: 14px;
+            line-height: 30px;
+            width: 125px;
+            height: 30px;
+            text-align: center;
+            padding: 0;
+            color: #{$primary-color};
+            border-color: #{$primary-color};
+            &::after{
+                content: '';
+                @include inline-grop;
+                background: url(#{$img-url}arrow_right_p.svg)no-repeat center / contain;
+                width: 12px;
+                height: 12px;
+                transform: rotate(90deg);
+                margin-left: 10px;
+            }
+            &.feedback{
+                border-color: #{$class-btn};
+                color: #{$class-btn};
+                &::after{
+                    background: url(#{$img-url}arrow_right_b.svg)no-repeat center / contain;
+                }
+            }
+            &.false{
+                border-color: #{$cont-border-color};
+                color: #{$txt-base-color};
+                pointer-events: none;
+                &::after{
+                    display: none;
+                }
+            }
+        }
+    }  
+}
+@mixin circle-delete{
+    text-indent: -9999px;
+    position: absolute;
+    top: 0;
+    right: -3px;
+    background: url(#{$img-url}ico_close.svg)no-repeat center / contain;
+    width: 24px;
+    height: 24px;
+    background-size: 18px;
+    border: 1px solid #{$guide-color};
+    border-radius: 100%;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16);
+    background-color: #{$base-text-rfcolor};
+}
 @mixin media-descktop-lg {
     @media (max-width: #{$breakpoint-desktop3-lg}) {
         @content;

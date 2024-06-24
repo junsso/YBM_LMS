@@ -312,6 +312,122 @@
             .cont-body {
                 padding: 35px 25px;
                 text-align: center;
+                .box-head{  
+                    position: relative;  
+                    padding-bottom: 16px;
+                    //padding-right: 40px;
+                    &.type-c{
+                        gap: 20px;
+                        align-items: flex-start;
+                        text-align: left;
+                        h2{
+                            color: #{$section-title-color};
+                            min-width: 100px;
+                            margin-top: 10px;
+                        }
+                    }
+                    .control-form-box{
+                        display: flex;
+                        align-items: center;
+                        margin-bottom: -14px;
+                    }
+                    .chk-control-box{
+                        margin-left: -5px;
+                        margin-right: -5px;
+                        .form-wrap{
+                            padding: 5px;
+                        }
+                        .chk-control2 ~ .chk-label{
+                            height: 32px;
+                            line-height: 32px;
+                            min-width: 90px;
+                            text-align: center;
+                            font-size: 13px;
+                        }
+                    }
+                    .btn-box{  
+                        .btns{
+                            display: inline-block;
+                            padding: 0 !important;
+                            text-indent: -9999px;
+                            //margin-left: 5px;
+                            &.reset{
+                                width: 40px;
+                                height: 40px;
+                                background: url(#{$img-url}ico_refresh_w.svg) no-repeat center center;
+                            }
+                        }  
+                    }
+                    .rt-box{
+                        margin-left: auto;
+                        .desc{
+                            font-size: 0.875em;
+                            line-height: 1.2;
+                        }
+                    }
+                    .t-dsc{
+                        font-size: 0.875em;
+                        font-weight: 400;
+                        color: #{$base-button-color};
+                        @include inline-grop;
+                        margin-left: 12px;
+                        padding-left: 15px;
+                        position: relative;
+                        line-height: 1.2;
+                        letter-spacing: -0.5px;
+                        a{
+                            font-size: 1em;
+                        }
+                        &::before{
+                            content: '';
+                            display: block;
+                            width: 2px;
+                            height: 50%;
+                            background: #{$active-color};
+                            position: absolute;
+                            top: 50%;
+                            left: 0;
+                            transform: translateY(-50%);
+                        }
+                    }
+                    .value{
+                        @include inline-grop;
+                        padding: 0 20px;
+                        border: 1px solid #{$base-border-color};
+                        border-radius: 20px;
+                        color: #{$scrollbar};
+                        line-height: 28px;
+                        margin-left: 10px;
+                    }
+                    .tt-disc{
+                        font-size: 1em;
+                        color: #{$scrollbar};
+                        padding: 10px 0 0;
+                    }
+                    .btn-box{
+                        &.absolute{
+                            position: absolute;
+                            bottom: 0;
+                            right: 0;
+                        }
+                    }
+                    .pen{
+                        @include inline-grop;
+                        font-size: 0.875em;
+                        margin-left: 10px;
+                        font-weight: 500;
+                        color: #{$base-text-color};
+                        &::before{
+                            content: '';
+                            @include inline-grop;
+                            background: url(#{$img-url}ico_pen_gray.svg) no-repeat center / contain;
+                            width: 18px;
+                            height: 18px;
+                            margin-right: 10px;
+                        }
+                    }
+                }
+                
             }
             .flex-btn-wrap{
                 .btn{
@@ -324,7 +440,45 @@
         }
     }
 }
-
+.title-bx{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    &.type-a{
+        padding-bottom: 12px;
+        border-bottom: 1px solid #{$base-border-color};
+    }
+    h2{
+        flex: none;
+        font-size: 1.5em;
+        font-weight: 700;
+        color: #{$active-color};
+    }
+    .btn-box{
+        margin-left: auto;
+        //min-width: 80px;
+        //text-align: right;
+    }
+    .cr-wrap{
+        margin-left: 10px;
+        li{
+            @include inline-grop;
+            padding: 0 5px 5px;
+            .cl-btn{
+                border: 1px solid #{$disabled-color};
+                color: #{$guide-color};
+                border-radius: 5px;
+                padding: 5px 10px;
+                &.on{
+                    background: #{$primary-color};
+                    color: #{$base-text-rfcolor};
+                    border-color: #{$button-bgcolor};
+                }
+            }
+        }
+    }
+}
 .flex-box {
     display: flex;
     > div:first-child {
@@ -2292,6 +2446,16 @@ i.next-s {
                                 font-size: 14px;
                                 height: 45px;
                                 line-height: 45px;
+                            }
+                        }
+                        .cont-body{
+                            .box-head{
+                                &.type-c{
+                                    h2{
+                                        font-size: 16px;
+                                        margin-top: 0;
+                                    }
+                                }
                             }
                         }
                     }

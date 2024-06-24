@@ -249,6 +249,15 @@ $('[data-popup]').on('click', function () {
         $(this).parents('.form-wrap').siblings().find(emoTarget).removeClass('on');
       });
 
+      //과제/평가 상세보기 스탬프 주기 클릭시 화면ID : TC-P-1203-1
+      var stpBtn = $('.tool-box .file-box .btn-box .btn');
+      var stpBtnparents = stpBtn.parents('.file-box .btn-box');
+      var stpBox = $('.opend-stp');
+
+      $(stpBtn).on('click', function(){
+        $(this).siblings(stpBox).toggleClass('on');
+      });
+
       //과제/평가 상세보기 이모티콘버튼 클릭시 화면ID : TC-P-1202-4 , 1:1메시지 / 화면ID : TC-P-2004P
       var emotionBtn2 = $('.layerpop .file-up .btns.emo');
       var emotionParent2 = emotionBtn2.parents('.layerpop .file-up .form-wrap');
@@ -293,6 +302,11 @@ $('[data-popup]').on('click', function () {
       $(timeTarget2).on('click', function () {
         $(this).parents('.form-wrap').find(timer2).toggleClass('on');
       });
+
+      $('.schedule .this-close-btn').on('click', function () {
+        $(this).parents('.schedule').find('.time').removeClass('on');
+      });
+
 
       //목록 이외 클릭시 목록 닫힘
       $(document).on('mouseup', function (e) {
@@ -784,6 +798,83 @@ $('[data-popup]').on('click', function () {
           el: ".board-swiper .swiper-pagination",
         },
       });
+
+      //수업보드 > 시간표보기 팝업
+      var classCheckedArea = $('.time-view-layer .form-wrap.check');
+      var MyClass = $('.time-view-layer #schTimeValue1');
+      var classChecked = $('.time-view-layer #schTimeValue2');
+      var classCheckedDesc = $('.time-view-layer .form-wrap.desc');
+      var classCheckedCont = $('.time-view-layer .select-cont');
+
+      $(classChecked).click(function(){ 
+        if($(classChecked).prop('checked')) { 
+          $(this).parents('.form-wrap').find('.select-cont').toggleClass('active');
+          } 		
+      });
+
+      //목록 이외 클릭시 목록 닫힘
+      $(document).on('mouseup',function (f){
+        if(classCheckedArea.has(f.target).length === 0){
+          classChecked.parents('.form-wrap').find('.select-cont').removeClass('active');
+        }
+      });
+      //학급별 드롭다운 item클릭시
+      $(classCheckedCont).on('click', function(){
+        $(classCheckedDesc).addClass('active');
+      });
+      //내수업 클릭시 학급명 표기 숨김
+      $(MyClass).on('click', function(){
+        $(classCheckedDesc).removeClass('active');
+      });
+
+      //학급현황 > 상세보기 > 학급초대 sms발송 팝업 발송하기 클릭시 / 화면ID : TC-P-3102P
+      $('#smsSendBeforePopup .this-close-btn').on('click', function () {
+        $('#smsSendBeforePopup').removeClass('show');
+        $('#smsSendPopup').addClass('show');
+      });
+
+      //시간표 관리 진행중 , 수업중 수업내 차시변경 클릭시 tab
+      $('.ui-js-chk-tab li .ui-js-chk').click(function(){ 
+
+        var ui_js_tab_id = $(this).parents('li').attr('data-tab');
+
+        if($(this).prop('checked')) {  //만약에 체크박스가 클릭되어있으면,
+          $('.ui-js-chk-tab li .ui-js-chk').prop('checked',false); //checkbox 전체를 checked 해제 후, 
+          $(this).prop('checked',true); //click한 요소만 true 지정
+          $(this).parents('.ui-js-chk-tab').addClass('current');
+          $("#"+ui_js_tab_id).addClass('current').siblings().removeClass('current');
+            } else { 
+              $(this).parents('.ui-js-chk-tab').removeClass('current');
+              $("#"+ui_js_tab_id).removeClass('current');
+          } 		
+      });
+
+      //프리톡 팝업 스와이프 
+      var freeTalkSwiper = new Swiper('.f-talk-swipe .swiper-container', {
+        slidesPerView: '1',
+        breakpointsBase: 'window',
+        autoHeight: true,
+        pagination: {
+          el: '.swiper-pagination',
+          type: 'bullets',
+          clickable: true,
+        },
+      });
+
+      //프리톡 신고하기팝업 팝업닫힘
+      $('#freeTalkWarning2Popup .this-close-btn').on('click', function () {
+        $('#freeTalkWarning2Popup').removeClass('show');
+      });
+      $('#freeTalkWarning2Popup .next').on('click', function () {
+        $('#freeTalkWarning2Popup').removeClass('show');
+        $('#freeTalkNext2Popup').addClass('show');
+      });
+
+      //프리톡 신고하기 완료 팝업 팝업닫힘
+      $('#freeTalkNext2Popup .this-close-btn').on('click', function () {
+        $('#freeTalkNext2Popup').removeClass('show');
+      });
+  
 
 
 

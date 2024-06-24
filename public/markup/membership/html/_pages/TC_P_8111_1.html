@@ -22,7 +22,7 @@
 <script src="../../lib/jquery-3.6.0.min.js"></script>
 <script src="../../lib/device.js"></script>
 </head>
-<body class="login main-cont join-cont">
+<body class="">
     <section class="wrap">
         <!-- start:header -->
         <header class="active">
@@ -181,12 +181,23 @@
                                 <div class="comment-wrap">
                                     <div class="headline mg-top-30">
                                         <div class="list">
-                                            <h2>전체 <span>5</span>건</h2>
-                                            <button><img src="../../img/common/ico_refresh.svg" alt="새로고침"></button>
+                                            <div class="chat-title">
+                                                <p>
+                                                  <img src="../../img/common/ico_chat2.svg" alt="">
+                                                  <span>댓글 <i>(11)</i></span>
+                                                </p>
+                                                <button><img src="../../img/common/ico_refresh.svg" alt="새로고침"></button>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="reg-wrap mg-top-10">
-                                        <h3>댓글 입력</h3>
+                                    <div class="reg-wrap mg-top-10">                                       
+                                        <div class="form-wrap fix-pin">
+                                            <h3>댓글 입력</h3>
+                                            <div class="rt-col">
+                                                <input type="checkbox" name="tch2" id="tch02" class="basic-control type-c">
+                                                <label for="tch02" class="">댓글 상단 고정</label>
+                                            </div>
+                                          </div>
                                         <div class="reg-form">
                                             <div class="textarea">
                                                 <textarea name="" id="" placeholder="댓글을 입력하세요."></textarea>                                                
@@ -231,9 +242,349 @@
                                                 </div>
                                             </div>
                                         </div>
+                                        <div class="form-block-group mg-top-10">
+                                            <div class="input-file type-a">
+                                                <div class="flex-wrap center">
+                                                    <label for="upload01" class="file-label btn btn03">파일 선택</label>
+                                                    <input type="file" name="" id="upload01" class="file-upload" multiple="">
+                                                    <span>최대 <strong>3</strong>개의 항목, 최대 50MB까지 파일을 올리실 수 있습니다.</span>
+                                                </div>
+                                                <!-- start : 파일 업로드시 노출 -->
+                                                <div class="name-wrap">
+                                                    <div class="box">
+                                                        <div class="inner">
+                                                            <p class="txt">
+                                                                <span class="file default"></span>
+                                                                <span class="name">
+                                                                    파일명파일명파일명파일명파일명파일명파일명파일명파일명파일명파일명파일명파일명파일명파일명파일명파일명파일명파일명파일명파일명파일명파일명파일명파일명파일명
+                                                                </span>.
+                                                                <span>jpg(59.5KB)</span>
+                                                            </p>
+                                                        </div>
+                                                        <button type="button" class="delete"></button>
+                                                    </div>
+                                                    <div class="box">
+                                                        <div class="inner">
+                                                            <p class="txt"><span class="file default"></span><span>파일명</span>.<span>jpg(59.5KB)</span></p>
+                                                        </div>
+                                                        <button type="button" class="delete"></button>
+                                                    </div>
+                                                    <div class="box">
+                                                        <div class="inner">
+                                                            <p class="txt"><span class="file default"></span><span>파일명</span>.<span>jpg(59.5KB)</span></p>
+                                                        </div>
+                                                        <button type="button" class="delete"></button>
+                                                    </div>
+                                                </div>
+                                                <!-- // end : 파일 업로드시 노출 -->
+                                                <div class="file-size">
+                                                    <span><em>0</em>MB / 50MB</span>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                     
                                     <div class="list-wrap">
+
+                                        <div class="article"><!-- 수정 버튼 클릭 시 edit 클래스를 부여해주세요-->
+                                            <div class="user-info smartschool">                                                
+                                                <span class="mb-case smartschool">스마트스쿨</span>
+                                                <span class="date">2021-03-15 PM 04:00</span>
+                                                <span class="fix-pin">고정됨</span>
+                                            </div>
+                                            <div class="contents">
+                                                좋은 정보 감사합니다^^
+                                                <div class="form-block-group mg-top-10">
+                                                    <div class="input-file type-a">
+                                                        <div class="name-wrap">
+                                                            <div class="box">
+                                                                <div class="inner">
+                                                                    <p class="txt">
+                                                                        <span class="file default"></span>
+                                                                        <span class="name">
+                                                                            파일명파일명파일명파일명파일명파일명파일명파일명파일명파일명파일명파일명파일명파일명파일명파일명파일명파일명파일명파일명파일명파일명파일명파일명파일명파일명
+                                                                        </span>.
+                                                                        <span>jpg(59.5KB)</span>
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="box">
+                                                                <div class="inner">
+                                                                    <p class="txt"><span class="file default"></span><span>파일명</span>.<span>jpg(59.5KB)</span></p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="box">
+                                                                <div class="inner">
+                                                                    <p class="txt"><span class="file default"></span><span>파일명</span>.<span>jpg(59.5KB)</span></p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- 수정 버튼 클릭 시 입력 폼이 표시됨-->
+                                            <div class="reg-wrap edit">
+                                                <div class="msg">댓글 수정하는중</div>
+                                                <button class="close-this"><img src="../../img/common/ico_close.svg" alt="닫기"></button>
+                                                <div class="reg-form">
+                                                    <div class="textarea">
+                                                        <textarea name="" id="">좋은 정보 감사합니다^^</textarea>                                                
+                                                        <div class="toolbar">
+                                                            <button>이모지</button>
+                                                        </div>
+                                                        <div class="emotion-box">
+                                                            <div class="inner-cont">
+                                                              <ul>
+                                                                <li><button type="button" class="emo em1"></button></li>
+                                                                <li><button type="button" class="emo em2"></button></li>
+                                                                <li><button type="button" class="emo em3"></button></li>
+                                                                <li><button type="button" class="emo em4"></button></li>
+                                                                <li><button type="button" class="emo em5"></button></li>
+                                                                <li><button type="button" class="emo em6"></button></li>
+                                                                <li><button type="button" class="emo em7"></button></li>
+                                                                <li><button type="button" class="emo em8"></button></li>
+                                                                <li><button type="button" class="emo em9"></button></li>
+                                                                <li><button type="button" class="emo em10"></button></li>
+                                                                <li><button type="button" class="emo em11"></button></li>
+                                                                <li><button type="button" class="emo em12"></button></li>
+                                                                <li><button type="button" class="emo em13"></button></li>
+                                                                <li><button type="button" class="emo em14"></button></li>
+                                                                <li><button type="button" class="emo em15"></button></li>
+                                                                <li><button type="button" class="emo em16"></button></li>
+                                                                <li><button type="button" class="emo em17"></button></li>
+                                                                <li><button type="button" class="emo em18"></button></li>
+                                                                <li><button type="button" class="emo em19"></button></li>
+                                                                <li><button type="button" class="emo em20"></button></li>
+                                                                <li><button type="button" class="emo em21"></button></li>
+                                                                <li><button type="button" class="emo em22"></button></li>
+                                                                <li><button type="button" class="emo em23"></button></li>
+                                                                <li><button type="button" class="emo em24"></button></li>
+                                                              </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="submit">
+                                                        <button>등록</button>
+                                                        <div class="helper-txt">
+                                                            <strong>0</strong> / 300 Byte
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-block-group mg-top-10">
+                                                    <div class="input-file type-a">
+                                                        <div class="name-wrap">
+                                                            <div class="box">
+                                                                <div class="inner">
+                                                                    <p class="txt">
+                                                                        <span class="file default"></span>
+                                                                        <span class="name">
+                                                                            파일명파일명파일명파일명파일명파일명파일명파일명파일명파일명파일명파일명파일명파일명파일명파일명파일명파일명파일명파일명파일명파일명파일명파일명파일명파일명
+                                                                        </span>.
+                                                                        <span>jpg(59.5KB)</span>
+                                                                    </p>
+                                                                </div>
+                                                                <button type="button" class="delete"></button>
+                                                            </div>
+                                                            <div class="box">
+                                                                <div class="inner">
+                                                                    <p class="txt"><span class="file default"></span><span>파일명</span>.<span>jpg(59.5KB)</span></p>
+                                                                </div>
+                                                                <button type="button" class="delete"></button>
+                                                            </div>
+                                                            <div class="box">
+                                                                <div class="inner">
+                                                                    <p class="txt"><span class="file default"></span><span>파일명</span>.<span>jpg(59.5KB)</span></p>
+                                                                </div>
+                                                                <button type="button" class="delete"></button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- 수정 버튼 클릭 시 입력 폼이 표시됨-->
+                                            <div class="cta">
+                                                <p class="like">좋아요 <strong>2</strong></p>
+                                                <button class="edit-this">수정</button>
+                                                <button>삭제</button>
+                                                <button class="reply-this">답글</button>
+                                                <button data-popup="commConfirm">신고</button>
+                                            </div>
+                                            <div class="float-like">
+                                                <button class="active">좋아요</button>
+                                            </div>
+
+                                            <!-- 답글 버튼 클릭 시 입력 폼이 표시됨-->
+                                            <div class="reg-wrap reply">
+                                                <div class="msg"><strong>홍길동</strong>님에게 답글 남기는 중</div>
+                                                <button class="close-this"><img src="../../img/common/ico_close.svg" alt="닫기"></button>
+                                                <div class="reg-form">
+                                                    <div class="textarea">
+                                                        <textarea name="" id=""></textarea>                                                
+                                                        <div class="toolbar">
+                                                            <button>이모지</button>
+                                                        </div>
+                                                        <div class="emotion-box">
+                                                            <div class="inner-cont">
+                                                              <ul>
+                                                                <li><button type="button" class="emo em1"></button></li>
+                                                                <li><button type="button" class="emo em2"></button></li>
+                                                                <li><button type="button" class="emo em3"></button></li>
+                                                                <li><button type="button" class="emo em4"></button></li>
+                                                                <li><button type="button" class="emo em5"></button></li>
+                                                                <li><button type="button" class="emo em6"></button></li>
+                                                                <li><button type="button" class="emo em7"></button></li>
+                                                                <li><button type="button" class="emo em8"></button></li>
+                                                                <li><button type="button" class="emo em9"></button></li>
+                                                                <li><button type="button" class="emo em10"></button></li>
+                                                                <li><button type="button" class="emo em11"></button></li>
+                                                                <li><button type="button" class="emo em12"></button></li>
+                                                                <li><button type="button" class="emo em13"></button></li>
+                                                                <li><button type="button" class="emo em14"></button></li>
+                                                                <li><button type="button" class="emo em15"></button></li>
+                                                                <li><button type="button" class="emo em16"></button></li>
+                                                                <li><button type="button" class="emo em17"></button></li>
+                                                                <li><button type="button" class="emo em18"></button></li>
+                                                                <li><button type="button" class="emo em19"></button></li>
+                                                                <li><button type="button" class="emo em20"></button></li>
+                                                                <li><button type="button" class="emo em21"></button></li>
+                                                                <li><button type="button" class="emo em22"></button></li>
+                                                                <li><button type="button" class="emo em23"></button></li>
+                                                                <li><button type="button" class="emo em24"></button></li>
+                                                              </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="submit">
+                                                        <button>등록</button>
+                                                        <div class="helper-txt">
+                                                            <strong>0</strong> / 300 Byte
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- 답글 버튼 클릭 시 입력 폼이 표시됨-->
+                                            
+                                        </div>
+
+                                        <div class="article intent"><!-- 원글의 댓글은 intent 클래스를 부여해주세요-->
+                                            <div class="user-info smartschool">  
+                                                <span class="mb-case smartschool">스마트스쿨</span>
+                                                <span class="date">2021-03-15 PM 04:00</span>
+                                            </div>
+                                            <div class="contents">
+                                                좋은 정보 감사합니다^^
+                                            </div>
+                                            <!-- 수정 버튼 클릭 시 입력 폼이 표시됨-->
+                                            <div class="reg-wrap edit">
+                                                <div class="msg">댓글 수정하는중</div>
+                                                <button class="close-this"><img src="../../img/common/ico_close.svg" alt="닫기"></button>
+                                                <div class="reg-form">
+                                                    <div class="textarea">
+                                                        <textarea name="" id="">좋은 정보 감사합니다^^</textarea>                                                
+                                                        <div class="toolbar">
+                                                            <button>이모지</button>
+                                                        </div>
+                                                        <div class="emotion-box">
+                                                            <div class="inner-cont">
+                                                              <ul>
+                                                                <li><button type="button" class="emo em1"></button></li>
+                                                                <li><button type="button" class="emo em2"></button></li>
+                                                                <li><button type="button" class="emo em3"></button></li>
+                                                                <li><button type="button" class="emo em4"></button></li>
+                                                                <li><button type="button" class="emo em5"></button></li>
+                                                                <li><button type="button" class="emo em6"></button></li>
+                                                                <li><button type="button" class="emo em7"></button></li>
+                                                                <li><button type="button" class="emo em8"></button></li>
+                                                                <li><button type="button" class="emo em9"></button></li>
+                                                                <li><button type="button" class="emo em10"></button></li>
+                                                                <li><button type="button" class="emo em11"></button></li>
+                                                                <li><button type="button" class="emo em12"></button></li>
+                                                                <li><button type="button" class="emo em13"></button></li>
+                                                                <li><button type="button" class="emo em14"></button></li>
+                                                                <li><button type="button" class="emo em15"></button></li>
+                                                                <li><button type="button" class="emo em16"></button></li>
+                                                                <li><button type="button" class="emo em17"></button></li>
+                                                                <li><button type="button" class="emo em18"></button></li>
+                                                                <li><button type="button" class="emo em19"></button></li>
+                                                                <li><button type="button" class="emo em20"></button></li>
+                                                                <li><button type="button" class="emo em21"></button></li>
+                                                                <li><button type="button" class="emo em22"></button></li>
+                                                                <li><button type="button" class="emo em23"></button></li>
+                                                                <li><button type="button" class="emo em24"></button></li>
+                                                              </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="submit">
+                                                        <button>등록</button>
+                                                        <div class="helper-txt">
+                                                            <strong>0</strong> / 300 Byte
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- 수정 버튼 클릭 시 입력 폼이 표시됨-->
+                                            <div class="cta">
+                                                <p class="like">좋아요 <strong>2</strong></p>
+                                                <button class="edit-this">수정</button>
+                                                <button>삭제</button>
+                                                <button class="reply-this">답글</button>
+                                                <button data-popup="commConfirm">신고</button>
+                                            </div>
+                                            <div class="float-like">
+                                                <button>좋아요</button>
+                                            </div>
+                                            <!-- 답글 버튼 클릭 시 입력 폼이 표시됨-->
+                                            <div class="reg-wrap reply">
+                                                <div class="msg"><strong>홍길동</strong>님에게 답글 남기는 중</div>
+                                                <button class="close-this"><img src="../../img/common/ico_close.svg" alt="닫기"></button>
+                                                <div class="reg-form">
+                                                    <div class="textarea">
+                                                        <textarea name="" id=""></textarea>                                                
+                                                        <div class="toolbar">
+                                                            <button>이모지</button>
+                                                        </div>
+                                                        <div class="emotion-box">
+                                                            <div class="inner-cont">
+                                                              <ul>
+                                                                <li><button type="button" class="emo em1"></button></li>
+                                                                <li><button type="button" class="emo em2"></button></li>
+                                                                <li><button type="button" class="emo em3"></button></li>
+                                                                <li><button type="button" class="emo em4"></button></li>
+                                                                <li><button type="button" class="emo em5"></button></li>
+                                                                <li><button type="button" class="emo em6"></button></li>
+                                                                <li><button type="button" class="emo em7"></button></li>
+                                                                <li><button type="button" class="emo em8"></button></li>
+                                                                <li><button type="button" class="emo em9"></button></li>
+                                                                <li><button type="button" class="emo em10"></button></li>
+                                                                <li><button type="button" class="emo em11"></button></li>
+                                                                <li><button type="button" class="emo em12"></button></li>
+                                                                <li><button type="button" class="emo em13"></button></li>
+                                                                <li><button type="button" class="emo em14"></button></li>
+                                                                <li><button type="button" class="emo em15"></button></li>
+                                                                <li><button type="button" class="emo em16"></button></li>
+                                                                <li><button type="button" class="emo em17"></button></li>
+                                                                <li><button type="button" class="emo em18"></button></li>
+                                                                <li><button type="button" class="emo em19"></button></li>
+                                                                <li><button type="button" class="emo em20"></button></li>
+                                                                <li><button type="button" class="emo em21"></button></li>
+                                                                <li><button type="button" class="emo em22"></button></li>
+                                                                <li><button type="button" class="emo em23"></button></li>
+                                                                <li><button type="button" class="emo em24"></button></li>
+                                                              </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="submit">
+                                                        <button>등록</button>
+                                                        <div class="helper-txt">
+                                                            <strong>0</strong> / 300 Byte
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- 답글 버튼 클릭 시 입력 폼이 표시됨-->
+                                        </div>
                                         
                                         <div class="article"><!-- 수정 버튼 클릭 시 edit 클래스를 부여해주세요-->
                                             <div class="user-info">                                                
@@ -359,9 +710,8 @@
                                         </div>
 
                                         <div class="article intent"><!-- 원글의 댓글은 intent 클래스를 부여해주세요-->
-                                            <div class="user-info">                                                
-                                                <span class="mb-case tcp">선생님</span>
-                                                <strong class="name">김*연 (kim***yeon)</strong>
+                                            <div class="user-info">  
+                                                <span class="mb-case ybm"><i>Y</i><i>B</i><i class="alp-m">M</i></span>
                                                 <span class="date">2021-03-15 PM 04:00</span>
                                             </div>
                                             <div class="contents">

@@ -1,13 +1,16 @@
 $(document).ready(function(){
+    var offset = $('.tab-content').offset();
     // 탭 - 마우스 오버
-    $('.tab .tabmenu').on('mouseenter',function(){
+    $('.tab .tabmenu').on('click',function(){
         var tab_id = $(this).attr('data-tab');
 
         $('.tab .tabmenu').removeClass('current');
         $('.tab-content').removeClass('current');
 
+        //alert('asfsa');
         $(this).addClass('current');
         $("#"+tab_id).addClass('current');
+        $('html, body').animate({scrollTop: offset.top - 68}, 600);
     })
 
     
@@ -85,10 +88,12 @@ $(document).ready(function(){
 // Header Scroll Change
 $(window).scroll(function(){
     if($(window).scrollTop() > 50) {
-      $('.main-cont header, .gototop, .trigger-box').addClass('active')
+      $('.main-cont header, .gototop, .trigger-box').addClass('active');
+      $('header.active').addClass('scroll');
     }
     else {
       $('.main-cont header, .gototop , .trigger-box').removeClass('active')
+      $('header.active').removeClass('scroll');
     }    
 })
 
@@ -253,6 +258,7 @@ var mainSlide = new Swiper('.main .swiper-container',{
 
 //서브메인슬라이드
 var subMainSlide = new Swiper('.submain-rgcont .rg-top .swiper-container',{
+    autoHeight: true,
     pagination: {
         el: ".submain-rgcont .rg-top .swiper-pagination",
         clickable: true,
@@ -263,5 +269,42 @@ var subMainSlide = new Swiper('.submain-rgcont .rg-top .swiper-container',{
         disableOnInteraction: false,
     },
 });
+var subMainSlideV2 = new Swiper('.swiperV2 .swiper-container',{
+    slidesPerView: 1,
+    autoHeight: true,
+    pagination: {
+        el: ".swiperV2 .swiper-pagination",
+        clickable: true,
+    },
+    speed: 1000,
+    autoplay: {
+        delay: 4000,
+        disableOnInteraction: false,
+    },
+});
+var subMainSlideV3 = new Swiper('.swiperV3 .swiper-container',{
+    slidesPerView: 1,
+    autoHeight: true,
+    pagination: {
+        el: ".swiperV3 .swiper-pagination",
+        clickable: true,
+    },
+    speed: 1000,
+    autoplay: {
+        delay: 4000,
+        disableOnInteraction: false,
+    },
+});
 
+//로그인
+$('.ui-js-tab .tab li').on('click',function(){
+    var tab_id = $(this).attr('data-tab');
+    
+    $('.ui-js-tab .tab li').removeClass('current');
+    $('.ui-js-tab-cont').removeClass('current');
 
+    $(this).addClass('current');
+    $("#"+tab_id).addClass('current');
+
+    return false();
+});

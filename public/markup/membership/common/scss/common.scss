@@ -354,6 +354,16 @@
   background: #{$active-color};
   color: #{$base-text-rfcolor};
 }
+@mixin basic-btn05{
+  border-color: #{$active-color};
+  background: #{$base-text-rfcolor};
+  color: #{$active-color};
+}
+@mixin basic-btn06{
+  border-color: #{$scrollbar};
+  background: #{$scrollbar};
+  color: #{$base-text-rfcolor};
+}
 @mixin btn-primary{
   display: block;
   margin: 0 auto;
@@ -427,4 +437,19 @@
   height: 40px;
   box-sizing: border-box;
   cursor: pointer;
+}
+@mixin flex-row{
+  display: flex;
+  flex-direction: row;
+}
+@mixin flex-clm{
+  display: flex;
+  flex-direction: column;
+}
+// 드래그방지
+@mixin user-select {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }

@@ -1,0 +1,14 @@
+<svg id="icon_그리기" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12" height="12" viewBox="0 0 12 12">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_229" data-name="사각형 229" width="12" height="12" fill="#9ea4aa"/>
+    </clipPath>
+  </defs>
+  <g id="마스크_그룹_4" data-name="마스크 그룹 4" clip-path="url(#clip-path)">
+    <g id="Layer_2" data-name="Layer 2" transform="translate(0.284 0)">
+      <g id="그리기" transform="translate(0 0)">
+        <path id="패스_180" data-name="패스 180" d="M15.919,2.932,13.106.12a.4.4,0,0,0-.57,0L5.542,7.113a.405.405,0,0,0-.11.207l-.7,3.51a.4.4,0,0,0,.4.482.414.414,0,0,0,.079-.008l3.509-.7a.4.4,0,0,0,.206-.11L15.919,3.5a.4.4,0,0,0,0-.57ZM5.806,9.575,6.17,7.741,8.3,9.867l-1.834.364Z" transform="translate(-4.727 -0.002)" fill="#9ea4aa"/>
+      </g>
+    </g>
+  </g>
+</svg>

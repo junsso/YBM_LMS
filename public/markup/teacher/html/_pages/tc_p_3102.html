@@ -137,7 +137,7 @@
                                                     <div class="tch-fix">
                                                         <div class="form-wrap">
                                                             <button type="button" class="btn btn02" data-popup="tchshare">공유 교사 지정하기</button>
-                                                            <span>* 공유 교사 지정은 동일 학교 소속만 가능합니다.</span>
+                                                            <span>* 학급정보를 공유할 교사 지정은 동일 학교 소속만 가능합니다.</span>
                                                         </div>
                                                         <div class="tch-result">
                                                             <div class="col">
@@ -153,10 +153,21 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="tch-sms">
+                                                        <div class="tch-sms type-b">
                                                             <!-- start: 2회 발송 초과시 disabled 클래스 추가 -->
-                                                            <button type="button" class="btn btn05" data-popup="smsSend">학급 초대 SMS 보내기</button>
+                                                            <button type="button" class="btn btn05" data-popup="smsSendBefore">학급 초대 SMS 보내기</button>
                                                             <!-- // End -->
+                                                            <a href="#" class="link">학급초대 안내문(배포용)</a>
+                                                        </div>
+                                                        <div class="copy-box">
+                                                            <div class="link-url-box mg-top-10">
+                                                                <p>http://school.ybmsmartschool.com/학급고유URL</p>
+                                                                <button type="button" class="btn">링크복사</button>
+                                                            </div>
+                                                            <div class="btn-box class-code mg-top-10">
+                                                                <span>17133f4b</span>
+                                                                <a href="#" class="btn btn02 sm">학급코드 복사하기</a>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </li>
@@ -167,7 +178,7 @@
                                                             <div class="swiper-wrapper">
                                                                 <div class="swiper-slide">
                                                                     <a href="tc_p_1103.html">
-                                                                        <div class="thumb-bx book-wrap type-sm">
+                                                                        <div class="thumb-bx book-wrap type-sm ai">
                                                                             <p class="book-img">
                                                                                 <img src="../../img/temp/img_book8.jpg" alt="">
                                                                             </p>
@@ -176,7 +187,7 @@
                                                                 </div>
                                                                 <div class="swiper-slide">
                                                                     <a href="tc_p_1103.html">
-                                                                        <div class="thumb-bx book-wrap type-sm">
+                                                                        <div class="thumb-bx book-wrap type-sm ai">
                                                                             <p class="book-img">
                                                                                 <img src="../../img/temp/img_book12.jpg" alt="">
                                                                             </p>
@@ -220,13 +231,13 @@
                                                                     </a>
                                                                 </div>
                                                             </div>
-                                                            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
-                                                            <div class="indicator">
-                                                                <!-- Add Arrows -->
-                                                                <div class="swiper-button-next"></div>
-                                                                <div class="swiper-button-prev"></div>
-                                                            </div>          
-                                                        </div>                                      
+                                                            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                                                        </div> 
+                                                        <div class="indicator">
+                                                            <!-- Add Arrows -->
+                                                            <div class="swiper-button-next"></div>
+                                                            <div class="swiper-button-prev"></div>
+                                                        </div>                                               
                                                     </div>
                                                 </li>
                                             </ul>
@@ -293,7 +304,10 @@
                                                             </td>
                                                             <td>
                                                                 <div class="flex">
-                                                                    <p>010-1234-5456</p>
+                                                                    <div class="hidden-box">
+                                                                        <button type="button" class="btn sm">연락처 보기</button>
+                                                                        <p class="num-hidden">010-1234-5678</p>
+                                                                    </div>
                                                                     <a href="#" class="ico tool-tip-bx basic-top">
                                                                         <img src="../../img/common/ico_chat_br.svg" alt="">
                                                                         <div class="balloon top" style="width: 120px !important; min-width: 120px !important; left: -26px !important;">
@@ -307,8 +321,11 @@
                                                                 <span>(2021.03.02)</span>
                                                             </td>
                                                             <td>
-                                                                <div class="flex">
-                                                                    <p>010-1234-3254</p>                                                                    
+                                                                <div class="flex num-hidden">                                                                    
+                                                                    <div class="hidden-box">
+                                                                        <button type="button" class="btn sm">연락처 보기</button>
+                                                                        <p class="num-hidden">010-1234-5678</p>
+                                                                    </div>                                                               
                                                                     <button type="button" class="ico tool-tip-bx basic-top" data-popup="smsSendComp">
                                                                         <img src="../../img/common/ico_dm_sm.svg" alt="">
                                                                         <div class="balloon top" style="width: 140px !important; min-width: 140px !important; left: -26px !important;">
@@ -322,7 +339,10 @@
                                                                 <button type="button" class="url" data-popup="urlcopy">초대 URL 복사</button>
                                                             </td>
                                                             <td>
-                                                                <button type="button" class="del" data-popup="delinfo">삭제</button>
+                                                                <div class="flex">
+                                                                    <button type="button" class="del" data-popup="delinfo">삭제</button>
+                                                                    <a href="#;" class="ico pw-reset " data-popup="pwReset"></a>
+                                                                </div>
                                                             </td>
                                                         </tr>
                                                         <tr>
@@ -342,8 +362,11 @@
                                                                 </div>
                                                             </td>
                                                             <td>
-                                                                <div class="flex">
-                                                                    <p>010-1234-4578</p>
+                                                                <div class="flex">                                                                    
+                                                                    <div class="hidden-box">
+                                                                        <button type="button" class="btn sm">연락처 보기</button>
+                                                                        <p class="num-hidden">010-1234-5678</p>
+                                                                    </div>
                                                                     <button type="button" class="ico tool-tip-bx basic-top" data-popup="smsSendComp">
                                                                         <img src="../../img/common/ico_dm_sm.svg" alt="">
                                                                         <div class="balloon top" style="width: 140px !important; min-width: 140px !important; left: -26px !important;">
@@ -358,7 +381,10 @@
                                                             </td>
                                                             <td>
                                                                 <div class="flex">
-                                                                    <p>010-1234-2222</p>
+                                                                    <div class="hidden-box">
+                                                                        <button type="button" class="btn sm">연락처 보기</button>
+                                                                        <p class="num-hidden">010-1234-5678</p>
+                                                                    </div>
                                                                     <a href="#" class="ico tool-tip-bx basic-top">
                                                                         <img src="../../img/common/ico_chat_br.svg" alt="">
                                                                         <div class="balloon top" style="width: 120px !important; min-width: 120px !important; left: -26px !important;">
@@ -372,7 +398,10 @@
                                                                 <span>(2021.03.02)</span>
                                                             </td>
                                                             <td>
-                                                                <button type="button" class="del" data-popup="delinfo">삭제</button>
+                                                                <div class="flex">
+                                                                    <button type="button" class="del" data-popup="delinfo">삭제</button>
+                                                                    <a href="#;" class="ico pw-reset " data-popup="pwReset"></a>
+                                                                </div>
                                                             </td>
                                                         </tr>
                                                         <tr>
@@ -393,7 +422,10 @@
                                                             </td>
                                                             <td>
                                                                 <div class="flex">
-                                                                    <p>010-1234-3333</p>
+                                                                    <div class="hidden-box">
+                                                                        <button type="button" class="btn sm">연락처 보기</button>
+                                                                        <p class="num-hidden">010-1234-5678</p>
+                                                                    </div>
                                                                     <a href="#" class="ico tool-tip-bx basic-top">
                                                                         <img src="../../img/common/ico_chat_br.svg" alt="">
                                                                         <div class="balloon top" style="width: 120px !important; min-width: 120px !important; left: -26px !important;">
@@ -408,7 +440,10 @@
                                                             </td>
                                                             <td>
                                                                 <div class="flex">
-                                                                    <p>010-1234-1245</p>
+                                                                    <div class="hidden-box">
+                                                                        <button type="button" class="btn sm">연락처 보기</button>
+                                                                        <p class="num-hidden">010-1234-5678</p>
+                                                                    </div>
                                                                     <button type="button" class="ico tool-tip-bx basic-top" data-popup="smsSendComp">
                                                                         <img src="../../img/common/ico_dm_sm.svg" alt="">
                                                                         <div class="balloon top" style="width: 140px !important; min-width: 140px !important; left: -26px !important;">
@@ -422,7 +457,10 @@
                                                                 <button type="button" class="url" data-popup="urlcopy">초대 URL 복사</button>
                                                             </td>
                                                             <td>
-                                                                <button type="button" class="del" data-popup="delinfo">삭제</button>
+                                                                <div class="flex">
+                                                                    <button type="button" class="del" data-popup="delinfo">삭제</button>
+                                                                    <a href="#;" class="ico pw-reset none"></a>
+                                                                </div>
                                                             </td>
                                                         </tr>
                                                         <tr>
@@ -443,7 +481,10 @@
                                                             </td>
                                                             <td>
                                                                 <div class="flex">
-                                                                    <p>010-1234-9658</p>
+                                                                    <div class="hidden-box">
+                                                                        <button type="button" class="btn sm">연락처 보기</button>
+                                                                        <p class="num-hidden">010-1234-5678</p>
+                                                                    </div>
                                                                     <a href="#" class="ico tool-tip-bx basic-top">
                                                                         <img src="../../img/common/ico_chat_br.svg" alt="">
                                                                         <div class="balloon top" style="width: 120px !important; min-width: 120px !important; left: -26px !important;">
@@ -458,7 +499,10 @@
                                                             </td>
                                                             <td>
                                                                 <div class="flex">
-                                                                    <p>010-1234-3258</p>
+                                                                    <div class="hidden-box">
+                                                                        <button type="button" class="btn sm">연락처 보기</button>
+                                                                        <p class="num-hidden">010-1234-5678</p>
+                                                                    </div>
                                                                     <button type="button" class="ico tool-tip-bx basic-top" data-popup="smsSendComp">
                                                                         <img src="../../img/common/ico_dm_sm.svg" alt="">
                                                                         <div class="balloon top" style="width: 140px !important; min-width: 140px !important; left: -26px !important;">
@@ -472,857 +516,10 @@
                                                                 <button type="button" class="url" data-popup="urlcopy">초대 URL 복사</button>
                                                             </td>
                                                             <td>
-                                                                <button type="button" class="del" data-popup="delinfo">삭제</button>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>
-                                                                <div class="form-wrap">
-                                                                    <input type="checkbox" name="chk" id="chk2" class="basic-control type-b">
-                                                                    <label for="chk2" class="basic-radio"></label>
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <p>5</p>
-                                                            </td>
-                                                            <td class="st-name">
                                                                 <div class="flex">
-                                                                    <p>이호준</p>
-                                                                    <a href="#" class="ico"><img src="../../img/common/ico_book.svg" alt=""></a>
+                                                                    <button type="button" class="del" data-popup="delinfo">삭제</button>
+                                                                    <a href="#;" class="ico pw-reset none"></a>
                                                                 </div>
-                                                            </td>
-                                                            <td>
-                                                                <div class="flex">
-                                                                    <p>010-1234-6547</p>
-                                                                    <button type="button" class="ico tool-tip-bx basic-top" data-popup="smsSendComp">
-                                                                        <img src="../../img/common/ico_dm_sm.svg" alt="">
-                                                                        <div class="balloon top" style="width: 140px !important; min-width: 140px !important; left: -26px !important;">
-                                                                            <p>학급 초대 SMS 보내기</p>
-                                                                        </div>
-                                                                    </button>
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <p>X</p>
-                                                                <button type="button" class="url"  data-popup="urlcopy">초대 URL 복사</button>
-                                                            </td>
-                                                            <td>
-                                                                <div class="flex">
-                                                                    <p>010-1234-3657</p>
-                                                                    <a href="#" class="ico tool-tip-bx basic-top">
-                                                                        <img src="../../img/common/ico_chat_br.svg" alt="">
-                                                                        <div class="balloon top" style="width: 120px !important; min-width: 120px !important; left: -26px !important;">
-                                                                            <p>1:1 메시지 보내기</p>
-                                                                        </div>
-                                                                    </a>
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <p>O</p>
-                                                                <span>(2021.03.02)</span>
-                                                            </td>
-                                                            <td>
-                                                                <button type="button" class="del" data-popup="delinfo">삭제</button>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>
-                                                                <div class="form-wrap">
-                                                                    <input type="checkbox" name="chk" id="chk3" class="basic-control type-b">
-                                                                    <label for="chk3" class="basic-radio"></label>
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <p>6</p>
-                                                            </td>
-                                                            <td class="st-name">
-                                                                <div class="flex">
-                                                                    <p>강준수</p>
-                                                                    <a href="#" class="ico"><img src="../../img/common/ico_book.svg" alt=""></a>
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <div class="flex">
-                                                                    <p>010-1234-1248</p>
-                                                                    <a href="#" class="ico tool-tip-bx basic-top">
-                                                                        <img src="../../img/common/ico_chat_br.svg" alt="">
-                                                                        <div class="balloon top" style="width: 120px !important; min-width: 120px !important; left: -26px !important;">
-                                                                            <p>1:1 메시지 보내기</p>
-                                                                        </div>
-                                                                    </a>
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <p>O</p>
-                                                                <span>(2021.03.02)</span>
-                                                            </td>
-                                                            <td>
-                                                                <div class="flex">
-                                                                    <p>010-1234-8124</p>
-                                                                    <button type="button" class="ico tool-tip-bx basic-top" data-popup="smsSendComp">
-                                                                        <img src="../../img/common/ico_dm_sm.svg" alt="">
-                                                                        <div class="balloon top" style="width: 140px !important; min-width: 140px !important; left: -26px !important;">
-                                                                            <p>학급 초대 SMS 보내기</p>
-                                                                        </div>
-                                                                    </button>
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <p>X</p>
-                                                                <button type="button" class="url" data-popup="urlcopy">초대 URL 복사</button>
-                                                            </td>
-                                                            <td>
-                                                                <button type="button" class="del" data-popup="delinfo">삭제</button>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>
-                                                                <div class="form-wrap">
-                                                                    <input type="checkbox" name="chk" id="chk1" class="basic-control type-b">
-                                                                    <label for="chk1" class="basic-radio"></label>
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <p>7</p>
-                                                            </td>
-                                                            <td class="st-name">
-                                                                <div class="flex">
-                                                                    <p>박민</p>
-                                                                    <a href="#" class="ico"><img src="../../img/common/ico_book.svg" alt=""></a>
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <div class="flex">
-                                                                    <p>010-1234-6324</p>
-                                                                    <a href="#" class="ico tool-tip-bx basic-top">
-                                                                        <img src="../../img/common/ico_chat_br.svg" alt="">
-                                                                        <div class="balloon top" style="width: 120px !important; min-width: 120px !important; left: -26px !important;">
-                                                                            <p>1:1 메시지 보내기</p>
-                                                                        </div>
-                                                                    </a>
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <p>O</p>
-                                                                <span>(2021.03.02)</span>
-                                                            </td>
-                                                            <td>
-                                                                <div class="flex">
-                                                                    <p>010-1234-9124</p>
-                                                                    <button type="button" class="ico tool-tip-bx basic-top" data-popup="smsSendComp">
-                                                                        <img src="../../img/common/ico_dm_sm.svg" alt="">
-                                                                        <div class="balloon top" style="width: 140px !important; min-width: 140px !important; left: -26px !important;">
-                                                                            <p>학급 초대 SMS 보내기</p>
-                                                                        </div>
-                                                                    </button>
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <p>X</p>
-                                                                <button type="button" class="url" data-popup="urlcopy">초대 URL 복사</button>
-                                                            </td>
-                                                            <td>
-                                                                <button type="button" class="del" data-popup="delinfo">삭제</button>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>
-                                                                <div class="form-wrap">
-                                                                    <input type="checkbox" name="chk" id="chk2" class="basic-control type-b">
-                                                                    <label for="chk2" class="basic-radio"></label>
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <p>8</p>
-                                                            </td>
-                                                            <td class="st-name">
-                                                                <div class="flex">
-                                                                    <p>정인길</p>
-                                                                    <a href="#" class="ico"><img src="../../img/common/ico_book.svg" alt=""></a>
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <div class="flex">
-                                                                    <p>010-1234-6547</p>
-                                                                    <button type="button" class="ico tool-tip-bx basic-top" data-popup="smsSendComp">
-                                                                        <img src="../../img/common/ico_dm_sm.svg" alt="">
-                                                                        <div class="balloon top" style="width: 140px !important; min-width: 140px !important; left: -26px !important;">
-                                                                            <p>학급 초대 SMS 보내기</p>
-                                                                        </div>
-                                                                    </button>
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <p>X</p>
-                                                                <button type="button" class="url"  data-popup="urlcopy">초대 URL 복사</button>
-                                                            </td>
-                                                            <td>
-                                                                <div class="flex">
-                                                                    <p>010-1234-5456</p>
-                                                                    <a href="#" class="ico tool-tip-bx basic-top">
-                                                                        <img src="../../img/common/ico_chat_br.svg" alt="">
-                                                                        <div class="balloon top" style="width: 120px !important; min-width: 120px !important; left: -26px !important;">
-                                                                            <p>1:1 메시지 보내기</p>
-                                                                        </div>
-                                                                    </a>
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <p>O</p>
-                                                                <span>(2021.03.02)</span>
-                                                            </td>
-                                                            <td>
-                                                                <button type="button" class="del" data-popup="delinfo">삭제</button>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>
-                                                                <div class="form-wrap">
-                                                                    <input type="checkbox" name="chk" id="chk3" class="basic-control type-b">
-                                                                    <label for="chk3" class="basic-radio"></label>
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <p>9</p>
-                                                            </td>
-                                                            <td class="st-name">
-                                                                <div class="flex">
-                                                                    <p>류호정</p>
-                                                                    <a href="#" class="ico"><img src="../../img/common/ico_book.svg" alt=""></a>
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <div class="flex">
-                                                                    <p>010-1234-1246</p>
-                                                                    <a href="#" class="ico tool-tip-bx basic-top">
-                                                                        <img src="../../img/common/ico_chat_br.svg" alt="">
-                                                                        <div class="balloon top" style="width: 120px !important; min-width: 120px !important; left: -26px !important;">
-                                                                            <p>1:1 메시지 보내기</p>
-                                                                        </div>
-                                                                    </a>
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <p>O</p>
-                                                                <span>(2021.03.02)</span>
-                                                            </td>
-                                                            <td>
-                                                                <div class="flex">
-                                                                    <p>010-1234-3248</p>
-                                                                    <button type="button" class="ico tool-tip-bx basic-top" data-popup="smsSendComp">
-                                                                        <img src="../../img/common/ico_dm_sm.svg" alt="">
-                                                                        <div class="balloon top" style="width: 140px !important; min-width: 140px !important; left: -26px !important;">
-                                                                            <p>학급 초대 SMS 보내기</p>
-                                                                        </div>
-                                                                    </button>
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <p>X</p>
-                                                                <button type="button" class="url" data-popup="urlcopy">초대 URL 복사</button>
-                                                            </td>
-                                                            <td>
-                                                                <button type="button" class="del" data-popup="delinfo">삭제</button>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>
-                                                                <div class="form-wrap">
-                                                                    <input type="checkbox" name="chk" id="chk1" class="basic-control type-b">
-                                                                    <label for="chk1" class="basic-radio"></label>
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <p>10</p>
-                                                            </td>
-                                                            <td class="st-name">
-                                                                <div class="flex">
-                                                                    <p>민지영</p>
-                                                                    <a href="#" class="ico"><img src="../../img/common/ico_book.svg" alt=""></a>
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <div class="flex">
-                                                                    <p>010-1234-6214</p>
-                                                                    <a href="#" class="ico tool-tip-bx basic-top">
-                                                                        <img src="../../img/common/ico_chat_br.svg" alt="">
-                                                                        <div class="balloon top" style="width: 120px !important; min-width: 120px !important; left: -26px !important;">
-                                                                            <p>1:1 메시지 보내기</p>
-                                                                        </div>
-                                                                    </a>
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <p>O</p>
-                                                                <span>(2021.03.02)</span>
-                                                            </td>
-                                                            <td>
-                                                                <div class="flex">
-                                                                    <p>010-1234-9647</p>
-                                                                    <button type="button" class="ico tool-tip-bx basic-top" data-popup="smsSendComp">
-                                                                        <img src="../../img/common/ico_dm_sm.svg" alt="">
-                                                                        <div class="balloon top" style="width: 140px !important; min-width: 140px !important; left: -26px !important;">
-                                                                            <p>학급 초대 SMS 보내기</p>
-                                                                        </div>
-                                                                    </button>
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <p>X</p>
-                                                                <button type="button" class="url" data-popup="urlcopy">초대 URL 복사</button>
-                                                            </td>
-                                                            <td>
-                                                                <button type="button" class="del" data-popup="delinfo">삭제</button>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>
-                                                                <div class="form-wrap">
-                                                                    <input type="checkbox" name="chk" id="chk2" class="basic-control type-b">
-                                                                    <label for="chk2" class="basic-radio"></label>
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <p>11</p>
-                                                            </td>
-                                                            <td class="st-name">
-                                                                <div class="flex">
-                                                                    <p>방정숙</p>
-                                                                    <a href="#" class="ico"><img src="../../img/common/ico_book.svg" alt=""></a>
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <div class="flex">
-                                                                    <p>010-1234-6662</p>
-                                                                    <button type="button" class="ico tool-tip-bx basic-top" data-popup="smsSendComp">
-                                                                        <img src="../../img/common/ico_dm_sm.svg" alt="">
-                                                                        <div class="balloon top" style="width: 140px !important; min-width: 140px !important; left: -26px !important;">
-                                                                            <p>학급 초대 SMS 보내기</p>
-                                                                        </div>
-                                                                    </button>
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <p>X</p>
-                                                                <button type="button" class="url"  data-popup="urlcopy">초대 URL 복사</button>
-                                                            </td>
-                                                            <td>
-                                                                <div class="flex">
-                                                                    <p>010-1234-2226</p>
-                                                                    <a href="#" class="ico tool-tip-bx basic-top">
-                                                                        <img src="../../img/common/ico_chat_br.svg" alt="">
-                                                                        <div class="balloon top" style="width: 120px !important; min-width: 120px !important; left: -26px !important;">
-                                                                            <p>1:1 메시지 보내기</p>
-                                                                        </div>
-                                                                    </a>
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <p>O</p>
-                                                                <span>(2021.03.02)</span>
-                                                            </td>
-                                                            <td>
-                                                                <button type="button" class="del" data-popup="delinfo">삭제</button>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>
-                                                                <div class="form-wrap">
-                                                                    <input type="checkbox" name="chk" id="chk3" class="basic-control type-b">
-                                                                    <label for="chk3" class="basic-radio"></label>
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <p>12</p>
-                                                            </td>
-                                                            <td class="st-name">
-                                                                <div class="flex">
-                                                                    <p>김이현</p>
-                                                                    <a href="#" class="ico"><img src="../../img/common/ico_book.svg" alt=""></a>
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <div class="flex">
-                                                                    <p>010-1234-3321</p>
-                                                                    <a href="#" class="ico tool-tip-bx basic-top">
-                                                                        <img src="../../img/common/ico_chat_br.svg" alt="">
-                                                                        <div class="balloon top" style="width: 120px !important; min-width: 120px !important; left: -26px !important;">
-                                                                            <p>1:1 메시지 보내기</p>
-                                                                        </div>
-                                                                    </a>
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <p>O</p>
-                                                                <span>(2021.03.02)</span>
-                                                            </td>
-                                                            <td>
-                                                                <div class="flex">
-                                                                    <p>010-1234-3331</p>
-                                                                    <button type="button" class="ico tool-tip-bx basic-top" data-popup="smsSendComp">
-                                                                        <img src="../../img/common/ico_dm_sm.svg" alt="">
-                                                                        <div class="balloon top" style="width: 140px !important; min-width: 140px !important; left: -26px !important;">
-                                                                            <p>학급 초대 SMS 보내기</p>
-                                                                        </div>
-                                                                    </button>
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <p>X</p>
-                                                                <button type="button" class="url" data-popup="urlcopy">초대 URL 복사</button>
-                                                            </td>
-                                                            <td>
-                                                                <button type="button" class="del" data-popup="delinfo">삭제</button>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>
-                                                                <div class="form-wrap">
-                                                                    <input type="checkbox" name="chk" id="chk1" class="basic-control type-b">
-                                                                    <label for="chk1" class="basic-radio"></label>
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <p>13</p>
-                                                            </td>
-                                                            <td class="st-name">
-                                                                <div class="flex">
-                                                                    <p>허진영</p>
-                                                                    <a href="#" class="ico"><img src="../../img/common/ico_book.svg" alt=""></a>
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <div class="flex">
-                                                                    <p>010-1234-6574</p>
-                                                                    <a href="#" class="ico tool-tip-bx basic-top">
-                                                                        <img src="../../img/common/ico_chat_br.svg" alt="">
-                                                                        <div class="balloon top" style="width: 120px !important; min-width: 120px !important; left: -26px !important;">
-                                                                            <p>1:1 메시지 보내기</p>
-                                                                        </div>
-                                                                    </a>
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <p>O</p>
-                                                                <span>(2021.03.02)</span>
-                                                            </td>
-                                                            <td>
-                                                                <div class="flex">
-                                                                    <p>010-1234-2459</p>
-                                                                    <button type="button" class="ico tool-tip-bx basic-top" data-popup="smsSendComp">
-                                                                        <img src="../../img/common/ico_dm_sm.svg" alt="">
-                                                                        <div class="balloon top" style="width: 140px !important; min-width: 140px !important; left: -26px !important;">
-                                                                            <p>학급 초대 SMS 보내기</p>
-                                                                        </div>
-                                                                    </button>
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <p>X</p>
-                                                                <button type="button" class="url" data-popup="urlcopy">초대 URL 복사</button>
-                                                            </td>
-                                                            <td>
-                                                                <button type="button" class="del" data-popup="delinfo">삭제</button>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>
-                                                                <div class="form-wrap">
-                                                                    <input type="checkbox" name="chk" id="chk2" class="basic-control type-b">
-                                                                    <label for="chk2" class="basic-radio"></label>
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <p>14</p>
-                                                            </td>
-                                                            <td class="st-name">
-                                                                <div class="flex">
-                                                                    <p>최영호</p>
-                                                                    <a href="#" class="ico"><img src="../../img/common/ico_book.svg" alt=""></a>
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <div class="flex">
-                                                                    <p>010-1234-8989</p>
-                                                                    <button type="button" class="ico tool-tip-bx basic-top" data-popup="smsSendComp">
-                                                                        <img src="../../img/common/ico_dm_sm.svg" alt="">
-                                                                        <div class="balloon top" style="width: 140px !important; min-width: 140px !important; left: -26px !important;">
-                                                                            <p>학급 초대 SMS 보내기</p>
-                                                                        </div>
-                                                                    </button>
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <p>X</p>
-                                                                <button type="button" class="url"  data-popup="urlcopy">초대 URL 복사</button>
-                                                            </td>
-                                                            <td>
-                                                                <div class="flex">
-                                                                    <p>010-1234-8282</p>
-                                                                    <a href="#" class="ico tool-tip-bx basic-top">
-                                                                        <img src="../../img/common/ico_chat_br.svg" alt="">
-                                                                        <div class="balloon top" style="width: 120px !important; min-width: 120px !important; left: -26px !important;">
-                                                                            <p>1:1 메시지 보내기</p>
-                                                                        </div>
-                                                                    </a>
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <p>O</p>
-                                                                <span>(2021.03.02)</span>
-                                                            </td>
-                                                            <td>
-                                                                <button type="button" class="del" data-popup="delinfo">삭제</button>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>
-                                                                <div class="form-wrap">
-                                                                    <input type="checkbox" name="chk" id="chk3" class="basic-control type-b">
-                                                                    <label for="chk3" class="basic-radio"></label>
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <p>15</p>
-                                                            </td>
-                                                            <td class="st-name">
-                                                                <div class="flex">
-                                                                    <p>장철</p>
-                                                                    <a href="#" class="ico"><img src="../../img/common/ico_book.svg" alt=""></a>
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <div class="flex">
-                                                                    <p>010-1234-2424</p>
-                                                                    <a href="#" class="ico tool-tip-bx basic-top">
-                                                                        <img src="../../img/common/ico_chat_br.svg" alt="">
-                                                                        <div class="balloon top" style="width: 120px !important; min-width: 120px !important; left: -26px !important;">
-                                                                            <p>1:1 메시지 보내기</p>
-                                                                        </div>
-                                                                    </a>
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <p>O</p>
-                                                                <span>(2021.03.02)</span>
-                                                            </td>
-                                                            <td>
-                                                                <div class="flex">
-                                                                    <p>010-1234-1129</p>
-                                                                    <button type="button" class="ico tool-tip-bx basic-top" data-popup="smsSendComp">
-                                                                        <img src="../../img/common/ico_dm_sm.svg" alt="">
-                                                                        <div class="balloon top" style="width: 140px !important; min-width: 140px !important; left: -26px !important;">
-                                                                            <p>학급 초대 SMS 보내기</p>
-                                                                        </div>
-                                                                    </button>
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <p>X</p>
-                                                                <button type="button" class="url" data-popup="urlcopy">초대 URL 복사</button>
-                                                            </td>
-                                                            <td>
-                                                                <button type="button" class="del" data-popup="delinfo">삭제</button>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>
-                                                                <div class="form-wrap">
-                                                                    <input type="checkbox" name="chk" id="chk1" class="basic-control type-b">
-                                                                    <label for="chk1" class="basic-radio"></label>
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <p>16</p>
-                                                            </td>
-                                                            <td class="st-name">
-                                                                <div class="flex">
-                                                                    <p>이영석</p>
-                                                                    <a href="#" class="ico"><img src="../../img/common/ico_book.svg" alt=""></a>
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <div class="flex">
-                                                                    <p>010-1234-3327</p>
-                                                                    <a href="#" class="ico tool-tip-bx basic-top">
-                                                                        <img src="../../img/common/ico_chat_br.svg" alt="">
-                                                                        <div class="balloon top" style="width: 120px !important; min-width: 120px !important; left: -26px !important;">
-                                                                            <p>1:1 메시지 보내기</p>
-                                                                        </div>
-                                                                    </a>
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <p>O</p>
-                                                                <span>(2021.03.02)</span>
-                                                            </td>
-                                                            <td>
-                                                                <div class="flex">
-                                                                    <p>010-1234-7754</p>
-                                                                    <button type="button" class="ico tool-tip-bx basic-top" data-popup="smsSendComp">
-                                                                        <img src="../../img/common/ico_dm_sm.svg" alt="">
-                                                                        <div class="balloon top" style="width: 140px !important; min-width: 140px !important; left: -26px !important;">
-                                                                            <p>학급 초대 SMS 보내기</p>
-                                                                        </div>
-                                                                    </button>
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <p>X</p>
-                                                                <button type="button" class="url" data-popup="urlcopy">초대 URL 복사</button>
-                                                            </td>
-                                                            <td>
-                                                                <button type="button" class="del" data-popup="delinfo">삭제</button>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>
-                                                                <div class="form-wrap">
-                                                                    <input type="checkbox" name="chk" id="chk2" class="basic-control type-b">
-                                                                    <label for="chk2" class="basic-radio"></label>
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <p>17</p>
-                                                            </td>
-                                                            <td class="st-name">
-                                                                <div class="flex">
-                                                                    <p>이관희</p>
-                                                                    <a href="#" class="ico"><img src="../../img/common/ico_book.svg" alt=""></a>
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <div class="flex">
-                                                                    <p>010-1234-7465</p>
-                                                                    <button type="button" class="ico tool-tip-bx basic-top" data-popup="smsSendComp">
-                                                                        <img src="../../img/common/ico_dm_sm.svg" alt="">
-                                                                        <div class="balloon top" style="width: 140px !important; min-width: 140px !important; left: -26px !important;">
-                                                                            <p>학급 초대 SMS 보내기</p>
-                                                                        </div>
-                                                                    </button>
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <p>X</p>
-                                                                <button type="button" class="url"  data-popup="urlcopy">초대 URL 복사</button>
-                                                            </td>
-                                                            <td>
-                                                                <div class="flex">
-                                                                    <p>010-1234-7214</p>
-                                                                    <a href="#" class="ico tool-tip-bx basic-top">
-                                                                        <img src="../../img/common/ico_chat_br.svg" alt="">
-                                                                        <div class="balloon top" style="width: 120px !important; min-width: 120px !important; left: -26px !important;">
-                                                                            <p>1:1 메시지 보내기</p>
-                                                                        </div>
-                                                                    </a>
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <p>O</p>
-                                                                <span>(2021.03.02)</span>
-                                                            </td>
-                                                            <td>
-                                                                <button type="button" class="del" data-popup="delinfo">삭제</button>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>
-                                                                <div class="form-wrap">
-                                                                    <input type="checkbox" name="chk" id="chk3" class="basic-control type-b">
-                                                                    <label for="chk3" class="basic-radio"></label>
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <p>18</p>
-                                                            </td>
-                                                            <td class="st-name">
-                                                                <div class="flex">
-                                                                    <p>손미영</p>
-                                                                    <a href="#" class="ico"><img src="../../img/common/ico_book.svg" alt=""></a>
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <div class="flex">
-                                                                    <p>010-1234-3965</p>
-                                                                    <a href="#" class="ico tool-tip-bx basic-top">
-                                                                        <img src="../../img/common/ico_chat_br.svg" alt="">
-                                                                        <div class="balloon top" style="width: 120px !important; min-width: 120px !important; left: -26px !important;">
-                                                                            <p>1:1 메시지 보내기</p>
-                                                                        </div>
-                                                                    </a>
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <p>O</p>
-                                                                <span>(2021.03.02)</span>
-                                                            </td>
-                                                            <td>
-                                                                <div class="flex">
-                                                                    <p>010-1234-3754</p>
-                                                                    <button type="button" class="ico tool-tip-bx basic-top" data-popup="smsSendComp">
-                                                                        <img src="../../img/common/ico_dm_sm.svg" alt="">
-                                                                        <div class="balloon top" style="width: 140px !important; min-width: 140px !important; left: -26px !important;">
-                                                                            <p>학급 초대 SMS 보내기</p>
-                                                                        </div>
-                                                                    </button>
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <p>X</p>
-                                                                <button type="button" class="url" data-popup="urlcopy">초대 URL 복사</button>
-                                                            </td>
-                                                            <td>
-                                                                <button type="button" class="del" data-popup="delinfo">삭제</button>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>
-                                                                <div class="form-wrap">
-                                                                    <input type="checkbox" name="chk" id="chk1" class="basic-control type-b">
-                                                                    <label for="chk1" class="basic-radio"></label>
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <p>19</p>
-                                                            </td>
-                                                            <td class="st-name">
-                                                                <div class="flex">
-                                                                    <p>서동민</p>
-                                                                    <a href="#" class="ico"><img src="../../img/common/ico_book.svg" alt=""></a>
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <div class="flex">
-                                                                    <p>010-1234-5412</p>
-                                                                    <a href="#" class="ico tool-tip-bx basic-top">
-                                                                        <img src="../../img/common/ico_chat_br.svg" alt="">
-                                                                        <div class="balloon top" style="width: 120px !important; min-width: 120px !important; left: -26px !important;">
-                                                                            <p>1:1 메시지 보내기</p>
-                                                                        </div>
-                                                                    </a>
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <p>O</p>
-                                                                <span>(2021.03.02)</span>
-                                                            </td>
-                                                            <td>
-                                                                <div class="flex">
-                                                                    <p>010-1234-9632</p>
-                                                                    <button type="button" class="ico tool-tip-bx basic-top" data-popup="smsSendComp">
-                                                                        <img src="../../img/common/ico_dm_sm.svg" alt="">
-                                                                        <div class="balloon top" style="width: 140px !important; min-width: 140px !important; left: -26px !important;">
-                                                                            <p>학급 초대 SMS 보내기</p>
-                                                                        </div>
-                                                                    </button>
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <p>X</p>
-                                                                <button type="button" class="url" data-popup="urlcopy">초대 URL 복사</button>
-                                                            </td>
-                                                            <td>
-                                                                <button type="button" class="del" data-popup="delinfo">삭제</button>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>
-                                                                <div class="form-wrap">
-                                                                    <input type="checkbox" name="chk" id="chk2" class="basic-control type-b">
-                                                                    <label for="chk2" class="basic-radio"></label>
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <p>20</p>
-                                                            </td>
-                                                            <td class="st-name">
-                                                                <div class="flex">
-                                                                    <p>지현우</p>
-                                                                    <a href="#" class="ico"><img src="../../img/common/ico_book.svg" alt=""></a>
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <div class="flex">
-                                                                    <p>010-1234-7412</p>
-                                                                    <button type="button" class="ico tool-tip-bx basic-top" data-popup="smsSendComp">
-                                                                        <img src="../../img/common/ico_dm_sm.svg" alt="">
-                                                                        <div class="balloon top" style="width: 140px !important; min-width: 140px !important; left: -26px !important;">
-                                                                            <p>학급 초대 SMS 보내기</p>
-                                                                        </div>
-                                                                    </button>
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <p>X</p>
-                                                                <button type="button" class="url"  data-popup="urlcopy">초대 URL 복사</button>
-                                                            </td>
-                                                            <td>
-                                                                <div class="flex">
-                                                                    <p>010-1234-7458</p>
-                                                                    <a href="#" class="ico tool-tip-bx basic-top">
-                                                                        <img src="../../img/common/ico_chat_br.svg" alt="">
-                                                                        <div class="balloon top" style="width: 120px !important; min-width: 120px !important; left: -26px !important;">
-                                                                            <p>1:1 메시지 보내기</p>
-                                                                        </div>
-                                                                    </a>
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <p>O</p>
-                                                                <span>(2021.03.02)</span>
-                                                            </td>
-                                                            <td>
-                                                                <button type="button" class="del" data-popup="delinfo">삭제</button>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>
-                                                                <div class="form-wrap">
-                                                                    <input type="checkbox" name="chk" id="chk3" class="basic-control type-b">
-                                                                    <label for="chk3" class="basic-radio"></label>
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <p>21</p>
-                                                            </td>
-                                                            <td class="st-name">
-                                                                <div class="flex">
-                                                                    <p>금미연</p>
-                                                                    <a href="#" class="ico"><img src="../../img/common/ico_book.svg" alt=""></a>
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <div class="flex">
-                                                                    <p>010-1234-4563</p>
-                                                                    <a href="#" class="ico tool-tip-bx basic-top">
-                                                                        <img src="../../img/common/ico_chat_br.svg" alt="">
-                                                                        <div class="balloon top" style="width: 120px !important; min-width: 120px !important; left: -26px !important;">
-                                                                            <p>1:1 메시지 보내기</p>
-                                                                        </div>
-                                                                    </a>
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <p>O</p>
-                                                                <span>(2021.03.02)</span>
-                                                            </td>
-                                                            <td>
-                                                                <div class="flex">
-                                                                    <p>010-1234-4128</p>
-                                                                    <button type="button" class="ico tool-tip-bx basic-top" data-popup="smsSendComp">
-                                                                        <img src="../../img/common/ico_dm_sm.svg" alt="">
-                                                                        <div class="balloon top" style="width: 140px !important; min-width: 140px !important; left: -26px !important;">
-                                                                            <p>학급 초대 SMS 보내기</p>
-                                                                        </div>
-                                                                    </button>
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <p>X</p>
-                                                                <button type="button" class="url" data-popup="urlcopy">초대 URL 복사</button>
-                                                            </td>
-                                                            <td>
-                                                                <button type="button" class="del" data-popup="delinfo">삭제</button>
                                                             </td>
                                                         </tr>
                                                     </table>
@@ -1342,6 +539,19 @@
                 <!-- //end:본문 -->
             </div>
         </section>
+
+        <!-- start: 토스트 팝업 (비밀번호 초기화) -->
+        <div class="toast-alert-box ">
+            <!-- start: 첫 진입시 -->
+            <div class="toast-item toast-d toastAlert" id="toast" style="display: none;">
+                <div class="wrap">
+                    <div class="desc">비밀번호 초기화가 완료되었습니다.</div>
+                </div>
+            </div>
+            <!-- // End -->
+        </div>
+        <!-- // End -->
+        
     </section>
 
     <!-- start:레이어 팝업 -->

@@ -496,7 +496,7 @@
     padding-left: 0;
     display: block;
     font-size: 16px;
-    padding-left: 30px;
+    padding-left: 25px;
     font-weight: 400;
 }
 .basic-control.type-c ~ label:before{
@@ -1103,6 +1103,10 @@
     &.mg-top{
         margin-top: 50px;
     }
+    &.between{
+        justify-content: space-between;
+        padding: 0 15px;
+    }
 }
 .btn{
     @include basic-btn;
@@ -1126,6 +1130,12 @@
     &.xs{
         line-height: 30px;
         height: 30px;
+    }
+    &.xxs{
+        line-height: 20px;
+        height: 20px;
+        font-size: 12px;
+        padding: 0 4px;
     }
     &.disabled,
     &:disabled{
@@ -1969,11 +1979,24 @@ select::-ms-expand {
     color: #{$scrollbar};
     text-decoration: underline;
 }
+.main-color2{
+    color: #{$main-color2} !important;
+}
 .primary-color{
-    color: #{$primary-color} !important;
+    color: #{$main-color2} !important;
+}
+.std-color{
+    color: #{$class-btn} !important;
+}
+.pat-color{
+    color: #{$bg-color-g} !important;
 }
 .satday-color{
     color: #{$satday-color} !important;
+}
+
+.arrange-bar-middle-color{
+    color: #{$arrange-bar-middle} !important;
 }
 .guide-color{
     color: #{$guide-color};
@@ -2704,16 +2727,20 @@ select::-ms-expand {
 }
 
 .modal-wrap{
-    @include box-fixed-center;
-    max-width: 800px;
-    width: 800px;
-    box-shadow: 0 10px 20px  rgba(34,34,34,0.2);
-    background-color: #{$base-text-rfcolor};
-    border-radius: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
     overflow: hidden;
     opacity: 0;
     visibility: hidden;
     transition: 0.4s all;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1001;
     &.show{
         opacity:1;
         visibility: visible;
@@ -2764,9 +2791,12 @@ select::-ms-expand {
         }
         
     }
-    .modal-content{        
-        width: 100%;
-        height: 100%;
+    .modal-content{   
+        max-width: 800px;
+        width: 800px;
+        box-shadow: 0 10px 20px  rgba(34,34,34,0.2);
+        background-color: #{$base-text-rfcolor};
+        border-radius: 20px; 
         .inner{
             height: auto;
             >.title {
@@ -2969,7 +2999,11 @@ select::-ms-expand {
 **************************************************************************/
 @include media-descktop-md {
     .btn{
-        font-size: 14px;
+        //font-size: 14px;
+        &.md{
+            line-height: 40px;
+            height: 40px;
+        }
     }
     .tab-ui{
         .tb-btn{

@@ -293,6 +293,11 @@
     &.m4a{
         background: url(#{$img-url}ico_file_m4a.svg)no-repeat center / contain;
     }
+    //커넥팅북
+    &.contbook{
+        background: url(#{$img-url}ico_file_cont_book.svg)no-repeat center / contain;
+    }
+
 }
 .ico{
     @include inline-grop;
@@ -626,7 +631,7 @@
     }
 }
 .switch-wrap{
-    height: 30px;
+    height: 20px;
     overflow: hidden;
 }
 .switch {
@@ -639,14 +644,14 @@
         &+.switch-label{
             background: #{$primary-color};
             .onf-btn{
-                left: 34px;
+                left: 41px;
                 background: #fff;
                 &:after{
                     content: "ON";
                     position: absolute;
                     top: 50%;
                     left: -25px;
-                    font-size: 12px;
+                    font-size: 0.625em;
                     color: #fff;                    
                     transform: translateY(-50%);
                     line-height: 1em;
@@ -668,11 +673,11 @@
     }
     .onf-btn{
     position: absolute;
-    top: 5px;
+    top: 4px;
     left: 5px;
     display: inline-block;
-    width: 20px;
-    height: 20px;
+    width: 12px;
+    height: 12px;
     border-radius: 20px;
     background: #{$disabled-txt};
     transition: 0.2s;
@@ -681,7 +686,7 @@
         position: absolute;
         top: 50%;
         right: -25px;
-        font-size: 12px;
+        font-size: 0.625em;
         transform: translateY(-50%);
         color: #{$disabled-btn2};
         line-height: 1em;

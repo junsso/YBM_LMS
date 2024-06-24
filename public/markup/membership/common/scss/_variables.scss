@@ -11,7 +11,7 @@ $base-radius: 4px;
 $base-font-size: 16px;
 $base-font-size-mo: 14px;
 $circle-btn-size: 85px;
-$base-text-color: #505050;
+$base-text-color: #747474;
 $base-text-color2: #222222;
 $base-text-rfcolor: #ffffff;
 $base-border-color: #dadada;
@@ -70,6 +70,8 @@ $readonly2: #E9EBEE;
 $head-section-bg: #E6EAED;
 $mo-menu-bg: #f6f6f6;
 $swiper-bullet: #E1E1E1;
+$admin-color: #E8473F;
+$admin-color2: #004EA1;
 
 // layout
 $w-max-width: 1350px;
@@ -82,11 +84,19 @@ $side-minibar-width: 94px;
 $sd-max-width: 295px;
 $box-width-md: 610px;
 $box-width-lg: 760px;
+$box-width-xlg: 860px;
+$box-width-xxlg: 1024px;
 $header-h: 40px;
 $mo-header-h: 60px;
 $login-box-w: 820px;
 $footer-h: 196px;
 $mo-menu-w: calc(100% - 100px);
+
+
+
+$smartschool-color: #ff6652;
+$ycloud-color: #6d379e;
+$booksam-color: #203a63;
 
 // column
 $col-count: 106px;

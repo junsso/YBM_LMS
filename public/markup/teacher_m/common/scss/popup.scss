@@ -129,6 +129,10 @@
         margin-top: 0;
         max-width: 100%;
     }
+    &.type-b{
+        margin-bottom: 0;
+        max-width: 100%;
+    }
     .dsc{
         font-size: 1em;
         font-weight: 500;
@@ -587,6 +591,27 @@
                 &.basic{
                     color: #{$scrollbar};
                 }
+            }
+        }
+    }
+}
+
+
+.contents{
+    &.invite{
+        .cont-body{
+            padding: 15px;
+        }
+        .text-box{
+            .textarea{
+                text-align: left;
+            }
+            .desc{
+                font-size: 0.875em;
+                color: #{$base-button-color};
+            }
+            a{
+                color: #{$class-btn};
             }
         }
     }

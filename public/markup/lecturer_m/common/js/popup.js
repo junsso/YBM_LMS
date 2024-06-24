@@ -82,6 +82,11 @@ $('[data-popup]').on('click', function(){
             });
           });
 
+          $('#smsSendBeforePopup .this-close-btn').on('click', function () {
+            $('#smsSendBeforePopup').removeClass('show');
+            $('#smsSendPopup').addClass('show');
+          });
+
 
 
 

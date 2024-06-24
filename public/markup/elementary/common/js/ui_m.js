@@ -31,6 +31,7 @@ $(window).resize(function () {
     var bgWrap = $('.mo-bg');
 
     trigger.on('click', function () {
+      //alert('asfsdf');
       $(this).toggleClass('on');
       $('.mo-cont').toggleClass('on');
       if (trigger.hasClass('on')) {
@@ -151,3 +152,35 @@ $(window).resize(function () {
 
   }
 }).resize();
+
+$(window).resize(function () {
+  if (window.innerWidth < 992) {
+    // ***********mo***********
+   
+    $(window).scroll(function () {
+      if ($(window).scrollTop() > 0) {
+        $('.header').addClass('active');
+      } else {
+        $('.header').removeClass('active');
+      }
+    });
+
+
+  }
+});
+
+$(window).ready(function () {
+  if (window.innerWidth < 992) {
+    // ***********mo***********
+   
+    $(window).scroll(function () {
+      if ($(window).scrollTop() > 0) {
+        $('.header').addClass('active');
+      } else {
+        $('.header').removeClass('active');
+      }
+    });
+
+
+  }
+});

@@ -4,6 +4,9 @@
 
 .header {
     margin: auto;
+    position: absolute;
+    width: 100%;
+    z-index: 100;
     .header-inner {
         height: 100px;
     }
@@ -145,6 +148,7 @@
             }
         }
         &.on {
+            top: 0;
             align-items: baseline;
             &::after {
                 display: none;
@@ -243,6 +247,90 @@
     }
     
 }
+//최상단 배너
+.top-banner-area{
+    height: 80px;
+    .inn{
+      width: 100%;
+      height: 100%;
+      position: relative;
+      .img-wrap{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &.mo{
+            display: none;
+        }
+      }
+      .btns{
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+        font-size: 12px;
+        color: #{$scrollbar};
+        z-index: 10;
+        .ico{
+          @include inline-grop;
+          background: url(#{$img-url}ico_close2.svg) no-repeat center / contain;
+          width: 20px;
+          height: 20px;
+          background-size: 26px;
+          margin-top: -2px;
+        }
+      }
+    }
+}
+//홍보팝업
+.ev-modal-wrap{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .bg{
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      background: rgba(0,0,0,0.3);
+      bottom: 0;
+      z-index: 99;
+    }
+    .inn{
+      position: relative;
+      z-index: 100;
+    }
+    .body{
+      .img-wrap{
+        border-radius: 20px;
+        overflow: hidden;
+      }
+    }
+    .close-btn{
+      color: #{$base-text-rfcolor};
+      letter-spacing: 1px;
+      border-radius: 20px;
+      border: 1px solid #{$base-text-rfcolor};
+    }
+    .foot{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+      .basic-control.type-c ~ label{
+        color: #{$base-text-rfcolor};
+      }
+      .rt-box{
+        margin-left: auto;
+      }
+    }
+  }
+
 
 .common-list {
     padding-top: 100px;
@@ -250,6 +338,7 @@
     box-sizing: content-box;
     border-top: 1px solid #{$btn-border-color};
     border-bottom: 1px solid #{$btn-border-color};
+    background-color: #{$secondary-bg};
     .inner {
         display: flex;
         align-items: center;
@@ -641,9 +730,39 @@
     html,body {
         min-width: auto;
     }
+    .header{
+        &.active{
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 900;
+        }
+        .trigger{
+            &.on{
+                position: fixed;
+            }
+        }
+    }
     .main .header .header-inner {
         line-height: normal;
     }
+    .top-banner-area{
+        height: auto;
+        .inn{
+          .img-wrap{
+            &.mo{
+                display: block;
+            }
+            &.pc{
+                display: none;
+            }
+          }
+          .btns{
+            .ico{
+            }
+          }
+        }
+      }
     .mo-loginbox {
         position: relative;
         &::after {
@@ -707,6 +826,7 @@
     .mo-gnb {
         display: block;
         height: 60px;
+        position: relative;
         .mo-bg {
             display: none;
             &.on {
@@ -745,7 +865,7 @@
         }
 
         .btn-alarm.msg {
-            position: fixed;
+            position: absolute;
             top: 0;
             right: 0;
             z-index: 100;
@@ -878,10 +998,11 @@
 
     .trigger {
         z-index: 1000;
-        position: fixed;
+        position: absolute;
         top: 0;
         left: 0;
         padding: 20px;
+        height: 60px;
         i {
             width: 20px;
             height: 20px;
@@ -905,7 +1026,6 @@
         justify-content: center;
         text-align: center;
         a {
-            margin-top: 12px;
             width: 79px;
             height: 20px;
             background: url(#{$img-url}logo_s.svg) no-repeat center center / contain;
@@ -926,11 +1046,12 @@
                 width: auto;
                 height: 60px;
                 line-height: 60px;
+                padding: 0 50px;
                 .site-logo {
                     margin-right: 0;
+                    height: 60px;
                 }
                 a {
-                    padding-top: 32px;
                     height: auto !important;
                 }
                 .gnb-box {
@@ -1050,6 +1171,7 @@
     .mo-list {
         display: block;
         margin-top: -1px;
+        background-color: #fff;
         .swiper-container{
             padding: 0 10px;
         }

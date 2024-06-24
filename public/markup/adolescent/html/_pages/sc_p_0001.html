@@ -27,6 +27,19 @@
 <script src="../../lib/swiper.js"></script>
 </head>
 <body class="">
+<!-- start: 상단 배너 영역 (background-color는 예시로 넣어둠.삭제해도 무방함.)-->
+<div class="top-banner-area" style="background-color: pink;">
+    <div class="inn">
+        <div class="img-wrap pc">
+            <img src="../../img/temp/pc_top_sample.png" alt="샘플 배너이미지">
+        </div>
+        <div class="img-wrap mo">
+            <img src="../../img/temp/mobile_top_sample.png" alt="샘플 배너이미지">
+        </div>
+        <button type="button" class="btns">오늘 하루 보지 않기 <span class="ico"></span></button>
+    </div>
+</div>
+<!-- // End -->
 <section class="wrap main">
     <section class="inner">
         <!-- start : header -->
@@ -241,6 +254,37 @@
             </div>
         </section>
         <!-- end : header -->
+
+        <!-- start: 우측 플로팅 배너 -->   
+        <div class="float-banner-box">
+            <div class="item">
+                <button type="button" class="del-btn"></button>
+                <a href="#" class="img-wrap"><img src="../../img/temp/img_float_banner.png" alt=""></a>
+            </div>
+        </div>
+        <!-- // End -->
+
+        <!-- start: 홍보 팝업 -->
+        <div class="ev-modal-wrap">
+            <div class="bg"></div>
+            <div class="inn">
+                <div class="body">
+                    <div class="img-wrap">
+                        <img src="../../img/temp/modal_banner_600x600.jpg" alt="">
+                    </div>
+                </div>
+                <div class="foot">
+                    <div class="form-wrap">
+                        <input type="checkbox" name="close" id="close" class="basic-control type-c">
+                        <label for="close" class="">오늘 하루 보지않기</label>
+                    </div>
+                    <div class="rt-box">
+                        <button type="button" class="close-btn">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- // End -->
 
         <!-- start : 고정사이드바 -->
         <!-- left 달력보기 -->
@@ -647,37 +691,52 @@ function calendarMaker(target, date) {
         <!-- start : container -->
         <section class="container class-contain">
             <div class="inner">
-                <!-- 상단 bg -->
-                <div class="class-board-bg"></div>
-                <!-- start : 학급 초대 url 등록 -->
-                <div class="cb-main">
-                    <div class="cb-inner">
-                        <div class="cb-title">
-                            <h1 class="scd-6 fz38">학급 초대 URL 등록</h1>
-                            <a href="#none" class="main-notice">
-                                <i class="icon-notice"></i>
-                                <span>[공지] 서버 안정화 작업 안내</span>
-                                <i class="arw-right"></i>
-                            </a>
-                        </div>
-                        <div class="cb-tbox type-a mg-top-25">
-                            <div class="cbt-input">
-                                <input type="text" placeholder="학급 초대 URL를 입력해 주세요.">
-                                <button type="button" class="btn btn01">확인</button>
+                <div class="main-visual-wrap">
+                    <!-- start : 학급 초대 url 등록 -->
+                    <div class="cb-main">
+                        <div class="cb-inner">
+                            <div class="cb-title">
+                                <h1 class="scd-6 fz38">학급 초대 URL 등록</h1>
+                                <a href="#none" class="main-notice">
+                                    <i class="icon-notice"></i>
+                                    <span>[공지] 서버 안정화 작업 안내</span>
+                                    <i class="arw-right"></i>
+                                </a>
                             </div>
-                            <div class="cbt-cont mg-top-35">
-                                <span class="scd-6 fz28">선생님께 발급받은 학생용 학급 초대 URL을 입력하세요.</span>
-                                <p class="mg-top-20">
-                                    학급 초대 URL은 담당 선생님으로부터 받을 수 있습니다.
-                                </p>
-                                <div class="cbt-btn mg-top-20">
-                                    <a href="#none" class="arrow-left"></i>학급등록관리 바로가기</a>
+                            <div class="cb-tbox type-a mg-top-25">
+                                <div class="cbt-input">
+                                    <input type="text" placeholder="학급 초대 URL를 입력해 주세요.">
+                                    <button type="button" class="btn btn01">확인</button>
+                                </div>
+                                <div class="cbt-cont mg-top-35">
+                                    <span class="scd-6 fz28">선생님께 발급받은 학생용 학급 초대 URL을 입력하세요.</span>
+                                    <p class="mg-top-20">
+                                        학급 초대 URL은 담당 선생님으로부터 받을 수 있습니다.
+                                    </p>
+                                    <div class="cbt-btn mg-top-20">
+                                        <a href="#none" class="arrow-left"></i>학급등록관리 바로가기</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cb-tbox type-a mg-top-25">
+                                <div class="portfolio-box">
+                                    <div class="item-title">
+                                        <div class="title-balloon">
+                                            <h2 class="jl-24">
+                                                <i class="ico-portfolio"></i><span class="point">포트폴리오</span><em>(교과서 QR)</em>
+                                            </h2>
+                                        </div>
+                                    </div>
+                                    <div class="item-cont">
+                                        <p class="cs-msg">영어1</p>
+                                    </div>
+                                    <a class="btn-view portfolio mg-top-50" href="#none"><i>바로가기</i></a>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <!-- end : 학급 초대 url 등록 -->
                 </div>
-                <!-- end : 학급 초대 url 등록 -->
 
                 <!-- start : 맞춤콘텐츠 -->
                 <div class="custom-cont">

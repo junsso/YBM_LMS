@@ -508,6 +508,14 @@
             color: #{$sch-color6};
             border-color: #{$sch-color6};
         }
+        &.ai{
+            text-indent: -9999px;
+            background: url(#{$img-url}ico_ai_label2.svg) no-repeat right / contain;
+            background-size: 20px;
+            width: 22px;
+            height: 22px;
+            border: 0 none;
+        }
     }
     .tool-tip-bx {
         .balloon {
@@ -581,6 +589,13 @@
             margin-left: auto;
             width: 25%;
             text-align: right;
+        }       
+        .class-sub{
+            &.ai{
+                background: url(#{$img-url}ico_ai_label2.svg) no-repeat right / contain;
+                background-size: 20px;
+            }
+
         }
     }
     &.short {
@@ -606,7 +621,7 @@
                     }
                 }
             }
-        }
+        } 
     }
     &.comp {
         background: #{$base-line-color};
@@ -617,6 +632,10 @@
         }
         .class-sub {
             border-color: transparent;
+            &.ai{
+                background: url(#{$img-url}ico_ai_label.svg) no-repeat right / contain;
+                background-size: 20px;
+            }
         }
         .progressbar .pging {
             background: #{$disabled-bg};
@@ -696,7 +715,14 @@
         }
         .arrow-right {
             background: url(#{$img-url}arrow_right_w.svg) no-repeat center center / contain;
-        }
+        }               
+        .class-sub{
+            &.ai{
+                background: url(#{$img-url}ico_ai_label.svg) no-repeat right / contain;
+                background-size: 20px;
+            }
+
+        } 
     }
     &.other {
         max-width: 875px;
@@ -711,6 +737,10 @@
         .class-sub {
             color: #{$primary-text-color};
             border-color: #{$primary-text-color};
+            &.ai{
+                background: url(#{$img-url}ico_ai_label2.svg) no-repeat right / contain;
+                background-size: 20px;
+            }
         }
         .circle {
             color: #{$primary-text-color};

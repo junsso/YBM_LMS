@@ -22,6 +22,49 @@
             }
             .popup-content{
                 .inner{
+                    position: relative;
+                    .class-select-box{
+                        position: absolute;
+                        right: 0;
+                        width: calc(100% - 300px);
+                        background-color: #{$point-color-opp};
+                        z-index: 10;
+                        height: 163px;
+                        .inn{
+                            padding: 20px 40px;
+                            height: 100%;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: flex-end;
+                            position: relative;
+                            &::before{
+                                content: '';
+                                display: block;
+                                width: calc(100% - 40px);
+                                height: 1px;
+                                background-color: rgba(255,255,255,.3);
+                                position: absolute;
+                                top: 80px;
+                            }
+                            .dsc{
+                                font-size: 20px;
+                                color: #{$regular-bgcolor};
+                            }
+                            .slt-box{
+                                min-width: 240px;
+                                .title{
+                                    padding: 0 15px;
+                                    .first{
+                                        font-size: 16px;
+                                        font-weight: 400;
+                                        color: #{$disabled-btn2};
+                                        width: calc(100% - 20px);
+                                    }
+                                }
+                            }
+                        }
+                    }
                     .title{
                         padding: 20px 40px;
                         border-bottom: 1px solid rgba(255,255,255,0.3);
@@ -57,6 +100,7 @@
                             position: absolute;
                             top: -15px;
                             right: -15px;
+                            z-index: 11;
                             button{
                                 width: 43px;
                                 height: 43px;
@@ -135,7 +179,7 @@
                             }
                             .unconnected{
                                 position: absolute;
-                                bottom: -6px;
+                                bottom: -2px;
                                 right: -55px;
                                 >.btn{
                                     position: relative;
@@ -277,18 +321,22 @@
                         background: #{$regular-bgcolor};
                         border-radius: 15px;
                         margin: 0 40px 40px 40px;
-                        padding: 40px;
+                        //padding: 40px;
+                        padding: 20px;
                         &.no-bg{
                             background: transparent none;
                             margin: 0;
                             border-top: 1px solid rgba(255,255,255,0.3);
                             border-radius: 0;
                         }
+                        &.head-none{
+                            margin-top: 20px;
+                        }
                         .inner{                            
                             //max-height: #{$liveshot-h};
                             //height: #{$liveshot-h};
-                            height: 360px;
-                            min-height: 360px;
+                            max-height: 480px;
+                            min-height: 400px;
                             @include scroll;
                         }
                         .shot-gateway{
@@ -382,8 +430,8 @@
                         }
                         .qznow-form{
                             input[type=text]{
-                                height: 60px;
-                                line-height: 60px;
+                                height: 50px;
+                                line-height: 50px;
                                 border-radius: 10px;
                                 border: 1px solid #{$base-border-color};
                                 width: 100%;
@@ -581,11 +629,11 @@
                     }
                     .conts-list-contain{
                         background-color: #{$primary-opp};
-                        padding: 20px 0;
+                        padding: 20px 0 0;
                         margin-top: 20px;
                         border-top: 1px solid #{$base-border-color};
                         .inn{
-                            min-height: 150px;
+                            min-height: 90px;
                         }
                         .top{
                             text-align: center;
@@ -601,22 +649,20 @@
                             .user-list{
                                 @include scroll;
                                 margin-top: 0;
-                                max-height: 102px;
+                                max-height: 48px;
                                 ol{
                                     display: flex;
                                     flex-direction: row;
                                     flex-wrap: wrap;
-                                    gap: 8px;
-                                    text-align: center;
+                                    gap: 6px 12px;
+                                    //text-align: center;
                                     justify-content: center;
                                 }
                                 li{
-                                    width: calc(100% / 7 - 6px);
-                                    height: 45px;
-                                    line-height: 45px;
+                                    // width: calc(100% / 8 - 6px);
                                     font-size: 0.875em;
-                                    background-color: #{$bg-gray2};
-                                    border-radius: 50px;
+                                    // background-color: #{$bg-gray2};
+                                    // border-radius: 50px;
                                     &.active{
                                         background: #ff0;
                                     }
@@ -647,6 +693,9 @@
             @include popupcont;
             //opacity: 0;
             //visibility: hidden;
+            &.x900{
+                width: 900px;
+            }
             .inner{
                 .title {
                     position: relative;
@@ -1099,5 +1148,264 @@
 .qz-view{                          
     .sbj-tabs{
         padding-right: 15px;
+    }
+}
+
+//각자시작 > 종료 
+.result-board{
+    &.result{
+        .table{
+            .grp-pro-bar{
+                width: 100%;
+                height: 12px;
+                background-color: #{$btn-color};
+                border-radius: 0 20px 20px 0;
+                position: relative;
+            }
+            .bar{
+                position: absolute;
+                height: 100%;
+                background-color: #{$primary-color};
+                border-radius: 0 20px 20px 0;
+            }
+        }
+    }
+}
+.page-arrow-box{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 5px 20px;
+    .btns{
+        width: 24px;
+        height: 24px;
+        border-radius: 100%;
+        border: 0;
+        &.prev{
+            background: url('#{$img-url}ico_play2.svg') no-repeat 8px center /contain;
+            background-size: 12px;
+            transform: rotate(-180deg);
+            background-color: #fff;
+        }
+        &.next{
+            background: url('#{$img-url}ico_play2.svg') no-repeat 8px center /contain;
+            background-size: 12px;
+            background-color: #fff;
+        }
+    }
+    .page{
+        font-size: 16px;
+        padding: 0 10px;
+        font-weight: 400;
+        strong{
+            color: #FC5D5B;
+        }
+    }
+}
+
+//학생순위 보기
+.qz-ranking-wrap{
+    padding: 30px 25px;
+    .qz-ranking-list{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        li{ //2023-07
+            background-color: #F2F3F7;
+            //height: 50px;            
+            line-height: 50px;
+            font-weight: 500;
+            font-size: 18px;
+            color: #1B1D1F;
+            display: flex;
+            align-items: stretch;
+            border: 1px solid #D5D5D5;
+            border-radius: 10px;
+            overflow: hidden;
+            .rank{
+                padding: 0 16px;
+                display: flex;
+                gap: 10px;
+                align-items: center;
+                background-color: #00416C;
+                color: white;
+                font-weight: 700;
+                min-width: 94px;
+                img{
+                    margin-top: 2px;
+                }
+            }
+            .member{
+                padding: 13px  20px;
+                line-height: 24px;
+                //overflow: hidden;
+                //text-overflow: ellipsis;
+                //display: -webkit-box;
+                //-webkit-line-clamp: 1;
+                //-webkit-box-orient: vertical;
+                //white-space: inherit;
+                //word-break: break-all;
+            }
+            .score{
+                margin-left: auto;
+                padding-right:20px;
+                text-align: right;
+                color: #FC5D5B;
+                //min-width: 94px;
+                display:flex;
+                justify-content: flex-end;
+                align-items: center;
+                white-space: nowrap;
+            }
+        }
+    }
+    .qz-member-tab{ //2023-07
+        display: flex;
+        gap: 20px;
+        >div{
+            position: relative;
+            //flex: 1;
+            height: 60px;
+            width: 60px;
+            font-weight: 400;
+            font-size: 20px;
+            color: #72787F;
+            background-color: #E8EBED;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid #C9CDD2;
+            border-radius: 10px;
+            //&:not(:first-child){
+            //    border-left: 1px solid #C9CDD2;
+            //}
+            .num{
+                display: inline-block;
+                color: white;
+                background-color: #666;
+                font-weight: 700;
+                border-radius: 100%;
+                min-width: 30px;
+                max-width: 30px;
+                min-height: 30px;
+                max-height: 30px;
+                line-height: 30px;
+                text-align: center;
+            }
+            &.current{
+                background: #FC5D5B;
+                border-color: #FC5D5B;
+                color: white;
+                font-weight: 700;
+                .num{
+                    background-color: white;
+                    color: #FC5D5B;
+                }
+                &::before {
+                    content:'';
+                    background: url(#{$img-url}ico_tip2_o.svg) no-repeat center / 50px auto;                
+                    position: absolute;
+                    width: 50px;
+                    height: 50px;
+                    left: -25px;
+                    top: -30px;
+                }
+            }
+            &:hover{
+                opacity: 0.8;
+            }
+        }
+    }
+    .qz-member-box{
+        margin-top: 30px;
+        display: flex;
+        gap: 16px;
+        .qz-answers,
+        .qz-nons{
+            border: 1px solid #D5D5D5;
+            border-radius: 10px;
+            overflow: hidden;
+            .title-box{
+                border-bottom: 1px solid #D5D5D5;
+                height: 57px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 17px;
+                font-weight: 700;
+                font-size: 18px;
+                color: #525252;
+                background: #E8EBED;
+            }
+            .count-box{
+                display: flex;
+                align-items: center;
+                position: relative;
+                font-weight: 400;
+                gap: 2px;
+                @include left-before-bar;
+                .count{
+                    font-weight: 700;
+                    color: black;
+                }
+            }
+        }
+        .qz-answers{
+            flex: 2;
+            .title-box{
+                background: rgba(252, 93, 91, 0.1);
+                .count{
+                    color: #FC5D5B;
+                }
+            }
+        }
+        .qz-nons{
+            flex: 1.15;
+        }
+        .qz-member-list{
+            margin: 9px;
+            padding: 11px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            max-height: 340px;
+            li{
+                background: #E8EBED;
+                border-radius: 999px;
+                padding: 9.5px 20px;
+                font-weight: 400;
+                font-size: 18px;
+                color: #1B1D1F;
+                .num{
+                    font-weight: 700;
+                }
+                .answer,
+                .wrong{
+                    display: inline-block;
+                    margin-left: 17px;
+                    position: relative;
+                    @include left-before-bar;
+                    font-weight: 700;
+                }
+                .answer{
+                    color: #FC5D5B;
+                }
+                .wrong{
+                    color: #00416C;
+                }
+            }
+            overflow-y: auto;
+            &::-webkit-scrollbar{
+                width: 5px;
+                height: 5px;
+                position: absolute; 
+            }
+            &::-webkit-scrollbar-thumb,
+            &::-webkit-scrollbar-track{
+                background-color: rgba(0, 0, 0, 0.1); 
+                border-radius: 10px;
+            }
+        }
     }
 }

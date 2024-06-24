@@ -512,6 +512,13 @@
             color: #{$sch-color6};
             border-color: #{$sch-color6};
         }
+        &.ai{
+            text-indent: -9999px;
+            background: url(#{$img-url}ico_ai_label2.svg) no-repeat right / contain;
+            width: 22px;
+            height: 22px;
+            border: 0 none;
+        }
     }
     .tool-tip-bx {
         .balloon {
@@ -662,6 +669,12 @@
                 color: #{$base-text-color2}
             }
         }
+        .class-sub{
+            &.ai{
+                background: url(#{$img-url}ico_ai_label.svg) no-repeat right;
+            }
+
+        }
     }
     &.ing {
         color: #{$base-text-rfcolor};
@@ -700,6 +713,12 @@
         }
         .arrow-right {
             background: url(#{$img-url}arrow_right_w.svg) no-repeat center center / contain;
+        }
+        .class-sub{
+            &.ai{
+                background: url(#{$img-url}ico_ai_label.svg) no-repeat right;
+            }
+
         }
     }
     &.other {

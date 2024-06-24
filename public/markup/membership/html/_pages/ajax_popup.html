@@ -1838,3 +1838,380 @@
     </div>
 </div>
 <!-- //end:레이어 팝업 -->
+
+<!-- start: 고유학급 참여 url 접속시 해당정보가 일치하지 않을경우 알럿 / 화면ID : TC-P-3108_1-->
+<div class="layerpop class-count type-a" id="loginAlertPopup">
+    <div class="overlay"></div>
+    <div class="popup-content">
+        <div class="inner">
+            <div class="title">
+                <div class="btn-box">
+                    <button type='button' class="close close-btn">닫기</button>
+                </div>
+            </div>
+            <div class="contents">
+                <div class="cont-body">
+                    <div class="info-txt-box type-a">
+                        <p class="img-wrap"><img src="../../img/common/ico_alert2.svg" alt=""></p>
+                        <h2 class="desc-md">입력하신 정보를 <br> 해당 학급 학생정보에서 찾을 수 없습니다.</h2>
+                        <p class="desc-sm mg-top-10">
+                            * 비밀번호가 분실 시 학교 선생님께 문의하거나,<br>
+                            또는 YBM스마트스쿨 고객센터로 연락주세요.
+                        </p>
+                    </div>
+                </div>
+                <div class="flex-btn-wrap">
+                    <div class="col-12">
+                        <button type="button" class="btn btn02 close-btn">확인</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //end:레이어 팝업 -->
+
+<!-- start: 1인 다계정 아이디 선택 -->
+<div class="layerpop class-count" id="multiAccountPopup">
+    <div class="overlay"></div>            
+    <div class="popup-content xxlg">
+          <div class="inner">
+            <div class="title">
+                <h2>1인 다계정 아이디 선택</h2>
+                <div class="btn-box">
+                    <button type='button' class="close close-btn">닫기</button>
+                </div>
+            </div>
+            <div class="contents">
+                <div class="cont-body">
+                    <div class="multi-account-info">
+                        <div class="top">
+                            <h2>동일한 개인정보로 가입된 여러 개의 아이디를 찾았습니다.</h2>
+                            <div class="desp">안전하고 정상적인 서비스 제공을 위해 앞으로 사용하실 아이디를 선택해주세요.</div>
+                        </div>
+                        <div class="data-wrap">
+                            <table class="table type-e">
+                                <colgroup>
+                                    <col width="60">
+                                    <col width="180">
+                                    <col width="">
+                                    <col width="">
+                                    <col width="">
+                                    <col width="">
+                                    <col width="">
+                                </colgroup>
+                                <tr>
+                                    <th rowspan="2">선택</th>
+                                    <th rowspan="2">아이디</th>
+                                    <th colspan="4">동시가입현황</th>
+                                    <th rowspan="2">회원가입 일자</th>
+                                    <th rowspan="2">마지막 로그인 일자</th>
+                                </tr>
+                                <tr>
+                                    <th>Y클라우드</th>
+                                    <th>YBM스마트스쿨</th>
+                                    <th>YBM북샘</th>
+                                    <th>YBM북샘<br />잔여 방울포인트</th>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="form-wrap">
+                                            <input type="radio" name="idList" id="id1" class="basic-control">
+                                            <label for="id1" class="basic-radio"></label>
+                                        </div>
+                                    </td>
+                                    <td class="text-left"><strong>ycloud</strong><span class="current-account">(현재접속중)</span></td>
+                                    <td>○<p class="user-type">(학교선생님)</p></td>
+                                    <td>X</td>
+                                    <td>○<p class="user-type">(학원선생님)</p></td>
+                                    <td>3,000P</td>
+                                    <td>2022.11.23</td>
+                                    <td>2022.11.24</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="form-wrap">
+                                            <input type="radio" name="idList" id="id2" class="basic-control">
+                                            <label for="id2" class="basic-radio"></label>
+                                        </div>
+                                    </td>
+                                    <td class="text-left"><strong>ycloud2</strong></td>
+                                    <td>○<p class="user-type">(학교선생님)</p></td>
+                                    <td>X</td>
+                                    <td>○<p class="user-type">(학원선생님)</p></td>
+                                    <td>3,000P</td>
+                                    <td>2022.11.23</td>
+                                    <td>2022.11.24</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="form-wrap">
+                                            <input type="radio" name="idList" id="id3" class="basic-control">
+                                            <label for="id3" class="basic-radio"></label>
+                                        </div>
+                                    </td>
+                                    <td class="text-left"><strong>ycloud23</strong></td>
+                                    <td>○<p class="user-type">(학교선생님)</p></td>
+                                    <td>X</td>
+                                    <td>○<p class="user-type">(학원선생님)</p></td>
+                                    <td>0P</td>
+                                    <td>2022.11.23</td>
+                                    <td>2022.11.24</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="agree-wrap">
+                            <div class="form-wrap">
+                                <input type="checkbox" name="agree" id="agree" class="basic-control">
+                                <label for="agree" class="basic-check">앞으로 이 아이디로 로그인하겠습니다.(동의)</label>
+                            </div>
+                        </div>
+                        <div class="added-info">
+                            <h4>※ 사용하실 1개의 ID를 선택하시면 나머지 계정은 2주 후 별도의 공지 없이 삭제됩니다.</h4>
+                            <div class="desp">통합 가입된 타 사이트(YBM북샘, YBM스마트스쿨) 계정 또한 별도의 백업 없이 자동 삭제되오니 <br />로그인 및 활동 이력을 확인해주시기 바랍니다.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-btn-wrap">
+                    <div class="col-6">
+                        <button type="button" class="btn close-btn">닫기</button>
+                    </div>
+                    <div class="col-6">
+                        <!-- 입력완료되기전까지는 .disabled 클래스가 붙음 -->
+                        <button type="button" class="btn btn02 next" data-popup="schNnameCom">선택한 아이디로 로그인</button>
+                    </div>
+                </div>
+            </div>
+          </div>
+    </div>
+  </div>
+  <!-- //end:레이어 팝업 -->
+
+  <!-- start Y클라우드 바로가기 레이어팝업 (2023-07)-->
+<div class="layerpop ycloud" id="shortcutPopup">    
+    <div class="overlay"></div> 
+    <div class="popup-content lg3">
+        <div class="popup-header">
+            <h2 class="title">Y클라우드 바로가기</h2>
+
+            <div class="btn-box">
+                <button type="button" class="close ico_modal_close close-btn">닫기</button>
+            </div>
+        </div>
+        <div class="popup-body">
+            <strong>바탕화면에 바로가기를 설치</strong>해 Y클라우드를 좀 더 빠르고 간편하게 이용하실 수 있습니다.
+            <div class="link-box">
+                <div class="lf-box">
+                    <a href="https://www.ybmcloud.com/" class="btn primary">
+                        <span>Y클라우드</span> 바로가기
+                    </a>
+                </div>
+                <div class="rt-box">
+                    <a href="https://ybmsmartschool.com/" class="btn family">
+                        <span>YBM 스마트스쿨</span> 바로가기
+                    </a>
+                    <a href="https://www.ybmbooksam.com/" class="btn family">
+                        <span>YBM 북샘</span> 바로가기
+                    </a>
+                    <a href="https://www.ybmteachers.com/" class="btn family">
+                        <span>YBM 교원연수원</span> 바로가기
+                    </a>
+                    <a href="https://www.ybmbooks.com/" class="btn family">
+                        <span>YBM Books</span> 바로가기
+                    </a>
+                </div>
+            </div>
+            <div class="info-box">
+                <h1>설치 방법</h1>
+                <div>설치할 항목을 마우스로 끌어 바탕화면에 놓아주세요.</div>
+                <img src="https://www.ybmcloud.com/asset/img/content/shortcut_info_box.png" alt="">
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //end:레이어 팝업 -->
+
+<!-- start: 학원 연동하기(학원 정보가 없을때)  / 화면ID : TC-P-7102 20240313 추가-->
+<div class="layerpop alert-popup" id="infoNoneAlertPopup">
+<div class="overlay"></div>            
+<div class="popup-content md">
+    <div class="inner">
+        <div class="title">
+            <div class="btn-box">
+                <button type='button' class="close close-btn">닫기</button>
+            </div>
+        </div>
+        <div class="contents">
+            <div class="cont-body">
+                <div class="alert-txt">
+                    <img src="../../img/common/ico_alert.svg" alt="">
+                    <p>
+                        스마트스쿨에 학원정보가 없습니다.<br>
+                        YBM북샘에 입력된 학원 정보가 자동 입력됩니다.
+                    </p>
+                </div>
+                <div class="table-wrap">
+                    <table class="table type-a">
+                        <colgroup>
+                            <col width="100px">
+                        </colgroup>
+                        <tbody>
+                            <tr>
+                                <th class="necessary">학원명</th>
+                                <td>
+                                    <div>
+                                        <input type="text" class="form-control type-a" placeholder="학원명을 입력해주세요." value="YBM 어학원">
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th class="necessary">주소</th>
+                                <td>
+                                    <div>
+                                        <input type="text" class="form-control type-a" placeholder="주소를 입력해주세요." value="서울 종로구 종로 104 (종로 2가)">
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th class="necessary">학교급</th>
+                                <td>
+                                    <div class="mixed-element">
+                                        <div class="form-block-group input">
+                                            <input type="text" placeholder="학교" class="form-control type-a" value="초등학교">
+                                        </div>
+                                        <div class="form-block-group input">
+                                            <input type="text" placeholder="과목" class="form-control type-a"value="영어">
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+
+            <div class="flex-btn-wrap">
+                <div class="col-12">
+                    <button type="button" class="btn btn02 close-btn">확인</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-- //end:레이어 팝업 -->
+
+<!-- start: 학원 연동하기(같은 이름의 학원이 존재할때)  / 화면ID : TC-P-7102 20240313 추가-->
+<div class="layerpop alert-popup" id="infoSameAlertPopup">
+    <div class="overlay"></div>            
+    <div class="popup-content md">
+        <div class="inner">
+            <div class="title">
+                <div class="btn-box">
+                    <button type='button' class="close close-btn">닫기</button>
+                </div>
+            </div>
+            <div class="contents">
+                <div class="cont-body">
+                    <div class="alert-txt">
+                        <p>
+                            같은 이름의 학원이 이미 존재합니다. 아래에서 선택해주세요.
+                        </p>
+                    </div>
+                    <div class="srh-box">
+                        <div class="table-wrap has-scroll">                            
+                            <table class="table type-b">
+                                <colgroup>
+                                    <col width="13%">
+                                    <col width="">
+                                    <col width="">
+                                </colgroup>
+                                <tbody>
+                                    <tr>
+                                        <th>선택</th>
+                                        <th>학교명</th>
+                                        <th>주소</th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="form-wrap">
+                                                <input type="radio" name="schN" id="schN1" class="basic-control">
+                                                <label for="schN1" class="basic-radio"></label>
+                                            </div>
+                                        </td>
+                                        <td>YBM 어학원</td>
+                                        <td>서울특별시 관악구 신림9동</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="form-wrap">
+                                                <input type="radio" name="schN" id="schN2" class="basic-control">
+                                                <label for="schN2" class="basic-radio"></label>
+                                            </div>
+                                        </td>
+                                        <td>YBM 어학원</td>
+                                        <td>서울특별시 관악구 신림1동</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="form-wrap">
+                                                <input type="radio" name="schN" id="schN3" class="basic-control">
+                                                <label for="schN3" class="basic-radio"></label>
+                                            </div>
+                                        </td>
+                                        <td>YBM 어학원</td>
+                                        <td>서울특별시 관악구 신림8동</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="form-wrap">
+                                                <input type="radio" name="schN" id="schN4" class="basic-control">
+                                                <label for="schN4" class="basic-radio"></label>
+                                            </div>
+                                        </td>
+                                        <td>YBM 어학원</td>
+                                        <td>서울특별시 관악구 신림8동</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="form-wrap">
+                                                <input type="radio" name="schN" id="schN" class="basic-control">
+                                                <label for="schN" class="basic-radio"></label>
+                                            </div>
+                                        </td>
+                                        <td>YBM 어학원</td>
+                                        <td>서울특별시 관악구 신림8동</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="form-wrap">
+                                                <input type="radio" name="schN" id="schN" class="basic-control">
+                                                <label for="schN" class="basic-radio"></label>
+                                            </div>
+                                        </td>
+                                        <td>YBM 어학원</td>
+                                        <td>서울특별시 관악구 신림8동</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                
+    
+                <div class="flex-btn-wrap">
+                    <div class="col-6">
+                        <button type="button" class="btn btn01 close-btn">YBM북샘 정보로 등록하기</button>
+                    </div>
+                    <div class="col-6">
+                        <button type="button" class="btn btn02 close-btn">확인</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- //end:레이어 팝업 -->
+

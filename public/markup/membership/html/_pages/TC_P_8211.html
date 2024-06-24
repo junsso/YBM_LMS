@@ -98,12 +98,13 @@
                 <div class="inner">
                     <h2>회원가입</h2>
                     <div class="desp">학교 선생님과 학생들, 학부모님을 위해 제공해드리는<br />Smart LMS(Learning Management System) 서비스 <strong>YBM 스마트 스쿨</strong> 입니다.</div>
+                    <div style="color: red; cursor: pointer; margin-top:10px;" data-popup="multiAccount">1인 다계정 아이디 선택 모달 레이어확인(퍼블용입니다. 개발시 참고해주세요)</div>
                 </div>
             </div>
             <div class="content">
                 <div class="tab">
                     <div class="join-case">
-                        <div class="box tabmenu case-teacher current" data-tab="tcpJoin">
+                        <div class="box tabmenu case-teacher" data-tab="tcpJoin">
                             <a href="#;">
                                 <span class="ico ico-teacher"></span>
                                 <span class="case-name">학교 선생님</span>
@@ -117,13 +118,13 @@
                             </a>
                         </div>
                         -->
-                        <div class="box tabmenu case-student yet" data-tab="stuJoin">
+                        <div class="box tabmenu case-student " data-tab="stuJoin">
                             <a href="#;">
                                 <span class="ico ico-student"></span>
                                 <span class="case-name">학생</span>
                             </a>
                         </div>
-                        <div class="box tabmenu case-parents yet" data-tab="prtJoin">
+                        <div class="box tabmenu case-parents" data-tab="prtJoin">
                             <a href="#;">
                                 <span class="ico ico-parents"></span>
                                 <span class="case-name">학부모</span>
@@ -131,112 +132,219 @@
                         </div>
                     </div>
                 </div>
-                <div class="tab-content current" id="tcpJoin">
-                    <div class="join-guide-txt">
-                        * 학교 선생님 회원으로 서비스를 이용하기 위해서는 GPKI / EPKI 를 이용한 교사 인증이 필요합니다. <br>
-                        *Y  클라우드 ID로 가입하시면 이벤트 당첨 확률이 높아집니다.
-                    </div>
-                    <div class="join-case-b">
-                        <div class="box new-account">
-                            <a href="#">
-                                <span class="ico ico-ybmss"></span>
-                                <span class="case-name">새로운 ID로 가입하기</span>
-                            </a>
+                <div class="tab-content current">
+                    <div class="select-info-box">
+                        <p><img src="../../img/common/ico_alert.svg" alt=""></p>
+                        가입하실 회원 유형을 선택하시면<br />통합회원 가입 안내가 표시됩니다.</div>
+                </div>
+                <div class="tab-content" id="tcpJoin">
+                    <div class="join-page">
+                        <div class="join-msg-box">
+                            <h3>YBM 선생님 통합회원 가입 안내</h3>
+                            Y클라우드, YBM스마트스쿨, YBM북샘 통합가입으로 다양한 맞춤 서비스와 혜택을 받아보세요.
                         </div>
-                        <div class="box">
-                            <a href="#;" data-popup="crossLogin">
-                                <span class="ico ico-ybm"></span>
-                                <span class="case-name">Y클라우드로 가입하기</span>
-                            </a>
+                        <div class="service-wrap mg top-90">                            
+                            <div class="service-item ycloud">
+                                <input type="checkbox" name="ycloud" id="ycloud" checked>
+                                <label for="ycloud">
+                                    <img src="../../img/common/ico_logo_ycloud_white.svg" alt="">
+                                    <span>YBM 교과서 교사 지원 사이트</span>
+                                </label>
+                            </div>
+                            <div class="service-item smartschool">
+                                <input type="checkbox" name="smartschool" id="smartschool" checked disabled>
+                                <label for="smartschool">
+                                    <img src="../../img/common/ico_logo_smartschool_white.svg" alt="">
+                                    <span>대면·비대면 교육 플랫폼</span>
+                                </label>
+                            </div>
+                            <div class="service-item booksam">
+                                <input type="checkbox" name="booksam" id="booksam" checked>
+                                <label for="booksam">
+                                    <img src="../../img/common/ico_logo_booksam_white.svg" alt="">
+                                    <span>YBM 참고서 지원 사이트</span>
+                                </label>
+                            </div>
                         </div>
-                    </div>
-                    <div class="sns-login join">
-                        <h3>SNS 계정 회원가입</h3>
-                        <button class="sns-button kakao"><em>카카오 계정으로 로그인</em></button>
-                        <button class="sns-button naver"><em>네이버 계정으로 로그인</em></button>
-                        <button class="sns-button facebook"><em>페이스북 계정으로 로그인</em></button>
-                        <button class="sns-button google"><em>구글 계정으로 로그인</em></button>
-                        <button class="sns-button apple"><em>애플 계정으로 로그인</em></button>
+                        <div class="join-guide-txt">
+                            * 학교 선생님 회원으로 서비스를 이용하기 위해서는 GPKI / EPKI 를 이용한 교사 인증이 필요합니다. <br>
+                            *Y  클라우드 ID로 가입하시면 이벤트 당첨 확률이 높아집니다.
+                        </div>
+                        <div class="join-case-b">
+                            <div class="box new-account">
+                                <a href="#">
+                                    <span class="ico ico-ybmss"></span>
+                                    <span class="case-name">새로운 ID로 가입하기</span>
+                                </a>
+                            </div>
+                            <div class="box">
+                                <a href="#;" data-popup="crossLogin">
+                                    <span class="ico ico-ybm"></span>
+                                    <span class="case-name">Y클라우드로 가입하기</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="sns-login join">
+                            <h3>SNS 계정 회원가입</h3>
+                            <button class="sns-button kakao"><em>카카오 계정으로 로그인</em></button>
+                            <button class="sns-button naver"><em>네이버 계정으로 로그인</em></button>
+                            <button class="sns-button facebook"><em>페이스북 계정으로 로그인</em></button>
+                            <button class="sns-button google"><em>구글 계정으로 로그인</em></button>
+                            <button class="sns-button apple"><em>애플 계정으로 로그인</em></button>
+                        </div>
                     </div>
                 </div>
                 <div class="tab-content" id="tutJoin">
-                    <div class="join-case-b">
-                        <div class="box new-account">
-                            <a href="#">
-                                <span class="ico ico-ybmss"></span>
-                                <span class="case-name">새로운 ID로 가입하기</span>
-                            </a>
+                    <div class="join-page">
+                        <div class="join-msg-box">
+                            <h3>YBM 선생님 통합회원 가입 안내</h3>
+                            Y클라우드, YBM스마트스쿨, YBM북샘 통합가입으로 다양한 맞춤 서비스와 혜택을 받아보세요.
                         </div>
-                        <div class="box">
-                            <a href="#;" data-popup="crossLogin">
-                                <span class="ico ico-ybm"></span>
-                                <span class="case-name">Y클라우드·YBM북샘 ID로 가입하기</span>
-                            </a>
+                        <div class="service-wrap mg top-90">
+                            <div class="service-item smartschool">
+                                <input type="checkbox" name="smartschool" id="smartschool">
+                                <label for="smartschool">
+                                    <img src="../../img/common/ico_logo_smartschool_white.svg" alt="">
+                                    <span>대면·비대면 교육 플랫폼</span>
+                                </label>
+                            </div>
+                            <div class="service-item ycloud">
+                                <input type="checkbox" name="ycloud" id="ycloud" checked disabled>
+                                <label for="ycloud">
+                                    <img src="../../img/common/ico_logo_ycloud_white.svg" alt="">
+                                    <span>YBM 교과서 교사 지원 사이트</span>
+                                </label>
+                            </div>
+                            <div class="service-item booksam">
+                                <input type="checkbox" name="booksam" id="booksam">
+                                <label for="booksam">
+                                    <img src="../../img/common/ico_logo_booksam_white.svg" alt="">
+                                    <span>YBM 참고서 지원 사이트</span>
+                                </label>
+                            </div>
                         </div>
-                    </div>
-                    <div class="sns-login join">
-                        <h3>SNS 계정 회원가입</h3>
-                        <button class="sns-button kakao"><em>카카오 계정으로 로그인</em></button>
-                        <button class="sns-button naver"><em>네이버 계정으로 로그인</em></button>
-                        <button class="sns-button facebook"><em>페이스북 계정으로 로그인</em></button>
-                        <button class="sns-button google"><em>구글 계정으로 로그인</em></button>
-                        <button class="sns-button apple"><em>애플 계정으로 로그인</em></button>
+                        <div class="join-case-b">
+                            <div class="box new-account">
+                                <a href="#">
+                                    <span class="ico ico-ybmss"></span>
+                                    <span class="case-name">새로운 ID로 가입하기</span>
+                                </a>
+                            </div>
+                            <div class="box">
+                                <a href="#;" data-popup="crossLogin">
+                                    <span class="ico ico-ybm"></span>
+                                    <span class="case-name">Y클라우드·YBM북샘 ID로 가입하기</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="sns-login join">
+                            <h3>SNS 계정 회원가입</h3>
+                            <button class="sns-button kakao"><em>카카오 계정으로 로그인</em></button>
+                            <button class="sns-button naver"><em>네이버 계정으로 로그인</em></button>
+                            <button class="sns-button facebook"><em>페이스북 계정으로 로그인</em></button>
+                            <button class="sns-button google"><em>구글 계정으로 로그인</em></button>
+                            <button class="sns-button apple"><em>애플 계정으로 로그인</em></button>
+                        </div>
                     </div>
                 </div>
                 <div class="tab-content" id="stuJoin">
-                    <div class="stu-prefix">
-                        <span>
-                            <input type="radio" id="under14" name="age14"><label for="under14">만 14세 미만</label>
-                        </span>
-                        <span>
-                            <input type="radio" id="morethan14" name="age14"><label for="morethan14">만 14세 이상</label>
-                        </span>
-                    </div>
-                    <div class="join-case-b">
-                        <div class="box new-account">
-                            <a href="#">
-                                <span class="ico ico-ybmss"></span>
-                                <span class="case-name">새로운 ID로 가입하기</span>
-                            </a>
+                    <div class="join-page">
+                        <div class="join-msg-box">
+                            <h3>YBM 학생 통합회원 가입 안내</h3>
+                            YBM스마트스쿨, YBM북샘 통합가입으로 다양한 맞춤 서비스와 혜택을 받아보세요.
                         </div>
-                        <div class="box">
-                            <a href="#;" data-popup="crossLogin">
-                                <span class="ico ico-ybm"></span>
-                                <span class="case-name">Y클라우드·YBM북샘 ID로 가입하기</span>
-                            </a>
+                        <div class="service-wrap mg top-90">
+                            <div class="service-item smartschool">
+                                <input type="checkbox" name="smartschool" id="smartschool2" checked>
+                                <label for="smartschool2">
+                                    <img src="../../img/common/ico_logo_smartschool_white.svg" alt="">
+                                    <span>대면·비대면 교육 플랫폼</span>
+                                </label>
+                            </div>
+                            <div class="service-item booksam">
+                                <input type="checkbox" name="booksam" id="booksam2" checked>
+                                <label for="booksam2">
+                                    <img src="../../img/common/ico_logo_booksam_white.svg" alt="">
+                                    <span>YBM 참고서 지원 사이트</span>
+                                </label>
+                            </div>
                         </div>
-                    </div>
-                    <div class="sns-login join">
-                        <h3>SNS 계정 회원가입</h3>
-                        <button class="sns-button kakao"><em>카카오 계정으로 로그인</em></button>
-                        <button class="sns-button naver"><em>네이버 계정으로 로그인</em></button>
-                        <button class="sns-button facebook"><em>페이스북 계정으로 로그인</em></button>
-                        <button class="sns-button google"><em>구글 계정으로 로그인</em></button>
-                        <button class="sns-button apple"><em>애플 계정으로 로그인</em></button>
+                        <div class="stu-prefix">
+                            <span>
+                                <input type="radio" id="under14" name="age14"><label for="under14">만 14세 미만</label>
+                            </span>
+                            <span>
+                                <input type="radio" id="morethan14" name="age14"><label for="morethan14">만 14세 이상</label>
+                            </span>
+                        </div>
+                        <div class="join-case-b">
+                            <div class="box new-account">
+                                <a href="#">
+                                    <span class="ico ico-ybmss"></span>
+                                    <span class="case-name">새로운 ID로 가입하기</span>
+                                </a>
+                            </div>
+                            <div class="box">
+                                <a href="#;" data-popup="crossLogin">
+                                    <span class="ico ico-ybm"></span>
+                                    <span class="case-name">Y클라우드·YBM북샘 ID로 가입하기</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="sns-login join">
+                            <h3>SNS 계정 회원가입</h3>
+                            <button class="sns-button kakao"><em>카카오 계정으로 로그인</em></button>
+                            <button class="sns-button naver"><em>네이버 계정으로 로그인</em></button>
+                            <button class="sns-button facebook"><em>페이스북 계정으로 로그인</em></button>
+                            <button class="sns-button google"><em>구글 계정으로 로그인</em></button>
+                            <button class="sns-button apple"><em>애플 계정으로 로그인</em></button>
+                        </div>
                     </div>
                 </div>
                 <div class="tab-content" id="prtJoin">
-                    <div class="join-case-b">
-                        <div class="box new-account">
-                            <a href="#">
-                                <span class="ico ico-ybmss"></span>
-                                <span class="case-name">새로운 ID로 가입하기</span>
-                            </a>
+                    <div class="join-page">
+                        <div class="join-msg-box">
+                            <h3>YBM 학부모 통합회원 가입 안내</h3>
+                            YBM스마트스쿨, YBM북샘 통합가입으로 다양한 맞춤 서비스와 혜택을 받아보세요.
                         </div>
-                        <div class="box">
-                            <a href="#;" data-popup="crossLogin">
-                                <span class="ico ico-ybm"></span>
-                                <span class="case-name">Y클라우드·YBM북샘 ID로 가입하기</span>
-                            </a>
+                        <div class="service-wrap mg top-90">
+                            <div class="service-item smartschool">
+                                <input type="checkbox" name="smartschool" id="smartschool3" checked>
+                                <label for="smartschool3">
+                                    <img src="../../img/common/ico_logo_smartschool_white.svg" alt="">
+                                    <span>대면·비대면 교육 플랫폼</span>
+                                </label>
+                            </div>
+                            <div class="service-item booksam">
+                                <input type="checkbox" name="booksam" id="booksam3" checked>
+                                <label for="booksam3">
+                                    <img src="../../img/common/ico_logo_booksam_white.svg" alt="">
+                                    <span>YBM 참고서 지원 사이트</span>
+                                </label>
+                            </div>
                         </div>
-                    </div>
-                    <div class="sns-login join">
-                        <h3>SNS 계정 회원가입</h3>
-                        <button class="sns-button kakao"><em>카카오 계정으로 로그인</em></button>
-                        <button class="sns-button naver"><em>네이버 계정으로 로그인</em></button>
-                        <button class="sns-button facebook"><em>페이스북 계정으로 로그인</em></button>
-                        <button class="sns-button google"><em>구글 계정으로 로그인</em></button>
-                        <button class="sns-button apple"><em>애플 계정으로 로그인</em></button>
+                        <div class="join-case-b">
+                            <div class="box new-account">
+                                <a href="#">
+                                    <span class="ico ico-ybmss"></span>
+                                    <span class="case-name">새로운 ID로 가입하기</span>
+                                </a>
+                            </div>
+                            <div class="box">
+                                <a href="#;" data-popup="crossLogin">
+                                    <span class="ico ico-ybm"></span>
+                                    <span class="case-name">Y클라우드·YBM북샘 ID로 가입하기</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="sns-login join">
+                            <h3>SNS 계정 회원가입</h3>
+                            <button class="sns-button kakao"><em>카카오 계정으로 로그인</em></button>
+                            <button class="sns-button naver"><em>네이버 계정으로 로그인</em></button>
+                            <button class="sns-button facebook"><em>페이스북 계정으로 로그인</em></button>
+                            <button class="sns-button google"><em>구글 계정으로 로그인</em></button>
+                            <button class="sns-button apple"><em>애플 계정으로 로그인</em></button>
+                        </div>
                     </div>
                 </div>
             </div>            

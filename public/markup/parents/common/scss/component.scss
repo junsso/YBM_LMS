@@ -2185,3 +2185,70 @@ button.more {
 
 
 }
+
+.basic-control{
+  @include chk-input;
+}
+.basic-control ~ label{
+  @include basic-radio;
+  font-size: 16px;
+}
+.basic-control ~ label:before{
+  @include basic-radio-before;
+}
+.basic-control:checked ~ label:after {
+  @include basic-radio-checked-after;
+}
+.basic-control.type-c ~ label{
+    padding-left: 0;
+    display: block;
+    font-size: 16px;
+    padding-left: 30px;
+    font-weight: 400;
+}
+.basic-control.type-c ~ label:before{
+    border-radius: 3px;
+    border: 1px solid #{$guide-color};
+    width: 18px;
+    height: 18px;
+    background: #{$base-text-rfcolor};
+}
+.basic-control.type-c:checked ~ label:after {
+    background: url(#{$img-url}ico_chk_check.svg)no-repeat center / contain;
+    width: 20px;
+    height: 20px;
+    border-radius: 0;
+    left: 0;
+}
+
+//ai
+.btn-ai{
+  @include bg-aiClass;
+  @include txt-aiClass;
+  border: 1px solid transparent;
+  .ai-class{
+      margin-right: 7px;
+  }
+  em{
+      color: #{$base-text-rfcolor};
+  }
+  &.xs{
+      line-height: 25px;
+      height: 25px;
+      padding: 0 15px;
+      em{
+          font-size: 14px;
+      }
+  }
+}
+.ico-gnb{
+  @include inline-grop;
+  width: 35px;
+  height: 35px;
+  &.ai-class{
+      background: url(#{$img-url}ico_ai_label.svg) no-repeat center / cover;
+      width: 32px;
+      height: 32px;
+  }
+}
+

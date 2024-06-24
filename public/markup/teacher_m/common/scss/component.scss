@@ -74,6 +74,15 @@
     &.ttalk{
         background: url(#{$img-url}ico_gnb_ttalk.svg) no-repeat center center;
     }
+    &.ai-class{
+        background: url(#{$img-url}ico_ai_label.svg) no-repeat center / cover;
+        width: 28px;
+        height: 28px;
+        &.sm{
+            width: 22px;
+            height: 22px;
+        }
+    }
 }
 .ico-alert{
     @include inline-grop;
@@ -169,6 +178,13 @@
     height: 15px;
     background: url(#{$img-url}ico_modify2.svg)no-repeat center / contain;
     margin-right: 5px;
+}
+.ico-ai{
+    @include inline-grop;
+    width: 20px;
+    height: 20px;
+    background: url(#{$img-url}ico_ai_label2.svg) no-repeat center / cover;
+    margin: 0 4px;
 }
 .alarm-box{
     .empty-info{
@@ -424,6 +440,9 @@
     }
     &.type-b{
         margin-right: 0;
+    }
+    &.align-right{
+        text-align: right;
     }
 }
 .basic-control{
@@ -1030,6 +1049,35 @@
     }
     &.type-d:checked ~ .rd-label::after{
         background: url(#{$img-url}ico_radio_check_yellow.svg)no-repeat center / contain;
+    }
+     //ai
+     &.ai{
+        ~ .rd-label{
+            padding: 0;
+            .desc{
+                display: inline-block;
+                padding-left: 28px;
+                padding-right: 12px;
+                position: relative;
+                &::after{
+                    content: '';
+                    display: inline-block;
+                    vertical-align: middle;
+                    background: url(#{$img-url}ico_ai_label2.svg) no-repeat center / contain;
+                    width: 17px;
+                    height: 17px;
+                    margin-left: 5px;
+                    margin-top: -3px;
+                }
+            }
+        }
+        &:checked ~ .rd-label{  
+            border: 1px solid transparent;
+            background-image: linear-gradient(#F7F8F9, #F7F8F9),linear-gradient(90.36deg, #FF00A1 0.01%, #9C00FF 68.97%, #0258FF 129.83%);
+            background-origin: border-box;
+            background-clip: content-box, border-box;   
+        }
+
     }
 }
 .rd-control{
@@ -2908,6 +2956,17 @@ select::-ms-expand {
             .state3{
                 margin: 0 3px;
             }
+            &.ai{
+                &::after{
+                    content: '';
+                    display: inline-block;
+                    vertical-align: middle;
+                    background: url(#{$img-url}ico_ai_label2.svg) no-repeat center / contain;
+                    width: 17px;
+                    height: 17px;
+                    margin: -4px 7px 0 3px;
+                }
+            }
         }
         .arrow{
             display: block;
@@ -2947,6 +3006,19 @@ select::-ms-expand {
                 font-weight: 400;
                 font-size: 12px;
                 line-height: 1.4;
+            }            
+            &.ai{
+                a{
+                    &::after{
+                        content: '';
+                        display: inline-block;
+                        vertical-align: middle;
+                        background: url(#{$img-url}ico_ai_label2.svg) no-repeat center / contain;
+                        width: 17px;
+                        height: 17px;
+                        margin: -4px 7px 0 3px;
+                    }
+                }
             }
         }
     }
@@ -3596,6 +3668,29 @@ select::-ms-expand {
     &.type-sm{
         height: 130px;
     }
+    &.ai{  
+        position: relative;      
+        &::before{
+            content: '클래스';
+            display: block;
+            color: #{$base-text-rfcolor};
+            font-size: 10px;
+            font-weight: 700;
+            line-height: 24px;
+            height: 24px;
+            border-radius: 4px 0 12px 0;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 10;
+            background-image:  url(#{$img-url}ico_ai_label.svg);
+            background-repeat: no-repeat;
+            background-size: 16px;
+            background-position: 8px center;
+            background-color: #F700A7;
+            padding: 0 8px 0 30px;
+        }
+    }
     
 }
 .font-sm{
@@ -3603,4 +3698,24 @@ select::-ms-expand {
 }
 .font-xs{
     font-size: 12px !important;
+}
+
+.btn-ai{
+    @include bg-aiClass;
+    @include txt-aiClass;
+    border: 1px solid transparent;
+    .ai-class{
+        margin-right: 7px;
+    }
+    em{
+        color: #{$base-text-rfcolor};
+    }
+    &.xs{
+        line-height: 25px;
+        height: 25px;
+        padding: 0 15px;
+        em{
+            font-size: 14px;
+        }
+    }
 }

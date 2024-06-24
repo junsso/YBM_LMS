@@ -405,6 +405,28 @@ var cBookListSwiper = new Swiper('.book-cc-list .swiper-container', {
   }
 });	
 
+// 대시보드 상단 배너 스와이퍼
+var pBookListSwiper = new Swiper('.banner-top-area .swiper-container', {
+  slidesPerView: 'auto',
+  spaceBetween: 20,
+  breakpointsBase: 'window',
+  effect: 'slide',
+  freeMode: true, // 다음슬라이드 위치를 고정할지 안할지,(false 일경우 딱딱 끊기며 스와이프됨)
+  freeModeMomentumBounce: false,
+  freeModeSticky: true,  
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+  },
+  pagination: {
+    el: ".banner-top-area .swiper-pagination",
+    clickable: true,
+    renderBullet: function (index, className) {
+      return '<span class="' + className + '">' + (index + 1) + "</span>";
+    },
+  },
+});
+
 
 //수업보드 - 내수업자료 단원/차시  화면ID : TC-P-0008
 var stpWrapper = $('.step-wrapper');
@@ -1086,6 +1108,44 @@ $(chkBox).click(function(){
     $('input[name=chk]').prop('checked',true); 
       } else { $('input[name=chk]').prop('checked',false);} 		
 });
+
+//학급현황 연락처 hover시 화면ID : tc_p_3102
+$('.hidden-box .btn').on('mouseenter',function(){
+  $(this).parents('.hidden-box').addClass('active');
+});
+$('.hidden-box').on('mouseleave',function(){
+  $(this).removeClass('active');
+});
+
+//AI 클래스 메인 
+var workSheet = new Swiper('#aiClassSwiper .swiper-container', {
+  slidesPerView: 'auto',
+  spaceBetween: 10,
+  navigation: {
+    nextEl: '#aiClassSwiper .swiper-button-next',
+    prevEl: '#aiClassSwiper .swiper-button-prev',
+  }
+});
+
+
+//AI 클래스 메인 > 교재선택
+$(document).on('click', '[data-list]', function(){
+  
+  var list_id = $(this).attr('data-list');
+
+  $(this).toggleClass('current').siblings('[data-list]').removeClass('current');
+  $("#"+list_id).siblings().stop().slideUp();
+
+  if($(this).is('.current') == $('#'+list_id).length){
+      $("#"+list_id).stop().slideDown().siblings().stop().slideUp();
+  }
+  else{
+    $("#"+list_id).stop().slideUp().siblings('.none-box').slideDown();
+    $('.box-content').stop().slideUp().siblings('.none-box').slideDown();
+  }
+
+});
+
 
 
 

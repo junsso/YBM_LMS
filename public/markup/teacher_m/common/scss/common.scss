@@ -424,6 +424,26 @@
     box-shadow: 0 10px 30px rgba(69,76,83,0.3);
 }
 
+@mixin bg-aiClass{
+    background: linear-gradient(90.36deg, #FF00A1 0.01%, #9C00FF 68.97%, #0258FF 129.83%);
+    background-origin: border-box;
+}
+@mixin bg-default-aiClass{
+    background: linear-gradient(90.36deg, rgba(255, 0, 161, 0.6) 0.01%, rgba(156, 0, 255, 0.6) 68.97%, rgba(2, 88, 255, 0.6) 129.83%);
+    background-origin: border-box;
+}
+@mixin txt-aiClass{    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@mixin border-aiClass{    
+    border: 4px solid transparent;
+    background-image: linear-gradient(#fff, #fff),linear-gradient(90.36deg, #FF00A1 0.01%, #9C00FF 68.97%, #0258FF 129.83%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
 @mixin media-descktop-lg {
     @media (max-width: #{$breakpoint-desktop3-lg}) {
         @content;

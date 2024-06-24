@@ -549,12 +549,12 @@
                             <button type="button" class="day-next disabled"></button>
                         </div>
                     </div>
-                    <div class="asev-tab tab-ui type-b mg-top-20">
+                    <!-- <div class="asev-tab tab-ui type-b mg-top-20">
                         <button type="button" class="tb-btn on">과제 현황</button>
                         <button type="button" class="tb-btn">평가 현황</button>
-                    </div>
-                    <div class="asev-sub-title flex-cont mg-top-20">
-                        <div class="mg-right">
+                    </div> -->
+                    <div class="asev-sub-title flex-cont mg-top-40">
+                        <div class="mg-left">
                             <div class="slt-box">
                                 <div class="title">
                                     <h2 class="first">전체</h2>
@@ -573,13 +573,30 @@
                                     <i class="arrow"></i>
                                     <ul class="cont">
                                         <li><a href="#;" class="on">전체</a></li>
-                                        <li><a href="#;">제출 전</a></li>
-                                        <li><a href="#;">평가 중</a></li>
+                                        <li><a href="#;">과제</a></li>
+                                        <li><a href="#;">평가</a></li>
+                                    </ul>
+                                </div>
+                            </div> 
+                            <div class="slt-box">
+                                <div class="title">
+                                    <h2 class="first">전체</h2>
+                                    <i class="arrow"></i>
+                                    <ul class="cont">
+                                        <li><a href="#;" class="on">전체</a></li>
+                                        <li><a href="#;">제출전</a></li>
+                                        <li><a href="#;">평가중</a></li>
                                         <li><a href="#;">미제출</a></li>
                                         <li><a href="#;">완료</a></li>
                                     </ul>
                                 </div>
-                            </div>
+                            </div> 
+                        </div>
+                        <div class="mg-right">  
+                            <div class="form-wrap ai">
+                                <a href="#" class="btn btn01 btn-ai sm"><em>AI 스쿨 테스트</em><i class="btn-label count">100</i></a>
+                                <a href="#" class="btn btn01 btn-ai sm"><em>AI 스쿨 숙제</em><i class="btn-label count">5</i></a>
+                            </div> 
                         </div>
                     </div>
                 </div>
@@ -591,6 +608,7 @@
                     <a href="#none" class="asev-item">
                         <span class="state-tag before">제출전</span>
                         <div class="asev-top">
+                            <div class="case v1">과제</div>
                             <div class="mg-left">
                                 <div class="asev-top-left">
                                     <span class="term now">오늘 마감</span>
@@ -613,10 +631,6 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- <div class="asev-bottom comp">
-                            <i>!</i>
-                            <span>완료된 과제입니다.</span>
-                        </div> -->
                     </a>
                     <!-- end : 콘텐츠 -->
 
@@ -624,6 +638,7 @@
                     <a href="#none" class="asev-item">
                         <span class="state-tag ing">평가중</span>
                         <div class="asev-top">
+                            <div class="case v2">평가</div>
                             <div class="mg-left">
                                 <div class="asev-top-left">
                                     <span class="term day">D-6</span>
@@ -646,10 +661,6 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- <div class="asev-bottom comp">
-                            <i>!</i>
-                            <span>완료된 과제입니다.</span>
-                        </div> -->
                     </a>
                     <!-- end : 콘텐츠 -->
 
@@ -657,6 +668,7 @@
                     <a href="#none" class="asev-item">
                         <span class="state-tag unsub">미제출</span>
                         <div class="asev-top">
+                            <div class="case v2">평가</div>
                             <div class="mg-left">
                                 <div class="asev-top-left">
                                     <span class="term day">D-4</span>
@@ -679,10 +691,6 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- <div class="asev-bottom comp">
-                            <i>!</i>
-                            <span>완료된 과제입니다.</span>
-                        </div> -->
                     </a>
                     <!-- end : 콘텐츠 -->
 
@@ -690,6 +698,7 @@
                     <a href="#none" class="asev-item">
                         <span class="state-tag comp">완료</span>
                         <div class="asev-top">
+                            <div class="case v2">평가</div>
                             <div class="mg-left">
                                 <div class="asev-top-left">
                                     <span class="term day">D-3</span>
@@ -712,16 +721,13 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- <div class="asev-bottom comp">
-                            <i>!</i>
-                            <span>완료된 과제입니다.</span>
-                        </div> -->
                     </a>
                     <!-- end : 콘텐츠 -->
 
                     <!-- start : 콘텐츠 -->
                     <a href="#none" class="asev-item">
                         <div class="asev-top">
+                            <div class="case v1">과제</div>
                             <div class="mg-left">
                                 <div class="asev-top-left">
                                     <span class="term day">D-2</span>
@@ -744,16 +750,13 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- <div class="asev-bottom comp">
-                            <i>!</i>
-                            <span>완료된 과제입니다.</span>
-                        </div> -->
                     </a>
                     <!-- end : 콘텐츠 -->
 
                     <!-- start : 콘텐츠 -->
                     <a href="#none" class="asev-item">
                         <div class="asev-top">
+                            <div class="case v1">과제</div>
                             <div class="mg-left">
                                 <div class="asev-top-left">
                                     <span class="term day">D-1</span>
@@ -776,43 +779,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- <div class="asev-bottom comp">
-                            <i>!</i>
-                            <span>완료된 과제입니다.</span>
-                        </div> -->
                     </a>
-                    <!-- end : 콘텐츠 -->
-
-                    <!-- ex:평가 콘텐츠일경우 -->
-                    <!-- start : 콘텐츠 -->
-                    <!-- <a href="#none" class="asev-item">
-                        <div class="asev-top">
-                            <div class="mg-left">
-                                <span class="icon">
-                                    <i class="ico-direct"></i>
-                                </span>
-                                <p>학원 (미래반)</p>
-                            </div>
-                            <div class="mg-right">
-                                <ul>
-                                    <span class="term end">기간 종료</span>
-                                    <li>
-                                        <p>[ 수학 활동 3-1 ]  5단원</p>
-                                        <p>3차시</p>
-                                    </li>
-                                    <li><strong>더하기, 빼기 수학 과제입니다.</strong></li>
-                                    <li>
-                                        <i>기간</i>
-                                        <p>2021.05.20  09:00 ~ 2021.05.27  14:00</p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="asev-bottom non">
-                            <i>!</i>
-                            <span>수행하지 않은 평가입니다.</span>
-                        </div>
-                    </a> -->
                     <!-- end : 콘텐츠 -->
 
                 </div>
