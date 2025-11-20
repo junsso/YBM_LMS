@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="199.001" viewBox="0 0 160 199.001">
+  <g id="그룹_1129" data-name="그룹 1129" transform="translate(-635 -1288.999)">
+    <g id="그룹_868" data-name="그룹 868" transform="translate(38 -2)">
+      <text id="O" transform="translate(740 1486)" fill="#1b1d1f" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">O</tspan></text>
+      <rect id="bar" width="30" height="5" rx="2.5" transform="translate(700 1478)" fill="#0f3653"/>
+      <text id="X" transform="translate(660 1486)" fill="#1b1d1f" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">X</tspan></text>
+      <rect id="bar-2" data-name="bar" width="30" height="5" rx="2.5" transform="translate(620 1478)" fill="#ff5c5c"/>
+    </g>
+    <g id="graph">
+      <circle id="타원_396" data-name="타원 396" cx="80" cy="80" r="80" transform="translate(635 1289)" fill="#0f3653"/>
+      <path id="빼기_2" data-name="빼기 2" d="M5.267,108.609h0a79.892,79.892,0,0,1,8.4-73.337A80.233,80.233,0,0,1,48.86,6.286,79.5,79.5,0,0,1,80,0V65.462L5.268,108.609Z" transform="translate(635 1289)" fill="#ff5c5c"/>
+      <circle id="타원_397" data-name="타원 397" cx="50" cy="50" r="50" transform="translate(665 1319)" fill="#fff"/>
+    </g>
+    <text id="_24" data-name="24" transform="translate(763 1404)" fill="#fff" font-size="18" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">24</tspan></text>
+    <text id="_16" data-name="16" transform="translate(651 1340)" fill="#fff" font-size="18" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">16</tspan></text>
+  </g>
+</svg>

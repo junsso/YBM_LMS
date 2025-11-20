@@ -1,0 +1,975 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge;Chromeframe=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="generator" content="">
+<meta name="robots" content="ALL">
+<meta property="og:type" content="">
+<meta property="og:title" content="">
+<meta property="og:description" content="">
+<meta property="og:image" content="">
+<meta property="og:url" content="">
+<title>페이지명 | 초등(채널명) | YBM온라인스쿨(사이트명)</title>
+<link rel="shortcut icon" href="">
+<link rel="stylesheet" href="../../lib/swiper.min.css">
+<link rel="stylesheet" href="../../lib/lightgallery.css">
+<link rel="stylesheet" href="../../common/css/import.css">
+<script src="../../lib/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <section class="wrap">
+        <!-- start:좌측 메뉴 -->
+        <section class="header">
+            <div class="inner">
+                <h1 class="site-name"><a href="#">YBM스마트스쿨</a></h1>
+                <nav class="gnb">
+                    <ul>
+                        <li>
+                            <a href="#"><span class="ico-gnb sboard"></span><em>수업보드</em></a>
+                        </li>
+                        <li>
+                            <a href="#"><span class="ico-gnb mg-class"></span><em>수업관리</em></a>
+                            <ul class="dropdown">
+                                <li><a href="#">수업설계</a></li>
+                                <li><a href="#">평가·과제 관리</a></li>
+                                <li><a href="#">Online 콘텐츠 만들기</a></li>
+                                <li><a href="#">시간표 관리</a></li>
+                                <li><a href="#">수업 리포트</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#"><span class="ico-gnb mg-study"></span><em>학급학생관리</em></a>
+                            <ul class="dropdown">
+                                <li><a href="#">학급 현황</a></li>
+                                <li><a href="#">학생 현황</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#"><span class="ico-gnb mg-alarm"></span><em>알림상담관리</em></a>
+                            <ul class="dropdown">
+                                <li><a href="#">알림장(전달사항)</a></li>
+                                <li><a href="#">상담/문의</a></li>
+                            </ul>
+                        </li>
+                        <li class="dv-bar"></li>
+                        <li>
+                            <a href="#"><span class="ico-gnb rnd"></span><em>수업연구실</em></a>
+                            <ul class="dropdown">
+                                <li><a href="#">자료 나눔터</a></li>
+                                <li><a href="#">내 연구실</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#"><span class="ico-gnb ttalk"></span><em>T톡</em></a>
+                            <ul class="dropdown">
+                                <li><a href="#">이슈톡</a></li>
+                                <li><a href="#">프리톡</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="launch-wrap">
+                    <a href="https://www.ybmcloud.com" target="_blank" title="Y클라우드 새창열림"><span></span></a>
+                </div>
+            </div>
+            <div class="toggle-fold">
+                <button><span>메뉴 열기/닫기</span></button>
+            </div>
+        </section>
+        <!-- //end:좌측 메뉴 -->
+        <section class="container">            
+            <div class="wrapper-lg">
+                <section class="common-top">
+                    <div class="room-summary">
+                        <h1 class="room-name">세상에 없던 스마트 스쿨</h1>
+                        <div class="room-charge">(홍길동선생님)</div>
+                    </div>
+                    <div class="unb">
+                        <button type="button" class="btn-alarm"><span>5</span></button>
+                        <a href="#" class="link-voucher">이용권</a>
+                        <ul>
+                            <li><a href="#">개인정보</a></li>
+                            <li><a href="#">고객센터</a></li>
+                            <li><a href="#"><span class="ico-logout"></span>로그아웃</a></li>
+                        </ul>
+                    </div>
+                </section>
+                <!-- start:본문 -->
+                <section class="content dash-board">
+                    <!-- start:지난 주 수업 정리 -->
+                    <div class="mds-box">
+                        <div class="box-head title-bx">
+                            <h2>지난 주 수업 정리</h2>
+                            <ul class="cr-wrap">
+                                <li class="on">
+                                    <button type="button" class="cl-btn on">영어 3 (최)</button>
+                                </li>
+                                <li class="">
+                                    <button type="button" class="cl-btn">체육 3 (유)</button>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="box-body my-lesson">
+                            <table>
+                                <col width="40%">
+                                <thead>
+                                    <tr>
+                                        <th>과목별 진도</th>
+                                        <th>과제</th>
+                                        <th>평가</th>
+                                    </tr>
+                                </thead>
+                            </table>
+                        </div>
+                        <div class="has-scroll my-lesson">
+                            <table>
+                                <col width="40%">
+                                <tbody>
+                                    <tr>
+                                        <th>
+                                            <p class="todoCheck">
+                                                <a href="#"><strong>3-1반</strong>1단원<span class="arw-right">&gt;</span>4차시</a>
+                                            </p>
+                                        </th>
+                                        <td>
+                                            <p>
+                                                <em class="unit">발행건수</em>
+                                                <strong class="value"><a href="#">3건</a></strong>
+                                            </p>
+                                            <p class="todoCheck">
+                                                <em class="unit">피드백 대기</em>
+                                                <strong class="value"><a href="#">1건</a></strong>
+                                            </p>
+                                        </td>
+                                        <td>
+                                            <p>
+                                                <em class="unit">발행건수</em>
+                                                <strong class="value"><a href="#">3건</a></strong>
+                                            </p>
+                                            <p>
+                                                <em class="unit">피드백 대기</em>
+                                                <strong class="value"><a href="#">확인완료</a></strong>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            <p>
+                                                <a href="#"><strong>3-2반</strong>Lesson 1 How's It Going?<span class="arw-right">&gt;</span>Lesson 1 How's It Going? Lesson 1 How's It Going?</a>
+                                            </p>
+                                        </th>
+                                        <td>
+                                            <p>
+                                                <em class="unit">발행건수</em>
+                                                <strong class="value"><a href="#">3건</a></strong>
+                                            </p>
+                                            <p>
+                                                <em class="unit">피드백 대기</em>
+                                                <strong class="value"><a href="#">확인완료</a></strong>
+                                            </p>
+                                        </td>
+                                        <td>
+                                            <p>
+                                                <em class="unit">발행건수</em>
+                                                <strong class="value"><a href="#">3건</a></strong>
+                                            </p>
+                                            <p class="todoCheck">
+                                                <em class="unit">피드백 대기</em>
+                                                <strong class="value"><a href="#">3명</a></strong>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            <p>
+                                                <a href="#"><strong>3-3반</strong>Lesson 1 How's It Going?<span class="arw-right">&gt;</span>Lesson 1 How's It Going? Lesson 1 How's It Going?</a>
+                                            </p>
+                                        </th>
+                                        <td>
+                                            <p>
+                                                <em class="unit">발행건수</em>
+                                                <strong class="value"><a href="#">3건</a></strong>
+                                            </p>
+                                            <p>
+                                                <em class="unit">피드백 대기</em>
+                                                <strong class="value"><a href="#">확인완료</a></strong>
+                                            </p>
+                                        </td>
+                                        <td>
+                                            <p>
+                                                <em class="unit">발행건수</em>
+                                                <strong class="value"><a href="#">3건</a></strong>
+                                            </p>
+                                            <p class="todoCheck">
+                                                <em class="unit">피드백 대기</em>
+                                                <strong class="value"><a href="#">3명</a></strong>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            <p>
+                                                <a href="#"><strong>3-4반</strong>Lesson 1 How's It Going?<span class="arw-right">&gt;</span>Lesson 1 How's It Going? Lesson 1 How's It Going?</a>
+                                            </p>
+                                        </th>
+                                        <td>
+                                            <p>
+                                                <em class="unit">발행건수</em>
+                                                <strong class="value"><a href="#">3건</a></strong>
+                                            </p>
+                                            <p>
+                                                <em class="unit">피드백 대기</em>
+                                                <strong class="value"><a href="#">확인완료</a></strong>
+                                            </p>
+                                        </td>
+                                        <td>
+                                            <p>
+                                                <em class="unit">발행건수</em>
+                                                <strong class="value"><a href="#">3건</a></strong>
+                                            </p>
+                                            <p class="todoCheck">
+                                                <em class="unit">피드백 대기</em>
+                                                <strong class="value"><a href="#">3명</a></strong>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            <p>
+                                                <a href="#"><strong>3-5반</strong>Lesson 1 How's It Going?<span class="arw-right">&gt;</span>Lesson 1 How's It Going? Lesson 1 How's It Going?</a>
+                                            </p>
+                                        </th>
+                                        <td>
+                                            <p>
+                                                <em class="unit">발행건수</em>
+                                                <strong class="value"><a href="#">3건</a></strong>
+                                            </p>
+                                            <p>
+                                                <em class="unit">피드백 대기</em>
+                                                <strong class="value"><a href="#">확인완료</a></strong>
+                                            </p>
+                                        </td>
+                                        <td>
+                                            <p>
+                                                <em class="unit">발행건수</em>
+                                                <strong class="value"><a href="#">3건</a></strong>
+                                            </p>
+                                            <p class="todoCheck">
+                                                <em class="unit">피드백 대기</em>
+                                                <strong class="value"><a href="#">3명</a></strong>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            <p>
+                                                <a href="#"><strong>3-6반</strong>Lesson 1 How's It Going?<span class="arw-right">&gt;</span>Lesson 1 How's It Going? Lesson 1 How's It Going?</a>
+                                            </p>
+                                        </th>
+                                        <td>
+                                            <p>
+                                                <em class="unit">발행건수</em>
+                                                <strong class="value"><a href="#">3건</a></strong>
+                                            </p>
+                                            <p>
+                                                <em class="unit">피드백 대기</em>
+                                                <strong class="value"><a href="#">확인완료</a></strong>
+                                            </p>
+                                        </td>
+                                        <td>
+                                            <p>
+                                                <em class="unit">발행건수</em>
+                                                <strong class="value"><a href="#">3건</a></strong>
+                                            </p>
+                                            <p class="todoCheck">
+                                                <em class="unit">피드백 대기</em>
+                                                <strong class="value"><a href="#">3명</a></strong>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="box-foot">
+                            <a href="#" class="link-launch"></a>
+                        </div>
+                    </div>
+                    <!-- //end:오늘 수업 일정 -->
+                    <!-- start:다음 주 수업 준비 -->
+                    <div class="mds-box">
+                        <div class="box-head">
+                            <h2>다음 주 수업 준비</h2>
+                        </div>
+                        <div class="box-body plan-lesson">
+                            <table>
+                                <col width="calc(100% / 7)">
+                                <thead>
+                                    <tr>
+                                        <th>
+                                            <div>
+                                                <p>일(Sun)</p>
+                                                <strong>01</strong>
+                                            </div>
+                                        </th>
+                                        <th>
+                                            <div>
+                                                <p>월(Mon)</p>
+                                                <strong>02</strong>
+                                            </div>
+                                        </th>
+                                        <th>
+                                            <div>
+                                                <p>화(Tue)</p>
+                                                <strong>03</strong>
+                                            </div>
+                                        </th>
+                                        <th>
+                                            <div>
+                                                <p>수(Wed)</p>
+                                                <strong>04</strong>
+                                            </div>
+                                        </th>
+                                        <th>
+                                            <div>
+                                                <p>목(Thu)</p>
+                                                <strong>05</strong>
+                                            </div>
+                                        </th>
+                                        <th>
+                                            <div>
+                                                <p>금(Fri)</p>
+                                                <strong>06</strong>
+                                            </div>
+                                        </th>
+                                        <th>
+                                            <div>
+                                                <p>토(Sat)</p>
+                                                <strong>07</strong>
+                                            </div>
+                                        </th>
+                                    </tr>
+                                </thead>
+                            </table>
+                        </div>
+                        <div class="has-scroll plan-lesson">
+                            <table>
+                                <col width="calc(100% / 7)">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <div>
+                                                <p class="time">1교시 <span>09:00 ~ 09:45</span></p>
+                                                <p class="subject">교재명</p>
+                                                <p class="flow">단원명<span class="arw-right">&gt;</span>차시명</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div>
+                                                <p class="time">1교시 <span>09:00 ~ 09:45</span></p>
+                                                <p class="section">[학급명] 과목</p>
+                                                <p class="subject">교재명</p>
+                                                <p class="flow">단원명<span class="arw-right">&gt;</span>차시명</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div>
+                                                <p class="time">1교시 <span>09:00 ~ 09:45</span></p>
+                                                <p class="subject">교재명</p>
+                                                <p class="flow">단원명<span class="arw-right">&gt;</span>차시명</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div>
+                                                <p class="time">1교시 <span>09:00 ~ 09:45</span></p>
+                                                <p class="subject">교재명</p>
+                                                <p class="flow">단원명<span class="arw-right">&gt;</span>차시명</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div>
+                                                <p class="time">1교시 <span>09:00 ~ 09:45</span></p>
+                                                <p class="subject">교재명</p>
+                                                <p class="flow">단원명<span class="arw-right">&gt;</span>차시명</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div>
+                                                <p class="time">1교시 <span>09:00 ~ 09:45</span></p>
+                                                <p class="section">[학급명] 과목</p>
+                                                <p class="subject">교재명</p>
+                                                <p class="flow">단원명<span class="arw-right">&gt;</span>차시명</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div>
+                                                <p class="time">1교시 <span>09:00 ~ 09:45</span></p>
+                                                <p class="subject">교재명</p>
+                                                <p class="flow">단원명<span class="arw-right">&gt;</span>차시명</p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div>
+                                                <p class="time">2교시 <span>10:00 ~ 10:45</span></p>
+                                                <p class="subject">교재명</p>
+                                                <p class="flow">단원명<span class="arw-right">&gt;</span>차시명</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div>
+                                                <p class="time">2교시 <span>10:00 ~ 10:45</span></p>
+                                                <p class="section">[학급명] 과목</p>
+                                                <p class="subject">교재명</p>
+                                                <p class="flow">단원명<span class="arw-right">&gt;</span>차시명</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div>
+                                                <p class="time">2교시 <span>10:00 ~ 10:45</span></p>
+                                                <p class="section">[학급명] 과목</p>
+                                                <p class="subject">교재명</p>
+                                                <p class="flow">단원명<span class="arw-right">&gt;</span>차시명</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div>
+                                                <p class="time">2교시 <span>10:00 ~ 10:45</span></p>
+                                                <p class="subject">교재명</p>
+                                                <p class="flow">단원명<span class="arw-right">&gt;</span>차시명</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div>
+                                                <p class="time">2교시 <span>10:00 ~ 10:45</span></p>
+                                                <p class="subject">교재명</p>
+                                                <p class="flow">단원명<span class="arw-right">&gt;</span>차시명</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div>
+                                                <p class="time">2교시 <span>10:00 ~ 10:45</span></p>
+                                                <p class="section">[학급명] 과목</p>
+                                                <p class="subject">교재명</p>
+                                                <p class="flow">단원명<span class="arw-right">&gt;</span>차시명</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div>
+                                                <p class="time">2교시 <span>10:00 ~ 10:45</span></p>
+                                                <p class="section">[학급명] 과목</p>
+                                                <p class="subject">교재명</p>
+                                                <p class="flow">단원명<span class="arw-right">&gt;</span>차시명</p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div>
+                                                <p class="time">1교시 <span>09:00 ~ 09:45</span></p>
+                                                <p class="subject">교재명</p>
+                                                <p class="flow">단원명<span class="arw-right">&gt;</span>차시명</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div>
+                                                <p class="time">1교시 <span>09:00 ~ 09:45</span></p>
+                                                <p class="section">[학급명] 과목</p>
+                                                <p class="subject">교재명</p>
+                                                <p class="flow">단원명<span class="arw-right">&gt;</span>차시명</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div>
+                                                <p class="time">1교시 <span>09:00 ~ 09:45</span></p>
+                                                <p class="subject">교재명</p>
+                                                <p class="flow">단원명<span class="arw-right">&gt;</span>차시명</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div>
+                                                <p class="time">1교시 <span>09:00 ~ 09:45</span></p>
+                                                <p class="subject">교재명</p>
+                                                <p class="flow">단원명<span class="arw-right">&gt;</span>차시명</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div>
+                                                <p class="time">1교시 <span>09:00 ~ 09:45</span></p>
+                                                <p class="subject">교재명</p>
+                                                <p class="flow">단원명<span class="arw-right">&gt;</span>차시명</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div>
+                                                <p class="time">1교시 <span>09:00 ~ 09:45</span></p>
+                                                <p class="section">[학급명] 과목</p>
+                                                <p class="subject">교재명</p>
+                                                <p class="flow">단원명<span class="arw-right">&gt;</span>차시명</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div>
+                                                <p class="time">1교시 <span>09:00 ~ 09:45</span></p>
+                                                <p class="subject">교재명</p>
+                                                <p class="flow">단원명<span class="arw-right">&gt;</span>차시명</p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div>
+                                                <p class="time">2교시 <span>10:00 ~ 10:45</span></p>
+                                                <p class="subject">교재명</p>
+                                                <p class="flow">단원명<span class="arw-right">&gt;</span>차시명</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div>
+                                                <p class="time">2교시 <span>10:00 ~ 10:45</span></p>
+                                                <p class="section">[학급명] 과목</p>
+                                                <p class="subject">교재명</p>
+                                                <p class="flow">단원명<span class="arw-right">&gt;</span>차시명</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div>
+                                                <p class="time">2교시 <span>10:00 ~ 10:45</span></p>
+                                                <p class="section">[학급명] 과목</p>
+                                                <p class="subject">교재명</p>
+                                                <p class="flow">단원명<span class="arw-right">&gt;</span>차시명</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div>
+                                                <p class="time">2교시 <span>10:00 ~ 10:45</span></p>
+                                                <p class="subject">교재명</p>
+                                                <p class="flow">단원명<span class="arw-right">&gt;</span>차시명</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div>
+                                                <p class="time">2교시 <span>10:00 ~ 10:45</span></p>
+                                                <p class="subject">교재명</p>
+                                                <p class="flow">단원명<span class="arw-right">&gt;</span>차시명</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div>
+                                                <p class="time">2교시 <span>10:00 ~ 10:45</span></p>
+                                                <p class="section">[학급명] 과목</p>
+                                                <p class="subject">교재명</p>
+                                                <p class="flow">단원명<span class="arw-right">&gt;</span>차시명</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div>
+                                                <p class="time">2교시 <span>10:00 ~ 10:45</span></p>
+                                                <p class="section">[학급명] 과목</p>
+                                                <p class="subject">교재명</p>
+                                                <p class="flow">단원명<span class="arw-right">&gt;</span>차시명</p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="box-foot">
+                            <a href="#" class="link-launch"></a>
+                        </div>
+                    </div>
+                    <!-- //end:다음 주 수업 준비 -->
+                    <div class="abs-side-wrap">
+                        <!-- start:한줄공지 -->
+                        <div class="mds-box notice-box">
+                            <a href="#"><span class="ico-notice"></span> [공지] 서버 안정화 작업 안내 안정화 작업 안내 안정화 작업 안내</a>
+                        </div>
+                        <!-- //end:한줄공지 -->
+                        <!-- start:달력스케줄러 -->
+                        <div class="mds-box calendar-box">
+                            <div class="box-head">
+                                <h3>2021년 4월 5일 월요일</h3>
+                            </div>
+                            <div class="box-body">
+                                <div class="calendar">
+                                    <div class="cal-control">
+                                        <button class="view-all">2021년 4월</button>
+                                        <button class="prevm"></button>
+                                        <button class="nextm"></button>
+                                    </div>
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th>일</th>
+                                                <th>월</th>
+                                                <th>화</th>
+                                                <th>수</th>
+                                                <th>목</th>
+                                                <th>금</th>
+                                                <th>토</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td class="blur">28</td>
+                                                <td class="blur">29</td>
+                                                <td class="blur">30</td>
+                                                <td class="blur">31</td>
+                                                <td>1</td>
+                                                <td>2</td>
+                                                <td>3</td>
+                                            </tr>
+                                            <tr>
+                                                <td>4</td>
+                                                <td class="today">5
+                                                    <span class="has-schdule">                                                        
+                                                        <em class="dot class"></em><em class="dot personal"></em><em class="dot exam"></em>
+                                                    </span>
+                                                </td>
+                                                <td>6</td>
+                                                <td>7</td>
+                                                <td>8
+                                                    <span class="has-schdule">                                                        
+                                                        <em class="dot class"></em><em class="dot personal"></em>
+                                                    </span>
+                                                </td>
+                                                <td>9</td>
+                                                <td>10</td>
+                                            </tr>
+                                            <tr>
+                                                <td>11</td>
+                                                <td>12</td>
+                                                <td>13</td>
+                                                <td>14</td>
+                                                <td>15</td>
+                                                <td>16</td>
+                                                <td>17</td>
+                                            </tr>
+                                            <tr>
+                                                <td>18</td>
+                                                <td>19</td>
+                                                <td>20</td>
+                                                <td>21</td>
+                                                <td>22</td>
+                                                <td>23
+                                                    <span class="has-schdule">                                                        
+                                                        <em class="dot exam"></em>
+                                                    </span>
+                                                </td>
+                                                <td>24</td>
+                                            </tr>
+                                            <tr>
+                                                <td>25</td>
+                                                <td>26</td>
+                                                <td>27</td>
+                                                <td>28</td>
+                                                <td>29</td>
+                                                <td>30</td>
+                                                <td class="blur">1</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="btn-theday-info">
+                                    <a href="#">
+                                        <strong>어린이날</strong>
+                                        <span>양, 5월 5일</span>
+                                    </a>
+                                </div>
+                                <div class="btn-group-msg">
+                                    <a href="#">
+                                        <em class="ico-mic"></em>
+                                        <strong>그룹메세지</strong>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="box-foot">
+                                <a href="#"><span class="link-launch"></span></a>
+                            </div>
+                        </div>
+                        <!-- //end:달력스케줄러 -->
+                        <!-- start:그룹메세지 목록 -->
+                        <div class="mds-box alarm-box">
+                            <div class="box-head">
+                                <h2>알림</h2>
+                            </div>
+                            <div class="box-body has-scroll alarm-list">
+                                <div class="alarm-row done">
+                                    <div class="icon"><span class="ico-gm"></span></div>
+                                    <div class="alarm-content">
+                                        <p class="type"><strong>조례 일정</strong></p>
+                                        <p class="memo1">[학급1] 1교시 수업 일정 확인</p>
+                                        <p class="memo2">AM 09:00~09:40</p>
+                                    </div>
+                                </div>
+                                <div class="alarm-row done">
+                                    <div class="icon"><span class="ico-timer"></span></div>
+                                    <div class="alarm-content">
+                                        <p class="type"><strong>수업 일정</strong></p>
+                                        <p class="memo1">[학급1] 1교시 수업 일정 확인</p>
+                                        <p class="memo2">영어(김) | AM 09:00~09:40</p>
+                                    </div>
+                                </div>
+                                <div class="alarm-row done">
+                                    <div class="icon"><span class="ico-break"></span></div>
+                                    <div class="alarm-content">
+                                        <p class="type"><strong>쉬는 시간 알림</strong></p>
+                                        <p class="memo1">[학급1] 쉬는 시간</p>
+                                        <p class="memo2">AM 09:00~09:40</p>
+                                    </div>
+                                </div>
+                                <div class="alarm-row">
+                                    <div class="icon"><span class="ico-homework"></span></div>
+                                    <div class="alarm-content">
+                                        <p class="type"><strong>과제 제출</strong></p>
+                                        <p class="memo1">[학급1] 김태연 학생 과제 제출</p>
+                                        <p class="memo2">국어 1차시 (icon) 독후감 작성</p>
+                                    </div>
+                                </div>
+                                <div class="alarm-row">
+                                    <div class="icon"><span class="ico-quiz"></span></div>
+                                    <div class="alarm-content">
+                                        <p class="type"><strong>퀴즈 마감</strong></p>
+                                        <p class="memo1">[학급1] 국어 과목 퀴즈 마감일</p>
+                                        <p class="memo2">제출률 00% (미제출자 00명)</p>
+                                    </div>
+                                </div>
+                                <div class="alarm-row">
+                                    <div class="icon"><span class="ico-quiz"></span></div>
+                                    <div class="alarm-content">
+                                        <p class="type"><strong>퀴즈 마감</strong></p>
+                                        <p class="memo1">[학급1] 국어 과목 퀴즈 마감일</p>
+                                        <p class="memo2">제출률 00% (미제출자 00명)</p>
+                                    </div>
+                                </div>
+                                <div class="alarm-row">
+                                    <div class="icon"><span class="ico-quiz"></span></div>
+                                    <div class="alarm-content">
+                                        <p class="type"><strong>퀴즈 마감</strong></p>
+                                        <p class="memo1">[학급1] 국어 과목 퀴즈 마감일</p>
+                                        <p class="memo2">제출률 00% (미제출자 00명)</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- //end:그룹메세지 목록 -->
+                    </div>
+                    <div class="clear-bottom">
+                        <div class="mds-box">
+                            <div class="box-head">
+                                <h2>인기자료 <strong>Top 10</strong></h2>
+                                <div class="desp">같은 학교급/학년/과목 선생님들이 많이 본 자료를 안내합니다.</div>
+                                <div class="book-pp-list">
+                                    <div class="swiper-container">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <div class="flag top1">1</div>
+                                                <div class="thumbs">
+                                                    <a href="#"><img src="../../img/temp/noimage.jpg" alt="이미지준비중"></a>
+                                                </div>
+                                                <div class="subject">영어</div>
+                                                <div class="subtitle">Hellow, World!</div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="flag top2">2</div>
+                                                <div class="thumbs">
+                                                    <a href="#"><img src="../../img/temp/noimage.jpg" alt="이미지준비중"></a>
+                                                </div>
+                                                <div class="subject">영어</div>
+                                                <div class="subtitle">Hellow, World!</div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="flag top3">3</div>
+                                                <div class="thumbs">
+                                                    <a href="#"><img src="../../img/temp/noimage.jpg" alt="이미지준비중"></a>
+                                                </div>
+                                                <div class="subject">영어</div>
+                                                <div class="subtitle">Hellow, World! Hellow, World Hellow, World</div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="flag">4</div>
+                                                <div class="thumbs">
+                                                    <a href="#"><img src="../../img/temp/noimage.jpg" alt="이미지준비중"></a>
+                                                </div>
+                                                <div class="subject">영어</div>
+                                                <div class="subtitle">Hellow, World!</div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="flag">5</div>
+                                                <div class="thumbs">
+                                                    <a href="#"><img src="../../img/temp/noimage.jpg" alt="이미지준비중"></a>
+                                                </div>
+                                                <div class="subject">영어</div>
+                                                <div class="subtitle">Hellow, World!</div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="flag">6</div>
+                                                <div class="thumbs">
+                                                    <a href="#"><img src="../../img/temp/noimage.jpg" alt="이미지준비중"></a>
+                                                </div>
+                                                <div class="subject">영어</div>
+                                                <div class="subtitle">Hellow, World!</div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="flag">7</div>
+                                                <div class="thumbs">
+                                                    <a href="#"><img src="../../img/temp/noimage.jpg" alt="이미지준비중"></a>
+                                                </div>
+                                                <div class="subject">영어</div>
+                                                <div class="subtitle">Hellow, World!</div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="flag">8</div>
+                                                <div class="thumbs">
+                                                    <a href="#"><img src="../../img/temp/noimage.jpg" alt="이미지준비중"></a>
+                                                </div>
+                                                <div class="subject">영어</div>
+                                                <div class="subtitle">Hellow, World!</div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="flag">9</div>
+                                                <div class="thumbs">
+                                                    <a href="#"><img src="../../img/temp/noimage.jpg" alt="이미지준비중"></a>
+                                                </div>
+                                                <div class="subject">영어</div>
+                                                <div class="subtitle">Hellow, World!</div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="flag">10</div>
+                                                <div class="thumbs">
+                                                    <a href="#"><img src="../../img/temp/noimage.jpg" alt="이미지준비중"></a>
+                                                </div>
+                                                <div class="subject">영어</div>
+                                                <div class="subtitle">Hellow, World!</div>
+                                            </div>
+                                        </div>                                                                
+                                    </div>
+                                    <div class="indicator">
+                                        <!-- Add Arrows -->
+                                        <div class="swiper-button-next"></div>
+                                        <div class="swiper-button-prev"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mds-box">
+                            <div class="box-head">
+                                <h2>다음 수업 추천 자료 <strong>Top 10</strong></h2>
+                                <div class="desp">다음 주 수업 준비에 유용한 관련 자료를 추천합니다.</div>
+                                <div class="book-cc-list">
+                                    <div class="swiper-container">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <div class="flag top1">1</div>
+                                                <div class="thumbs">
+                                                    <a href="#"><img src="../../img/temp/noimage.jpg" alt="이미지준비중"></a>
+                                                </div>
+                                                <div class="subject">영어</div>
+                                                <div class="subtitle">Hellow, World!</div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="flag top2">2</div>
+                                                <div class="thumbs">
+                                                    <a href="#"><img src="../../img/temp/noimage.jpg" alt="이미지준비중"></a>
+                                                </div>
+                                                <div class="subject">영어</div>
+                                                <div class="subtitle">Hellow, World!</div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="flag top3">3</div>
+                                                <div class="thumbs">
+                                                    <a href="#"><img src="../../img/temp/noimage.jpg" alt="이미지준비중"></a>
+                                                </div>
+                                                <div class="subject">영어</div>
+                                                <div class="subtitle">Hellow, World! Hellow, World Hellow, World</div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="flag">4</div>
+                                                <div class="thumbs">
+                                                    <a href="#"><img src="../../img/temp/noimage.jpg" alt="이미지준비중"></a>
+                                                </div>
+                                                <div class="subject">영어</div>
+                                                <div class="subtitle">Hellow, World!</div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="flag">5</div>
+                                                <div class="thumbs">
+                                                    <a href="#"><img src="../../img/temp/noimage.jpg" alt="이미지준비중"></a>
+                                                </div>
+                                                <div class="subject">영어</div>
+                                                <div class="subtitle">Hellow, World!</div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="flag">6</div>
+                                                <div class="thumbs">
+                                                    <a href="#"><img src="../../img/temp/noimage.jpg" alt="이미지준비중"></a>
+                                                </div>
+                                                <div class="subject">영어</div>
+                                                <div class="subtitle">Hellow, World!</div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="flag">7</div>
+                                                <div class="thumbs">
+                                                    <a href="#"><img src="../../img/temp/noimage.jpg" alt="이미지준비중"></a>
+                                                </div>
+                                                <div class="subject">영어</div>
+                                                <div class="subtitle">Hellow, World!</div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="flag">8</div>
+                                                <div class="thumbs">
+                                                    <a href="#"><img src="../../img/temp/noimage.jpg" alt="이미지준비중"></a>
+                                                </div>
+                                                <div class="subject">영어</div>
+                                                <div class="subtitle">Hellow, World!</div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="flag">9</div>
+                                                <div class="thumbs">
+                                                    <a href="#"><img src="../../img/temp/noimage.jpg" alt="이미지준비중"></a>
+                                                </div>
+                                                <div class="subject">영어</div>
+                                                <div class="subtitle">Hellow, World!</div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="flag">10</div>
+                                                <div class="thumbs">
+                                                    <a href="#"><img src="../../img/temp/noimage.jpg" alt="이미지준비중"></a>
+                                                </div>
+                                                <div class="subject">영어</div>
+                                                <div class="subtitle">Hellow, World!</div>
+                                            </div>
+                                        </div>                                                                
+                                    </div>
+                                    <div class="indicator">
+                                        <!-- Add Arrows -->
+                                        <div class="swiper-button-next"></div>
+                                        <div class="swiper-button-prev"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- //end:본문 -->
+            </div>
+        </section>
+    </section>
+
+    <!-- start:레이어 팝업 -->
+    <div class="popup-wrap"></div>
+    <!-- //end:레이어 팝업 -->
+
+
+<script src="../../lib/swiper.js"></script>
+<script src="../../lib/lightgallery-all.min.js"></script>
+<script src="../../common/js/popup.js"></script>
+<script src="../../common/js/ui.js"></script>
+</body>
+</html>

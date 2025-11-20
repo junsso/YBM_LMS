@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="38" height="25" viewBox="0 0 38 25">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_1294" data-name="사각형 1294" width="38" height="25" transform="translate(-3)" fill="#26282b"/>
+    </clipPath>
+  </defs>
+  <g id="icon_일시정지" transform="translate(3)" clip-path="url(#clip-path)">
+    <g id="next_1_" data-name="next (1)" transform="translate(11 4)">
+      <g id="그룹_1208" data-name="그룹 1208" transform="translate(9 0)">
+        <g id="그룹_1207" data-name="그룹 1207">
+          <path id="패스_1543" data-name="패스 1543" d="M1.626,6.926,11.966.422A2.419,2.419,0,0,1,13.211.013c.831,0,1.381.637,1.381,1.662V15.351a1.912,1.912,0,0,1-.4,1.211,1.293,1.293,0,0,1-1.02.451,2.366,2.366,0,0,1-1.227-.409L1.62,10.1A1.922,1.922,0,0,1,.592,8.512,1.928,1.928,0,0,1,1.626,6.926Z" transform="translate(-0.592 -0.013)" fill="#26282b"/>
+        </g>
+      </g>
+      <g id="그룹_1210" data-name="그룹 1210" transform="translate(0 0)">
+        <g id="그룹_1209" data-name="그룹 1209">
+          <path id="패스_1544" data-name="패스 1544" d="M1.626,6.926,11.966.422A2.419,2.419,0,0,1,13.211.013c.831,0,1.381.637,1.381,1.662V15.351a1.912,1.912,0,0,1-.4,1.211,1.293,1.293,0,0,1-1.02.451,2.366,2.366,0,0,1-1.227-.409L1.62,10.1A1.922,1.922,0,0,1,.592,8.512,1.928,1.928,0,0,1,1.626,6.926Z" transform="translate(-0.592 -0.013)" fill="#26282b"/>
+        </g>
+      </g>
+    </g>
+    <text id="_10" data-name="10" transform="translate(3 16)" fill="#26282b" font-size="10" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-5.684" y="0">10</tspan></text>
+  </g>
+</svg>

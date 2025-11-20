@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <g id="ico_close" transform="translate(-761 -894)">
+    <circle id="타원_406" data-name="타원 406" cx="8" cy="8" r="8" transform="translate(761 894)" fill="#2c93e8"/>
+    <path id="ico_close-2" data-name="ico_close" d="M1997.08,11137.1l-2.829-2.828-2.829,2.828a.749.749,0,0,1-1.059-1.061l2.828-2.828-2.828-2.828a.75.75,0,0,1,1.059-1.062l2.829,2.829,2.829-2.829a.75.75,0,0,1,1.059,1.062l-2.828,2.828,2.828,2.829a.749.749,0,1,1-1.059,1.059Z" transform="translate(-1225.14 -10231.137)" fill="#f7f8f9"/>
+  </g>
+</svg>

@@ -1,0 +1,8 @@
+<svg id="ico_menu" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="bg_r" width="20" height="20" fill="#454c53" opacity="0"/>
+  <g id="menu_4_" data-name="menu (4)" transform="translate(0 3)">
+    <path id="Path_840" data-name="Path 840" d="M19.167,124.335H.833a.833.833,0,1,1,0-1.667H19.167a.833.833,0,1,1,0,1.667Zm0,0" transform="translate(0 -116.279)" fill="#454c53"/>
+    <path id="Path_841" data-name="Path 841" d="M19.167,1.667H.833A.833.833,0,0,1,.833,0H19.167a.833.833,0,0,1,0,1.667Zm0,0" fill="#454c53"/>
+    <path id="Path_842" data-name="Path 842" d="M19.167,247H.833a.833.833,0,1,1,0-1.667H19.167a.833.833,0,1,1,0,1.667Zm0,0" transform="translate(0 -232.554)" fill="#454c53"/>
+  </g>
+</svg>

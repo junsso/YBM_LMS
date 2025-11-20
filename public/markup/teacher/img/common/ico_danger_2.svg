@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_859" data-name="사각형 859" width="50" height="50" transform="translate(963 468)" fill="#9ea4aa"/>
+    </clipPath>
+  </defs>
+  <g id="ico_danger" transform="translate(-963 -468)" clip-path="url(#clip-path)">
+    <g id="alert" transform="translate(963 468)">
+      <g id="그룹_759" data-name="그룹 759">
+        <g id="그룹_758" data-name="그룹 758">
+          <path id="패스_1029" data-name="패스 1029" d="M49.2,38.611,30.092,5.509a5.879,5.879,0,0,0-10.183,0L.8,38.611A5.879,5.879,0,0,0,5.889,47.43H44.111A5.879,5.879,0,0,0,49.2,38.611Zm-2.537,4.415A2.92,2.92,0,0,1,44.111,44.5H5.889a2.95,2.95,0,0,1-2.555-4.425l19.111-33.1a2.95,2.95,0,0,1,5.11,0l19.111,33.1A2.92,2.92,0,0,1,46.666,43.026Z" fill="#ffadad"/>
+        </g>
+      </g>
+      <g id="그룹_761" data-name="그룹 761">
+        <g id="그룹_760" data-name="그룹 760">
+          <rect id="사각형_860" data-name="사각형 860" width="2.929" height="14.647" transform="translate(23.535 17.188)" fill="#ff5c5c"/>
+        </g>
+      </g>
+      <g id="그룹_763" data-name="그룹 763">
+        <g id="그룹_762" data-name="그룹 762">
+          <path id="패스_1030" data-name="패스 1030" d="M25,34.765a1.953,1.953,0,1,0,1.953,1.953A1.955,1.955,0,0,0,25,34.765Z" fill="#ff5c5c"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

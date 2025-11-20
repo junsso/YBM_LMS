@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="474" height="64" viewBox="0 0 474 64">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_1066" data-name="사각형 1066" width="15" height="15" transform="translate(789 189)" fill="#fff"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="사각형_1067" data-name="사각형 1067" width="15" height="15" transform="translate(1100 235)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="title" transform="translate(-723 -188)">
+    <text id="온라인_스터디_룸" data-name="온라인 스터디 룸" transform="translate(960 244)" fill="#1b1d1f" font-size="64" font-family="Jalnan" letter-spacing="-0.02em"><tspan x="-236.8" y="0">온라인 스터디 룸</tspan></text>
+    <g id="마스크_그룹_119" data-name="마스크 그룹 119" clip-path="url(#clip-path)">
+      <text id="온라인_스터디_룸-2" data-name="온라인 스터디 룸" transform="translate(960 244)" fill="#fc5d5d" font-size="64" font-family="Jalnan" letter-spacing="-0.02em"><tspan x="-236.8" y="0">온라인 스터디 룸</tspan></text>
+    </g>
+    <g id="마스크_그룹_120" data-name="마스크 그룹 120" clip-path="url(#clip-path-2)">
+      <text id="온라인_스터디_룸-3" data-name="온라인 스터디 룸" transform="translate(960 244)" fill="#ffc964" font-size="64" font-family="Jalnan" letter-spacing="-0.02em"><tspan x="-236.8" y="0">온라인 스터디 룸</tspan></text>
+    </g>
+  </g>
+</svg>

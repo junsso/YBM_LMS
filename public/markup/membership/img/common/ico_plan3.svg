@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_866" data-name="사각형 866" width="40" height="40" transform="translate(1438 3628)" fill="#fff495"/>
+    </clipPath>
+  </defs>
+  <g id="ico_시간표" transform="translate(-1438 -3628)" clip-path="url(#clip-path)">
+    <g id="free-icon-calendar-833593" transform="translate(1438 3628)">
+      <g id="그룹_4291" data-name="그룹 4291">
+        <g id="그룹_4290" data-name="그룹 4290">
+          <circle id="타원_6" data-name="타원 6" cx="1.563" cy="1.563" r="1.563" transform="translate(28.594 14.844)" fill="#fff495"/>
+          <path id="패스_4194" data-name="패스 4194" d="M33.75,3.125H31.719V1.563a1.562,1.562,0,1,0-3.125,0V3.125H21.484V1.563a1.563,1.563,0,0,0-3.125,0V3.125H11.328V1.563a1.563,1.563,0,0,0-3.125,0V3.125H6.25A6.257,6.257,0,0,0,0,9.375V33.75A6.257,6.257,0,0,0,6.25,40H18.2a1.563,1.563,0,0,0,0-3.125H6.25A3.129,3.129,0,0,1,3.125,33.75V9.375A3.129,3.129,0,0,1,6.25,6.25H8.2V7.813a1.563,1.563,0,0,0,3.125,0V6.25h7.031V7.813a1.563,1.563,0,0,0,3.125,0V6.25h7.109V7.813a1.563,1.563,0,0,0,3.125,0V6.25H33.75a3.129,3.129,0,0,1,3.125,3.125v8.906a1.563,1.563,0,0,0,3.125,0V9.375A6.257,6.257,0,0,0,33.75,3.125Z" fill="#fff495"/>
+          <path id="패스_4195" data-name="패스 4195" d="M27.91,18.457a9.453,9.453,0,1,0,9.453,9.453A9.464,9.464,0,0,0,27.91,18.457Zm0,15.781a6.328,6.328,0,1,1,6.328-6.328A6.335,6.335,0,0,1,27.91,34.238Z" transform="translate(2.637 2.637)" fill="#fff495"/>
+          <path id="패스_4196" data-name="패스 4196" d="M29.189,25.762h-.7V24.121a1.562,1.562,0,1,0-3.125,0v3.2a1.562,1.562,0,0,0,1.563,1.562h2.266a1.562,1.562,0,1,0,0-3.125Z" transform="translate(3.623 3.223)" fill="#fff495"/>
+          <circle id="타원_7" data-name="타원 7" cx="1.563" cy="1.563" r="1.563" transform="translate(21.797 14.844)" fill="#fff495"/>
+          <circle id="타원_8" data-name="타원 8" cx="1.563" cy="1.563" r="1.563" transform="translate(15 21.641)" fill="#fff495"/>
+          <circle id="타원_9" data-name="타원 9" cx="1.563" cy="1.563" r="1.563" transform="translate(8.203 14.844)" fill="#fff495"/>
+          <circle id="타원_10" data-name="타원 10" cx="1.563" cy="1.563" r="1.563" transform="translate(8.203 21.641)" fill="#fff495"/>
+          <circle id="타원_11" data-name="타원 11" cx="1.563" cy="1.563" r="1.563" transform="translate(8.203 28.438)" fill="#fff495"/>
+          <circle id="타원_12" data-name="타원 12" cx="1.563" cy="1.563" r="1.563" transform="translate(15 28.438)" fill="#fff495"/>
+          <circle id="타원_13" data-name="타원 13" cx="1.563" cy="1.563" r="1.563" transform="translate(15 14.844)" fill="#fff495"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

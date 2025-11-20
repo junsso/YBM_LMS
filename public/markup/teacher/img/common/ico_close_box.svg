@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_401" data-name="Rectangle 401" width="20" height="20" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="그룹_782" data-name="그룹 782" transform="translate(-1099 -505)">
+    <rect id="check_box" width="20" height="20" transform="translate(1099 505)" fill="#9ea4aa"/>
+    <g id="ico_close" transform="translate(1099 505)" clip-path="url(#clip-path)">
+      <g id="Layer_2" data-name="Layer 2" transform="translate(10 1.751) rotate(45)">
+        <g id="Layer_1" data-name="Layer 1">
+          <path id="Path_712" data-name="Path 712" d="M10.833,5H6.667V.833A.833.833,0,0,0,5,.833V5H.833a.833.833,0,0,0,0,1.667H5v4.167a.833.833,0,0,0,1.667,0V6.667h4.167a.833.833,0,0,0,0-1.667Z" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

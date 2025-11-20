@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="58" height="58" viewBox="0 0 58 58">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_881" data-name="사각형 881" width="36" height="36" transform="translate(406 287)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="ico_01" transform="translate(-80 -243)">
+    <g id="사각형_875" data-name="사각형 875" transform="translate(80 243)" fill="#fff" stroke="#d5d5d5" stroke-width="1">
+      <rect width="58" height="58" rx="5" stroke="none"/>
+      <rect x="0.5" y="0.5" width="57" height="57" rx="4.5" fill="none"/>
+    </g>
+    <g id="ico_01-2" data-name="ico_01" transform="translate(-315 -33)" clip-path="url(#clip-path)">
+      <g id="그룹_969" data-name="그룹 969" transform="translate(-346.529 -474.435)">
+        <path id="패스_2209" data-name="패스 2209" d="M755,853v.2a2.45,2.45,0,0,0,2.45,2.451h28.978a2.45,2.45,0,0,0,2.45-2.451V853Z" transform="translate(-1.411 -62.075)" fill="#ffc960" stroke="#303d53" stroke-width="0.5"/>
+        <g id="그룹_961" data-name="그룹 961" transform="translate(753 790.335)">
+          <path id="패스_2210" data-name="패스 2210" d="M785.165,854.535H755.892A2.9,2.9,0,0,1,753,851.643v-.2a.442.442,0,0,1,.442-.442h34.173a.442.442,0,0,1,.442.442v.2A2.9,2.9,0,0,1,785.165,854.535ZM753.9,851.884a2.012,2.012,0,0,0,1.994,1.768h29.272a2.012,2.012,0,0,0,1.994-1.768Z" transform="translate(-753 -851)" fill="#303d53" stroke="#303d53" stroke-width="0.5"/>
+        </g>
+        <g id="그룹_962" data-name="그룹 962" transform="translate(754.473 768.83)">
+          <path id="패스_2211" data-name="패스 2211" d="M758.442,798.622a.442.442,0,0,1-.442-.442v-18.4A1.786,1.786,0,0,1,759.784,778h.72a.442.442,0,1,1,0,.884h-.72a.9.9,0,0,0-.9.9v18.4A.442.442,0,0,1,758.442,798.622Z" transform="translate(-758 -778)" fill="#303d53" stroke="#303d53" stroke-width="0.5"/>
+        </g>
+        <g id="그룹_963" data-name="그룹 963" transform="translate(783.344 768.83)">
+          <path id="패스_2212" data-name="패스 2212" d="M858.8,798.622a.442.442,0,0,1-.442-.442v-18.4a.9.9,0,0,0-.9-.9h-1.015a.442.442,0,0,1,0-.884h1.015a1.786,1.786,0,0,1,1.784,1.784v18.4A.442.442,0,0,1,858.8,798.622Z" transform="translate(-856 -778)" fill="#303d53" stroke="#303d53" stroke-width="0.5"/>
+        </g>
+        <g id="그룹_964" data-name="그룹 964" transform="translate(758.303 765)">
+          <path id="패스_2213" data-name="패스 2213" d="M795.01,789.452a.442.442,0,0,1-.442-.442V765.884H771.884V789.01a.442.442,0,0,1-.884,0V765.442a.442.442,0,0,1,.442-.442H795.01a.442.442,0,0,1,.442.442V789.01A.442.442,0,0,1,795.01,789.452Z" transform="translate(-771 -765)" fill="#00a58a" stroke="#00a58a" stroke-width="0.5"/>
+        </g>
+        <g id="그룹_965" data-name="그룹 965" transform="translate(761.249 782.381)">
+          <path id="패스_2214" data-name="패스 2214" d="M799.118,824.884H781.442a.442.442,0,0,1,0-.884h17.676a.442.442,0,1,1,0,.884Z" transform="translate(-781 -824)" fill="#303d53" stroke="#303d53" stroke-width="0.5"/>
+        </g>
+        <g id="그룹_966" data-name="그룹 966" transform="translate(774.8 785.622)">
+          <path id="패스_2215" data-name="패스 2215" d="M831.566,835.884h-4.124a.442.442,0,0,1,0-.884h4.124a.442.442,0,0,1,0,.884Z" transform="translate(-827 -835)" fill="#303d53" stroke="#303d53" stroke-width="0.5"/>
+        </g>
+        <g id="그룹_967" data-name="그룹 967" transform="translate(761.249 785.622)">
+          <path id="패스_2216" data-name="패스 2216" d="M791.458,835.884H781.442a.442.442,0,0,1,0-.884h10.016a.442.442,0,0,1,0,.884Z" transform="translate(-781 -835)" fill="#303d53" stroke="#303d53" stroke-width="0.5"/>
+        </g>
+        <g id="그룹_968" data-name="그룹 968" transform="translate(762.739 768.552)">
+          <text id="Q" transform="translate(0 8)" fill="#303d53" stroke="#303d53" stroke-width="0.5" font-size="8" font-family="MicrosoftSansSerif, Microsoft Sans Serif"><tspan x="0" y="0">Q</tspan></text>
+          <text id="A" transform="translate(8.764 7.974)" fill="#303d53" stroke="#303d53" stroke-width="0.5" font-size="8" font-family="MicrosoftSansSerif, Microsoft Sans Serif"><tspan x="0" y="0">A</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

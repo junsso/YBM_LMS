@@ -1,0 +1,13 @@
+<svg id="ico_chat" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="15" height="15" viewBox="0 0 15 15">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_165" data-name="사각형 165" width="15" height="15" fill="#ff5c5c" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="icon_chat" clip-path="url(#clip-path)">
+    <g id="chat" transform="translate(0 0.498)">
+      <path id="패스_127" data-name="패스 127" d="M9.762,3.7A5.145,5.145,0,0,0,0,5.957a5.072,5.072,0,0,0,.49,2.191l-.482,2.41a.44.44,0,0,0,.516.517l2.44-.482a5.055,5.055,0,0,0,1.018.356A6.012,6.012,0,0,1,9.762,3.7Z" transform="translate(0 -0.83)" fill="#c9cdd2"/>
+      <path id="패스_128" data-name="패스 128" d="M17.664,14.4a5.1,5.1,0,0,0,.22-.542h-.016a5.132,5.132,0,0,0-4.616-6.769h0a5.127,5.127,0,1,0-.246,10.248,5.071,5.071,0,0,0,2.185-.491c2.672.528,2.464.491,2.525.491a.44.44,0,0,0,.431-.526Z" transform="translate(-3.154 -3.33)" fill="#72787f"/>
+    </g>
+  </g>
+</svg>

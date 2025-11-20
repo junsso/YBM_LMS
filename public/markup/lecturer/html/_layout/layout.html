@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge;Chromeframe=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="generator" content="">
+<meta name="robots" content="ALL">
+<meta property="og:type" content="">
+<meta property="og:title" content="">
+<meta property="og:description" content="">
+<meta property="og:image" content="">
+<meta property="og:url" content="">
+<title>페이지명 | 초등(채널명) | YBM온라인스쿨(사이트명)</title>
+<link rel="alternate" href="layout.html" id="desktop" media="only screen and (touch-enabled: 0)">
+<link rel="alternate" href="layout.html" id="tablet" media="only screen and (min-device-width: 768px)">
+<link rel="alternate" href="layout_m.html" id="phone" media="only screen and (max-device-width: 767px)">
+<link rel="shortcut icon" href="../../../../favicon.ico">
+<link rel="stylesheet" href="../../common/css/import.css">
+<script src="../../lib/jquery-3.6.0.min.js"></script>
+<script src="../../lib/device.js"></script>
+</head>
+<body class="common">
+
+    <!-- start: 스마트스쿨 공통 헤더 -->
+    <section class="common-header">
+        <div class="util-menu">
+            <div class="container-inner">
+                <div class="out-link">
+                    <div class="go-gate"><a href="#;">게이트</a></div>
+                    <div class="go-channel">
+                        <ul>
+                            <li class="current"><a href="#;" target="_blank">초등</a></li>
+                            <li><a href="#;" target="_blank">중학</a></li>
+                            <li><a href="#;" target="_blank">고등</a></li>
+                            <li><a href="#;" target="_blank">스마트스쿨</a></li>
+                            <li><a href="#;" target="_blank">깜짝퀴즈</a></li>
+                            <li><a href="#;" target="_blank">커넥트북</a></li>
+                            <li><a href="#;" target="_blank">YBM교과서 소개</a></li>
+                        </ul>
+                    </div>
+                    <div class="go-fm-list">
+                        <ul>
+                            <li ><a href="#;" target="_blank">YBM교원 연수원</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="inner-link">
+                    <ul>
+                        <li><a href="#;">로그인</a></li>
+                        <li><a href="#;">회원가입</a></li>
+                        <!-- 로그인 후
+                        <li><a href="#;">로그아웃</a></li>
+                        <li><a href="#;">개인정보수정</a></li>
+                        //로그인 후 -->
+                        <li><a href="#;">고객센터</a></li>
+                        <li><a href="#;" class="favorite ico-favorite-before" data-popup="shortcut">즐겨찾기</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- // end: 스마트스쿨 공통 헤더 -->
+    
+    <section class="wrap">
+        <!-- start: 상단 배너 영역 (background-color는 예시로 넣어둠.삭제해도 무방함.)-->
+        <div class="top-banner-area" style="background-color: pink;">
+            <div class="inn">
+                <div class="img-wrap">
+                    <img src="../../img/temp/pc_top_sample.png" alt="샘플 배너이미지">
+                </div>
+                <button type="button" class="btns">오늘 하루 보지 않기 <span class="ico"></span></button>
+            </div>
+        </div>
+        <!-- // End -->
+        <!-- start:좌측 메뉴 -->
+        <section class="header">
+            <div class="inner">
+                <h1 class="site-name"><a href="#">YBM스마트스쿨</a></h1>
+                <!-- start: 해당 페이지일경우 1depth,2depth li 에 current 클래스 활성화 -->
+                <nav class="gnb">
+                    <ul>
+                        <li>
+                            <a href="#"><span class="ico-gnb sboard"></span><em>수업보드</em></a>
+                        </li>
+                        <li class="current">
+                            <a href="#"><span class="ico-gnb mg-class"></span><em>수업관리</em></a>
+                            <ul class="dropdown">
+                                <li class="current"><a href="#">수업개설</a></li>
+                                <li><a href="#">평가·과제 관리</a></li>
+                                <li><a href="#">시간표 관리</a></li>
+                                <li><a href="#">수업 리포트</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#"><span class="ico-gnb mg-alarm"></span><em>메시지 관리</em></a>
+                            <ul class="dropdown">
+                                <li><a href="#">그룹 메시지</a></li>
+                                <li><a href="#">1:1 메시지</a></li>
+                            </ul>
+                        </li>
+                        <li class="oncon-depth">
+                            <a href="#"><span class="ico-gnb oncon"></span><em>온라인 콘텐츠 제작</em></a>
+                        </li>
+                        <li>
+                            <a href="#"><span class="ico-gnb mg-study"></span><em>학급학생관리</em></a>
+                            <ul class="dropdown">
+                                <li><a href="#">학급 현황</a></li>
+                                <li><a href="#">학생 현황</a></li>
+                            </ul>
+                        </li>
+                        <li class="dv-bar"></li>
+                        <li>
+                            <a href="#"><span class="ico-gnb rnd"></span><em>수업연구실</em></a>
+                            <ul class="dropdown">
+                                <li><a href="#">자료 나눔터</a></li>
+                                <li><a href="#">내 연구실</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#"><span class="ico-gnb ttalk"></span><em>T톡</em></a>
+                            <ul class="dropdown">
+                                <li><a href="#">이슈톡</a></li>
+                                <li><a href="#">프리톡</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- // End -->
+                <div class="launch-wrap">
+                    <a href="https://www.ybmcloud.com" target="_blank" title="Y클라우드 새창열림"><span></span></a>
+                    <a href="https://www.ybmcloud.com" target="_blank" title="Y클라우드 새창열림" class="book"><span></span></a>
+                </div>
+            </div>
+            <div class="toggle-fold">
+                <button><span>메뉴 열기/닫기</span></button>
+            </div>
+        </section>
+        <!-- //end:좌측 메뉴 -->
+        <section class="container">            
+            <div class="wrapper-lg">
+                <section class="common-top">
+                    <div class="room-summary">
+                        <h1 class="room-name">세상에 없던 스마트 스쿨</h1>
+                        <div class="room-charge">4-5반 교실 (홍길동선생님)</div>
+                    </div>
+                    <div class="unb">
+                        <button type="button" class="btn-alarm bell"><span>N</span></button>
+                        <button type="button" class="btn-alarm msg"><span>5</span></button>
+                        <a href="#" class="link-voucher">이용권</a>
+                        <ul>
+                            <li><a href="#">개인정보</a></li>
+                            <li><a href="#">고객센터</a></li>
+                            <li><a href="#"><span class="ico-logout"></span>로그아웃</a></li>
+                        </ul>
+
+                        <div class="alarm-popup bell2">
+                            <div class="inner">
+                                <div class="head">
+                                    <h2>최근 알림</h2>
+                                    <button type="button" class="btns close">닫기</button>
+                                </div>
+                                <div class="body">
+                                    <div class="has-scroll">
+                                        <ul class="list">
+                                            <li class="item dimd">
+                                                <a href="#">
+                                                    <div class="flex-box">
+                                                        <div class="lf-bx">
+                                                            <!-- satrt: 아이콘은 sample.html 가이드파일에서 확인 가능 -->
+                                                            <p class="alrm-icon class"></p>
+                                                            <!-- // End -->
+                                                            <span class="state3 br-g mg-top-5">학부모</span>
+                                                        </div>
+                                                        <div class="rt-bx">
+                                                            <h2><span class="tag-desc">[김첫째]</span> 김태연 선생님 (학교)</h2>
+                                                            <h3>국어 1차시 <i class="ico-nxt"></i> 받아쓰기 퀴즈</h3>
+                                                            <p class="date">2021.04.05 18:00</p>
+                                                            <i class="ico-nxt2"></i>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="item">
+                                                <a href="#">
+                                                    <div class="flex-box">
+                                                        <div class="lf-bx">
+                                                            <!-- satrt: 아이콘은 sample.html 가이드파일에서 확인 가능 -->
+                                                            <p class="alrm-icon privacy"></p>
+                                                            <!-- // End -->
+                                                            <span class="state3 br-b mg-top-5">학생</span>
+                                                        </div>
+                                                        <div class="rt-bx">
+                                                            <h2>김태연 선생님 (학교)</h2>
+                                                            <h3>국어 1차시 <i class="ico-nxt"></i> 받아쓰기 퀴즈</h3>
+                                                            <p class="dsc">해당 퀴즈 미제출 하였습니다. 제출하세요.</p>
+                                                            <i class="ico-nxt2"></i>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="item">
+                                                <a href="#">
+                                                    <div class="flex-box">
+                                                        <div class="lf-bx">
+                                                            <!-- satrt: 아이콘은 sample.html 가이드파일에서 확인 가능 -->
+                                                            <p class="alrm-icon eval"></p>
+                                                            <!-- // End -->
+                                                            <span class="state3 br-rd mg-top-5">선생님</span>
+                                                        </div>
+                                                        <div class="rt-bx">
+                                                            <h2>김태연 선생님 (학교)</h2>
+                                                            <h3>참여 현황 12/25</h3>
+                                                            <p class="date">2021.04.05 18:00</p>
+                                                            <i class="ico-nxt2"></i>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="item">
+                                                <a href="#">
+                                                    <div class="flex-box">
+                                                        <div class="lf-bx">
+                                                            <!-- satrt: 아이콘은 sample.html 가이드파일에서 확인 가능 -->
+                                                            <p class="alrm-icon viewer"></p>
+                                                            <!-- // End -->
+                                                            <span class="state3 br-rd mg-top-5">선생님</span>
+                                                        </div>
+                                                        <div class="rt-bx">
+                                                            <h2>김태연 선생님 (학교)</h2>
+                                                            <h3>총 1건의 메시지가 도착했습니다.</h3>
+                                                            <p class="date">2021.04.05 18:00</p>
+                                                            <i class="ico-nxt2"></i>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="item">
+                                                <a href="#">
+                                                    <div class="flex-box">
+                                                        <div class="lf-bx">
+                                                            <!-- satrt: 아이콘은 sample.html 가이드파일에서 확인 가능 -->
+                                                            <p class="alrm-icon board"></p>
+                                                            <!-- // End -->
+                                                            <span class="state3 br-rd mg-top-5">선생님</span>
+                                                        </div>
+                                                        <div class="rt-bx">
+                                                            <h2>김태연 선생님 (학교)</h2>
+                                                            <h3>총 1건의 메시지가 도착했습니다.</h3>
+                                                            <p class="date">2021.04.05 18:00</p>
+                                                            <i class="ico-nxt2"></i>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="alarm-popup msg2">
+                            <div class="inner">
+                                <div class="head">
+                                    <h2>메시지</h2>
+                                    <button type="button" class="btns close">닫기</button>
+                                </div>
+                                <div class="body">
+                                    <div class="has-scroll">
+                                        <ul class="list">
+                                            <li class="item">
+                                                <a href="#">
+                                                    <div class="flex-box">
+                                                        <div class="lf-bx">
+                                                            <!-- satrt: 아이콘은 sample.html 가이드파일에서 확인 가능 -->
+                                                            <p class="alrm-icon chat"></p>
+                                                            <!-- // End -->
+                                                            <span class="state3 br-g mg-top-5">학부모</span>
+                                                        </div>
+                                                        <div class="rt-bx">
+                                                            <h2><span class="tag-desc">[김첫째]</span> 김태연 선생님 (학교)</h2>
+                                                            <h3>총 2건의 메시지가 도착했습니다.</h3>
+                                                            <p class="date">2021.04.05 18:00</p>
+                                                            <i class="ico-nxt2"></i>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="item dimd">
+                                                <a href="#">
+                                                    <div class="flex-box">
+                                                        <div class="lf-bx">
+                                                            <!-- satrt: 아이콘은 sample.html 가이드파일에서 확인 가능 -->
+                                                            <p class="alrm-icon chat"></p>
+                                                            <!-- // End -->
+                                                            <span class="state3 br-b mg-top-5">학생</span>
+                                                        </div>
+                                                        <div class="rt-bx">
+                                                            <h2>김태연 선생님 (학교)</h2>
+                                                            <h3>총 1건의 메시지가 도착했습니다.(클릭해서 메시지를 읽어보세요.)</h3>
+                                                            <p class="date">2021.04.05 18:00</p>
+                                                            <i class="ico-nxt2"></i>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="item">
+                                                <a href="#">
+                                                    <div class="flex-box">
+                                                        <div class="lf-bx">
+                                                            <!-- satrt: 아이콘은 sample.html 가이드파일에서 확인 가능 -->
+                                                            <p class="alrm-icon chat"></p>
+                                                            <!-- // End -->
+                                                            <span class="state3 br-rd mg-top-5">선생님</span>
+                                                        </div>
+                                                        <div class="rt-bx">
+                                                            <h2>김태연 선생님 (학교)</h2>
+                                                            <h3>총 1건의 메시지가 도착했습니다.</h3>
+                                                            <p class="date">2021.04.05 18:00</p>
+                                                            <i class="ico-nxt2"></i>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="item">
+                                                <a href="#">
+                                                    <div class="flex-box">
+                                                        <div class="lf-bx">
+                                                            <!-- satrt: 아이콘은 sample.html 가이드파일에서 확인 가능 -->
+                                                            <p class="alrm-icon chat"></p>
+                                                            <!-- // End -->
+                                                            <span class="state3 br-rd mg-top-5">선생님</span>
+                                                        </div>
+                                                        <div class="rt-bx">
+                                                            <h2>김태연 선생님 (학교)</h2>
+                                                            <h3>총 1건의 메시지가 도착했습니다.</h3>
+                                                            <p class="date">2021.04.05 18:00</p>
+                                                            <i class="ico-nxt2"></i>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="item">
+                                                <a href="#">
+                                                    <div class="flex-box">
+                                                        <div class="lf-bx">
+                                                            <!-- satrt: 아이콘은 sample.html 가이드파일에서 확인 가능 -->
+                                                            <p class="img-wrap alrm-icon"></p>
+                                                            <!-- // End -->
+                                                            <span class="state3 br-rd mg-top-5">선생님</span>
+                                                        </div>
+                                                        <div class="rt-bx">
+                                                            <h2>김태연 선생님 (학교)</h2>
+                                                            <h3>총 1건의 메시지가 도착했습니다.</h3>
+                                                            <p class="date">2021.04.05 18:00</p>
+                                                            <i class="ico-nxt2"></i>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+                <!-- start:본문 -->
+                <section class="content">
+                    content
+                </section>
+                <!-- //end:본문 -->
+            </div>
+        </section>
+    </section>
+
+    
+
+<script src="../../common/js/ui.js"></script>
+</body>
+</html>

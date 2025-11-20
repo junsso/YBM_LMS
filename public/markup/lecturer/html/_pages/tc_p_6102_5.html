@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge;Chromeframe=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="generator" content="">
+<meta name="robots" content="ALL">
+<meta property="og:type" content="">
+<meta property="og:title" content="">
+<meta property="og:description" content="">
+<meta property="og:image" content="">
+<meta property="og:url" content="">
+<title>페이지명 | 교사(채널명) | YBM온라인스쿨(사이트명)</title>
+<link rel="shortcut icon" href="">
+<link rel="stylesheet" href="../../lib/swiper.min.css">
+<link rel="stylesheet" href="../../lib/lightgallery.css">
+<link rel="stylesheet" href="../../common/css/import.css">
+<script src="../../lib/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <section class="wrap">
+        <!-- start:좌측 메뉴 -->
+        <section class="header">
+            <div class="inner">
+                <h1 class="site-name"><a href="#">YBM스마트스쿨</a></h1>
+                <nav class="gnb">
+                    <ul>
+                        <li>
+                            <a href="#"><span class="ico-gnb sboard"></span><em>수업보드</em></a>
+                        </li>
+                        <li>
+                            <a href="#"><span class="ico-gnb mg-class"></span><em>수업관리</em></a>
+                            <ul class="dropdown">
+                                <li><a href="#">수업설계</a></li>
+                                <li><a href="#">평가·과제 관리</a></li>
+                                <li><a href="#">Online 콘텐츠 만들기</a></li>
+                                <li><a href="#">시간표 관리</a></li>
+                                <li><a href="#">수업 리포트</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#"><span class="ico-gnb mg-study"></span><em>학급학생관리</em></a>
+                            <ul class="dropdown">
+                                <li><a href="#">학급 현황</a></li>
+                                <li><a href="#">학생 현황</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#"><span class="ico-gnb mg-alarm"></span><em>알림상담관리</em></a>
+                            <ul class="dropdown">
+                                <li><a href="#">알림장(전달사항)</a></li>
+                                <li><a href="#">상담/문의</a></li>
+                            </ul>
+                        </li>
+                        <li class="dv-bar"></li>
+                        <li>
+                            <a href="#"><span class="ico-gnb rnd"></span><em>수업연구실</em></a>
+                            <ul class="dropdown">
+                                <li><a href="#">자료 나눔터</a></li>
+                                <li><a href="#">내 연구실</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#"><span class="ico-gnb ttalk"></span><em>T톡</em></a>
+                            <ul class="dropdown">
+                                <li><a href="#">이슈톡</a></li>
+                                <li><a href="#">프리톡</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="launch-wrap">
+                    <a href="https://www.ybmcloud.com" target="_blank" title="Y클라우드 새창열림"><span></span></a>
+                </div>
+            </div>
+            <div class="toggle-fold">
+                <button><span>메뉴 열기/닫기</span></button>
+            </div>
+        </section>
+        <!-- //end:좌측 메뉴 -->
+        <section class="container">            
+            <div class="wrapper-lg">
+                <section class="common-top">
+                    <div class="room-summary">
+                        <h1 class="room-name">세상에 없던 스마트 스쿨</h1>
+                        <div class="room-charge">(홍길동선생님)</div>
+                    </div>
+                    <div class="unb">
+                        <button type="button" class="btn-alarm"><span>5</span></button>
+                        <a href="#" class="link-voucher">이용권</a>
+                        <ul>
+                            <li><a href="#">개인정보</a></li>
+                            <li><a href="#">고객센터</a></li>
+                            <li><a href="#"><span class="ico-logout"></span>로그아웃</a></li>
+                        </ul>
+                    </div>
+                </section>
+                <!-- start:본문 -->
+                <section class="content">
+                    <div class="basic-box">
+                        <div class="cl-list-manage">
+                            <div class="box-head title-bx">
+                                <h2>이슈톡 등록하기</h2>
+                            </div>
+                            <div class="box-content">                            
+                                <div class="class-contain"> 
+                                    <div class="cl-fieldset full">
+                                        <div class="table-wrap mg-top-15">
+                                            <table class="table type-a top">
+                                                <colgroup>
+                                                    <col width="100px">
+                                                </colgroup>
+                                                <tr>
+                                                    <th class="star">설문 유형</th>
+                                                    <td class="file-set">
+                                                        <div class="form-contain-radius">
+                                                            <div class="form-wrap">
+                                                                <input type="radio" name="case" id="case1" class="rd-control" checked>
+                                                                <label for="case1" class="rd-label">찬성vs반대</label>
+                                                            </div>
+                                                            <div class="form-wrap">
+                                                                <input type="radio" name="case" id="case2" class="rd-control">
+                                                                <label for="case2" class="rd-label" >선택형</label>
+                                                            </div>
+                                                            <div class="form-wrap">
+                                                                <input type="radio" name="case" id="case3" class="rd-control">
+                                                                <label for="case3" class="rd-label" >메모형</label>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th class="star">대상</th>
+                                                    <td>
+                                                        <div class="form-wrap">
+                                                            <div class="slt-box">
+                                                                <div class="title">
+                                                                    <h2 class="first">초등</h2>	
+                                                                    <i class="arrow"></i>
+                                                                    <ul class="cont">
+                                                                        <li><a href="#;">전체</a></li>
+                                                                        <li><a href="#;">초등</a></li>
+                                                                        <li><a href="#;">중등</a></li>
+                                                                        <li><a href="#;">고등</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th class="star">기간</th>
+                                                    <td>
+                                                        <div class="schedule-box">
+                                                            <div class="sort-form-box">
+                                                                <div class="flex-box">
+                                                                    <div class="lf-bx">
+                                                                        <div class="box lf">
+                                                                            <p class="title">시작일 선택</p>
+                                                                            <div class="schedule">
+                                                                                <div class="form-wrap">
+                                                                                    <span class="ico"></span>
+                                                                                    <input type="text" class="form-control it" value="2021.10.21">
+                                                                                    <span class="ico timer"></span>
+                                                                                    <input type="text" class="form-control form-tm" value="09:00">
+                                                                                    <div class="calender">
+                                                                                        <div class="inner">
+                                                                                            <div class="month">
+                                                                                                <h2>2021년 4월</h2>
+                                                                                                <div class="arrow prev"></div>
+                                                                                                <div class="arrow nxt"></div>
+                                                                                            </div>
+                                                                                            <div class="date">
+                                                                                                <div class="head">
+                                                                                                    <ul>
+                                                                                                        <li class="primary-color">일</li>
+                                                                                                        <li>월</li>
+                                                                                                        <li>화</li>
+                                                                                                        <li>수</li>
+                                                                                                        <li>목</li>
+                                                                                                        <li>금</li>
+                                                                                                        <li class="satday-color">토</li>
+                                                                                                    </ul>
+                                                                                                </div>
+                                                                                                <div class="body">
+                                                                                                    <ul>
+                                                                                                        <li><p class="guide-color">28</p></li>
+                                                                                                        <li><p class="guide-color">29</p></li>
+                                                                                                        <li><p class="guide-color">30</p></li>
+                                                                                                        <li><p class="guide-color">31</p></li>
+                                                                                                        <li><p>1</p></li>
+                                                                                                        <li><p>2</p></li>
+                                                                                                        <li><p class="satday-color">3</p></li>
+                                                                                                        <li><p class="primary-color">4</p></li>
+                                                                                                        <li class="on"><p>5</p></li>
+                                                                                                        <li><p>6</p></li>
+                                                                                                        <li><p>7</p></li>
+                                                                                                        <li><p>8</p></li>
+                                                                                                        <li><p>9</p></li>
+                                                                                                        <li><p class="satday-color">10</p></li>
+                                                                                                        <li><p class="primary-color">11</p></li>
+                                                                                                        <li><p>12</p></li>
+                                                                                                        <li><p>13</p></li>
+                                                                                                        <li><p>14</p></li>
+                                                                                                        <li><p>15</p></li>
+                                                                                                        <li><p>16</p></li>
+                                                                                                        <li><p class="satday-color">17</p></li>
+                                                                                                        <li><p class="primary-color">18</p></li>
+                                                                                                        <li><p>19</p></li>
+                                                                                                        <li><p>20</p></li>
+                                                                                                        <li><p>21</p></li>
+                                                                                                        <li><p>22</p></li>
+                                                                                                        <li><p>23</p></li>
+                                                                                                        <li><p class="satday-color">24</p></li>
+                                                                                                        <li><p class="primary-color">25</p></li>
+                                                                                                        <li><p>26</p></li>
+                                                                                                        <li><p>27</p></li>
+                                                                                                        <li><p>28</p></li>
+                                                                                                        <li><p>29</p></li>
+                                                                                                        <li><p>30</p></li>
+                                                                                                        <li><p class="guide-color">1</p></li>
+                                                                                                    </ul>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="time">
+                                                                                        <div class="inn">
+                                                                                            <ul>
+                                                                                                <li>
+                                                                                                    <div class="num">
+                                                                                                        <div class="bx"><p>09</p></div>
+                                                                                                        <div class="bx"><p>05</p></div>
+                                                                                                    </div>
+                                                                                                </li>
+                                                                                                <li>
+                                                                                                    <div class="num">
+                                                                                                        <div class="bx"><p>10</p></div>
+                                                                                                        <div class="bx"><p>06</p></div>
+                                                                                                    </div>
+                                                                                                </li>
+                                                                                                <li class="center">
+                                                                                                    <div class="num">
+                                                                                                        <div class="bx"><input type="text" value="11"></div>
+                                                                                                        <div class="bx"><input type="text" value="07"></div>
+                                                                                                    </div>
+                                                                                                </li>
+                                                                                                <li>
+                                                                                                    <div class="num">
+                                                                                                        <div class="bx"><p>12</p></div>
+                                                                                                        <div class="bx"><p>08</p></div>
+                                                                                                    </div>
+                                                                                                </li>
+                                                                                                <li>
+                                                                                                    <div class="num">
+                                                                                                        <div class="bx"><p>13</p></div>
+                                                                                                        <div class="bx"><p>09</p></div>
+                                                                                                    </div>
+                                                                                                </li>
+                                                                                            </ul>
+                                                                                            <button type="button" class="btn btn02 close-btn">확인</button>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="box lf mg-top-10">
+                                                                            <p class="title">마감일 선택</p>
+                                                                            <div class="schedule">
+                                                                                <div class="form-wrap">
+                                                                                    <span class="ico"></span>
+                                                                                    <input type="text" class="form-control it" value="2021.10.30">
+                                                                                    <span class="ico timer"></span>
+                                                                                    <input type="text" class="form-control form-tm" value="09:00">
+                                                                                    <div class="calender">
+                                                                                        <div class="inner">
+                                                                                            <div class="month">
+                                                                                                <h2>2021년 4월</h2>
+                                                                                                <div class="arrow prev"></div>
+                                                                                                <div class="arrow nxt"></div>
+                                                                                            </div>
+                                                                                            <div class="date">
+                                                                                                <div class="head">
+                                                                                                    <ul>
+                                                                                                        <li class="primary-color">일</li>
+                                                                                                        <li>월</li>
+                                                                                                        <li>화</li>
+                                                                                                        <li>수</li>
+                                                                                                        <li>목</li>
+                                                                                                        <li>금</li>
+                                                                                                        <li class="satday-color">토</li>
+                                                                                                    </ul>
+                                                                                                </div>
+                                                                                                <div class="body">
+                                                                                                    <ul>
+                                                                                                        <li><p class="guide-color">28</p></li>
+                                                                                                        <li><p class="guide-color">29</p></li>
+                                                                                                        <li><p class="guide-color">30</p></li>
+                                                                                                        <li><p class="guide-color">31</p></li>
+                                                                                                        <li><p>1</p></li>
+                                                                                                        <li><p>2</p></li>
+                                                                                                        <li><p class="satday-color">3</p></li>
+                                                                                                        <li><p class="primary-color">4</p></li>
+                                                                                                        <li class="on"><p>5</p></li>
+                                                                                                        <li><p>6</p></li>
+                                                                                                        <li><p>7</p></li>
+                                                                                                        <li><p>8</p></li>
+                                                                                                        <li><p>9</p></li>
+                                                                                                        <li><p class="satday-color">10</p></li>
+                                                                                                        <li><p class="primary-color">11</p></li>
+                                                                                                        <li><p>12</p></li>
+                                                                                                        <li><p>13</p></li>
+                                                                                                        <li><p>14</p></li>
+                                                                                                        <li><p>15</p></li>
+                                                                                                        <li><p>16</p></li>
+                                                                                                        <li><p class="satday-color">17</p></li>
+                                                                                                        <li><p class="primary-color">18</p></li>
+                                                                                                        <li><p>19</p></li>
+                                                                                                        <li><p>20</p></li>
+                                                                                                        <li><p>21</p></li>
+                                                                                                        <li><p>22</p></li>
+                                                                                                        <li><p>23</p></li>
+                                                                                                        <li><p class="satday-color">24</p></li>
+                                                                                                        <li><p class="primary-color">25</p></li>
+                                                                                                        <li><p>26</p></li>
+                                                                                                        <li><p>27</p></li>
+                                                                                                        <li><p>28</p></li>
+                                                                                                        <li><p>29</p></li>
+                                                                                                        <li><p>30</p></li>
+                                                                                                        <li><p class="guide-color">1</p></li>
+                                                                                                    </ul>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="time">
+                                                                                        <div class="inn">
+                                                                                            <ul>
+                                                                                                <li>
+                                                                                                    <div class="num">
+                                                                                                        <div class="bx"><p>09</p></div>
+                                                                                                        <div class="bx"><p>05</p></div>
+                                                                                                    </div>
+                                                                                                </li>
+                                                                                                <li>
+                                                                                                    <div class="num">
+                                                                                                        <div class="bx"><p>10</p></div>
+                                                                                                        <div class="bx"><p>06</p></div>
+                                                                                                    </div>
+                                                                                                </li>
+                                                                                                <li class="center">
+                                                                                                    <div class="num">
+                                                                                                        <div class="bx"><input type="text" value="11"></div>
+                                                                                                        <div class="bx"><input type="text" value="07"></div>
+                                                                                                    </div>
+                                                                                                </li>
+                                                                                                <li>
+                                                                                                    <div class="num">
+                                                                                                        <div class="bx"><p>12</p></div>
+                                                                                                        <div class="bx"><p>08</p></div>
+                                                                                                    </div>
+                                                                                                </li>
+                                                                                                <li>
+                                                                                                    <div class="num">
+                                                                                                        <div class="bx"><p>13</p></div>
+                                                                                                        <div class="bx"><p>09</p></div>
+                                                                                                    </div>
+                                                                                                </li>
+                                                                                            </ul>
+                                                                                            <button type="button" class="btn btn02 close-btn">확인</button>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="rt-bx">
+                                                                        <div class="chk-box">
+                                                                            <div class="chk-control-box">
+                                                                                <div class="form-wrap">
+                                                                                    <input type="radio" name="date" id="date1" class="chk-control4">
+                                                                                    <label for="date1" class="chk-label ">1일</label>
+                                                                                </div>
+                                                                                <div class="form-wrap">
+                                                                                    <input type="radio" name="date" id="date2" class="chk-control4">
+                                                                                    <label for="date2" class="chk-label ">3일</label>
+                                                                                </div>
+                                                                                <div class="form-wrap">
+                                                                                    <input type="radio" name="date" id="date3" class="chk-control4">
+                                                                                    <label for="date3" class="chk-label ">5일</label>
+                                                                                </div>
+                                                                                <div class="form-wrap">
+                                                                                    <input type="radio" name="date" id="date4" class="chk-control4">
+                                                                                    <label for="date4" class="chk-label ">7일</label>
+                                                                                </div>
+                                                                                <div class="form-wrap">
+                                                                                    <input type="radio" name="date" id="date5" class="chk-control4">
+                                                                                    <label for="date5" class="chk-label ">10일</label>
+                                                                                </div>
+                                                                                <div class="form-wrap">
+                                                                                    <input type="radio" name="date" id="date6" class="chk-control4">
+                                                                                    <label for="date6" class="chk-label ">15일</label>
+                                                                                </div>
+                                                                                <div class="form-wrap">
+                                                                                    <input type="radio" name="date" id="date7" class="chk-control4">
+                                                                                    <label for="date7" class="chk-label ">30일</label>
+                                                                                </div>
+                                                                                <div class="form-wrap">
+                                                                                    <input type="radio" name="date" id="date8" class="chk-control4">
+                                                                                    <label for="date8" class="chk-label ">60일</label>
+                                                                                </div>                                                         
+                                                                            </div>
+                                                                            <p class="disc primary-color mg-top-10">※ 기간을 선택하면 마감일이 자동 설정됩니다.</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div> 
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th class="star">내용 등록</th>
+                                                    <td>
+                                                        <div class="form-wrap type-a star-wrap">
+                                                            <input type="text" class="form-control type-a weight-m" value="선행 학습 꼭 해야하나요?">
+                                                            <span class="star"></span>
+                                                         </div>
+
+                                                        <div class="form-wrap type-a mg-top-15">
+                                                            <textarea name="" id="" cols="" rows="" class="textarea" >선생님은 선행학습을 하고 오는 학생들을 어떻게 대처하시나요? 많이 참여해 주세요!</textarea>
+                                                        </div>
+                                                        
+                                                        <div class="qa-area mg-top-15">
+                                                            <div class="tool-box type-c mg-top-10">
+                                                                <div class="inn">
+                                                                    <div class="gv-content mg-top-10">
+                                                                        <div class="group-imgbox1">
+                                                                            <div class="swiper-container">
+                                                                                <div class="swiper-wrapper">
+                                                                                    <div class="swiper-slide">
+                                                                                        <div class="it-del-wrap">
+                                                                                            <a class="item-delete" href="#none"><img src="../../img/common/ico_close_gray2.svg" alt=""></a>
+                                                                                            <img src="../../img/temp/img_test25.jpg" alt="">
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="indicator">
+                                                                                <!-- Add Arrows -->
+                                                                                <div class="swiper-button-next"></div>
+                                                                                <div class="swiper-button-prev"></div>
+                                                                            </div>
+                                                                            <a class="group-imgbox2" href="#none"><img src="../../img/common/ico_close_gray2.svg" alt=""></a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="form-wrap type-a mg-top-15">
+                                                            <div class="flex-contain">
+                                                                <div class="col-6">
+                                                                    <div class="ch-btn-wrap type-a">
+                                                                        <div class="btns-box type1 disabled">
+                                                                            <div class="insert">
+                                                                                <p class="ico type-a"></p>
+                                                                                <div class="form-wrap">
+                                                                                    <input type="text" class="" value="찬성합니다.">
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="img-select group-imgbox1">
+                                                                            <div class="inn">
+                                                                                <!-- start : 첨부파일 없을때 -->
+                                                                                <button type="button" class="img-wrap" data-popup="photo3"><img src="../../img/common/ico_photo2.svg" alt=""></button>
+                                                                                <p class="mg-top-5">이미지 파일을 등록해 주세요.</p>
+                                                                                <!-- // End -->
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="gv-desc">
+                                                                            <textarea name="" id="" cols="30" rows="10" placeholder="추가 설명을 입력해 주세요."></textarea>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-6">
+                                                                    <div class="ch-btn-wrap type-a">
+                                                                        <div class="btns-box type1 disabled">
+                                                                            <div class="insert">
+                                                                                <p class="ico type-b"></p>
+                                                                                <div class="form-wrap">
+                                                                                    <input type="text" class="" value="반대합니다.">
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="img-select group-imgbox1">
+                                                                            <div class="inn">
+                                                                                <a class="item-delete" href="#none"><img src="../../img/common/ico_close_gray2.svg" alt=""></a>
+                                                                                <img src="../../img/temp/img_tc_p_1451.png" alt="">
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="gv-desc">
+                                                                            <textarea name="" id="" cols="30" rows="10" placeholder="추가 설명을 입력해 주세요."></textarea>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                        <div class="btn-wrap center mg-top-50">
+                                            <div class="col-12">
+                                                <button type="button" class="btn btn03 mg-top-20 mg-rt-5" data-popup="issueAlert">취소</button>
+                                                <button type="button" class="btn btn02 mg-top-20" data-popup="issueEnroll">게시하기</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- //end:본문 -->
+            </div>
+        </section>
+    </section>
+
+    <!-- start:레이어 팝업 -->
+    <div class="popup-wrap"></div>
+    <!-- //end:레이어 팝업 -->
+
+
+<script src="../../lib/swiper.js"></script>
+<script src="../../lib/lightgallery-all.min.js"></script>
+<script src="../../common/js/popup.js"></script>
+<script src="../../common/js/ui.js"></script>
+</body>
+</html>

@@ -1,0 +1,943 @@
+<div class="quiz-wrap">
+    <div class="quiz-overlay"></div>
+
+    <!-- start: 수업모드 - 문제 -->
+    <div class="quiz-pop" id="classModal1Popup">
+        <div class="quiz-content">
+            <div class="quiz-header">
+                <h2 class="title">세계의 수도를 맞춰봅시다!</h2>
+                <div class="btn-box">
+                    <div class="count-box">
+                        <span class="count">1</span>
+                        /
+                        <span class="total">10</span>
+                    </div>
+                </div>
+            </div>
+            <div class="quiz-body">
+                <div class="question-box">
+                    <div class="number">Q1.</div>
+                    <div class="question">대한민국의 수도는 어디일까요?</div>
+                </div>
+                <ul class="exam-box col-2">
+                    <li>                        
+                        <input type="checkbox" name="quiz-exam" id="quiz-exam1-1">
+                        <label for="quiz-exam1-1" class="quiz-exam">
+                            <div class="title-box">
+                                <span class="number">1</span>
+                                <span class="exam">서울</span>
+                            </div>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="quiz-exam" id="quiz-exam1-2">
+                        <label for="quiz-exam1-2" class="quiz-exam">
+                            <div class="title-box">
+                                <span class="number">2</span>
+                                <span class="exam">부산</span>
+                            </div>
+                        </label>
+                    </li>
+                    <!-- 정답보기 후 정답표기는 answer 클래스 추가해주세요. -->
+                    <li>
+                        <input type="checkbox" name="quiz-exam" id="quiz-exam1-3">
+                        <label for="quiz-exam1-3" class="quiz-exam answer">
+                            <div class="title-box">
+                                <span class="number">3</span>
+                                <span class="exam">광주</span>
+                            </div>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="quiz-exam" id="quiz-exam1-4">
+                        <label for="quiz-exam1-4" class="quiz-exam">
+                            <div class="title-box">
+                                <span class="number">4</span>
+                                <span class="exam">대전</span>
+                            </div>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="quiz-exam" id="quiz-exam1-5">
+                        <label for="quiz-exam1-5" class="quiz-exam">
+                            <div class="title-box">
+                                <span class="number">5</span>
+                                <span class="exam">수원</span>
+                            </div>
+                        </label>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="quiz-footer">
+            <div class="btn-set">
+                <button class="type-a">정답보기</button>
+                <button class="type-b">다음 문제</button>
+            </div>
+        </div>
+    </div>
+    <!-- //end:레이어 팝업 -->
+
+    <!-- start: 수업모드 - 선택지에 이미지 있는 경우 -->
+    <div class="quiz-pop" id="classModal2Popup">
+        <div class="quiz-content">
+            <div class="quiz-header">
+                <h2 class="title">세계의 수도를 맞춰봅시다!</h2>
+                <div class="btn-box">
+                    <div class="count-box">
+                        <span class="count">1</span>
+                        /
+                        <span class="total">10</span>
+                    </div>
+                </div>
+            </div>
+            <div class="quiz-body">
+                <div class="question-box">
+                    <div class="number">Q1.</div>
+                    <div class="question">지구의 모양과 가장 비슷한 것은?</div>
+                </div>
+                <ul class="exam-box type-image col-4">
+                    <li>                        
+                        <input type="checkbox" name="quiz-exam" id="quiz-exam2-1">
+                        <label for="quiz-exam2-1" class="quiz-exam">
+                            <div class="title-box">
+                                <span class="number">1</span>
+                                <span class="exam">호수</span>
+                            </div>
+                            <div class="exam-img">
+                                <img src="../../../viewer/img/quiz/image02_1.jpg" alt="">
+                            </div>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="quiz-exam" id="quiz-exam2-2">
+                        <label for="quiz-exam2-2" class="quiz-exam">
+                            <div class="title-box">
+                                <span class="number">2</span>
+                                <span class="exam">바다</span>
+                            </div>
+                            <div class="exam-img">
+                                <img src="../../img/quiz/image02_2.jpg" alt="">
+                            </div>
+                        </label>
+                    </li>
+                    <!-- 정답보기 후 정답표기는 answer 클래스 추가해주세요. -->
+                    <li>
+                        <input type="checkbox" name="quiz-exam" id="quiz-exam2-3" checked>
+                        <label for="quiz-exam2-3" class="quiz-exam answer">
+                            <div class="title-box">
+                                <span class="number">3</span>
+                                <span class="exam">사막</span>
+                            </div>
+                            <div class="exam-img">
+                                <img src="../../img/quiz/image02_3.jpg" alt="">
+                            </div>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="quiz-exam" id="quiz-exam2-4">
+                        <label for="quiz-exam2-4" class="quiz-exam">
+                            <div class="title-box">
+                                <span class="number">4</span>
+                                <span class="exam">빙하</span>
+                            </div>
+                            <div class="exam-img">
+                                <img src="../../img/quiz/image02_4.jpg" alt="">
+                            </div>
+                        </label>
+                    </li>
+                </ul>
+                <!-- 해설이 있는경우 해당 마크업을 이용하세요. -->
+                <div class="quiz-comment-box">
+                    <div class="quiz-comment">
+                        <div class="title">
+                            <img src="../../img/quiz/ico_pencil.svg" alt="">
+                            해설
+                        </div>
+                        지구의 모양과 가장 비슷한 것은 둥근 공 입니다.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="quiz-footer">
+            <div class="btn-set">
+                <button class="type-b">다음 문제</button>
+            </div>
+        </div>
+    </div>
+    <!-- //end:레이어 팝업 -->
+
+    <!-- start: 수업모드 - 정답보기 - OX형 -->
+    <div class="quiz-pop" id="classModal3Popup">
+        <div class="quiz-content">
+            <div class="quiz-header">
+                <h2 class="title">지구의 모양과 가장 비슷한 것은?</h2>
+                <div class="btn-box">
+                    <div class="count-box">
+                        <span class="count">1</span>
+                        /
+                        <span class="total">10</span>
+                    </div>
+                </div>
+            </div>
+            <div class="quiz-body x800">
+                <!-- 정답인 경우 answer-o 클래스 추가 -->
+                <!-- 오답인 경우 answer-x 클래스 추가 -->
+                <div class="question-box answer-x">
+                    <div class="number">Q1.</div>
+                    <div class="question">OX형 테스트</div>
+                </div>
+                <ul class="exam-box type-ox col-2">
+                    <!-- 정답보기 후 정답표기는 answer 클래스 추가해주세요. -->
+                    <li>                        
+                        <input type="checkbox" name="quiz-exam" id="quiz-exam3-1">
+                        <label for="quiz-exam3-1" class="quiz-exam ico-o answer"></label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="quiz-exam" id="quiz-exam3-2" checked>
+                        <label for="quiz-exam3-2" class="quiz-exam ico-x "></label>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="quiz-footer">
+            <div class="btn-set">
+                <button class="type-b">문항보기</button>
+            </div>
+        </div>
+    </div>
+    <!-- //end:레이어 팝업 -->
+
+    <!-- start: 수업모드 - 정답보기 - 단답형 -->
+    <div class="quiz-pop" id="classModal4Popup">
+        <div class="quiz-content">
+            <div class="quiz-header">
+                <h2 class="title">지구의 모양과 가장 비슷한 것은?</h2>
+                <div class="btn-box">
+                    <div class="count-box">
+                        <span class="count">1</span>
+                        /
+                        <span class="total">10</span>
+                    </div>
+                </div>
+            </div>
+            <div class="quiz-body x800">
+                <!-- 정답인 경우 answer-o 클래스 추가 -->
+                <!-- 오답인 경우 answer-x 클래스 추가 -->
+                <div class="question-box answer-o">
+                    <div class="number">Q1.</div>
+                    <div class="question">단답형_정답 3개</div>
+                </div>
+                <ul class="exam-box type-short">
+                    <li>                        
+                        <div class="title">입력한 답</div>
+                        <div class="input-text">Y클라우드, 교사지원사이트, 스마트스쿨</div>
+                    </li>
+                    <li class="answer">
+                        <div class="title">정답</div>
+                        <div class="input-text">Y클라우드, 교사지원사이트, 스마트스쿨</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="quiz-footer">
+            <div class="btn-set">
+                <button class="type-b">문항보기</button>
+            </div>
+        </div>
+    </div>
+    <!-- //end:레이어 팝업 -->
+
+    <!-- start: 수업모드 - 정답보기 - 빈칸형 -->
+    <div class="quiz-pop" id="classModal5Popup">
+        <div class="quiz-content">
+            <div class="quiz-header">
+                <h2 class="title">지구의 모양과 가장 비슷한 것은?</h2>
+                <div class="btn-box">
+                    <div class="count-box">
+                        <span class="count">1</span>
+                        /
+                        <span class="total">10</span>
+                    </div>
+                </div>
+            </div>
+            <div class="quiz-body x800">
+                <!-- 정답인 경우 answer-o 클래스 추가 -->
+                <!-- 오답인 경우 answer-x 클래스 추가 -->
+                <div class="question-box answer-o">
+                    <div class="number">Q1.</div>
+                    <div class="question">빈칸 4개</div>
+                </div>
+                <ul class="exam-box type-short">
+                    <li>                        
+                        <div class="title">입력한 답</div>
+                        <!-- 빈칸형은 단답형에서 input-text에 span으로 처리 -->
+                        <!-- 나머지는 단답형과 다 동일합니다. -->
+                        <div class="input-text">
+                            <span>정답</span>
+                            <span>복수정답</span>
+                            <span>모범답안</span>
+                            <span>마지막</span>
+                            <!-- 오답일때 wrong 클래스 추가 -->
+                            <span class="wrong">오답</span>
+                        </div>
+                    </li>
+                    <li class="answer">
+                        <div class="title">정답</div>
+                        <div class="input-text">
+                            <span>정답</span>
+                            <span>복수정답</span>
+                            <span>모범답안</span>
+                            <span>마지막</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="quiz-footer">
+            <div class="btn-set">
+                <button class="type-b">문항보기</button>
+            </div>
+        </div>
+    </div>
+    <!-- //end:레이어 팝업 -->
+
+
+    <!-- start: 함께시작 - 선생님 대기화면 -->
+    <div class="quiz-pop" id="groupModal1Popup">
+        <div class="quiz-content">
+            <div class="quiz-header">
+                <h2 class="title">세계의 수도를 맞춰봅시다!</h2>
+                <div class="btn-box">
+                    <span class="sticker-type5">
+                        <img src="../../img/quiz/ico_clock.svg" alt="">
+                        제한시간
+                        <span class="count">3</span>
+                        분
+                    </span>
+                </div>
+            </div>
+            <div class="quiz-body">
+                <div class="quiz-conn-wrap">
+                    <div class="left-box">
+                        <div class="info-text">
+                            <i class="ico_danger_c"></i> 접속 URL이나 QR코드로 접속해주세요.
+                        </div>
+                        <div class="conn-copy-box">
+                            <span class="title">접속 URL</span>
+                            <span class="text">https://school.ybmsmartschool.com/RxPs23/kmy11223355kmy11223355kmy11223355kmy11223355kmy11223355kmy11223355kmy11223355</span>
+                            <a href="#;" class="btn conn-copy">복사</a>
+                        </div>
+                        <div class="conn-copy-box">
+                            <span class="title">접속번호</span>
+                            <span class="text">2205</span>
+                            <a href="#;" class="btn conn-copy">복사</a>
+                        </div>
+                    </div>
+                    <div class="right-box">
+                        <div class="qrcode"><img src="../../img/quiz/image_329.png" alt=""></div>
+                        <a href="#;" class="zoomin"><i class="ico_zoomin"></i></a>
+                    </div>
+                </div>
+                <div class="quiz-member-wrap">
+                    <ul class="quiz-conn-member">
+                        <li class="active">1번 김이현</li>
+                        <li>2번 김이현</li>
+                        <li>3번 김이현</li>
+                        <li>4번 김이현</li>
+                        <li>5번 김이현</li>
+                        <li>6번 김이현</li>
+                        <li>7번 김이현</li>
+                        <li>8번 김이현</li>
+                        <li>9번 김이현</li>
+                        <li>10번 김이현</li>
+                        <li>11번 김이현</li>
+                        <li>12번 김이현</li>
+                        <li>13번 김이현</li>
+                        <li>14번 김이현</li>
+                        <li>15번 김이현</li>
+                        <li>16번 김이현</li>
+                        <li>17번 김이현</li>
+                        <li>18번 김이현</li>
+                        <li>19번 김이현</li>
+                        <li>20번 김이현</li>
+                        <li>21번 김이현</li>
+                        <li>22번 김이현</li>
+                        <li>23번 김이현</li>
+                        <li>24번 김이현</li>
+                        <li>25번 김이현김이현김이현김이현</li>
+                        <li>26번 김이현</li>
+                        <li>27번 김이현</li>
+                        <li>28번 김이현</li>
+                        <li>29번 김이현</li>
+                        <li>30번 김이현</li>
+                        <li>31번 김이현</li>
+                        <li>32번 김이현</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="quiz-footer">
+            <div class="btn-set">
+                <button class="type-b">시작하기</button>
+            </div>
+        </div>
+    </div>
+    <!-- //end:레이어 팝업 -->
+
+    <!-- start: 함께시작 - 학생 입장화면 -->
+    <div class="quiz-pop" id="groupModal2Popup">
+        <div class="quiz-content">
+            <div class="quiz-header">
+                <h2 class="title">세계의 수도를 맞춰봅시다!</h2>
+                <div class="btn-box">
+                    <span class="sticker-type5">
+                        <img src="../../img/quiz/ico_clock.svg" alt="">
+                        제한시간
+                        <span class="count">3</span>
+                        분
+                    </span>
+                </div>
+            </div>
+            <div class="quiz-body">
+                <div class="quiz-body-title">
+                    퀴즈 접속번호, 이름, 번호를 입력해 주세요.
+                </div>
+                <div class="quiz-user-conn-wrap">
+                    <div class="quiz-user-conn-info">
+                        <div class="row">
+                            <span class="title"><i class="ico_arrow_ios"></i> 접속번호</span>
+                            <div class="input-box col-4">
+                                <input type="text" value="3" maxlength="1">
+                                <input type="text" value="8" maxlength="1">
+                                <input type="text" value="2" maxlength="1">
+                                <input type="text" value="7" maxlength="1">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <span class="title"><i class="ico_arrow_ios"></i> 이름</span>
+                            <div class="input-box">
+                                <input type="text" value="">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <span class="title"><i class="ico_arrow_ios"></i> 번호</span>
+                            <div class="input-box">
+                                <input type="text" value="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="quiz-footer">
+            <div class="btn-set">
+                <button class="type-b">접속하기</button>
+            </div>
+        </div>
+    </div>
+    <!-- //end:레이어 팝업 -->
+
+    <!-- start: 함께시작 - 학생 대기화면 -->
+    <div class="quiz-pop" id="groupModal3Popup">
+        <div class="quiz-content">
+            <div class="quiz-header">
+                <h2 class="title">세계의 수도를 맞춰봅시다!</h2>
+                <div class="btn-box">
+                    <span class="sticker-type5">
+                        <img src="../../img/quiz/ico_clock.svg" alt="">
+                        제한시간
+                        <span class="count">3</span>
+                        분
+                    </span>
+                </div>
+            </div>
+            <div class="quiz-body">
+                <div class="quiz-body-title">
+                    <div><span class="acc">김이현</span> 님이 <span class="acc">입장</span>하였습니다.</div>
+                </div>
+                <div class="quiz-waiting-wrap">
+                    <img src="../../img/quiz/ico_hourglass.svg" alt="">
+                    <div class="waiting-msg">선생님께서<br><span class="acc2">퀴즈를 준비 중</span>입니다.</div>
+                    <div>잠시만 기다려주세요.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- //end:레이어 팝업 -->
+    
+    <!-- start: 함께시작 - 선생님 진행화면 -->
+    <div class="quiz-pop" id="groupModal4Popup">
+        <div class="quiz-content">
+            <div class="quiz-header">
+                <h2 class="title">세계의 수도를 맞춰봅시다!</h2>
+                <div class="btn-box">
+                    <span class="sticker-type5">
+                        <img src="../../img/quiz/ico_clock.svg" alt="">
+                        제한시간
+                        <span class="count">3</span>
+                        분
+                    </span>
+                </div>
+            </div>
+            <!-- -- !참고! -- -->
+            <!-- classModel2Popup 팝업과 quiz-body 부분이 동일합니다. -->
+            <div class="quiz-body">
+                <div class="question-box">
+                    <div class="number">Q1.</div>
+                    <div class="question">지구의 모양과 가장 비슷한 것은?</div>
+                </div>
+                <ul class="exam-box type-image col-4">
+                    <li>                        
+                        <input type="checkbox" name="quiz-exam" id="quiz-exam9-1">
+                        <label for="quiz-exam9-1" class="quiz-exam">
+                            <div class="title-box">
+                                <span class="number">1</span>
+                                <span class="exam">호수</span>
+                            </div>
+                            <div class="exam-img">
+                                <img src="../../img/quiz/image02_1.jpg" alt="">
+                            </div>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="quiz-exam" id="quiz-exam9-2">
+                        <label for="quiz-exam9-2" class="quiz-exam">
+                            <div class="title-box">
+                                <span class="number">2</span>
+                                <span class="exam">바다</span>
+                            </div>
+                            <div class="exam-img">
+                                <img src="../../img/quiz/image02_2.jpg" alt="">
+                            </div>
+                        </label>
+                    </li>
+                    <!-- 정답보기 후 정답표기는 answer 클래스 추가해주세요. -->
+                    <li>
+                        <input type="checkbox" name="quiz-exam" id="quiz-exam9-3">
+                        <label for="quiz-exam9-3" class="quiz-exam answer">
+                            <div class="title-box">
+                                <span class="number">3</span>
+                                <span class="exam">사막</span>
+                            </div>
+                            <div class="exam-img">
+                                <img src="../../img/quiz/image02_3.jpg" alt="">
+                            </div>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="quiz-exam" id="quiz-exam9-4">
+                        <label for="quiz-exam9-4" class="quiz-exam">
+                            <div class="title-box">
+                                <span class="number">4</span>
+                                <span class="exam">빙하</span>
+                            </div>
+                            <div class="exam-img">
+                                <img src="../../img/quiz/image02_4.jpg" alt="">
+                            </div>
+                        </label>
+                    </li>
+                </ul>
+                <!-- 해설이 있는경우 해당 마크업을 이용하세요. -->
+                <div class="quiz-comment-box">
+                    <div class="quiz-comment">
+                        <div class="title">
+                            <img src="../../img/quiz/ico_pencil.svg" alt="">
+                            해설
+                        </div>
+                        지구의 모양과 가장 비슷한 것은 둥근 공 입니다.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="quiz-footer">
+            <div class="btn-set">
+                <!-- 참여자보기 POPUP - qzMember1 : 다지선다형 / qzMember2 : OX형 -->
+                <button class="type-a" data-popup="qzMember1">참여자 보기</button>
+                <button class="type-c" data-popup="qzRanking">순위</button>
+                <button class="type-b">정답보기</button>
+            </div>
+        </div>
+    </div>
+    <!-- //end:레이어 팝업 -->
+
+    <!-- start: 함께시작 - 선생님 결과화면 -->
+    <div class="quiz-pop" id="groupModal5Popup">
+        <div class="quiz-content">
+            <div class="quiz-header">
+                <h2 class="title">세계의 수도를 맞춰봅시다!</h2>
+            </div>
+            <div class="quiz-body">
+                <div class="quiz-body-title">
+                    <div><span class="acc">퀴즈</span>가 <span class="acc">종료</span>되었습니다.</div>
+                </div>
+                <div class="quiz-result-wrap">
+                    <table>
+                        <colgroup>
+                            <col width="100" />
+                            <col width="" />
+                            <col width="200" />
+                            <col width="145" />
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>번호</th>
+                                <th>문제</th>
+                                <th>정답률</th>
+                                <th>응답률</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td class="subject">지구의 모양과 가장 비슷한 것은?</td>
+                                <td>73%</td>
+                                <td class="right">95%</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td class="subject">우리나라에서 볼 수 있는 지구 표면의 모습이 아닌 것은?</td>
+                                <td>45%</td>
+                                <td class="right">70%</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td class="subject">다음 지구 표면 모습은 무엇인가?</td>
+                                <td>100%</td>
+                                <td class="right">50%</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td class="subject">사람이 마시기에 적당하지 않고, 소금과 여러 가지 물질이 녹아 있는 물은?</td>
+                                <td>60%</td>
+                                <td class="right">100%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="quiz-footer">
+            <div class="btn-set">
+                <button class="type-b">상세 리포트 보기</button>
+            </div>
+        </div>
+    </div>
+    <!-- //end:레이어 팝업 -->
+    
+    <!-- start: 함께시작 - 학생 결과화면 -->
+    <div class="quiz-pop" id="groupModal6Popup">
+        <div class="quiz-content">
+            <div class="quiz-header">
+                <h2 class="title">세계의 수도를 맞춰봅시다!</h2>
+            </div>
+            <div class="quiz-body">
+                <div class="quiz-body-title">
+                    <div><span class="acc">김이현</span> 님의 풀이 결과입니다.</div>
+                </div>
+                <div class="quiz-result-wrap">
+                    <div class="result-score-box">
+                        <div class="answer">
+                            <div class="title">
+                                <img src="../../img/quiz/answer_o.svg" alt="">
+                                정답
+                            </div>
+                            <div class="score">7 문제</div>
+                        </div>
+                        <div class="wrong">
+                            <div class="title">
+                                <img src="../../img/quiz/answer_x.svg" alt="">
+                                오답
+                            </div>
+                            <div class="score">3 문제</div>
+                        </div>
+                        <div class="total">
+                            <div class="title">최종점수</div>
+                            <div class="score">700 점</div>
+                        </div>
+                    </div>
+                    <table>
+                        <colgroup>
+                            <col width="100" />
+                            <col width="" />
+                            <col width="200" />
+                            <col width="145" />
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>번호</th>
+                                <th>문제</th>
+                                <th>정답률</th>
+                                <th>응답률</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td class="subject">지구의 모양과 가장 비슷한 것은?</td>
+                                <td>73%</td>
+                                <td class="right">95%</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td class="subject">우리나라에서 볼 수 있는 지구 표면의 모습이 아닌 것은?</td>
+                                <td>45%</td>
+                                <td class="right">70%</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td class="subject">다음 지구 표면 모습은 무엇인가?</td>
+                                <td>100%</td>
+                                <td class="right">50%</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td class="subject">사람이 마시기에 적당하지 않고, 소금과 여러 가지 물질이 녹아 있는 물은?</td>
+                                <td>60%</td>
+                                <td class="right">100%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="quiz-footer">
+            <div class="btn-set">
+                <button class="type-b">퀴즈 종료</button>
+            </div>
+        </div>
+    </div>
+    <!-- //end:레이어 팝업 -->
+    
+    <!-- start: 함께시작 - 학생 진행화면 -->
+    <div class="quiz-pop" id="groupModal7Popup">
+        <div class="quiz-content">
+            <div class="quiz-header">
+                <h2 class="title">세계의 수도를 맞춰봅시다!</h2>
+                <div class="btn-box">
+                    <div class="count-box">
+                        <span class="count">1</span>
+                        /
+                        <span class="total">10</span>
+                    </div>
+                    <span class="sticker-type5">
+                        <img src="../../img/quiz/ico_clock.svg" alt="">
+                        <span class="timer">00 : 16</span>
+                    </span>
+                </div>
+            </div>
+            <div class="quiz-progressbar">
+                <div class="ing" style="width:10%"></div>
+            </div>
+            <div class="quiz-body">
+                <div class="quiz-body-title">
+                    <div>화면을 보고 <span class="acc">질문</span>을 확인하세요.</div>
+                </div>
+                <ul class="exam-box type-image col-4 mg-top30">
+                    <li>                        
+                        <input type="checkbox" name="quiz-exam" id="quiz-exam12-1">
+                        <label for="quiz-exam12-1" class="quiz-exam">
+                            <div class="title-box">
+                                <span class="number">1</span>
+                                <span class="exam">호수</span>
+                            </div>
+                            <div class="exam-img">
+                                <img src="../../img/quiz/image02_1.jpg" alt="">
+                            </div>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="quiz-exam" id="quiz-exam12-2">
+                        <label for="quiz-exam12-2" class="quiz-exam">
+                            <div class="title-box">
+                                <span class="number">2</span>
+                                <span class="exam">바다</span>
+                            </div>
+                            <div class="exam-img">
+                                <img src="../../img/quiz/image02_2.jpg" alt="">
+                            </div>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="quiz-exam" id="quiz-exam12-3" checked>
+                        <label for="quiz-exam12-3" class="quiz-exam">
+                            <div class="title-box">
+                                <span class="number">3</span>
+                                <span class="exam">사막</span>
+                            </div>
+                            <div class="exam-img">
+                                <img src="../../img/quiz/image02_3.jpg" alt="">
+                            </div>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="quiz-exam" id="quiz-exam12-4">
+                        <label for="quiz-exam12-4" class="quiz-exam">
+                            <div class="title-box">
+                                <span class="number">4</span>
+                                <span class="exam">빙하</span>
+                            </div>
+                            <div class="exam-img">
+                                <img src="../../img/quiz/image02_4.jpg" alt="">
+                            </div>
+                        </label>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="quiz-footer">
+            <div class="desc"><i class="ico_danger_c"></i>답안을 제출하면 변경할 수 없습니다.</div>
+            <div class="btn-set">
+                <button class="type-b">제출하기</button>
+            </div>
+        </div>
+    </div>
+    <!-- //end:레이어 팝업 -->
+    
+    <!-- start: 함께시작 - 학생 정답 제출 후 대기화면 -->
+    <div class="quiz-pop" id="groupModal8Popup">
+        <div class="quiz-content">
+            <div class="quiz-header">
+                <h2 class="title">세계의 수도를 맞춰봅시다!</h2>
+                <div class="btn-box">
+                    <span class="sticker-type5">
+                        <img src="../../img/quiz/ico_clock.svg" alt="">
+                        <span class="timer">00 : 16</span>
+                    </span>
+                </div>
+            </div>
+            <div class="quiz-progressbar">
+                <div class="ing" style="width:10%"></div>
+            </div>
+            <div class="quiz-body">
+                <div class="quiz-body-title">
+                    <div><span class="acc">제출</span>되었습니다.</div>
+                </div>
+                <div class="quiz-waiting-wrap">
+                    <img src="../../img/quiz/ico_hourglass.svg" alt="">
+                    <div class="waiting-msg">다른 학생들이<br><span class="acc2">제출을 완료</span>할 때까지</div>
+                    <div>잠시만 기다려주세요.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- //end:레이어 팝업 -->
+    
+    
+    <!-- start: 각자시작(개인모드) - 선생님 진황화면 -->
+    <div class="quiz-pop" id="privateModal1Popup">
+        <div class="quiz-content translucent">
+            <div class="quiz-header">
+                <h2 class="title">세계의 수도를 맞춰봅시다!</h2>
+                <div class="btn-box">
+                    <span class="sticker-type5">
+                        <img src="../../img/quiz/ico_clock.svg" alt="">
+                        <span class="timer">00 : 16</span>
+                    </span>
+                </div>
+            </div>
+            <div class="quiz-body">
+                <ul class="quiz-member-live">
+                    <li>강지혜</li>
+                    <li>김희진</li>
+                    <li class="rank1">금미연</li>
+                    <li class="rank2">김이연</li>
+                    <li class="rank3">김강섭</li>
+                    <li class="rank4">권주연</li>
+                    <li>김찬미</li>
+                    <li>김지수</li>
+                </ul>
+            </div>
+        </div>
+        <div class="quiz-footer">
+            <div class="btn-set">
+                <button class="type-b">종료하기</button>
+            </div>
+        </div>
+    </div>
+    <!-- //end:레이어 팝업 -->
+    
+    <!-- start: 각자시작(개인모드) - 학생 진황화면 -->
+    <div class="quiz-pop" id="privateModal2Popup">
+        <div class="quiz-content">
+            <div class="quiz-header">
+                <h2 class="title">세계의 수도를 맞춰봅시다!</h2>
+                <div class="btn-box">
+                    <div class="count-box">
+                        <span class="count">1</span>
+                        /
+                        <span class="total">10</span>
+                    </div>
+                    <span class="sticker-type5">
+                        <img src="../../img/quiz/ico_clock.svg" alt="">
+                        <span class="timer">00 : 16</span>
+                    </span>
+                </div>
+            </div>
+            <div class="quiz-progressbar">
+                <div class="ing" style="width:10%"></div>
+            </div>
+            <div class="quiz-body">
+                <div class="question-box">
+                    <div class="number">Q1.</div>
+                    <div class="question">대한민국의 수도는 어디일까요?</div>
+                </div>
+                <ul class="exam-box col-2">
+                    <li>                        
+                        <input type="checkbox" name="quiz-exam" id="quiz-exam13-1" checked>
+                        <!-- 정답보기 후 정답표기는 answer 클래스 추가해주세요. -->
+                        <label for="quiz-exam13-1" class="quiz-exam answer">
+                            <div class="title-box">
+                                <span class="number">1</span>
+                                <span class="exam">서울</span>
+                            </div>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="quiz-exam" id="quiz-exam13-2">
+                        <label for="quiz-exam13-2" class="quiz-exam">
+                            <div class="title-box">
+                                <span class="number">2</span>
+                                <span class="exam">부산</span>
+                            </div>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="quiz-exam" id="quiz-exam13-3">
+                        <label for="quiz-exam13-3" class="quiz-exam">
+                            <div class="title-box">
+                                <span class="number">3</span>
+                                <span class="exam">광주</span>
+                            </div>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="quiz-exam" id="quiz-exam13-4">
+                        <label for="quiz-exam13-4" class="quiz-exam">
+                            <div class="title-box">
+                                <span class="number">4</span>
+                                <span class="exam">대전</span>
+                            </div>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="quiz-exam" id="quiz-exam13-5">
+                        <label for="quiz-exam13-5" class="quiz-exam">
+                            <div class="title-box">
+                                <span class="number">5</span>
+                                <span class="exam">수원</span>
+                            </div>
+                        </label>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="quiz-footer">
+            <div class="btn-set">
+                <button class="type-b">정답보기</button>
+            </div>
+        </div>
+    </div>
+    <!-- //end:레이어 팝업 -->
+    
+</div>

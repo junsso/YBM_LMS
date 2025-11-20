@@ -1,0 +1,116 @@
+// font, color
+$font-stack: 'Roboto', 'Noto Sans KR', sans-serif;
+$font-stack2:'Binggrae', 'Noto Sans KR', sans-serif;;
+$base-bgcolor: #ffffff;
+$bg-color-g: #5AB448;
+$bg-color-g2: #F7F8F9;
+$base-font-weight: 400; 
+$base-line-height: 28px;
+$base-line-height-mo: 26px;
+$base-radius: 4px;
+$base-font-size: 16px;
+$base-font-size-mo: 14px;
+$circle-btn-size: 85px;
+$base-text-color: #747474;
+$base-text-color2: #222222;
+$base-text-rfcolor: #ffffff;
+$base-border-color: #dadada;
+$base-hover-color: #111111;
+$base-active-color: #b0b0b0;
+$primary-color: #ff5c5c;
+$active-color: #0F3653;
+$gnb-scroll-color:#112D41;
+$section-title-color: #1B1D1F;
+$base-button-color: #454C53;
+$family-color-r: #D04242;
+$family-color-g: #F97474;
+$family-color-l: #E45B5B;
+$family-color-m: #FECECE;
+$family-color-s: #FFEEEE;
+$family-color-xs: #E5E3E1;
+$guide-color: #9EA4AA;
+$button-bgcolor: transparent;
+$disabled-color: #C9CDD2;
+$disabled-bg: #E8EBED;
+$scrollbar: #72787F;
+$secondary-color: #FFB643;
+$secondary-color2: #FFF94E;
+$secondary-color2-opp: #5E3A00;
+$tutor-primary: #FFB300;
+$tutor-main-bg: #0093DF;
+$sfamily-color-s: #FFF4E3;
+$sunday-color: #FF5277;
+$satday-color: #63B1FF;
+$today-color: rgba(255,82,119,0.15);
+$cal-personal: #60CBBA;
+$cal-class: #FF5C5C ;
+$cal-exam: #63B1FF;
+$side-radius: 0 30px 30px 0;
+$gnb-dropdown-bg: #122f43;
+$footer-bg: #454545;
+$gnb-hover-color: #F97474;
+$login-input-bg: #fff;
+$join-input-bg: #ffffff;
+$ch-color-student: #6F57CF;
+$ch-color-parents: #454C53;
+$ch-color-parents2: #54B242;
+$if-guide-txt: #F1574F;
+$box-gray: #E5E5E5;
+$pass-color: #278f24;
+$fail-color: #F1574F;
+$class-btn: #157FCE;
+$cont-border-color: #D5D5D5;
+$table-color: #ECECEC;
+$border-color:#26282B;
+$border-color2: #E4E8EB;
+$head-box-color: #FAFBFC;
+$guide-line3: #F5F5F5;
+$table-bg-color: #F1F1F1;
+$readonly2: #E9EBEE;
+$head-section-bg: #E6EAED;
+$mo-menu-bg: #f6f6f6;
+$swiper-bullet: #E1E1E1;
+$admin-color: #E8473F;
+$admin-color2: #004EA1;
+
+// layout
+$w-max-width: 1350px;
+$m-max-width: 767px;
+$m-min-width: 360px;
+$container-max-width: 1600px;
+$container-min-width: 1100px;
+$side-bar-width: 230px;
+$side-minibar-width: 94px;
+$sd-max-width: 295px;
+$box-width-md: 610px;
+$box-width-lg: 760px;
+$box-width-xlg: 860px;
+$box-width-xxlg: 1024px;
+$header-h: 40px;
+$mo-header-h: 60px;
+$login-box-w: 820px;
+$footer-h: 196px;
+$mo-menu-w: calc(100% - 100px);
+
+
+
+$smartschool-color: #ff6652;
+$ycloud-color: #6d379e;
+$booksam-color: #203a63;
+
+// column
+$col-count: 106px;
+$col-term: 260px; 
+$d-date: 50px;
+$form-name-w : 150px;
+$form-guide-w : 30px;
+$form-btn-w: 160px;
+
+// Breakpoints
+$breakpoint-mobile: 335px;
+$breakpoint-tablet: 768px; //현재는 이 값만 사용중
+$breakpoint-desktop: 1024px;
+
+// url
+$img-url: '../../img/common/';
+$img-temp-url: '../../img/temp/';

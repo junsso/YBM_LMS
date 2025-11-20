@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge;Chromeframe=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="generator" content="">
+<meta name="robots" content="ALL">
+<meta property="og:type" content="">
+<meta property="og:title" content="">
+<meta property="og:description" content="">
+<meta property="og:image" content="">
+<meta property="og:url" content="">
+<title>뷰어 | YBM온라인스쿨(사이트명)</title>
+<link rel="alternate" href="layout.html" id="desktop" media="only screen and (touch-enabled: 0)">
+<link rel="alternate" href="layout.html" id="tablet" media="only screen and (min-device-width: 768px)">
+<link rel="alternate" href="layout_m.html" id="phone" media="only screen and (max-device-width: 767px)">
+<link rel="shortcut icon" href="">
+<link rel="stylesheet" href="../../lib/jquery.mCustomScrollbar.css">
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css"><!-- slider range-->
+<link rel="stylesheet" href="../../common/css/import.css">
+<script src="../../lib/jquery-3.6.0.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script><!-- slider range-->
+</head>
+<body>
+    <section class="viewer-wrap">
+        <!-- start: header -->
+        <div class="header">
+            <div class="title-box">
+                <h2 class="desc">우리나라 역사 인물 퀴즈</h2>
+            </div>
+        </div>
+        <!-- // End -->        
+        <!-- start: body -->
+        <div class="body">
+            <div class="body-contents">
+
+                <div class="sheet-view-wrap">
+                
+                    <div class="confirm-box has-scroll">
+                        <div class="view">
+                            <div class="quiz-view">
+                                <div class="border-bx subject">하단의 철자를 바르게 배열하여 우리말에 알맞은 낱말을 쓰세요.</div>
+                                <div class="border-bx type-b mg-top-10">
+                                    <div class="img-wrap">
+                                        <img src="../../img/temp/img_test19.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="form-wrap type-a mg-top-10">
+                                    <textarea placeholder="답안을 입력하세요." class="form-control has-scroll dsc input type-a"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <!-- // End -->
+        <!-- start: foot -->
+        <div class="foot">
+            <div class="show-box">
+                <div class="inner">
+                    <div class="runtime">
+                        <span>진행중 :</span>
+                        <strong> 39:20</strong>
+                    </div>
+                    <div class="pager">
+                        <button class="pageview prev disabled"></button>
+                        <span><em>155</em> / 1,500</span>
+                        <button class="pageview next"></button>
+                    </div>
+                    <div class="btn-box">
+                        <button type="button" class="btns cl-information"><i class="ico"></i> 수업 정보</button>
+                    </div>
+                </div>
+            </div>
+            <!-- start: 툴바 -->
+            <!-- <div class="tool-bar">
+                <div class="menu">
+                    <ul>
+                        <li class="group1">
+                            <button type="button" class="btns t-target"><span class="menu-ico draw"></span>입력도구</button>
+                        </li>
+                        <li class="group1">
+                            <button type="button" class="btns"><span class="menu-ico block"></span>가리기</button>
+                        </li>
+                        <li class="group2">
+                            <button type="button" class="btns"><span class="menu-ico memo"></span>메모</button>
+                        </li>
+                        <li class="group2">
+                            <button type="button" class="btns"><span class="menu-ico url"></span>외부링크</button>
+                        </li>
+                        <li class="group3">
+                            <button type="button" class="btns"><span class="menu-ico screen-save"></span>화면저장</button>
+                        </li>
+                    </ul>
+                </div>
+            </div> -->
+            <!-- // End -->
+            <!-- start: 툴바 depth1 -->
+            <!-- <div class="tool-box depth1">
+                <div class="inner">
+                    <div class="head-cont">
+                        <p>입력도구</p>
+                        <div class="rt">
+                            <button type="button" class="btns">지우기</button>
+                            <button type="button" class="btns">삭제</button>
+                        </div>
+                    </div>
+                    <div class="body-cont mg-top-10">
+                        <div class="lf">
+                            <button type="button" class="btns back">뒤로가기</button>
+                        </div>
+                        <div class="rt">
+                            <div class="auto-box type-a">
+                                <div class="item">
+                                    <button type="button" class="btns drawing t-target2"><span></span><p class="txt">그리기</p></button>
+                                </div>
+                                <div class="item">
+                                    <button type="button" class="btns text text-target"><span></span><p class="txt">텍스트</p></button>
+                                </div>
+                                <div class="item">
+                                    <button type="button" class="btns emo emo-target"><span></span><p class="txt">이모지</p></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            <!-- // End -->
+            <!-- start: 툴바 depth2 (그리기) -->
+            <!-- <div class="tool-box depth2 drawing-tool">
+                <div class="inner">
+                    <div class="head-cont">
+                        <p>그리기</p>
+                        <div class="rt">
+                            <button type="button" class="btns">지우기</button>
+                            <button type="button" class="btns">삭제</button>
+                        </div>
+                    </div>
+                    <div class="body-cont mg-top-10">
+                        <div class="lf">
+                            <button type="button" class="btns back">뒤로가기</button>
+                        </div>
+                        <div class="rt">
+                            <div class="auto-box type-a">
+                                <div class="item">
+                                    <button type="button" class="btns liner t-target3"><span></span></button>
+                                </div>
+                                <div class="item">
+                                    <button type="button" class="btns curve t-target3"><span></span></button>
+                                </div>
+                                <div class="item">
+                                    <button type="button" class="btns circle t-target3"><span></span></button>
+                                </div>
+                                <div class="item">
+                                    <button type="button" class="btns stars t-target3"><span></span></button>
+                                </div>
+                                <div class="item">
+                                    <button type="button" class="btns squares t-target3"><span></span></button>
+                                </div>
+                                <div class="item">
+                                    <button type="button" class="btns triangle t-target3"><span></span></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            <!-- // End -->
+            <!-- start: 툴바 depth3 (그리기) -->
+            <!-- <div class="tool-box depth3 drawing-sub-tool">
+                <div class="inner">
+                    <div class="auto-box type-a">
+                        <div class="box">
+                            <div class="item">
+                                <button type="button" class="btns line thin active"><span></span></button>
+                            </div>
+                            <div class="item">
+                                <button type="button" class="btns line md"><span></span></button>
+                            </div>
+                            <div class="item">
+                                <button type="button" class="btns line bold"><span></span></button>
+                            </div>
+                        </div>
+                        <div class="box color second">
+                            <div class="item">
+                                <button type="button" class="btns figure f1"><span style="background: #000000;"></span></button>
+                            </div>
+                            <div class="item">
+                                <button type="button" class="btns figure f2"><span style="background: #FFFF00;"></span></button>
+                            </div>
+                            <div class="item">
+                                <button type="button" class="btns figure f3"><span style="background: #FF00FF;"></span></button>
+                            </div>
+                            <div class="item">
+                                <button type="button" class="btns figure f4"><span style="background: #0000FF;"></span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            <!-- // End -->
+            <!-- start: 툴바 depth2 (텍스트) -->
+            <!-- <div class="tool-box depth2 text-edit-tool">
+                <div class="inner">
+                    <div class="head-cont">
+                        <p>텍스트</p>
+                        <div class="rt">
+                            <button type="button" class="btns">지우기</button>
+                            <button type="button" class="btns">삭제</button>
+                        </div>
+                    </div>
+                    <div class="body-cont mg-top-10">
+                        <div class="lf">
+                            <button type="button" class="btns back">뒤로가기</button>
+                        </div>
+                        <div class="rt">
+                            <div class="auto-box type-a">
+                                <div class="item">
+                                    <button type="button" class="btns text-target2"><img src="../../img/common/font_namsan.png" alt="서울 남산체"></button>
+                                </div>
+                                <div class="item">
+                                    <button type="button" class="btns text-target2"><img src="../../img/common/font_godo.png" alt="고도체"></button>
+                                </div>
+                                <div class="item">
+                                    <button type="button" class="btns text-target2"><img src="../../img/common/font_ccr.png" alt="쿠키런체"></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            <!-- // End -->
+            <!-- start: 툴바 depth3 (텍스트) -->
+            <!-- <div class="tool-box depth3 text-edit-sub-tool">
+                <div class="inner">
+                    <div class="auto-box type-a">
+                        <div class="box">
+                            <div class="option-value type-a">
+                                <div class="qty-controls">
+                                    <input type="button" value="-" class="qty-button qty-minus">
+                                    <input type="text" value="50px" class="qty" readonly="">
+                                    <input type="button" value="+" class="qty-button qty-plus">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box color second">
+                            <div class="item">
+                                <button type="button" class="btns figure f1"><span style="background: #000000;"></span></button>
+                            </div>
+                            <div class="item">
+                                <button type="button" class="btns figure f2"><span style="background: #FFFF00;"></span></button>
+                            </div>
+                            <div class="item">
+                                <button type="button" class="btns figure f3"><span style="background: #FF00FF;"></span></button>
+                            </div>
+                            <div class="item">
+                                <button type="button" class="btns figure f4"><span style="background: #0000FF;"></span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            <!-- // End -->
+            <!-- start: 툴바 depth2 (이모티콘) -->
+            <!-- <div class="tool-box depth2 emo-tool">
+                <div class="inner">
+                    <div class="head-cont">
+                        <p>이모지</p>
+                        <div class="rt">
+                            <button type="button" class="btns">지우기</button>
+                            <button type="button" class="btns">삭제</button>
+                        </div>
+                    </div>
+                    <div class="body-cont mg-top-10">
+                        <div class="lf">
+                            <button type="button" class="btns back">뒤로가기</button>
+                        </div>
+                        <div class="rt">
+                            <div class="auto-box">
+                                <div class="item">
+                                    <button type="button" class="btns"><img src="../../img/common/ico_pass.svg" alt="O"></button>
+                                </div>
+                                <div class="item">
+                                    <button type="button" class="btns"><img src="../../img/common/ico_fail.svg" alt="체크"></button>
+                                </div>
+                                <div class="item">
+                                    <button type="button" class="btns"><img src="../../img/common/ico_important.svg" alt="별표"></button>
+                                </div>
+                                <div class="item">
+                                    <button type="button" class="btns"><img src="../../img/common/ico_question.svg" alt="물음표"></button>
+                                </div>
+                                <div class="item">
+                                    <button type="button" class="btns"><img src="../../img/common/ico_alert.svg" alt="느낌표"></button>
+                                </div>
+                                <div class="item">
+                                    <button type="button" class="btns"><img src="../../img/common/ico_face_smile.svg" alt="미소"></button>
+                                </div>
+                                <div class="item">
+                                    <button type="button" class="btns"><img src="../../img/common/ico_face_heart.svg" alt="하트뿅뿅"></button>
+                                </div>
+                                <div class="item">
+                                    <button type="button" class="btns"><img src="../../img/common/ico_face_hmm.svg" alt="흠"></button>
+                                </div>
+                                <div class="item">
+                                    <button type="button" class="btns"><img src="../../img/common/ico_face_omg.svg" alt="윽"></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            <!-- // End -->
+
+            <!-- start: 수정정보 -->
+            <div class="class-info-wrap">
+                <div class="inner">
+                    <div class="head-area">
+                        <div class="class-list">
+                            <div class="select-box">
+                                <div class="box">
+                                    <div class="select">1단원 What Grade Are You In?</div>
+                                    <ul class="list">
+                                        <li><span class="plus">1단원 What Grade Are You In?</span>
+                                            <ul class="plus" style="display: none;">
+                                                <li><span class="plus">1-1단원 What Grade Are You In?</span>
+                                                    <ul class="plus" style="display: none;">
+                                                        <li><span>1-1-1단원 What Grade Are You In?</span></li>
+                                                        <li><span>1-1-2단원 What Grade Are You In?</span></li>
+                                                    </ul>
+                                                </li>
+                                                <li><span>1-2단원 What Grade Are You In?</span></li>
+                                            </ul>
+                                        </li>
+                                        <li><span>2단원 What Grade Are You In?</span></li>
+                                        <li><span class="plus">3단원 What Grade Are You In?</span>
+                                            <ul class="plus" style="display: none;">
+                                                <li><span>3-1단원 What Grade Are You In?</span></li>
+                                                <li><span>3-2단원 What Grade Are You In?</span></li>
+                                                <li><span class="plus">3-3단원 What Grade Are You In?</span>
+                                                    <ul class="plus" style="display: none;">
+                                                        <li><span>3-3-1단원 What Grade Are You In?</span></li>
+                                                        <li><span>3-3-2단원 What Grade Are You In?</span></li>
+                                                    </ul>
+                                                </li>
+                                                <li><span>3-4단원 What Grade Are You In?</span></li>
+                                            </ul>
+                                        </li>
+                                        <li><span>4단원 What Grade Are You In?</span></li>
+                                        <li><span>5단원 What Grade Are You In?</span></li>
+                                        <li><span>6단원 What Grade Are You In?</span></li>
+                                        <li><span>7단원 What Grade Are You In?</span></li>
+                                        <li><span>8단원 What Grade Are You In?</span></li>
+                                        <li><span>9단원 What Grade Are You In?</span></li>
+                                        <li><span>10단원 What Grade Are You In?</span></li>
+                                        <li><span>11단원 What Grade Are You In?</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="select-box">
+                                <div class="box">
+                                    <div class="select">[1차시] What Grade Are You In?</div>
+                                    <ul class="list">
+                                        <li><span>[1차시] What Grade Are You In?</span></li>
+                                        <li><span>[2차시] What Grade Are You In?</span></li>
+                                        <li><span>[3차시] What Grade Are You In?</span></li>
+                                        <li><span>[4차시] What Grade Are You In?</span></li>
+                                        <li><span>[5차시] What Grade Are You In?</span></li>
+                                        <li><span>[6차시] What Grade Are You In?</span></li>
+                                        <li><span>[7차시] What Grade Are You In?</span></li>
+                                        <li><span>[8차시] What Grade Are You In?</span></li>
+                                        <li><span>[9차시] What Grade Are You In?</span></li>
+                                        <li><span>[10차시] What Grade Are You In?</span></li>
+                                        <li><span>[11차시] What Grade Are You In?</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="state-box">
+                            <ul>
+                                <li><p><strong class="page">1</strong> / 12</p></li>
+                                <li><p>진행중 : <strong class="time">07:32</strong></p></li>
+                            </ul>
+                        </div>
+                        <div class="page-tool mg-top-20">
+                            <div class="lf">
+                                <button type="button" class="btns custom"><span></span><em>쪽맞춤</em></button>
+                            </div>
+                            <div class="rt">
+                                <ul>
+                                    <li><button type="button" class="btns prev"><span></span><em>이전 자료</em></button></li>
+                                    <li><button type="button" class="btns next"><span></span><em>다음 자료</em></button></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="body-area">
+                        <div class="inn">
+                            <div class="class-list-wrap has-scroll" id="myClass">
+                                <div class="list">
+                                    <h3>도입</h3>
+                                    <ul>
+                                        <li><a href="#"><span class="ico-file hwp"></span>3학년 체육_YBM1단원_2차시_YBM1단원_2차시_YBM1단원_2차시.hwp</a></li>
+                                        <li><a href="#"><span class="ico-file ppt"></span>통합자료_YBM1단원_1차시.pptx</a></li>
+                                        <li><a href="#"><span class="ico-file hwp"></span>3학년 체육_YBM1단원_2차시_YBM1단원_2차시_YBM1단원_2차시.hwp</a></li>
+                                        <li><a href="#"><span class="ico-file ppt"></span>통합자료_YBM1단원_1차시.pptx</a></li>
+                                        <li><a href="#"><span class="ico-file hwp"></span>3학년 체육_YBM1단원_2차시_YBM1단원_2차시_YBM1단원_2차시.hwp</a></li>
+                                        <li><a href="#"><span class="ico-file ppt"></span>통합자료_YBM1단원_1차시.pptx</a></li>
+                                        <li><a href="#"><span class="ico-file on-con"></span>내가만든 온라인콘텐츠임!!</a></li>
+                                    </ul>
+                                </div>
+                                <div class="list">
+                                    <h3>전개</h3>
+                                    <ul>
+                                        <li><a href="#"><span class="ico-file xlsx"></span>3학년 체육_YBM1단원_2차시.xlsx</a></li>
+                                        <li><a href="#"><span class="ico-file on-con"></span>내가만든 온라인콘텐츠임!!</a></li>
+                                        <li><a href="#"><span class="ico-file pdf"></span>통합자료_YBM1단원_1차시.pdf</a></li>
+                                    </ul>
+                                </div>
+                                <div class="list">
+                                    <h3>마무리</h3>
+                                    <ul>
+                                        <li><a href="#"><span class="ico-file mp3"></span>3학년 체육_YBM1단원_2차시.mp3</a></li>
+                                        <li><a href="#"><span class="ico-file mp4"></span>통합자료_YBM1단원_1차시.mp4</a></li>
+                                        <li><a href="#"><span class="ico-file etc"></span>통합자료_YBM1단원_1차시.etc</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- // End -->
+
+        </div>
+        <!-- // End -->
+
+    </section>
+
+<!-- start:레이어 팝업 -->
+<div class="popup-wrap"></div>
+<!-- //end:레이어 팝업 -->    
+
+<script src="../../lib/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="../../lib/jquery-ui.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script><!-- jquery-ui mobile-->
+<script src="../../common/js/ui.js"></script>
+<script src="../../common/js/popup.js"></script>
+
+</body>
+</html>

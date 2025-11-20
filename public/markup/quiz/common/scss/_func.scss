@@ -1,0 +1,267 @@
+@function rem($size) {
+    @return calc($size / $base-font-size * 1rem);
+}
+@function get-scale($asis,$tobe){
+    @return $tobe / $asis;
+}
+@function str-replace($string, $search, $replace: '') {
+    $index: str-index($string, $search);
+    @if $index {
+        @return str-slice($string, 1, $index - 1) + $replace + str-replace(str-slice($string, $index + str-length($search)), $search, $replace);
+    }
+    @return $string;
+}
+// 드래그방지
+@mixin user-select {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+@mixin ellipsis($clamp:1){
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: $clamp;
+    -webkit-box-orient: vertical;
+    white-space: inherit;
+    word-break: break-all;
+}
+@mixin scrollbar($color: rgba(0,0,0,.1)){
+    overflow: auto;
+    &::-webkit-scrollbar{
+        width: 8px;
+        height: 8px;
+    } 
+    &::-webkit-scrollbar-track{
+        background-color: transparent; 
+        border-radius: 10px;
+    }
+    &::-webkit-scrollbar-thumb{
+        background-color: $color;
+        border-radius: 10px;
+    }
+}
+@mixin aspect($width: 16, $height: 9){
+    aspect-ratio: calc($width / $height);
+    @supports not (aspect-ratio: calc($width / $height)){
+        &::before {
+            content: "";
+            float: left;
+            padding-top: calc(($height / $width) * 100%);
+            display: block;
+        }
+    }
+}
+
+/** font(weight, size, color, family, line-height, letter-spacing) */
+@mixin font(
+    $weight: map-get($font-weights,'regular'),
+    $size: $base-font-size,
+    $color: map-get($def-colors, 'font'),
+    $family: $font-family,
+    $line-height: null,
+    $letter-spacing: -0.03em
+){
+    font: {
+        weight: $weight;
+        size: $size;
+        family: $family;
+    }
+    color: $color;
+    letter-spacing: $letter-spacing;
+    @if($line-height){ line-height: $line-height; }
+}
+
+/** border-radius(radius) */
+@mixin border-radius($radius) {
+    @if($radius != ''){
+        -webkit-border-radius: $radius;
+        -moz-border-radius: $radius;
+        -ms-border-radius: $radius;
+        border-radius: $radius;
+    }
+}
+/** border-radius(width,style,color,radius) */
+@mixin border(
+    $width: 1px,
+    $style: solid,
+    $color: map-get($bg-grays, 19),
+    $radius: 0
+){
+    @if($width > 0){
+        border-width: $width;
+        border-style: $style;
+        border-color: $color;
+    }
+    @else{
+        border: 0 none;
+    }
+    @include border-radius($radius);
+}
+/** box(margin,padding,sizing,style,width,height,bg-color) */
+@mixin box(
+    $margin: 0,
+    $padding: 0,
+    $sizing: border-box,
+    $style: none,
+    $width: null,
+    $line-height: null,
+    $height: null,
+    $bg-color: null
+){
+    margin: $margin;
+    padding: $padding;
+    box-sizing: $sizing;
+    list-style: $style;
+    @if($width){ width: $width; }
+    @if($height){ height: $height; }
+    @if($line-height){ line-height: $line-height; }
+    @if($bg-color){ background-color: $bg-color; }
+}
+
+/** FLEX BOX */
+@mixin flex-option(
+    $justify-content: flex-start,
+    $align-items: stretch,
+    $gap: 0,
+    $flex-wrap: nowrap,
+){
+    justify-content: $justify-content;
+    align-items: $align-items;
+    gap: $gap;
+    flex-wrap: $flex-wrap;
+}
+@mixin flex{
+    display: flex;
+    display: -webkit-flex;
+}
+@mixin flex-row{
+    @include flex;
+    flex-direction: row;
+}
+@mixin flex-clm{
+    @include flex;
+    flex-direction: column;
+}
+
+@mixin flex-align-center{
+    @include flex-row;
+    @include flex-option((
+        justify-content: center,
+        align-items: center,
+    )...);
+}
+
+@mixin absolute-center(
+    $width: 100%,
+    $height: 100%
+){
+    @include box((
+        width: 100%,
+        height: 100%
+    )...);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+@mixin board-gallery-box($gap :0){
+    $listCols:(3,4);
+    @each $col in $listCols{
+        &.col-#{$col}{
+            .row{
+                width: calc( (100% / #{$col}) - ((#{$gap} * (#{$col} - 1)) / #{$col}));
+            }
+        }
+    }
+    @include flex-row;
+    @include flex-option((
+        flex-wrap: wrap,
+        gap: rem($gap)
+    )...);
+}
+// 토글스위치 형식 버튼
+@mixin swich-content{
+    width: rem(42px);
+    height: rem(24px);
+    border-radius: rem(50px);
+    color: $white;
+    position: relative;
+    font-size: rem(14px);
+    line-height: rem(24px);
+    background: map-get($map: $bg-grays, $key: 14);
+    padding-left: rem(26px);
+    transition: all .3s ease;
+    cursor: pointer;
+    &.on{
+        background: map-get($map: $active-colors, $key: 1);
+        padding-left: rem(10px);
+        &:after{
+            left: rem(21px);
+        }
+    }
+    &:after{
+        content: "";
+        position: absolute;
+        left: 3px;
+        top: 3px;
+        width: rem(18px);
+        height: rem(18px);
+        background: $white;
+        border-radius: rem(50px);
+        transition: all .3s ease;
+    }
+}
+
+//모바일 결과 테이블
+@mixin table-mobile-result($listTH){
+    width: auto;
+    display: block;
+    thead{
+        display: none;
+    }
+    tbody{
+        @include flex-clm;
+        gap: 10px;
+        width: 100%;
+        tr{
+            @include flex-row;
+            gap: 5px;
+            flex-wrap: wrap;
+            border: 1px solid map-get($map: $bg-grays, $key: 18);
+            border-radius: 8px;
+            padding: 10px;
+            td{
+                flex: 1 1 calc(50% - 10px);
+                width: calc(50% - 10px);
+                border: 0 none;
+                @include flex-row;
+                gap: 10px;
+                align-items: center;
+                padding: 0;
+                font-size: 14px;
+                height: 30px;
+                text-align: left;                
+                @each $value in $listTH{
+                    $key : index($listTH, $value);
+                    &:nth-child(#{$key})::before{
+                        content: $value;
+                        width: 70px;
+                        display: block;
+                        font-weight: 500;
+                        color: map-get($map: $active-colors, $key: 15);
+                        word-break: keep-all;
+                    }
+                }
+                &:last-child::before{
+                    content: none;
+                }
+                .btn{
+                    width: 100%;
+                    margin: 0 5px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="210" height="210" viewBox="0 0 210 210">
+  <g id="그룹_1183" data-name="그룹 1183" transform="translate(-563 -777)">
+    <g id="graph" transform="translate(123.566 -548.093)">
+      <g id="타원_463" data-name="타원 463" transform="translate(439.434 1325.093)" fill="#fff" stroke="#9ea4aa" stroke-width="20">
+        <circle cx="105" cy="105" r="105" stroke="none"/>
+        <circle cx="105" cy="105" r="95" fill="none"/>
+      </g>
+    </g>
+    <g id="찬성" transform="translate(210 89)">
+      <text id="_0MB_50MB" data-name="0MB / 50MB" transform="translate(432 810)" fill="#72787f" font-size="52" font-family="Roboto-Medium, Roboto" font-weight="500" letter-spacing="-0.02em"><tspan x="0" y="0">0</tspan><tspan y="0" fill="#454c53" font-size="33">%</tspan></text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,419 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+  <head>
+	<meta charset="UTF-8">
+	<title>작성규칙 | YBM스마트스쿨 퍼블리싱 가이드</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta id="resResponsiveViewport" name="viewport" content="width=device-width, initial-scale=1, minimum-scale=0.5, maximum-scale=1, user-scalable=yes">
+	<meta name="apple-mobile-web-app-title" content="">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta property="og:title" content="">
+	<meta property="og:site_name" content="">
+	<meta property="og:url" content="">
+	<meta property="og:image:url" content="">
+	<meta property="og:image:width" content="">
+	<meta property="og:image:height" content="">
+	<meta property="og:image" content="">
+	<meta property="og:description" content="">
+	<meta name="twitter:card" content="">
+	<meta name="twitter:title" content="">
+	<meta name="twitter:url" content="">
+	<meta name="twitter:image" content="">
+	<meta name="twitter:description" content="">
+    <meta name="generator" content=""> 	
+    <!-- google webfont -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+
+	<link type="text/css" rel="stylesheet" media="all" href="inc/jquery-syntax/jquery.highlight.css" />
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/guide.css">
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+
+
+<!-- Fixed navbar -->
+<header class="guide-nav navbar navbar-fixed-top" id="top">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="overview.html"><img src="ci.png" alt="YBM"></a>
+		</div>
+		<nav id="navbar" class="navbar-collapse collapse">
+			<ul class="nav navbar-nav">
+				<li><a href="overview.html">기본 가이드</a></li>
+				<li><a href="code.html">작성규칙</a></li>
+				<li><a href="plan.html">마크업설계</a></li>
+				<li><a href="list.html">화면리스트</a>
+                    <ul>
+                        <li><a href="list.html">교사채널</a></li>
+                        <li><a href="list2.html">강사채널</a></li>
+                        <li><a href="list3.html">초등채널</a></li>
+                        <li><a href="list4.html">중고등채널</a></li>
+                        <li><a href="list5.html">학부모채널</a></li>
+                        <li><a href="list6.html">브랜드채널(멤버십)</a></li>
+                        <li><a href="list7.html">뷰어</a></li>
+                        <li><a href="list8.html">알림앱</a></li>
+                    </ul>
+                </li>
+			</ul>
+		</nav><!--/.navbar-collapse -->
+	</div>
+</header>
+<!-- //Fixed navbar -->
+
+<div class="content-body">
+    <div class="page-title">
+        <div class="container">
+            <h1>작성규칙</h1>
+        </div>
+    </div>
+
+    <div class="container body-content">
+
+        <div class="row">
+            <div class="col-lg-12">
+                <h3 class="page-header">네이밍 규칙</h3>
+            </div>
+            <div class="col-lg-12 box">
+                <h4>표기법</h4>
+                <div class="table-responsive">
+                    <table class="table table-bordered">
+                        <colgroup>
+                            <col width="25%">
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th scope="col">구분</th>
+                                <th scope="col">표기법</th>
+                                <th scope="col">예시</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>id</strong></td>
+                                <td>카멜</td>
+                                <td>boardView</td>
+                            </tr>
+                            <tr>
+                                <td><strong>class</strong></td>
+                                <td>하이픈</td>
+                                <td>content-head</td>
+                            </tr>
+                            <tr>
+                                <td><strong>파일 및 폴더</strong></td>
+                                <td>언더스코어</td>
+                                <td>view_item.html</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <h4>이미지</h4>
+                <ul class="g-list">
+                    <li>종류별로 스프라이트 방식을 적용한다. (서버 요청을 최소화 하여 브라우저 성능을 높임)</li>
+                    <li>네이밍 조합 순서 : 형태 &gt; 기능 &gt; 순서 &gt; 상태</li>
+                </ul>
+                <div class="table-responsive">
+                    <table class="table table-bordered">
+                        <colgroup>
+                            <col width="25%">
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th scope="col">분류</th>
+                                <th scope="col">파일명</th>
+                                <th scope="col">설명</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>아이콘</td>
+                                <td>ico_</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>화살표</td>
+                                <td>arw_</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>불릿</td>
+                                <td>bul_</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>배경</td>
+                                <td>bg_</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>배너</td>
+                                <td>bn_</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>일반</td>
+                                <td>img_</td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <h4 style="margin-top:20px">CLASS</h4>
+                <ul class="g-list">
+                    <li>상황에 맞는 예약어를 참고하여 작업한다.</li>
+                </ul>
+
+                <div class="table-responsive">
+                    <table class="table table-bordered table">
+                        <colgroup>
+                            <col width="25%">
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th scope="col">구분</th>
+                                <th scope="col">예약어</th>
+                                <th scope="col">설명</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td rowspan="6"><strong>레이아웃</strong></td>
+                                <td>.wrap</td>
+                                <td>사이트 전체를 감싼 영역</td>
+                            </tr>
+                            <tr>
+                                <td>.header</td>
+                                <td>머리글 영역</td>
+                            </tr>
+                            <tr>
+                                <td>.container</td>
+                                <td>페이지 영역</td>
+                            </tr>
+                            <tr>
+                                <td>.aside</td>
+                                <td>사이드 영역</td>
+                            </tr>
+                            <tr>
+                                <td>.footer</td>
+                                <td>바닥글 영역</td>
+                            </tr>
+                            <tr>
+                                <td>.layerpop</td>
+                                <td>레이어팝업</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="6"><strong>네비게이션</strong></td>
+                                <td>.gnb</td>
+                                <td>Golbal Navigation Bar</td>
+                            </tr>
+                            <tr>
+                                <td>.mnb</td>
+                                <td>Mobile Navigation Bar</td>
+                            </tr>
+                            <tr>
+                                <td>.lnb</td>
+                                <td>Local Navigation Bar(Gnb나 mnb하위에 사용)</td>
+                            </tr>
+                            <tr>
+                                <td>.unb</td>
+                                <td>Utility Navigation Bar</td>
+                            </tr>
+                            <tr>
+                                <td>.qnb</td>
+                                <td>Quick Navigation Bar</td>
+                            </tr>
+                            <tr>
+                                <td>.fnb</td>
+                                <td>Footer Navigation Bar</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="8"><strong>컨텐츠</strong></td>
+                                <td>.content</td>
+                                <td>본문 영역</td>
+                            </tr>
+                            <tr>
+                                <td>.content-head</td>
+                                <td>본문 머릿글 영역</td>
+                            </tr>
+                            <tr>
+                                <td>.content-body</td>
+                                <td>본문 내용 영역</td>
+                            </tr>
+                            <tr>
+                                <td>.section-wrap</td>
+                                <td>컨텐츠를 감싼 영역</td>
+                            </tr>
+                            <tr>
+                                <td>.section</td>
+                                <td>컨텐츠 영역</td>
+                            </tr>
+                            <tr>
+                                <td>.section-head</td>
+                                <td>컨텐츠 머릿글 영역</td>
+                            </tr>
+                            <tr>
+                                <td>.section-body</td>
+                                <td>컨텐츠 내용 영역</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="col-lg-12">
+                <h3 class="page-header">코드 규칙</h3>
+            </div>
+            <div class="col-lg-12 box">
+                <h4>HTML</h4>
+                <ul class="g-list">
+                    <li>논리구조에 따라 1탭 들여쓰기 한다.(1탭=공백 4칸)</li>
+                    <li>주석의 시작과 끝은 start: end: 로 표시한다.</li>
+                    <li>Doctype이 HTML5이므로 종료 태그가 없는 요소에 닫는 기호를 생략한다.</li>
+                    <li>종료태그가 없는 요소 : area,base, br, col, commend, embed, hr, img, input, keygen, link, meta, param, source</li>
+                </ul>
+                <pre class="code" lang="html">
+// HTML5
+&lt;input type="text"&gt;
+
+// XHTML
+&lt;input type="text" /&gt;</pre>                
+                <ul class="g-list">
+                    <li>파비콘은 웹사이트 루트 디렉토리에 넣어둔다.</li>
+                    <li>스타일은 External Type으로 하되, 이메일 템플릿 등 단발성 작성이 필요한 페이지에 한해 해당 파일의 &lt;head&gt; 요소에 &lt;style&gt; 태그를 사용해 작성한다.</li>
+                    <li>문서의 스타일을 어떠한 조작이나 이벤트로 인하여 동적으로 변경해야 하는 경우에는 해당 요소의 style 애트리뷰트를 사용해 스타일을 직접 작성할 수 있다.</li>
+                    <li>웹 브라우저가 렌더링을 마치기 전에 자바스크립트로 어떠한 동작을 실행해야 한다면 &lt;head&gt; 요소 안에 스크립트를 선언한다. 이런 상황이 아니라면 &lt;/body&gt; 태그 앞에 자바스크립트를 작성한다.(성능면에서 좋음)</li>
+                </ul>
+                <pre class="code" lang="html">
+// 브라우저가 랜더링을 마치기 전에 실행할 파일을 선언한다.
+<head>
+...  
+<script src="../lib/js/modernizr-2.8.3.min.js"></script>
+</head>
+<body>
+..
+// 모든 콘텐츠가 로드되고 실행될 스크립트 파일을 선언한다.
+<script src="../common/js/ui.js"></script>
+</body></pre>  
+
+
+
+                <h4 style="margin-top:20px">CSS</h4>                
+                <ul class="g-list">
+                    <li>선택자는 상위 선택자를 포함하여 3개 이상 작성하지 않는다.</li>
+                </ul>
+                <pre class="code" lang="css">
+.section .div .span {...}
+.select-1, .select-2, .select-3 {...}</pre>
+                <ul class="g-list">
+                    <li>전체 선택자를 사용하지 않는다.(브라우저 성능 저하)</li>
+                </ul>
+                <pre class="code" lang="css">
+/* bad */
+* {...}
+.selector * {...}
+
+/* better */
+.selector * th {...}</pre>
+                <ul class="g-list">
+                    <li>정규 표현식과 유사한 애트리뷰트 선택자 사용을 지양하며, 부적합한 애트리뷰트 선택자 사용을 지양한다.(브라우저 성능 저하)</li>
+                </ul>
+                <pre class="code" lang="css">
+/* bad */
+[type="text"] {...}
+.label [type="checkbox"] {...}
+
+/* better */
+input[type="text"] {...}
+.layerpop[data-role="popup"] .header {...}</pre>
+                <ul class="g-list">
+                    <li>레이아웃 요소에 ID 규칙을 사용하지 않는다.</li>
+                    <li>클래스 규칙에 불필요한 태그를 조합하여 사용하지 않는다.</li>
+                </ul>
+                <pre class="code" lang="css">
+/* bad */
+.search-box li.selected::after {...}
+
+/* better */
+input.radio {...}</pre>
+                <ul class="g-list">
+                    <li>태그 선택자 규칙에 상위 선택자로 태그를 포함하지 않는다.(HTML 문서 수정에 따른 CSS 파일 수정 최소화)</li>
+                </ul>
+                <pre class="code" lang="css">
+/* bad */
+.notice-box li span {...}
+
+/* better */
+.notice-box .list .span {...}</pre>
+                <ul class="g-list">
+                    <li>마지막 속성의 값 뒤에도 세미콜론을 작성한다.</li>
+                </ul>
+                <pre class="code" lang="css">
+.btn-type-2.pressed {
+    color: #fff;
+    background-color: #428de7;
+    border: none;
+    border: 1px solid #428de7;
+}</pre>
+                <ul class="g-list">
+                    <li>다음과 같은 경우 큰따옴표를 사용하며, 그 밖의 속성에는 사용하지 않는다.</li>
+                </ul>
+                <pre class="code" lang="css">
+@charset "uft-8";</pre>
+                <ul class="g-list">
+                    <li>다음과 같은 경우 작은따옴표를 사용하며, 그 밖의 속성에는 사용하지 않는다.</li>
+                </ul>
+                <pre class="code" lang="css">
+font-family: 'YBM예쁜체';
+src: url('../fonts/NotoSans/NotoSans-Light.eot?#iefix') format('embedded-opentype');
+background: url('../img/bg-btn-collapse.png') no-repeat;
+content: '';</pre>
+                
+            </div>
+            
+        </div>
+		
+
+
+    </div> <!-- /container -->
+</div>
+<footer>
+	<div class="container">
+		<p>COPYRIGHT(C) <strong>YBM스마트스쿨</strong> ALL RIGHTS RESERVED.</p>
+	</div>
+</footer>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+<script src="https://code.jquery.com/jquery-migrate-3.3.2.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="inc/jquery-syntax/jquery.highlight.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('pre.code').highlight({source:1, zebra:1, indent:'space', list:'ol'});
+	});
+</script>
+</body>
+</html>

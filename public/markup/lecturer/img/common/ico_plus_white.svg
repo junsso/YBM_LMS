@@ -1,0 +1,14 @@
+<svg id="inon_puls" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_401" data-name="사각형 401" width="18" height="18" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="마스크_그룹_13" data-name="마스크 그룹 13" clip-path="url(#clip-path)">
+    <g id="Layer_2" data-name="Layer 2" transform="translate(3.761 3.761)">
+      <g id="Layer_1" data-name="Layer 1" transform="translate(0 0)">
+        <path id="패스_712" data-name="패스 712" d="M9.779,4.513H6.018V.752a.752.752,0,0,0-1.5,0V4.513H.752a.752.752,0,0,0,0,1.5H4.513V9.779a.752.752,0,1,0,1.5,0V6.018H9.779a.752.752,0,1,0,0-1.5Z" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

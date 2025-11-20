@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25.49" height="25.49" viewBox="0 0 25.49 25.49">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#a67730"/>
+      <stop offset="1" stop-color="#e9a436"/>
+    </linearGradient>
+  </defs>
+  <g id="그룹_1032" data-name="그룹 1032" transform="translate(-2255.521 2794.66) rotate(-45)">
+    <path id="패스_1162" data-name="패스 1162" d="M3614.726-129.694h4.027a.616.616,0,0,0,.616-.616v-.783a.616.616,0,0,0-.616-.616h-4.027a.616.616,0,0,0-.617.616v.783A.616.616,0,0,0,3614.726-129.694Z" transform="translate(-45.734 -220.614)" fill="#e9a436"/>
+    <path id="패스_1163" data-name="패스 1163" d="M3614.726-129.694h2.013v-2.016h-2.013a.616.616,0,0,0-.617.616v.783A.616.616,0,0,0,3614.726-129.694Z" transform="translate(-45.734 -220.614)" fill="url(#linear-gradient)"/>
+    <path id="패스_1164" data-name="패스 1164" d="M3643.54-374.077l7.152,8.162-5.094,13.584h-2.058Z" transform="translate(-72.523 0)" fill="#ef45ef"/>
+    <path id="패스_1165" data-name="패스 1165" d="M3643.54-374.077l7.152,8.162-7.152,2.388Z" transform="translate(-72.523 0)" fill="#f272f2"/>
+    <path id="패스_1166" data-name="패스 1166" d="M3571.017-374.077l-7.15,8.162,5.094,13.584h2.057Z" transform="translate(0 0)" fill="#b729ac"/>
+    <path id="패스_1167" data-name="패스 1167" d="M3571.017-374.077l-7.15,8.162,7.15,2.388Z" transform="translate(0 0)" fill="#f45bf4"/>
+    <path id="패스_1168" data-name="패스 1168" d="M3654.417-351.367l-5.371-6.172,4.134,6.509Z" transform="translate(-77.534 -15.054)" fill="#fa5aff"/>
+    <path id="패스_1169" data-name="패스 1169" d="M3650.691-283.138l-7.152,2.388v.323Z" transform="translate(-72.523 -82.777)" fill="#e9ccea"/>
+    <path id="패스_1170" data-name="패스 1170" d="M3563.866-283.138l7.15,2.388v.323Z" transform="translate(0 -82.777)" fill="#e172de"/>
+    <path id="패스_1171" data-name="패스 1171" d="M3643.042-374.077c-.11,4.946,0,10.55,0,10.55A78.747,78.747,0,0,0,3643.042-374.077Z" transform="translate(-72.026)" fill="#e9ccea"/>
+    <path id="패스_1172" data-name="패스 1172" d="M3643.042-252.932c-.11,4.947,0,10.873,0,10.873A84.294,84.294,0,0,0,3643.042-252.932Z" transform="translate(-72.026 -110.272)" fill="#e9ccea"/>
+  </g>
+</svg>

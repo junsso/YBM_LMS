@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+  <g id="check_mark" data-name="check mark" transform="translate(-88 -202)">
+    <g id="타원_406" data-name="타원 406" transform="translate(88 202)" fill="none" stroke="#fff" stroke-width="1">
+      <circle cx="13" cy="13" r="13" stroke="none"/>
+      <circle cx="13" cy="13" r="12.5" fill="none"/>
+    </g>
+    <g id="Checkmark" transform="translate(94 208)">
+      <path id="Frame" d="M0,0H14V14H0Z" fill="#fff" opacity="0"/>
+      <path id="Shape" d="M5.251,13a1.424,1.424,0,0,1-1.137-.577l-3.3-4.5a1.545,1.545,0,0,1-.231-1.5,1.453,1.453,0,0,1,1.156-.937,1.42,1.42,0,0,1,1.349.6L5.251,9.068l5.661-7.479a1.42,1.42,0,0,1,1.349-.6,1.453,1.453,0,0,1,1.156.937,1.545,1.545,0,0,1-.231,1.5l-6.8,8.991A1.424,1.424,0,0,1,5.251,13Z" fill="#fff"/>
+    </g>
+  </g>
+</svg>

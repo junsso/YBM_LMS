@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_583" data-name="사각형 583" width="16" height="16" transform="translate(16 16) rotate(180)" fill="#fc5d5b"/>
+    </clipPath>
+  </defs>
+  <g id="icon_첨부파일" clip-path="url(#clip-path)">
+    <path id="XMLID_236_" d="M14.937,2.67a3.636,3.636,0,0,0-5.142,0L4.062,8.4a2.182,2.182,0,1,0,3.086,3.085l3.774-3.774A.727.727,0,0,0,9.894,6.684L6.119,10.459A.727.727,0,1,1,5.091,9.43L10.823,3.7a2.182,2.182,0,0,1,3.086,3.085L7.662,13.03A3.636,3.636,0,1,1,2.52,7.887L8.766,1.641A.727.727,0,1,0,7.737.613L1.491,6.859a5.091,5.091,0,0,0,7.2,7.2l6.246-6.246A3.64,3.64,0,0,0,14.937,2.67Z" transform="translate(0 0.027)" fill="#fc5d5b"/>
+  </g>
+</svg>

@@ -1,0 +1,7 @@
+<svg id="icon__" data-name="icon_+" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25">
+  <g id="타원_359" data-name="타원 359" fill="none" stroke="#fff" stroke-width="2">
+    <circle cx="12.5" cy="12.5" r="12.5" stroke="none"/>
+    <circle cx="12.5" cy="12.5" r="11.5" fill="none"/>
+  </g>
+  <path id="합치기_1" data-name="합치기 1" d="M4.714,10.214V6.286H.786a.786.786,0,0,1,0-1.571H4.714V.786a.786.786,0,0,1,1.571,0V4.714h3.928a.786.786,0,1,1,0,1.571H6.286v3.928a.786.786,0,1,1-1.571,0Z" transform="translate(7 7)" fill="#fff"/>
+</svg>

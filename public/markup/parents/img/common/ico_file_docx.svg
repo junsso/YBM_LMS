@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="그룹_1130" data-name="그룹 1130" transform="translate(5)">
+    <rect id="사각형_558" data-name="사각형 558" width="30" height="30" rx="5" transform="translate(-5 0)" fill="#2b569a"/>
+    <rect id="사각형_1192" data-name="사각형 1192" width="20" height="2" transform="translate(0 6)" fill="#fff" opacity="0.1"/>
+    <rect id="사각형_1193" data-name="사각형 1193" width="20" height="2" transform="translate(0 10)" fill="#fff" opacity="0.1"/>
+    <rect id="사각형_1194" data-name="사각형 1194" width="20" height="2" transform="translate(0 14)" fill="#fff" opacity="0.1"/>
+    <rect id="사각형_1195" data-name="사각형 1195" width="20" height="2" transform="translate(0 18)" fill="#fff" opacity="0.1"/>
+    <rect id="사각형_1196" data-name="사각형 1196" width="20" height="2" transform="translate(0 22)" fill="#fff" opacity="0.1"/>
+    <text id="docx" transform="translate(-1 19)" fill="#fff" font-size="10" font-family="Roboto-Medium, Roboto" font-weight="500" style="isolation: isolate"><tspan x="0" y="0">docx</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,455 @@
+@import 'variables';
+@import 'breakpoint';
+
+
+@mixin scroll{
+  overflow: auto;
+  &::-webkit-scrollbar{
+      width: 5px;
+  }
+  &::-webkit-scrollbar-thumb{
+      background-color: #{$scrollbar}; 
+      border-radius: 10px;
+  }
+  &::-webkit-scrollbar-track{
+      background-color: #{$disabled-bg};
+      border-radius: 10px;
+  }
+}
+@mixin inline-grop{
+    display: inline-block;
+    vertical-align: middle;
+}
+@mixin box{
+    background: #{$base-text-rfcolor};
+    border-radius: 20px;
+    position: relative;
+}
+@mixin ellipsis{
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-break: break-all;
+}
+@mixin not-last-child($selector){
+    & #{$selector}:not(:last-child){
+        @content;
+    }
+}
+@mixin not-first-child($selector){
+    & #{$selector}:not(:first-child){
+        @content;
+    }
+}
+@mixin clearboth{
+    &::after{
+        content: ''; 
+        display: block;
+        clear: both;
+    }
+}
+@mixin footer-style{
+    background: #{$footer-bg};
+    color: #{$base-border-color};
+    a{
+      color: #{$disabled-bg};
+    }
+}
+@mixin form-block-group($height, $radius,$indent){
+    position: relative;
+    &:not(:last-child){
+        //margin-bottom: 10px;
+    }
+    .select-box{
+        height: $height;
+        border-radius: $radius;
+        background: #{$login-input-bg};
+        border-color: transparent;
+        text-indent: $indent;
+        border: 1px solid #{$base-border-color};
+        width: 100%;
+    }
+    &.input{        
+        height: $height;
+        border-radius: $radius;
+        background: #{$login-input-bg};
+        input[type=text],
+        input[type=number],
+        input[type=password]{
+          background: transparent;
+          height: 100%;
+          width: 100%;
+          text-indent: $indent;
+          border-radius: $radius;
+          border: 1px solid #{$base-border-color};
+          transition: all .3s ease;
+          &:focus{
+              border-color: #{$active-color};
+              background: #{$base-text-rfcolor};
+              box-shadow: 0 0 20px rgba(0,0,0,0.15);
+          }
+          &.disabled{
+            background: #{$disabled-bg};
+            cursor: default;
+          }
+          &.readonly{
+            background: #{$disabled-bg};
+            cursor: default;
+          }
+        }
+    }
+    &.submit{
+        button{
+            background: #{$primary-color};
+            height: $height;
+            width: 100%;
+            color: #{$base-text-rfcolor};
+            font-size: 1.125em;
+            border-radius: $radius;
+            border: 1px solid transparent;
+            transition: all .3s ease;
+            &:focus, &:hover{
+                box-shadow: 0 0 20px rgba(241,87,79,0.75);
+            }
+        }
+    }
+    &.mixed{
+        //background: #{$login-input-bg};
+        input[type=text],
+        input[type=number],
+        input[type=password]{
+          background: transparent;
+          height: 50px;
+          width: 100%;
+          text-indent: $indent;
+          border-radius: $radius;
+          border: 1px solid #{$base-border-color};
+          transition: all .3s ease;
+          &:focus{
+              border-color: #{$active-color};
+              background: #{$base-text-rfcolor};
+              box-shadow: 0 0 20px rgba(0,0,0,0.15);
+          }
+          &.disabled{
+            background: #{$disabled-bg};
+            cursor: default;
+          }
+          &.readonly{
+            background: #{$disabled-bg};
+            cursor: default;
+          }
+        }
+        .mixed-element{
+            display: table;
+            width: 100%;
+            height: $height;
+            .form-block-group{
+                display: table-cell;
+                padding: 0 5px;
+                position: relative;
+                &:last-child{
+                    padding-right: 0;
+                }
+                &:first-child{
+                    padding-left: 0;
+                }
+            }
+        }
+    }
+    .val-txt{
+        position: absolute;
+        top: 0;
+        right: 10px;
+        line-height: $height;
+        font-size: 0.85em;
+        .pass{
+            color: #{$pass-color};
+        }
+        .fail{
+            color: #{$fail-color};
+        }
+        em{
+            @include inline-grop;
+            width: 16px;
+            height: 16px;
+            line-height: 16px;
+            text-align: center;
+            margin-right:4px;
+            border-radius: 50px;
+            border: 1px solid #{$fail-color};
+
+        }
+    }    
+    .help-txt{
+      display: block;
+      color: #{$scrollbar};
+      font-size: 0.8em;
+      line-height: 1.35em;
+      word-break: keep-all;
+    }
+}
+@mixin ico-guide{
+    width: #{$form-guide-w};
+    padding-top: 10px;
+    em{
+        @include inline-grop;
+        text-align: center;
+        height: 20px;
+        width: 20px;
+        line-height: 20px;
+        border-radius: 50px;
+        background: #{$base-bgcolor};
+        color: #{$secondary-color};
+        border: 1px solid #{$secondary-color};
+        margin-left: 10px;
+        cursor: pointer;
+        position: relative;
+        font-size: 0.75em;
+        font-weight: 600;
+    }
+    position: relative;
+    .tooltip-text{
+        visibility: hidden;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        right: 0; 
+        width: 420px;
+        transform: translateY(-50%);
+        line-height: 1.5em;
+        font-size: 0.8em;
+        color: #{$guide-color};
+        border: 1px solid #{$base-border-color};
+        background: #{$base-bgcolor};
+        border-radius: 8px;
+        padding: 14px 16px;
+        transition: all .3s ease;
+        box-shadow: -8px 8px 10px rgba(0,0,0,0.07);        
+        word-break: keep-all;
+        z-index: 50;
+    }
+    &:hover{
+        .tooltip-text{
+            visibility: visible;
+            opacity: 1;
+            right: 30px; 
+        } 
+    }
+}
+@mixin df-button($height, $background, $radius){
+    height: $height;
+    background: $background;
+    border-radius: $radius;
+    text-align: center;
+    width: 100%;
+    &.disabled{
+        background: #{$disabled-bg};
+        color: #{$disabled-color};
+        cursor: default;
+    }
+}
+@mixin box-fixed-center {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+}
+@mixin popupcont{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 101;
+  background: #{$base-text-rfcolor};
+  width: #{$box-width-md};
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(69,76,83,0.3);
+}
+@mixin table-header {
+  border: 1px solid #{$disabled-color};
+  border-left: 0;
+  border-right: 0;
+  background: #{$bg-color-g2};
+  padding: 15px 5px;
+  font-size: 0.875em;
+  line-height: 1.3;
+}
+@mixin table-body {
+  font-size: 1em;
+  line-height: 1.3;
+  padding: 15px 5px;
+  border-bottom: 1px solid #{$disabled-color};
+  color: #{$section-title-color};
+}
+@mixin form-control{
+  border: 1px solid #{$base-border-color};
+  border-radius: 5px;
+  width: 100%;
+  height: 50px;
+}
+@mixin chk-input {
+  display: none;
+}
+@mixin chk-label {
+  background: #{$base-text-rfcolor};
+  color: #{$scrollbar};
+  border-radius: 20px;
+  padding: 6px 20px;   
+}
+@mixin basic-radio {
+  display: inline-block;
+  padding-left: 30px;
+  position: relative;
+  color: #{$section-title-color};
+}
+@mixin basic-radio-before{
+  content: '';
+  display: block;
+  margin-right: 10px;    
+  width: 20px;
+  height: 20px;
+  background: url(#{$img-url}ico_radio_md.svg)no-repeat center / contain;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+@mixin basic-radio-checked-after{
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  background: url(#{$img-url}ico_radio_md_check.svg)no-repeat center / contain;
+}
+@mixin basic-btn{
+  @include inline-grop;
+  border: 1px solid #{$guide-color};
+  border-radius: 5px;
+  font-weight: 500;
+  padding: 0 24px;
+  color: #{$scrollbar};
+  line-height: 40px;
+  height: 40px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+@mixin basic-btn02{
+  border-color: #{$button-bgcolor};
+  background: #{$primary-color};
+  color: #{$base-text-rfcolor};
+}
+@mixin basic-btn-br{
+  border-color: #{$cal-class};
+  background: #{$base-text-rfcolor};
+  color: #{$cal-class};
+}
+@mixin basic-btn04{
+  border-color: #{$active-color};
+  background: #{$active-color};
+  color: #{$base-text-rfcolor};
+}
+@mixin basic-btn05{
+  border-color: #{$active-color};
+  background: #{$base-text-rfcolor};
+  color: #{$active-color};
+}
+@mixin basic-btn06{
+  border-color: #{$scrollbar};
+  background: #{$scrollbar};
+  color: #{$base-text-rfcolor};
+}
+@mixin btn-primary{
+  display: block;
+  margin: 0 auto;
+  background: #{$primary-color};
+  border: 2px solid #{$primary-color};
+  color: #{$base-text-rfcolor};
+  border-radius: 10px;
+  transition: all .3s ease;
+  &:focus, &:hover{
+      background: #{$base-bgcolor};
+      color: #{$primary-color};  }
+}
+@mixin btn-lg{
+  width: 250px;
+  height: 60px;
+  line-height: 60px;
+  font-size: 1.125em;
+}
+@mixin chk-input {
+  display: none;
+}
+@mixin chk-label {
+  background: #{$base-text-rfcolor};
+  color: #{$scrollbar};
+  border-radius: 20px;
+  padding: 6px 20px;   
+}
+@mixin basic-radio {
+  display: inline-block;
+  padding-left: 30px;
+  position: relative;
+  color: #{$section-title-color};
+}
+@mixin basic-radio-before{
+  content: '';
+  display: block;
+  margin-right: 10px;    
+  width: 20px;
+  height: 20px;
+  background: url(#{$img-url}ico_radio_md.svg)no-repeat center / contain;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+@mixin basic-radio-checked-after{
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  background: url(#{$img-url}ico_radio_md_check.svg)no-repeat center / contain;
+}
+@mixin form-control{
+  border: 1px solid #{$base-border-color};
+  border-radius: 5px;
+  width: 100%;
+  height: 50px;
+}
+@mixin basic-btn{
+  @include inline-grop;
+  border: 1px solid #{$guide-color};
+  border-radius: 5px;
+  font-weight: 500;
+  padding: 0 24px;
+  color: #{$scrollbar};
+  line-height: 40px;
+  height: 40px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+@mixin flex-row{
+  display: flex;
+  flex-direction: row;
+}
+@mixin flex-clm{
+  display: flex;
+  flex-direction: column;
+}
+// 드래그방지
+@mixin user-select {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

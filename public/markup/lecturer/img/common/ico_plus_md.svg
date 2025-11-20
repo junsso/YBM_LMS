@@ -1,0 +1,8 @@
+<svg id="ico__" data-name="ico_+" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+  <g id="타원_359" data-name="타원 359" fill="none" stroke="#72787f" stroke-width="2">
+    <circle cx="9" cy="9" r="9" stroke="none"/>
+    <circle cx="9" cy="9" r="8" fill="none"/>
+  </g>
+  <rect id="사각형_545" data-name="사각형 545" width="9" height="2" rx="1" transform="translate(4.5 8)" fill="#72787f"/>
+  <rect id="사각형_829" data-name="사각형 829" width="9" height="2" rx="1" transform="translate(10 4.5) rotate(90)" fill="#72787f"/>
+</svg>

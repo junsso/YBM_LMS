@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25" height="25" viewBox="0 0 25 25">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1358" data-name="Rectangle 1358" width="25" height="25" transform="translate(1525 229)" fill="#222"/>
+    </clipPath>
+  </defs>
+  <g id="icon_자료" transform="translate(-1525 -229)" clip-path="url(#clip-path)">
+    <g id="Layer_2" data-name="Layer 2" transform="translate(1525.022 229)">
+      <g id="자료" transform="translate(0)">
+        <path id="Path_2697" data-name="Path 2697" d="M16.794,1.68l-.162.056H17.4A.728.728,0,0,0,16.794,1.68Z" transform="translate(-2.772 -0.273)" fill="#222"/>
+        <path id="Path_2698" data-name="Path 2698" d="M23.921,8.015H14.868a.488.488,0,1,1,0-.975h9.053a.488.488,0,0,1,0,.975Z" transform="translate(-2.397 -1.173)" fill="#222"/>
+        <path id="Path_2699" data-name="Path 2699" d="M23.921,10.846H14.868a.488.488,0,1,1,0-.975h9.053a.488.488,0,0,1,0,.975Z" transform="translate(-2.397 -1.645)" fill="#222"/>
+        <path id="Path_2700" data-name="Path 2700" d="M23.921,13.678H14.868a.488.488,0,1,1,0-.975h9.053a.488.488,0,0,1,0,.975Z" transform="translate(-2.397 -2.117)" fill="#222"/>
+        <path id="Path_2701" data-name="Path 2701" d="M23.921,16.51H14.868a.488.488,0,1,1,0-.975h9.053a.488.488,0,0,1,0,.975Z" transform="translate(-2.397 -2.589)" fill="#222"/>
+        <path id="Path_2702" data-name="Path 2702" d="M23.921,19.342H14.868a.488.488,0,1,1,0-.975h9.053a.488.488,0,0,1,0,.975Z" transform="translate(-2.397 -3.061)" fill="#222"/>
+        <path id="Path_2703" data-name="Path 2703" d="M24.952,4.15a.731.731,0,0,0-.217-.59L21.3.208A.731.731,0,0,0,20.8,0H9.9a.731.731,0,0,0-.731.731V2.146l-4.343.731a.731.731,0,0,0-.6.845L4.4,4.746.492,6.1a.731.731,0,0,0-.452.931L6.1,24.508A.731.731,0,0,0,6.8,25a.722.722,0,0,0,.239-.04l12.43-4.312,2.812-.476a.723.723,0,0,0,.4-.21h1.547a.731.731,0,0,0,.731-.731V4.153ZM21.524,2.469l.9.883h-.9ZM7.246,23.338,1.662,7.245,4.648,6.209,7.313,21.96a.731.731,0,0,0,.843.6l2.594-.439ZM8.634,21,6.049,5.722,5.8,4.259l.341-.119,3.026-.512V19.233a.731.731,0,0,0,.731.731h4.845Zm14.858-2.5H10.634V1.463H13.86l.162-.056a.728.728,0,0,1,.6.056h5.438v2.62a.731.731,0,0,0,.731.731h2.7Z" transform="translate(0)" fill="#222"/>
+      </g>
+    </g>
+  </g>
+</svg>

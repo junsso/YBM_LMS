@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="그룹_1147" data-name="그룹 1147" transform="translate(-1035 -3356)">
+    <g id="icon_" transform="translate(160 -10)">
+      <rect id="사각형_554" data-name="사각형 554" width="30" height="30" rx="5" transform="translate(875 3366)" fill="#333"/>
+      <path id="다각형_20" data-name="다각형 20" d="M7,0l7,12H0Z" transform="translate(896 3374) rotate(90)" fill="#666"/>
+      <text id="AVI" transform="translate(890 3384.5)" fill="#fff" font-size="10" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-7.903" y="0">AVI</tspan></text>
+    </g>
+  </g>
+</svg>

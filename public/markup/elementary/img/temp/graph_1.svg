@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="208" viewBox="0 0 800 208">
+  <g id="그룹_1025" data-name="그룹 1025" transform="translate(-725 -1960)">
+    <g id="line" transform="translate(0 389)">
+      <rect id="line-2" data-name="line" width="1" height="208" rx="0.5" transform="translate(725 1571)" fill="#dae1e6"/>
+      <rect id="line-3" data-name="line" width="1" height="208" rx="0.5" transform="translate(1524 1571)" fill="#dae1e6"/>
+      <rect id="line-4" data-name="line" width="1" height="208" rx="0.5" transform="translate(1125 1571)" fill="#dae1e6"/>
+      <rect id="line-5" data-name="line" width="1" height="208" rx="0.5" transform="translate(1324 1571)" fill="#dae1e6"/>
+      <rect id="line-6" data-name="line" width="1" height="208" rx="0.5" transform="translate(925 1571)" fill="#dae1e6"/>
+    </g>
+    <g id="그룹_1024" data-name="그룹 1024">
+      <path id="graph" d="M0,0H350a10,10,0,0,1,10,10v0a10,10,0,0,1-10,10H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(726 2125)" fill="#ffc964"/>
+      <text id="_4" data-name="4" transform="translate(1096 2141)" fill="#1b1d1f" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">4</tspan></text>
+      <path id="graph-2" data-name="graph" d="M0,0H100a10,10,0,0,1,10,10v0a10,10,0,0,1-10,10H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(726 2078)" fill="#ff79ac"/>
+      <text id="_1" data-name="1" transform="translate(846 2094)" fill="#1b1d1f" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">1</tspan></text>
+      <path id="graph-3" data-name="graph" d="M0,0H270a10,10,0,0,1,10,10v0a10,10,0,0,1-10,10H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(726 2031)" fill="#71bfe5"/>
+      <text id="_3" data-name="3" transform="translate(1016 2048)" fill="#1b1d1f" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">3</tspan></text>
+      <path id="graph-4" data-name="graph" d="M0,0H640a10,10,0,0,1,10,10v0a10,10,0,0,1-10,10H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(726 1983)" fill="#717ae5"/>
+      <text id="_7" data-name="7" transform="translate(1386 2000)" fill="#1b1d1f" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">7</tspan></text>
+    </g>
+  </g>
+</svg>

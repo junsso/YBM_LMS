@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="8" height="8" viewBox="0 0 8 8">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_126" data-name="사각형 126" width="4" height="4" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="그룹_201" data-name="그룹 201" transform="translate(-128 -1)">
+    <rect id="사각형_359" data-name="사각형 359" width="8" height="8" rx="4" transform="translate(128 1)" fill="#fd5c5c"/>
+    <g id="arw_right" transform="translate(130.014 3)">
+      <g id="arrow_right" clip-path="url(#clip-path)">
+        <g id="arrow-point-to-right" transform="translate(0.86)">
+          <path id="패스_99" data-name="패스 99" d="M4.133,2.2l-1.72,1.72a.28.28,0,0,1-.4-.4L3.539,2,2.017.478a.28.28,0,0,1,.4-.4L4.133,1.8a.28.28,0,0,1,0,.4Z" transform="translate(-1.935 0)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

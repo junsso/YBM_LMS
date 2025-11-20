@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_1055" data-name="사각형 1055" width="20" height="20" rx="3" transform="translate(1548 661)" fill="#454c53"/>
+    </clipPath>
+  </defs>
+  <g id="ico_" transform="translate(-1548 -661)" clip-path="url(#clip-path)">
+    <g id="equalizer" transform="translate(1548.256 661)">
+      <path id="패스_4961" data-name="패스 4961" d="M2.885,5.705a2.821,2.821,0,0,1,5.535-.769H21.6a.769.769,0,0,1,0,1.538H8.419a2.821,2.821,0,0,1-5.535-.769Z" transform="translate(-2.885 -2.885)" fill="#454c53"/>
+      <path id="패스_4962" data-name="패스 4962" d="M8.419,24.423a2.821,2.821,0,1,1,0-1.538H21.6a.769.769,0,0,1,0,1.538Z" transform="translate(-2.885 -6.474)" fill="#454c53"/>
+      <path id="패스_4963" data-name="패스 4963" d="M3.526,14.679a.769.769,0,0,1,.769-.769h7.542a2.822,2.822,0,0,1,5.429,0h4.465a.769.769,0,1,1,0,1.538H17.266a2.822,2.822,0,0,1-5.429,0H4.295a.769.769,0,0,1-.769-.769Z" transform="translate(-3.013 -4.679)" fill="#454c53"/>
+    </g>
+  </g>
+</svg>

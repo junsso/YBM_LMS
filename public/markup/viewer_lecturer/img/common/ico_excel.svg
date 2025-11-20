@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_788" data-name="Rectangle 788" width="20" height="20" fill="#fff" stroke="#ff5c5c" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="ico_excel" clip-path="url(#clip-path)">
+    <g id="microsoft_office_excel_logo_icon_145720" transform="translate(0 0.696)">
+      <rect id="Rectangle_789" data-name="Rectangle 789" width="7.709" height="4.66" transform="translate(12.291 4.644)" fill="#21a365"/>
+      <rect id="Rectangle_790" data-name="Rectangle 790" width="7.709" height="4.66" transform="translate(12.291 9.304)" fill="#107c41"/>
+      <rect id="Rectangle_791" data-name="Rectangle 791" width="7.694" height="4.66" transform="translate(4.598 4.644)" fill="#107c41"/>
+      <path id="Path_954" data-name="Path 954" d="M16.935,24.676v-4.66H9.255v8.4a.908.908,0,0,0,.907.907H23.721a.908.908,0,0,0,.907-.907v-3.74Z" transform="translate(-4.644 -10.711)" fill="#185b37"/>
+      <path id="Path_955" data-name="Path 955" d="M31.384,1.407h-6.8v4.66h7.725V2.314a.931.931,0,0,0-.925-.907Z" transform="translate(-12.307 -1.407)" fill="#33c481"/>
+      <path id="Path_956" data-name="Path 956" d="M16.951,1.407H10.2a.908.908,0,0,0-.906.907V6.052h7.68V1.407Z" transform="translate(-4.66 -1.407)" fill="#21a365"/>
+      <path id="Path_957" data-name="Path 957" d="M9.32,20.016H1.032a1.008,1.008,0,0,1-1-1V10.85a1.008,1.008,0,0,1,1-1H9.32a1.008,1.008,0,0,1,1,1v8.16a1,1,0,0,1-1,1.006Z" transform="translate(-0.031 -5.629)" fill="#17864c"/>
+      <g id="Group_294" data-name="Group 294" transform="translate(2.862 6.568)">
+        <path id="Path_958" data-name="Path 958" d="M9.21,20.157l-.61-1.11c-.25-.438-.406-.735-.578-1.063H8.006c-.141.328-.282.626-.516,1.063l-.547,1.11H5.754l1.689-2.83L5.8,14.543h1.2l.61,1.157c.188.344.328.626.469.938h.031c.16-.344.266-.594.454-.938l.61-1.157h1.189L8.694,17.279l1.736,2.88Z" transform="translate(-5.754 -14.543)" fill="#fff"/>
+      </g>
+      <path id="Path_959" data-name="Path 959" d="M15.181,11.665v8.257a1.008,1.008,0,0,1-1,1H9.507v.891h5.5a1.008,1.008,0,0,0,1-1v-8.16a.969.969,0,0,0-.831-.988Z" transform="translate(-4.769 -6.536)" opacity="0.2"/>
+    </g>
+  </g>
+</svg>

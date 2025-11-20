@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25" height="25" viewBox="0 0 25 25">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_229" data-name="사각형 229" width="25" height="25" transform="translate(1528 749)" fill="#ff0"/>
+    </clipPath>
+  </defs>
+  <g id="icon_화면저장" transform="translate(-1528 -749)" clip-path="url(#clip-path)">
+    <g id="Layer_2" data-name="Layer 2" transform="translate(1528 749)">
+      <g id="Layer_10" data-name="Layer 10">
+        <path id="패스_186" data-name="패스 186" d="M.848,8.484A.848.848,0,0,1,0,7.636V.848A.848.848,0,0,1,.848,0H7.636a.848.848,0,1,1,0,1.7H1.7V7.636A.848.848,0,0,1,.848,8.484Z" fill="#ff0"/>
+        <path id="패스_187" data-name="패스 187" d="M24.152,8.484a.848.848,0,0,1-.848-.848V1.7H17.364a.848.848,0,0,1,0-1.7h6.787A.848.848,0,0,1,25,.848V7.636a.848.848,0,0,1-.848.848Z" fill="#ff0"/>
+        <path id="패스_188" data-name="패스 188" d="M24.152,25H17.364a.848.848,0,0,1,0-1.7H23.3V17.364a.848.848,0,0,1,1.7,0v6.787a.848.848,0,0,1-.848.848Z" fill="#ff0"/>
+        <path id="패스_189" data-name="패스 189" d="M7.636,25H.848A.848.848,0,0,1,0,24.152V17.364a.848.848,0,0,1,1.7,0V23.3H7.636a.848.848,0,1,1,0,1.7Z" fill="#ff0"/>
+        <path id="패스_190" data-name="패스 190" d="M12.5,17.59a5.09,5.09,0,1,1,5.09-5.09A5.09,5.09,0,0,1,12.5,17.59Zm0-8.484A3.394,3.394,0,1,0,15.894,12.5,3.394,3.394,0,0,0,12.5,9.106Z" fill="#ff0"/>
+      </g>
+    </g>
+  </g>
+</svg>

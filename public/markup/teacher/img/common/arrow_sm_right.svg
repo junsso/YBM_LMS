@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="6" height="10" viewBox="0 0 6 10">
+  <defs>
+    <filter id="사각형_1229" x="-25" y="-30" width="66" height="70" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-color="#454545" flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#사각형_1229)">
+        <rect id="사각형_1229-2" data-name="사각형 1229" width="6" height="10" transform="translate(-0.21)" fill="#fff"/>
+      </g>
+    </clipPath>
+    <filter id="패스_1816" x="-24.126" y="-30" width="64.408" height="70" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-2"/>
+      <feFlood flood-color="#454545" flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="right_arrow" transform="translate(0.211)" opacity="0.8" clip-path="url(#clip-path)">
+    <g id="arrow-point-to-right" transform="translate(0.663)">
+      <g transform="matrix(1, 0, 0, 1, -0.87, 0)" filter="url(#패스_1816)">
+        <path id="패스_1816-2" data-name="패스 1816" d="M6.185,5.5l-3.325,4.3a.46.46,0,0,1-.766,0,.852.852,0,0,1,0-.99L5.036,5,2.093,1.2a.852.852,0,0,1,0-.99.46.46,0,0,1,.766,0L6.185,4.5a.852.852,0,0,1,0,.99Z" transform="translate(-1.06 0)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

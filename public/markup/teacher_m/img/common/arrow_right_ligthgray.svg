@@ -1,0 +1,12 @@
+<svg id="arw_right" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="10" height="10" viewBox="0 0 10 10">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_126" data-name="사각형 126" width="10" height="10" fill="#9ea4aa"/>
+    </clipPath>
+  </defs>
+  <g id="arrow_right" clip-path="url(#clip-path)">
+    <g id="arrow-point-to-right" transform="translate(2.15)">
+      <path id="패스_99" data-name="패스 99" d="M7.43,5.5l-4.3,4.3a.7.7,0,0,1-.99-.99L5.945,5,2.14,1.2a.7.7,0,1,1,.99-.99l4.3,4.3a.7.7,0,0,1,0,.99Z" transform="translate(-1.935 0)" fill="#9ea4aa"/>
+    </g>
+  </g>
+</svg>

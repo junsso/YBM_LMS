@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23" height="23" viewBox="0 0 23 23">
+  <defs>
+    <filter id="타원_55" x="0" y="0" width="23" height="23" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-color="#454545" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="그룹_97" data-name="그룹 97" transform="translate(-1702.5 -98.5)">
+    <g transform="matrix(1, 0, 0, 1, 1702.5, 98.5)" filter="url(#타원_55)">
+      <g id="타원_55-2" data-name="타원 55" transform="translate(4.5 4.5)" fill="#fff" stroke="#e5e5e5" stroke-width="1">
+        <circle cx="7" cy="7" r="7" stroke="none"/>
+        <circle cx="7" cy="7" r="6.5" fill="none"/>
+      </g>
+    </g>
+    <text id="N" transform="translate(1714 113)" fill="#fc5d5b" font-size="8" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-2.84" y="0">N</tspan></text>
+  </g>
+</svg>

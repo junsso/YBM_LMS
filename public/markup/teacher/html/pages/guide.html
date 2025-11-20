@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge;Chromeframe=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="generator" content="">
+<meta name="robots" content="ALL">
+<meta property="og:type" content="">
+<meta property="og:title" content="">
+<meta property="og:description" content="">
+<meta property="og:image" content="">
+<meta property="og:url" content="">
+<title>페이지명 | 초등(채널명) | YBM온라인스쿨(사이트명)</title>
+<link rel="shortcut icon" href="">
+<link rel="stylesheet" href="../../lib/swiper.min.css">
+<link rel="stylesheet" href="../../lib/lightgallery.css">
+<link rel="stylesheet" href="../../common/css/import.css">
+<script src="../../lib/jquery-3.6.0.min.js"></script>
+<style>
+    .guide-slideshow:not(:first-of-type), .tt-html, .slideshow-section, .slideshow-section-item{
+        display: none;
+    }
+</style>
+</head>
+<body class="active-popup"><!-- 설정값이 없을 때는 바디에 active-popup 클래스를 넣어주세요-->
+    <section class="wrap">
+        <!-- start:좌측 메뉴 -->
+        <section class="header">
+            <div class="inner">
+                <h1 class="site-name"><a href="#">YBM스마트스쿨</a></h1>
+                <nav class="gnb">
+                    <ul>
+                        <li>
+                            <a href="#"><span class="ico-gnb sboard"></span><em>수업보드</em></a>
+                        </li>
+                        <li>
+                            <a href="#"><span class="ico-gnb mg-class"></span><em>수업관리</em></a>
+                            <ul class="dropdown">
+                                <li><a href="#">수업설계</a></li>
+                                <li><a href="#">평가·과제 관리</a></li>
+                                <li><a href="#">Online 콘텐츠 만들기</a></li>
+                                <li><a href="#">시간표 관리</a></li>
+                                <li><a href="#">수업 리포트</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#"><span class="ico-gnb mg-study"></span><em>학급학생관리</em></a>
+                            <ul class="dropdown">
+                                <li><a href="#">학급 현황</a></li>
+                                <li><a href="#">학생 현황</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#"><span class="ico-gnb mg-alarm"></span><em>알림상담관리</em></a>
+                            <ul class="dropdown">
+                                <li><a href="#">알림장(전달사항)</a></li>
+                                <li><a href="#">상담/문의</a></li>
+                            </ul>
+                        </li>
+                        <li class="dv-bar"></li>
+                        <li>
+                            <a href="#"><span class="ico-gnb rnd"></span><em>수업연구실</em></a>
+                            <ul class="dropdown">
+                                <li><a href="#">자료 나눔터</a></li>
+                                <li><a href="#">내 연구실</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#"><span class="ico-gnb ttalk"></span><em>T톡</em></a>
+                            <ul class="dropdown">
+                                <li><a href="#">이슈톡</a></li>
+                                <li><a href="#">프리톡</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="launch-wrap">
+                    <a href="https://www.ybmcloud.com" target="_blank" title="Y클라우드 새창열림"><span></span></a>
+                </div>
+            </div>
+            <div class="toggle-fold">
+                <button><span>메뉴 열기/닫기</span></button>
+            </div>
+        </section>
+        <!-- //end:좌측 메뉴 -->
+        <section class="container">            
+            <div class="wrapper-lg">
+                <section class="common-top">
+                    <div class="room-summary">
+                        <h1 class="room-name">세상에 없던 스마트 스쿨</h1>
+                        <div class="room-charge">(홍길동선생님)</div>
+                    </div>
+                    <div class="unb">
+                        <button type="button" class="btn-alarm"><span>5</span></button>
+                        <a href="#" class="link-voucher">이용권</a>
+                        <ul>
+                            <li><a href="#">개인정보</a></li>
+                            <li><a href="#">고객센터</a></li>
+                            <li><a href="#"><span class="ico-logout"></span>로그아웃</a></li>
+                            <li><a href="#"><span class="ico-question">?</span>이용가이드</a></li>
+                        </ul>
+                    </div>
+                </section>
+                <!-- start:본문 -->
+                <section class="content dash-board">
+                    <!-- start:오늘 수업 일정 -->
+                    <div class="mds-box">
+                        <div class="box-head title-bx">
+                            <h2>오늘 수업 일정</h2>
+                        </div>
+                        <div class="empty-info">
+                            <p class="txt">설정된 수업 일정이 없습니다.<br />수업 일정을 등록하시면?</p>
+                            <ul>
+                                <li><span><img src="../../img/common/ico_play.svg" alt=""></span><em>해당 시간 수업 바로 시작</em></li>
+                                <li><span><img src="../../img/common/ico_view.svg" alt=""></span><em>오늘 수업을 한눈에 확인</em></li>
+                                <li><span><img src="../../img/common/ico_alarm_on.svg" alt=""></span><em>시간에 따른 자동 알림</em></li>
+                                <li><span><img src="../../img/common/ico_report.svg" alt=""></span><em>수업 결과 기록도 자동으로!</em></li>
+                            </ul>
+                            <div class="btn-set">
+                                <a href="#">수업 만들기</a>
+                                <a href="#">학급 만들기</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- //end:오늘 수업 일정 -->
+                    <!-- start:과제/평가 현황 -->
+                    <div class="mds-box latest">
+                        <div class="box-head">
+                            <h2>과제·평가 현황</h2>
+                        </div>
+                        <div class="empty-info">
+                            <p class="txt">등록된 과제·평가가 없습니다.<br />과제 및 평가를 등록하시면?</p>
+                            <ul>
+                                <li><span><img src="../../img/common/ico_view.svg" alt=""></span><em>학급별 학생들의 과제·평가 현황을 한눈에!</em></li>
+                                <li><span><img src="../../img/common/ico_cal.svg" alt=""></span><em>과제별 D-day와 마감일 확인</em></li>
+                                <li><span><img src="../../img/common/ico_alarm_on.svg" alt=""></span><em>내가 피드백하고 확인해야 할 일도 꼼꼼히 알림</em></li>
+                                <li><span><img src="../../img/common/ico_pen2.svg" alt=""></span><em>자동 채점되는 온라인 과제·평가 제작도 지원</em></li>
+                            </ul>
+                            <div class="btn-set">
+                                <a href="#">과제·평가 만들기</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- //end:과제/평가 현황 -->
+                    <div class="abs-side-wrap">
+                        <!-- start:한줄공지 -->
+                        <div class="mds-box notice-box">
+                            <a href="#"><span class="ico-notice"></span> [공지] 서버 안정화 작업 안내 안정화 작업 안내 안정화 작업 안내</a>
+                        </div>
+                        <!-- //end:한줄공지 -->
+                        <!-- start:달력스케줄러 -->
+                        <div class="mds-box calendar-box">
+                            <div class="box-head">
+                                <h3>2021년 4월 5일 월요일</h3>
+                            </div>
+                            <div class="box-body">
+                                <div class="calendar">
+                                    <div class="cal-control">
+                                        <button class="view-all">2021년 4월</button>
+                                        <button class="prevm"></button>
+                                        <button class="nextm"></button>
+                                    </div>
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th>일</th>
+                                                <th>월</th>
+                                                <th>화</th>
+                                                <th>수</th>
+                                                <th>목</th>
+                                                <th>금</th>
+                                                <th>토</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td class="blur">28</td>
+                                                <td class="blur">29</td>
+                                                <td class="blur">30</td>
+                                                <td class="blur">31</td>
+                                                <td>1</td>
+                                                <td>2</td>
+                                                <td>3</td>
+                                            </tr>
+                                            <tr>
+                                                <td>4</td>
+                                                <td class="today">5
+                                                    <span class="has-schdule">                                                        
+                                                        <em class="dot class"></em><em class="dot personal"></em><em class="dot exam"></em>
+                                                    </span>
+                                                </td>
+                                                <td>6</td>
+                                                <td>7</td>
+                                                <td>8
+                                                    <span class="has-schdule">                                                        
+                                                        <em class="dot class"></em><em class="dot personal"></em>
+                                                    </span>
+                                                </td>
+                                                <td>9</td>
+                                                <td>10</td>
+                                            </tr>
+                                            <tr>
+                                                <td>11</td>
+                                                <td>12</td>
+                                                <td>13</td>
+                                                <td>14</td>
+                                                <td>15</td>
+                                                <td>16</td>
+                                                <td>17</td>
+                                            </tr>
+                                            <tr>
+                                                <td>18</td>
+                                                <td>19</td>
+                                                <td>20</td>
+                                                <td>21</td>
+                                                <td>22</td>
+                                                <td>23
+                                                    <span class="has-schdule">                                                        
+                                                        <em class="dot exam"></em>
+                                                    </span>
+                                                </td>
+                                                <td>24</td>
+                                            </tr>
+                                            <tr>
+                                                <td>25</td>
+                                                <td>26</td>
+                                                <td>27</td>
+                                                <td>28</td>
+                                                <td>29</td>
+                                                <td>30</td>
+                                                <td class="blur">1</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="btn-theday-info">
+                                    <a href="#">
+                                        <strong>어린이날</strong>
+                                        <span>양, 5월 5일</span>
+                                    </a>
+                                </div>
+                                <div class="btn-group-msg">
+                                    <a href="#">
+                                        <em class="ico-mic"></em>
+                                        <strong>그룹메세지</strong>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="box-foot">
+                                <a href="#"><span class="link-launch"></span></a>
+                            </div>
+                        </div>
+                        <!-- //end:달력스케줄러 -->
+                        <!-- start:그룹메세지 목록 -->
+                        <div class="mds-box alarm-box">
+                            <div class="box-head">
+                                <h2>알림</h2>
+                            </div>
+                            <div class="empty-info">
+                                <p class="txt">도착한 알림이 없습니다.</p>
+                                <div class="infotxt">
+                                    <div class="banner-img">220*116</div>
+                                    <span class="ico-alert"></span>
+                                    수업 설계 및 개설, 반 등록, 시간표 설정 등 수업 기본 설정을 하시면  그날 그날 꼭 챙겨야 하는 일들을  빠짐없이 알림으로 리마인드 해 드립니다.
+                                </div>
+                            </div>
+                        </div>
+                        <!-- //end:그룹메세지 목록 -->
+                    </div>
+                </section>
+                <!-- //end:본문 -->
+            </div>
+        </section>
+    </section>
+
+    <!-- start:가이드 튜토리얼 레이어 팝업 -->
+    <div class="guide-tt active">
+        <div class="overlay"></div>
+        <div class="inner-wrap">
+            <div class="subject">이용가이드</div>
+            <div class="tt-head">
+                <h1>블렌디드 수업지원 플랫폼, YBM스마트스쿨에 오신 것을 환영합니다.</h1>
+            </div>
+
+            <!-- 시작 -->
+            <div class="tt-body guide-slideshow gate">
+                <div class="tt-html">
+                    <h1>블렌디드 수업지원 플랫폼, YBM스마트스쿨에 오신 것을 환영합니다.</h1>
+                </div>
+                <div class="body-innder">
+                    <div class="headline">
+                        <h2>우리반 수업·학급 관리는? <span class="primary-txt">YBM스마트스쿨</span></h2>
+                    </div>
+                    <div class="feature">
+                        <ul>
+                            <li><span class="primary-txt">등교</span> 수업, <span class="primary-txt">화상</span> 수업, <span class="primary-txt">온라인</span> 수업 지원</li> 
+                            <li>수업설계, 학급등록관리, 시간표 설정 등을 통한 <span class="highlighter">자동 관리</span></li>
+                            <li>온라인 과제·평가 출제 및 <span class="highlighter">자동 채점</span>, 학급 및 학생 <span class="primary-txt">분석 리포트</span> 제공</li>
+                            <li><span class="primary-txt">쌍방향 수업도구</span>를 통한 수업진도 관리</li>
+                            <li>그룹메시지, 1:1 <span class="primary-txt">메시지 기능</span> 제공</li>
+                        </ul>
+                    </div>
+                    <div class="cta">
+                        <p>YBM스마트스쿨을 시작해볼까요?</p>
+                        <button type="button" data-gotostep="menu">시작하기</button>
+                    </div>
+                </div>
+            </div>
+            <!-- //시작 -->
+            <!-- 메뉴 -->
+            <div class="tt-body guide-slideshow menu">
+                <div class="tt-html">
+                    <h1>먼저, 간단한 기본 설정을 안내합니다.</h1>
+                </div>
+                <div class="body-innder">
+                    <div class="headline">
+                        <h2>3가지 기본설정(<span class="highlighter">수업설계, 학급등록, 시간표 설정</span>)을 통해<br />YBM스마트스쿨의 <span class="primary-txt">다양한 기능</span>을 만나보세요</h2>
+                    </div>
+                    <div class="g-menu">
+                        <div class="item" data-gotostep="step1">
+                            <div class="icon"><span><img src="../../img/common/ico_book_wh.svg" alt=""></span></div>
+                            <div class="step">
+                                <p class="step-num">STEP 1</p>
+                            </div>
+                            <div class="title">수업 설계</div>
+                            <div class="desp">복잡한 수업 설계를<br />원클릭으로!</div>
+                        </div>
+                        <div class="item" data-gotostep="step2">
+                            <div class="icon"><span><img src="../../img/common/ico_idcard_wh.svg" alt=""></span></div>
+                            <div class="step">
+                                <p class="step-num">STEP 2</p>
+                            </div>
+                            <div class="title">학급 등록</div>
+                            <div class="desp">간편한 학생 가입부터<br />
+                                URL 공유만으로 학급 자동 관리!</div>
+                        </div>
+                        <div class="item" data-gotostep="step3">
+                            <div class="icon"><span><img src="../../img/common/ico_calender_wh.svg" alt=""></span></div>
+                            <div class="step">
+                                <p class="step-num">STEP 3</p>
+                            </div>
+                            <div class="title">시간표 설정</div>
+                            <div class="desp">교시 단위 시간표 설정<br />
+                                자동 알림 및 수업 관리!</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- //메뉴 -->
+            <!-- 수업설계 -->
+            <div class="tt-body guide-slideshow step1">
+                <div class="tt-html">
+                    <span class="step-num">STEP1</span>
+                    <h1>수업 설계</h1>
+                    <p>복잡한 수업 설계를 원클릭으로!</p>
+                    <div class="dots">
+                        <span data-gotosection2="section1" data-step="step1">1</span>
+                        <span data-gotosection2="section2" data-step="step1">2</span>
+                        <span data-gotosection2="section3" data-step="step1">3</span>
+                        <span data-gotosection2="section4" data-step="step1">4</span>
+                    </div>
+                </div>
+                <div class="body-innder">
+                    <div class="headline">
+                        <h2>Y클라우드의 <span class="primary-txt">차시별 수업자료를 탑재</span>하여 <span class="highlighter">교과서 선택만으로 수업안 설계 완료!</span></h2>
+                    </div>
+                    <div class="screenshot slideshow-section section1" data-dots="1">
+                        <img data-src="../../img/common/tt_sceen1_1.png" alt="">
+                        <div class="slideshow-section-item">
+                            <div class="border" style="width: 980px; height: 187px; top:170px; left:216px;"></div>
+                            <div class="txt arrow-lb" style="right: -243px; top: 150px;">학교, 학년 정보에 따라<br />YBM추천 교과서를 보여줍니다.</div>
+                        </div>
+                        <div class="slideshow-section-item"> 
+                            <div class="border" style="width: 496px; height: 50px; top:70px; right:66px;"></div>
+                            <div class="txt arrow-lb" style="right: -250px; top: 6px;">YBM교과서 전체 목록과<br />수업 자료를 확인하실 수 있어요.</div>
+                        </div>
+                        <div class="slideshow-section-item" data-gotosection="section2">
+                            <div class="border" style="width: 95px; height: 128px; top:216px; left:231px;"></div>
+                            <div class="txt arrow-lb" style="left: 344px; top: 200px;">영어 3 교과서를 클릭해볼까요?</div>
+                            <div class="hand animate__animated animate__flash animate__infinite animate__slower" style="top: 272px; left: 261px;"></div>
+                        </div>
+                    </div>
+                    <div class="screenshot slideshow-section section2" data-dots="2">
+                        <img data-src="../../img/common/tt_sceen2_1.png" alt="">                        
+                        <div class="slideshow-section-item">
+                            <div class="border" style="width: 100px; height: 34px; top:316px; left:380px;"></div>
+                            <div class="txt arrow-rb" style="left: 100px; top: 238px;">선생님께서 미리 등록해두신<br />학급을 선택하시거나</div>
+                        </div>
+                        <div class="slideshow-section-item">
+                            <div class="border" style="width: 504px; height: 50px; top:350px; right:380px;"></div>
+                            <div class="txt arrow-rt" style="left: 143px; top: 383px;">새로운 학급을 바로<br />생성하실 수 있습니다.</div>
+                        </div>
+                        <div class="slideshow-section-item" data-gotosection="section3">
+                            <div class="border" style="width: 265px; height: 50px; top:411px; left:628px;"></div>
+                            <div class="hand animate__animated animate__flash animate__infinite animate__slower" style="top: 410px; left: 785px;"></div>
+                        </div>
+                    </div>
+                    <div class="screenshot slideshow-section section3" data-dots="3">
+                        <img data-src="../../img/common/tt_sceen3_1.png" alt="">                        
+                        <div class="slideshow-section-item">
+                            <div class="border" style="width: 988px; height: 345px; top:216px; left:214px;"></div>
+                            <div class="txt arrow-lb" style="right: -280px; top: 280px;">선택한 교과서에 맞추어<br />기본 수업안이 자동으로 세팅됩니다.</div>
+                        </div>
+                        <div class="slideshow-section-item">
+                            <div class="border" style="width: 463px; height: 274px; top:280px; left:227px;"></div>
+                            <div class="txt arrow-rb" style="left: -83px; top: 300px;">Y클라우드에서 제공하는<br />차시별 수업자료로<br />내 수업안을 설계할 수 있습니다.</div>
+                        </div>
+                        <div class="slideshow-section-item pause">
+                            <div class="border" style="width: 38px; height: 43px; top:317px; left:645px;"></div>
+                            <div class="txt arrow-rt" style="left: 340px; top: 345px;">수업용 자료인<br />“온라인 수업 동영상”을<br />내 수업안에 담아볼까요?</div>
+                            <div class="hand animate__animated animate__flash animate__infinite animate__slower" style="top: 340px;left: 665px;"></div>
+                        </div>
+                        <div class="slideshow-section-item" data-changeimg="../../img/common/tt_sceen3_2.png">
+                            <div class="border" style="width: 456px; height: 43px; top:310px; right:86px"></div>
+                        </div>
+                        <div class="slideshow-section-item" data-gotosection="section4">
+                            <div class="border" style="width: 53px; height: 40px; top:244px; left:628px"></div>
+                            <div class="txt arrow-rb" style="left: 363px; top: 120px;">가지고 계신 추가 자료를<br />손쉽게 탑재할 수 있는<br />넉넉한 내 자료실 서비스까지!</div>
+                            <div class="hand animate__animated animate__flash animate__infinite animate__slower" style="top: 232px;left: 662px;"></div>
+                        </div>
+                    </div>
+                    <div class="screenshot slideshow-section section4" data-dots="4">
+                        <img data-src="../../img/common/tt_sceen1_1.png" alt="">                        
+                        <div class="slideshow-section-item" data-gotosection="section5">
+                            <div class="border" style="width: 113px; height: 35px; top:134px; right:66px;"></div>
+                            <div class="txt arrow-lb" style="right: -230px; top: 38px;">타사 교과서를 이용하시나요?<br />수동 수업 개설하기를 통해<br />간편하게 등록해보세요!</div>
+                            <div class="hand animate__animated animate__flash animate__infinite animate__slower" style="top: 149px;right: 6px;"></div>
+                        </div>
+                    </div>
+                    <div class="screenshot slideshow-section section5" data-dots="4">
+                        <img data-src="../../img/common/tt_sceen4_2.png" alt="">                        
+                        <div class="slideshow-section-item">
+                            <div class="border" style="width: 194px; height: 37px; top:166px; right:440px;"></div>
+                            <div class="txt arrow-lb" style="right: 54px; top: 50px;">함께 사용하시는 타사 교과서를<br /> 선택해주시면, 기본 차시 구조 배치 및<br />해당 교과서 자료를 다운로드 받을 수 있는<br />사이트로 바로 이동!</div>
+                        </div>
+                        <div class="slideshow-section-item">
+                            <div class="border" style="width: 986px; height: 85px; bottom:103px; right:64px;"></div>
+                        </div>
+                        <div class="slideshow-section-item next-section" data-gotostep="menu" data-complete="1"></div>
+                    </div>
+                </div>
+                <button type="button" class="skip" data-gotostep="menu">수업설계 SKIP</button>
+            </div>
+            <!-- //수업설계 -->
+            <!-- 학급등록 -->
+            <div class="tt-body guide-slideshow step2">
+                <div class="tt-html">
+                    <span class="step-num">STEP2</span>
+                    <h1>학급 등록</h1>
+                    <p>간편한 학생 가입부터 로그인 없이도 이용 가능!</p>
+                    <div class="dots">
+                        <span data-gotosection2="section1" data-step="step2">1</span>
+                        <span data-gotosection2="section2" data-step="step2">2</span>
+                        <span data-gotosection2="section3" data-step="step2">3</span>
+                        <span data-gotosection2="section4" data-step="step2">4</span>
+                    </div>
+                </div>
+                <div class="body-innder">
+                    <div class="headline">
+                        <h2><span class="primary-txt">학급·학생 등록 및 관리</span>를 보다 간편하게! <span class="highlighter">우리 학급을 등록해볼까요?</span></h2>
+                    </div>
+                    <div class="screenshot slideshow-section section1" data-dots="1">
+                        <img data-src="../../img/common/tt2_sceen1_1.png" alt="">
+                        <div class="slideshow-section-item" data-gotosection="section2">
+                            <div class="border" style="width: 104px; height: 36px; top:70px; right:70px;"></div>
+                            <div class="txt arrow-lb" style="right: -180px; top: -7px;">신규 학급 등록 버튼을<br />눌러주세요!</div>
+                            <div class="hand animate__animated animate__flash animate__infinite animate__slower" style="top: 88px;right: 6px;"></div>
+                        </div>
+                    </div>
+                    <div class="screenshot slideshow-section section2" data-dots="2">
+                        <img data-src="../../img/common/tt2_sceen2_1.png" alt="">
+                        <div class="slideshow-section-item">
+                            <div class="border" style="width: 978px; height: 191px; top:97px; right:69px;"></div>
+                            <div class="txt arrow-lb txt-hide" style="right: -209px; top: 77px;">가입 시 설정한 학교 정보가<br />자동으로 입력되니 <br />학급 이름만 작성해주세요!
+                            </div>
+                        </div>
+                        <div class="slideshow-section-item">
+                            <div class="border" style="width: 978px; height: 228px; bottom:16px; right:69px;"></div>
+                            <div class="txt arrow-lb txt-hide" style="right: -160px; bottom: 134px;">학생 등록 방식<br />3가지를 소개합니다!</div>
+                        </div>
+                        <div class="slideshow-section-item" data-changeimg="../../img/common/tt2_sceen2_3.png">
+                            <div class="preview funtion1"></div>
+                            <div class="border" style="width: 324px; height: 228px; bottom:16px; left:217px;"></div>
+                            <div class="txt arrow-rb txt-hide" style="left: -60px; bottom: 134px;">상세 정보 등록하기 방식은,<br />* 초대 메시지 무료로 발송!<br />* 모든 서비스 이용 가능</div>
+                        </div>
+                        <div class="slideshow-section-item" data-changeimg="../../img/common/tt2_sceen2_4.png">
+                            <div class="preview funtion2"></div>
+                            <div class="border" style="width: 324px; height: 228px; bottom:16px; left:543px;"></div>
+                            <div class="txt arrow-rb txt-hide" style="left: 240px; bottom: 134px;">간편 등록하기 방식은,<br />* 최소 정보(번호, 이름)만 작성!<br />* 임시 회원으로 활동<p class="small-txt">※ 일부 서비스는 이용이 제한됩니다.</p></div>
+                        </div>
+                        <div class="slideshow-section-item" data-changeimg="../../img/common/tt2_sceen2_5.png">
+                            <div class="preview funtion3"></div>
+                            <div class="border" style="width: 324px; height: 228px; bottom:16px; right:68px;"></div>
+                            <div class="txt arrow-rb txt-hide" style="left: 604px; bottom: 134px;">학생 직접 등록 방식은,<br />* 학급 URL을 공유하면<br />학생 간편 가입!<br />* 임시회원으로 활동<p class="small-txt">※ 일부 서비스는 이용이 제한됩니다.</p></div>
+                        </div>
+                        <div class="slideshow-section-item" data-gotosection="section3">
+                            <div class="border" style="width: 324px; height: 228px; bottom:16px; right:68px;"></div>
+                            <div class="txt arrow-lb txt-hide" style="right: -187px; bottom: 134px;"><strong>학생 직접 등록 방식</strong>으로<br />등록해볼까요?</div>
+                            <div class="hand animate__animated animate__flash animate__infinite animate__slower" style="bottom: 40px;right: 100px;"></div>
+                        </div>
+                    </div>
+                    <div class="screenshot slideshow-section section3" data-dots="3">
+                        <img data-src="../../img/common/tt2_sceen3_1.png" alt="">
+                        <div class="slideshow-section-item pause">
+                            <div class="border" style="width: 102px; height: 35px; bottom:18px; left:659px;"></div>
+                            <div class="txt arrow-lb txt-hide" style="right: 175px; bottom: 39px;">등록 방법을 읽어 보셨나요?<br />학급 생성하기 버튼을 눌러주세요!</div>
+                            <div class="hand animate__animated animate__flash animate__infinite animate__slower" style="bottom: -82px;right: 428px;"></div>
+                        </div>
+                        <div class="slideshow-section-item pause" data-changeimg="../../img/common/tt2_sceen3_2.png">
+                            <div class="border" style="width: 527px; height: 50px; bottom:182px; right:366px;"></div>
+                            <div class="txt arrow-lb txt-hide" style="right: 40px; bottom: 208px;">우리 학급 URL을 복사해서<br />우리반 학생들에게 전달해주세요!</div>
+                            <div class="hand animate__animated animate__flash animate__infinite animate__slower" style="bottom: 86px;right: 284px;"></div>
+                        </div>
+                        <div class="slideshow-section-item" data-changeimg="../../img/common/tt2_sceen3_3.png">
+                            <div class="txt arrow-lb" style="right: 262px; top: 254px;">학생은,<br />이름과 반 번호와 비밀번호 입력하면<br />회원가입 끝!</div>
+                        </div>
+                        <div class="slideshow-section-item next-section" data-gotosection="section4"></div>
+                    </div>
+                    <div class="screenshot slideshow-section section4" data-dots="4">
+                        <img data-src="../../img/common/tt2_sceen4_1.png" alt="">
+                        <div class="slideshow-section-item">
+                            <div class="border" style="width: 425px; height: 35px; bottom:264px; left:218px;"></div>
+                            <div class="txt arrow-lb" style="left: 660px; top: 200px;">초대 링크는<br />우리 반 현황에서 다시 볼 수 있으며,</div>
+                        </div>
+                        <div class="slideshow-section-item">
+                            <div class="border" style="width: 985px; height: 154px; bottom:20px; right:62px;"></div>
+                            <div class="txt arrow-lb" style="right: -256px; bottom: 90px;">초대 코드로 가입한 우리 반<br />학생들 목록을 보실 수 있습니다!</div>
+                        </div>
+                        <div class="slideshow-section-item next-section" data-gotostep="menu" data-complete="2"></div>
+                    </div>
+                </div>
+                <button type="button" class="skip" data-gotostep="menu">학급등록 SKIP</button>
+            </div>
+            <!-- //학급등록 -->
+            <!-- 시간표설정 -->
+            <div class="tt-body guide-slideshow step3">
+                <div class="tt-html">
+                    <span class="step-num">STEP3</span>
+                    <h1>시간표 설정</h1>
+                    <p>교시 단위 시간표 설정 자동 알림 및 수업 관리!</p>
+                    <div class="dots">
+                        <span data-gotosection2="section1" data-step="step3">1</span>
+                        <span data-gotosection2="section2" data-step="step3">2</span>
+                        <span data-gotosection2="section3" data-step="step3">3</span>
+                        <span data-gotosection2="section4" data-step="step3">4</span>
+                    </div>
+                </div>
+                <div class="body-innder">
+                    <div class="headline">
+                        <h2><span class="highlighter">시간표를 설정</span>하면, <span class="primary-txt">자동 알림과 손쉬운 수업관리</span>가 가능합니다!</h2>
+                    </div>
+                    <div class="screenshot slideshow-section section1" data-dots="1">
+                        <img data-src="../../img/common/tt3_sceen1_1.png" alt="">
+                        <div class="slideshow-section-item" data-gotosection="section2">
+                            <div class="border" style="width: 265px; height: 52px; top:401px; right:364px;"></div>
+                            <div class="txt arrow-lb" style="right: 33px; bottom: 150px;">수업 개설, 학급 등록을 마치셨다면<br />시간표를 설정해볼까요?</div>
+                            <div class="hand animate__animated animate__flash animate__infinite animate__slower" style="bottom: 30px;right: 284px;"></div>
+                        </div>
+                    </div>
+                    <div class="screenshot slideshow-section section2" data-dots="2">
+                        <img data-src="../../img/common/tt3_sceen2_1.png" alt="">
+                        <div class="slideshow-section-item">
+                            <div class="border" style="width: 617px; height: 31px; top:109px; right:321px;"></div>
+                            <div class="txt arrow-lb" style="right: -23px; top: 30px;">교시별 시간을 우선 설정해주세요!<br />기본 시정표가 자동으로 적용됩니다.</div>
+                        </div>
+                        <div class="slideshow-section-item">
+                            <div class="border" style="width: 113px; height: 38px; top:264px; left:504px;"></div>
+                            <div class="txt arrow-rb" style="left: 143px; top: 208px;">교시별 시간 설정을 개별로 수정하거나, </div>
+                        </div>
+                        <div class="slideshow-section-item pause">
+                            <div class="border" style="width: 123px; height: 35px; top:135px; right:320px;"></div>
+                            <div class="txt arrow-rb" style="left: 542px; top: 83px;">일괄로 수정할 수 있습니다.</div>
+                            <div class="hand animate__animated animate__flash animate__infinite animate__slower" style="top: 142px;right: 244px;"></div>
+                        </div>
+                        <div class="slideshow-section-item" data-gotosection="section3" data-changeimg="../../img/common/tt3_sceen2_4.png">
+                            <div class="border" style="width: 75px; height: 33px; top:336px; left:696px;"></div>
+                            <div class="hand animate__animated animate__flash animate__infinite animate__slower" style="top: 342px;right: 417px;"></div>
+                        </div>
+                    </div>
+                    <div class="screenshot slideshow-section section3" data-dots="3">
+                        <img data-src="../../img/common/tt3_sceen3_1.png" alt="">
+                        <div class="slideshow-section-item">
+                            <div class="border" style="width: 400px; height: 46px; top:154px; left:212px;"></div>
+                            <div class="txt arrow-lb" style="right: 340px; top: 84px;">내 수업과 해당 학급에 설정되는<br />시간표 관리 화면입니다.</div>
+                        </div>
+                        <div class="slideshow-section-item pause">
+                            <div class="border" style="width: 53px; height: 50px; top:316px; left:600px;"></div>
+                            <div class="txt arrow-lb" style="right: 320px; top: 240px;">화요일 2교시에 체육 수업을<br />배치해볼까요?</div>
+                            <div class="hand animate__animated animate__flash animate__infinite animate__slower" style="top: 336px;right: 530px;"></div>
+                        </div>
+                        <div class="slideshow-section-item" data-changeimg="../../img/common/tt3_sceen3_3.png">
+                            <div class="border" style="width: 167px; height: 77px; top:305px; left:544px;"></div>
+                            <div class="txt arrow-lb" style="right: 318px; top: 240px;">확인하셨다면 아래 저장하기<br />버튼을 클릭해주세요.</div>
+                        </div>
+                        <div class="slideshow-section-item" data-gotosection="section4">
+                            <div class="border" style="width: 86px; height: 30px; bottom:20px; right:374px;"></div>
+                            <div class="hand animate__animated animate__flash animate__infinite animate__slower" style="bottom: -74px;right: 296px;"></div>
+                        </div>
+                    </div>
+                    <div class="screenshot slideshow-section section4" data-dots="4">
+                        <img data-src="../../img/common/tt3_sceen4_1.png" alt="">
+                        <div class="slideshow-section-item">
+                            <div class="border" style="width: 201px; height: 74px; bottom:104px; left:432px;"></div>
+                            <div class="txt arrow-lb" style="left: 650px; bottom: 140px;">매주 같은 요일, 같은 시간에<br />체육 수업이 배치되었습니다!</div>
+                        </div>
+                        <div class="slideshow-section-item next-section" data-gotostep="finish"></div>
+                    </div>
+                </div>
+                <button type="button" class="skip" data-gotostep="menu">시간표설정 SKIP</button>
+            </div>
+            <!-- //시간표설정 -->
+            <!-- 끝 -->
+            <div class="tt-body guide-slideshow finish">
+                <!-- <div class="tt-html">
+                    <h1>블렌디드 수업지원 플랫폼, YBM스마트스쿨에 오신 것을 환영합니다.</h1>
+                </div> -->
+                <div class="body-innder">
+                    <div class="headline">
+                        <h2>이처럼 <span class="primary-txt">간단한 설정</span>을 통해<br />
+                            YBM스마트스쿨로 <span class="highlighter">우리 반 수업·학급을 간편하게 관리</span>해보세요!</h2>
+                    </div>
+                    <div class="feature">
+                        <h3>추가로, YBM스마트스쿨은 <span class="highlighter">다양한 기능들도 함께 제공</span>합니다.</h3>
+                        <div class="function-set">
+                            <div class="item">
+                                <div class="icon"></div>
+                                <div class="f-name">비대면 수업화상솔루션<br />지원</div>
+                            </div>
+                            <div class="item">
+                                <div class="icon"></div>
+                                <div class="f-name">통합뷰어<br />&<br />실시간<br />쌍방향 수업 툴</div>
+                            </div>
+                            <div class="item">
+                                <div class="icon"></div>
+                                <div class="f-name">그룹메시지<br />&<br />1:1 메시지</div>
+                            </div>
+                            <div class="item">
+                                <div class="icon"></div>
+                                <div class="f-name">수업리포트<br />&<br />학생개별 리포트</div>
+                            </div>
+                            <div class="item">
+                                <div class="icon"></div>
+                                <div class="f-name">간편한<br />자료 공유하기</div>
+                            </div>
+                        </div>
+                        <div class="cta">
+                            <p><strong>YBM스마트스쿨</strong>을 시작해볼까요?</p>
+                            <button type="button">시작하기</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- //끝 -->
+            <button type="button" class="close"><img src="../../img/common/ic_close_pink.svg" alt="닫기"></button>
+        </div>
+    </div>
+    <!-- //end:가이드 튜토리얼 레이어 팝업 -->
+
+    <!-- start:레이어 팝업 -->
+    <div class="popup-wrap"></div>
+    <!-- //end:레이어 팝업 -->
+
+
+<script src="../../lib/swiper.js"></script>
+<script src="../../lib/lightgallery-all.min.js"></script>
+<script src="../../common/js/popup.js"></script>
+<script src="../../common/js/ui.js"></script>
+</body>
+</html>

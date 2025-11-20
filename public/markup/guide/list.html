@@ -1,0 +1,4097 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+  <head>
+	<meta charset="UTF-8">
+	<title>화면 리스트 | YBM스마트스쿨 퍼블리싱 가이드</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta id="resResponsiveViewport" name="viewport" content="width=device-width, initial-scale=1, minimum-scale=0.5, maximum-scale=1, user-scalable=yes">
+	<meta name="apple-mobile-web-app-title" content="">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta property="og:title" content="">
+	<meta property="og:site_name" content="">
+	<meta property="og:url" content="">
+	<meta property="og:image:url" content="">
+	<meta property="og:image:width" content="">
+	<meta property="og:image:height" content="">
+	<meta property="og:image" content="">
+	<meta property="og:description" content="">
+	<meta name="twitter:card" content="">
+	<meta name="twitter:title" content="">
+	<meta name="twitter:url" content="">
+	<meta name="twitter:image" content="">
+	<meta name="twitter:description" content="">
+    <meta name="generator" content=""> 	
+    <!-- google webfont -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+
+	<link type="text/css" rel="stylesheet" media="all" href="inc/jquery-syntax/jquery.highlight.css" />
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/guide.css">
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+
+
+<!-- Fixed navbar -->
+<header class="guide-nav navbar navbar-fixed-top" id="top">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="overview.html"><img src="ci.png" alt="YBM"></a>
+		</div>
+		<nav id="navbar" class="navbar-collapse collapse">
+			<ul class="nav navbar-nav">
+				<li><a href="overview.html">기본 가이드</a></li>
+				<li><a href="code.html">작성규칙</a></li>
+				<li><a href="plan.html">마크업설계</a></li>
+				<li><a href="list.html">화면리스트</a>
+                    <ul>
+                        <li><a href="list.html">교사채널</a></li>
+                        <li><a href="list_m.html">교사채널(모바일)</a></li>
+                        <li><a href="list_oncon.html">교사채널(온콘)</a></li>
+                        <li><a href="list2.html">강사채널</a></li>
+                        <li><a href="list2_m.html">강사채널(모바일)</a></li>
+                        <li><a href="list3.html">초등채널</a></li>
+                        <li><a href="list4.html">중고등채널</a></li>
+                        <li><a href="list5.html">학부모채널</a></li>
+                        <li><a href="list6.html">브랜드채널(멤버십)</a></li>
+                        <li><a href="list7.html">뷰어</a></li>
+                        <li><a href="list8.html">알림앱</a></li>
+                        <li><a href="list9.html">뷰어(모바일)</a></li>
+						<li><a href="list10.html">뷰어(학생채널)</a></li>
+						<li><a href="list11.html">뷰어(강사채널)</a></li>
+						<li><a href="liveshot.html">라이브샷</a></li>
+                    </ul>
+                </li>
+			</ul>
+		</nav><!--/.navbar-collapse -->
+	</div>
+</header>
+<!-- //Fixed navbar -->
+
+<div class="content-body">
+    <div class="page-title">
+        <div class="container">
+            <h1>화면리스트</h1>
+        </div>
+    </div>
+
+    <div class="container body-content">
+
+        <div class="row">
+            <div class="col-lg-12">
+                <h3 class="page-header">교사채널</h3>
+            </div>
+			<div class="col-lg-12">
+				<div class="table-responsive">
+					<table class="table table-bordered">
+						<thead>
+							<tr>
+								<th scope="col">Depth0</th>
+								<th scope="col">Depth1</th>
+                                <th scope="col">Depth2</th>
+                                <th scope="col">Depth3</th>
+								<th scope="col">요건</th>
+                                <th scope="col">폴더명</th>
+                                <th scope="col">파일명</th>
+                                <th scope="col">히스토리</th>
+                                <th scope="col">완료여부</th>
+							</tr>
+						</thead>
+						<tbody>
+                            <tr>
+								<td>레이아웃</td>
+								<td></td>
+                                <td></td>
+								<td></td>
+                                <td>PC용</td>
+                                <td>teacher/html/_layout</td>
+                                <td><a href="../teacher/html/_layout/layout.html" target="_blank">layout.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210630 퍼블</li>
+                                        <li class="done">20210719 메뉴명 현행화</li>
+                                    </ul>
+                                </td>
+                                <td>○</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+								<td></td>
+                                <td>Mobile용</td>
+                                <td>teacher/html/_layout</td>
+                                <td><a href="#;" onclick="window.open('../teacher/html/_layout/layout_m.html','pop','width=375 height=812');">layout_m.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li>20210721 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td></td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>교사인증 미처리 회원 로그인시</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_9031.html" target="_blank">tc_p_9031.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20211105 퍼블</li>
+                                        <li class="done">20211111 레이아웃 틀어짐 수정</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td>이용안내 가이드</td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/guide.html" target="_blank">guide.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li>20220913 코딩시작</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+							<tr>
+								<td>수업보드</td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>로그인후-강좌 미설정 상태</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_0002.html" target="_blank">tc_p_0002.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210716 디자인 컨폼</li>
+                                        <li class="done">20210720 디자인 퍼블 적용</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+							<tr>
+								<td></td>
+                                <td></td>
+								<td></td>
+                                <td></td>
+                                <td>로그인후-Empty Data</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_0002_3.html" target="_blank">tc_p_0002_3.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210712 퍼블</li>
+                                        <li class="done">20210716 수정디자인 컨폼</li>
+                                        <li class="done">20210719 수정디자인 퍼블 적용</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>로그인후-담임교사, 온라인 수업표시</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_0003.html" target="_blank">tc_p_0003.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210712 퍼블</li>
+                                        <li class="done">20210716 팝업 수정 디자인 컨폼</li>
+                                        <li class="done">20210718 팝업 디자인 퍼블 수정</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td>로그인후-담임교사, 등교 수업표시</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_0003_5.html" target="_blank">tc_p_0003_5.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210712 퍼블</li>
+                                        <li class="done">20210716 팝업 수정 디자인 컨폼</li>
+                                        <li class="done">20210718 팝업 디자인 퍼블 수정</li>
+                                        <li class="done">20210718 출석체크버튼 디자인 적용</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td>로그인후-전담교사, 온라인 수업표시</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_0004.html" target="_blank">tc_p_0004.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210712 퍼블</li>
+                                        <li class="done">20210716 팝업 수정 디자인 컨폼</li>
+                                        <li class="done">20210718 팝업 디자인 퍼블 수정</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>로그인후-전담교사, 등교 수업표시</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_0004_5.html" target="_blank">tc_p_0004_5.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210712 퍼블</li>
+                                        <li class="done">20210716 팝업 수정 디자인 컨폼</li>
+                                        <li class="done">20210718 팝업 디자인 퍼블 수정</li>
+                                        <li class="done">20210718 출석체크버튼 디자인 적용</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td>로그인후-담임교사, 주말/휴일</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_0005.html" target="_blank">tc_p_0005.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210718 퍼블(팝업 디자인 교정본 포함)</li>
+                                        <li>20210719 순위라벨 CSS교정</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td>로그인후-전담교사, 주말/휴일</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_0006.html" target="_blank">tc_p_0006.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210718 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td>로그인후-담임/전담 공통, 방학</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_0007.html" target="_blank">tc_p_0007.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210718 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td>설정이 일부만 되어 있는 경우</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_0008.html" target="_blank">tc_p_0008.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210712 설계 추가본 공유</li>
+                                        <li class="done">20210715 디자인 작업</li>
+                                        <li class="done">20210718 퍼블</li>
+                                        <li class="done">20210719 설계 질문 (화살표 표시 부분)</li>
+                                        <li class="done">20210720 설계 수정중(완료 시 디자인파트 재작업 예정)</li>
+                                        <li class="done">20210802 퍼블 수정</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+							<tr>
+								<td>수업관리</td>
+								<td>수업설계</td>
+                                <td>신규 수업 개설</td>
+                                <td></td>
+                                <td>내 수업 리스트, 담임- 등록된 학급이 1건</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1101.html" target="_blank">tc_p_1101.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210717 퍼블</li>
+                                        <li class="done">20211007 YBM교과서 탭메뉴 삭제 및 ui변경</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td>내 수업 리스트, 담임- 개설된 수업이나 등록된 학급이 0건</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1101_1.html" target="_blank">tc_p_1101_1.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210717 퍼블</li>
+                                        <li class="done">20211007 YBM교과서 탭메뉴 삭제 및 ui변경</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td>내 수업 리스트, 담임- 수업별보기탭(개설된 수업이 0건)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1102.html" target="_blank">tc_p_1102.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210717 퍼블</li>
+                                        <li class="done">20211007 YBM교과서 탭메뉴 삭제 및 ui변경</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+							<tr>
+								<td></td>
+                                <td></td>
+								<td></td>
+                                <td></td>
+                                <td>내 수업 리스트-수업별보기</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1102_2.html" target="_blank">tc_p_1102_2.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210717 퍼블</li>
+                                        <li class="done">20210924 설계단 추가로 삭제버튼 삽입</li>
+                                        <li class="done">20211007 YBM교과서 탭메뉴 삭제 및 ui변경</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>내 수업 리스트-학급별보기</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1102_4.html" target="_blank">tc_p_1102_4.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210717 퍼블</li>
+                                        <li class="done">20211007 YBM교과서 탭메뉴 삭제 및 ui변경</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+                                <td>수업 자료 관리</td>
+                                <td></td>
+                                <td>자료상세(담임)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1103.html" target="_blank">tc_p_1103.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210717 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+                                <td>수업 자료 관리</td>
+                                <td></td>
+                                <td>수업자료 업데이트 안내 팝업</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1103_1.html" target="_blank">tc_p_1103_1.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20220211퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td>과제/평가 상세(담임,전담)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1103_6.html" target="_blank">tc_p_1103_6.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210717 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td>내 수업 수정하기</td>
+                                <td></td>
+                                <td>수업구조 추가/삭제, 단원/차시 이동, 삭제 알럿</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1104.html" target="_blank">tc_p_1104.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210717 퍼블</li>
+                                        <li class="done">버튼위치 협의 필요하여 보류</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td>신규 수업 개설</td>
+                                <td></td>
+                                <td>직접 개설 초기 화면</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1105.html" target="_blank">tc_p_1105.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">진행중</li>
+                                        <li>ajax_popup.html - 화면ID : TC-P-1105-2P,화면ID : TC-P-1105-3P 주석처리 참고</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>직접개설 - 엑셀 등록/붙여넣기 미리보기</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1105_4.html" target="_blank">tc_p_1105_4.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210720 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>직접개설 - 수동 등록하기(수업 구조 선택)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1105_5.html" target="_blank">tc_p_1105_5.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210720 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>직접개설 - 수동 등록하기(단원/차시 입력)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1105_6.html" target="_blank">tc_p_1105_6.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210720 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>신규수업 (직접개설 - 수업자료관리)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1106.html" target="_blank">tc_p_1106.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210720 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>신규수업 (직접 개설 - 내수업 수정하기(엑셀))</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1107.html" target="_blank">tc_p_1107.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210720 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>신규수업 (직접 개설 - 내수업 수정하기(수동등록))</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1107_1.html" target="_blank">tc_p_1107_1.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210720 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td>교재별 수업자료 미리보기</td>
+                                <td></td>
+                                <td>교재별 수업자료 미리보기</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1108.html" target="_blank">tc_p_1108.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210720 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td>교재별 수업자료 미리보기</td>
+                                <td></td>
+                                <td>수업자료 미리보기 상세(중복 수업 개설 시 팝업 포함)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1108_1.html" target="_blank">tc_p_1108_1.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210721 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td>평가·과제 관리</td>
+                                <td>평가·과제 관리 현황</td>
+                                <td></td>
+                                <td>등록된 평가/과제가 0건일때</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1201.html" target="_blank">tc_p_1201.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210809 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>과제/평가 관리 현황(담임)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1201_1.html" target="_blank">tc_p_1201_1.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210809 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>과제/평가 관리 현황(전담)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1201_2.html" target="_blank">tc_p_1201_2.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210831 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>과제/평가 상세보기(유형별 영역)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1202.html" target="_blank">tc_p_1202.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210810 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>과제/평가 상세보기(유형별 영역)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1202_1.html" target="_blank">tc_p_1202_1.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210810 퍼블</li>
+                                        <li class="done">입력폼 구현으로 인한 문제로 보류</li>
+                                        <li class="">파일용량 초과시 data-popup="volume" 호출</li>
+                                        <li class="done">20211111 레이아웃 틀어짐 수정</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>과제/평가 상세보기 - 제출/평가-피드백발송</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1202_3.html" target="_blank">tc_p_1202_3.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210902 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>과제/평가 상세보기(질의 응답)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1202_10.html" target="_blank">tc_p_1202_10.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210812 퍼블</li>
+                                        <li class="done">20211111 레이아웃 틀어짐 수정</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>과제/평가 상세보기(기본문서형)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1203.html" target="_blank">tc_p_1203.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210901 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>과제/평가 상세보기(온라인시험지)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1204.html" target="_blank">tc_p_1204.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210901 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>과제/평가 상세보기(온라인 워크시트)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1205.html" target="_blank">tc_p_1205.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210901 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>과제/평가 상세보기(온라인 워크시트)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1206.html" target="_blank">tc_p_1206.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210901 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>과제/평가 상세보기(설문조사)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1208.html" target="_blank">tc_p_1208.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210901 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>과제/평가 상세보기(토의/토론-찬/반형)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1209.html" target="_blank">tc_p_1209.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210902 퍼블</li>
+                                        <li class="done">20211111 레이아웃 틀어짐 수정</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>과제/평가 상세보기(토의/토론-찬/반형-모둠별 결과 목록)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1209_1.html" target="_blank">tc_p_1209_1.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210902 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>과제/평가 상세보기(토의/토론-찬/반형-피드백)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1209_2.html" target="_blank">tc_p_1209_2.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210902 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>과제/평가 상세보기(토의/토론-세부 주제별)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1210.html" target="_blank">tc_p_1210.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210902 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>과제/평가 상세보기(토의/토론-세부 주제별-모둠 별 결과 목록)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1210_1.html" target="_blank">tc_p_1210_1.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210903 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>과제/평가 상세보기(토의/토론-세부 주제별-피드백)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1210_2.html" target="_blank">tc_p_1210_2.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210903 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>과제/평가 상세보기(토의/토론-자유 주제별)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1211.html" target="_blank">tc_p_1211.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210903 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>과제/평가 상세보기(매칭형게임)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1212.html" target="_blank">tc_p_1212.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20220504 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td>Online콘텐츠 만들기</td>
+                                <td>콘텐츠 만들기</td>
+                                <td></td>
+                                <td>메인</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1301.html" target="_blank">tc_p_1301.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210728 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td>기본문서형</td>
+                                <td>기본정보등록</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1303_1.html" target="_blank">tc_p_1303_1.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210728 퍼블</li>
+                                        <li class="done">20210907 퍼블수정</li>
+                                        <li class="done">20211111 레이아웃 틀어짐 수정</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>기존 문서 불어오기</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1303_3.html" target="_blank">tc_p_1303_3.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210908 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>기본정보수정</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1303_7.html" target="_blank">tc_p_1303_7.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210803 퍼블</li>
+                                        <li class="done">20210908 퍼블 수정</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>확인하기</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1303_8.html" target="_blank">tc_p_1303_8.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210908 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>확인하기 (첨부파일 미리보기)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1303_16.html" target="_blank">tc_p_1303_16.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210910 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>대상/일정 설정</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1303_9.html" target="_blank">tc_p_1303_9.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210908 퍼블</li>
+                                        <li class="done">20210910 퍼블 수정</li>
+                                        <li class="done">20211111 레이아웃 틀어짐 수정</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>대상/일정 수정</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1303_17.html" target="_blank">tc_p_1303_17.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210910 퍼블 </li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>과제/평가 관리 수정하기(기본정보 수정)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1303_18.html" target="_blank">tc_p_1303_18.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210910 퍼블 </li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>과제/평가 관리 수정하기(대상/일정 수정)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1303_19.html" target="_blank">tc_p_1303_19.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210910 퍼블 </li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td>온라인 시험지</td>
+                                <td>기본정보등록</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1304_1.html" target="_blank">tc_p_1304_1.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210730 퍼블</li>
+                                        <li class="done">20210907 퍼블수정</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>기본정보등록(출제범위)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1304_1_1.html" target="_blank">tc_p_1304_1_1.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210907 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>기본정보등록(수정)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1304_52.html" target="_blank">tc_p_1304_52.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210914 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>문제 담기(내시험지가 없을때)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1304_2.html" target="_blank">tc_p_1304_2.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210730 퍼블</li>
+                                        <li class="done">20210908 퍼블수정</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>문제 담기(내시험지가 있을때)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1304_2_1.html" target="_blank">tc_p_1304_2_1.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210908 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>문제 담기 - 자동출제시 알럿</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1304_45.html" target="_blank">tc_p_1304_45.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210910 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>만들기 (단일문제)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1304_4.html" target="_blank">tc_p_1304_4.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210803 퍼블</li>
+                                        <li class="done">20210908 퍼블수정</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>만들기 (묶음문제)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1304_4_1.html" target="_blank">tc_p_1304_4_1.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210913 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>만들기(객관식)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1304_6.html" target="_blank">tc_p_1304_6.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210913 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>만들기(매칭형)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1304_7.html" target="_blank">tc_p_1304_7.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210913 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>만들기(단답형)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1304_8.html" target="_blank">tc_p_1304_8.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210913 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>만들기(묶음 문제)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1304_9.html" target="_blank">tc_p_1304_9.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210914 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>만들기(서술형)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1304_9_1.html" target="_blank">tc_p_1304_9_1.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210914 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>만들기(도구입력)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1304_10.html" target="_blank">tc_p_1304_10.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210914 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>확인하기 - 시작화면</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1304_11.html" target="_blank">tc_p_1304_11.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210914 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>확인하기 - 상세</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1304_12.html" target="_blank">tc_p_1304_12.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210914 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>확인하기 - 완료화면</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1304_18.html" target="_blank">tc_p_1304_18.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210915 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>확인하기 - 정답 확인하기 버튼클릭시 연결화면</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1304_48.html" target="_blank">tc_p_1304_48.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210915 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>대상/일정 설정</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1304_50.html" target="_blank">tc_p_1304_50.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210914 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>대상/일정 수정</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1304_53.html" target="_blank">tc_p_1304_53.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210914 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>과제/평가 관리 수정 -기본정보</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1304_55.html" target="_blank">tc_p_1304_55.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210914 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>과제/평가 관리 수정 -대상/일정</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1304_56.html" target="_blank">tc_p_1304_56.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210914 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td>온라인 워크시트</td>
+                                <td>기본정보등록</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1305_1.html" target="_blank">tc_p_1305_1.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210817 퍼블</li>
+                                        <li class="done">20210908 퍼블수정</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>기존 콘텐츠 불러오기</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1305_21.html" target="_blank">tc_p_1305_21.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210915 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>만들기 (영역 상세)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1305_7.html" target="_blank">tc_p_1305_7.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210817 퍼블</li>
+                                        <li class="done">20210909 퍼블수정</li>
+                                        <li class="done">디자인변경으로 퍼블 수정예정</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>만들기(문항 만들기 설정 완료 시)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1305_22.html" target="_blank">tc_p_1305_22.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210909 퍼블</li>
+                                        <li class="done">디자인변경으로 퍼블 수정예정</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>확인하기 (시작화면)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1305_9.html" target="_blank">tc_p_1305_9.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210819 퍼블</li>
+                                        <li class="done">20210909 퍼블 수정</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>확인하기 (시작화면 - 상세 )</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1305_23.html" target="_blank">tc_p_1305_23.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210915 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>확인하기(문항 풀이/정답 확인)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1305_10.html" target="_blank">tc_p_1305_10.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210819 퍼블</li>
+                                        <li class="done">디자인변경으로 퍼블 수정예정</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>확인하기 (완료화면)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1305_11.html" target="_blank">tc_p_1305_11.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210819 퍼블</li>
+                                        <li class="done">디자인변경으로 퍼블 수정예정</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>대상/일정 설정</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1305_24.html" target="_blank">tc_p_1305_24.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210916 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>기본정보 (수정)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1305_26.html" target="_blank">tc_p_1305_26.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210916 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>대상/일정 수정</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1305_27.html" target="_blank">tc_p_1305_27.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210916 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>과제/평가 관리 수정 - 기본정보</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1305_29.html" target="_blank">tc_p_1305_29.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210916 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>과제/평가 관리수정 (대상/일정)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1305_30.html" target="_blank">tc_p_1305_30.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210916 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td>퀴즈</td>
+                                <td>제작 유형 선택 전</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1306_1.html" target="_blank">tc_p_1306_1.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210916 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>기본정보 등록</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1306_2.html" target="_blank">tc_p_1306_2.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210916 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>간편만들기(엑셀 등록하기)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1306_3.html" target="_blank">tc_p_1306_3.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210917 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>간편만들기(엑셀 붙여넣기)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1306_3_1.html" target="_blank">tc_p_1306_3_1.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210917 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>간편만들기(엑셀 붙여넣기 - 선택형)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1306_8.html" target="_blank">tc_p_1306_8.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210917 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>간편만들기(엑셀 붙여넣기 - OX형)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1306_11.html" target="_blank">tc_p_1306_11.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210917 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>간편만들기(엑셀 붙여넣기 - 단답형)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1306_14.html" target="_blank">tc_p_1306_14.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210917 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>간편만들기(엑셀 붙여넣기 - 빈칸형)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1306_16.html" target="_blank">tc_p_1306_16.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210917 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>간편만들기(엑셀 붙여넣기 - 매칭형)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1306_18.html" target="_blank">tc_p_1306_18.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210917 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>간편만들기(엑셀 붙여넣기 - 서술형)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1306_20.html" target="_blank">tc_p_1306_20.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210917 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>직접만들기(선택형)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1306_25.html" target="_blank">tc_p_1306_25.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210917 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>직접만들기(선택형 예시)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1306_25_1.html" target="_blank">tc_p_1306_25_1.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210917 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>직접만들기(선택형) - 미리보기 팝업(정답일때)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1306_25_2.html" target="_blank">tc_p_1306_25_2.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20211122 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>직접만들기(선택형) - 미리보기 팝업(오답일때)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1306_25_3.html" target="_blank">tc_p_1306_25_3.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20211122 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>직접만들기(선택형) - 미리보기 팝업(선택한 답안이 없을 경우)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1306_25_4.html" target="_blank">tc_p_1306_25_4.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20211122 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>직접만들기(OX형)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1306_26.html" target="_blank">tc_p_1306_26.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210923 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>직접만들기(단답형)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1306_27.html" target="_blank">tc_p_1306_27.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210923 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>직접만들기(빈칸형)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1306_28.html" target="_blank">tc_p_1306_28.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210923 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>직접만들기(빈칸형 - 빈칸그리기 선택시)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1306_28_1.html" target="_blank">tc_p_1306_28_1.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210923 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>직접만들기(매칭형)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1306_29.html" target="_blank">tc_p_1306_29.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210923 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>직접만들기(서술형)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1306_30.html" target="_blank">tc_p_1306_30.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210923 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>확인하기(시작화면)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1306_31.html" target="_blank">tc_p_1306_31.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210923 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>확인하기(선택형)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1306_32.html" target="_blank">tc_p_1306_32.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210923 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>확인하기(선택형) - 정답보기 (정답일때)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1306_32_1.html" target="_blank">tc_p_1306_32_1.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20211119 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>확인하기(선택형) - 정답보기 (오답일때)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1306_32_2.html" target="_blank">tc_p_1306_32_2.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20211119 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>확인하기(선택형) - 정답보기 (선택한 답안이 없을 경우)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1306_32_3.html" target="_blank">tc_p_1306_32_3.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20211119 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>확인하기(OX형)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1306_33.html" target="_blank">tc_p_1306_33.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210924 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>확인하기(OX형) - 정답보기 (정답일때)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1306_33_1.html" target="_blank">tc_p_1306_33_1.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20211119 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>확인하기(OX형) - 정답보기 (오답일때)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1306_33_2.html" target="_blank">tc_p_1306_33_2.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20211119 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>확인하기(OX형) - 정답보기 (선택한 답안이 없을 경우)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1306_33_3.html" target="_blank">tc_p_1306_33_3.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20211119 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>확인하기(단답형)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1306_34.html" target="_blank">tc_p_1306_34.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210924 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>확인하기(단답형) - 정답보기 (정답일때)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1306_34_1.html" target="_blank">tc_p_1306_34_1.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20211119 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>확인하기(단답형) - 정답보기 (오답일때)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1306_34_2.html" target="_blank">tc_p_1306_34_2.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20211119 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>확인하기(단답형) - 정답보기 (선택한 답안이 없을 경우)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1306_34_3.html" target="_blank">tc_p_1306_34_3.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20211119 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>확인하기(빈칸형)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1306_35.html" target="_blank">tc_p_1306_35.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210924 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>확인하기(빈칸형) - 정답보기 (정답일때)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1306_35_1.html" target="_blank">tc_p_1306_35_1.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20211119 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>확인하기(빈칸형) - 정답보기 (오답일때)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1306_35_2.html" target="_blank">tc_p_1306_35_2.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20211119 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>확인하기(빈칸형) - 정답보기 (선택한 답안이 없을 경우)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1306_35_3.html" target="_blank">tc_p_1306_35_3.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20211119 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>확인하기(매칭형)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1306_36.html" target="_blank">tc_p_1306_36.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210924 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>확인하기(매칭형) - 정답보기 (정답일때)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1306_36_1.html" target="_blank">tc_p_1306_36_1.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20211125 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>확인하기(매칭형) - 정답보기 (오답일때)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1306_36_2.html" target="_blank">tc_p_1306_36_2.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20211125 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>확인하기(매칭형) - 정답보기 (선택한 답안이 없을 경우)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1306_36_3.html" target="_blank">tc_p_1306_36_3.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20211125 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>확인하기(서술형)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1306_41.html" target="_blank">tc_p_1306_41.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210924 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>확인하기(서술형) - 정답보기 (정답일때)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1306_41_1.html" target="_blank">tc_p_1306_41_1.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20211119 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>확인하기(서술형) - 정답보기 (오답일때)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1306_41_2.html" target="_blank">tc_p_1306_41_2.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20211119 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>확인하기(서술형) - 정답보기 (입력한 답안이 없을 경우)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1306_41_3.html" target="_blank">tc_p_1306_41_3.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20211119 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>확인하기(종료화면)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1306_37.html" target="_blank">tc_p_1306_37.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210924 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>대상/일정 설정</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1306_42.html" target="_blank">tc_p_1306_42.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210924 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td>설문조사</td>
+                                <td>기본정보등록</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1307.html" target="_blank">tc_p_1307.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210927 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>만들기(선택형)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1307_2.html" target="_blank">tc_p_1307_2.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210927 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>만들기(OX형)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1307_3.html" target="_blank">tc_p_1307_3.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210927 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>만들기(단답형)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1307_4.html" target="_blank">tc_p_1307_4.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210927 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>만들기(서술형)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1307_5.html" target="_blank">tc_p_1307_5.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210927 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>확인하기(시작화면)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1307_6.html" target="_blank">tc_p_1307_6.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210927 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>확인하기(선택형)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1307_7.html" target="_blank">tc_p_1307_7.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210927 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>확인하기(OX형)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1307_9.html" target="_blank">tc_p_1307_9.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210927 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>확인하기(단답형)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1307_11.html" target="_blank">tc_p_1307_11.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210927 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>확인하기(서술형)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1307_13.html" target="_blank">tc_p_1307_13.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210927 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>확인하기(종료화면)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1307_15.html" target="_blank">tc_p_1307_15.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210927 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>대상/일정 설정</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1307_20.html" target="_blank">tc_p_1307_20.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210927 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td>매칭형게임</td>
+                                <td>기본정보등록</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1307_21.html" target="_blank">tc_p_1307_21.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20220411 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>확인하기</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1307_23.html" target="_blank">tc_p_1307_23.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20220411 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>확인하기(결과화면)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1307_25.html" target="_blank">tc_p_1307_25.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20220411 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>대상/일정</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1307_26.html" target="_blank">tc_p_1307_26.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20220411 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td>토의/토론</td>
+                                <td>기본정보 등록</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1308_1.html" target="_blank">tc_p_1308_1.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210927 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>만들기(찬성vs반대)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1308_2.html" target="_blank">tc_p_1308_2.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210927 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>만들기(찬성vs반대) 이미지/오디오 등록 후</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1308_2_1.html" target="_blank">tc_p_1308_2_1.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20211026 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>만들기(세부 주제별)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1308_3.html" target="_blank">tc_p_1308_3.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210928 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>만들기(주제별 자유토론)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1308_4.html" target="_blank">tc_p_1308_4.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210928 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>확인하기(시작화면)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1308_5.html" target="_blank">tc_p_1308_5.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210928 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>확인하기(찬성vs반대)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1308_6.html" target="_blank">tc_p_1308_6.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210928 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>확인하기(세부 주제별)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1308_7.html" target="_blank">tc_p_1308_7.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210928 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>확인하기(주제별 자유토론)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1308_8.html" target="_blank">tc_p_1308_8.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210928 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                           <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>대상/일정 설정</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1308_23.html" target="_blank">tc_p_1308_23.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210929 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+                                <td></td>
+								<td></td>
+								<td>공유콘텐츠</td>
+                                <td></td>
+                                <td></td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1309.html" target="_blank">tc_p_1309.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210927 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+                                <td></td>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td>게시물이 0일때</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1309_1.html" target="_blank">tc_p_1309_1.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210927 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+                                <td></td>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td>검색결과가 없을때</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1309_2.html" target="_blank">tc_p_1309_2.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20220225 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+                                <td></td>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td>게시물 표기상세(list형식)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1309_5.html" target="_blank">tc_p_1309_5.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210927 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+							<tr>
+                                <td></td>
+								<td>시간표 관리</td>
+								<td>시간표 등록</td>
+                                <td></td>
+                                <td></td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="#;">tc_p_1431.html</a></td>
+                                <td>
+                                    [시간표관리]
+                                    <ul>
+                                        <li>20210714 YBM에서 화면 간소화 진행중</li>
+                                        <li>20210714 개발단 유료 또는 오픈 소스 모듈 검토중</li>
+                                        <li>위의 사유로 디자인 수정 및 퍼블 대기 중</li>
+                                    </ul>
+                                </td>
+                                <td></td>
+							</tr>
+                            <tr>
+                                <td></td>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td>설정한 수업시간이0인 경우 (안내팝업)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1431_5.html" target="_blank">tc_p_1431_5.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li></li>
+                                    </ul>
+                                </td>
+                                <td></td>
+							</tr>
+                            <tr>
+                                <td></td>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td>시간표 설정</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1451.html" target="_blank">tc_p_1451.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li>20220705 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td></td>
+							</tr>
+                            <tr>
+                                <td></td>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td>시간표 설정(최초 접속시 팝업 노출)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1451_1.html" target="_blank">tc_p_1451_1.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li>20220705 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td></td>
+							</tr>
+							<tr>
+                                <td></td>
+								<td></td>
+								<td>편집/수정</td>
+                                <td></td>
+                                <td></td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="#;">&nbsp;</a></td>
+                                <td></td>
+                                <td></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td>수업 리포트</td>
+                                <td>수업 리포트</td>
+                                <td>일별 수업 정보</td>
+                                <td>담당학급이 1개인 경우</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1501.html" target="_blank">tc_p_1501.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210802 퍼블</li>
+                                        <li class="done">202108010 버튼 수정</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>데이터가 없는 경우</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1501_2.html" target="_blank">tc_p_1501_2.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210802 퍼블</li>
+                                        <li class="done">202108010 버튼 수정</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td>교과별 수업 정보</td>
+                                <td>담당학급이 1개인 경우</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1502.html" target="_blank">tc_p_1502.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210803 퍼블</li>
+                                        <li class="done">202108010 버튼 수정</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td>학급별 수업 정보</td>
+                                <td>담당학급이 n개인 경우</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1503.html" target="_blank">tc_p_1503.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210803 퍼블</li>
+                                        <li class="done">202108010 버튼 수정</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>데이터 없는 경우</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1503_2.html" target="_blank">tc_p_1503_2.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210803 퍼블</li>
+                                        <li class="done">202108010 버튼 수정</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td>학급별 수업정보</td>
+                                <td>담당학급이 n개인 경우</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1504.html" target="_blank">tc_p_1504.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210803 퍼블</li>
+                                        <li class="done">20210804 필터부분 기능 문의(다중? 단일?) 20210906 단일선택</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center"></td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td>과제/평가 현황</td>
+                                <td>담당학급이 1개인 경우</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1507.html" target="_blank">tc_p_1507.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210903 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td>과제/평가 현황</td>
+                                <td>담당학급이 1개인 경우 (최근 평가 결과 팝업)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1507_1.html" target="_blank">tc_p_1507_1.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210906 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td>과제/평가 현황</td>
+                                <td>담당학급이 n개인 경우</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1508.html" target="_blank">tc_p_1508.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210906 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td>과제/평가 현황</td>
+                                <td>담당학급이 n개인 경우 (평가결과 팝업)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1508_1.html" target="_blank">tc_p_1508_1.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210906 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td>수업 결과 보기</td>
+                                <td></td>
+                                <td>학생별 수업 참여 현황(화상수업)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1505.html" target="_blank">tc_p_1505.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210906퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>학생별 수업 참여 현황(등교수업)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1505_1.html" target="_blank">tc_p_1505_1.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210906퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>학생별 수업 참여 현황(온라인수업)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1505_2.html" target="_blank">tc_p_1505_2.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210906퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>실제 수업에 사용한 자료</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_1506.html" target="_blank">tc_p_1506.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210906퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>  
+                           <tr>
+								<td>메세지관리</td>
+								<td>그룹메시지</td>
+                                <td></td>
+                                <td></td>
+                                <td>발송한 그룹 메시지가 없는 경우</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_2005.html" target="_blank">tc_p_2005.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20211001퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>  
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>발송한 그룹 메시지가 있는 경우</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_2005_1.html" target="_blank">tc_p_2005_1.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20211001퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                           <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>모든 학급에게 그룹 메시지 보내기</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_2005_44.html" target="_blank">tc_p_2005_44.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20211012퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                           <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>'대상 선택’ 항목 – ‘학급 이름’ 버튼 클릭 시</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_2005_45.html" target="_blank">tc_p_2005_45.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20211012퍼블</li>
+                                        <li>개발단 확인필요</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                           <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>선택한 학생들에게 그룹메세지 보내기전</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_2005_46.html" target="_blank">tc_p_2005_46.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20211013퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>선택한 학생들에게 그룹메세지 작성후 (이미지,첨부파일이 있을시)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_2005_47.html" target="_blank">tc_p_2005_47.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20211013퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+				           </tr>
+                           <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>모든 학생들에게 그룹메세지 작성후 (이미지,첨부파일이 있을시)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_2005_29.html" target="_blank">tc_p_2005_29.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20211013퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td>1:1 메시지</td>
+                                <td></td>
+                                <td></td>
+                                <td>대상자 선택</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_2004.html" target="_blank">tc_p_2004.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210928퍼블</li>
+                                        <li>파일용량 초과시 "data-popup="volume4"호출</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>                      
+							<tr>
+								<td>알림/상담 관리</td>
+								<td>알림장(전달사항)</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="#;">&nbsp;</a></td>
+                                <td></td>
+                                <td></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td>상담/문의</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="#;">&nbsp;</a></td>
+                                <td></td>
+                                <td></td>
+							</tr>
+							<tr>
+								<td>학급/학생 관리</td>
+								<td>학급 현황</td>
+                                <td></td>
+                                <td></td>
+								<td>운영 학급이 n개일 경우</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_3101.html" target="_blank">tc_p_3101.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210721 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+								<td>운영 학급이 0개일 경우</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_3101_2.html" target="_blank">tc_p_3101_2.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210722 퍼블</li>
+                                        <li class="done">20210804 버튼 수정</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+								<td>학급 상세보기</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_3102.html" target="_blank">tc_p_3102.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210722 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+								<td>학생정보 모둠보기 선택시(모둠이 설정되어 있는 경우)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_3102_4.html" target="_blank">tc_p_3102_4.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210722 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+								<td>학생정보 모둠보기 선택시(모둠이 미설정되어 있는 경우)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_3102_5.html" target="_blank">tc_p_3102_5.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210722 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+								<td>학급 상세보기 (학급 상세 정보 등록 전)</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_3102_11.html" target="_blank">tc_p_3102_11.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210724 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td>신규 학급 등록</td>
+                                <td></td>
+								<td></td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_3103.html" target="_blank">tc_p_3103.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210723 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr> 
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+								<td>1,2번 등록</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_3103_1.html" target="_blank">tc_p_3103_1.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20220712 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr> 
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+								<td>학생 직접 등록</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_3103_2.html" target="_blank">tc_p_3103_2.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20220713 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr> 
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+								<td>개별등록하기</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_3103_5.html" target="_blank">tc_p_3103_5.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210723 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td>학급 상세보기</td>
+                                <td></td>
+								<td>학급 정보 수정</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_3104.html" target="_blank">tc_p_3104.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210723 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td>학생 현황</td>
+                                <td></td>
+                                <td></td>
+								<td></td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_3201.html" target="_blank">tc_p_3201.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210724 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+								<td>학생 정보가 0건인 경우</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_3201_5.html" target="_blank">tc_p_3201_5.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210724 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>  
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+								<td>학생 상세 보기</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_3202.html" target="_blank">tc_p_3202.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20210727 퍼블</li>
+                                        <li class="">출석현황~ 평가현황 클릭시 해당 내용의 팝업 보이게 노출해주세요</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>                           
+							<tr>
+								<td>수업 연구실</td>
+								<td>자료 나눔터</td>
+                                <td>나눔 자료</td>
+                                <td>전체</td>
+                                <td>썸네일형식</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_5101.html" target="_blank">tc_p_5101.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20211018 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>목록형식</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_5101_4.html" target="_blank">tc_p_5101_4.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20211018 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td>공유받은 콘텐츠</td>
+                                <td>썸네일형식</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_5102.html" target="_blank">tc_p_5102.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20211018 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>목록형식</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_5102_2.html" target="_blank">tc_p_5102_2.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20211018 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td>공유한 콘텐츠</td>
+                                <td>썸네일형식</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_5103.html" target="_blank">tc_p_5103.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20211018 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>게시물 없을시</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_5103_5.html" target="_blank">tc_p_5103_5.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20211018 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td>나눔 자료</td>
+                                <td>나눔 자료보기</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_5104.html" target="_blank">tc_p_5104.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20211018 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>자료 등록하기</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_5105.html" target="_blank">tc_p_5105.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20211020 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>자료 수정하기</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_5106.html" target="_blank">tc_p_5106.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20211023 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td>공유 콘텐츠</td>
+                                <td>전체</td>
+                                <td>썸네일</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_5107.html" target="_blank">tc_p_5107.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20211021 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>목록형식</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_5107_4.html" target="_blank">tc_p_5107_4.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20211021 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td>공유받은 콘텐츠</td>
+                                <td>썸네일형식</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_5108.html" target="_blank">tc_p_5108.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20211021 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>목록형식</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_5108_2.html" target="_blank">tc_p_5108_2.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20211021 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td>공유한 콘텐츠</td>
+                                <td>썸네일형식</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_5109.html" target="_blank">tc_p_5109.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20211021 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>게시물 없을시</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_5109_5.html" target="_blank">tc_p_5109_5.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20211021 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td>내 연구실</td>
+                                <td>내 온라인콘텐츠</td>
+                                <td></td>
+								<td></td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_5201.html" target="_blank">tc_p_5201.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20211012 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td>리스트 형식</td>
+								<td></td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_5201_2.html" target="_blank">tc_p_5201_2.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20211012 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td>제작한 콘텐츠 0건 일때</td>
+								<td></td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_5201_11.html" target="_blank">tc_p_5201_11.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20211012 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td>내 자료함</td>
+                                <td></td>
+								<td></td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_5202.html" target="_blank">tc_p_5202.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20211012 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+								<td>등록 된 자료가 0건인 경우</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_5202_4.html" target="_blank">tc_p_5202_4.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20211013 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td>스크랩 자료</td>
+                                <td>스크랩</td>
+								<td></td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_5203.html" target="_blank">tc_p_5203.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20211013 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+								<td>등록 된 자료가 0건인 경우</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_5203_3.html" target="_blank">tc_p_5203_3.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20211013 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td>웹 주소</td>
+								<td></td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_5204.html" target="_blank">tc_p_5204.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20211013 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+								<td>등록 된 웹주소가 0건인 경우</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_5204_3.html" target="_blank">tc_p_5204_3.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20211013 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td>Y클라우드</td>
+								<td></td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_5205.html" target="_blank">tc_p_5205.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20211013 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+								<td></td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_6101.html" target="_blank">tc_p_6101.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20211020 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+							<tr>
+								<td>T톡</td>
+								<td>이슈톡</td>
+                                <td></td>
+                                <td></td>
+								<td>등록된 게시물이 없을경우</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_6101_1.html" target="_blank">tc_p_6101_1.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20211020 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td>등록하기</td>
+                                <td>찬성/반대</td>
+								<td></td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_6102.html" target="_blank">tc_p_6102.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20211021 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td>선택형</td>
+								<td></td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_6102_9.html" target="_blank">tc_p_6102_9.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20211025 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td>메모형</td>
+								<td></td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_6102_15.html" target="_blank">tc_p_6102_15.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20211025 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td>수정하기</td>
+                                <td>찬성/반대</td>
+								<td></td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_6105.html" target="_blank">tc_p_6105.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20211022 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td>선택형</td>
+								<td></td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_6105_2.html" target="_blank">tc_p_6105_2.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20211025 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td>메모형</td>
+								<td></td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_6105_4.html" target="_blank">tc_p_6105_4.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20211025 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td>참여하기</td>
+                                <td>찬성/반대</td>
+								<td></td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_6103.html" target="_blank">tc_p_6103.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20211025 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td>선택형</td>
+								<td></td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_6103_5.html" target="_blank">tc_p_6103_5.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20211029 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td>메모형</td>
+								<td></td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_6103_7.html" target="_blank">tc_p_6103_7.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20211101 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td>결과화면</td>
+                                <td>찬성/반대</td>
+								<td></td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_6104.html" target="_blank">tc_p_6104.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20211101 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td>선택형</td>
+								<td></td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_6104_3.html" target="_blank">tc_p_6104_3.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20211101 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td>메모형</td>
+								<td></td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_6104_22.html" target="_blank">tc_p_6104_22.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20211102 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+                            <tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+								<td>등록된 의견이 없을 경우</td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_6104_1.html" target="_blank">tc_p_6104_1.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20220302 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td>프리톡</td>
+                                <td></td>
+                                <td></td>
+								<td></td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="../teacher/html/pages/tc_p_6201.html" target="_blank">tc_p_6201.html</a></td>
+                                <td>
+                                    <ul>
+                                        <li class="done">20211102 퍼블</li>
+                                    </ul>
+                                </td>
+                                <td style="text-align:center">○</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td>알림목록</td>
+                                <td></td>
+                                <td></td>
+								<td></td>
+                                <td>teacher/html/pages</td>
+                                <td><a href="#;">&nbsp;</a></td>
+                                <td></td>
+                                <td></td>
+							</tr>
+
+						</tbody>
+					</table>
+				</div>
+			</div>
+            
+        </div>
+		
+
+
+    </div> <!-- /container -->
+</div>
+<footer>
+	<div class="container">
+		<p>COPYRIGHT(C) <strong>YBM스마트스쿨</strong> ALL RIGHTS RESERVED.</p>
+	</div>
+</footer>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+<script src="https://code.jquery.com/jquery-migrate-3.3.2.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="inc/jquery-syntax/jquery.highlight.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('pre.code').highlight({source:1, zebra:1, indent:'space', list:'ol'});
+	});
+</script>
+</body>
+</html>

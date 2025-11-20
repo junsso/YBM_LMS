@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="200" viewBox="0 0 200 200">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_384" data-name="사각형 384" width="50" height="50" transform="translate(1175 142)" fill="#aeaeae"/>
+    </clipPath>
+  </defs>
+  <g id="그룹_1286" data-name="그룹 1286" transform="translate(-663 -503)">
+    <rect id="사각형_504" data-name="사각형 504" width="200" height="200" rx="15" transform="translate(663 503)" fill="#f5f5f5"/>
+    <g id="마스크_그룹_134" data-name="마스크 그룹 134" transform="translate(-437 418)" clip-path="url(#clip-path)">
+      <g id="checked_3_" data-name="checked (3)" transform="translate(1175 142)">
+        <g id="그룹_93" data-name="그룹 93" transform="translate(11.872 6.282)">
+          <g id="그룹_92" data-name="그룹 92">
+            <path id="패스_361" data-name="패스 361" d="M42.634,3.694a1.884,1.884,0,0,0-2.665,0L17.363,26.238,9.207,17.38a1.884,1.884,0,1,0-2.773,2.553l9.485,10.3a1.882,1.882,0,0,0,1.346.607h.04a1.886,1.886,0,0,0,1.33-.55l24-23.932A1.884,1.884,0,0,0,42.634,3.694Z" transform="translate(-5.936 -3.141)" fill="#00a58a"/>
+          </g>
+        </g>
+        <g id="그룹_95" data-name="그룹 95">
+          <g id="그룹_94" data-name="그룹 94">
+            <path id="패스_362" data-name="패스 362" d="M48.116,23.116A1.884,1.884,0,0,0,46.231,25,21.231,21.231,0,1,1,25,3.769,1.884,1.884,0,1,0,25,0,25,25,0,1,0,50,25,1.884,1.884,0,0,0,48.116,23.116Z" fill="#454545"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <text id="선택형" transform="translate(738 656)" fill="#303d53" font-size="18" font-family="NotoSansKR-Regular, Noto Sans KR"><tspan x="0" y="0">선택형</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+  <g id="그룹_1154" data-name="그룹 1154" transform="translate(-1310 -457)">
+    <g id="btn" transform="translate(1310 457)" fill="#fff" stroke="#c9cdd2" stroke-width="1">
+      <rect width="18" height="18" rx="9" stroke="none"/>
+      <rect x="0.5" y="0.5" width="17" height="17" rx="8.5" fill="none"/>
+    </g>
+    <text id="p" transform="translate(1315 470)" fill="#ff5c5c" font-size="11" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">N</tspan></text>
+  </g>
+</svg>

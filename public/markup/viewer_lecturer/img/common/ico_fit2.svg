@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_261" data-name="사각형 261" width="20" height="20" transform="translate(1715 1030)" fill="#686868"/>
+    </clipPath>
+  </defs>
+  <g id="icon_확대" transform="translate(-1715 -1030)" clip-path="url(#clip-path)">
+    <g id="full-size" transform="translate(1715 1030)">
+      <path id="패스_236" data-name="패스 236" d="M.7,6.045a.7.7,0,0,0,.7-.7V2.378L5.879,6.864a.7.7,0,0,0,.985-.985L2.378,1.393h2.97A.7.7,0,0,0,5.348,0H.7A.7.7,0,0,0,0,.7V5.348A.7.7,0,0,0,.7,6.045Z" transform="translate(0 0)" fill="#454545"/>
+      <path id="패스_237" data-name="패스 237" d="M22.5,17.153a.7.7,0,0,0-.7.7v2.97L17.181,16.2a.7.7,0,0,0-.985.985L20.82,21.8H17.85a.7.7,0,1,0,0,1.393H22.5a.7.7,0,0,0,.7-.7V17.85A.7.7,0,0,0,22.5,17.153Z" transform="translate(-3.198 -3.199)" fill="#454545"/>
+      <path id="패스_238" data-name="패스 238" d="M6.017,16.2,1.394,20.82V17.85A.7.7,0,0,0,0,17.85V22.5a.7.7,0,0,0,.7.7H5.349a.7.7,0,1,0,0-1.393H2.379L7,17.181a.7.7,0,0,0-.985-.985Z" transform="translate(0 -3.199)" fill="#454545"/>
+      <path id="패스_239" data-name="패스 239" d="M22.536,0H17.885a.7.7,0,0,0,0,1.393h2.97L16.369,5.879a.7.7,0,0,0,.985.985L21.84,2.378v2.97a.7.7,0,1,0,1.393,0V.7A.7.7,0,0,0,22.536,0Z" transform="translate(-3.233 0)" fill="#454545"/>
+    </g>
+  </g>
+</svg>

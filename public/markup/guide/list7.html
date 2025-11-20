@@ -1,0 +1,1148 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+  <head>
+	<meta charset="UTF-8">
+	<title>화면 리스트 | YBM스마트스쿨 퍼블리싱 가이드</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta id="resResponsiveViewport" name="viewport" content="width=device-width, initial-scale=1, minimum-scale=0.5, maximum-scale=1, user-scalable=yes">
+	<meta name="apple-mobile-web-app-title" content="">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta property="og:title" content="">
+	<meta property="og:site_name" content="">
+	<meta property="og:url" content="">
+	<meta property="og:image:url" content="">
+	<meta property="og:image:width" content="">
+	<meta property="og:image:height" content="">
+	<meta property="og:image" content="">
+	<meta property="og:description" content="">
+	<meta name="twitter:card" content="">
+	<meta name="twitter:title" content="">
+	<meta name="twitter:url" content="">
+	<meta name="twitter:image" content="">
+	<meta name="twitter:description" content="">
+    <meta name="generator" content=""> 	
+    <!-- google webfont -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+
+	<link type="text/css" rel="stylesheet" media="all" href="inc/jquery-syntax/jquery.highlight.css" />
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/guide.css">
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+
+
+<!-- Fixed navbar -->
+<header class="guide-nav navbar navbar-fixed-top" id="top">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="overview.html"><img src="ci.png" alt="YBM"></a>
+		</div>
+		<nav id="navbar" class="navbar-collapse collapse">
+			<ul class="nav navbar-nav">
+				<li><a href="overview.html">기본 가이드</a></li>
+				<li><a href="code.html">작성규칙</a></li>
+				<li><a href="plan.html">마크업설계</a></li>
+				<li><a href="list.html">화면리스트</a>
+                    <ul>
+                        <li><a href="list.html">교사채널</a></li>
+						<li><a href="list_m.html">교사채널(모바일)</a></li>
+                        <li><a href="list2.html">강사채널</a></li>
+                        <li><a href="list2_m.html">강사채널(모바일)</a></li>
+                        <li><a href="list3.html">초등채널</a></li>
+                        <li><a href="list4.html">중고등채널</a></li>
+                        <li><a href="list5.html">학부모채널</a></li>
+                        <li><a href="list6.html">브랜드채널(멤버십)</a></li>
+                        <li><a href="list7.html">뷰어</a></li>
+                        <li><a href="list8.html">알림앱</a></li>
+						<li><a href="list9.html">뷰어(모바일)</a></li>
+						<li><a href="list10.html">뷰어(학생채널)</a></li>
+						<li><a href="list11.html">뷰어(강사채널)</a></li>
+                    </ul>
+                </li>
+			</ul>
+		</nav><!--/.navbar-collapse -->
+	</div>
+</header>
+<!-- //Fixed navbar -->
+
+<div class="content-body">
+    <div class="page-title">
+        <div class="container">
+            <h1>화면리스트</h1>
+        </div>
+    </div>
+
+    <div class="container body-content">
+
+        <div class="row">
+            <div class="col-lg-12">
+                <h3 class="page-header">뷰어</h3>
+            </div>
+			<div class="col-lg-12">
+				<div class="table-responsive">
+					<table class="table table-bordered">
+						<thead>
+							<tr>
+								<th scope="col">Depth0</th>
+								<th scope="col">Depth1</th>
+                                <th scope="col">Depth2</th>
+                                <th scope="col">Depth3</th>
+                                <th scope="col">Depth4</th>
+                                <th scope="col">Depth5</th>
+								<th scope="col">요건</th>
+                                <th scope="col">폴더명</th>
+                                <th scope="col">파일명</th>
+                                <th scope="col">히스토리</th>
+								<th scope="col" style="text-align:center">완료여부</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>교사용</td>
+                                <td>툴바 서브 컴포넌트</td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+								<td></td>
+                                <td></td>
+                                <td>viewer/html/_layout</td>
+                                <td><a href="../viewer/html/_layout/component.html" target="_blank">component.html</a></td>
+                                <td>
+									<ul>
+										<li class="done">20210927 서브 툴바 컴포넌트 퍼블 착수</li>
+										<li>그리기 및 텍스트 도구 추가 툴바 기획 확정 시 추가작업 필요</li>
+									</ul>
+								</td>
+								<td style="text-align: center">○</td>
+							</tr>
+                            <tr>
+								<td>교사용</td>
+                                <td>수업진행모드</td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+								<td></td>
+                                <td>PC용</td>
+                                <td>viewer/html/_layout</td>
+                                <td><a href="../viewer/html/_layout/gv_p_0001.html" target="_blank">gv_p_0001.html</a></td>
+                                <td>
+									<ul>
+										<li class="done">20210731 퍼블</li>
+										<li class="done">20210805 과제/평가 탭 콘텐츠 확인 및 퍼블</li>
+										<li class="done">20210927 기본 툴바 현행화</li>
+										<li class="">20210928 기본 툴바 이미지 적용</li>
+									</ul>
+								</td>
+								<td style="text-align: center">○</td>
+							</tr>
+							<tr>
+								<td></td>
+                                <td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+								<td>진도 기록 팝업</td>
+                                <td>PC용</td>
+                                <td>viewer/html/_layout</td>
+                                <td><a href="../viewer/html/_pages/gv_p_0001_3.html" target="_blank">gv_p_0001_3.html</a></td>
+                                <td>
+									<ul>
+										<li class="done">20210804 퍼블</li>
+									</ul>
+								</td>
+								<td style="text-align: center">○</td>
+							</tr>
+							<tr>
+								<td></td>
+                                <td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+								<td>이전 수업기록에 따른 차시 선택 처리</td>
+                                <td>PC용</td>
+                                <td>viewer/html/_layout</td>
+                                <td><a href="../viewer/html/_pages/gv_p_0001_4.html" target="_blank">gv_p_0001_4.html</a></td>
+                                <td>
+									<ul>
+										<li class="done">20210804 퍼블</li>
+									</ul>
+								</td>
+								<td style="text-align: center">○</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+                                <td>라이브샷</td>
+                                <td></td>
+                                <td></td>
+								<td>툴바>라이브샷 클릭하여 확인</td>
+                                <td>PC</td>
+                                <td>viewer/html/_pages</td>
+                                <td><a href="../viewer/html/_layout/gv_p_0001.html" target="_blank">gv_p_0001.html</a></td>
+                                <td>
+									<ul>
+										<li class="done">OX형, 선택형, 입력형</li>
+										<li class="done">퍼블</li>
+									</ul>
+								</td>
+								<td>○</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+                                <td>퀴즈나우</td>
+                                <td></td>
+                                <td></td>
+								<td>툴바>퀴즈나우 클릭하여 확인</td>
+                                <td>PC</td>
+                                <td>viewer/html/_pages</td>
+                                <td><a href="../viewer/html/_layout/gv_p_0001.html" target="_blank">gv_p_0001.html</a></td>
+                                <td>
+									<ul>
+										<li class="done">문항작성, 문항보기, 결과보기</li>
+										<li class="done">퍼블</li>
+									</ul>
+								</td>
+								<td>○</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+                                <td>라이브샷&퀴즈나우 공통</td>
+                                <td>학생 모바일화면</td>
+                                <td>사용자인증</td>
+								<td></td>
+                                <td>url로 진입(Mobile)</td>
+                                <td>viewer/html/_pages</td>
+                                <td><a href="../liveshot/html/_pages/login.html" target="_blank">login.html</a></td>
+                                <td>
+									<ul>
+										<li class="done">20211224 퍼블</li>
+									</ul>
+								</td>
+								<td>○</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td>학생 모바일화면</td>
+                                <td>대기화면</td>
+								<td></td>
+                                <td>url로 진입(Mobile)</td>
+                                <td>viewer/html/_pages</td>
+                                <td><a href="../liveshot/html/_pages/waiting.html" target="_blank">waiting.html</a></td>
+                                <td>
+									<ul>
+										<li class="done">20211224 퍼블</li>
+									</ul>
+								</td>
+								<td>○</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td>학생 모바일화면</td>
+                                <td>OX형</td>
+								<td></td>
+                                <td>url로 진입(Mobile)</td>
+                                <td>viewer/html/_pages</td>
+                                <td><a href="../liveshot/html/_pages/liveshot_1.html" target="_blank">liveshot_1.html</a></td>
+                                <td>
+									<ul>
+										<li class="done">20211224 퍼블</li>
+									</ul>
+								</td>
+								<td>○</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td>학생 모바일화면</td>
+                                <td>선택형</td>
+								<td></td>
+                                <td>url로 진입(Mobile)</td>
+                                <td>viewer/html/_pages</td>
+                                <td><a href="../liveshot/html/_pages/liveshot_2.html" target="_blank">liveshot_2.html</a></td>
+                                <td>
+									<ul>
+										<li class="done">20211224 퍼블</li>
+									</ul>
+								</td>
+								<td>○</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td>학생 모바일화면</td>
+                                <td>입력형</td>
+								<td></td>
+                                <td>url로 진입(Mobile)</td>
+                                <td>viewer/html/_pages</td>
+                                <td><a href="../liveshot/html/_pages/liveshot_3.html" target="_blank">liveshot_3.html</a></td>
+                                <td>
+									<ul>
+										<li class="done">20211224 퍼블</li>
+									</ul>
+								</td>
+								<td>○</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td>학생 모바일화면</td>
+                                <td>퀴즈나우 정답결과 표시</td>
+								<td></td>
+                                <td>url로 진입(Mobile)</td>
+                                <td>viewer/html/_pages</td>
+                                <td><a href="../liveshot/html/_pages/check_result.html" target="_blank">check_result.html</a></td>
+                                <td>
+									<ul>
+										<li class="done">20211224 퍼블</li>
+										<li class="">스크립트 보완필요</li>
+									</ul>
+								</td>
+								<td>○</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+                                <td>내가 만든 온라인 콘텐츠</td>
+                                <td></td>
+                                <td></td>
+								<td></td>
+                                <td>PC</td>
+                                <td>viewer/html/_pages</td>
+                                <td><a href="../viewer/html/_pages/gv_p_1003.html" target="_blank">gv_p_1003.html</a></td>
+                                <td>
+									<ul>
+										<li></li>
+									</ul>
+								</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td>함께 시작</td>
+                                <td></td>
+								<td></td>
+                                <td>PC</td>
+                                <td>viewer/html/_pages</td>
+                                <td><a href="../viewer/html/_pages/tc_p_1312.html" target="_blank">tc_p_1312.html</a></td>
+                                <td>
+									<ul>
+										<li class="done">20220422 퍼블</li>
+									</ul>
+								</td>
+								<td>○</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>퀴즈</td>
+								<td>단답형</td>
+                                <td>PC</td>
+                                <td>viewer/html/_pages</td>
+                                <td><a href="../viewer/html/_pages/tc_p_1313.html" target="_blank">tc_p_1313.html</a></td>
+                                <td>
+									<ul>
+										<li class="done">20220425 퍼블</li>
+									</ul>
+								</td>
+								<td>○</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+								<td>ox형</td>
+                                <td>PC</td>
+                                <td>viewer/html/_pages</td>
+                                <td><a href="../viewer/html/_pages/tc_p_1313_1.html" target="_blank">tc_p_1313_1.html</a></td>
+                                <td>
+									<ul>
+										<li class="done">20220425 퍼블</li>
+									</ul>
+								</td>
+								<td>○</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+								<td>단답형</td>
+                                <td>PC</td>
+                                <td>viewer/html/_pages</td>
+                                <td><a href="../viewer/html/_pages/tc_p_1313_2.html" target="_blank">tc_p_1313_2.html</a></td>
+                                <td>
+									<ul>
+										<li class="done">20220425 퍼블</li>
+									</ul>
+								</td>
+								<td>○</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+								<td>빈칸형</td>
+                                <td>PC</td>
+                                <td>viewer/html/_pages</td>
+                                <td><a href="../viewer/html/_pages/tc_p_1313_3.html" target="_blank">tc_p_1313_3.html</a></td>
+                                <td>
+									<ul>
+										<li class="done">20220425 퍼블</li>
+									</ul>
+								</td>
+								<td>○</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+								<td>서술형</td>
+                                <td>PC</td>
+                                <td>viewer/html/_pages</td>
+                                <td><a href="../viewer/html/_pages/tc_p_1313_5.html" target="_blank">tc_p_1313_5.html</a></td>
+                                <td>
+									<ul>
+										<li class="done">20220425 퍼블</li>
+									</ul>
+								</td>
+								<td>○</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+								<td>선택형</td>
+                                <td>PC</td>
+                                <td>viewer/html/_pages</td>
+                                <td><a href="../viewer/html/_pages/tc_p_1313_6.html" target="_blank">tc_p_1313_6.html</a></td>
+                                <td>
+									<ul>
+										<li class="done">20220425 퍼블</li>
+									</ul>
+								</td>
+								<td>○</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>설문</td>
+								<td>OX형</td>
+                                <td>PC</td>
+                                <td>viewer/html/_pages</td>
+                                <td><a href="../viewer/html/_pages/tc_p_1313_7.html" target="_blank">tc_p_1313_7.html</a></td>
+                                <td>
+									<ul>
+										<li class="done">20220425 퍼블</li>
+									</ul>
+								</td>
+								<td>○</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+								<td>단답형</td>
+                                <td>PC</td>
+                                <td>viewer/html/_pages</td>
+                                <td><a href="../viewer/html/_pages/tc_p_1313_8.html" target="_blank">tc_p_1313_8.html</a></td>
+                                <td>
+									<ul>
+										<li class="done">20220425 퍼블</li>
+									</ul>
+								</td>
+								<td>○</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+								<td>서술형</td>
+                                <td>PC</td>
+                                <td>viewer/html/_pages</td>
+                                <td><a href="../viewer/html/_pages/tc_p_1313_9.html" target="_blank">tc_p_1313_9.html</a></td>
+                                <td>
+									<ul>
+										<li class="done">20220425 퍼블</li>
+									</ul>
+								</td>
+								<td>○</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>토의/토론</td>
+								<td>찬성/반대</td>
+                                <td>PC</td>
+                                <td>viewer/html/_pages</td>
+                                <td><a href="../viewer/html/_pages/tc_p_1313_10.html" target="_blank">tc_p_1313_10.html</a></td>
+                                <td>
+									<ul>
+										<li class="done">20220425 퍼블</li>
+									</ul>
+								</td>
+								<td>○</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+								<td>세부주제별</td>
+                                <td>PC</td>
+                                <td>viewer/html/_pages</td>
+                                <td><a href="../viewer/html/_pages/tc_p_1313_11.html" target="_blank">tc_p_1313_11.html</a></td>
+                                <td>
+									<ul>
+										<li class="done">20220425 퍼블</li>
+									</ul>
+								</td>
+								<td>○</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+								<td>주제별 자유토론</td>
+                                <td>PC</td>
+                                <td>viewer/html/_pages</td>
+                                <td><a href="../viewer/html/_pages/tc_p_1313_12.html" target="_blank">tc_p_1313_12.html</a></td>
+                                <td>
+									<ul>
+										<li class="done">20220425 퍼블</li>
+									</ul>
+								</td>
+								<td>○</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td>각자시작</td>
+                                <td></td>
+								<td></td>
+                                <td>PC</td>
+                                <td>viewer/html/_pages</td>
+                                <td><a href="../viewer/html/_pages/tc_p_1314.html" target="_blank">tc_p_1314.html</a></td>
+                                <td>
+									<ul>
+										<li class="done">20220426 퍼블</li>
+									</ul>
+								</td>
+								<td>○</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td>퀴즈</td>
+								<td></td>
+                                <td>PC</td>
+                                <td>viewer/html/_pages</td>
+                                <td><a href="../viewer/html/_pages/tc_p_1315.html" target="_blank">tc_p_1315.html</a></td>
+                                <td>
+									<ul>
+										<li class="done">20220426 퍼블</li>
+									</ul>
+								</td>
+								<td>○</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+								<td>정답일때(종료>문항보기>정답보기)</td>
+                                <td>PC</td>
+                                <td>viewer/html/_pages</td>
+                                <td><a href="../viewer/html/_pages/tc_p_1316.html" target="_blank">tc_p_1316.html</a></td>
+                                <td>
+									<ul>
+										<li class="done">20220628 퍼블</li>
+									</ul>
+								</td>
+								<td>○</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+								<td>오답일때(종료>문항보기>정답보기)</td>
+                                <td>PC</td>
+                                <td>viewer/html/_pages</td>
+                                <td><a href="../viewer/html/_pages/tc_p_1316_1.html" target="_blank">tc_p_1316_1.html</a></td>
+                                <td>
+									<ul>
+										<li class="done">20220628 퍼블</li>
+									</ul>
+								</td>
+								<td>○</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td>과제/평가</td>
+                                <td>온라인시험지</td>
+                                <td>표지</td>
+                                <td></td>
+								<td></td>
+                                <td>PC</td>
+                                <td>viewer/html/_pages</td>
+                                <td><a href="../viewer/html/_pages/tc_p_1304_19.html" target="_blank">tc_p_1304_19.html</a></td>
+                                <td>
+									<ul>
+										<li class="done">20210928 퍼블 착수</li>
+									</ul>
+								</td>
+								<td>○</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td>레이아웃</td>
+                                <td></td>
+								<td></td>
+                                <td>PC</td>
+                                <td>viewer/html/_pages</td>
+                                <td><a href="../viewer/html/_pages/tc_p_1304_20.html" target="_blank">tc_p_1304_20.html</a></td>
+                                <td>
+									<ul>
+										<li class="done">20210928 퍼블 착수</li>
+										<li class="done">20211006 퍼블 완료</li>
+									</ul>
+								</td>
+								<td>○</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td>완료화면</td>
+                                <td></td>
+								<td></td>
+                                <td>PC</td>
+                                <td>viewer/html/_pages</td>
+                                <td><a href="../viewer/html/_pages/tc_p_1304_41.html" target="_blank">tc_p_1304_41.html</a></td>
+                                <td>
+									<ul>
+										<li class="done">20211007 퍼블 착수</li>
+									</ul>
+								</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+                                <td>퀴즈/설문</td>
+                                <td>표지</td>
+                                <td></td>
+								<td></td>
+                                <td>PC</td>
+                                <td>viewer/html/_pages</td>
+                                <td><a href="../viewer/html/_pages/tc_p_1306_38.html" target="_blank">tc_p_1306_38.html</a></td>
+                                <td>
+									<ul>
+										<li class="done">20211019 퍼블 착수</li>
+									</ul>
+								</td>
+								<td>○</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td>선택형</td>
+                                <td></td>
+								<td></td>
+                                <td>PC</td>
+                                <td>viewer/html/_pages</td>
+                                <td><a href="../viewer/html/_pages/tc_p_1306_39.html" target="_blank">tc_p_1306_39.html</a></td>
+                                <td>
+									<ul>
+										<li class="done">20211109 퍼블 착수</li>
+									</ul>
+								</td>
+								<td>○</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td>OX형</td>
+                                <td></td>
+								<td></td>
+                                <td>PC</td>
+                                <td>viewer/html/_pages</td>
+                                <td><a href="../viewer/html/_pages/tc_p_1306_39_1.html" target="_blank">tc_p_1306_39_1.html</a></td>
+                                <td>
+									<ul>
+										<li class="done">20211109 퍼블 착수</li>
+									</ul>
+								</td>
+								<td>○</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td>단답형</td>
+                                <td></td>
+								<td></td>
+                                <td>PC</td>
+                                <td>viewer/html/_pages</td>
+                                <td><a href="../viewer/html/_pages/tc_p_1306_39_2.html" target="_blank">tc_p_1306_39_2.html</a></td>
+                                <td>
+									<ul>
+										<li class="done">20211109 퍼블 착수</li>
+									</ul>
+								</td>
+								<td>○</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td>빈칸형</td>
+                                <td></td>
+								<td></td>
+                                <td>PC</td>
+                                <td>viewer/html/_pages</td>
+                                <td><a href="../viewer/html/_pages/tc_p_1306_39_3.html" target="_blank">tc_p_1306_39_3.html</a></td>
+                                <td>
+									<ul>
+										<li class="done">20211109 퍼블 착수</li>
+									</ul>
+								</td>
+								<td>○</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td>매칭형</td>
+                                <td></td>
+								<td></td>
+                                <td>PC</td>
+                                <td>viewer/html/_pages</td>
+                                <td><a href="../viewer/html/_pages/tc_p_1306_39_4.html" target="_blank">tc_p_1306_39_4.html</a></td>
+                                <td>
+									<ul>
+										<li class="done">20211109 퍼블 착수</li>
+									</ul>
+								</td>
+								<td>○</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td>서술형</td>
+                                <td></td>
+								<td></td>
+                                <td>PC</td>
+                                <td>viewer/html/_pages</td>
+                                <td><a href="../viewer/html/_pages/tc_p_1306_39_5.html" target="_blank">tc_p_1306_39_5.html</a></td>
+                                <td>
+									<ul>
+										<li class="done">20211109 퍼블 착수</li>
+									</ul>
+								</td>
+								<td>○</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td>종료화면</td>
+                                <td></td>
+								<td></td>
+                                <td>PC</td>
+                                <td>viewer/html/_pages</td>
+                                <td><a href="../viewer/html/_pages/tc_p_1306_40.html" target="_blank">tc_p_1306_40.html</a></td>
+                                <td>
+									<ul>
+										<li class="done">20211109 퍼블 착수</li>
+									</ul>
+								</td>
+								<td>○</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+                                <td>매칭형 게임</td>
+                                <td>표지</td>
+                                <td></td>
+								<td></td>
+                                <td>PC</td>
+                                <td>viewer/html/_pages</td>
+                                <td><a href="../viewer/html/_pages/tc_p_1307_27_1.html" target="_blank">tc_p_1307_27_1.html</a></td>
+                                <td>
+									<ul>
+										<li class="done">20220411 퍼블 착수</li>
+									</ul>
+								</td>
+								<td>○</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td>문제풀이</td>
+                                <td></td>
+								<td></td>
+                                <td>PC</td>
+                                <td>viewer/html/_pages</td>
+                                <td><a href="../viewer/html/_pages/tc_p_1307_27_2.html" target="_blank">tc_p_1307_27_2.html</a></td>
+                                <td>
+									<ul>
+										<li class="done">20220411 퍼블 착수</li>
+									</ul>
+								</td>
+								<td>○</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td>결과화면</td>
+                                <td></td>
+								<td></td>
+                                <td>PC</td>
+                                <td>viewer/html/_pages</td>
+                                <td><a href="../viewer/html/_pages/tc_p_1307_27_3.html" target="_blank">tc_p_1307_27_3.html</a></td>
+                                <td>
+									<ul>
+										<li class="done">20220411 퍼블 착수</li>
+									</ul>
+								</td>
+								<td>○</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+                                <td>토의/토론</td>
+                                <td>표지</td>
+                                <td></td>
+								<td></td>
+                                <td>PC</td>
+                                <td>viewer/html/_pages</td>
+                                <td><a href="../viewer/html/_pages/tc_p_1308_25.html" target="_blank">tc_p_1308_25.html</a></td>
+                                <td>
+									<ul>
+										<li class="done">20211109 퍼블 착수</li>
+									</ul>
+								</td>
+								<td>○</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td>찬성vs반대</td>
+                                <td></td>
+								<td></td>
+                                <td>PC</td>
+                                <td>viewer/html/_pages</td>
+                                <td><a href="../viewer/html/_pages/tc_p_1308_25_1.html" target="_blank">tc_p_1308_25_1.html</a></td>
+                                <td>
+									<ul>
+										<li class="done">20211109 퍼블 착수</li>
+									</ul>
+								</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td>세부주제별</td>
+                                <td></td>
+								<td></td>
+                                <td>PC</td>
+                                <td>viewer/html/_pages</td>
+                                <td><a href="../viewer/html/_pages/tc_p_1308_7.html" target="_blank">tc_p_1308_7.html</a></td>
+                                <td>
+									<ul>
+										<li class="done">20220217 퍼블 착수</li>
+									</ul>
+								</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td>현황보기</td>
+                                <td>찬성vs반대</td>
+								<td></td>
+                                <td>PC</td>
+                                <td>viewer/html/_pages</td>
+                                <td><a href="../viewer/html/_pages/tc_p_1308_27.html" target="_blank">tc_p_1308_27.html</a></td>
+                                <td>
+									<ul>
+										<li class="done">20220110 퍼블 착수</li>
+									</ul>
+								</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td>현황보기</td>
+                                <td>세부주제별</td>
+								<td></td>
+                                <td>PC</td>
+                                <td>viewer/html/_pages</td>
+                                <td><a href="../viewer/html/_pages/tc_p_1308_28.html" target="_blank">tc_p_1308_28.html</a></td>
+                                <td>
+									<ul>
+										<li class="done">20220111 퍼블 착수</li>
+									</ul>
+								</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+                                <td></td>
+                                <td>현황보기</td>
+                                <td>자유주제</td>
+								<td></td>
+                                <td>PC</td>
+                                <td>viewer/html/_pages</td>
+                                <td><a href="../viewer/html/_pages/tc_p_1308_29.html" target="_blank">tc_p_1308_29.html</a></td>
+                                <td>
+									<ul>
+										<li class="done">20220111 퍼블 착수</li>
+									</ul>
+								</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td>수업관리모드</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+								<td></td>
+                                <td>PC용</td>
+                                <td>viewer/html/_layout</td>
+                                <td><a href="../viewer/html/_layout/gv_p_0002.html" target="_blank">gv_p_0002.html</a></td>
+                                <td>
+									<ul>
+										<li class="done">20210913 레이아웃퍼블</li>
+										<li class="done">20210927 기본 툴바 현행화</li>
+										<li class="">20210928 기본 툴바 이미지 적용</li>
+									</ul>
+								</td>
+								<td>○</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td>자료확인모드</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+								<td></td>
+                                <td>PC용</td>
+                                <td>viewer/html/_layout</td>
+                                <td><a href="../viewer/html/_layout/gv_p_0003.html" target="_blank">gv_p_0003.html</a></td>
+                                <td>
+									<ul>
+										<li class="done">20210913 레이아웃퍼블</li>
+										<li class="done">20210927 기본 툴바 현행화</li>
+										<li class="">20210928 기본 툴바 이미지 적용</li>
+									</ul>
+								</td>
+								<td>○</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td>자료 확인용</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+								<td></td>
+                                <td>PC용</td>
+                                <td>viewer/html/_layout</td>
+                                <td><a href="../viewer/html/_layout/gv_p_0003_1.html" target="_blank">gv_p_0003_1.html</a></td>
+                                <td>
+									<ul>
+										<li class="">220220208</li>
+									</ul>
+								</td>
+								<td></td>
+							</tr>								
+							<tr>
+								<td></td>
+								<td>계기자료 모드</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+								<td></td>
+                                <td>PC용</td>
+                                <td>viewer/html/_layout</td>
+                                <td><a href="../viewer/html/_layout/gv_p_0000.html" target="_blank">gv_p_0000.html</a></td><!-- 화면 ID없어서 임의로 작성함 -->
+                                <td>
+									<ul>
+										<li>20211109 퍼블 착수</li>
+									</ul>
+								</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>학생용</td>
+                                <td>학습진행모드</td>
+                                <td>온라인수업시</td>
+								<td></td>
+                                <td></td>
+								<td></td>
+                                <td>PC용</td>
+                                <td>viewer/html/_layout</td>
+                                <td><a href="../viewer/html/_layout/gv_p_5001.html" target="_blank">gv_p_5001.html</a></td>
+                                <td>
+									<ul>
+										<li></li>
+									</ul>
+								</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+                                <td>온라인 스터디 룸 학습 시</td>
+                                <td></td>
+                                <td></td>
+								<td></td>
+                                <td>PC용</td>
+                                <td>viewer/html/_layout</td>
+                                <td><a href="../viewer/html/_layout/gv_p_5002.html" target="_blank">gv_p_5002.html</a></td>
+                                <td>
+									<ul>
+										<li></li>
+									</ul>
+								</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td>자료확인모드</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+								<td></td>
+                                <td>PC용</td>
+                                <td>viewer/html/_layout</td>
+                                <td><a href="../viewer/html/_layout/gv_p_5003.html" target="_blank">gv_p_5003.html</a></td>
+                                <td>
+									<ul>
+										<li></li>
+									</ul>
+								</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td>과제/평가 수행(작성)모드</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+								<td></td>
+                                <td>PC용</td>
+                                <td>viewer/html/_layout</td>
+                                <td><a href="../viewer/html/_layout/gv_p_5004.html" target="_blank">gv_p_5004.html</a></td>
+                                <td>
+									<ul>
+										<li></li>
+									</ul>
+								</td>
+								<td></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+            
+        </div>
+		
+
+
+    </div> <!-- /container -->
+</div>
+<footer>
+	<div class="container">
+		<p>COPYRIGHT(C) <strong>YBM스마트스쿨</strong> ALL RIGHTS RESERVED.</p>
+	</div>
+</footer>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+<script src="https://code.jquery.com/jquery-migrate-3.3.2.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="inc/jquery-syntax/jquery.highlight.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('pre.code').highlight({source:1, zebra:1, indent:'space', list:'ol'});
+	});
+</script>
+</body>
+</html>

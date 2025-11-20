@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="305" height="64" viewBox="0 0 305 64">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_1006" data-name="사각형 1006" width="22" height="18" transform="translate(809 188)" fill="#fff"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="사각형_1007" data-name="사각형 1007" width="37" height="13" transform="translate(987 188)" fill="#fff"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect id="사각형_1008" data-name="사각형 1008" width="18" height="18" transform="translate(1091 234)" fill="#ff9a80"/>
+    </clipPath>
+  </defs>
+  <g id="title" transform="translate(-808 -188)">
+    <text id="과제_·_평가" data-name="과제 · 평가" transform="translate(960 244)" fill="#1b1d1f" font-size="64" font-family="Jalnan" letter-spacing="-0.02em"><tspan x="-151.424" y="0">과제 · 평가</tspan></text>
+    <g id="마스크_그룹_116" data-name="마스크 그룹 116" clip-path="url(#clip-path)">
+      <text id="과제_·_평가-2" data-name="과제 · 평가" transform="translate(960 244)" fill="#fc5d5d" font-size="64" font-family="Jalnan" letter-spacing="-0.02em"><tspan x="-151.424" y="0">과제 · 평가</tspan></text>
+    </g>
+    <g id="마스크_그룹_117" data-name="마스크 그룹 117" clip-path="url(#clip-path-2)">
+      <text id="과제_·_평가-3" data-name="과제 · 평가" transform="translate(960 244)" fill="#6f57cf" font-size="64" font-family="Jalnan" letter-spacing="-0.02em"><tspan x="-151.424" y="0">과제 · 평가</tspan></text>
+    </g>
+    <g id="마스크_그룹_118" data-name="마스크 그룹 118" clip-path="url(#clip-path-3)">
+      <text id="과제_·_평가-4" data-name="과제 · 평가" transform="translate(960 244)" fill="#71bfe5" font-size="64" font-family="Jalnan" letter-spacing="-0.02em"><tspan x="-151.424" y="0">과제 · 평가</tspan></text>
+    </g>
+  </g>
+</svg>

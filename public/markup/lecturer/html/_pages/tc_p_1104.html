@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge;Chromeframe=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="generator" content="">
+<meta name="robots" content="ALL">
+<meta property="og:type" content="">
+<meta property="og:title" content="">
+<meta property="og:description" content="">
+<meta property="og:image" content="">
+<meta property="og:url" content="">
+<title>페이지명 | 교사(채널명) | YBM온라인스쿨(사이트명)</title>
+<link rel="shortcut icon" href="">
+<link rel="stylesheet" href="../../lib/swiper.min.css">
+<link rel="stylesheet" href="../../lib/lightgallery.css">
+<link rel="stylesheet" href="../../common/css/import.css">
+<script src="../../lib/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <section class="wrap">
+        <!-- start:좌측 메뉴 -->
+        <section class="header">
+            <div class="inner">
+                <h1 class="site-name"><a href="#">YBM스마트스쿨</a></h1>
+                <nav class="gnb">
+                    <ul>
+                        <li>
+                            <a href="#"><span class="ico-gnb sboard"></span><em>수업보드</em></a>
+                        </li>
+                        <li>
+                            <a href="#"><span class="ico-gnb mg-class"></span><em>수업관리</em></a>
+                            <ul class="dropdown">
+                                <li><a href="#">수업설계</a></li>
+                                <li><a href="#">평가·과제 관리</a></li>
+                                <li><a href="#">Online 콘텐츠 만들기</a></li>
+                                <li><a href="#">시간표 관리</a></li>
+                                <li><a href="#">수업 리포트</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#"><span class="ico-gnb mg-study"></span><em>학급학생관리</em></a>
+                            <ul class="dropdown">
+                                <li><a href="#">학급 현황</a></li>
+                                <li><a href="#">학생 현황</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#"><span class="ico-gnb mg-alarm"></span><em>알림상담관리</em></a>
+                            <ul class="dropdown">
+                                <li><a href="#">알림장(전달사항)</a></li>
+                                <li><a href="#">상담/문의</a></li>
+                            </ul>
+                        </li>
+                        <li class="dv-bar"></li>
+                        <li>
+                            <a href="#"><span class="ico-gnb rnd"></span><em>수업연구실</em></a>
+                            <ul class="dropdown">
+                                <li><a href="#">자료 나눔터</a></li>
+                                <li><a href="#">내 연구실</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#"><span class="ico-gnb ttalk"></span><em>T톡</em></a>
+                            <ul class="dropdown">
+                                <li><a href="#">이슈톡</a></li>
+                                <li><a href="#">프리톡</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="launch-wrap">
+                    <a href="https://www.ybmcloud.com" target="_blank" title="Y클라우드 새창열림"><span></span></a>
+                </div>
+            </div>
+            <div class="toggle-fold">
+                <button><span>메뉴 열기/닫기</span></button>
+            </div>
+        </section>
+        <!-- //end:좌측 메뉴 -->
+        <section class="container">            
+            <div class="wrapper-lg">
+                <section class="common-top">
+                    <div class="room-summary">
+                        <h1 class="room-name">세상에 없던 스마트 스쿨</h1>
+                        <div class="room-charge">(홍길동선생님)</div>
+                    </div>
+                    <div class="unb">
+                        <button type="button" class="btn-alarm"><span>5</span></button>
+                        <a href="#" class="link-voucher">이용권</a>
+                        <ul>
+                            <li><a href="#">개인정보</a></li>
+                            <li><a href="#">고객센터</a></li>
+                            <li><a href="#"><span class="ico-logout"></span>로그아웃</a></li>
+                        </ul>
+                    </div>
+                </section>
+                <!-- start:본문 -->
+                <section class="content">
+                    <div class="basic-box">
+                        <!-- start: 수업 자료 관리 -->
+                        <div class="cl-list-manage">
+                            <div class="box-head title-bx">
+                                <h2>수업 자료 관리</h2>
+                                <div class="cr-wrap">
+                                    <!-- start: 등록된 학급이 표시됨 -->
+                                    <div class="chk-control-box">
+                                        <div class="form-wrap">
+                                            <input type="radio" name="myList" id="myList1" class="rd-control" checked="">
+                                            <label for="myList1" class="rd-label">영어 3 (최)</label>
+                                        </div>
+                                        <div class="form-wrap">
+                                            <input type="radio" name="myList" id="myList2" class="rd-control">
+                                            <label for="myList2" class="rd-label">체육 3 (최)</label>
+                                        </div>
+                                        <div class="form-wrap">
+                                            <input type="radio" name="myList" id="myList3" class="rd-control">
+                                            <label for="myList3" class="rd-label">음악 3 (최)</label>
+                                        </div>
+                                    </div>
+                                    <!-- //end 등록된 학급이 표시됨 -->
+                                </div>
+                                <div class="btn-box"><a href="#" class="btn btn02">목록</a></div>
+                            </div>
+                            <div class="box-content">
+                                <div class="cl-management list-management list-set">
+                                    <div class="cont">
+                                        <div class="lf-col">
+                                            <div class="thumb-bx book-wrap type-sm">
+                                                <p class="book-img"><img src="../../img/temp/img_book10.jpg" alt=""></p>
+                                                <div class="siz-desc type-a">
+                                                    <button type="button" class="btns">이미지 수정</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="md-col">
+                                            <div class="top-col">
+                                                <div class="disc">
+                                                    <h2>영어3 - 최희경 외</h2>
+                                                    <div class="box">
+                                                        <span class="view-t">총 <em>90</em>차시</span>
+                                                    </div>
+                                                </div>
+                                                <div class="work-sheet-list">
+                                                    <div class="cont">
+                                                        <div class="swiper-container" id="sheetSwiper">
+                                                            <div class="swiper-wrapper">
+                                                                <div class="swiper-slide">
+                                                                    <div class="item">
+                                                                        <span class="label"></span>
+                                                                        <div class="desc">[수업용 | 활동지]</div>
+                                                                        <div class="tt"><p>영어 6단원 [첸트 부르기] 음원 공유합니다. </p><a href="#" target="_blank" class="view"></a></div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="swiper-slide">
+                                                                    <div class="item">
+                                                                        <span class="label type-a"></span>
+                                                                        <div class="desc">[수업용 | 활동지]</div>
+                                                                        <div class="tt"><p>영어 6단원 [첸트 부르기] 음원 공유합니다. </p><a href="#" target="_blank" class="view"></a></div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="swiper-slide">
+                                                                    <div class="item">
+                                                                        <span class="label type-b"></span>
+                                                                        <div class="desc">[수업용 | 활동지]</div>
+                                                                        <div class="tt"><p>영어 6단원 [첸트 부르기] 음원 공유합니다. </p><a href="#" target="_blank" class="view"></a></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div> 
+                                                </div>
+                                            </div>
+                                            <div class="bottom-col">
+                                                <div class="step-target">
+                                                    <ul>
+                                                        <li class="stp1">
+                                                            <div class="sl-box chk-my-class">
+                                                                <span class="label">단원</span>
+                                                                <p>Lesson 1 I'm from Mexico(1)</p>
+                                                            </div>
+                                                        </li>
+                                                        <li class="stp2">
+                                                            <div class="sl-box chk-my-class">
+                                                                <span class="label">차시</span>
+                                                                <p>1차시(1)</p>
+                                                                <i class="arrow"></i>
+                                                            </div>
+                                                            <div class="modify">
+                                                                <a href="#" class="tool-tip-bx basic-left">
+                                                                    내 수업 수정하기
+                                                                    <div class="balloon left">
+                                                                        <p class="sm-desc">
+                                                                            단원, 차시의 내용을 수정 하거나 추가 할 수 있습니다.
+                                                                        </p>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="step-list type-a cl-list chk-my-class-cont">
+                                                    <div class="op-wrap"> 
+                                                        <div class="inner">
+                                                            <div class="op-box op2 has-scroll on">
+                                                                <!-- start: has-sub 클래스를 가지고 있는 객체는 차시가 열림 -->
+                                                                <ul class="">
+                                                                    <li class="has-sub">
+                                                                        <a href="#;">Lesson 1 Hi, I'm Sena</a>
+                                                                        <ul class="drp2">
+                                                                            <li class="has-sub">
+                                                                                <a href="#;">Lesson 1-1. Hello, Sena</a>
+                                                                                <ul class="drp3">
+                                                                                    <li><a href="#;">Lesson 1-1-1. Hello, Sena</a></li>
+                                                                                    <li><a href="#;">Lesson 1-1-1. Hello, Sena</a></li>
+                                                                                </ul>
+                                                                            </li>
+                                                                            <li class="has-sub">
+                                                                                <a href="#;">Lesson 1-2. Hello, Sena</a>
+                                                                                <ul class="drp3">
+                                                                                    <li><a href="#;">Lesson 1-2-1. Hello, Sena</a></li>
+                                                                                </ul>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </li>
+                                                                    <li class="has-sub">
+                                                                        <a href="#;">Lesson 2 What's This?</a>
+                                                                        <ul class="drp2">
+                                                                            <li class="has-sub">
+                                                                                <a href="#;">Lesson 2-1. What's This?</a>
+                                                                                <ul class="drp3">
+                                                                                    <li><a href="#;">Lesson 2-1-1. What's This?</a></li>
+                                                                                </ul>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </li>
+                                                                    <li class="has-sub">
+                                                                        <a href="#;">Lesson 3 Open the Box, Please</a>
+                                                                        <ul class="drp2">
+                                                                            <li class="">
+                                                                                <a href="#;">Lesson 3-1. What's This?</a>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </li>
+                                                                    <li><a href="#;">Lesson 4 Do You Like Apples?</a></li>
+                                                                    <li><a href="#;">Lesson 5 How Many Dogs?</a></li>
+                                                                    <li><a href="#;">Lesson 6 Do You Have a Ruler?</a></li>
+                                                                    <li><a href="#;">Lesson 7 Do You Have a Ruler?</a></li>
+                                                                    <li><a href="#;">Lesson 8 Do You Have a Ruler?</a></li>
+                                                                    <li><a href="#;">Lesson 9 Do You Have a Ruler?</a></li>
+                                                                    <li><a href="#;">Lesson 10 Do You Have a Ruler?</a></li>
+                                                                </ul>
+                                                                <!-- // End -->
+                                                            </div>
+                                                            <div class="op-box op3 has-scroll">
+                                                                <ul class="">
+                                                                    <li><a href="#;">[1차시] What Grade Are You In?  (10~11p)</a></li>
+                                                                    <li><a href="#;">[2차시] Hi, I’m Sena 4 (16~17p)</a></li>
+                                                                    <li><a href="#;">[3차시] What Grade Are You In?  (10~11p)</a></li>
+                                                                    <li><a href="#;">[4차시] What Grade Are You In?  (10~11p)</a></li>
+                                                                    <li><a href="#;">[5차시] What Grade Are You In?  (10~11p)</a></li>
+                                                                    <li><a href="#;">[6차시] What Grade Are You In?  (10~11p)</a></li>
+                                                                    <li><a href="#;">[7차시] What Grade Are You In?  (10~11p)</a></li>
+                                                                    <li><a href="#;">[8차시] What Grade Are You In?  (10~11p)</a></li>
+                                                                    <li><a href="#;">[9차시] What Grade Are You In?  (10~11p)</a></li>
+                                                                    <li><a href="#;">[10차시] What Grade Are You In?  (10~11p)</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>                                           
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- //end:수업 자료 관리 -->
+                        <!-- start: 단원 및 차시 정보 -->
+                        <div class="cl-contents unit">
+                            <div class="box-head title-bx">
+                                <h2>단원 및 차시 정보</h2>
+                                <div class="btn-box">
+                                    <div class="form-wrap reset">
+                                        <button type="button" class="btn btn03 tool-tip-bx basic-left">초기화
+                                            <p class="balloon left">
+                                                <span>YBM에서 제공하는 기본 구성으로 초기화 됩니다.</span>
+                                            </p>
+                                        </button>
+                                        <button type="button" class="btn back tool-tip-bx basic-left">돌아가기
+                                            <p class="balloon left">
+                                                <span>
+                                                    '수업 자료 관리'  돌아가기.
+                                                    수정 내용은 자동 저장 됩니다. 
+                                                </span>
+                                            </p>
+                                        </button>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box-cont">
+                                <div class="article-wrap has-scroll">
+                                    <div class="inner">
+                                        <!-- start: 대단원 > 소단원 > 차시 목록 -->
+                                        <div class="article type-a">                
+                                            <!-- start: 대단원  -->
+                                            <div class="head-list">
+                                                <div class="colm-1">
+                                                    <button type="button" class="big"></button>
+                                                </div>
+                                                <div class="colm-2">
+                                                    <div class="art-name">
+                                                        <input type="text" class="" placeholder="단원명을 입력해주세요" value="1단원 재미가 톡톡톡	">
+                                                        <button type="button" class="move"></button>
+                                                    </div>
+                                                </div>
+                                                <div class="colm-3">
+                                                    <div class="btn-wrap tool-bx">
+                                                        <div class="col-6">
+                                                            <button type="button" class="delete">삭제</button>
+                                                        </div>
+                                                        <div class="col-6">
+                                                            <button type="button" class="add">추가</button>
+                                                        </div>                                                
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- //end: 대단원 -->
+                                            <!-- start: 소단원/차시  -->
+                                            <div class="cont-list-contain">
+                                                
+                                                <!-- start: 소단원  -->
+                                                <div class="small-list">
+                                                    <div class="colm-1">
+                                                        <button type="button" class="big"></button>
+                                                    </div>
+                                                    <div class="colm-2">
+                                                        <div class="art-name">
+                                                            <input type="text" class="" placeholder="소단원명을 입력해주세요" value="1. 사물에 대한 다양한 표현을 배운다." readonly>
+                                                            <button type="button" class="move"></button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="colm-3">
+                                                        <div class="btn-wrap tool-bx">
+                                                            <div class="col-6">
+                                                                <button type="button" class="delete">삭제</button>
+                                                            </div>
+                                                            <div class="col-6">
+                                                                <button type="button" class="add">추가</button>
+                                                            </div>                                                
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- //end: 소단원 -->
+
+                                                <!-- start: 차시 -->
+                                                <div class="xs-list">
+                                                    <div class="cont-list">
+                                                        <div class="colm-1">
+                                                            <div class="art-name list">
+                                                                <input type="text" class="" placeholder="차시명을 입력해주세요" value="[1-2차시]  느낌을 살려 사물 표현하기(국30-35p)" readonly>
+                                                                <button type="button" class="move"></button>
+                                                            </div>
+                                                        </div>
+                                                        <div class="colm-2">
+                                                            <div class="btn-wrap tool-bx">
+                                                                <div class="col-6">
+                                                                    <button type="button" class="delete">삭제</button>
+                                                                </div>
+                                                                <div class="col-6">
+                                                                    <button type="button" class="add">추가</button>
+                                                                </div>                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="cont-list">
+                                                        <div class="colm-1">
+                                                            <div class="art-name list">
+                                                                <input type="text" class="" placeholder="차시명을 입력해주세요" value="[1-2차시]  느낌을 살려 사물 표현하기(국30-35p)" readonly>
+                                                                <button type="button" class="move"></button>
+                                                            </div>
+                                                        </div>
+                                                        <div class="colm-2">
+                                                            <div class="btn-wrap tool-bx">
+                                                                <div class="col-6">
+                                                                    <button type="button" class="delete">삭제</button>
+                                                                </div>
+                                                                <div class="col-6">
+                                                                    <button type="button" class="add">추가</button>
+                                                                </div>                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="cont-list">
+                                                        <div class="colm-1">
+                                                            <div class="art-name list">
+                                                                <input type="text" class="" placeholder="차시명을 입력해주세요" value="[1-2차시]  느낌을 살려 사물 표현하기(국30-35p)" readonly>
+                                                                <button type="button" class="move"></button>
+                                                            </div>
+                                                        </div>
+                                                        <div class="colm-2">
+                                                            <div class="btn-wrap tool-bx">
+                                                                <div class="col-6">
+                                                                    <button type="button" class="delete">삭제</button>
+                                                                </div>
+                                                                <div class="col-6">
+                                                                    <button type="button" class="add">추가</button>
+                                                                </div>                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- // End -->
+                                            </div>
+                                            <!-- //end: 차시 -->
+                                        </div>
+                                        <!-- //end:대단원 > 소단원 > 차시 목록 -->
+                                        <!-- start: 단원 및 차시 목록 -->
+                                        <div class="article type-b">               
+                                            <!-- start: 단원  -->
+                                            <div class="head-list">
+                                                <div class="colm-1">
+                                                    <button type="button" class="big"></button>
+                                                </div>
+                                                <div class="colm-2">
+                                                    <div class="art-name">
+                                                        <input type="text" class="" placeholder="던원명을 입력해주세요" value="[1-2차시]  느낌을 살려 사물 표현하기(국30-35p)" readonly>
+                                                        <button type="button" class="move"></button>
+                                                    </div>
+                                                </div>
+                                                <div class="colm-3">
+                                                    <div class="btn-wrap tool-bx">
+                                                        <div class="col-6">
+                                                            <button type="button" class="delete">삭제</button>
+                                                        </div>
+                                                        <div class="col-6">
+                                                            <button type="button" class="add">추가</button>
+                                                        </div>                                                
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- //end: 단원 -->
+                                            <!-- start: 차시  -->
+                                            <div class="cont-list-contain">
+                                                <div class="xs-list">
+                                                    <div class="cont-list">
+                                                        <div class="colm-1">
+                                                            <div class="art-name list">
+                                                                <input type="text" class="" placeholder="차시명을 입력해주세요" value="[1-2차시]  느낌을 살려 사물 표현하기(국30-35p)" readonly>
+                                                                <button type="button" class="move"></button>
+                                                            </div>
+                                                        </div>
+                                                        <div class="colm-2">
+                                                            <div class="btn-wrap tool-bx">
+                                                                <div class="col-6">
+                                                                    <button type="button" class="delete">삭제</button>
+                                                                </div>
+                                                                <div class="col-6">
+                                                                    <button type="button" class="add">추가</button>
+                                                                </div>                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- //end: 차시 -->
+                                        </div>
+                                        <!-- //end:단원 및 차시 목록 -->
+                                        <!-- start: 차시 목록 -->
+                                        <div class="article type-c"> 
+                                            <div class="cont-list-contain">
+                                                <div class="xs-list">
+                                                    <div class="cont-list">
+                                                        <div class="colm-1">
+                                                            <div class="art-name list">
+                                                                <input type="text" class="" placeholder="차시명을 입력해주세요" value="[1-2차시]  느낌을 살려 사물 표현하기(국30-35p)" readonly>
+                                                                <button type="button" class="move"></button>
+                                                            </div>
+                                                        </div>
+                                                        <div class="colm-2">
+                                                            <div class="btn-wrap tool-bx">
+                                                                <div class="col-6">
+                                                                    <button type="button" class="delete" data-popup="unitDelete02">삭제</button>
+                                                                </div>
+                                                                <div class="col-6">
+                                                                    <button type="button" class="add">추가</button>
+                                                                </div>                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="cont-list">
+                                                        <div class="colm-1">
+                                                            <div class="art-name list">
+                                                                <input type="text" class="" placeholder="차시명을 입력해주세요" value="[1-2차시]  느낌을 살려 사물 표현하기(국30-35p)" readonly>
+                                                                <button type="button" class="move"></button>
+                                                            </div>
+                                                        </div>
+                                                        <div class="colm-2">
+                                                            <div class="btn-wrap tool-bx">
+                                                                <div class="col-6">
+                                                                    <button type="button" class="delete">삭제</button>
+                                                                </div>
+                                                                <div class="col-6">
+                                                                    <button type="button" class="add">추가</button>
+                                                                </div>                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="cont-list">
+                                                        <div class="colm-1">
+                                                            <div class="art-name list">
+                                                                <input type="text" class="" placeholder="차시명을 입력해주세요" value="[1-2차시]  느낌을 살려 사물 표현하기(국30-35p)" readonly>
+                                                                <button type="button" class="move"></button>
+                                                            </div>
+                                                        </div>
+                                                        <div class="colm-2">
+                                                            <div class="btn-wrap tool-bx">
+                                                                <div class="col-6">
+                                                                    <button type="button" class="delete">삭제</button>
+                                                                </div>
+                                                                <div class="col-6">
+                                                                    <button type="button" class="add">추가</button>
+                                                                </div>                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- //end:차시 목록 -->
+                                    </div>
+                                </div>                              
+                                <div class="top-btn">
+                                    <div class="inner">
+                                        <button type="button"><span>TOP</span></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- //end:단원 및 차시 정보 -->
+
+                        <div class="toast-alert-box">
+                            <div class="toast-item fixed-alert fixed-alert-a" style="min-width: 900px;">
+                                <div class="wrap">
+                                    <div class="desc">
+                                        단원 및 차시 정보 변경사항이 있습니다. 수정 후에  “저장” 버튼을 클릭해야 적용됩니다.
+                                        <button type="button" class="btn btn08 complete">저장하기</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+                <!-- //end:본문 -->
+            </div>
+        </section>
+    </section>
+
+    <!-- start:레이어 팝업 -->
+    <div class="popup-wrap"></div>
+    <!-- //end:레이어 팝업 -->
+
+
+<script src="../../lib/swiper.js"></script>
+<script src="../../lib/lightgallery-all.min.js"></script>
+<script src="../../common/js/popup.js"></script>
+<script src="../../common/js/ui.js"></script>
+</body>
+</html>

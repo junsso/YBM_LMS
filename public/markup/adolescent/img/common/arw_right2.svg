@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22" height="22" viewBox="0 0 22 22">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_126" data-name="사각형 126" width="10" height="10" fill="#9ea4aa" stroke="#9ea4aa" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="arw_right" transform="translate(-1479 -189)">
+    <g id="사각형_1027" data-name="사각형 1027" transform="translate(1479 189)" fill="#fff" stroke="#9ea4aa" stroke-width="1">
+      <rect width="22" height="22" rx="11" stroke="none"/>
+      <rect x="0.5" y="0.5" width="21" height="21" rx="10.5" fill="none"/>
+    </g>
+    <g id="arrow_right" transform="translate(1485.5 195)">
+      <g id="arrow_right-2" data-name="arrow_right" clip-path="url(#clip-path)">
+        <g id="arrow-point-to-right" transform="translate(2.727 0.939)">
+          <path id="패스_99" data-name="패스 99" d="M6.261,4.326,2.876,7.71a.551.551,0,0,1-.78-.78l3-2.995L2.1.941a.551.551,0,0,1,.78-.78L6.261,3.546a.551.551,0,0,1,0,.779Z" transform="translate(-1.935 0)" fill="#9ea4aa" stroke="#9ea4aa" stroke-width="1"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="146.001" height="60" viewBox="0 0 146.001 60">
+  <defs>
+    <filter id="합치기_1" x="0" y="0" width="146.001" height="60" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#합치기_1)">
+    <path id="합치기_1-2" data-name="합치기 1" d="M-4630-125h-75a15,15,0,0,1-15-15,15,15,0,0,1,15-15h77a15.006,15.006,0,0,1,13.8,9.116L-4604-140l-10.2,5.884A15,15,0,0,1-4628-125Z" transform="translate(4735 167)" fill="#ff5c5c"/>
+  </g>
+</svg>

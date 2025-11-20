@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="65" height="65" viewBox="0 0 65 65">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="bg_" width="35" height="35" transform="translate(712 134)" fill="#6f57cf"/>
+    </clipPath>
+  </defs>
+  <g id="그룹_1284" data-name="그룹 1284" transform="translate(-398 -3229.502)">
+    <rect id="bg_2" data-name="bg_" width="65" height="65" rx="10" transform="translate(398 3229.502)" fill="#f0eefa"/>
+    <g id="마스크_그룹_108" data-name="마스크 그룹 108" transform="translate(-299 3110.502)" clip-path="url(#clip-path)">
+      <g id="free-icon-calendar-833593" transform="translate(712 134)">
+        <g id="그룹_1266" data-name="그룹 1266">
+          <g id="그룹_1265" data-name="그룹 1265">
+            <circle id="타원_524" data-name="타원 524" cx="1.367" cy="1.367" r="1.367" transform="translate(25.02 12.988)" fill="#6f57cf"/>
+            <path id="패스_2562" data-name="패스 2562" d="M29.531,2.734H27.754V1.367a1.367,1.367,0,0,0-2.734,0V2.734H18.8V1.367a1.367,1.367,0,0,0-2.734,0V2.734H9.912V1.367a1.367,1.367,0,0,0-2.734,0V2.734H5.469A5.475,5.475,0,0,0,0,8.2V29.531A5.475,5.475,0,0,0,5.469,35H15.928a1.367,1.367,0,0,0,0-2.734H5.469a2.737,2.737,0,0,1-2.734-2.734V8.2A2.737,2.737,0,0,1,5.469,5.469H7.178V6.836a1.367,1.367,0,0,0,2.734,0V5.469h6.152V6.836a1.367,1.367,0,0,0,2.734,0V5.469H25.02V6.836a1.367,1.367,0,0,0,2.734,0V5.469h1.777A2.737,2.737,0,0,1,32.266,8.2V16A1.367,1.367,0,0,0,35,16V8.2A5.475,5.475,0,0,0,29.531,2.734Z" fill="#6f57cf"/>
+            <path id="패스_2563" data-name="패스 2563" d="M26.729,18.457A8.271,8.271,0,1,0,35,26.729,8.281,8.281,0,0,0,26.729,18.457Zm0,13.809a5.537,5.537,0,1,1,5.537-5.537A5.543,5.543,0,0,1,26.729,32.266Z" fill="#6f57cf"/>
+            <path id="패스_2564" data-name="패스 2564" d="M28.711,25.361H28.1V23.926a1.367,1.367,0,0,0-2.734,0v2.8A1.367,1.367,0,0,0,26.729,28.1h1.982a1.367,1.367,0,0,0,0-2.734Z" fill="#6f57cf"/>
+            <circle id="타원_525" data-name="타원 525" cx="1.367" cy="1.367" r="1.367" transform="translate(19.072 12.988)" fill="#6f57cf"/>
+            <circle id="타원_526" data-name="타원 526" cx="1.367" cy="1.367" r="1.367" transform="translate(13.125 18.936)" fill="#6f57cf"/>
+            <circle id="타원_527" data-name="타원 527" cx="1.367" cy="1.367" r="1.367" transform="translate(7.178 12.988)" fill="#6f57cf"/>
+            <circle id="타원_528" data-name="타원 528" cx="1.367" cy="1.367" r="1.367" transform="translate(7.178 18.936)" fill="#6f57cf"/>
+            <circle id="타원_529" data-name="타원 529" cx="1.367" cy="1.367" r="1.367" transform="translate(7.178 24.883)" fill="#6f57cf"/>
+            <circle id="타원_530" data-name="타원 530" cx="1.367" cy="1.367" r="1.367" transform="translate(13.125 24.883)" fill="#6f57cf"/>
+            <circle id="타원_531" data-name="타원 531" cx="1.367" cy="1.367" r="1.367" transform="translate(13.125 12.988)" fill="#6f57cf"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

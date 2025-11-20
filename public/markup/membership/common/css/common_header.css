@@ -1,0 +1,2 @@
+body.common .common-header .util-menu .container-inner{max-width:100%;padding:0 40px}body.common header{top:40px}body.common header.active{top:0}body.common .wrap header.active{top:40px}body.common .wrap header.active.scroll{top:0}@media (max-width: 767px){body.common .common-header .util-menu{display:none}body.common header{top:0}body.common .wrap header.active{top:0}body.common .wrap header.active.scroll{top:0}}
+/*# sourceMappingURL=common_header.css.map */

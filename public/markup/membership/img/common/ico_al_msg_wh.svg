@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="15" height="15" viewBox="0 0 15 15">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_1057" data-name="사각형 1057" width="15" height="15" transform="translate(0 2)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="마스크_그룹_50" data-name="마스크 그룹 50" transform="translate(0 -2)" clip-path="url(#clip-path)">
+    <g id="chatting" transform="translate(0 2.927)">
+      <path id="패스_4969" data-name="패스 4969" d="M0,10.843a.44.44,0,0,0,.695.358L3.111,9.477a1.182,1.182,0,0,1,.69-.221H9.115a1.7,1.7,0,0,0,1.7-1.7V1.984a.439.439,0,0,0-.439-.439H1.7A1.7,1.7,0,0,0,0,3.241Zm.879-7.6A.818.818,0,0,1,1.7,2.423H9.932V7.56a.818.818,0,0,1-.817.817H3.8a2.056,2.056,0,0,0-1.2.384L.879,9.99Z" transform="translate(0 -1.544)" fill="#fff"/>
+      <path id="패스_4970" data-name="패스 4970" d="M17.792,8.921a1.7,1.7,0,0,0-1.7-1.7H14.922a.439.439,0,1,0,0,.879H16.1a.818.818,0,0,1,.817.818V15.67l-1.721-1.228a2.056,2.056,0,0,0-1.2-.384H8.677a.818.818,0,0,1-.817-.818v-.394a.439.439,0,1,0-.879,0v.394a1.7,1.7,0,0,0,1.7,1.7h5.314a1.182,1.182,0,0,1,.69.221L17.1,16.881a.44.44,0,0,0,.695-.358v-7.6Z" transform="translate(-2.792 -3.816)" fill="#fff"/>
+      <path id="패스_4971" data-name="패스 4971" d="M4.974,6.413h5.077a.439.439,0,1,0,0-.879H4.974a.439.439,0,0,0,0,.879Z" transform="translate(-1.814 -3.14)" fill="#fff"/>
+      <path id="패스_4972" data-name="패스 4972" d="M4.974,9.831h5.077a.439.439,0,1,0,0-.879H4.974a.439.439,0,0,0,0,.879Z" transform="translate(-1.814 -4.507)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15">
+  <g id="그룹_883" data-name="그룹 883" transform="translate(-120 -1965)">
+    <rect id="사각형_1018" data-name="사각형 1018" width="15" height="15" rx="3" transform="translate(120 1965)" fill="#ff5c5c"/>
+    <g id="Checkmark" transform="translate(123 1967)">
+      <path id="Frame" d="M0,0H10V10H0Z" fill="#fff" opacity="0"/>
+      <path id="Shape" d="M3.788,9A1,1,0,0,1,3,8.615l-2.288-3a1,1,0,1,1,1.576-1.23l1.5,1.991L7.712,1.385a1,1,0,1,1,1.576,1.23l-4.712,6A1,1,0,0,1,3.788,9Z" transform="translate(0 0)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

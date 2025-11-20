@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200.001" viewBox="0 0 200 200.001">
+  <g id="그룹_1024" data-name="그룹 1024" transform="translate(-860 -2343.999)">
+    <g id="graph" transform="translate(225 1055)">
+      <circle id="타원_396" data-name="타원 396" cx="100" cy="100" r="100" transform="translate(635 1289)" fill="#717ae5"/>
+      <path id="빼기_2" data-name="빼기 2" d="M6.584,135.762v0h0A99.865,99.865,0,0,1,17.078,44.088a100.291,100.291,0,0,1,44-36.23A99.373,99.373,0,0,1,100,0V81.828L6.585,135.761Z" transform="translate(635 1289)" fill="#ffc964"/>
+      <circle id="타원_397" data-name="타원 397" cx="65" cy="65" r="65" transform="translate(670 1324)" fill="#fff"/>
+    </g>
+    <text id="_24" data-name="24" transform="translate(1021 2492)" fill="#fff" font-size="18" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">24</tspan></text>
+    <text id="_16" data-name="16" transform="translate(877 2411)" fill="#26282b" font-size="18" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">16</tspan></text>
+  </g>
+</svg>

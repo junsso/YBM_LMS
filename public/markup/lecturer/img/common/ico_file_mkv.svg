@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="그룹_1146" data-name="그룹 1146" transform="translate(-998 -3367)">
+    <g id="icon_" transform="translate(123 1)">
+      <rect id="사각형_554" data-name="사각형 554" width="30" height="30" rx="5" transform="translate(875 3366)" fill="#11b24c"/>
+      <path id="다각형_20" data-name="다각형 20" d="M7,0l7,12H0Z" transform="translate(896 3374) rotate(90)" fill="#0c8f3c"/>
+      <text id="MKV" transform="translate(890 3384.5)" fill="#fff" font-size="10" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-10.823" y="0">MKV</tspan></text>
+    </g>
+  </g>
+</svg>

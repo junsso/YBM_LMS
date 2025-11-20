@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="15" height="15" viewBox="0 0 15 15">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_811" data-name="사각형 811" width="15" height="15" transform="translate(1510 521)" fill="#2c93e8"/>
+    </clipPath>
+  </defs>
+  <g id="ico_" transform="translate(-1510 -521)" clip-path="url(#clip-path)">
+    <g id="list" transform="translate(1510 522.855)">
+      <path id="패스_971" data-name="패스 971" d="M15.409,16.763H5.379a.75.75,0,0,1,0-1.5h10.03a.75.75,0,0,1,0,1.5Z" transform="translate(-1.158 -5.671)" fill="#2c93e8"/>
+      <path id="패스_972" data-name="패스 972" d="M15.409,10.5H5.379a.75.75,0,0,1,0-1.5h10.03a.75.75,0,0,1,0,1.5Z" transform="translate(-1.158 -4.105)" fill="#2c93e8"/>
+      <path id="패스_973" data-name="패스 973" d="M15.409,4.235H5.379a.75.75,0,0,1,0-1.5h10.03a.75.75,0,0,1,0,1.5Z" transform="translate(-1.158 -2.539)" fill="#2c93e8"/>
+      <circle id="타원_386" data-name="타원 386" cx="1.005" cy="1.005" r="1.005" transform="translate(0 0)" fill="#2c93e8"/>
+      <circle id="타원_387" data-name="타원 387" cx="1.005" cy="1.005" r="1.005" transform="translate(0 4.64)" fill="#2c93e8"/>
+      <circle id="타원_388" data-name="타원 388" cx="1.005" cy="1.005" r="1.005" transform="translate(0 9.28)" fill="#2c93e8"/>
+    </g>
+  </g>
+</svg>

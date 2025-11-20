@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge;Chromeframe=1">
+  <!-- //모바일 디바이스로 유입 시 viewport를 로드하는 헤더를 사용해주세요(태블릿까지는 pc버전을 그대로 보여줌)
+미디어 쿼리 분기는 768이하로 잡았습니다.
+_variables.scss 파일의 $breakpoint-tablet: 768px; 부분 참고해주세요.-->
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="generator" content="">
+  <meta name="robots" content="ALL">
+  <meta property="og:type" content="">
+  <meta property="og:title" content="">
+  <meta property="og:description" content="">
+  <meta property="og:image" content="">
+  <meta property="og:url" content="">
+  <title>YBM스마트스쿨</title>
+  <link rel="shortcut icon" href="">
+  <link rel="stylesheet" href="../../common/css/import.css">
+  <script src="../../lib/jquery-3.6.0.min.js"></script>
+  <script src="../../lib/swiper.js"></script>
+
+</head>
+
+<body class="main-cont">
+
+  <!-- start:header -->
+  <header>
+    <div class="inner">
+      <div class="for-mo">
+        <div class="check-login">
+          <!-- 로그인 후
+          <a href="#none"><strong>홍길동</strong>님</a>
+          <p>즐거운 하루 되세요!</p>
+          //로그인 후 -->
+          <!-- 로그인 전 -->
+          <a href="#none" class="login"><strong>로그인</strong></a>
+          <p>로그인을 해주세요.</p>
+          <!--//로그인 전 -->
+        </div>
+        <div class="alarm-set">
+          <button type="button">
+            <em class="btn-alarm bell"></em>알림<span>N</span>
+          </button>
+          <button type="button">
+            <em class="btn-alarm msg"></em>메세지<span>1</span>
+          </button>
+        </div>
+      </div>
+      <div class="header-left">
+        <div class="logo">
+          <a href="#">
+            <img src="../../img/common/main_logo_s2.svg" alt="" class="pc">
+            <img src="../../img/common/logo_m2.svg" alt="" class="mo">
+          </a>
+        </div>
+        <div class="gnb-left">
+          <a href="#none">교사 채널</a>
+          <a href="#none">학생 채널</a>
+          <a href="#none">학부모 채널</a>
+        </div>
+      </div>
+      <div class="header-right">
+        <div class="gnb-right">
+          <button type="button" class="btn-alarm bell"><span>N</span></button>
+          <button type="button" class="btn-alarm msg"><span>1</span></button>
+          <a href="#none">로그아웃</a>
+          <a href="#none">개인정보관리</a>
+          <a href="#none">이용권</a>
+          <a href="#none">고객센터</a>
+          <a href="#none" class="app"><img src="../../img/common/ico_app.svg" alt="">앱 다운로드</a>
+          <div class="form-block-group">
+            <select name="" id="" class="select-box">
+              <option value="">채널 바로가기</option>
+              <option value="">교사채널</option>
+              <option value="">강사채널</option>
+              <option value="">초등채널</option>
+              <option value="">중고등채널</option>
+              <option value="">학부모채널</option>
+            </select>
+          </div>
+        </div>
+        <div class="trigger-box">
+          <input type="checkbox" id="trigger">
+          <label for="trigger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>
+      </div>
+      <a href="#none" class="shortcuts">학교 수업용 <span>바로가기</span><i></i></a>
+    </div>
+  </header>
+  <!-- //end:header -->
+  <!-- container -->
+  <div class="container fullpage">
+    <!-- main -->
+    <section class="main swiper section slide tutor">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="main-conts">
+              <div class="main-leftcont">
+                <h2>YBM 스마트스쿨 OPEN</h2>
+                <span>
+                  등교·화상·온라인 수업, <br>
+                  이 모든 것이 가능한 <br>
+                  대면·비대면 교육 플랫폼
+                </span>
+                <p>
+                  교사는 교사 채널에서, 학생은 학생 채널에서 필요한 채널에 가입해주세요.
+                </p>
+              </div>
+              <div class="main-rightcont">
+                <img src="../../img/common/bg_child_tutor.png" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="main-conts">
+              <div class="main-leftcont">
+                <h2>수업의 모든 것</h2>
+                <em>출석·수업·과제·평가·학습·상담</em>
+                <span>
+                  이 모든 과정을 담은 <br /><strong>YBM스마트스쿨</strong>을 <br />경험해보세요!
+                </span>
+                <p>
+                  수업의 시작과 끝을 함께 합니다.
+                </p>
+              </div>
+              <div class="main-rightcont">
+                <img src="../../img/common/bg_slide2_tutor.png" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide slide3">
+            <div class="main-conts">
+              <div class="main-leftcont">
+                <h2>온·오프라인 혼합수업</h2>
+                <span>
+                  새로운 교육 패러다임 <br />블렌디드 러닝 <br />YBM스마트스쿨
+                </span>
+                <p>
+                  스마트스쿨을 이용하면 수업유형에 제약없이 보다 효과적인 수업을 만들 수 있습니다.
+                </p>
+              </div>
+              <div class="main-rightcont">
+                <img src="../../img/common/bg_slide3_tutor.png" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide slide4">
+            <div class="main-conts">
+              <div class="main-leftcont">
+                <h2>QUICK & EASY</h2>
+                <span>
+                  <strong>선생님</strong>은 수업관리부터 학급·학생관리를 쉽고 간편하게,<br />
+                  <strong>학생</strong>은 수업 참여부터 과제 풀이·제출과 피드백을 클릭 한 번에<br />
+                  <strong>부모님</strong>은 학생의 수업 목록부터 과제·평가 리포트 확인 가능
+                </span>
+              </div>
+              <div class="main-rightcont">
+                <img src="../../img/common/bg_slide4.png" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide slide5">
+            <div class="main-conts">
+              <div class="main-leftcont">
+                <h2>온라인 콘텐츠 저작도 바로바로</h2>
+                <span>
+                  오프라인 자료를 온라인 시험지와 <br />워크시트로 수업에 흥미를 주는 퀴즈도 <br />온라인 저작으로 간편하게!
+                </span>
+              </div>
+              <div class="main-rightcont">
+                <img src="../../img/common/bg_slide5.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <div class="mousebox">
+        <div class="mouse">
+          <span class="wheele"></span>
+        </div>
+        <p>SCROLL</p>
+      </div>
+      
+    </section>
+
+    <!-- section2 -->
+    <section class="main-sec2 main-sec section tutor">
+      <div class="inner">
+        <div class="sec-cont">
+          <div class="sec-left">
+            <img src="../../img/common/sec2_img_tutor.png" alt="">
+          </div>
+          <div class="sec-right">
+            <div class="sec-title">
+              <h1>강사 채널</h1>
+              <p>학원의 유연한 강의 스케줄 운용이 가능한 스마트 스쿨</p>
+            </div>
+            <div class="sec-items">
+              <div class="item">
+                <img src="../../img/common/ico_plan_tutor.svg" alt="">
+                <span>간단한 수업 설계</span>
+              </div>
+              <div class="item">
+                <img src="../../img/common/ico_setting_tutor.svg" alt="">
+                <span>편리한 학급 · 학생 관리</span>
+              </div>
+              <div class="item">
+                <img src="../../img/common/ico_content_tutor.svg" alt="">
+                <span>온라인 콘텐츠 제작</span>
+              </div>
+              <div class="item">
+                <img src="../../img/common/ico_tool_tutor.svg" alt="">
+                <span>다양한 수업 도구</span>
+              </div>
+              <div class="item">
+                <img src="../../img/common/ico_research_tutor.svg" alt="">
+                <span>함께하는 수업 연구실</span>
+              </div>
+            </div>
+            <div class="sec-btn">
+              <a href="#none">강사 채널 회원가입 <img src="../../img/common/arrow_right.svg" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sec-img">
+        <img id="main-img3" src="../../img/common/ico_shape2_tutor.svg" alt="">
+      </div>
+    </section>
+
+    <!-- section3 -->
+    <section class="main-sec3 main-sec section">
+      <div class="inner">
+        <div class="sec-cont">
+          <div class="sec-right">
+            <div class="sec-title">
+              <h1>학생 채널</h1>
+              <p>혼자서도 잘 할 수 있는 스마트스쿨</p>
+            </div>
+            <div class="sec-items">
+              <div class="item">
+                <img src="../../img/common/ico_plan2.svg" alt="">
+                <span>수업 시간표</span>
+              </div>
+              <div class="item">
+                <img src="../../img/common/ico_content2.svg" alt="">
+                <span>화상 수업 · 온라인 수업</span>
+              </div>
+              <div class="item">
+                <img src="../../img/common/ico_ev2.svg" alt="">
+                <span>온라인 과제 · 평가 제출</span>
+              </div>
+              <div class="item">
+                <img src="../../img/common/ico_tool2.svg" alt="">
+                <span>내 학습 리포트</span>
+              </div>
+              <div class="item">
+                <img src="../../img/common/ico_bulb2.svg" alt="">
+                <span>온라인 학습 콘텐츠</span>
+              </div>
+            </div>
+            <div class="sec-btn">
+              <a href="#none" data-popup="stdType">학생 채널 회원가입 <img src="../../img/common/arrow_right.svg" alt=""></a>
+            </div>
+          </div>
+          <div class="sec-left">
+            <img src="../../img/common/sec3_img.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="sec-img">
+        <img id="main-img4" src="../../img/common/ico_shape3.svg" alt="">
+        <img id="main-img5" src="../../img/common/ico_shape4.svg" alt="">
+      </div>
+    </section>
+
+    <!-- section4 -->
+    <section class="main-sec4 main-sec section tutor">
+      <div class="inner">
+        <div class="sec-cont">
+          <div class="sec-left">
+            <img src="../../img/common/sec4_img_tutor.png" alt="">
+          </div>
+          <div class="sec-right">
+            <div class="sec-title">
+              <h1>학부모 채널</h1>
+              <p>내 아이의 학습을 케어해주는 스마트 스쿨</p>
+            </div>
+            <div class="sec-items">
+              <div class="item">
+                <img src="../../img/common/ico_plan3_tutor.svg" alt="">
+                <span>내 아이 시간표 챙기기</span>
+              </div>
+              <div class="item">
+                <img src="../../img/common/ico_data3_tutor.svg" alt="">
+                <span>수업 계획·자료 조회</span>
+              </div>
+              <div class="item">
+                <img src="../../img/common/ico_content3_tutor.svg" alt="">
+                <span>과제·평가 내용 보기</span>
+              </div>
+              <div class="item">
+                <img src="../../img/common/ico_tool3_tutor.svg" alt="">
+                <span>내 아이 학습 리포트</span>
+              </div>
+              <div class="item last-item">
+                <img src="../../img/common/ico_bulb3_tutor.svg" alt="">
+                <span>내 아이의 온라인 학습 콘텐츠</span>
+              </div>
+            </div>
+            <div class="sec-btn">
+              <a href="#none">학부모 채널 회원가입 <img src="../../img/common/arrow_right.svg" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+
+  <div class="guide-btn">
+    <ul class="scroll-menu">
+      <li class="on">
+        <a href="#"></a>
+        <span>MAIN</span>
+      </li>
+      <li>
+        <a href="#"></a>
+        <span>강사 채널</span>
+      </li>
+      <li>
+        <a href="#"></a>
+        <span>학생 채널</span>
+      </li>
+      <li>
+        <a href="#"></a>
+        <span>학부모 채널</span>
+      </li>
+    </ul>
+  </div>
+
+  <!-- footer -->
+  <footer class="footer">
+    <div class="inner">
+      <div class="footer-top">
+        <div class="footer-tleft">
+          <h3>YBM스마트스쿨 고객센터</h3>
+          <span>02-2000-0599</span>
+        </div>
+        <div class="footer-tcenter">
+          <ul>
+            <li>
+              <a href="http://www.ybm.co.kr/ybm_company" target="_blank">회사소개</a> 
+            </li>
+            <li>
+              <a href="#none" data-popup="terms">이용약관</a> 
+            </li>
+            <li>
+              <a href="#none" data-popup="personal">개인정보처리방침</a> 
+            </li>
+          </ul>
+        </div>
+        <div class="footer-tright">
+          <select>
+            <option value="">FAMILY SITE</option>
+            <option value="">FAMILY SITE1</option>
+            <option value="">FAMILY SITE2</option>
+            <option value="">FAMILY SITE3</option>
+          </select>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-bleft">
+          <ul>
+            <li>㈜와이비엠 <i>|</i></li>
+            <li>서울시 종로구 종로 104 <i>|</i></li>
+            <li> 대표이사 권오찬, 정용환 <i>|</i></li>
+            <li>사업자등록번호 101-81-14655 <i>|</i></li>
+            <li>통신판매신고번호 제 01-320 호 <i>|</i></li>
+            <li>고객센터 : 02-2000-0599 <i>|</i></li>
+            <li>FAX : 02-2000-0426 <i>|</i></li>
+            <li>E-mail : ycloud@ybm.co.kr</li>
+          </ul>
+          <p>
+            Copyright ⓒ (주)YBM. All rights reserved.
+          </p>
+        </div>
+        <div class="footer-bright">
+          <a href="#"><img src="../../img/common/footer_logo.svg" alt=""></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+<!-- start:레이어 팝업 -->
+<div class="popup-wrap"></div>
+<!-- //end:레이어 팝업 -->
+<script src="../../common/js/ui.js"></script>  
+<script src="../../common/js/popup.js"></script>
+<script src="../../common/js/fullpage.js"></script>
+
+</body>
+
+</html>

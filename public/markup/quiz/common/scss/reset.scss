@@ -1,0 +1,72 @@
+@charset "UTF-8";
+@import 'variables', 'func';
+
+html, body{
+    @include font;
+    @include box;
+    -webkit-overflow-scrolling: touch;
+    min-width: $breakpoint-desktop2;
+}
+
+div, p, span, em, h1, h2, h3, h4, h5, ul, li, ol{
+    @include box;
+}
+
+a{
+    text-decoration: none;
+}
+a, input, button, textarea, select, textarea{
+    @include font;
+    @include box;
+    @include border(0);
+}
+
+input{
+    &:disabled{
+        &+label{
+            color: map-get($bg-grays, 19);
+        }
+    }
+    &[type="number"]{
+        -moz-appearance: textfield;
+        &::-webkit-outer-spin-button,
+        &::-webkit-inner-spin-button{
+            -webkit-appearance: none; 
+            -moz-appearance: none; 
+            appearance: none; 
+        }
+    }
+}
+
+button{
+    cursor: pointer;    
+    background: transparent none;
+}
+a:active, button:active, input:focus{
+    outline: none;
+}
+::placeholder{
+    @include font((
+        weight: map-get($font-weights, 'regular'), 
+        color: map-get($bg-grays, 13),
+        size: rem(15px)
+    )...);
+}
+::after, ::before{
+    box-sizing: border-box;
+}
+
+[hidden]{
+    display: none !important;
+}
+
+a:hover{
+    transition: all .3s ease;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    table-layout: fixed;
+}

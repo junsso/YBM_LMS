@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_1077" data-name="사각형 1077" width="30" height="30" fill="#72787f"/>
+    </clipPath>
+  </defs>
+  <g id="ic_close" transform="translate(-974 -1090)">
+    <g id="타원_465" data-name="타원 465" transform="translate(974 1090)" fill="#fff" stroke="#c9cdd2" stroke-width="1">
+      <circle cx="25" cy="25" r="25" stroke="none"/>
+      <circle cx="25" cy="25" r="24.5" fill="none"/>
+    </g>
+    <g id="ico_close" transform="translate(984 1100)" clip-path="url(#clip-path)">
+      <g id="Layer_2" data-name="Layer 2" transform="translate(14.47 0.455) rotate(45)">
+        <g id="Layer_1" data-name="Layer 1">
+          <path id="패스_2465" data-name="패스 2465" d="M19.8,9.136H12.182V1.523a1.523,1.523,0,0,0-3.045,0V9.136H1.523a1.523,1.523,0,0,0,0,3.045H9.136V19.8a1.523,1.523,0,0,0,3.045,0V12.182H19.8a1.523,1.523,0,0,0,0-3.045Z" fill="#72787f"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,59 @@
+//font, color
+$font-stack : 'Roboto', 'Noto Sans KR', sans-serif;
+$font-stack2 : 'SCoreDream';
+$font-stack3 : 'SCoreDream';
+$base-font-size : 16px;
+$base-font-weight: 400; 
+$base-line-height: 28px;
+$base-bgcolor : #F7F8F9;
+$base-line-color : #DAE1E6;
+$btn-border-color: #C9CDD2;
+$base-text-color: #26282B;
+$base-text-color2: #72787F;
+$base-text-color3 : #454C53;
+$base-text-rfcolor: #ffffff;
+$button-bgcolor : #E8EBED;
+$section-title-color: #1B1D1F;
+$primary-color : #FFB506;
+$primary-color2 : #FF9A80;
+$primary-bg-color : #15BF91;
+$primary-text-color : #FC5D5D;
+$secondary-color : #717AE5;
+$secondary-bg : #ffffff;
+$disabled-bg: #B7BEC7; 
+$scrollbar: #C1C1C1;
+$sch-color : #4D9AFF;
+$sch-color2 : #FFC964;
+$sch-color3 : #6FCF78;
+$sch-color4 : #4D9AFF;
+$sch-color5 : #9EA4AA;
+$sch-color6 : #71BFE5;
+$sch-color7 : #15BF91;
+$sch-color8 : #828180;
+$bg-softly-color : rgba(21, 191, 145, 0.1);
+$button-bgcolor-none: transparent;
+$holiday-color: #FF9100;
+$tag-tc-color: #FF5C5C;
+$tag-pt-color: #15BF91;
+$tag-st-color: #6F57CF;
+$holiday-bg-color: #FFF5E3;
+$guide-color: #9EA4AA;
+
+
+// layout
+$w-max-width: 1200px;
+$wm-max-width: 1100px;
+$m-max-width: 767px;
+$container-max-width: 1834px;
+$container-min-width: 1100px;
+
+
+// Breakpoints
+$breakpoint-mobile: 767px;
+$breakpoint-tablet: 768px;
+$breakpoint-desktop-1px: 1023px;
+$breakpoint-desktop: 1024px;
+
+// url
+$img-url: '../../img/common/';
+$img-temp-url: '../../img/temp/';

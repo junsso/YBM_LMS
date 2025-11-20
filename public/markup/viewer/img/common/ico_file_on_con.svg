@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="그룹_1135" data-name="그룹 1135" transform="translate(-1355 -3366)">
+    <g id="사각형_554" data-name="사각형 554" transform="translate(1355 3366)" fill="#fff" stroke="#08725d" stroke-width="1">
+      <rect width="30" height="30" rx="5" stroke="none"/>
+      <rect x="0.5" y="0.5" width="29" height="29" rx="4.5" fill="none"/>
+    </g>
+    <text id="온_콘" data-name="온/콘" transform="translate(1370 3385)" fill="#08725d" font-size="10" font-family="NotoSansKR-Bold, Noto Sans KR" font-weight="700"><tspan x="-11.14" y="0">온/콘</tspan></text>
+  </g>
+</svg>

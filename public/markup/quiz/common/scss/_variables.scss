@@ -1,0 +1,72 @@
+// default font style
+$base-font-size: 16px;
+$font-weights: ('small': 300, 'small2': 350, 'regular': 400, 'medium': 500,'bold': 700);
+$font-family: 'Roboto', 'Noto Sans KR';
+
+// colors
+$basic-trans-color: transparent;
+$bg-grays: (
+     1:#000000,  2:#111111,  3:#303030,  4:#333333,  5:#414141,  6:#555555,  7:#666666,  8:#777777,  9:#848484, 10:#999999, 
+    11:#3B3B3B, 12:#72787F, 13:#AAAAAA, 14:#B5B5B5, 15:#B8B8B8, 16:#C9C9CA, 17:#CCCCCC, 18:#D1D1D1, 19:#D9D9D9, 20:#DDDDDD,
+    21:#DFE6EF, 22:#F0F4F9, 23:#F1F1F1, 24:#F7F7F7, 25:#F8F8F8, 26:#FFFFFF,
+    27:#D0D0D0, 28:#CDD3D8, 29:#DADADA, 30:#C9CDD2, 31:#888888, 32:#7C7C7C, 33:#222222, 34:#E0E0E0, 35:#EEEEEE,
+    36:#949494, 37:#F7F8F9, 38:#9EA4AA, 39:#454C53, 40:#D4D4D4, 41:#808080, 42:#474747, 43:#BEBEBE,
+);
+$def-colors: (
+    'bg': map-get($bg-grays, 26),
+    'font': map-get($bg-grays, 7),
+);
+$active-colors: (
+     1:#0EA1DB,
+     2:#EFF7FB,
+     3:#007AFF,
+     4:#00B0B5,
+     5:#00416C,
+     6:#4F5FD8,
+     7:#002877,
+     8:#FC5D5B,
+     9:#F85E5E,
+    10:#FB5D5D,
+    11:#0F3653,
+    12:#F16060,
+    13:#4C586C,
+    14:#EDF4FA,
+    15:#1B1D1F,
+    16:#ff5c5c,
+    17:#157FCE,
+    18:#E8EBED,
+    19:#CEF1FF,
+    20:#9EE4FF,
+);
+$sticker-colors: (
+    1:#5678C6,
+    2:#63B6CF,
+    3:#54B09A, 
+    4:#FF6652,
+    5:#F9BA48,
+    6:#FA88A5,
+    7:#62C3CE,
+    8:#4DCC80,
+    9:#748AC2,
+);
+$white: map-get($bg-grays,26);
+
+// transition
+$transition-speed: 0.4s;
+
+// layout
+$inner-container: 1280px;
+$aspect-ratio-w: calc(16/9);
+$aspect-ratio-h: calc(2/3);
+$aspect-scale:1.24;
+
+// Breakpoints
+$breakpoint-mobile: 360px;
+$breakpoint-tablet: 768px; //현재는 이 값만 사용중
+$breakpoint-desktop: 1024px;
+$breakpoint-desktop2: 1470px;
+
+// url
+$img-url: '../../img/common/';
+$img-temp-url: '../../img/temp/';
+$img-guide-url: '../../img/guide/';

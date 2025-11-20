@@ -1,0 +1,12 @@
+<svg id="icon_mp4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#47f187"/>
+      <stop offset="0.251" stop-color="#52d1f1"/>
+      <stop offset="0.707" stop-color="#d165eb"/>
+      <stop offset="1" stop-color="#f3c77a"/>
+    </linearGradient>
+  </defs>
+  <rect id="사각형_554" data-name="사각형 554" width="30" height="30" rx="5" fill="url(#linear-gradient)"/>
+  <text id="CD" transform="translate(15 19)" fill="#fff" font-size="10" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-6.807" y="0">CD</tspan></text>
+</svg>

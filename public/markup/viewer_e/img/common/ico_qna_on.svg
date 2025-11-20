@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25" height="25" viewBox="0 0 25 25">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_662" data-name="사각형 662" width="25" height="25" transform="translate(-2001 10383)" fill="#ff0" stroke="#ff0" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="마스크_그룹_142" data-name="마스크 그룹 142" transform="translate(2001 -10383)" clip-path="url(#clip-path)">
+    <g id="그룹_1069" data-name="그룹 1069" transform="translate(-5179.323 8008.001)">
+      <g id="그룹_1067" data-name="그룹 1067" transform="translate(3189.155 2381.373)">
+        <path id="패스_1293" data-name="패스 1293" d="M3322.88,2453.482a.311.311,0,0,1-.14-.033l-4.646-2.34h-5.514a1.384,1.384,0,0,1-1.467-1.277v-12.978a1.383,1.383,0,0,1,1.467-1.276h10.512a1.383,1.383,0,0,1,1.468,1.276v12.978a1.377,1.377,0,0,1-1.423,1.276l.043,2.082a.282.282,0,0,1-.143.249A.31.31,0,0,1,3322.88,2453.482Zm-10.3-17.334a.8.8,0,0,0-.868.706v12.978a.8.8,0,0,0,.868.706h5.588a.311.311,0,0,1,.14.033l4.262,2.146-.039-1.889a.275.275,0,0,1,.086-.2.307.307,0,0,1,.214-.086h.261a.8.8,0,0,0,.868-.706v-12.978a.8.8,0,0,0-.868-.706Z" transform="translate(-3311.112 -2435.579)" fill="#ff0" stroke="#ff0" stroke-width="0.5"/>
+      </g>
+      <g id="그룹_1068" data-name="그룹 1068" transform="translate(3179.044 2375.72)">
+        <path id="패스_1294" data-name="패스 1294" d="M3189.351,2391.714h-3.528l-4.871,2.41a.334.334,0,0,1-.312-.01.288.288,0,0,1-.149-.256l.045-2.144a1.434,1.434,0,0,1-1.492-1.314v-13.365a1.442,1.442,0,0,1,1.539-1.315H3191.6a1.442,1.442,0,0,1,1.539,1.315v4.647h-.628v-4.647a.835.835,0,0,0-.911-.727h-11.021a.835.835,0,0,0-.91.727V2390.4a.836.836,0,0,0,.91.727h.274a.324.324,0,0,1,.224.088.285.285,0,0,1,.09.211l-.041,1.945,4.469-2.21a.332.332,0,0,1,.146-.034h3.606Z" transform="translate(-3179.044 -2375.72)" fill="#ff0" stroke="#ff0" stroke-width="0.5"/>
+      </g>
+      <text id="A" transform="translate(3193.143 2391.644)" fill="#ff0" font-size="8" font-family="Roboto-Bold, Roboto" font-weight="700" letter-spacing="0.025em"><tspan x="0" y="0">A</tspan></text>
+      <text id="Q" transform="translate(3182.607 2385.383)" fill="#ff0" font-size="7" font-family="Roboto-Bold, Roboto" font-weight="700" letter-spacing="0.025em"><tspan x="0" y="0">Q</tspan></text>
+    </g>
+  </g>
+</svg>

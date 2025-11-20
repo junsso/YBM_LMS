@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="icon_" transform="translate(-875 -3366)">
+    <rect id="사각형_554" data-name="사각형 554" width="30" height="30" rx="5" transform="translate(875 3366)" fill="#ad84f7"/>
+    <path id="패스_2461" data-name="패스 2461" d="M259.1,459.264a1.887,1.887,0,0,1-.573-1.056h-.764v15.177a4.876,4.876,0,0,0-3.914-.465c-2.227.553-3.754,2.121-3.411,3.5s2.426,2.054,4.653,1.5c2.16-.536,3.661-2.028,3.436-3.378v-12.9a6.051,6.051,0,0,1,1.393.661c3.308,1.865,4.653,3.8,3.779,9.96-.024.171.111.176.16.007C266.742,462.328,259.619,459.781,259.1,459.264Z" transform="translate(631.455 2912.838)" opacity="0.3"/>
+    <text id="WMA" transform="translate(890 3384.5)" fill="#fff" font-size="10" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-12.117" y="0">WMA</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,57 @@
+@import 'variables';
+@import 'breakpoint';
+@import 'common';
+
+//공통헤더
+body{
+    &.common{
+        .common-header{
+            .util-menu{
+                .container-inner{
+                    max-width: 100%;
+                    padding: 0 40px;
+                }
+            }
+        }
+        header{
+            top: 40px;
+            &.active{
+                top: 0;
+            }
+        }
+        .wrap{
+            header{
+                &.active{
+                    top: 40px;
+                    &.scroll{
+                        top: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+@include mobile{
+    body{
+        &.common{
+            .common-header{
+                .util-menu{
+                    display: none;
+                }
+            }
+            header{
+                top: 0;
+            }
+            .wrap{
+                header{
+                    &.active{
+                        top: 0;
+                        &.scroll{
+                            top: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

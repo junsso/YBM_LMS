@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23">
+  <g id="반대" transform="translate(-1356 -1058.352)">
+    <g id="bg_" transform="translate(1356 1058.352)" fill="#f03a17" stroke="#000" stroke-width="1">
+      <rect width="23" height="23" stroke="none"/>
+      <rect x="0.5" y="0.5" width="22" height="22" fill="none"/>
+    </g>
+    <text id="반대-2" data-name="반대" transform="translate(1359 1074.352)" fill="#fff" font-size="10" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR" letter-spacing="-0.1em"><tspan x="0" y="0">반대</tspan></text>
+  </g>
+</svg>

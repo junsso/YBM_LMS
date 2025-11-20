@@ -1,0 +1,10 @@
+<svg id="icon_수업확인" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25" height="25" viewBox="0 0 25 25">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_397" data-name="사각형 397" width="25" height="25" fill="#2c93e8" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="icon_수업확인-2" data-name="icon_수업확인" clip-path="url(#clip-path)">
+    <path id="check_2_" data-name="check (2)" d="M9.573,19.063a1.276,1.276,0,0,1-1.8,0L.561,11.854a1.914,1.914,0,0,1,0-2.707l.9-.9a1.914,1.914,0,0,1,2.708,0l4.5,4.5L20.829.585a1.914,1.914,0,0,1,2.708,0l.9.9a1.914,1.914,0,0,1,0,2.707Zm0,0" transform="translate(0 2.77)" fill="#2c93e8"/>
+  </g>
+</svg>

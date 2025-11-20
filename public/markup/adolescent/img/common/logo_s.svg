@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="78.669" height="22" viewBox="0 0 78.669 22">
+  <g id="logo" transform="translate(-103.331 -20)">
+    <g id="beta_version" data-name="beta version" transform="translate(147.249 30.084)">
+      <rect id="사각형_1199" data-name="사각형 1199" width="8" height="10" transform="translate(-0.249 1.916)" fill="#004ea1"/>
+      <text id="B" transform="translate(3.751 9.916)" fill="#fff" font-size="9" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-2.872" y="0">B</tspan></text>
+      <rect id="사각형_1200" data-name="사각형 1200" width="8" height="10" transform="translate(8.751 1.916)" fill="#004ea1"/>
+      <text id="E" transform="translate(12.751 9.916)" fill="#fff" font-size="9" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-2.531" y="0">E</tspan></text>
+      <rect id="사각형_1201" data-name="사각형 1201" width="8" height="10" transform="translate(17.751 1.916)" fill="#004ea1"/>
+      <text id="T" transform="translate(21.751 9.916)" fill="#fff" font-size="9" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-2.784" y="0">T</tspan></text>
+      <rect id="사각형_1202" data-name="사각형 1202" width="8" height="10" transform="translate(26.751 1.916)" fill="#004ea1"/>
+      <text id="A" transform="translate(30.751 9.916)" fill="#fff" font-size="9" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-3.028" y="0">A</tspan></text>
+    </g>
+    <g id="logo-2" data-name="logo" transform="translate(110.227 -759.93)">
+      <path id="패스_4931" data-name="패스 4931" d="M-6.9,786.7V779.93h3.935V790.2c0,.154-.233.222-.35.1Z" transform="translate(0 0)" fill="#e8473f"/>
+      <path id="패스_4932" data-name="패스 4932" d="M24.3,798.3V779.93H20.36v21.836c0,.152.233.221.351.1Z" transform="translate(-21.389 0)" fill="#e8473f"/>
+      <rect id="사각형_999" data-name="사각형 999" width="3.936" height="21.999" transform="translate(5.492 779.93)" fill="#e8473f"/>
+      <path id="패스_4933" data-name="패스 4933" d="M78.263,779.993c-.118-.119-.351-.049-.351.1V790.19c0,.153.233.222.351.1l3.586-3.6v-3.1Z" transform="translate(-66.552 -0.002)" fill="#e8473f"/>
+      <path id="패스_4934" data-name="패스 4934" d="M78.263,834.3c-.118-.118-.351-.049-.351.1V844.5c0,.153.233.222.351.1l3.586-3.6v-3.1Z" transform="translate(-66.552 -42.733)" fill="#e8473f"/>
+      <path id="패스_4935" data-name="패스 4935" d="M109.937,783.562V801.93H106V780.094c0-.152.233-.22.35-.1Z" transform="translate(-88.596 -0.002)" fill="#004ea1"/>
+      <path id="패스_4936" data-name="패스 4936" d="M134.17,783.562l.039,18.369-3.975,0V780.094c0-.152.233-.22.35-.1Z" transform="translate(-107.644 -0.002)" fill="#004ea1"/>
+      <path id="패스_4937" data-name="패스 4937" d="M158.4,783.562V801.93h-3.936V780.094c0-.152.233-.22.35-.1Z" transform="translate(-126.626 -0.002)" fill="#004ea1"/>
+    </g>
+  </g>
+</svg>

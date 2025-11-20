@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25" height="25" viewBox="0 0 25 25">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_511" data-name="사각형 511" width="25" height="25" transform="translate(1051 158)" fill="#303d53"/>
+    </clipPath>
+  </defs>
+  <g id="마스크_그룹_139" data-name="마스크 그룹 139" transform="translate(-1051 -158)" clip-path="url(#clip-path)">
+    <g id="그룹_110" data-name="그룹 110" transform="translate(0)">
+      <path id="files" d="M1.674,17.9h9.531a1.676,1.676,0,0,0,1.674-1.674c0-12.215.071-11.463-.174-11.708C9.137.948,9.363,1.156,9.239,1.094c-.178-.09.31-.063-7.565-.063A1.676,1.676,0,0,0,0,2.705V16.225A1.676,1.676,0,0,0,1.674,17.9ZM9.567,3.055l1.289,1.289H9.567ZM1.185,2.705a.489.489,0,0,1,.489-.489H8.382v2.72a.593.593,0,0,0,.593.593h2.72v10.7a.489.489,0,0,1-.489.489H1.674a.489.489,0,0,1-.489-.489Z" transform="translate(1063 160.973)"/>
+      <g id="사각형_512" data-name="사각형 512" transform="translate(1051 162)" fill="#fff" stroke="#000" stroke-width="1.2">
+        <rect width="13" height="17" rx="2" stroke="none"/>
+        <rect x="0.6" y="0.6" width="11.8" height="15.8" rx="1.4" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

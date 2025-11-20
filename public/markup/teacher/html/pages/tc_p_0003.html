@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge;Chromeframe=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="generator" content="">
+<meta name="robots" content="ALL">
+<meta property="og:type" content="">
+<meta property="og:title" content="">
+<meta property="og:description" content="">
+<meta property="og:image" content="">
+<meta property="og:url" content="">
+<title>페이지명 | 초등(채널명) | YBM온라인스쿨(사이트명)</title>
+<link rel="shortcut icon" href="">
+<link rel="stylesheet" href="../../common/css/import.css">
+<script src="../../lib/jquery-3.6.0.min.js"></script>
+</head>
+<body class="common">
+    <!-- start: 스마트스쿨 공통 헤더 -->
+    <section class="common-header">
+        <div class="util-menu">
+            <div class="container-inner">
+                <div class="out-link">
+                    <div class="go-gate"><a href="#;">게이트</a></div>
+                    <div class="go-channel">
+                        <ul>
+                            <li class="current"><a href="#;" target="_blank">초등</a></li>
+                            <li><a href="#;" target="_blank">중학</a></li>
+                            <li><a href="#;" target="_blank">고등</a></li>
+                            <li><a href="#;" target="_blank">스마트스쿨</a></li>
+                            <li><a href="#;" target="_blank">깜짝퀴즈</a></li>
+                            <li><a href="#;" target="_blank">커넥트북</a></li>
+                        </ul>
+                    </div>
+                    <div class="go-fm-list">
+                        <ul>
+                            <li><a href="#;" target="_blank">YBM교과서 소개</a></li>
+                            <li><a href="#;" target="_blank">YBM스마트스쿨</a></li>
+                            <li class="type2"><a href="#;" target="_blank">YBM교원 연수원</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="inner-link">
+                    <ul>
+                        <li><a href="#;">로그인</a></li>
+                        <li><a href="#;">회원가입</a></li>
+                        <!-- 로그인 후
+                        <li><a href="#;">로그아웃</a></li>
+                        <li><a href="#;">개인정보수정</a></li>
+                        //로그인 후 -->
+                        <li><a href="#;">고객센터</a></li>
+                        <li><a href="#;" class="favorite ico-favorite-before" data-popup="shortcut">즐겨찾기</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- // end: 스마트스쿨 공통 헤더 -->
+
+    <section class="wrap">
+        <!-- start:좌측 메뉴 -->
+        <section class="header">
+            <div class="inner">
+                <h1 class="site-name"><a href="#">YBM스마트스쿨</a></h1>
+                <nav class="gnb">
+                    <ul>
+                        <li class="current">
+                            <a href="tc_p_0003.html"><span class="ico-gnb sboard"></span><em>수업보드</em></a>
+                        </li>
+                        <li>
+                            <a href="#"><span class="ico-gnb mg-class"></span><em>수업관리</em></a>
+                            <ul class="dropdown">
+                                <li><a href="view_tc_p_1101.html">수업설계</a></li>
+                                <li><a href="view_tc_p_1201_1.html">평가·과제 관리</a></li>
+                                <li><a href="tc_p_1301.html">Online 콘텐츠 만들기</a></li>
+                                <li><a href="tc_p_1431_5.html">시간표 관리</a></li>
+                                <li><a href="view_tc_p_1501.html">수업 리포트</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#"><span class="ico-gnb mg-study"></span><em>학급학생관리</em></a>
+                            <ul class="dropdown">
+                                <li><a href="tc_p_3101.html">학급 현황</a></li>
+                                <li><a href="#">학생 현황</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#"><span class="ico-gnb mg-alarm"></span><em>메시지 관리</em></a>
+                            <ul class="dropdown">
+                                <li><a href="#">알림장(전달사항)</a></li>
+                                <li><a href="#">상담/문의</a></li>
+                            </ul>
+                        </li>
+                        <li class="dv-bar"></li>
+                        <li>
+                            <a href="#"><span class="ico-gnb rnd"></span><em>수업연구실</em></a>
+                            <ul class="dropdown">
+                                <li><a href="#">자료 나눔터</a></li>
+                                <li><a href="#">내 연구실</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#"><span class="ico-gnb ttalk"></span><em>T톡</em></a>
+                            <ul class="dropdown">
+                                <li><a href="#">이슈톡</a></li>
+                                <li><a href="#">프리톡</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="movie-wrap">
+                    <div class="inn">
+                        <button class="tt-btn"><span>화상수업</span></button>
+                        <div class="tg-box">
+                            <ul>
+                                <li class="item"><a href="#;" data-popup="classMovie">학급 화상수업</a></li>
+                                <!-- 공개 수업링클르 통해 참여시 data-popup="classMovieOpen2"-->
+                                <li class="item"><a href="#;" data-popup="classMovieOpen">공개 화상수업</a></li>
+                                <li class="item"><a href="#;">연습·녹화용 화상수업</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="launch-wrap">
+                    <a href="https://www.ybmcloud.com" target="_blank" title="Y클라우드 새창열림"><span></span></a>
+                </div> -->
+            </div>
+            <div class="toggle-fold">
+                <button><span>메뉴 열기/닫기</span></button>
+            </div>
+        </section>
+        <!-- //end:좌측 메뉴 -->
+        <section class="container">            
+            <div class="wrapper-lg">
+                <section class="common-top">
+                    <div class="room-summary">
+                        <h1 class="room-name">세상에 없던 스마트 스쿨</h1>
+                        <div class="room-charge">(박수현님, 환영합니다.)</div>
+                    </div>
+                    <div class="unb">
+                        <button type="button" class="btn-alarm"><span>5</span></button>
+                        <a href="#" class="link-voucher">이용권</a>
+                        <ul>
+                            <li><a href="#">개인정보</a></li>
+                            <li><a href="#">고객센터</a></li>
+                            <li><a href="#"><span class="ico-logout"></span>로그아웃</a></li>
+                        </ul>
+                    </div>
+                </section>
+                <!-- start:본문 -->
+                <section class="content dash-board">
+                    <!-- start:오늘 수업 일정 -->
+                    <div class="mds-box">
+                        <div class="box-head title-bx">
+                            <h2>오늘 수업 일정</h2>
+                        </div>
+                        <div class="box-body has-scroll sch-box-set">
+                            <div class="none-box">
+                                <p>오늘 등록된 수업일정이 없습니다.</p>
+                                <a href="#" class="btn btn02 mg-top-20">주간 일정 확인하기</a>
+                            </div>
+                            <!-- 
+                                /* 일정 박스 안내 */
+                                수업 일정 박스 : sch-box 
+                                수업 일정이 조례인 경우 : sch-box gm
+                                지난 수업 박스 : sch-box last
+                                현재 수업 박스 : sch-box current
+                                다음 수업 박스 : sch-box next
+                            -->
+                            <div class="sch-box last gm">
+                                <div class="box-head">
+                                    <h3>조례</h3>
+                                    <div class="class-time">AM 08:50~AM 09:00</div>
+                                    <div class="class-type-set">
+                                        <span class="class-type">화상수업</span>
+                                    </div>
+                                </div>
+                                <div class="box-body">
+                                    <div class="class-info">
+                                        <div class="book-contents">2021.04.05 목요일 출석체크 합니다!</div>
+                                    </div>
+                                    <div class="class-count">
+                                        <div class="inner">
+                                            <div>
+                                                <p data-popup="classMemberlist">
+                                                    <strong>10</strong>
+                                                    / 20
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="box-foot">
+                                    <button type="button" class="toggle-alarm"></button>
+                                    <div class="balloon left">
+                                        수업 시작과 수업 종료 종소리 자동 알림을 원한다면 아이콘을 선택해 주세요!
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sch-box current readonly"><!-- 공유교사 수업인경우 readonly 클래스 추가-->
+                                <div class="box-head">
+                                    <h3>1교시</h3>
+                                    <div class="class-time">AM 09:00~AM 09:40</div>
+                                    <div class="class-type-set">
+                                        <span class="class-type">등교수업</span>
+                                        <span class="class-type active">화상수업</span>
+                                        <span class="class-type">온라인수업</span>
+                                    </div>
+                                </div>
+                                <div class="box-body">
+                                    <div class="class-info">
+                                        <div class="memo">
+                                            <p>영어3-김</p>
+                                        </div>
+                                        <div class="book-contents">Lesson 1 Hello, I'm tibo<span>&gt;</span>1차시 Look and Listen 1차시 Look and Listen </div>
+                                        <div class="progress">
+                                            <div class="total-bar">
+                                                <div class="current-bar" style="width: 30%;"></div>                                                
+                                                <strong>8차시(30%)</strong>
+                                            </div>
+                                            <strong>총 32차시</strong>
+                                        </div>
+                                    </div>
+                                    <div class="class-count">
+                                        <div class="inner">
+                                            <div>
+                                                <p data-popup="classMemberlist">
+                                                    <strong>10</strong>
+                                                    / 20
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="class-control">
+                                        <a href="../../../viewer/html/_layout/gv_p_0001.html" target="_blank">
+                                            <button>
+                                                <span>
+                                                    <em><img src="../../img/common/ico_vod_lesson.svg" alt="화상수업"></em>
+                                                    화상수업<br />연결
+                                                </span>
+                                            </button>
+                                        </a>
+                                        
+                                        <button class="cta-drop" data-popup="clNotProgress">
+                                            <span>
+                                                미진행
+                                            </span>
+                                        </button>
+                                        
+                                        <!-- 공유교사일 경우 -->
+                                        <button class="disabled status">
+                                            <span>
+                                                진행중
+                                                <em>김*연 선생님</em>
+                                            </span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="box-foot">
+                                    <button type="button" class="toggle-alarm on"></button>
+                                    <div class="balloon left">
+                                        수업 시작과 수업 종료 종 소리 자동 알림을 원하지 않는다면 아이콘을 선택해 주세요!
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sch-box next readonly"><!-- 공유교사 수업인경우 readonly 클래스 추가-->
+                                <div class="box-head">
+                                    <h3>2교시</h3>
+                                    <div class="class-time">AM 10:00~AM 10:50</div>
+                                    <div class="class-type-set">
+                                        <span class="class-type">등교수업</span>
+                                        <span class="class-type">화상수업</span>
+                                        <span class="class-type active">온라인수업</span>
+                                    </div>
+                                </div>
+                                <div class="box-body">
+                                    <div class="class-info">
+                                        <div class="memo">
+                                            <p>영어3-김</p>
+                                        </div>
+                                        <div class="book-contents">Lesson 1 Hello, I'm tibo<span>&gt;</span>3차시 Look and Listen</div>
+                                        <div class="progress">
+                                            <div class="total-bar">
+                                                <div class="current-bar" style="width:0%"></div>                                                
+                                                <strong>0%</strong>
+                                            </div>
+                                            <strong>총 32차시</strong>
+                                        </div>
+                                    </div>
+                                    <div class="class-count">
+                                        <div class="inner">
+                                            <div>
+                                                <p data-popup="classCountlist">
+                                                    <strong>00</strong>
+                                                    / 20
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="class-control">                                  
+                                        <!--<button>
+                                            <span>
+                                                <em><img src="../../img/common/ico_docu2.svg" alt="자료보기"></em>
+                                                자료보기
+                                            </span>
+                                        </button>-->
+                                        <!-- 공유교사일 경우 -->
+                                        <button class="disabled status">
+                                            <span>
+                                                진행예정
+                                                <em>김*연 선생님</em>
+                                            </span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="box-foot">
+                                    <button type="button" class="toggle-alarm on"></button>
+                                    <div class="balloon left">
+                                        수업 시작과 수업 종료 종소리 자동 알림을 원한다면 아이콘을 선택해 주세요!
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sch-box next">
+                                <div class="box-head">
+                                    <h3>3교시</h3>
+                                    <div class="class-time">AM 10:00~AM 10:50</div>
+                                </div>
+                                <div class="box-body">
+                                    <div class="empty-info">
+                                        <p class="txt">예정된 수업이 없습니다.</p>
+                                    </div>
+                                </div>
+                                <div class="box-foot">
+                                    <button type="button" class="toggle-alarm on"></button>
+                                    <div class="balloon left">
+                                        수업 시작과 수업 종료 종소리 자동 알림을 원한다면 아이콘을 선택해 주세요!
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box-foot">
+                            <button type="button" class="btn btn03" data-popup="schTimeView" style="margin-right: 15px">시간표 보기</button>
+                            <a href="#" class="link-launch"></a>
+                        </div>
+                    </div>
+                    <!-- //end:오늘 수업 일정 -->
+                    <!-- start:과제/평가 현황 -->
+                    <div class="mds-box latest">
+                        <div class="box-head">
+                            <h2>과제·평가 현황</h2>
+                        </div>
+                        <div class="box-body has-scroll latest-article-set">
+                            <div class="none-box">
+                                <p>과제·평가 현황이 없습니다.</p>
+                            </div>
+                            <div class="article-list">
+                                <div class="article-body">
+                                    <div class="column d-date">
+                                        <span class="dl-label today"><em>오늘마감</em></span>
+                                    </div>
+                                    <div class="column subject">
+                                        <a href="#">
+                                            <p><strong>[과제 | 3학년 3반 | 영어3-김혜리]</strong></p>
+                                            <p class="subject">퀴즈풀기과제where are you from</p>
+                                        </a>
+                                    </div>
+                                    <div class="column term">
+                                        <p class="sday">2021.10.26(AM 12:00)</p>
+                                        <p class="eday">2021.11.02(PM 06:00)</p>
+                                    </div>
+                                    <div class="column count">
+                                        <p class="sm-count today">
+                                            <strong>5</strong> / 20
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="article-body">
+                                    <div class="column d-date">
+                                        <span class="dl-label today"><em>오늘마감</em></span>
+                                    </div>
+                                    <div class="column subject">
+                                        <a href="#">
+                                            <p><strong>[과제 | 3학년 3반 | 수학3-2]</strong></p>
+                                            <p class="subject">각기둥과 각기둥 평가용 워크시트</p>
+                                        </a>
+                                    </div>
+                                    <div class="column term">
+                                        <p class="sday">2021.10.26(AM 12:00)</p>
+                                        <p class="eday">2021.11.02(PM 06:00)</p>
+                                    </div>
+                                    <div class="column count">
+                                        <p class="sm-count today">
+                                            <strong>5</strong> / 20
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="article-body">
+                                    <div class="column d-date">
+                                        <span class="dl-label d-n"><em>D-1</em></span>
+                                    </div>
+                                    <div class="column subject">
+                                        <a href="#">
+                                            <p><strong>[과제 | 3학년 3반 | 진로와 직업(3-4)]</strong></p>
+                                            <p class="subject">나의 장래희망 생각해보기</p>
+                                        </a>
+                                    </div>
+                                    <div class="column term">
+                                        <p class="sday">2021.10.26(AM 12:00)</p>
+                                        <p class="eday">2021.11.02(PM 06:00)</p>
+                                    </div>
+                                    <div class="column count">
+                                        <p class="sm-count d-n">
+                                            <strong>5</strong> / 20
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="article-body">
+                                    <div class="column d-date">
+                                        <span class="dl-label d-n"><em>D-2</em></span>
+                                    </div>
+                                    <div class="column subject">
+                                        <a href="#">
+                                            <p><strong>[과제 | 3학년 3반 | 진로와 직업(3-4)]</strong></p>
+                                            <p class="subject">악보를 읽고 노래를 연습해오세요.</p>
+                                        </a>
+                                    </div>
+                                    <div class="column term">
+                                        <p class="sday">2021.10.26(AM 12:00)</p>
+                                        <p class="eday">2021.11.02(PM 06:00)</p>
+                                    </div>
+                                    <div class="column count">
+                                        <p class="sm-count d-n">
+                                            <strong>5</strong> / 20
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="article-body">
+                                    <div class="column d-date">
+                                        <span class="dl-label ready"><em>예정</em></span>
+                                    </div>
+                                    <div class="column subject">
+                                        <a href="#">
+                                            <p><strong>[과제 | 3학년 3반 | 진로와 직업(3-4)]</strong></p>
+                                            <p class="subject">활동지 과제 - 야구 상황 분석하기</p>
+                                        </a>
+                                    </div>
+                                    <div class="column term">
+                                        <p class="sday">2021.10.26(AM 12:00)</p>
+                                        <p class="eday">2021.11.02(PM 06:00)</p>
+                                    </div>
+                                    <div class="column count">
+                                        <p class="sm-count ready">
+                                            예정
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="article-body">
+                                    <div class="column d-date">
+                                        <span class="dl-label ready"><em>예정</em></span>
+                                    </div>
+                                    <div class="column subject">
+                                        <a href="#">
+                                            <p><strong>[과제 | 3학년 3반 | 진로와 직업(3-4)]</strong></p>
+                                            <p class="subject">과제·퀴즈 제목이 노출됩니다. 과제·퀴즈 제목이 노출됩니다. 과제·퀴즈 제목이 노출됩니다. 제목이 노출됩니다.</p>
+                                        </a>
+                                    </div>
+                                    <div class="column term">
+                                        <p class="sday">2021.10.26(AM 12:00)</p>
+                                        <p class="eday">2021.11.02(PM 06:00)</p>
+                                    </div>
+                                    <div class="column count">
+                                        <p class="sm-count ready">
+                                            예정
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="article-body">
+                                    <div class="column d-date">
+                                        <span class="dl-label ready"><em>예정</em></span>
+                                    </div>
+                                    <div class="column subject">
+                                        <a href="#">
+                                            <p><strong>[과제 | 3학년 3반 | 진로와 직업(3-4)]</strong></p>
+                                            <p class="subject">과제·퀴즈 제목이 노출됩니다. 과제·퀴즈 제목이 노출됩니다. 과제·퀴즈 제목이 노출됩니다. 제목이 노출됩니다.</p>
+                                        </a>
+                                    </div>
+                                    <div class="column term">
+                                        <p class="sday">2021.10.26(AM 12:00)</p>
+                                        <p class="eday">2021.11.02(PM 06:00)</p>
+                                    </div>
+                                    <div class="column count">
+                                        <p class="sm-count ready">
+                                            예정
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="article-body">
+                                    <div class="column d-date">
+                                        <span class="dl-label ing"><em>진행중</em></span>
+                                    </div>
+                                    <div class="column subject">
+                                        <a href="#">
+                                            <p><strong>[과제 | 3학년 3반 | 진로와 직업(3-4)]</strong></p>
+                                            <p class="subject">과제·퀴즈 제목이 노출됩니다. 과제·퀴즈 제목이 노출됩니다. 과제·퀴즈 제목이 노출됩니다. 제목이 노출됩니다.</p>
+                                        </a>
+                                    </div>
+                                    <div class="column term">
+                                        <p class="sday">2021.10.26(AM 12:00)</p>
+                                        <p class="eday">2021.11.02(PM 06:00)</p>
+                                    </div>
+                                    <div class="column count">
+                                        <p class="sm-count ing">
+                                            진행중
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box-foot">
+                            <a href="#" class="link-launch"></a>
+                        </div>
+                    </div>
+                    <!-- //end:과제/평가 현황 -->
+                    <div class="abs-side-wrap">
+                        <!-- start:한줄공지 -->
+                        <div class="mds-box notice-box">
+                            <a href="#"><span class="ico-notice"></span> [공지] 서버 안정화 작업 안내 안정화 작업 안내 안정화 작업 안내</a>
+                        </div>
+                        <!-- //end:한줄공지 -->
+                        <!-- start:달력스케줄러 -->
+                        <div class="mds-box calendar-box">
+                            <div class="box-head">
+                                <h3>2021년 8월 31일 화요일</h3>
+                            </div>
+                            <div class="box-body">
+                                <div class="calendar" id="calendarForm">
+                                    <!--
+                                    <div class="cal-control">
+                                        <button class="view-all">2021년 8월</button>
+                                        <button class="prevm"></button>
+                                        <button class="nextm"></button>
+                                    </div>
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th>일</th>
+                                                <th>월</th>
+                                                <th>화</th>
+                                                <th>수</th>
+                                                <th>목</th>
+                                                <th>금</th>
+                                                <th>토</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>2</td>
+                                                <td>3</td>
+                                                <td>4</td>
+                                                <td>5</td>
+                                                <td>6</td>
+                                                <td>7</td>
+                                            </tr>
+                                            <tr>
+                                                <td>8</td>
+                                                <td>9
+                                                    <div class="has-schdule">                                                        
+                                                        <em class="dot class"></em><em class="dot personal"></em><em class="dot exam"></em>
+                                                        <div class="balloon left">
+                                                            <p class="list primary-color">[학사] 중간고사</p>
+                                                            <p class="list class-btn">[과제 ·평가 시작]  2단원 문장 받아쓰기</p>
+                                                            <p class="list bg-color-g">[개인] 김태연 선생님과 저녁 약속</p>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>10</td>
+                                                <td>11</td>
+                                                <td>12
+                                                    <div class="has-schdule">                                                        
+                                                        <em class="dot class"></em><em class="dot personal"></em>
+                                                        <div class="balloon left">
+                                                            <p class="list primary-color">[학사] 중간고사</p>
+                                                            <p class="list bg-color-g">[개인] 김태연 선생님과 저녁 약속</p>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>13</td>
+                                                <td>14</td>
+                                            </tr>
+                                            <tr>
+                                                <td>15</td>
+                                                <td>16</td>
+                                                <td>17</td>
+                                                <td>18</td>
+                                                <td>19</td>
+                                                <td>20</td>
+                                                <td>21</td>
+                                            </tr>
+                                            <tr>
+                                                <td>22</td>
+                                                <td>23</td>
+                                                <td>24</td>
+                                                <td>25</td>
+                                                <td>26</td>
+                                                <td>27
+                                                    <div class="has-schdule">                                                        
+                                                        <em class="dot exam"></em>
+                                                        <div class="balloon left">
+                                                            <p class="list class-btn">[과제 ·평가 시작]  2단원 문장 받아쓰기</p>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>28</td>
+                                            </tr>
+                                            <tr>
+                                                <td>29</td>
+                                                <td>30</td>
+                                                <td class="today">31</td>
+                                                <td class="blur">1</td>
+                                                <td class="blur">2</td>
+                                                <td class="blur">3</td>
+                                                <td class="blur">4</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    -->
+
+                                </div>
+                                <div class="btn-theday-info">
+                                    <a href="#">
+                                        <strong>광복절</strong>
+                                        <span>양, 8월 15일</span>
+                                    </a>
+                                </div>
+                                <div class="btn-group-msg">
+                                    <a href="#">
+                                        <em class="ico-mic"></em>
+                                        <strong>그룹메세지</strong>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="box-foot">
+                                <a href="#"><span class="link-launch"></span></a>
+                            </div>
+                        </div>
+                        <!-- //end:달력스케줄러 -->
+                        <script>
+//달력 스케쥴러 스크립트 (2021.12.12 최윤정)
+(function () {
+    calendarMaker($("#calendarForm"), new Date());
+	regist_schdule($("#calendarForm"), '9');
+	regist_schdule($("#calendarForm"), '12');
+	regist_schdule($("#calendarForm"), '27');
+
+})();
+
+function regist_schdule(target, day) {
+	var $day = ".cal_day_" + day;
+	var schdule_tag = "<div class='has-schdule'>"
+		schdule_tag += "<em class='dot class'></em><em class='dot personal'></em><em class='dot exam'></em>"
+		schdule_tag += "<div class='balloon left'>"
+		schdule_tag += "<p class='list primary-color'>[학사] 중간고사</p>"
+		schdule_tag += "<p class='list class-btn'>[과제 ·평가 시작]  2단원 문장 받아쓰기</p>"
+		schdule_tag += "<p class='list bg-color-g'>[개인] 김태연 선생님과 저녁 약속</p>"
+		schdule_tag += "</div>"
+		schdule_tag += "</div>"
+	console.log(schdule_tag)	;
+	$(target).find($day).append(schdule_tag);
+
+}
+var nowDate = new Date();
+function calendarMaker(target, date) {
+    if (date == null || date == undefined) {
+        date = new Date();
+    }
+    nowDate = date;
+    if ($(target).length > 0) {
+        var year = nowDate.getFullYear();
+        var month = nowDate.getMonth() + 1;
+        $(target).empty().append(assembly(year, month));
+    } else {
+        console.error("custom_calendar Target is empty!!!");
+        return;
+    }
+
+    var thisMonth = new Date(nowDate.getFullYear(), nowDate.getMonth(), 1);
+    var thisLastDay = new Date(nowDate.getFullYear(), nowDate.getMonth() + 1, 0);
+
+
+    var tag = "<tr>";
+    var cnt = 0;
+    //빈 공백 만들어주기
+    for (i = 0; i < thisMonth.getDay(); i++) {
+        tag += "<td></td>";
+        cnt++;
+    }
+
+    //날짜 채우기
+    for (i = 1; i <= thisLastDay.getDate(); i++) {
+        if (cnt % 7 == 0) { tag += "<tr>"; }
+		tag += "<td class='cal_day_" + i + "'>" + i + "</td>";
+        cnt++;
+        if (cnt % 7 == 0) {
+            tag += "</tr>";
+        }
+    }
+    $(target).find("#custom_set_date").append(tag);
+    calMoveEvtFn();
+
+    function assembly(year, month) {
+        var calendar_html_code ="<div class='cal-control'>" +
+			"<button class='view-all'>" + year + "년" + month + "월</button>" +
+			"<button class='prevm'></button>" +
+			"<button class='nextm'></button>" +
+			"</div>" +
+			"<table class='custom_calendar_table'>" +
+            "<thead  class='cal_week'>" +
+            "<th>일</th><th>월</th><th>화</th><th>수</th><th>목</th><th>금</th><th>토</th>" +
+            "</thead>" +
+            "<tbody id='custom_set_date'>" +
+            "</tbody>" +
+            "</table>";
+        return calendar_html_code;
+    }
+
+    function calMoveEvtFn() {
+        //전달 클릭
+        $(".cal-control").on("click", ".prevm", function () {
+            nowDate = new Date(nowDate.getFullYear(), nowDate.getMonth() - 1, nowDate.getDate());
+            calendarMaker($(target), nowDate);
+        });
+        //다음달 클릭
+        $(".cal-control").on("click", ".nextm", function () {
+            nowDate = new Date(nowDate.getFullYear(), nowDate.getMonth() + 1, nowDate.getDate());
+            calendarMaker($(target), nowDate);
+        });
+    }
+}
+</script>
+
+                        
+                        <div class="mds-box meet-box">
+                            <ul>
+                                <li class="meet-type-a">
+                                    <span>화상수업</span>
+                                    <div class="slt-box">
+                                        <div class="title">
+                                            <h2 class="first">연결하기</h2>	
+                                            <i class="arrow"></i>
+                                            <ul class="cont">
+                                                <li><a href="#;" data-popup="classMovie">학급 화상수업</a></li>
+                                                <!-- 공개 수업링클르 통해 참여시 data-popup="classMovieOpen2"-->
+                                                <li><a href="#;" data-popup="classMovieOpen">공개 화상수업</a></li>
+                                                <li><a href="#;">연습·녹화용 화상수업</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="meet-type-b">
+                                    <span>퀴즈나우</span>
+                                    <div class="slt-box">
+                                        <div class="title">
+                                            <h2 class="first">연결하기</h2>	
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="meet-type-c">
+                                    <span>라이브샷</span>
+                                    <div class="slt-box">
+                                        <div class="title">
+                                            <h2 class="first">연결하기</h2>	
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        
+
+                        <div class="mds-box movie-box">
+                            <div class="box-head">
+                                <h2><i class="movie"></i> 화상수업 연결</h2>
+                            </div>
+                            <div class="box-body">
+                                <div class="slt-box">
+                                    <div class="title">
+                                        <h2 class="first">수업선택</h2>	
+                                        <i class="arrow"></i>
+                                        <ul class="cont">
+                                            <li><a href="#;" data-popup="classMovie">학급 화상수업</a></li>
+                                            <!-- 공개 수업링클르 통해 참여시 data-popup="classMovieOpen2"-->
+                                            <li><a href="#;" data-popup="classMovieOpen">공개 화상수업</a></li>
+                                            <li><a href="#;">연습·녹화용 화상수업</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- start:그룹메세지 목록 -->
+                        <div class="mds-box alarm-box">
+                            <div class="box-head">
+                                <h2>알림</h2>
+                            </div>
+                            <div class="box-body has-scroll alarm-list">
+                                <!-- start: 수업설계만 되어 있을 경우 -->
+                                <div class="alarm-row">
+                                    <div class="icon"><p class="alrm-icon setting"></p></div>
+                                    <div class="alarm-content">
+                                        <p class="type"><strong>[시스템 알림]</strong></p>
+                                        <p class="memo1">학급설정, 시간표 설정이 필요합니다.</p>
+                                    </div>
+                                </div>
+                                <!-- // End : 수업설계만 되어 있을 경우 -->
+                                <!-- start: 수업설계, 학급 설정이 되어 있는 경우 -->
+                                <div class="alarm-row">
+                                    <div class="icon"><p class="alrm-icon setting"></p></div>
+                                    <div class="alarm-content">
+                                        <p class="type"><strong>[시스템 알림]</strong></p>
+                                        <p class="memo1">시간표 설정이 필요합니다.</p>
+                                    </div>
+                                </div>
+                                <!-- // End : 수업설계, 학급 설정이 되어 있는 경우 -->
+                                <div class="alarm-row">
+                                    <div class="icon"><span class="ico-gm"></span></div>
+                                    <div class="alarm-content">
+                                        <p class="type"><strong>조례 일정</strong></p>
+                                        <p class="memo1">[학급1] 1교시 수업 일정 확인</p>
+                                        <p class="memo2">AM 09:00~09:40</p>
+                                    </div>
+                                </div>
+                                <div class="alarm-row">
+                                    <div class="icon"><span class="ico-timer"></span></div>
+                                    <div class="alarm-content">
+                                        <p class="type"><strong>수업 일정</strong></p>
+                                        <p class="memo1">[학급1] 1교시 수업 일정 확인</p>
+                                        <p class="memo2">영어(김) | AM 09:00~09:40</p>
+                                    </div>
+                                </div>
+                                <div class="alarm-row">
+                                    <div class="icon"><span class="ico-break"></span></div>
+                                    <div class="alarm-content">
+                                        <p class="type"><strong>쉬는 시간 알림</strong></p>
+                                        <p class="memo1">[학급1] 쉬는 시간</p>
+                                        <p class="memo2">AM 09:00~09:40</p>
+                                    </div>
+                                </div>
+                                <div class="alarm-row">
+                                    <div class="icon"><span class="ico-homework"></span></div>
+                                    <div class="alarm-content">
+                                        <p class="type"><strong>과제 제출</strong></p>
+                                        <p class="memo1">[학급1] 김태연 학생 과제 제출</p>
+                                        <p class="memo2">국어 1차시 (icon) 독후감 작성</p>
+                                    </div>
+                                </div>
+                                <div class="alarm-row">
+                                    <div class="icon"><span class="ico-quiz"></span></div>
+                                    <div class="alarm-content">
+                                        <p class="type"><strong>퀴즈 마감</strong></p>
+                                        <p class="memo1">[학급1] 국어 과목 퀴즈 마감일</p>
+                                        <p class="memo2">제출률 00% (미제출자 00명)</p>
+                                    </div>
+                                </div>
+                                <div class="alarm-row">
+                                    <div class="icon"><span class="ico-quiz"></span></div>
+                                    <div class="alarm-content">
+                                        <p class="type"><strong>퀴즈 마감</strong></p>
+                                        <p class="memo1">[학급1] 국어 과목 퀴즈 마감일</p>
+                                        <p class="memo2">제출률 00% (미제출자 00명)</p>
+                                    </div>
+                                </div>
+                                <div class="alarm-row">
+                                    <div class="icon"><span class="ico-quiz"></span></div>
+                                    <div class="alarm-content">
+                                        <p class="type"><strong>퀴즈 마감</strong></p>
+                                        <p class="memo1">[학급1] 국어 과목 퀴즈 마감일</p>
+                                        <p class="memo2">제출률 00% (미제출자 00명)</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- //end:그룹메세지 목록 -->
+                    </div>
+                </section>
+                <!-- //end:본문 -->
+            </div>
+        </section>
+    </section>
+
+    <!-- start:레이어 팝업 -->
+    <div class="popup-wrap"></div>
+    <!-- //end:레이어 팝업 -->
+
+    <script src="../../lib/swiper.js"></script>
+    <script src="../../lib/lightgallery-all.min.js"></script>
+    <script src="../../common/js/popup.js"></script>
+    <script src="../../common/js/ui.js"></script>
+</body>
+</html>

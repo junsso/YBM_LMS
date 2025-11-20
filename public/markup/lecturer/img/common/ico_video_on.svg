@@ -1,0 +1,16 @@
+<svg id="icon_녹화" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_229" data-name="사각형 229" width="16" height="16" fill="#2c93e8"/>
+    </clipPath>
+  </defs>
+  <g id="마스크_그룹_78" data-name="마스크 그룹 78" clip-path="url(#clip-path)">
+    <g id="Layer_2" data-name="Layer 2" transform="translate(0 3.14)">
+      <g id="Layer_15" data-name="Layer 15" transform="translate(0 0)">
+        <path id="패스_201" data-name="패스 201" d="M12.48,9.721H.47A.47.47,0,0,1,0,9.25V.47A.47.47,0,0,1,.47,0H12.48a.47.47,0,0,1,.47.47V9.25a.47.47,0,0,1-.47.47ZM.941,8.78H12.01V.941H.941Z" transform="translate(0 0)" fill="#2c93e8"/>
+        <path id="패스_202" data-name="패스 202" d="M22.285,9.308a.47.47,0,0,1-.171-.031l-3.05-1.192a.47.47,0,0,1-.3-.439V3.131a.47.47,0,0,1,.3-.439L22.114,1.5a.47.47,0,0,1,.642.439v6.9A.47.47,0,0,1,22.285,9.308ZM19.706,7.325l2.109.823V2.63l-2.109.823Z" transform="translate(-6.755 -0.529)" fill="#2c93e8"/>
+        <path id="패스_203" data-name="패스 203" d="M7.7,8.511a.47.47,0,0,1-.47-.47V4.788a.47.47,0,0,1,.706-.408l2.818,1.627a.47.47,0,0,1,0,.815L7.936,8.449A.47.47,0,0,1,7.7,8.511ZM8.171,5.6V7.227l1.407-.812Z" transform="translate(-2.603 -1.554)" fill="#2c93e8"/>
+      </g>
+    </g>
+  </g>
+</svg>

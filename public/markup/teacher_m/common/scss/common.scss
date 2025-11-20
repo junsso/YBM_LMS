@@ -1,0 +1,443 @@
+@import 'variables';
+@mixin inline-grop{
+    display: inline-block;
+    vertical-align: middle;
+}
+@mixin box{
+    background: #{$base-text-rfcolor};
+    border-radius: 20px;
+    position: relative;
+}
+@mixin sch-box{
+    background: #fff;
+    box-shadow: 0 2px 6px rgba(51,51,51,0.2);
+    padding: 10px 15px;
+    border-radius: 10px;
+    align-items : center;
+}
+@mixin ellipsis{
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-break: break-all;
+}
+@mixin ellipsis2{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    white-space: inherit;
+    word-break: keep-all;
+}
+@mixin not-last-child($selector){
+    & #{$selector}:not(:last-child){
+        @content;
+    }
+}
+@mixin not-first-child($selector){
+    & #{$selector}:not(:first-child){
+        @content;
+    }
+}
+@mixin circle-button{
+    position: relative;
+    border-radius: 500px;
+    span, div{
+        width:100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        em{
+            display: block;
+        }
+    }
+}
+@mixin link-more{
+    @include inline-grop;
+    width: 30px;
+    height: 30px;
+    border-radius: 500px;
+    background: url(#{$img-url}/ico_plus.svg) no-repeat center center;
+    box-shadow: 0 0 10px rgba(128,128,128,0.3);
+}
+@mixin link-more-b{
+    @include inline-grop;
+    width: 16px;
+    height: 16px;
+    border-radius: 500px;
+    background: url(#{$img-url}/ico_plus_dark.svg) #{$base-text-rfcolor} no-repeat center center / 8px auto;
+}
+@mixin scroll{
+    overflow: auto;
+    &::-webkit-scrollbar{
+        width: 5px;
+        height: 5px;
+    }
+    &::-webkit-scrollbar-thumb{
+        background-color: #{$scrollbar}; 
+        border-radius: 10px;
+    }
+    &::-webkit-scrollbar-track{
+        background-color: #{$disabled-bg};
+        border-radius: 10px;
+    }
+}
+@mixin rv-scroll{
+    overflow: auto;
+    &::-webkit-scrollbar{
+        width: 5px;
+    }
+    &::-webkit-scrollbar-thumb{
+        background-color: #{$gnb-scroll-color}; 
+        border-radius: 10px;
+    }
+    &::-webkit-scrollbar-track{
+        background-color: #{$active-color};
+        border-radius: 10px;
+    }
+}
+@mixin deadline-label{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 0.875em;
+    line-height: 1.2em;
+    color: #{$base-text-rfcolor};
+    border-radius: 500px;
+    background: #{$disabled-color};
+    position: relative;
+    em{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 66%; 
+        transform: translate(-50%, -50%);
+    }
+}
+@mixin submission-label{
+    display: inline-block;
+    border-radius: 50px; 
+    background: #{$disabled-color};
+    text-align: center;
+    height: 25px;
+    line-height: 25px;
+    padding: 0 15px;
+    font-size: 12px;
+    strong{
+        font-size: 14px;
+        &:before{
+            content: "제출 ";
+            font-size: 12px;
+            font-weight: 500;
+            vertical-align: middle;
+        }
+    }
+}
+@mixin rounded-link-box{
+    background: #{$disabled-bg};
+    //color: #{$section-title-color};
+    position: relative;
+    padding: 0 30px 30px 30px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    &:not(:last-child){
+        margin-bottom: 10px;
+    }
+    &:before{
+        content: "";
+        display: block; 
+        position: absolute;
+        top: 16px;
+        left: 20px;
+        width: 5px;
+        height: 5px;
+        border-radius: 5px;
+        background: #{$section-title-color};
+    }
+    &:after{
+        content: "";
+        display: block;
+        position: absolute;
+        top: 10px;
+        right:10px;
+        width: 20px;
+        height: 20px;
+        background: url(#{$img-url}/arrow_right_gray.svg) no-repeat center center;
+    }
+    strong{
+        font-weight: 500;
+        color: #{$section-title-color};
+        font-size: 1em;
+    }
+    span{
+        font-size: 0.75em;
+        &:before{
+            content: "(";
+        }
+        &:after{
+            content: ")";
+        }
+    }
+    a{
+        display: block;
+    }
+}
+@mixin section-title{
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #{$active-color};
+}
+@mixin logo-s{
+      a{
+        width: 50px;
+        height: 45px;
+        background: url(#{$img-url}/img_logo_s.svg) no-repeat center center;
+      }
+}
+@mixin logo-w{
+    margin-top: 30px;
+    a{
+      @include inline-grop;
+      width: 120px;
+      height: 45px;
+      background: url(#{$img-url}/img_logo_w.svg) no-repeat center center;
+      text-indent: -9999px;
+    }
+}
+@mixin gnb-active{
+    color: #{$family-color-g};
+    position: relative;
+    padding-left: 16px;
+        &:before{
+        content: "";
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%); 
+        width: 12px;
+        height:12px;
+        background: url(#{$img-url}ico_check_t1.svg) no-repeat center center / contain;
+    }
+}
+@mixin box-fixed-center {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 500;
+}
+@mixin clearboth{
+    &::after{
+        content: ''; 
+        display: block;
+        clear: both;
+    }
+}
+@mixin launch-w{
+    position: fixed;
+    left: 25px;
+    bottom: 25px;
+    width: 180px;
+    a{
+      display: block;
+      width: 100%;
+      height: 44px;
+      border: 1px solid #{$base-text-rfcolor};
+      border-radius: 5px;
+      position: relative;
+      span{
+        display: block;
+        height: 100%;
+        background: url(#{$img-url}ico_y_cloud_logo.svg) no-repeat left 15px center;
+      }
+      &:after{
+        content: "";
+        position: absolute;
+        top: 50%;
+        right: 15px;
+        width: 15px;
+        height: 15px;
+        background: url(#{$img-url}ico_new_window.svg) no-repeat center center;
+        transform: translateY(-50%);
+      }
+    }
+}
+@mixin table{
+    border-collapse: collapse;
+    max-width: 100%;
+}
+@mixin table-header {
+    border: 1px solid #{$disabled-color};
+    border-left: 0;
+    border-right: 0;
+    background: #{$bg-color-g2};
+    padding: 15px 5px;
+    font-size: 14px;
+    line-height: 1.3;
+}
+@mixin table-body {
+    font-size: 1em;
+    line-height: 1.3;
+    padding: 15px 5px;
+    border-bottom: 1px solid #{$disabled-color};
+    color: #{$section-title-color};
+}
+@mixin chk-input {
+    display: none;
+}
+@mixin chk-label {
+    background: #{$base-text-rfcolor};
+    color: #{$scrollbar};
+    border-radius: 20px;
+    padding: 6px 20px;   
+}
+@mixin basic-radio {
+    display: inline-block;
+    padding-left: 25px;
+    position: relative;
+    color: #{$section-title-color};
+}
+@mixin basic-radio-before{
+    content: '';
+    display: block;
+    margin-right: 10px;    
+    width: 18px;
+    height: 18px;
+    background: url(#{$img-url}ico_radio_md.svg)no-repeat center / contain;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+@mixin basic-radio-checked-after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 18px;
+    height: 18px;
+    background: url(#{$img-url}ico_radio_md_check.svg)no-repeat center / contain;
+}
+@mixin form-control{
+    border: 1px solid #{$base-border-color};
+    border-radius: 5px;
+    width: 100%;
+    height: 35px;
+}
+@mixin basic-btn{
+    @include inline-grop;
+    border: 1px solid #{$guide-color};
+    border-radius: 5px;
+    font-weight: 500;
+    padding: 0 16px;
+    color: #{$scrollbar};
+    line-height: 35px;
+    height: 35px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+@mixin basic-btn-light {
+    border-color: #{$disabled-color};
+    color: #{$guide-color};
+}
+@mixin basic-btn02{
+    border-color: #{$button-bgcolor};
+    background: #{$primary-color};
+    color: #{$base-text-rfcolor};
+}
+@mixin basic-btn-br{
+    border-color: #{$cal-class};
+    background: #{$base-text-rfcolor};
+    color: #{$cal-class};
+}
+@mixin basic-btn-br-gray{
+    border-color: #{$disabled-color};
+    background: #{$base-text-rfcolor};
+    color: #{$guide-color};
+}
+@mixin basic-btn-br-navy{
+    border-color: #{$active-color};
+    background: #{$base-text-rfcolor};
+    color: #{$active-color};
+}
+@mixin thumb-image{
+    position: relative;
+    padding-top: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    > a{
+        display: block;
+    }
+    img{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 100%;
+        height: auto;
+    }
+}
+@mixin swiper-arrow{
+    .swiper-button-next, .swiper-button-prev{
+        width: 30px;
+        height: 30px;
+        border-radius: 5px;
+        background: url(#{$img-url}arw_swiper.svg) no-repeat center center;
+        margin-top: 0;
+        transform: translateY(-50%);
+    }
+    .swiper-button-next{
+        right: -15px;
+    }
+    .swiper-button-prev{
+        left: -15px;
+        transform: rotate(-180deg);
+        margin-top: -45px ! important;
+    }
+    .swiper-button-disabled{
+        display: none;
+    }
+}
+@mixin flow-right{
+    font-family: dotum;
+    font-size:12px;
+    margin: 0 8px;
+}
+@mixin popupcont{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 501;
+    background: #{$base-text-rfcolor};
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(69,76,83,0.3);
+}
+
+@mixin media-descktop-lg {
+    @media (max-width: #{$breakpoint-desktop3-lg}) {
+        @content;
+      }
+}
+
+@mixin media-descktop-md {
+    @media (max-width: #{$breakpoint-desktop3-md}){
+        @content;
+      }
+}
+
+@mixin media-descktop-sm {
+    @media (min-width: #{$breakpoint-desktop-sm}) {
+        @content;
+      }
+}

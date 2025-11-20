@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35">
+  <g id="네모" transform="translate(-1383 -717)">
+    <circle id="타원_34" data-name="타원 34" cx="17.5" cy="17.5" r="17.5" transform="translate(1383 717)" fill="#f5f5f5"/>
+    <g id="icon_네모" transform="translate(1391 725)" fill="none" stroke="#222" stroke-width="1.5">
+      <rect width="19" height="19" rx="2" stroke="none"/>
+      <rect x="0.75" y="0.75" width="17.5" height="17.5" rx="1.25" fill="none"/>
+    </g>
+  </g>
+</svg>

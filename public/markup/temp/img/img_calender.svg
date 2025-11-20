@@ -1,0 +1,204 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="375" height="725" viewBox="0 0 375 725">
+  <defs>
+    <filter id="tip014t027795" x="47" y="49" width="76" height="76" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="bg" x="0" y="0" width="375" height="725" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-2"/>
+      <feFlood flood-color="#454c53" flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <rect id="사각형_126" data-name="사각형 126" width="12" height="12" fill="#fff"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="사각형_126-2" data-name="사각형 126" width="12" height="12" fill="#1b1d1f"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect id="사각형_149" data-name="사각형 149" width="15" height="15" fill="#9ea4aa"/>
+    </clipPath>
+    <filter id="타원_357" x="274" y="133" width="46" height="46" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-3"/>
+      <feFlood flood-color="gray" flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path-5">
+      <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#tip014t027795)">
+        <circle id="tip014t027795-2" data-name="tip014t027795" cx="29" cy="29" r="29" transform="translate(1630 60)" fill="#e3e3f9"/>
+      </g>
+    </clipPath>
+  </defs>
+  <g id="그룹_465" data-name="그룹 465" transform="translate(-9607 -17129)">
+    <g transform="matrix(1, 0, 0, 1, 9607, 17129)" filter="url(#bg)">
+      <path id="bg-2" data-name="bg" d="M0,0H285a30,30,0,0,1,30,30V635a30,30,0,0,1-30,30H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(30 27)" fill="#fff"/>
+    </g>
+    <g id="알림장확인" transform="translate(9657 17644)">
+      <g id="bg-3" data-name="bg" fill="#f7f8f9" stroke="#6f57cf" stroke-width="3">
+        <rect width="275" height="147" rx="20" stroke="none"/>
+        <rect x="1.5" y="1.5" width="272" height="144" rx="18.5" fill="none"/>
+      </g>
+      <path id="bg-4" data-name="bg" d="M20,0H255a20,20,0,0,1,20,20V40a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V20A20,20,0,0,1,20,0Z" fill="#6f57cf"/>
+      <g id="arrow_right" transform="translate(248 14)">
+        <g id="arrow_right-2" data-name="arrow_right" clip-path="url(#clip-path)">
+          <g id="arrow-point-to-right" transform="translate(2.58)">
+            <path id="패스_99" data-name="패스 99" d="M8.529,6.594l-5.16,5.16a.84.84,0,0,1-1.188-1.188L6.747,6,2.181,1.435A.84.84,0,1,1,3.369.246l5.16,5.16a.84.84,0,0,1,0,1.188Z" transform="translate(-1.935 0)" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+      <text id="_2021.04.19_" data-name="( 2021.04.19 )" transform="translate(122 26)" fill="#fff" font-size="13" font-family="NotoSansKR-Regular, Noto Sans KR"><tspan x="0" y="0">( 2021.04.19 )</tspan></text>
+      <text id="알림장_확인" data-name="알림장 확인" transform="translate(30 28)" fill="#fff" font-size="18" font-family="NotoSansKR-Medium, Noto Sans KR" font-weight="500"><tspan x="0" y="0">알림장 확인</tspan></text>
+      <circle id="_" data-name="*" cx="2.5" cy="2.5" r="2.5" transform="translate(20 18)" fill="#fff"/>
+      <text id="독서록_쓰기" data-name="독서록 쓰기" transform="translate(48 127)" fill="#1b1d1f" font-size="15" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-weight="500" letter-spacing="-0.02em"><tspan x="0" y="0">독서록 쓰기</tspan></text>
+      <circle id="타원_412" data-name="타원 412" cx="9" cy="9" r="9" transform="translate(20 112)" fill="#26282b"/>
+      <text id="_3" data-name="3" transform="translate(26 125)" fill="#fff" font-size="11" font-family="NotoSansKR-Medium, Noto Sans KR" font-weight="500" letter-spacing="-0.02em"><tspan x="0" y="0">3</tspan></text>
+      <text id="일기_쓰기" data-name="일기 쓰기" transform="translate(48 98)" fill="#1b1d1f" font-size="15" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-weight="500" letter-spacing="-0.02em"><tspan x="0" y="0">일기 쓰기</tspan></text>
+      <circle id="타원_411" data-name="타원 411" cx="9" cy="9" r="9" transform="translate(20 83)" fill="#26282b"/>
+      <text id="_2" data-name="2" transform="translate(26 96)" fill="#fff" font-size="11" font-family="NotoSansKR-Medium, Noto Sans KR" font-weight="500" letter-spacing="-0.02em"><tspan x="0" y="0">2</tspan></text>
+      <text id="가정통신문_싸인_받아오기" data-name="가정통신문 싸인 받아오기" transform="translate(48 69)" fill="#1b1d1f" font-size="15" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-weight="500" letter-spacing="-0.02em"><tspan x="0" y="0">가정통신문 싸인 받아오기</tspan></text>
+      <circle id="타원_410" data-name="타원 410" cx="9" cy="9" r="9" transform="translate(20 54)" fill="#26282b"/>
+      <text id="_1" data-name="1" transform="translate(26 67)" fill="#fff" font-size="11" font-family="NotoSansKR-Medium, Noto Sans KR" font-weight="500" letter-spacing="-0.02em"><tspan x="0" y="0">1</tspan></text>
+    </g>
+    <g id="중간고사" transform="translate(9657 17584)">
+      <rect id="bg-5" data-name="bg" width="275" height="40" rx="20" fill="#f7f8f9"/>
+      <g id="arrow_right-3" data-name="arrow_right" transform="translate(246 14)">
+        <g id="arrow_right-4" data-name="arrow_right" clip-path="url(#clip-path-2)">
+          <g id="arrow-point-to-right-2" data-name="arrow-point-to-right" transform="translate(2.58)">
+            <path id="패스_99-2" data-name="패스 99" d="M8.529,6.594l-5.16,5.16a.84.84,0,0,1-1.188-1.188L6.747,6,2.181,1.435A.84.84,0,1,1,3.369.246l5.16,5.16a.84.84,0,0,1,0,1.188Z" transform="translate(-1.935 0)" fill="#1b1d1f"/>
+          </g>
+        </g>
+      </g>
+      <text id="_2021.04.21_2021..." data-name="( 2021.04.21 ~ 2021..." transform="translate(102 25)" fill="#454c53" font-size="13" font-family="NotoSansKR-Regular, Noto Sans KR"><tspan x="0" y="0">( 2021.04.21 ~ 2021...</tspan></text>
+      <text id="중간고사-2" data-name="중간고사" transform="translate(30 27)" fill="#1b1d1f" font-size="18" font-family="NotoSansKR-Medium, Noto Sans KR" font-weight="500"><tspan x="0" y="0">중간고사</tspan></text>
+      <circle id="_2-2" data-name="*" cx="2.5" cy="2.5" r="2.5" transform="translate(20 18)" fill="#1b1d1f"/>
+    </g>
+    <g id="달력" transform="translate(9692 17300)">
+      <g id="오늘날짜" transform="translate(-20 -35)">
+        <rect id="bg-6" data-name="bg" width="275" height="40" rx="20" transform="translate(-15)" fill="#e8ebed"/>
+        <text id="_2021년_4월_5일_월요일" data-name="2021년 4월 5일 월요일" transform="translate(123 26)" fill="#1b1d1f" font-size="14" font-family="NotoSansKR-Medium, Noto Sans KR" font-weight="500"><tspan x="-67.305" y="0">2021년 4월 5일 월요일</tspan></text>
+      </g>
+      <g id="달력-2" data-name="달력" transform="translate(-230 -618)">
+        <circle id="타원_8" data-name="타원 8" cx="17.25" cy="17.25" r="17.25" transform="translate(240.25 738.25)" fill="#fc5d5d" opacity="0.15"/>
+        <rect id="line" width="255" height="1" rx="0.5" transform="translate(205 701)" fill="#e8ebed"/>
+        <text id="_1-2" data-name="1" transform="translate(446 863)" fill="#c9cdd2" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-4.547" y="0">1</tspan></text>
+        <text id="_24" data-name="24" transform="translate(446 829)" fill="#63b1ff" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-9.094" y="0">24</tspan></text>
+        <text id="_17" data-name="17" transform="translate(446 795)" fill="#63b1ff" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-9.094" y="0">17</tspan></text>
+        <text id="_10" data-name="10" transform="translate(446 761)" fill="#63b1ff" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-9.094" y="0">10</tspan></text>
+        <text id="_3-2" data-name="3" transform="translate(446 727)" fill="#63b1ff" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-4.547" y="0">3</tspan></text>
+        <text id="토" transform="translate(446 686)" fill="#63b1ff" font-size="16" font-family="NotoSansKR-Medium, Noto Sans KR" font-weight="500"><tspan x="-7.36" y="0">토</tspan></text>
+        <text id="_30" data-name="30" transform="translate(408 863)" fill="#1b1d1f" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-9.094" y="0">30</tspan></text>
+        <text id="_23" data-name="23" transform="translate(408 829)" fill="#1b1d1f" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-9.094" y="0">23</tspan></text>
+        <text id="_16" data-name="16" transform="translate(408 795)" fill="#1b1d1f" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-9.094" y="0">16</tspan></text>
+        <text id="_9" data-name="9" transform="translate(408 761)" fill="#1b1d1f" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-4.547" y="0">9</tspan></text>
+        <text id="_2-3" data-name="2" transform="translate(408 727)" fill="#1b1d1f" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-4.547" y="0">2</tspan></text>
+        <text id="금" transform="translate(408 686)" fill="#1b1d1f" font-size="16" font-family="NotoSansKR-Medium, Noto Sans KR" font-weight="500"><tspan x="-7.36" y="0">금</tspan></text>
+        <g id="그룹_132" data-name="그룹 132" transform="translate(363 802)">
+          <g id="타원_18" data-name="타원 18" transform="translate(7)" fill="#ff6363" stroke="#fff" stroke-width="1">
+            <circle cx="3.5" cy="3.5" r="3.5" stroke="none"/>
+            <circle cx="3.5" cy="3.5" r="3" fill="none"/>
+          </g>
+          <g id="타원_350" data-name="타원 350" fill="#ffb643" stroke="#fff" stroke-width="1">
+            <circle cx="3.5" cy="3.5" r="3.5" stroke="none"/>
+            <circle cx="3.5" cy="3.5" r="3" fill="none"/>
+          </g>
+        </g>
+        <text id="_29" data-name="29" transform="translate(370 863)" fill="#1b1d1f" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-9.094" y="0">29</tspan></text>
+        <text id="_22" data-name="22" transform="translate(370 829)" fill="#1b1d1f" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-9.094" y="0">22</tspan></text>
+        <text id="_15" data-name="15" transform="translate(370 795)" fill="#1b1d1f" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-9.094" y="0">15</tspan></text>
+        <text id="_8" data-name="8" transform="translate(370 761)" fill="#1b1d1f" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-4.547" y="0">8</tspan></text>
+        <text id="_1-3" data-name="1" transform="translate(370 727)" fill="#1b1d1f" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-4.547" y="0">1</tspan></text>
+        <text id="목" transform="translate(370 686)" fill="#1b1d1f" font-size="16" font-family="NotoSansKR-Medium, Noto Sans KR" font-weight="500"><tspan x="-7.36" y="0">목</tspan></text>
+        <g id="타원_20" data-name="타원 20" transform="translate(330 875)" fill="#60cbba" stroke="#fff" stroke-width="1">
+          <circle cx="3.5" cy="3.5" r="3.5" stroke="none"/>
+          <circle cx="3.5" cy="3.5" r="3" fill="none"/>
+        </g>
+        <g id="타원_16" data-name="타원 16" transform="translate(330 836)" fill="#ff6363" stroke="#fff" stroke-width="1">
+          <circle cx="3.5" cy="3.5" r="3.5" stroke="none"/>
+          <circle cx="3.5" cy="3.5" r="3" fill="none"/>
+        </g>
+        <text id="_28" data-name="28" transform="translate(333 863)" fill="#1b1d1f" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-9.094" y="0">28</tspan></text>
+        <text id="_21" data-name="21" transform="translate(333 829)" fill="#1b1d1f" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-9.094" y="0">21</tspan></text>
+        <text id="_14" data-name="14" transform="translate(333 795)" fill="#1b1d1f" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-9.094" y="0">14</tspan></text>
+        <text id="_7" data-name="7" transform="translate(333 761)" fill="#1b1d1f" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-4.547" y="0">7</tspan></text>
+        <text id="_31" data-name="31" transform="translate(333 727)" fill="#c9cdd2" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-9.094" y="0">31</tspan></text>
+        <text id="수" transform="translate(333 686)" fill="#1b1d1f" font-size="16" font-family="NotoSansKR-Medium, Noto Sans KR" font-weight="500"><tspan x="-7.36" y="0">수</tspan></text>
+        <text id="_27" data-name="27" transform="translate(295 863)" fill="#1b1d1f" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-9.094" y="0">27</tspan></text>
+        <text id="_20" data-name="20" transform="translate(295 829)" fill="#1b1d1f" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-9.094" y="0">20</tspan></text>
+        <text id="_13" data-name="13" transform="translate(295 795)" fill="#1b1d1f" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-9.094" y="0">13</tspan></text>
+        <text id="_6" data-name="6" transform="translate(295 761)" fill="#1b1d1f" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-4.547" y="0">6</tspan></text>
+        <text id="_30-2" data-name="30" transform="translate(295 727)" fill="#c9cdd2" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-9.094" y="0">30</tspan></text>
+        <text id="화" transform="translate(295 686)" fill="#1b1d1f" font-size="16" font-family="NotoSansKR-Medium, Noto Sans KR" font-weight="500"><tspan x="-7.36" y="0">화</tspan></text>
+        <g id="그룹_131" data-name="그룹 131" transform="translate(250 802)">
+          <g id="타원_13" data-name="타원 13" transform="translate(7)" fill="#ff6363" stroke="#fff" stroke-width="1">
+            <circle cx="3.5" cy="3.5" r="3.5" stroke="none"/>
+            <circle cx="3.5" cy="3.5" r="3" fill="none"/>
+          </g>
+          <g id="타원_351" data-name="타원 351" fill="#9376ff" stroke="#fff" stroke-width="1">
+            <circle cx="3.5" cy="3.5" r="3.5" stroke="none"/>
+            <circle cx="3.5" cy="3.5" r="3" fill="none"/>
+          </g>
+        </g>
+        <g id="타원_12" data-name="타원 12" transform="translate(254 768)" fill="#ff6363" stroke="#fff" stroke-width="1">
+          <circle cx="3.5" cy="3.5" r="3.5" stroke="none"/>
+          <circle cx="3.5" cy="3.5" r="3" fill="none"/>
+        </g>
+        <text id="_26" data-name="26" transform="translate(257 863)" fill="#1b1d1f" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-9.094" y="0">26</tspan></text>
+        <text id="_19" data-name="19" transform="translate(257 829)" fill="#1b1d1f" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-9.094" y="0">19</tspan></text>
+        <text id="_12" data-name="12" transform="translate(257 795)" fill="#1b1d1f" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-9.094" y="0">12</tspan></text>
+        <text id="_5" data-name="5" transform="translate(257 761)" fill="#1b1d1f" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-4.547" y="0">5</tspan></text>
+        <text id="_29-2" data-name="29" transform="translate(257 727)" fill="#c9cdd2" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-9.094" y="0">29</tspan></text>
+        <text id="월" transform="translate(257 686)" fill="#1b1d1f" font-size="16" font-family="NotoSansKR-Medium, Noto Sans KR" font-weight="500"><tspan x="-7.36" y="0">월</tspan></text>
+        <text id="_25" data-name="25" transform="translate(219 863)" fill="#ff6363" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-9.094" y="0">25</tspan></text>
+        <text id="_18" data-name="18" transform="translate(219 829)" fill="#ff6363" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-9.094" y="0">18</tspan></text>
+        <text id="_11" data-name="11" transform="translate(219 795)" fill="#ff6363" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-9.094" y="0">11</tspan></text>
+        <text id="_4" data-name="4" transform="translate(219 761)" fill="#ff6363" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-4.547" y="0">4</tspan></text>
+        <text id="_28-2" data-name="28" transform="translate(219 727)" fill="#c9cdd2" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-9.094" y="0">28</tspan></text>
+        <text id="일" transform="translate(219 686)" fill="#ff6363" font-size="16" font-family="NotoSansKR-Medium, Noto Sans KR" font-weight="500"><tspan x="-7.36" y="0">일</tspan></text>
+        <g id="arrow_right-5" data-name="arrow_right" transform="translate(439 639)" opacity="0.5" clip-path="url(#clip-path-3)">
+          <g id="arrow-point-to-right-3" data-name="arrow-point-to-right" transform="translate(3.225)">
+            <path id="패스_105" data-name="패스 105" d="M10.178,8.243l-6.45,6.45a1.05,1.05,0,0,1-1.486-1.485L7.949,7.5,2.243,1.793A1.05,1.05,0,1,1,3.728.308l6.45,6.45a1.05,1.05,0,0,1,0,1.485Z" transform="translate(-1.935 0)" fill="#9ea4aa"/>
+          </g>
+        </g>
+        <text id="_2021년_4월" data-name="2021년 4월" transform="translate(333 652)" fill="#1b1d1f" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-39.246" y="0">2021</tspan><tspan y="0" font-family="NotoSansKR-Medium, Noto Sans KR">년</tspan><tspan y="0" font-family="NotoSansKR-Regular, Noto Sans KR" font-weight="400"> </tspan><tspan y="0">4</tspan><tspan y="0" font-family="NotoSansKR-Medium, Noto Sans KR">월</tspan></text>
+        <g id="arrow_left" transform="translate(226 654) rotate(180)" opacity="0.5" clip-path="url(#clip-path-3)">
+          <g id="arrow-point-to-right-4" data-name="arrow-point-to-right" transform="translate(3.225)">
+            <path id="패스_106" data-name="패스 106" d="M8.243,8.243l-6.45,6.45A1.05,1.05,0,1,1,.308,13.207L6.015,7.5.308,1.793A1.05,1.05,0,1,1,1.793.308l6.45,6.45a1.05,1.05,0,0,1,0,1.485Z" fill="#9ea4aa"/>
+          </g>
+        </g>
+      </g>
+      <g id="icon__" data-name="icon_+" transform="translate(204 -23)">
+        <g transform="matrix(1, 0, 0, 1, -289, -148)" filter="url(#타원_357)">
+          <circle id="타원_357-2" data-name="타원 357" cx="8" cy="8" r="8" transform="translate(289 148)" fill="#fff" opacity="0.5"/>
+        </g>
+        <rect id="사각형_380" data-name="사각형 380" width="2" height="8" rx="1" transform="translate(7 4)" fill="#9ea4aa"/>
+        <rect id="사각형_381" data-name="사각형 381" width="2" height="8" rx="1" transform="translate(12 7) rotate(90)" fill="#9ea4aa"/>
+      </g>
+    </g>
+    <text id="홍길동님_반갑습니다." data-name="홍길동님 반갑습니다." transform="translate(9742 17224)" fill="#222" font-size="20" font-family="MalgunGothicBold, Malgun Gothic" letter-spacing="-0.02em"><tspan x="0" y="0">홍길동</tspan><tspan y="0" font-size="16" font-family="MalgunGothic, Malgun Gothic">님</tspan><tspan y="0" font-size="16" font-family="SegoeUI, Segoe UI"> </tspan><tspan y="0" font-size="16" font-family="MalgunGothic, Malgun Gothic">반갑습니다</tspan><tspan y="0" font-size="16" font-family="SegoeUI, Segoe UI">.</tspan></text>
+    <g id="타원_364" data-name="타원 364" transform="translate(9662 17186)" fill="#c9cdd2" stroke="#c9cdd2" stroke-width="1">
+      <circle cx="30" cy="30" r="30" stroke="none"/>
+      <circle cx="30" cy="30" r="29.5" fill="none"/>
+    </g>
+    <g id="icon_프로필사진" transform="translate(8033 17127)" clip-path="url(#clip-path-5)">
+      <g id="user_1_" data-name="user (1)" transform="translate(1639.919 74.52)">
+        <g id="그룹_45" data-name="그룹 45" transform="translate(7.632)">
+          <g id="그룹_44" data-name="그룹 44">
+            <path id="패스_116" data-name="패스 116" d="M35.081,0A11.449,11.449,0,1,0,46.53,11.449,11.462,11.462,0,0,0,35.081,0Z" transform="translate(-23.633)" fill="#fff"/>
+          </g>
+        </g>
+        <g id="그룹_47" data-name="그룹 47" transform="translate(0 25.441)">
+          <g id="그룹_46" data-name="그룹 46">
+            <path id="패스_117" data-name="패스 117" d="M39.38,63.529a16.321,16.321,0,0,0-11.7-4.935H22.592a16.321,16.321,0,0,0-11.7,4.935A16.685,16.685,0,0,0,6.055,75.3a1.272,1.272,0,0,0,1.272,1.272H42.945A1.272,1.272,0,0,0,44.217,75.3,16.685,16.685,0,0,0,39.38,63.529Z" transform="translate(-6.055 -58.594)" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAIA,KAAK,CACD,4BAA4B,CAAC,EAAE,CAC/B,yBAAyB,CAAC,EAAE,CAC5B,8BAA8B,CAAC,KAAK",
+"sources": ["../scss/schedule.scss"],
+"names": [],
+"file": "schedule.min.css"
+}

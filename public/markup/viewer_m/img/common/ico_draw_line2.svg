@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19" height="19" viewBox="0 0 19 19">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_359" data-name="사각형 359" width="19" height="19" transform="translate(1329 600)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="icon_곡선" transform="translate(-1329 -600)" clip-path="url(#clip-path)">
+    <g id="Layer_2" data-name="Layer 2" transform="translate(1329.006 600.343)">
+      <g id="Layer_23" data-name="Layer 23">
+        <path id="패스_286" data-name="패스 286" d="M3.928.6S-1.064,6.587,1.18,11.115s6.646,4.5,9.956,2.706S16.472,8.267,15.217,5.5,9.393,2.9,6.861,5.356C1.739,10.329,5.721,21.437,18.226,16.7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"/>
+      </g>
+    </g>
+  </g>
+</svg>

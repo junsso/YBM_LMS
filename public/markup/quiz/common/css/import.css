@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+@import url("reset.css");
+@import url("../../../teacher/common/css/content.min.css"); /*교사채널 css 활용*/
+@import url("../../../viewer/common/css/quiz.min.css"); /* viewer의 수업모드 스타일 로드 */
+@import url("../../../viewer_m/common/css/quiz.min.css") (max-width:768px);
+@import url("component.css");
+@import url("contents.css");
+@import url("mobile.css");

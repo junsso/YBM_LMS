@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19" height="19" viewBox="0 0 19 19">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_272" data-name="사각형 272" width="19" height="19" transform="translate(1396 565)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="icon_스톱워치" transform="translate(-1396 -565)" clip-path="url(#clip-path)">
+    <path id="stopwatch" d="M14.208,5.84l.745-.745A.741.741,0,0,0,13.9,4.047l-.745.745A7.954,7.954,0,0,0,8.771,2.974V1.482h.717A.741.741,0,0,0,9.488,0H6.572a.741.741,0,0,0,0,1.482h.717V2.974A8.03,8.03,0,1,0,14.208,5.84ZM8.03,17.518a6.547,6.547,0,1,1,6.547-6.547A6.555,6.555,0,0,1,8.03,17.518Zm3.435-9.982a.741.741,0,0,1,0,1.048L8.554,11.494a.741.741,0,0,1-1.048-1.048l2.911-2.911A.741.741,0,0,1,11.465,7.535Zm0,0" transform="translate(1397.47 565)" fill="#222"/>
+  </g>
+</svg>

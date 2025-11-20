@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge;Chromeframe=1">
+
+<!-- 모바일일경우에만 viewport를 넣어주세요 -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="generator" content="">
+<meta name="robots" content="ALL">
+<meta property="og:type" content="">
+<meta property="og:title" content="">
+<meta property="og:description" content="">
+<meta property="og:image" content="">
+<meta property="og:url" content="">
+<title>페이지명 | 초등(채널명) | YBM온라인스쿨(사이트명)</title>
+<link rel="shortcut icon" href="">
+<link rel="stylesheet" href="../../lib/swiper.min.css">
+<link rel="stylesheet" href="../../lib/lightgallery.css">
+<link rel="stylesheet" href="../../common/css/import.css">
+<script src="../../lib/jquery-3.6.0.min.js"></script>
+<script src="../../lib/swiper.js"></script>
+</head>
+<body>
+<section class="wrap">
+    <section class="inner">
+        <!-- start : header -->
+        <section class="header">
+            <!-- gnb.on : 둥근 디자인,대제목클릭시, 스크롤시 -->
+            <nav class="gnb">
+                <!-- gnb-inner.on : 소제목나올시 -->
+                <div class="gnb-inner">
+                    <h2 class="site-logo"><a href="#none"></a></h2>
+                    <div class="gnb-box">
+                        <ul class="gnb-left">
+                            <li>
+                                <a href="#none" class="">스터디 보드</a>
+                            </li>
+                            <li class="on">
+                                <a href="#none" class="on">내 학습 정보</a>
+                                <ul class="gsub-list">
+                                    <li><a href="#none" class="">수업 시간표</a></li>
+                                    <li><a href="#none">내 수업</a></li>
+                                    <li><a href="#none">과제·평가</a></li>
+                                    <li><a href="#none">학습 리포트</a></li>
+                                    <li><a href="#none" class="on">확인 학습</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#none" class="">메시지</a>
+                                <ul class="gsub-list">
+                                    <li><a href="#none">그룹 메시지</a></li>
+                                    <li><a href="#none">개인 메시지</a></li>
+                                </ul>
+                            </li>
+                            <li class="">
+                                <a href="#none" class="">온라인 스터디 룸</a>
+                            </li>
+                        </ul>
+                        <ul class="gnb-right">
+                            <li>
+                                <button type="button" class="btn-alarm msg"><span>0</span></button>
+                                <a href="#none" class="link-voucher">이용권</a>
+                            </li>
+                            <li><a href="#none">개인정보</a></li>
+                            <li><a href="#none">고객센터</a></li>
+                            <li><a href="#none"><span class="ico-logout"></span>로그아웃</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- start : mobile gnb -->
+            <div class="mo-gnb">
+                <div class="trigger"><i></i></div>
+                <button type="button" class="btn-alarm msg"><span>0</span></button>
+                <div class="msg-popup">
+                    <div class="head">
+                        <h2 class="jl-24">메시지</h2>
+                        <button type='button' class="close close-btn"></button>
+                    </div>
+                    <div class="body has-scroll2">
+                        <a href="#none">
+                            <div class="last">
+                                <ul>
+                                    <li><span class="pts pt">학부모</span></li>
+                                    <li>[김지원] 김태연 선생님 (학교)</li>
+                                    <li>총 <i>2</i>건의 메시지가 도착했습니다.</li>
+                                    <li>2021.04.03 PM 05:00</li>
+                                </ul>
+                                <button type="button" class="more"></button>
+                            </div>
+                        </a>
+                        <a href="#none">
+                            <div class="ing">
+                                <ul>
+                                    <li><span class="pts sd">학생</span></li>
+                                    <li>이태민 선생님 (학원)</li>
+                                    <li>총 <i>1</i>건의 메시지가 도착했습니다. (설문)</li>
+                                    <li>2021.04.02 PM 03:00</li>
+                                </ul>
+                                <button type="button" class="more"></button>
+                            </div>
+                        </a>
+                        <a href="#none">
+                            <div class="ing">
+                                <ul>
+                                    <li><span class="pts tc">교사</span></li>
+                                    <li>홍길동 학생</li>
+                                    <li>총 <i>2</i>건의 메시지가 도착했습니다.</li>
+                                    <li>2021.04.02 PM 02:00</li>
+                                </ul>
+                                <button type="button" class="more"></button>
+                            </div>
+                        </a>
+                        <a href="#none">
+                            <div class="ing">
+                                <ul>
+                                    <li><span class="pts tc">교사</span></li>
+                                    <li>[김지원] 과제 제출 마감</li>
+                                    <li>총 <i>2</i>건의 메시지가 도착했습니다.</li>
+                                    <li>2021.04.01 PM 01:00</li>
+                                </ul>
+                                <button type="button" class="more"></button>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="gnb-inner">
+                    <h2 class="site-logo"><a href="#none"></a></h2>
+                    <div class="mo-cont">
+                        <div class="mo-loginbox">
+                            <!-- 현재는 비로그인상태, 로그인시 둘다 div클래스에 .on클래스 추가 -->
+                            <!-- 비로그인시 -->
+                            <div class="mo-belogin on">
+                                <h3><a href="#none">로그인</a> 을 해주세요.</h3>
+                            </div>
+                            <!-- end -->
+                            <!-- 로그인시 -->
+                            <div class="mo-aflogin on">
+                                <span><img src="../../img/common/ico_profile.svg" alt=""></span>
+                                <div>
+                                    <h3><strong>홍길동</strong>님 반갑습니다.</h3>
+                                    <a href="#none">개인정보 관리</a>
+                                </div>
+                            </div>
+                            <!-- end -->
+                        </div>
+                        <div class="gnb-box">
+                            <ul class="gnb-top">
+                                <li class=""><a href="#none">스터디 보드</a></li>
+                                <li class="on"><a href="#none">내 학습 정보</a></li>
+                                <li class=""><a href="#none">메시지</a></li>
+                                <li class=""><a href="#none">온라인 스터디 룸</a></li>
+                            </ul>
+                            <div class="gnb-bottom">
+                                <a href="#none" class="link-voucher">이용권</a>
+                                <ul>
+                                    <li><a href="#none">개인정보</a></li>
+                                    <li><a href="#none">고객센터</a></li>
+                                    <!-- 현재 비로그인시, 로그인시 둘다 li에 .on클래스 추가 -->
+                                    <!-- 비로그인 -->
+                                    <li class=""><a href="#none">로그인</a></li>
+                                    <!-- 로그인 -->
+                                    <li class=""><a href="#none">로그아웃</a></li>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mo-bg"></div>
+            </div>
+            <!-- end: mobile gnb -->
+
+            <!-- start: pc drop-down list -->
+            <div class="common-list">
+                <div class="inner">
+                    <div class="left">
+                        <span><img src="../../img/common/top_img5.svg" alt=""></span>
+                        <p>확인 학습</p>
+                    </div>
+                    <div class="right">
+                        <div class="home"><a href="#none" class="ico-home gray"></a></div>
+                    <div class="major-title">
+                        <div class="drop-down">
+                            <div class="title">
+                                <h2 class="first">내 학습 정보</h2>
+                                <i class="arrow"></i>
+                                <ul class="drop-list">
+                                    <li>
+                                        <a href="#none" class="">스터디 보드</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none" class="on">내 학습 정보</a>
+                                        <ul class="sub-list">
+                                            <li><a href="#none" class="">수업 시간표</a></li>
+                                            <li><a href="#none" class="on">내 수업</a></li>
+                                            <li><a href="#none">과제·평가</a></li>
+                                            <li><a href="#none">학습 리포트</a></li>
+                                            <li><a href="#none">확인 학습</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#none" class="">메시지</a>
+                                        <ul class="sub-list">
+                                            <li><a href="#none">그룹 메시지</a></li>
+                                            <li><a href="#none">개인 메시지</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#none">온라인 스터디 룸</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sub-title">
+                        <div class="drop-down">
+                            <div class="title">
+                                <h2 class="sub-first">확인 학습</h2>
+                                <i class="sub-arrow"></i>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end : pc -->
+
+            <!-- start : mo list -->
+            <div class="mo-list">
+                <div class="mo-sublist">
+                    <div class="inner swiper-container">
+                        <ul class="sub-list swiper-wrapper">
+                            <!-- 해당링크 클릭시 li에 .on클래스 추가 -->
+                            <li class="swiper-slide">
+                                <a href="#none">수업 시간표</a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#none">내 수업</a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#none">과제·평가</a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#none">학습 리포트</a>
+                            </li>
+                            <li class="swiper-slide on">
+                                <a href="#none">확인 학습</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- end : mo -->
+        </section>
+        <!-- end : header -->
+
+        <!-- start : container -->
+        <section class="container">
+            <div class="container-inner">
+                <!-- day ~ search -->
+                <div class="confirm-title">
+                    <!-- 날짜 -->
+                    <div class="schedule">
+                        <div class="day-select">
+                            <button type="button" class="day-prev"></button>
+                            <div class="day-center">
+                                <div class="day-text">
+                                    <span>2021-12-06</span>
+                                    <!-- 달력 -->
+                                    <div class="day-box">
+                                        <button type="button" class="ico day-btn"></button>
+                                        <div class="day-calender">
+                                            <div class="inner">
+                                                <div class="month">
+                                                    <h2>2021-12</h2>
+                                                    <div class="arrow prev"></div>
+                                                    <div class="arrow nxt"></div>
+                                                </div>
+                                                <div class="date">
+                                                    <div class="head">
+                                                        <ul>
+                                                            <li>일</li>
+                                                            <li>월</li>
+                                                            <li>화</li>
+                                                            <li>수</li>
+                                                            <li>목</li>
+                                                            <li>금</li>
+                                                            <li>토</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="body">
+                                                        <ul>
+                                                            <li>
+                                                                <p class="guide-color">28</p>
+                                                            </li>
+                                                            <li>
+                                                                <p class="guide-color">29</p>
+                                                            </li>
+                                                            <li>
+                                                                <p class="guide-color">30</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>1</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>2</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>3</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>4</p>
+                                                            </li>
+                                                            <li class="on">
+                                                                <p>5</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>6</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>7</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>8</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>9</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>10</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>11</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>12</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>13</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>14</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>15</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>16</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>17</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>18</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>19</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>20</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>21</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>22</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>23</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>24</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>25</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>26</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>27</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>28</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>29</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>30</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>31</p>
+                                                            </li>
+                                                            <li>
+                                                                <p class="guide-color">1</p>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <i>~</i>
+                                    <span>2021-12-15</span>
+                                    <!-- 달력 -->
+                                    <div class="day-box">
+                                        <button type="button" class="ico day-btn"></button>
+                                        <div class="day-calender">
+                                            <div class="inner">
+                                                <div class="month">
+                                                    <h2>2021-12</h2>
+                                                    <div class="arrow prev"></div>
+                                                    <div class="arrow nxt"></div>
+                                                </div>
+                                                <div class="date">
+                                                    <div class="head">
+                                                        <ul>
+                                                            <li>일</li>
+                                                            <li>월</li>
+                                                            <li>화</li>
+                                                            <li>수</li>
+                                                            <li>목</li>
+                                                            <li>금</li>
+                                                            <li>토</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="body">
+                                                        <ul>
+                                                            <li>
+                                                                <p class="guide-color">28</p>
+                                                            </li>
+                                                            <li>
+                                                                <p class="guide-color">29</p>
+                                                            </li>
+                                                            <li>
+                                                                <p class="guide-color">30</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>1</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>2</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>3</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>4</p>
+                                                            </li>
+                                                            <li class="on">
+                                                                <p>5</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>6</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>7</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>8</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>9</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>10</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>11</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>12</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>13</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>14</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>15</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>16</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>17</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>18</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>19</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>20</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>21</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>22</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>23</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>24</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>25</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>26</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>27</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>28</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>29</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>30</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>31</p>
+                                                            </li>
+                                                            <li>
+                                                                <p class="guide-color">1</p>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 비활성화.disabled -->
+                            <button type="button" class="day-next disabled"></button>
+                        </div>
+                    </div>
+                    <!-- 총 건수 -->
+                    <p class="all">총 <strong>300</strong>건</p>
+                    <!-- 해시태그 ~ 검색어 -->
+                    <div class="conf-sub-title">
+                        <!-- 해시태그 -->
+                        <div class="hash-box">
+                            <button type="button" class="hash on">#과제용</button>
+                            <button type="button" class="hash">#평가용</button>
+                            <button type="button" class="hash">#수업용</button>
+                            <button type="button" class="hash">#YBM추천</button>
+                        </div>
+                        <!-- 교과명 선택 -->
+                        <div class="form-wrap">
+                            <div class="slt-box">
+                                <div class="title">
+                                    <h2 class="first">교과명 선택</h2>
+                                    <i class="arrow"></i>
+                                    <ul class="cont">
+                                        <li><a href="#;" class="on">교과 전체</a></li>
+                                        <li><a href="#;">국어 3 (김)</a></li>
+                                        <li><a href="#;">수학 3 (김)</a></li>
+                                        <li><a href="#;">사회 3 (김)</a></li>
+                                        <li><a href="#;">과학 3 (김)</a></li>
+                                        <li><a href="#;">영어 3 (김)</a></li>
+                                        <li><a href="#;">체육 3 (김)</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 차시 선택 -->
+                        <div class="form-wrap">
+                            <div class="slt-box">
+                                <div class="title">
+                                    <h2 class="first">차시 선택</h2>
+                                    <i class="arrow"></i>
+                                    <ul class="cont">
+                                        <li><a href="#;" class="on">학급 전체</a></li>
+                                        <li><a href="#;">1차시 (MY)</a></li>
+                                        <li><a href="#;">2차시</a></li>
+                                        <li><a href="#;">3차시</a></li>
+                                        <li><a href="#;">4차시</a></li>
+                                        <li><a href="#;">5차시</a></li>
+                                        <li><a href="#;">6차시</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 검색어입력창 -->
+                        <div class="form-wrap">
+                            <div class="slt-box">
+                                <div class="search type-b">
+                                    <input type="text" placeholder="검색어를 입력하세요." class="searchinput">
+                                    <button type="button" class="searchclear"></button>
+                                </div>
+                                <div class="sort-box type-a">
+                                    <button type="button" class="st"></button>
+                                    <ul class="cont">
+                                        <li><a href="#;" class="on">등록일 <i class="ico_sort"></i></a></li>
+                                        <li><a href="#;">제목 <i class="ico_sort"></i></a></li>
+                                        <li><a href="#;">확인 학습 <i class="ico_sort"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- cont -->
+                <div class="cofirm-cont mg-top-20">
+                    <!-- 검색시 해당단어는 em.search-text로 묶어주세요 ex)"풀이"로 검색시: <em class="search-text">풀이</em> -->
+                    <!-- start : 콘텐츠 -->
+                    <div class="cofirm-item">
+                        <div class="mg-left">
+                            <div class="cfi-top">
+                                <!-- 온콘 or 자료 -->
+                                <!-- <span class="ext op">온/콘</span> -->
+                                <span class="ico_file on-con"></span>
+                                <p>[평가용 온라인 워크시트 ]</p>
+                            </div>
+                            <!-- 과제 or 평가 제목 표기 -->
+                            <strong>3단원 1차시 학습 문제</strong>
+                            <ul class="cfi-bottom">
+                                <li>등록일</li>
+                                <li>2021.04.03</li>
+                                <li>확인학습</li>
+                                <li><strong>0</strong>회</li>
+                            </ul>
+                        </div>
+                        <div class="mg-right">
+                            <!-- 미진행일경우 .not클래스 추가 -->
+                            <p class="not">미진행</p>
+                            <!-- 한번이라도 학습했을경우 .disabled추가 -->
+                            <a href="#none" class="learn-btn" target="_blank">학습하기</a>
+                        </div>
+                    </div>
+                    <!-- end : 콘텐츠 -->
+
+                    <!-- start : 콘텐츠 -->
+                    <div class="cofirm-item">
+                        <div class="mg-left">
+                            <div class="cfi-top">
+                                <!-- 온콘 or 자료 -->
+                                <!-- <span class="ext op">온/콘</span> -->
+                                <span class="ico_file on-con"></span>
+                                <p>[평가용 온라인 워크시트 ]</p>
+                                <ul class="textbook-title">
+                                    <li class="textbook">영어 3 (최)</li>
+                                    <li class="unit">Lesson 2</li>
+                                    <li class="time">1차시</li>
+                                </ul>
+                            </div>
+                            <!-- 과제 or 평가 제목 표기 -->
+                            <strong>3단원 1차시 학습 문제 풀이</strong>
+                            <ul class="cfi-bottom">
+                                <li>등록일</li>
+                                <li>2021.04.03</li>
+                                <li>확인학습</li>
+                                <li><strong>1</strong>회</li>
+                            </ul>
+                        </div>
+                        <div class="mg-right">
+                            <p>62점</p>
+                            <!-- 한번이라도 학습했을경우 .disabled추가 -->
+                            <a href="#none" class="learn-btn disabled" target="_blank">학습완료</a>
+                        </div>
+                    </div>
+                    <!-- end : 콘텐츠 -->
+
+                    <!-- start : 콘텐츠 -->
+                    <div class="cofirm-item">
+                        <div class="mg-left">
+                            <div class="cfi-top">
+                                <!-- 온콘 or 자료 -->
+                                <!-- <span class="ext avi">avi</span> -->
+                                <span class="ico_file on-con"></span>
+                                <ul class="textbook-title">
+                                    <li class="textbook">영어 3 (최)</li>
+                                    <li class="unit">Lesson 2</li>
+                                    <li class="time">1차시</li>
+                                </ul>
+                            </div>
+                            <!-- 과제 or 평가 제목 표기 -->
+                            <strong>영어 3 (최희경)_2016_CD보기</strong>
+                            <ul class="cfi-bottom">
+                                <li>등록일</li>
+                                <li>2021.04.03</li>
+                                <li>확인학습</li>
+                                <li><strong>0</strong>회</li>
+                            </ul>
+                        </div>
+                        <div class="mg-right">
+                            <p class="not">미진행</p>
+                            <!-- 한번이라도 학습했을경우 .disabled추가 -->
+                            <a href="#none" class="learn-btn" target="_blank">학습하기</a>
+                        </div>
+                    </div>
+                    <!-- end : 콘텐츠 -->
+
+                    <!-- start : 콘텐츠 -->
+                    <div class="cofirm-item">
+                        <div class="mg-left">
+                            <div class="cfi-top">
+                                <!-- 온콘 or 자료 -->
+                                <!-- <span class="ext link">link</span> -->
+                                <span class="ico_file avi"></span>
+                                <ul class="textbook-title">
+                                    <li class="textbook">영어 3 (최)</li>
+                                    <li class="unit">Lesson 2</li>
+                                    <li class="time">1차시</li>
+                                </ul>
+                            </div>
+                            <!-- 과제 or 평가 제목 표기 -->
+                            <strong>영어 3 (최희경)_2016_CD보기</strong>
+                            <ul class="cfi-bottom">
+                                <li>등록일</li>
+                                <li>2021.04.03</li>
+                                <li>확인학습</li>
+                                <li><strong>0</strong>회</li>
+                            </ul>
+                        </div>
+                        <div class="mg-right">
+                            <p class="data">수업자료</p>
+                            <!-- 한번이라도 학습했을경우 .disabled추가 -->
+                            <a href="#none" class="learn-btn" target="_blank">학습하기</a>
+                        </div>
+                    </div>
+                    <!-- end : 콘텐츠 -->
+
+                    <!-- start : 콘텐츠 -->
+                    <div class="cofirm-item">
+                        <div class="mg-left">
+                            <div class="cfi-top">
+                                <!-- 온콘 or 자료 -->
+                                <!-- <span class="ext op">온/콘</span> -->
+                                <span class="ico_file hwp"></span>
+                                <p>[ 과제용 온라인 시험지 ]</p>
+                            </div>
+                            <!-- 과제 or 평가 제목 표기 -->
+                            <strong>3단원 1차시 학습 문제 풀이</strong>
+                            <ul class="cfi-bottom">
+                                <li>등록일</li>
+                                <li>2021.04.03</li>
+                                <li>확인학습</li>
+                                <li><strong>3</strong>회</li>
+                            </ul>
+                        </div>
+                        <div class="mg-right">
+                            <!-- 미진행일경우 .not클래스 추가 -->
+                            <p class="">40점 <span class="score">(<i>5</i>/<i>10</i>)</span></p>
+                            <!-- 한번이라도 학습했을경우 .disabled추가 -->
+                            <a href="#none" class="learn-btn disabled" target="_blank">학습하기</a>
+                        </div>
+                    </div>
+                    <!-- end : 콘텐츠 -->
+
+                    <!-- start : 콘텐츠 -->
+                    <div class="cofirm-item">
+                        <div class="mg-left">
+                            <div class="cfi-top">
+                                <!-- 온콘 or 자료 -->
+                                <!-- <span class="ext hwp">hwp</span> -->
+                                <span class="ico_file pdf"></span>
+                                <ul class="textbook-title">
+                                    <li class="textbook">영어 3 (최)</li>
+                                    <li class="unit">Lesson 2</li>
+                                    <li class="time">1차시</li>
+                                </ul>
+                            </div>
+                            <!-- 과제 or 평가 제목 표기 -->
+                            <strong>영어 3 (최희경)_2016_CD보기</strong>
+                            <ul class="cfi-bottom">
+                                <li>등록일</li>
+                                <li>2021.04.03</li>
+                                <li>확인학습</li>
+                                <li><strong>0</strong>회</li>
+                            </ul>
+                        </div>
+                        <div class="mg-right">
+                            <!-- 추천 콘텐츠.recom 클래스 추가 -->
+                            <p class="recom">추천 콘텐츠</p>
+                            <!-- 한번이라도 학습했을경우 .disabled추가 -->
+                            <a href="#none" class="learn-btn" target="_blank">학습하기</a>
+                        </div>
+                    </div>
+                    <!-- end : 콘텐츠 -->
+
+                    <!-- start : 콘텐츠 -->
+                    <div class="cofirm-item">
+                        <div class="mg-left">
+                            <div class="cfi-top">
+                                <!-- 온콘 or 자료 -->
+                                <!-- <span class="ext op">온/콘</span> -->
+                                <span class="ico_file on-con2"></span>
+                                <p>[과제용 기본 문서형 ]</p>
+                                <ul class="textbook-title">
+                                    <li class="textbook">영어 3 (최)</li>
+                                    <li class="unit">Lesson 2</li>
+                                    <li class="time">1차시</li>
+                                </ul>
+                            </div>
+                            <!-- 과제 or 평가 제목 표기 -->
+                            <strong>3단원 1차시 학습 문제 풀이</strong>
+                            <ul class="cfi-bottom">
+                                <li>등록일</li>
+                                <li>2021.04.03</li>
+                                <li>확인학습</li>
+                                <li><strong>1</strong>회</li>
+                            </ul>
+                        </div>
+                        <div class="mg-right">
+                            <!-- 추천콘텐츠.recom 클래스 추가 -->
+                            <p class="recom">YBM 추천</p>
+                            <!-- 한번이라도 학습했을경우 .disabled추가 -->
+                            <a href="#none" class="learn-btn disabled" target="_blank">학습완료</a>
+                        </div>
+                    </div>
+                    <!-- end : 콘텐츠 -->
+                </div>
+                
+                <!-- no search -->
+                <!-- <div class="cofirm-cont">
+                    <div class="class-list none mg-top-50">
+                        <p>
+                            검색 결과가 없습니다.
+                        </p>
+                    </div>
+                </div> -->
+
+                <!-- no cont -->
+                <!-- <div class="cofirm-cont">
+                    <div class="class-list none mg-top-50">
+                        <p>
+                            추천된 확인 학습 콘텐츠가 없습니다.
+                        </p>
+                    </div>
+                </div> -->
+
+                <!-- page number -->
+                <nav class="pg_wrap">
+                    <a href="#" class="pg_page pg_prev">처음</a>
+                    <a href="#" class="pg_page pg"><strong class="pg_current">1</strong></a>
+                    <a href="#" class="pg_page">2</a>
+                    <a href="#" class="pg_page">3</a>
+                    <a href="#" class="pg_page">4</a>
+                    <a href="#" class="pg_page">5</a>
+                    <a href="#" class="pg_page pg_next">맨끝</a>
+                </nav>
+            </div>
+        </section>
+        <!-- end : contianer -->
+
+        <!-- start : footer -->
+        <section class="footer">
+            <div class="footer-inner">
+                <div class="footer-left">
+                    <nav class="footer-list">
+                        <h2 class="site-logo"><a href="#none"></a></h2>
+                        <ul class="footer-desc">
+                            <li><a href="#none">회사 소개</a></li>
+                            <li><a href="#none">이용약관</a></li>
+                            <li><a href="#none">개인정보처리방침</a></li>
+                        </ul>
+                    </nav>
+                    <ul class="footer-desc mg-top-20">
+                        <li>㈜와이비엠 서울시 종로구 종로 104</li>
+                        <li>대표이사 권오찬, 정용환</li>
+                        <li>사업자등록번호 101-81-14655</li>
+                        <li>통신판매신고번호 제 01-320 호</li>
+                        <li>고객센터 : 02-2000-0500</li>
+                        <li>FAX : 02-2000-0426</li>
+                        <li>E-mail : booksam@ybm.co.kr</li>
+                    </ul>
+                    <p class="copyright">Copyright ⓒ (주)YBM. All rights reserved.</p>
+                </div>
+                <div class="footer-right">
+                    <div class="drop-down">
+                        <div class="drop-first">
+                            <h2 class="first">Family Site</h2>
+                            <i class="arrow"></i>
+                        </div>
+                        <ul class="cont">
+                            <li><a href="#none">Family Site1</a></li>
+                            <li><a href="#none">Family Site2</a></li>
+                            <li><a href="#none">Family Site2 Family Site2</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end : footer -->
+    </section>
+</section>
+
+<!-- start:레이어 팝업 -->
+<div class="popup-wrap"></div>
+<!-- //end:레이어 팝업 -->
+
+<script src="../../lib/swiper.js"></script>
+<script src="../../lib/lightgallery-all.min.js"></script>
+<script src="../../common/js/popup.js"></script>
+<script src="../../common/js/ui.js"></script>
+<script src="../../common/js/ui_m.js"></script>
+</body>
+</html>

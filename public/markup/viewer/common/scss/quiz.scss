@@ -1,0 +1,985 @@
+@import 'variables';
+@import 'common';
+
+// url
+$qz-img-url: '../../img/quiz/';
+
+// modal size
+$modal-sm: 400px;
+$modal-md: 600px;
+$modal-lg: 1500px;
+
+$qz-grays:(
+    1:#D2D2D2,
+    2:#E0E0E0,
+    3:#333333,
+    4:#666666,
+    5:#1B1D1F,
+    6:#F2F3F7,
+    7:#D9D9D9,
+    8:#D1D1D1,
+    9:#222222,
+    10:#AAAAAA,
+    11:#CCCCCC,
+    12:#F7F7F7,
+    13:#B0B0B0,
+    14:#F3F3F3,
+);
+$qz-active:(
+    1:#0089BE,
+    2:#EBF3FF,
+    3:#303D53,
+    4:#FC5D5B,
+    5:#FFF5D0,
+    6:#41A2EA,
+    7:#EDF7FF,
+    8:#FFF2F2,
+    9:#B04140,
+    10:#FFDCDC,
+    11:#F9BA48,
+    12:#0EA1DB,
+    13:#00416C,
+);
+
+@function str-replace($string, $search, $replace: '') {
+    $index: str-index($string, $search);
+    @if $index {
+        @return str-slice($string, 1, $index - 1) + $replace + str-replace(str-slice($string, $index + str-length($search)), $search, $replace);
+    }
+    @return $string;
+}
+// iconset
+@function svg-factory($iconName, $fill-color:#555555) {
+    $listIcons: ( 
+        'ico_check': '<svg width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.5 7.00016L7.33333 11.6668L15.5 2.3335" stroke="#{$fill-color}" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+        'ico_o': '<svg width="72" height="74" viewBox="0 0 72 74" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M36 12.7393C22.7452 12.7393 12 23.6013 12 37.0002C12 50.3991 22.7452 61.261 36 61.261C49.2548 61.261 60 50.3991 60 37.0002C60 23.6013 49.2548 12.7393 36 12.7393ZM0 37.0002C0 16.9018 16.1177 0.608887 36 0.608887C55.8823 0.608887 72 16.9018 72 37.0002C72 57.0985 55.8823 73.3915 36 73.3915C16.1177 73.3915 0 57.0985 0 37.0002Z" fill="white"/></svg>',
+        'ico_x': '<svg width="56" height="58" viewBox="0 0 56 58" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M55.5 5.3496C55.4962 4.05783 54.9972 2.81668 54.1057 1.88185C53.6769 1.42625 53.1598 1.06285 52.5858 0.813832C52.0119 0.564815 51.3932 0.435414 50.7676 0.433532C50.1419 0.43165 49.5225 0.557327 48.947 0.802886C48.3716 1.04845 47.8523 1.40873 47.4207 1.86174L27.9988 22.0359L8.57989 1.86364C8.14837 1.41063 7.62904 1.05035 7.0536 0.804785C6.47817 0.559227 5.85872 0.43355 5.23308 0.435436C4.60745 0.437317 3.98876 0.566717 3.41481 0.815734C2.84087 1.06475 2.3237 1.42815 1.89492 1.88375C1.00342 2.81858 0.504399 4.05973 0.500657 5.3515C0.49692 6.64328 0.988741 7.88729 1.87481 8.82727L21.2949 28.9994L1.87418 49.1722C0.98811 50.1122 0.496289 51.3562 0.500026 52.648C0.503769 53.9397 1.00279 55.1809 1.89429 56.1157C2.32307 56.5713 2.84024 56.9347 3.41418 57.1837C3.98813 57.4328 4.60682 57.5622 5.23245 57.564C5.85809 57.5659 6.47754 57.4402 7.05297 57.1947C7.62841 56.9491 8.14774 56.5888 8.57926 56.1358L27.9994 35.9636L47.4214 56.1377C47.8529 56.5907 48.3722 56.951 48.9477 57.1966C49.5231 57.4421 50.1426 57.5678 50.7682 57.5659C51.3938 57.5641 52.0125 57.4347 52.5865 57.1856C53.1604 56.9366 53.6776 56.5732 54.1063 56.1176C54.9975 55.1824 55.496 53.9411 55.4992 52.6493C55.5024 51.3575 55.01 50.1137 54.1236 49.1741L34.7031 29.0003L54.1258 8.82537C55.0119 7.88539 55.5037 6.64137 55.5 5.3496Z" fill="white"/></svg>',
+        'ico_zoomin': '<svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M25 22H23.42L22.86 21.46C24.82 19.18 26 16.22 26 13C26 5.82 20.18 0 13 0C5.82 0 0 5.82 0 13C0 20.18 5.82 26 13 26C16.22 26 19.18 24.82 21.46 22.86L22 23.42V25L32 34.98L34.98 32L25 22ZM13 22C8.02 22 4 17.98 4 13C4 8.02 8.02 4 13 4C17.98 4 22 8.02 22 13C22 17.98 17.98 22 13 22ZM14 8H12V12H8V14H12V18H14V14H18V12H14V8Z" fill="#{$fill-color}"/></svg>',
+        'ico_danger_c': '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 0C9.62663 0 7.30655 0.703788 5.33316 2.02236C3.35977 3.34094 1.8217 5.21509 0.913451 7.4078C0.00519941 9.60051 -0.232441 12.0133 0.230582 14.3411C0.693605 16.6689 1.83649 18.8071 3.51472 20.4853C5.19295 22.1635 7.33115 23.3064 9.65892 23.7694C11.9867 24.2324 14.3995 23.9948 16.5922 23.0866C18.7849 22.1783 20.6591 20.6402 21.9776 18.6668C23.2962 16.6935 24 14.3734 24 12C24 8.8174 22.7357 5.76516 20.4853 3.51472C18.2348 1.26428 15.1826 0 12 0ZM12 18.9024C11.7591 18.9024 11.5236 18.831 11.3233 18.6971C11.123 18.5633 10.9669 18.3731 10.8747 18.1505C10.7825 17.9279 10.7584 17.6831 10.8054 17.4468C10.8524 17.2105 10.9684 16.9935 11.1387 16.8231C11.3091 16.6528 11.5261 16.5368 11.7624 16.4898C11.9987 16.4428 12.2436 16.4669 12.4661 16.5591C12.6887 16.6513 12.8789 16.8074 13.0127 17.0077C13.1466 17.208 13.218 17.4435 13.218 17.6844C13.218 18.0074 13.0897 18.3172 12.8613 18.5457C12.6328 18.7741 12.323 18.9024 12 18.9024ZM13.218 12.6468C13.2231 12.81 13.1954 12.9727 13.1365 13.125C13.0775 13.2773 12.9886 13.4162 12.8749 13.5335C12.7613 13.6508 12.6252 13.7441 12.4748 13.8077C12.3244 13.8714 12.1627 13.9042 11.9994 13.9042C11.8361 13.9042 11.6744 13.8714 11.524 13.8077C11.3736 13.7441 11.2375 13.6508 11.1239 13.5335C11.0102 13.4162 10.9213 13.2773 10.8623 13.125C10.8034 12.9727 10.7757 12.81 10.7808 12.6468V6.2292C10.7757 6.06595 10.8034 5.90334 10.8623 5.75102C10.9213 5.5987 11.0102 5.45977 11.1239 5.34248C11.2375 5.22519 11.3736 5.13194 11.524 5.06826C11.6744 5.00457 11.8361 4.97176 11.9994 4.97176C12.1627 4.97176 12.3244 5.00457 12.4748 5.06826C12.6252 5.13194 12.7613 5.22519 12.8749 5.34248C12.9886 5.45977 13.0775 5.5987 13.1365 5.75102C13.1954 5.90334 13.2231 6.06595 13.218 6.2292V12.6468Z" fill="#{$fill-color}"/></svg>',
+        'ico_arrow_ios': '<svg width="13" height="20" viewBox="0 0 13 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.879883 2.12L8.75988 10L0.879883 17.88L2.99988 20L12.9999 10L2.99988 0L0.879883 2.12Z" fill="url(#paint0_linear_389_266)"/><defs><linearGradient id="paint0_linear_389_266" x1="6.93988" y1="0" x2="6.93988" y2="20" gradientUnits="userSpaceOnUse"><stop stop-color="#0EA1DB"/><stop offset="1" stop-color="#FC5D5B"/></linearGradient></defs></svg>',
+    );
+    $svg : map-get($listIcons, $iconName);
+
+    $encoding-reference: (('<','%3C'),('>','%3E'),('"','\''),('#','%23'),('&','%26'));
+    @each $char, $encoded in $encoding-reference {
+        $svg: str-replace($svg, $char, $encoded);
+    }
+    @return 'data:image/svg+xml,' + $svg;
+}
+$listIcons:(
+    ('ico_zoomin', black, 35px, 35px),
+    ('ico_danger_c', map-get($map: $qz-active, $key: 11), 24px, 24px),
+    ('ico_arrow_ios', black, 13px, 20px),
+);
+@each $svg, $color, $width, $height in $listIcons{
+    .#{$svg}{
+        background: url(svg-factory($svg,$color)) no-repeat center / contain;
+        margin-top: rem(1px);
+        width: $width;
+        height: $height;
+        display: inline-block;
+    }
+}
+
+body{
+    &.active-quiz{
+        overflow: hidden;
+    }
+}
+.quiz-overlay{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(237.67deg, rgba(245, 240, 226, 0.3) 0%, rgba(242, 224, 244, 0) 69.38%), linear-gradient(72.44deg, #F8EBFF 0%, #D3E5FF 68.75%, #D6FDFF 100%);
+    z-index: 400;
+    width: 100%;
+    &::before{
+        content: url(#{$qz-img-url}qz_shape.svg);
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+.quiz-pop{
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 500;
+    &.show{
+        display: block;
+    }
+    .quiz-content{
+        background: $regular-bgcolor;
+        min-width: #{$modal-lg};
+        border-radius: 32px;
+        box-shadow: 0 0 16px rgba(0,0,0,0.16);
+        //max-height: calc(100vh - 51px - 80px - 100px);
+        &.translucent{
+            background-color: rgba(255, 255, 255, 0.4);
+        }
+        .quiz-header{
+            padding: 28.5px 40px;
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid map-get($map: $qz-grays, $key: 1);
+            background-color: map-get($map: $qz-active, $key: 2);
+            border-radius: 32px 32px 0 0;
+            overflow: hidden;
+            h2{
+                color: map-get($map: $qz-active, $key: 1);
+                font-weight: 700;
+                font-size: 30px;
+            }
+            .btn-box{
+                margin-left: auto;
+                display: flex;
+                gap: 10px;
+            }
+            .count-box{
+                background-color: $regular-bgcolor;
+                border:1px solid map-get($map: $qz-grays, $key: 2);
+                border-radius: 5px;
+                padding: 0px 16px;
+                height: 40px;
+                line-height: 40px;
+                font-weight: 500;
+                font-size: 18px;
+                color: map-get($map: $qz-active, $key: 3);
+                .count{
+                    color: map-get($map: $qz-active, $key: 4);
+                    font-weight: 400;
+                }
+            }
+            .sticker-type5{
+                display: block;
+                width: auto;
+                height: 40px;
+                line-height: 40px;
+                padding: 0 12px;
+                background-color: $regular-bgcolor;
+                border:1px solid map-get($map: $qz-grays, $key: 2);
+                border-radius: 4px;
+                -webkit-touch-callout: none;
+                -webkit-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+                font-weight: 500;
+                font-size: 18px;
+                color: map-get($map: $qz-grays, $key: 9);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 5px;
+                img{
+                    margin-top: -2px;
+                    margin-right: 5px;
+                }
+                .count{
+                    font-weight: 700;
+                    color: map-get($map: $qz-active, $key: 4);
+                }
+            }
+        }
+    }
+    .quiz-footer{
+        text-align: center;
+        //margin-top: 55px;
+        padding-bottom: 30px;
+        position: relative;
+        .desc{
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            top: -36px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            font-size: 20px;
+            font-weight: 500;
+            color: map-get($map: $qz-grays, $key: 4);
+        }
+        .btn-set{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            button{
+                width: 200px;
+                height: 60px;
+                line-height: 60px;
+                font-weight: 500;
+                font-size: 20px;
+                color: $regular-bgcolor;
+                border-radius: 10px;
+                &.type-a{
+                    background-color: map-get($map: $qz-active, $key: 13);
+                }
+                &.type-b{
+                    background-color: map-get($map: $qz-active, $key: 4);
+                }
+                &.type-c{
+                    background-color: map-get($map: $qz-active, $key: 12);
+                }
+                &:hover{
+                    opacity: 0.8;
+                }
+            }
+        }
+    }
+    span{
+        &.acc{
+            color: map-get($map: $qz-active, $key: 4);
+        }
+        &.acc2{
+            color: map-get($map: $qz-active, $key: 11);
+        }
+    }
+    .mg-top30{
+        margin-top: 30px;
+    }
+}
+.quiz-body{
+    padding: 50px;
+    //@include scrollbar;
+    height: auto;
+    //max-height: calc(100vh - 84px - 200px );
+    //max-height: calc(100svh - 84px - 200px );
+    //min-height: 660px;
+    max-height: calc(100vh - 84px - 290px );
+    max-height: calc(100svh - 84px - 290px );
+    min-height: 570px;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    &.x800{
+        .exam-box,
+        .question-box{
+            width: 900px;
+            margin: 0 auto;
+        }
+    }
+    &.answer-o{
+        .type-ox{
+            li{
+                &.selected{
+                    border-color: map-get($map: $qz-active, $key: 6);
+                }
+            }
+        }
+    }
+}
+.question-box{
+    font-weight: 700;
+    font-size: 26px;
+    color: map-get($map: $qz-grays, $key: 3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    .number{
+        $size: 70px;
+        min-width: $size;
+        max-width: $size;
+        min-height: $size;
+        max-height: $size;
+        line-height: $size;
+        color: $regular-bgcolor;
+        background-color: map-get($map: $qz-active, $key: 4);
+        border-radius: 10px;
+        text-align: center;
+    }
+    .question{
+        width: calc(100% - 70px);
+        line-height: 30px;
+        word-break: keep-all;
+    }
+    &.answer{
+        &-o::before{
+            content: url(#{$qz-img-url}answer_o.svg);
+        }
+        &-x::before{
+            content: url(#{$qz-img-url}answer_x.svg);
+        }
+        &-x::before,
+        &-o::before{
+            position: absolute;
+            width: 60px;
+            height: 59px;
+            left: -30px;
+            top: -35px;
+        }
+    }
+}
+.exam-box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+
+    $listCols:(2,4);
+    @each $col in $listCols{
+        &.col-#{$col}{
+            li{
+                flex: 0 1;
+                flex-basis: calc( (100% / #{$col}) - ((30px * (#{$col} - 1)) / #{$col}));
+            }
+        }
+    }
+
+    &.type-image{
+        input[type=checkbox] + label{
+            .title-box{
+                height: 60px;
+            }
+            &::after{
+                top: 15px;
+            }
+        } 
+    }
+    &.type-ox{
+        margin: 0;
+        li{
+            border: 0 none;
+            border-radius: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 270px;
+            &.selected{
+                border-width: 4px;
+            }
+        }
+        input[type=checkbox] + label{
+            height: 100%;
+            background-color: map-get($map: $qz-active, $key: 7);
+            border: 4px solid transparent;
+            &:hover{
+                border-color: map-get($map: $qz-active, $key: 6);
+                box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+            }
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            $size: 150px;
+            position: relative;
+            &::before{
+                content: '';
+                border-radius: 100%;
+                min-width: $size;
+                max-width: $size;
+                min-height: $size;
+                max-height: $size;
+            }
+            &.ico-o::before{
+                background: url(svg-factory('ico_o',map-get($qz-active,3))) no-repeat center / contain;
+                background-color: map-get($map: $qz-active, $key: 6);
+                background-size: 72px 74px;
+            }
+            &.ico-x::before{
+                background: url(svg-factory('ico_x',map-get($qz-active,3))) no-repeat center / contain;
+                background-color: map-get($map: $qz-active, $key: 6);
+                background-size: 56px 58px;
+            }
+            &.answer{
+                border-color: map-get($map: $qz-active, $key: 4);
+                background-color: map-get($map: $qz-active, $key: 8);
+                &.ico-o::before,
+                &.ico-x::before{
+                    background-color: map-get($map: $qz-active, $key: 4);
+                }
+            }
+        } 
+        input:checked + label{
+            border-color: map-get($map: $qz-active, $key: 13);
+            &.answer{
+                border-color: map-get($map: $qz-active, $key: 13);
+            }
+            &:hover{
+                border-color: map-get($map: $qz-active, $key: 13);
+            }
+        }
+    }
+    &.type-short{
+        flex-direction: column;
+        li{
+            display: flex;
+            font-size: 20px;
+            border-radius: 10px;
+            overflow: hidden;
+            align-items: center;
+            flex-basis: 100%;
+            height: 80px;
+            line-height: 80px;
+            .title{
+                text-align: center;
+                font-weight: 700;
+                color: $regular-bgcolor;
+                background: map-get($map: $qz-grays, $key: 4);
+                width: 135px;
+            }
+            .input-text{
+                padding: 0 20px;
+                font-weight: 500;
+                color: map-get($map: $qz-grays, $key: 5);
+                background: map-get($map: $qz-grays, $key: 6);
+                width: 100%;
+                span{
+                    color: black;
+                    font-weight: 400;
+                    font-size: 20px;
+                    display: inline-block;
+                    padding: 0 10px;
+                    height: 46px;
+                    line-height: 46px;
+                    background-color: white;
+                    border: 1px solid map-get($map: $qz-grays, $key: 7);
+                    border-radius: 5px;
+                    &.wrong{
+                        color: map-get($map: $qz-active, $key: 4);
+                        font-weight: 700;
+                        background-color: map-get($map: $qz-active, $key: 10);
+                        border-color: map-get($map: $qz-active, $key: 4);
+                    }
+                }
+            }
+            &.answer{
+                .title{
+                    background-color: map-get($map: $qz-active, $key: 9);
+                }
+                .input-text{
+                    background-color: map-get($map: $qz-active, $key: 4);
+                    color: $regular-bgcolor;
+                }
+            }
+        }
+    }
+    &.type-blank{ //2023-07
+        .input-box{            
+            display: flex;
+            height: 70px;
+            padding: 0px 20px;
+            align-items: center;
+            gap: 16px;         
+            border-radius: 10px;
+            border: 1px solid #CCC;
+            background: #FFF;            
+            .number{
+                width: 34px;                
+                height: 34px;                
+                line-height: 34px;
+                text-align: center;
+                color: $regular-bgcolor;
+                font-weight: 700;
+                font-size: 24px;
+                background-color: map-get($map: $qz-grays, $key: 4);
+                border-radius: 999px;
+            }
+            input {
+                font-size: 20px;
+                font-weight: 500;
+            }
+            &:focus-within{                
+                border-color: map-get($map: $qz-active, $key: 13);
+            }            
+        }
+    }
+    
+    input[type=checkbox]{
+        display: none;
+    }
+    input[type=checkbox] + label{
+        border: 2px solid transparent;
+        border-radius: 10px;
+        $size: 34px;
+        position: relative;
+        color: map-get($map: $qz-grays, $key: 5);
+        background-color: map-get($map: $qz-grays, $key: 6);
+        height: auto;
+        width: 100%;
+        display: block;
+        .title-box{
+            height: 70px;
+            display: flex;
+            gap: 16px;
+            align-items: center;
+            flex-wrap: wrap;
+            font-weight: 500;
+            font-size: 20px;
+            padding: 0 20px;
+            width: 100%;
+        }
+        .number{
+            min-width: $size;
+            max-width: $size;
+            min-height: $size;
+            max-height: $size;
+            line-height: $size;
+            text-align: center;
+            color: $regular-bgcolor;
+            font-weight: 700;
+            font-size: 24px;
+            background-color: map-get($map: $qz-grays, $key: 4);
+            border-radius: 999px;
+        }
+        .exam{
+            width: calc(100% - $size - 16px);
+        }
+        &.answer{
+            $checked-color : map-get($map: $qz-active, $key: 4);
+            background-color: $checked-color;
+            color: $regular-bgcolor;
+        }
+        &:hover{
+            //border-color: map-get($map: $qz-active, $key: 4);
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+        }
+        &::before{
+            content: none;
+        }
+    }
+    input:checked + label{
+        border-width: 2px;
+        border-color: map-get($map: $qz-active, $key: 13);
+        /*
+        &::after{
+            content: '';
+            position: absolute;
+            right: 15px;
+            top: 20px;
+            $size: 30px;
+            min-width: $size;
+            max-width: $size;
+            min-height: $size;
+            max-height: $size;
+            background: url(svg-factory('ico_check',map-get($qz-active,3))) no-repeat center / contain;
+            background-size: 17px 14px;
+            background-color: $regular-bgcolor;
+            border-radius: 999px;
+            border: 1px solid transparent;
+        }
+        &.answer::after{
+            background: url(svg-factory('ico_check',map-get($qz-active,4))) no-repeat center / contain;
+            background-size: 17px 14px;
+            background-color: $regular-bgcolor;
+            border-radius: 999px;
+            border: 1px solid transparent;
+        }
+        */
+    }
+}
+.quiz-comment-box{
+    margin-top: auto;
+    .quiz-comment{
+        background-color: map-get($map: $qz-active, $key: 5);
+        padding: 0 25px;
+        border-radius: 15px;
+        height: 74px;
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        color: map-get($map: $qz-grays, $key: 4);
+    }
+    .title{
+        display: flex;
+        gap: 12px;
+        align-items: center;
+        font-weight: 700;
+        font-size: 16px;
+        color: map-get($map: $qz-grays, $key: 3);
+    }
+}
+.exam-img{
+    $width: 327.5px;
+    $height: 181.31px;
+    aspect-ratio: calc($width / $height);
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    border-radius: 0px 0px 10px 10px;
+    border: 5px solid transparent;
+    border-top: 0 none;
+    @supports not (aspect-ratio: calc($width / $height)){
+        &::before {
+            content: "";
+            float: left;
+            padding-top: calc(($height / $width) * 100%);
+            display: block;
+        }
+    }
+    img{
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 10;
+    }
+}
+.quiz-conn-wrap{
+    display: flex;
+    .left-box{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .right-box{
+        display: flex;
+        gap: 20px;
+        align-items: flex-end;
+        margin-left: auto;
+    }
+    .info-text{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-weight: 700;
+        font-size: 22px;
+        color: map-get($map: $qz-grays, $key: 3);
+    }
+    .conn-copy-box{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        .title{
+            width: 100px;
+            margin-right: 10px;
+            font-weight: 500;
+            font-size: 20px;
+            color: map-get($map: $qz-grays, $key: 3);
+        }
+        .text{
+            border: 1px solid map-get($map: $qz-grays, $key: 11);
+            border-radius: 999px;
+            max-width: 690px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 1;
+            -webkit-box-orient: vertical;
+            white-space: inherit;
+            word-break: break-all;
+            height: 45px;
+            line-height: 45px;
+            padding: 0 20px;
+            font-weight: 500;
+        }
+        .conn-copy{
+            padding: 0 50px;
+            height: 45px;
+            line-height: 45px;
+            border-radius: 4px;
+            border: 0 none;
+            font-weight: 500;
+            color: white;
+            background-color: map-get($map: $qz-active, $key: 4);
+            font-size: 18px;
+            transition: .3s all;
+            &:hover{
+                opacity: .7;
+            }
+        }
+    }
+    .qrcode{
+        border: 1px solid map-get($map: $qz-grays, $key: 2);
+        border-radius: 8px;
+        padding: 12px;
+        min-width: 154px;
+        max-width: 154px;
+        min-height: 154px;
+        max-height: 154px;
+        img{
+            width: 100%;
+        }
+    }
+    .zoomin{
+        border: 1px solid map-get($map: $qz-grays, $key: 10);
+        border-radius: 4px;
+        min-width: 64px;
+        max-width: 64px;
+        min-height: 64px;
+        max-height: 64px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: .3s all;
+        &:hover{
+            box-shadow: 0 3px 10px rgba(34,34,34,0.2);
+        }
+    }
+}
+.quiz-member-wrap{
+    margin-top: 10px;
+    background-color: map-get($map: $qz-grays, $key: 12);
+    border-radius: 24px;
+    height: 368px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quiz-conn-member{
+    @include scroll;
+    width: 1320px;
+    height: 240px;
+    padding:0; //2023-07 //padding: 0 110px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    li{
+        width: 120px;
+        height: 45px;
+        line-height: 45px;
+        text-align: center;
+        font-weight: 700;
+        color: white;
+        background-color: map-get($map: $qz-grays, $key: 13);
+        border-radius: 999px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        white-space: inherit;
+        word-break: break-all;
+        &.active{
+            background-color: map-get($map: $qz-active, $key: 11);
+        }
+    }
+}
+.quiz-body-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    font-size: 42px;
+    font-weight: 700;
+    color: map-get($map: $qz-grays, $key: 3);
+}
+.quiz-user-conn-wrap{ //2023-07
+    //margin-top: 50px;
+    padding: 40px 82px; //padding: 49.17px 82px;
+    display: flex;
+    gap: 50px;
+}
+.quiz-user-conn-info{ 
+    padding: 15px 0 14px; //2023-07
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .row{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        gap: 30px;
+        .title{
+            width: 136px;
+            display: flex;
+            align-items: center;
+            gap: 18px;
+            font-weight: 700;
+            font-size: 26px;
+            color: map-get($map: $qz-grays, $key: 3);
+        }
+        .input-box{
+            width: calc(100% - 150px);
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            gap: 32px;
+            &.col-4{
+                [type=text]{
+                    text-align: center;
+                    width: 100px;
+                    height: 100px;
+                    line-height: 100px;
+                    border: 1px solid map-get($map: $qz-grays, $key: 10);
+                    border-radius: 8px;
+                    font-weight: 500;
+                    font-size: 48px;
+                    color: black;
+                    padding: 0;
+                }
+            }
+            [type=text]{
+                border: 1px solid map-get($map: $qz-grays, $key: 10);
+                border-radius: 8px;
+                padding: 10px;
+                font-weight: 500;
+                font-size: 24px;
+                color: black;
+                height: 45px;
+                line-height: 45px;
+                width: 100%;
+            }
+        }
+    }
+}
+.quiz-waiting-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 26px;
+    img{
+        margin-top: 50px;
+        margin-bottom: 34px;
+    }
+    color: map-get($map: $qz-grays, $key: 3);
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 120%;
+    .waiting-msg{
+        font-weight: 700;
+        font-size: 36px;
+        .acc2{
+            font-weight: 500;
+        }
+    }
+}
+.quiz-result-wrap{
+    overflow-y: auto;
+    table{
+        thead{
+            tr{
+                overflow: hidden;
+                background: map-get($map: $qz-grays, $key: 14);
+                th{
+                    position: sticky;
+                    top: 0;
+                    background: map-get($map: $qz-grays, $key: 14);
+                    font-weight: 500;
+                    font-size: 20px;
+                    color: map-get($map: $qz-grays, $key: 3);
+                    height: 52px;
+                    &:first-child{
+                        border-radius: 10px 0 0 10px;
+                    }
+                    &:last-child{
+                        border-radius: 0 10px 10px 0;
+                    }
+                }
+            }
+        }
+        tbody{
+            tr{
+                border-bottom: 1px solid map-get($map: $qz-grays, $key: 2);
+                td{
+                    height: 50px;
+                    font-size: 20px;
+                    color: map-get($map: $qz-grays, $key: 4);
+                    &.subject{
+                        text-align: left;
+                    }
+                    &.right{
+                        text-align: right;
+                        padding-right: 45px;
+                    }
+                }
+            }
+        }
+    }
+    .result-score-box{
+        margin-top: 50px;
+        margin-bottom: 30px;
+        display: flex;
+        gap: 20px;
+        >div{
+            flex: 1;
+            border-radius: 10px;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            height: 82px;
+            font-size: 24px;
+            font-weight: 700;
+            text-align: center;
+            &.total{
+                flex: 1.163;
+                color: white;
+                background-color: map-get($map: $qz-active, $key: 13);
+                .title{
+                    color: white;
+                    background-color: rgba(0, 0, 0, 0.3);
+                }
+            }
+            &.answer{
+                border: 4px solid map-get($map: $qz-active, $key: 6);
+                color: map-get($map: $qz-active, $key: 6);
+            }
+            &.wrong{
+                border: 4px solid map-get($map: $qz-active, $key: 4);
+                color: map-get($map: $qz-active, $key: 4);
+            }
+            .title{
+                flex: 1;
+                background-color: map-get($map: $qz-grays, $key: 14);
+                display: flex;
+                gap: 10px;
+                justify-content: center;
+                align-items: center;
+                height: 100%;
+                font-weight: 500;
+                font-size: 24px;
+                color: map-get($map: $qz-grays, $key: 3);
+                img{
+                    width: 44px;
+                }
+            }
+            .score{
+                flex: 1;
+            }
+        }
+    }
+}
+.quiz-progressbar{
+    height: 20px;
+    background-color: map-get($map: $qz-grays, $key: 2);
+    .ing{
+        background: linear-gradient(90deg, #008CC4 0.07%, #FC5D5B 100.07%);
+        height: 20px;
+    }
+}
+.quiz-member-live{
+    li{
+        display: inline-block;
+        width: max-content;
+        height: max-content;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 500;
+        color: black;
+        transition: 1s all;
+        &::before{
+            content: '';
+            background: url(#{$qz-img-url}character_rank_default.svg) no-repeat center / contain;
+            width: 85px;
+            height: 85px;
+            display: block;
+            margin-bottom: 3px;
+            transition: 1s all;
+        }
+        $max-img: 160px;
+        $max-font: 36px;
+        $max-margin: 12px;
+        @for $i from 1 through 4{
+            &.rank#{$i}{
+                font-size: calc($max-font - (($i - 1) * 6px));
+                &::before{
+                    background: url(#{$qz-img-url}character_rank_#{$i}.svg) no-repeat center / contain;
+                    width: calc($max-img - (($i - 1) * 20px));
+                    height: calc($max-img - (($i - 1) * 20px));
+                    margin-bottom: calc($max-margin - (($i - 1) * 3px));
+                }
+            }
+        }
+    }
+}
+
+/** Modal Popup 종료 */

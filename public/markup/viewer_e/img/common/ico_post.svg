@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="68.633" height="65.852" viewBox="0 0 68.633 65.852">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.322" y1="0.064" x2="0.866" y2="0.63" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#dedede"/>
+      <stop offset="0.418" stop-color="#dfdfdf"/>
+      <stop offset="0.733" stop-color="#eee"/>
+      <stop offset="0.849" stop-color="#e4e4e4"/>
+      <stop offset="1" stop-color="#ababab"/>
+    </linearGradient>
+    <filter id="패스_1784" x="0" y="0" width="68.633" height="65.852" filterUnits="userSpaceOnUse">
+      <feOffset dx="-2" dy="-2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="그룹_1283" data-name="그룹 1283" transform="translate(18786.627 17599.836)">
+    <path id="패스_1783" data-name="패스 1783" d="M-18725.012-17587.758s.766,16.342-13.906,32.051-36.676,15.7-36.676,15.7,13.252-7.846,18-18.461c4.283-9.543,3.172-15.934,1.924-21.658-.047-.088,8.678,5.137,17.92,3.357S-18725.012-17587.758-18725.012-17587.758Z" transform="translate(0 -1)" fill="#afafaf"/>
+    <g transform="matrix(1, 0, 0, 1, -18786.63, -17599.84)" filter="url(#패스_1784)">
+      <path id="패스_1784-2" data-name="패스 1784" d="M-18725-17588.836s.754,17.42-13.918,33.129-36.709,14.709-36.709,14.709,13.566-7.752,18.313-18.367c4.719-10.557,2.988-16.689,2.242-21.047a28.231,28.231,0,0,0,16.688,3.113C-18729.168-17578.668-18725-17588.836-18725-17588.836Z" transform="translate(18786.63 17599.84)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>

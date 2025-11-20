@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17" height="17" viewBox="0 0 17 17">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_1329" data-name="사각형 1329" width="17" height="17" transform="translate(267 437)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <filter id="타원_357" x="-14" y="-14.473" width="46" height="46" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-color="gray" flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="마스크_그룹_113" data-name="마스크 그룹 113" transform="translate(-267 -437)" clip-path="url(#clip-path)">
+    <g id="그룹_1289" data-name="그룹 1289" transform="translate(8 1)">
+      <g id="icon__" data-name="icon_+" transform="translate(260 436.527)">
+        <g transform="matrix(1, 0, 0, 1, -1, -0.53)" filter="url(#타원_357)">
+          <circle id="타원_357-2" data-name="타원 357" cx="8" cy="8" r="8" transform="translate(1 0.53)" fill="#fff" opacity="0.5"/>
+        </g>
+        <rect id="사각형_380" data-name="사각형 380" width="2" height="8" rx="1" transform="translate(7 4)" fill="#9ea4aa"/>
+        <rect id="사각형_381" data-name="사각형 381" width="2" height="8" rx="1" transform="translate(12 7) rotate(90)" fill="#9ea4aa"/>
+      </g>
+    </g>
+  </g>
+</svg>

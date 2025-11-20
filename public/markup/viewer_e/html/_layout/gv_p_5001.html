@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge;Chromeframe=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="generator" content="">
+<meta name="robots" content="ALL">
+<meta property="og:type" content="">
+<meta property="og:title" content="">
+<meta property="og:description" content="">
+<meta property="og:image" content="">
+<meta property="og:url" content="">
+<title>뷰어 | YBM온라인스쿨(사이트명)</title>
+<link rel="alternate" href="layout.html" id="desktop" media="only screen and (touch-enabled: 0)">
+<link rel="alternate" href="layout.html" id="tablet" media="only screen and (min-device-width: 768px)">
+<link rel="alternate" href="layout_m.html" id="phone" media="only screen and (max-device-width: 767px)">
+<link rel="shortcut icon" href="">
+<link rel="stylesheet" href="../../lib/jquery.mCustomScrollbar.css">
+<link rel="stylesheet" href="../../lib/lightgallery.css">
+<link rel="stylesheet" href="../../common/css/import.css">
+<script src="../../lib/jquery-3.6.0.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+</head>
+<body>
+    <section class="wrap on">
+        <section class="side-toolbar">
+            <div class="btn-toggle"><button><em>툴바 열기/닫기</em></button></div>
+            <div class="toolbar-head">
+                <div class="runtime">
+                    <span>진행중</span>
+                    <strong>39:20</strong>
+                </div>
+                
+                <div class="menu">
+                    <ul>
+                        <li>
+                            <button><span class="menu-ico draw"></span>입력도구</button>
+                            <div class="float-submenu wr-tool">
+                                <div class="drager">
+                                    <button class="close"><img src="../../img/common/ico_close_wh.svg" alt="닫기"></button>
+                                </div>
+                                <ul>
+                                    <li>
+                                        <button title="그리기"><img src="../../img/common/ico_input_draw.svg" alt="그리기"></button>
+                                        <div class="float-submenu wr-tool">
+                                            <div class="drager">
+                                                <button class="close"><img src="../../img/common/ico_close_wh.svg" alt="닫기"></button>
+                                            </div>
+                                            <ul>
+                                                <li><button title="직선"><img src="../../img/common/ico_draw_line.svg" alt="직선"></button></li>
+                                                <li><button title="곡선"><img src="../../img/common/ico_draw_line2.svg" alt="곡선"></button></li>
+                                                <li><button title="원"><img src="../../img/common/ico_draw_circle.svg" alt="원"></button></li>
+                                                <li><button title="별"><img src="../../img/common/ico_draw_star.svg" alt="별"></button></li>
+                                                <li><button title="사각형"><img src="../../img/common/ico_draw_square.svg" alt="사각형"></button></li>
+                                                <li><button title="삼각형"><img src="../../img/common/icon_draw_triangle.svg" alt="삼각형"></button></li>
+                                            </ul>
+                                            <ul class="other">
+                                                <li class="has-sub">
+                                                    <button class="set-weight" title="굵기"><img src="../../img/common/weight_10.svg" alt="10"> 10</button>
+                                                    <div class="float-submenu weight-tool">
+                                                        <div class="drager">
+                                                            <button class="close"><img src="../../img/common/ico_close_wh.svg" alt="닫기"></button>
+                                                        </div>
+                                                        <ul>
+                                                            <li class="set-weight"><button class="set-weight" title="2"><img src="../../img/common/weight_2.svg" alt="2"> 2</button></li><!-- 눌린건 on클래스를 가짐-->
+                                                            <li class="set-weight"><button class="set-weight" title="5"><img src="../../img/common/weight_5.svg" alt="5"> 5</button></li>
+                                                            <li class="set-weight"><button class="set-weight" title="10" class="on"><img src="../../img/common/weight_10.svg" alt="10"> 10</button></li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="has-sub">
+                                                    <button class="set-color" title="색상"><span class="draw-color" style="background:red"></span></button>
+                                                    <div class="float-submenu">
+                                                        <div class="drager">
+                                                            <button class="close"><img src="../../img/common/ico_close_wh.svg" alt="닫기"></button>
+                                                        </div>
+                                                        <ul>
+                                                            <li class="set-color"><button title="검정" class="set-color on"><span class="draw-color" style="background:#000000"></span></button></li><!-- 눌린건 on클래스를 가짐-->
+                                                            <li class="set-color"><button class="set-color" title="노랑"><span class="draw-color" style="background:#FFFF00"></span></button></li>
+                                                            <li class="set-color"><button class="set-color" title="분홍"><span class="draw-color" style="background:#FF00FF"></span></button></li>
+                                                            <li class="set-color"><button class="set-color" title="파랑"><span class="draw-color" style="background:#0000FF"></span></button></li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                            <ul class="other">
+                                                <li><button title="지우개"><img src="../../img/common/ico_eraser.svg" alt="지우개"></button></li>
+                                                <li><button title="삭제"><img src="../../img/common/ico_trash.svg" alt="삭제"></button></li>
+                                            </ul>
+                                            <ul class="other">
+                                                <li><button title="가리기"><img src="../../img/common/ico_blind.svg" alt="가리기"></button></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <button title="텍스트"><img src="../../img/common/ico_input_text.svg" alt="텍스트"></button>
+                                        <div class="float-submenu set-font">
+                                            <div class="drager">
+                                                <button class="close"><img src="../../img/common/ico_close_wh.svg" alt="닫기"></button>
+                                            </div>
+                                            <ul>
+                                                <li class="has-sub">
+                                                    <button class="set-font" title="글꼴">서울남산체</button>
+                                                    <div class="float-submenu font-tool">
+                                                        <div class="drager">
+                                                            <button class="close"><img src="../../img/common/ico_close_wh.svg" alt="닫기"></button>
+                                                        </div>
+                                                        <ul>
+                                                            <li class="set-font"><button title="서울남산체" class="set-font on"><img src="../../img/common/font_namsan.png" alt="서울남산체"></button></li><!-- 눌린건 on클래스를 가짐-->
+                                                            <li class="set-font"><button class="set-font" title="고도체"><img src="../../img/common/font_godo.png" alt="고도체"></button></li>
+                                                            <li class="set-font"><button class="set-font" title="쿠키런체"><img src="../../img/common/font_ccr.png" alt="쿠키런체"></button></li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                            <div class="cta-font">
+                                                <span class="btn">+</span>
+                                                <p class="flex-size">50px</p>
+                                                <span class="btn">-</span>
+                                                <div class="btn btn-update">적용</div>
+                                            </div>
+                                            <ul class="other">
+                                                <li class="has-sub">
+                                                    <button class="set-color" title="색상"><span class="draw-color" style="background:red"></span></button>
+                                                    <div class="float-submenu color-tool">
+                                                        <div class="drager">
+                                                            <button class="close"><img src="../../img/common/ico_close_wh.svg" alt="닫기"></button>
+                                                        </div>
+                                                        <ul>
+                                                            <li class="set-color"><button title="검정" class="set-color on"><span class="draw-color" style="background:#000000"></span></button></li><!-- 눌린건 on클래스를 가짐-->
+                                                            <li class="set-color"><button class="set-color" title="노랑"><span class="draw-color" style="background:#FFFF00"></span></button></li>
+                                                            <li class="set-color"><button class="set-color" title="분홍"><span class="draw-color" style="background:#FF00FF"></span></button></li>
+                                                            <li class="set-color"><button class="set-color" title="파랑"><span class="draw-color" style="background:#0000FF"></span></button></li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                            <ul class="other">
+                                                <li><button title="지우개"><img src="../../img/common/ico_eraser.svg" alt="지우개"></button></li>
+                                                <li><button title="삭제"><img src="../../img/common/ico_trash.svg" alt="삭제"></button></li>
+                                            </ul>
+                                            <ul class="other">
+                                                <li><button title="가리기"><img src="../../img/common/ico_blind.svg" alt="가리기"></button></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <button title="이모지"><img src="../../img/common/ico_input_emoji.svg" alt="이모지"></button>
+                                        <div class="float-submenu wr-tool">
+                                            <div class="drager">
+                                                <button class="close"><img src="../../img/common/ico_close_wh.svg" alt="닫기"></button>
+                                            </div>
+                                            <ul>
+                                                <li><button title="O"><img src="../../img/common/ico_pass.svg" alt="O"></button></li>
+                                                <li><button title="체크"><img src="../../img/common/ico_fail.svg" alt="체크"></button></li>
+                                                <li><button title="별표"><img src="../../img/common/ico_important.svg" alt="별표"></button></li>
+                                                <li><button title="물음표"><img src="../../img/common/ico_question.svg" alt="물음표"></button></li>
+                                                <li><button title="느낌표"><img src="../../img/common/ico_alert.svg" alt="느낌표"></button></li>
+                                                <li><button title="미소"><img src="../../img/common/ico_face_smile.svg" alt="미소"></button></li>
+                                                <li><button title="하트뿅뿅"><img src="../../img/common/ico_face_heart.svg" alt="하트뿅뿅"></button></li>
+                                                <li><button title="흠"><img src="../../img/common/ico_face_hmm.svg" alt="흠"></button></li>
+                                                <li><button title="윽"><img src="../../img/common/ico_face_omg.svg" alt="윽"></button></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>                    
+                    <ul class="group2">
+                        <li>
+                            <button><span class="menu-ico memo"></span>메모</button>
+                            <div class="float-submenu memo">                                
+                                <div class="mini"><img src="../../img/common/ico_minimemo.svg" alt="메모 전체보기"></div>
+                                <div class="regular">
+                                    <div class="drager">메모
+                                        <button class="hidden"><img src="../../img/common/ico_blind.svg" alt="메모 작게보기"></button>
+                                        <button class="close"><img src="../../img/common/ico_close_wh.svg" alt="닫기"></button>
+                                    </div>
+                                    <div class="memobox">
+                                        <div class="wr-text">
+                                            <textarea name="" id="">123456789</textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <button><span class="menu-ico url"></span>외부링크</button>
+                            <div class="float-submenu link">                                
+                                <div class="mini"><img src="../../img/common/ico_minilink.svg" alt="링크 전체보기"></div>
+                                <div class="regular">
+                                    <div class="drager">외부링크
+                                        <button class="hidden"><img src="../../img/common/ico_blind.svg" alt="링크 작게보기"></button>
+                                        <button class="close"><img src="../../img/common/ico_close_wh.svg" alt="닫기"></button>
+                                    </div>
+                                    <div class="linkbox">
+                                        <input type="text" placeholder="url을 입력하세요">
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="group3">
+                        <li>
+                            <button><span class="menu-ico screen-save"></span>화면캡쳐</button>
+                        </li>
+                        <li class="qna">
+                            <button><span class="menu-ico qna" data-popup="directMsg"></span>질문</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="toolbar-body">                
+                <div class="cont-head">
+                    <h1>3학년 4반</h1>
+                    <div class="controls">
+                        <button class="view-full"><img src="../../img/common/ico_fit2.svg" alt="전체화면" title="전체화면보기"></button>
+                        <button class="close-viewer"><img src="../../img/common/ico_exit.svg" alt="종료" title="뷰어종료"></button>
+                    </div>
+                </div>
+                <div class="cont-body">
+                    <div class="scroll-header">
+                        <div class="class-list">
+                            <div class="select-box">
+                                <div class="box">
+                                    <div class="select">1단원 What Grade Are You In?</div>
+                                    <ul class="list">
+                                        <li><span>1단원 What Grade Are You In?</span>
+                                            <ul>
+                                                <li><span>1-1단원 What Grade Are You In?</span>
+                                                    <ul>
+                                                        <li><span>1-1-1단원 What Grade Are You In?</span></li>
+                                                        <li><span>1-1-2단원 What Grade Are You In?</span></li>
+                                                    </ul>
+                                                </li>
+                                                <li><span>1-2단원 What Grade Are You In?</span></li>
+                                            </ul>
+                                        </li>
+                                        <li><span>2단원 What Grade Are You In?</span></li>
+                                        <li><span>3단원 What Grade Are You In?</span>
+                                            <ul>
+                                                <li><span>3-1단원 What Grade Are You In?</span></li>
+                                                <li><span>3-2단원 What Grade Are You In?</span></li>
+                                                <li><span>3-3단원 What Grade Are You In?</span>
+                                                    <ul>
+                                                        <li><span>3-3-1단원 What Grade Are You In?</span></li>
+                                                        <li><span>3-3-2단원 What Grade Are You In?</span></li>
+                                                    </ul>
+                                                </li>
+                                                <li><span>3-4단원 What Grade Are You In?</span></li>
+                                            </ul>
+                                        </li>
+                                        <li><span>4단원 What Grade Are You In?</span></li>
+                                        <li><span>5단원 What Grade Are You In?</span></li>
+                                        <li><span>6단원 What Grade Are You In?</span></li>
+                                        <li><span>7단원 What Grade Are You In?</span></li>
+                                        <li><span>8단원 What Grade Are You In?</span></li>
+                                        <li><span>9단원 What Grade Are You In?</span></li>
+                                        <li><span>10단원 What Grade Are You In?</span></li>
+                                        <li><span>11단원 What Grade Are You In?</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="select-box">
+                                <div class="box">
+                                    <div class="select">[1차시] What Grade Are You In?</div>
+                                    <ul class="list">
+                                        <li><span>[1차시] What Grade Are You In?</span></li>
+                                        <li><span>[2차시] What Grade Are You In?</span></li>
+                                        <li><span>[3차시] What Grade Are You In?</span></li>
+                                        <li><span>[4차시] What Grade Are You In?</span></li>
+                                        <li><span>[5차시] What Grade Are You In?</span></li>
+                                        <li><span>[6차시] What Grade Are You In?</span></li>
+                                        <li><span>[7차시] What Grade Are You In?</span></li>
+                                        <li><span>[8차시] What Grade Are You In?</span></li>
+                                        <li><span>[9차시] What Grade Are You In?</span></li>
+                                        <li><span>[10차시] What Grade Are You In?</span></li>
+                                        <li><span>[11차시] What Grade Are You In?</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                 
+                    <div class="scroll-body">
+                        <div class="tab-content on" id="myClass">
+                            <h2>자료 목록</h2>
+                            
+                            <h3>도입</h3>
+                            <div class="list state-val-wrap">
+                                <ul>
+                                    <li class="active"><a href="#"><span class="ico-file hwp"></span><span class="txt">3학년 체육_YBM1단원_2차시_YBM1단원_2차시_YBM1단원_2차시.hwp</span><span class="state dg">학습완료</span></a></li>
+                                    <li><a href="#"><span class="ico-file ppt"></span><span class="txt">통합자료_YBM1단원_1차시.pptx</span><span class="state l-gr">미진행</span></a></li>
+                                    <li><a href="#"><span class="ico-file hwp"></span><span class="txt">3학년 체육_YBM1단원_2차시_YBM1단원_2차시_YBM1단원_2차시.hwp</span><span class="state l-gr">미진행</span></a></li>
+                                    <li><a href="#"><span class="ico-file ppt"></span><span class="txt">통합자료_YBM1단원_1차시.pptx</span><span class="state l-gr">미진행</span></a></li>
+                                    <li><a href="#"><span class="ico-file hwp"></span><span class="txt">3학년 체육_YBM1단원_2차시_YBM1단원_2차시_YBM1단원_2차시.hwp</span><span class="state l-gr">미진행</span></a></li>
+                                    <li><a href="#"><span class="ico-file ppt"></span><span class="txt">통합자료_YBM1단원_1차시.pptx</span><span class="state l-gr">미진행</span></a></li>
+                                    <li><a href="#"><span class="ico-file on-con"></span><span class="txt">내가만든 온라인콘텐츠임!!</span><span class="state l-gr">미진행</span></a></li>
+                                </ul>
+                            </div>
+                            <h3>전개</h3>
+                            <div class="list state-val-wrap">
+                                <ul>
+                                    <li><a href="#"><span class="ico-file xlsx"></span><span class="txt">3학년 체육_YBM1단원_2차시.xlsx</span><span class="state dg">학습완료</span></a></li>
+                                    <li><a href="#"><span class="ico-file on-con"></span><span class="txt">>내가만든 온라인콘텐츠임!!</span><span class="state dg">학습완료</span></a></li>
+                                    <li><a href="#"><span class="ico-file pdf"></span><span class="txt">통합자료_YBM1단원_1차시.pdf</span><span class="state dg">학습완료</span></a></li>
+                                </ul>
+                            </div>
+                            <h3>마무리</h3>
+                            <div class="list state-val-wrap">
+                                <ul>
+                                    <li><a href="#"><span class="ico-file mp3"></span><span class="txt">3학년 체육_YBM1단원_2차시.mp3</span><span class="state l-gr">미진행</span></a></li>
+                                    <li><a href="#"><span class="ico-file mp4"></span><span class="txt">통합자료_YBM1단원_1차시.mp4</span><span class="state l-gr">미진행</span></a></li>
+                                    <li><a href="#"><span class="ico-file etc"></span><span class="txt">통합자료_YBM1단원_1차시.etc</span><span class="state l-gr">미진행</span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container">
+            <!-- s : 텍스트 입력 박스 -->
+            <div class="toolbox-text">
+                <!-- s : 텍스트 스타일 설정 툴바 -->
+                <div class="textopt-box">
+                    <div class="option-box font-family">
+                        <span class="active">서울남산체</span><!-- 선택되면 active 클래스를 부여해주세요-->
+                        <span>고도체</span>
+                        <span>쿠키런체</span>
+                    </div>
+                    <div class="option-box font-color">
+                        <span class="black"></span>
+                        <span class="yellow active"></span><!-- 선택되면 active 클래스를 부여해주세요-->
+                        <span class="pink"></span>
+                        <span class="blue"></span>
+                    </div>
+                    <div class="option-box font-size">
+                        <span class="ctrl minus">-</span>
+                        <span class="size">60px</span>
+                        <span class="ctrl plus">+</span>
+                    </div>
+                </div>
+                <!-- e : 텍스트 스타일 설정 툴바 -->
+                <div class="input-box">
+                    <!-- 텍스트입력공간 -->
+                    <textarea name="" id="">텍스트 입력 공간</textarea>
+                </div>
+                <div class="close-this"><img src="../../img/common/ico_close_gray2.svg" alt="삭제"></div>
+            </div>
+            <!-- e : 텍스트 입력 박스 -->
+            <!-- s : 가리기 -->
+            <div class="blind-box">&nbsp;</div>
+            <!-- e : 가리기 -->
+            <div style="background:url(../../img/temp/temp_2.png) no-repeat center center / contain; height: calc(100vh - 76px)"></div>
+        </section>
+        <section class="bottom-toolbar">
+            <div class="inner-wrap">
+                <div class="file">
+                    <div class="inner">
+                        <span class="ico-file excel"></span>
+                        <!--
+                        나머지 파일 포맷들 참고
+                        <span class="ico-file pdf"></span>
+                        <span class="ico-file hwp"></span>
+                        <span class="ico-file ppt"></span>
+                        <span class="ico-file mp3"></span>
+                        <span class="ico-file mp4"></span>
+                        <span class="ico-file etc"></span>
+                        -->
+                        3학년 체육_YBM1단원_2차시.excel
+                    </div>
+                </div>
+                <div class="pager">
+                    <button class="fileview prev"><img src="../../img/common/ico_prev_wh.svg" alt=""> 이전 자료</button>
+                    <button class="pageview prev"><img src="../../img/common/ico_prev_wh.svg" alt="이전페이지" title="이전페이지로"></button>
+                    <strong>155 / 1,500</strong>
+                    <button class="pageview next"><img src="../../img/common/ico_next_wh.svg" alt="다음페이지" title="다음페이지로"></button>
+                    <button class="fileview next">다음 자료 <img src="../../img/common/ico_next_wh.svg" alt=""></button>
+                </div>
+                <div class="viewtype">
+                    <div class="zoom">
+                        <button><img src="../../img/common/ico_zoomout.svg" alt="축소" title="축소"></button>
+                        <strong>100%</strong>
+                        <button><img src="../../img/common/ico_zoomin.svg" alt="확대" title="확대"></button>
+                    </div>
+                    <div class="page-dv">
+                        <button><img src="../../img/common/ico_fit_w.svg" alt="폭맞춤" title="폭맞춤"></button>
+                        <!--<button><img src="../../img/common/ico_fit_h.svg" alt="쪽맞춤" title="쪽맞춤"></button>-->
+                        <button><img src="../../img/common/ico_view_double.svg" style="width:34px;" alt="두쪽보기" title="두쪽보기"></button>
+                        <!--<button><img src="../../img/common/ico_view_single.svg" style="width:34px;" alt="한쪽보기" title="한쪽보기"></button>-->
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+<!-- start:레이어 팝업 -->
+<div class="popup-wrap"></div>
+<!-- //end:레이어 팝업 -->    
+
+<script src="../../lib/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="../../lib/lightgallery-all.min.js"></script>
+<script src="../../lib/jquery-ui.min.js"></script>
+<script src="../../common/js/ui.js"></script>
+<script src="../../common/js/popup.js"></script>
+
+</body>
+</html>

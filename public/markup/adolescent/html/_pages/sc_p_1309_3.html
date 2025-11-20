@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge;Chromeframe=1">
+
+<!-- 모바일일경우에만 viewport를 넣어주세요 -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="generator" content="">
+<meta name="robots" content="ALL">
+<meta property="og:type" content="">
+<meta property="og:title" content="">
+<meta property="og:description" content="">
+<meta property="og:image" content="">
+<meta property="og:url" content="">
+<title>페이지명 | 중고등(채널명) | YBM온라인스쿨(사이트명)</title>
+<link rel="shortcut icon" href="">
+<link rel="stylesheet" href="../../lib/swiper.min.css">
+<link rel="stylesheet" href="../../lib/lightgallery.css">
+<link rel="stylesheet" href="../../common/css/import.css">
+<script src="../../lib/jquery-3.6.0.min.js"></script>
+<script src="../../lib/swiper.js"></script>
+</head>
+<body>
+<section class="wrap">
+    <section class="inner">
+        <!-- start : header -->
+        <section class="header">
+            <!-- gnb.on : 둥근 디자인,대제목클릭시, 스크롤시 -->
+            <nav class="gnb">
+                <!-- gnb-inner.on : 소제목나올시 -->
+                <div class="gnb-inner">
+                    <h2 class="site-logo"><a href="#none"></a></h2>
+                    <div class="gnb-box">
+                        <ul class="gnb-left">
+                            <li>
+                                <a href="#none" class="">스터디 보드</a>
+                            </li>
+                            <li class="on">
+                                <a href="#none" class="on">내 학습 정보</a>
+                                <ul class="gsub-list">
+                                    <li><a href="#none" class="">수업 시간표</a></li>
+                                    <li><a href="#none">내 수업</a></li>
+                                    <li><a href="#none">과제·평가</a></li>
+                                    <li><a href="#none">학습 리포트</a></li>
+                                    <li><a href="#none" class="on">확인 학습</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#none" class="">메시지</a>
+                                <ul class="gsub-list">
+                                    <li><a href="#none">그룹 메시지</a></li>
+                                    <li><a href="#none">개인 메시지</a></li>
+                                </ul>
+                            </li>
+                            <li class="">
+                                <a href="#none" class="">온라인 스터디 룸</a>
+                            </li>
+                        </ul>
+                        <ul class="gnb-right">
+                            <li>
+                                <button type="button" class="btn-alarm msg"><span>0</span></button>
+                                <a href="#none" class="link-voucher">이용권</a>
+                            </li>
+                            <li><a href="#none">개인정보</a></li>
+                            <li><a href="#none">고객센터</a></li>
+                            <li><a href="#none"><span class="ico-logout"></span>로그아웃</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- start : mobile gnb -->
+            <div class="mo-gnb">
+                <div class="trigger"><i></i></div>
+                <button type="button" class="btn-alarm msg"><span>0</span></button>
+                <div class="msg-popup">
+                    <div class="head">
+                        <h2 class="jl-24">메시지</h2>
+                        <button type='button' class="close close-btn"></button>
+                    </div>
+                    <div class="body has-scroll2">
+                        <a href="#none">
+                            <div class="last">
+                                <ul>
+                                    <li><span class="pts pt">학부모</span></li>
+                                    <li>[김지원] 김태연 선생님 (학교)</li>
+                                    <li>총 <i>2</i>건의 메시지가 도착했습니다.</li>
+                                    <li>2021.04.03 PM 05:00</li>
+                                </ul>
+                                <button type="button" class="more"></button>
+                            </div>
+                        </a>
+                        <a href="#none">
+                            <div class="ing">
+                                <ul>
+                                    <li><span class="pts sd">학생</span></li>
+                                    <li>이태민 선생님 (학원)</li>
+                                    <li>총 <i>1</i>건의 메시지가 도착했습니다. (설문)</li>
+                                    <li>2021.04.02 PM 03:00</li>
+                                </ul>
+                                <button type="button" class="more"></button>
+                            </div>
+                        </a>
+                        <a href="#none">
+                            <div class="ing">
+                                <ul>
+                                    <li><span class="pts tc">교사</span></li>
+                                    <li>홍길동 학생</li>
+                                    <li>총 <i>2</i>건의 메시지가 도착했습니다.</li>
+                                    <li>2021.04.02 PM 02:00</li>
+                                </ul>
+                                <button type="button" class="more"></button>
+                            </div>
+                        </a>
+                        <a href="#none">
+                            <div class="ing">
+                                <ul>
+                                    <li><span class="pts tc">교사</span></li>
+                                    <li>[김지원] 과제 제출 마감</li>
+                                    <li>총 <i>2</i>건의 메시지가 도착했습니다.</li>
+                                    <li>2021.04.01 PM 01:00</li>
+                                </ul>
+                                <button type="button" class="more"></button>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="gnb-inner">
+                    <h2 class="site-logo"><a href="#none"></a></h2>
+                    <div class="mo-cont">
+                        <div class="mo-loginbox">
+                            <!-- 현재는 비로그인상태, 로그인시 둘다 div클래스에 .on클래스 추가 -->
+                            <!-- 비로그인시 -->
+                            <div class="mo-belogin on">
+                                <h3><a href="#none">로그인</a> 을 해주세요.</h3>
+                            </div>
+                            <!-- end -->
+                            <!-- 로그인시 -->
+                            <div class="mo-aflogin on">
+                                <span><img src="../../img/common/ico_profile.svg" alt=""></span>
+                                <div>
+                                    <h3><strong>홍길동</strong>님 반갑습니다.</h3>
+                                    <a href="#none">개인정보 관리</a>
+                                </div>
+                            </div>
+                            <!-- end -->
+                        </div>
+                        <div class="gnb-box">
+                            <ul class="gnb-top">
+                                <li class=""><a href="#none">스터디 보드</a></li>
+                                <li class="on"><a href="#none">내 학습 정보</a></li>
+                                <li class=""><a href="#none">메시지</a></li>
+                                <li class=""><a href="#none">온라인 스터디 룸</a></li>
+                            </ul>
+                            <div class="gnb-bottom">
+                                <a href="#none" class="link-voucher">이용권</a>
+                                <ul>
+                                    <li><a href="#none">개인정보</a></li>
+                                    <li><a href="#none">고객센터</a></li>
+                                    <!-- 현재 비로그인시, 로그인시 둘다 li에 .on클래스 추가 -->
+                                    <!-- 비로그인 -->
+                                    <li class=""><a href="#none">로그인</a></li>
+                                    <!-- 로그인 -->
+                                    <li class=""><a href="#none">로그아웃</a></li>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mo-bg"></div>
+            </div>
+            <!-- end: mobile gnb -->
+            
+            <!-- start: pc drop-down list -->
+            <div class="common-list">
+                <div class="inner">
+                    <div class="left">
+                        <span><img src="../../img/common/top_img3.svg" alt=""></span>
+                        <p>과제·평가</p>
+                    </div>
+                    <div class="right">
+                        <div class="home"><a href="#none" class="ico-home gray"></a></div>
+                    <div class="major-title">
+                        <div class="drop-down">
+                            <div class="title">
+                                <h2 class="first">내 학습 정보</h2>
+                                <i class="arrow"></i>
+                                <ul class="drop-list" style="opacity: 0;">
+                                    <li>
+                                        <a href="#none" class="">스터디 보드</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none" class="on">내 학습 정보</a>
+                                        <ul class="sub-list">
+                                            <li><a href="#none" class="">수업 시간표</a></li>
+                                            <li><a href="#none" class="on">내 수업</a></li>
+                                            <li><a href="#none">과제·평가</a></li>
+                                            <li><a href="#none">학습 리포트</a></li>
+                                            <li><a href="#none">확인 학습</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#none" class="">메시지</a>
+                                        <ul class="sub-list">
+                                            <li><a href="#none">그룹 메시지</a></li>
+                                            <li><a href="#none">개인 메시지</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#none">온라인 스터디 룸</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sub-title">
+                        <div class="drop-down">
+                            <div class="title">
+                                <h2 class="sub-first">과제·평가</h2>
+                                <i class="sub-arrow"></i>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end : pc -->
+
+            <!-- start : mo list -->
+            <div class="mo-list">
+                <div class="mo-sublist">
+                    <div class="inner swiper-container">
+                        <ul class="sub-list swiper-wrapper">
+                            <!-- 해당링크 클릭시 li에 .on클래스 추가 -->
+                            <li class="swiper-slide">
+                                <a href="#none">수업 시간표</a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#none">내 수업</a>
+                            </li>
+                            <li class="swiper-slide on">
+                                <a href="#none">과제·평가</a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#none">학습 리포트</a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#none">확인 학습</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- end : mo -->
+        </section>
+        <!-- end : header -->
+
+        <!-- start : container -->
+        <section class="container">
+            <div class="container-inner">
+                <div class="cont-title">
+                    <h2 class="jl-36">과제 보기 (매칭형 게임)</h2>
+                    <!-- <h2 class="jl-36">평가 보기 (매칭형 게임)</h2> -->
+                </div>
+                <div class="asev-game asev-survey asev-online mg-top-50">
+                    <div class="inner">
+                        <h2>숫자 읽는 법</h2>
+                        <div class="box-img">
+                            <img src="../../img/common/img_matchinggame.jpg" alt="">
+                        </div>
+                        <div class="day-cont mg-top-20">
+                            <a href="#none" class="btn btn01">과제 열기</a>
+                        </div>
+                    </div>
+                </div>
+                <table class="game-table asev-table quiz-table mg-top-50">
+                    <colgroup>
+                        <col width="130px">
+                    </colgroup>
+                    <tbody>
+                        <tr>
+                        </tr>
+                        <tr>
+                            <th>수업 정보</th>
+                            <td>
+                                <!-- <span>미설정</span> -->
+                                <span>국어 활동 3-1</span>
+                                <ul>
+                                    <li>1단원 말하기 듣기 쓰기</li>
+                                    <li>2차시 독후감 작성</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>대상</th>
+                            <td>
+                                <span>3-1반</span>
+                                <!-- <span>학급 전체</span> -->
+                                <!-- <div class="group"><span>학급모둠</span>모둠 1</div> -->
+                                <div class="tool-tip-bx">
+                                    <strong>개별선택</strong>
+                                    <div class="balloon">
+                                        <!-- 한 반을 대상으로 한경우 ul한개, 여러반(n방)을 대상으로 한경우 ul*n , 반이름은 li.class 클래스 추가 -->
+                                        <ul>
+                                            <li>[3-1반]</li>
+                                            <li>01번 김민준</li>
+                                            <li>02번 나현</li>
+                                            <li>03번 문현우</li>
+                                            <li>04번 박서연</li>
+                                            <li>05번 최지연</li>
+                                        </ul>
+                                        <ul>
+                                            <li>[3-2반]</li>
+                                            <li>06번 김민준</li>
+                                            <li>07번 나현</li>
+                                            <li>08번 문현우</li>
+                                            <li>09번 박서연</li>
+                                            <li>10번 최지연</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>기간</th>
+                            <td>
+                                <ul>
+                                    <li><span class="term end">기간 종료</span></li>
+                                    <li>시작일</li>
+                                    <li>2021.04.01 10:00 ~</li>
+                                    <li>마감일</li>
+                                    <li>2021.04.04 18:00</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr class="game-time">
+                            <th>게임시간</th>
+                            <td>
+                                <span>3분</span>
+                            </td>
+                        </tr>
+                </table>
+            </div>
+            <div class="asev-situation survey-sit">
+                <div class="inner">
+                    <div class="cont-title type-b">
+                        <h2 class="jl-36">과제 진행 현황</h2>
+                        <div class="tab-ui">
+                            <button type="button" class="tb-btn new">진행 현황</button>
+                            <button type="button" class="tb-btn on">질의 응답</button>
+                        </div>
+                    </div>
+                    <div class="sit-cont mg-top-50">
+                        <div class="sit-box sit-chat-box">
+                            <div class="msg-inner has-scroll2 type-a">
+                                <!-- 학생.ch-txt-box.type-a , 선생님.ch-txt-box , 날짜.ch-date-box -->
+                                <!-- start: 선생님 -->
+                                <div class="ch-txt-box">
+                                    <div class="inner">
+                                        <div class="profile">
+                                            <p class="img-wrap"><img src="../../img/common/ico_profile_tch.svg" alt=""></p>
+                                            <h2 class="name mg-top-10">Brad Pitt</h2>
+                                            <span class="value mg-top-5">선생님</span>
+                                        </div>
+                                        <div class="ch-txt">
+                                            <div class="inn">
+                                                <!-- 채팅 -->
+                                                <div class="chat-box">
+                                                    <div class="inn">
+                                                        <div class="txt-bx">
+                                                            <div class="txt link">
+                                                                <a href="#" class="go-link" target="_blank">
+                                                                    <p class="site-title">https://www.youtube.com/watch?v=KWqF53_slmc</p>
+                                                                    <span class="site-disc">심심할 때 낱말 퍼즐 한 번 풀어보세요!</span>
+                                                                    <div class="site mg-top-10">
+                                                                        <div class="box">
+                                                                            <p>미니 가로세로 낱말 퍼즐1</p>
+                                                                            <span class="disc">https://www.youtube.com/watch?v=KWqF53_slmc</span>
+                                                                        </div>
+                                                                        <div class="img-bx">
+                                                                            <img src="../../img/common/ico_naver.svg" alt="">
+                                                                        </div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- 시간 -->
+                                                <div class="time">
+                                                    <p>15:30</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end -->
+                                <!-- start: 날짜 -->
+                                <div class="ch-date-box">
+                                    <p>2021.04.01 목요일</p>
+                                </div>
+                                <!-- end -->
+                                <!-- start: 학생 -->
+                                <div class="ch-txt-box type-a">
+                                    <div class="inner">
+                                        <div class="ch-txt">
+                                            <div class="inn">
+                                                <!-- 시간 -->
+                                                <div class="time">
+                                                    <p>13:30</p>
+                                                </div>
+                                                <!-- 채팅 -->
+                                                <div class="chat-box">
+                                                    <div class="inn">
+                                                        <div class="txt-bx">
+                                                            <div class="txt chat">
+                                                                <p>
+                                                                    선생님, 여기에 있는 내용이 잘 이해가 되지 않아요. 혹시 설명해 주실 수 있을까요?
+                                                                </p>
+                                                                <a href="#" class="link-btn">페이지 열기</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="profile">
+                                            <p class="img-wrap"><img src="../../img/common/ico_profile_stu.svg" alt=""></p>
+                                            <h2 class="name mg-top-10">김미나</h2>
+                                            <span class="value mg-top-5">학생</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end -->
+                                <!-- start: 선생님 -->
+                                <div class="ch-txt-box">
+                                    <div class="inner">
+                                        <div class="profile">
+                                            <p class="img-wrap"><img src="../../img/common/ico_profile_tch.svg" alt=""></p>
+                                            <h2 class="name mg-top-10">Brad Pitt</h2>
+                                            <span class="value mg-top-5">선생님</span>
+                                        </div>
+                                        <div class="ch-txt">
+                                            <div class="inn">
+                                                <!-- 채팅 -->
+                                                <div class="chat-box">
+                                                    <div class="inn">
+                                                        <div class="txt-bx">
+                                                            <div class="txt">
+                                                                <p>
+                                                                    읽었으면 알 것 같은데? 안 읽은 거 아니니?  일단 책을 한번 읽어보고 다시 선생님한테 질문해줄래?
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- 시간 -->
+                                                <div class="time">
+                                                    <p>14:47</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end -->
+                                <!-- start: 학생 -->
+                                <div class="ch-txt-box type-a">
+                                    <div class="inner">
+                                        <div class="ch-txt">
+                                            <div class="inn">
+                                                <!-- 시간 -->
+                                                <div class="time">
+                                                    <p>15:01</p>
+                                                </div>
+                                                <!-- img -->
+                                                <div class="photo-box">
+                                                    <div class="inn">
+                                                        <div class="txt-bx">
+                                                            <div class="txt photo">
+                                                                <div class="lightgallery photo">
+                                                                    <a href="../../img/temp/img_photo1.svg" class="item" data-sub-html="'별 1반.jpg'">
+                                                                        <img src="../../img/temp/img_photo1.svg" alt="">
+                                                                    </a>
+                                                                    <a href="../../img/temp/img_photo2.svg" class="item" data-sub-html="'우리반.jpg'">
+                                                                        <img src="../../img/temp/img_photo2.svg" alt="">
+                                                                    </a>
+                                                                    <a href="../../img/temp/img_photo3.svg" class="item" data-sub-html="'교실.jpg'">
+                                                                        <img src="../../img/temp/img_photo3.svg" alt="">
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="profile">
+                                            <p class="img-wrap"><img src="../../img/common/ico_profile_stu.svg" alt=""></p>
+                                            <h2 class="name mg-top-10">김미나</h2>
+                                            <span class="value mg-top-5">학생</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end -->
+                                <!-- start: 선생님 -->
+                                <div class="ch-txt-box">
+                                    <div class="inner">
+                                        <div class="profile">
+                                            <p class="img-wrap"><img src="../../img/common/ico_profile_tch.svg" alt=""></p>
+                                            <h2 class="name mg-top-10">Brad Pitt</h2>
+                                            <span class="value mg-top-5">선생님</span>
+                                        </div>
+                                        <div class="ch-txt">
+                                            <div class="inn">
+                                                <!-- video -->
+                                                <div class="video-box">
+                                                    <div class="inn">
+                                                        <div class="txt-bx">
+                                                            <div class="txt video">
+                                                                <div class="title">
+                                                                    <p class="text">한강에서 찍은 우리 영상</p>
+                                                                    <span class="file">.mp4</span>
+                                                                </div>
+                                                                <a href="#" target="_blank">
+                                                                    <p class="img-box"><img src="../../img/temp/img_video.png" alt=""></p>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- 시간 -->
+                                                <div class="time">
+                                                    <p>15:22</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end -->
+                                <!-- start: 학생 -->
+                                <div class="ch-txt-box type-a">
+                                    <div class="inner">
+                                        <div class="ch-txt">
+                                            <div class="inn">
+                                                <div class="time">
+                                                    <p>16:07</p>
+                                                </div>
+                                                <!-- audio -->
+                                                <div class="audio-box">
+                                                    <div class="inn">
+                                                        <div class="txt-bx">
+                                                            <div class="txt audio">
+                                                                <div class="title">
+                                                                    <p class="text">한강에서 찍은 우리 영상</p>
+                                                                    <span class="file">.mp4</span>
+                                                                </div>
+                                                                <div class="recod-box">
+                                                                    <div class="inner">
+                                                                        <div class="form-wrap">
+                                                                            <button type="button" class="btns play">정지</button>
+                                                                        </div>
+                                                                        <div class="progress-form">
+                                                                            <div class="total-bar">
+                                                                                <div class="current-bar" style="width:80%">
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="time-bx mg-top-5">
+                                                                                <span class="time start">00:40</span>
+                                                                                <span class="time end">01:00</span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="profile">
+                                            <p class="img-wrap"><img src="../../img/common/ico_profile_stu.svg" alt=""></p>
+                                            <h2 class="name mg-top-10">김미나</h2>
+                                            <span class="value mg-top-5">학생</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end -->
+                                <!-- start: 학생 -->
+                                <div class="ch-txt-box type-a">
+                                    <div class="inner">
+                                        <div class="ch-txt">
+                                            <div class="inn">
+                                                <!-- 시간 -->
+                                                <div class="time">
+                                                    <p>16:22</p>
+                                                </div>
+                                                <!-- 첨부파일 -->
+                                                <div class="att-file-box">
+                                                    <div class="inn">
+                                                        <div class="txt-bx">
+                                                            <div class="txt txt2 document">
+                                                                <div class="file-form-wrap sort-file">
+                                                                    <!-- 파일 클래스명 - mp4파일: .mp4 , mp3파일: .mp3 , zip파일: .zip , pdf파일: .pdf , hwp파일: .hwp , xlsx파일: .xlsx , pptx파일: .pptx , png파일: .png , jpg파일: .jpg , txt파일: .txt , youtube파일: .youtube -->
+                                                                    <div class="inner xlsx">
+                                                                        <a href="#;">
+                                                                            <p class="txt">4학년 체육_YBM1단원_1차시.xls</p>
+                                                                        </a>
+                                                                    </div>
+                                                                    <div class="f-sort-box">
+                                                                        <ul>
+                                                                            <li><a href="#" download="">파일 다운로드</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="txt txt2 document">
+                                                                <div class="file-form-wrap sort-file">
+                                                                    <!-- 파일 클래스명 - mp4파일: .mp4 , mp3파일: .mp3 , zip파일: .zip , pdf파일: .pdf , hwp파일: .hwp , xlsx파일: .xlsx , pptx파일: .pptx , png파일: .png , jpg파일: .jpg , txt파일: .txt , youtube파일: .youtube -->
+                                                                    <div class="inner xlsx">
+                                                                        <a href="#;">
+                                                                            <p class="txt">4학년 체육_YBM1단원_1차시.xls</p>
+                                                                        </a>
+                                                                    </div>
+                                                                    <div class="f-sort-box">
+                                                                        <ul>
+                                                                            <li><a href="#" download="">파일 다운로드</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="txt txt2 document">
+                                                                <div class="file-form-wrap sort-file">
+                                                                    <!-- 파일 클래스명 - mp4파일: .mp4 , mp3파일: .mp3 , zip파일: .zip , pdf파일: .pdf , hwp파일: .hwp , xlsx파일: .xlsx , pptx파일: .pptx , png파일: .png , jpg파일: .jpg , txt파일: .txt , youtube파일: .youtube -->
+                                                                    <div class="inner pdf">
+                                                                        <a href="#;">
+                                                                            <p class="txt">4학년 체육_YBM1단원_1차시.pdf</p>
+                                                                        </a>
+                                                                    </div>
+                                                                    <div class="f-sort-box">
+                                                                        <ul>
+                                                                            <li><a href="#" download="">파일 다운로드</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="txt txt2 document">
+                                                                <div class="file-form-wrap sort-file">
+                                                                    <!-- 파일 클래스명 - mp4파일: .mp4 , mp3파일: .mp3 , zip파일: .zip , pdf파일: .pdf , hwp파일: .hwp , xlsx파일: .xlsx , pptx파일: .pptx , png파일: .png , jpg파일: .jpg , txt파일: .txt , youtube파일: .youtube -->
+                                                                    <div class="inner mp3">
+                                                                        <a href="#;">
+                                                                            <p class="txt">4학년 체육_YBM1단원_1차시.mp3</p>
+                                                                        </a>
+                                                                    </div>
+                                                                    <div class="f-sort-box">
+                                                                        <ul>
+                                                                            <li><a href="#" download="">파일 다운로드</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="profile">
+                                            <p class="img-wrap"><img src="../../img/common/ico_profile_stu.svg" alt=""></p>
+                                            <h2 class="name mg-top-10">김미나</h2>
+                                            <span class="value mg-top-5">학생</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end -->
+                            </div>
+                            <div class="msg-chat">
+                                <div class="file-box">
+                                    <div class="file-up">
+                                        <div class="form-wrap">
+                                            <button type="button" class="btns emo">이모티콘</button>
+                                            <div class="emotion-box">
+                                                <div class="inner-cont">
+                                                    <ul>
+                                                        <li><button type="button" class="emo em1" data-val="&#x1F603">&#x1F603</button></li>
+                                                        <li><button type="button" class="emo em2" data-val="&#x1F609">&#x1F609</button></li>
+                                                        <li><button type="button" class="emo em3" data-val="&#x1F601">&#x1F601</button></li>
+                                                        <li><button type="button" class="emo em4" data-val="&#x1F602">&#x1F602</button></li>
+                                                        <li><button type="button" class="emo em5" data-val="&#x1F605">&#x1F605</button></li>
+                                                        <li><button type="button" class="emo em6" data-val="&#x1F60F">&#x1F60F</button></li>
+                                                        <li><button type="button" class="emo em7" data-val="&#x1F60D">&#x1F60D</button></li>
+                                                        <li><button type="button" class="emo em8" data-val="&#x1F61A">&#x1F61A</button></li>
+                                                        <li><button type="button" class="emo em9" data-val="&#x1F61C">&#x1F61C</button></li>
+                                                        <li><button type="button" class="emo em10" data-val="&#x1F610">&#x1F610</button></li>
+                                                        <li><button type="button" class="emo em11" data-val="&#x1F61B">&#x1F61B</button></li>
+                                                        <li><button type="button" class="emo em12" data-val="&#x1F62E">&#x1F62E</button></li>
+                                                        <li><button type="button" class="emo em13" data-val="&#x1F44D">&#x1F44D</button></li>
+                                                        <li><button type="button" class="emo em14" data-val="&#x1F44F">&#x1F44F</button></li>
+                                                        <li><button type="button" class="emo em15" data-val="&#x1F197">&#x1F197</button></li> <!-- 찬성 -->
+                                                        <li><button type="button" class="emo em16" data-val="&#x274E">&#x274E</button></li> <!-- 반대 -->
+                                                        <li><button type="button" class="emo em17" data-val="&#x2764">&#x2764</button></li>
+                                                        <li><button type="button" class="emo em18" data-val="&#x2757">&#x2757</button></li>
+                                                        <li><button type="button" class="emo em19" data-val="&#x2753">&#x2753</button></li>
+                                                        <li><button type="button" class="emo em20" data-val="&#x2B55">&#x2B55</button></li>
+                                                        <li><button type="button" class="emo em21" data-val="&#x274C">&#x274C</button></li>
+                                                        <li><button type="button" class="emo em22" data-val="&#x2714">&#x2714</button></li>
+                                                        <li><button type="button" class="emo em23" data-val="&#x2B50">&#x2B50</button></li>
+                                                        <li><button type="button" class="emo em24" data-val="&#x1F33C">&#x1F33C</button></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-wrap">
+                                            <button type="button" class="btns video" data-popup="video">비디오</button>
+                                        </div>
+                                        <div class="form-wrap">
+                                            <button type="button" class="btns photo" data-popup="img">이미지</button>
+                                        </div>
+                                        <div class="form-wrap">
+                                            <button type="button" class="btns docu" data-popup="docu">문서파일첨부</button>
+                                        </div>
+                                        <div class="form-wrap">
+                                            <button type="button" class="btns audio" data-popup="audio">오디오</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="msg-input">
+                                    <!-- 채팅에 주소 입력시 -->
+                                    <!-- <div class="link-input">
+                                        <a href="#none" class="link-btn2" target="_blank">https://www.youtube.com/watch?v=KWqF53_slmc</a>
+                                        심심할 때 낱말 퍼즐 한 번 풀어보세요!
+                                    </div> -->
+                                    <!-- 채팅전 -->
+                                    <textarea class="textarea auto-height" name="" id="" placeholder="대화를 입력하세요."></textarea>
+    
+                                    <!-- 입력전 비활성화.disabled -->
+                                    <button type="button" class="msg-send btn disabled">전송</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end : contianer -->
+
+        <!-- start : footer -->
+        <section class="footer">
+            <div class="footer-inner">
+                <div class="footer-left">
+                    <nav class="footer-list">
+                        <h2 class="site-logo"><a href="#none"></a></h2>
+                        <ul class="footer-desc">
+                            <li><a href="#none">회사 소개</a></li>
+                            <li><a href="#none">이용약관</a></li>
+                            <li><a href="#none">개인정보처리방침</a></li>
+                        </ul>
+                    </nav>
+                    <ul class="footer-desc mg-top-20">
+                        <li>㈜와이비엠 서울시 종로구 종로 104</li>
+                        <li>대표이사 권오찬, 정용환</li>
+                        <li>사업자등록번호 101-81-14655</li>
+                        <li>통신판매신고번호 제 01-320 호</li>
+                        <li>고객센터 : 02-2000-0500</li>
+                        <li>FAX : 02-2000-0426</li>
+                        <li>E-mail : booksam@ybm.co.kr</li>
+                    </ul>
+                    <p class="copyright">Copyright ⓒ (주)YBM. All rights reserved.</p>
+                </div>
+                <div class="footer-right">
+                    <div class="drop-down">
+                        <div class="drop-first">
+                            <h2 class="first">Family Site</h2>
+                            <i class="arrow"></i>
+                        </div>
+                        <ul class="cont">
+                            <li><a href="#none">Family Site1</a></li>
+                            <li><a href="#none">Family Site2</a></li>
+                            <li><a href="#none">Family Site2 Family Site2</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end : footer -->
+    </section>
+</section>
+
+<!-- start:레이어 팝업 -->
+<div class="popup-wrap"></div>
+<!-- //end:레이어 팝업 -->
+
+<script src="../../lib/swiper.js"></script>
+<script src="../../lib/lightgallery-all.min.js"></script>
+<script src="../../common/js/popup.js"></script>
+<script src="../../common/js/ui.js"></script>
+<script src="../../common/js/ui_m.js"></script>
+</body>
+</html>

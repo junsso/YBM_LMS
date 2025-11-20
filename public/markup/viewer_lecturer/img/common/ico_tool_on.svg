@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25" height="25" viewBox="0 0 25 25">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1380" data-name="Rectangle 1380" width="25" height="25" transform="translate(1528 686)" fill="#ff5c5c"/>
+    </clipPath>
+  </defs>
+  <g id="icon_수업도구" transform="translate(-1528 -686)" clip-path="url(#clip-path)">
+    <g id="Layer_2" data-name="Layer 2" transform="translate(1528 688.246)">
+      <g id="Layer_9" data-name="Layer 9">
+        <path id="Path_2847" data-name="Path 2847" d="M23.486,16.223V.732A.732.732,0,0,0,22.754,0H2.246a.732.732,0,0,0-.732.732v15.49A2.2,2.2,0,0,0,0,18.311v1.465a.732.732,0,0,0,.732.732H24.268A.732.732,0,0,0,25,19.775V18.311A2.2,2.2,0,0,0,23.486,16.223ZM22.021,1.465V16.113H20.557v-2.2a.732.732,0,0,0-.732-.732H13.965a.732.732,0,0,0-.732.732v2.2H2.979V1.465ZM14.7,16.113V14.648h4.395v1.465Zm8.838,2.93H1.465v-.732a.732.732,0,0,1,.732-.732H22.8a.732.732,0,0,1,.732.732Z" fill="#ff5c5c"/>
+      </g>
+    </g>
+  </g>
+</svg>

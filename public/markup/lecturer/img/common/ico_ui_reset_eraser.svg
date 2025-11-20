@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="68" height="68" viewBox="0 0 68 68">
+  <defs>
+    <filter id="타원_390" x="0" y="0" width="68" height="68" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#1b1d1f" flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <rect id="사각형_331" data-name="사각형 331" width="23" height="23" transform="translate(1314 686)" fill="#00a58a"/>
+    </clipPath>
+  </defs>
+  <g id="ico_휴지통" transform="translate(-1086 -354)">
+    <g transform="matrix(1, 0, 0, 1, 1086, 354)" filter="url(#타원_390)">
+      <circle id="타원_390-2" data-name="타원 390" cx="25" cy="25" r="25" transform="translate(8 7)" fill="#fff"/>
+    </g>
+    <g id="icon_휴지통" transform="translate(-206 -311)" clip-path="url(#clip-path)">
+      <g id="delete_1_" data-name="delete (1)" transform="translate(1316.73 686)">
+        <path id="패스_283" data-name="패스 283" d="M4.321,2.091A1.178,1.178,0,0,1,5.542.9H10.56a1.178,1.178,0,0,1,1.221,1.187v1.3h.9v-1.3A2.083,2.083,0,0,0,10.56,0H5.542A2.083,2.083,0,0,0,3.417,2.091v1.3h.9Zm0,0" transform="translate(0.719)" fill="#00a58a"/>
+        <path id="패스_284" data-name="패스 284" d="M3.148,21.781H13.839a1.925,1.925,0,0,0,1.831-2.034V5.789H1.316V19.747a1.925,1.925,0,0,0,1.831,2.034ZM11.375,7.947a.452.452,0,0,1,.9,0V18.628a.452.452,0,0,1-.9,0Zm-3.334,0a.452.452,0,0,1,.9,0V18.628a.452.452,0,0,1-.9,0Zm-3.334,0a.452.452,0,0,1,.9,0V18.628a.452.452,0,0,1-.9,0Zm0,0" transform="translate(0.277 1.219)" fill="#00a58a"/>
+        <path id="패스_285" data-name="패스 285" d="M1.13,5.435h15.28a1.13,1.13,0,1,0,0-2.26H1.13a1.13,1.13,0,1,0,0,2.26Zm0,0" transform="translate(0 0.668)" fill="#00a58a"/>
+      </g>
+    </g>
+  </g>
+</svg>

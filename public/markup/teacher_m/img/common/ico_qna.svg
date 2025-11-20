@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_383" data-name="사각형 383" width="30" height="30" transform="translate(1098 137)" fill="#aeaeae"/>
+    </clipPath>
+  </defs>
+  <g id="icon_OX형" transform="translate(-1098 -137)" clip-path="url(#clip-path)">
+    <rect id="사각형_927" data-name="사각형 927" width="16" height="16" rx="2" transform="translate(1099 138)" fill="#454545"/>
+    <rect id="사각형_928" data-name="사각형 928" width="16" height="16" rx="2" transform="translate(1111 150)" fill="#00a58a"/>
+    <text id="Q" transform="translate(1110 149)" fill="#fff" font-size="8" font-family="SegoeUI, Segoe UI"><tspan x="-6.031" y="0">Q</tspan></text>
+    <text id="A" transform="translate(1122 161)" fill="#fff" font-size="8" font-family="SegoeUI, Segoe UI"><tspan x="-5.16" y="0">A</tspan></text>
+  </g>
+</svg>

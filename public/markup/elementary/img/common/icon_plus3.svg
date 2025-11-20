@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="49" height="49" viewBox="0 0 49 49">
+  <defs>
+    <filter id="사각형_312" x="-4.5" y="-3.5" width="58" height="58" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="타원_338" x="0" y="0" width="49" height="49" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-2"/>
+      <feFlood flood-color="#454545" flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#사각형_312)">
+        <rect id="사각형_312-2" data-name="사각형 312" width="40" height="40" rx="20" fill="#ffc609"/>
+      </g>
+    </clipPath>
+  </defs>
+  <g id="그룹_1289" data-name="그룹 1289" transform="translate(15008.5 19728.5)">
+    <g transform="matrix(1, 0, 0, 1, -15008.5, -19728.5)" filter="url(#타원_338)">
+      <circle id="타원_338-2" data-name="타원 338" cx="20" cy="20" r="20" transform="translate(2.5 2.5)" fill="none"/>
+    </g>
+    <g id="icon__" data-name="icon_+" transform="translate(-15006 -19726)" clip-path="url(#clip-path)">
+      <g id="add">
+        <path id="패스_697" data-name="패스 697" d="M20,40A20,20,0,1,1,40,20,20.023,20.023,0,0,1,20,40ZM20,2.857A17.143,17.143,0,1,0,37.143,20,17.163,17.163,0,0,0,20,2.857Zm0,0" fill="#fff"/>
+        <path id="패스_698" data-name="패스 698" d="M17.679,27.143a1.429,1.429,0,0,1-1.429-1.429V11.429a1.429,1.429,0,1,1,2.857,0V25.714a1.429,1.429,0,0,1-1.429,1.429Zm0,0" transform="translate(2.321 1.429)" fill="#fff"/>
+        <path id="패스_699" data-name="패스 699" d="M25.714,19.107H11.429a1.429,1.429,0,0,1,0-2.857H25.714a1.429,1.429,0,0,1,0,2.857Zm0,0" transform="translate(1.429 2.321)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

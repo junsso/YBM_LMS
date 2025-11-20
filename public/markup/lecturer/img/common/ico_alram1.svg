@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_729" data-name="Rectangle 729" width="20" height="20" transform="translate(50 86)" fill="#ff5c5c"/>
+    </clipPath>
+  </defs>
+  <g id="ico_alram2" transform="translate(-50 -86)" clip-path="url(#clip-path)">
+    <path id="danger-sign" d="M10,0A10,10,0,1,0,20,10,10,10,0,0,0,10,0Zm0,15.752a1.015,1.015,0,1,1,1.015-1.015A1.015,1.015,0,0,1,10,15.752Zm1.015-5.213a1.016,1.016,0,1,1-2.031,0V5.191a1.016,1.016,0,1,1,2.031,0Z" transform="translate(50 86)" fill="#ff5c5c"/>
+  </g>
+</svg>

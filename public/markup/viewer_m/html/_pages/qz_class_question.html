@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge;Chromeframe=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="generator" content="">
+<meta name="robots" content="ALL">
+<meta property="og:type" content="">
+<meta property="og:title" content="">
+<meta property="og:description" content="">
+<meta property="og:image" content="">
+<meta property="og:url" content="">
+<title>뷰어 | YBM온라인스쿨(사이트명)</title>
+<link rel="alternate" href="layout.html" id="desktop" media="only screen and (touch-enabled: 0)">
+<link rel="alternate" href="layout.html" id="tablet" media="only screen and (min-device-width: 768px)">
+<link rel="alternate" href="layout_m.html" id="phone" media="only screen and (max-device-width: 767px)">
+<link rel="shortcut icon" href="">
+<link rel="stylesheet" href="../../lib/jquery.mCustomScrollbar.css">
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css"><!-- slider range-->
+<link rel="stylesheet" href="../../common/css/import.css">
+<script src="../../lib/jquery-3.6.0.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script><!-- slider range-->
+</head>
+<body>
+
+    <!-- start:레이어 팝업 -->
+    <div class="popup-wrap"></div>
+    <!-- //end:레이어 팝업 -->
+
+    <script src="../../lib/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="../../lib/jquery-ui.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script><!-- jquery-ui mobile-->
+    <script src="../../common/js/ui.js"></script>
+    <script src="../../common/js/popup.js"></script>
+    <script src="../../common/js/quiz.js"></script>
+
+    <script>
+    $(function(){
+        /** 
+         * classModal1Popup : 수업모드 - 문제
+         * classModal2Popup : 수업모드 - 선택지에 이미지 있는 경우
+         * classModal3Popup : 수업모드 - 정답보기 - OX형
+         * classModal4Popup : 수업모드 - 정답보기 - 단답형
+         * classModal5Popup : 수업모드 - 정답보기 - 빈칸형
+         * 
+         * groupModal1Popup : 함께시작 - 선생님 대기화면
+         * groupModal2Popup : 함께시작 - 학생 입장화면
+         * groupModal3Popup : 함께시작 - 학생 대기화면
+         * groupModal4Popup : 함께시작 - 선생님 진행화면
+         * groupModal5Popup : 함께시작 - 선생님 결과화면
+         * groupModal6Popup : 함께시작 - 학생 결과화면
+         * groupModal7Popup : 함께시작 - 학생 진행화면
+         * groupModal8Popup : 함께시작 - 학생 정답 제출 후 대기화면
+         * 
+         * privateModal1Popup : 각자시작(개인모드) - 선생님 진행화면
+         * privateModal2Popup : 각자시작(개인모드) - 학생 진행화면
+         * 
+         * 콘솔 혹은 필요한 곳에서 아래 코드를 이용해 호출해서 확인하세요.
+        */
+        new setQuiz('privateModal1Popup').open();
+        
+        /**
+         * privateModal1Popup : 각자시작(개인모드) - 선생님 진행화면
+         * 해당 화면에서 rank변화 샘플
+        */
+        setTimeout(() => {
+            if($('#privateModal1Popup').hasClass('show')){
+                setInterval(function() {
+                    let eleClass = ['rank1','rank2','rank3','rank4','rank5','rank6','rank7','rank8'];
+                    let eleClassCnt = eleClass.length;
+                    $('#privateModal1Popup .quiz-member-live li').removeClass();
+                    $('#privateModal1Popup .quiz-member-live li').each(function(){
+                        let x = Math.floor(Math.random()*eleClass.length);
+                        $(this).addClass(eleClass[x]);
+                        eleClass.splice(x,1);
+                    });
+                }, 3000);
+            }
+        }, 200);
+    });
+    </script>
+
+</body>
+</html>

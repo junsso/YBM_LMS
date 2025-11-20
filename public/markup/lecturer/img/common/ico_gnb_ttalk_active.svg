@@ -1,0 +1,26 @@
+<svg id="ico_t_talk" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_339" data-name="사각형 339" width="30" height="30" fill="#262c3a" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="icon_t톡" clip-path="url(#clip-path)">
+    <g id="chat_1_" data-name="chat (1)" transform="translate(2.922 2)">
+      <g id="그룹_120" data-name="그룹 120">
+        <g id="그룹_119" data-name="그룹 119">
+          <path id="패스_742" data-name="패스 742" d="M12.6,0c-.007.007-.02.007-.04.007A12.264,12.264,0,0,0,2.943,19.914L1.155,24.067a.667.667,0,0,0,.348.877.681.681,0,0,0,.382.047l6.558-1.152a11.818,11.818,0,0,0,4.086.71A12.275,12.275,0,0,0,12.6,0Zm-.067,23.216a10.752,10.752,0,0,1-3.785-.69.642.642,0,0,0-.355-.033l-5.519.965,1.46-3.4a.674.674,0,0,0-.107-.7,10.709,10.709,0,0,1-1.862-3.095,10.936,10.936,0,1,1,21.12-4.046v.04A10.966,10.966,0,0,1,12.535,23.216Z" transform="translate(-0.271)" fill="#262c3a"/>
+        </g>
+      </g>
+      <g id="그룹_122" data-name="그룹 122" transform="translate(8.758 8.333)">
+        <g id="그룹_121" data-name="그룹 121" transform="translate(0)">
+          <path id="패스_743" data-name="패스 743" d="M15.3,11.792H10.167c-.523,0-.95.3-.95.67s.428.67.95.67H15.3c.523,0,.95-.3.95-.67S15.821,11.792,15.3,11.792Z" transform="translate(-9.217 -11.792)" fill="#262c3a"/>
+        </g>
+      </g>
+      <g id="그룹_124" data-name="그룹 124" transform="translate(12.948 8.333) rotate(90)">
+        <g id="그룹_123" data-name="그룹 123">
+          <path id="패스_744" data-name="패스 744" d="M8.976,0H.67a.67.67,0,0,0,0,1.34H8.976a.67.67,0,1,0,0-1.34Z" fill="#262c3a"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
